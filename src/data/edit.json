@@ -1,0 +1,6873 @@
+{
+ "duration": 292.267,
+ "segments": [
+  {
+   "srcStart": 125.4,
+   "srcEnd": 132.73333333333332,
+   "outStart": 0.0,
+   "zoom": 1.0,
+   "kind": "hook"
+  },
+  {
+   "srcStart": 1.0333333333333334,
+   "srcEnd": 7.933333333333334,
+   "outStart": 7.3333,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 8.4,
+   "srcEnd": 15.6,
+   "outStart": 14.2333,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 15.933333333333334,
+   "srcEnd": 20.633333333333333,
+   "outStart": 21.4333,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 20.9,
+   "srcEnd": 29.433333333333334,
+   "outStart": 26.1333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 29.833333333333332,
+   "srcEnd": 33.43333333333333,
+   "outStart": 34.6667,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 33.9,
+   "srcEnd": 37.63333333333333,
+   "outStart": 38.2667,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 37.96666666666667,
+   "srcEnd": 48.333333333333336,
+   "outStart": 42.0,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 49.1,
+   "srcEnd": 52.06666666666667,
+   "outStart": 52.3667,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 52.266666666666666,
+   "srcEnd": 55.233333333333334,
+   "outStart": 55.3333,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 55.733333333333334,
+   "srcEnd": 56.666666666666664,
+   "outStart": 58.3,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 57.833333333333336,
+   "srcEnd": 63.166666666666664,
+   "outStart": 59.2333,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 67.8,
+   "srcEnd": 80.43333333333334,
+   "outStart": 64.5667,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 83.46666666666667,
+   "srcEnd": 88.76666666666667,
+   "outStart": 77.2,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 89.06666666666666,
+   "srcEnd": 97.0,
+   "outStart": 82.5,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 97.56666666666666,
+   "srcEnd": 100.43333333333334,
+   "outStart": 90.4333,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 100.76666666666667,
+   "srcEnd": 107.86666666666666,
+   "outStart": 93.3,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 116.13333333333334,
+   "srcEnd": 120.23333333333333,
+   "outStart": 100.4,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 120.73333333333333,
+   "srcEnd": 124.86666666666666,
+   "outStart": 104.5,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 125.16666666666667,
+   "srcEnd": 132.76666666666668,
+   "outStart": 108.6333,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 133.3,
+   "srcEnd": 135.3,
+   "outStart": 116.2333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 135.7,
+   "srcEnd": 141.26666666666668,
+   "outStart": 118.2333,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 141.53333333333333,
+   "srcEnd": 146.43333333333334,
+   "outStart": 123.8,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 150.7,
+   "srcEnd": 162.23333333333332,
+   "outStart": 128.7,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 162.66666666666666,
+   "srcEnd": 166.23333333333332,
+   "outStart": 140.2333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 167.0,
+   "srcEnd": 170.56666666666666,
+   "outStart": 143.8,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 170.86666666666667,
+   "srcEnd": 176.36666666666667,
+   "outStart": 147.3667,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 176.86666666666667,
+   "srcEnd": 185.56666666666666,
+   "outStart": 152.8667,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 192.8,
+   "srcEnd": 197.03333333333333,
+   "outStart": 161.5667,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 197.53333333333333,
+   "srcEnd": 201.53333333333333,
+   "outStart": 165.8,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 202.03333333333333,
+   "srcEnd": 206.83333333333334,
+   "outStart": 169.8,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 207.26666666666668,
+   "srcEnd": 213.23333333333332,
+   "outStart": 174.6,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 217.53333333333333,
+   "srcEnd": 222.86666666666667,
+   "outStart": 180.5667,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 223.26666666666668,
+   "srcEnd": 224.73333333333332,
+   "outStart": 185.9,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 225.03333333333333,
+   "srcEnd": 226.83333333333334,
+   "outStart": 187.3667,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 227.13333333333333,
+   "srcEnd": 230.06666666666666,
+   "outStart": 189.1667,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 239.03333333333333,
+   "srcEnd": 246.76666666666668,
+   "outStart": 192.1,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 252.4,
+   "srcEnd": 256.6333333333333,
+   "outStart": 199.8333,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 256.9,
+   "srcEnd": 261.46666666666664,
+   "outStart": 204.0667,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 261.73333333333335,
+   "srcEnd": 267.8333333333333,
+   "outStart": 208.6333,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 268.1,
+   "srcEnd": 270.1333333333333,
+   "outStart": 214.7333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 270.3666666666667,
+   "srcEnd": 278.1333333333333,
+   "outStart": 216.7667,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 278.5,
+   "srcEnd": 286.3333333333333,
+   "outStart": 224.5333,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 286.6,
+   "srcEnd": 299.1666666666667,
+   "outStart": 232.3667,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 299.4,
+   "srcEnd": 306.53333333333336,
+   "outStart": 244.9333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 306.93333333333334,
+   "srcEnd": 309.3,
+   "outStart": 252.0667,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 309.6333333333333,
+   "srcEnd": 310.6666666666667,
+   "outStart": 254.4333,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 310.93333333333334,
+   "srcEnd": 319.03333333333336,
+   "outStart": 255.4667,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 334.6333333333333,
+   "srcEnd": 338.3333333333333,
+   "outStart": 263.5667,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 338.6,
+   "srcEnd": 342.8333333333333,
+   "outStart": 267.2667,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 343.03333333333336,
+   "srcEnd": 348.1,
+   "outStart": 271.5,
+   "zoom": 1.03,
+   "kind": "main"
+  },
+  {
+   "srcStart": 348.46666666666664,
+   "srcEnd": 351.6333333333333,
+   "outStart": 276.5667,
+   "zoom": 1.13,
+   "kind": "main"
+  },
+  {
+   "srcStart": 352.06666666666666,
+   "srcEnd": 359.6666666666667,
+   "outStart": 279.7333,
+   "zoom": 1.0,
+   "kind": "main"
+  },
+  {
+   "srcStart": 360.1333333333333,
+   "srcEnd": 361.8333333333333,
+   "outStart": 287.3333,
+   "zoom": 1.1,
+   "kind": "main"
+  },
+  {
+   "srcStart": 362.3,
+   "srcEnd": 365.53333333333336,
+   "outStart": 289.0333,
+   "zoom": 1.03,
+   "kind": "main"
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.06,
+   "end": 1.68,
+   "words": [
+    {
+     "text": "up",
+     "start": 0.06,
+     "end": 0.22
+    },
+    {
+     "text": "to",
+     "start": 0.22,
+     "end": 0.38
+    },
+    {
+     "text": "25-40%",
+     "start": 0.38,
+     "end": 1.68
+    }
+   ]
+  },
+  {
+   "start": 1.68,
+   "end": 2.2,
+   "words": [
+    {
+     "text": "of",
+     "start": 1.68,
+     "end": 1.9
+    },
+    {
+     "text": "the",
+     "start": 1.9,
+     "end": 2.06
+    },
+    {
+     "text": "weight",
+     "start": 2.06,
+     "end": 2.2
+    }
+   ]
+  },
+  {
+   "start": 2.2,
+   "end": 3.34,
+   "words": [
+    {
+     "text": "loss",
+     "start": 2.2,
+     "end": 2.44
+    },
+    {
+     "text": "on",
+     "start": 2.44,
+     "end": 2.8
+    },
+    {
+     "text": "GLP-1",
+     "start": 2.8,
+     "end": 3.34
+    }
+   ]
+  },
+  {
+   "start": 3.34,
+   "end": 4.9,
+   "words": [
+    {
+     "text": "medications",
+     "start": 3.34,
+     "end": 4.08
+    },
+    {
+     "text": "can",
+     "start": 4.08,
+     "end": 4.68
+    },
+    {
+     "text": "come",
+     "start": 4.68,
+     "end": 4.9
+    }
+   ]
+  },
+  {
+   "start": 4.9,
+   "end": 6.0,
+   "words": [
+    {
+     "text": "from",
+     "start": 4.9,
+     "end": 5.24
+    },
+    {
+     "text": "lean",
+     "start": 5.24,
+     "end": 5.6
+    },
+    {
+     "text": "muscle",
+     "start": 5.6,
+     "end": 6.0
+    }
+   ]
+  },
+  {
+   "start": 6.0,
+   "end": 6.56,
+   "words": [
+    {
+     "text": "mass",
+     "start": 6.0,
+     "end": 6.3
+    }
+   ]
+  },
+  {
+   "start": 6.56,
+   "end": 7.34,
+   "words": [
+    {
+     "text": "not",
+     "start": 6.56,
+     "end": 6.86
+    },
+    {
+     "text": "fat",
+     "start": 6.86,
+     "end": 7.2
+    }
+   ]
+  },
+  {
+   "start": 7.34,
+   "end": 7.7,
+   "words": [
+    {
+     "text": "today",
+     "start": 7.34,
+     "end": 7.52
+    },
+    {
+     "text": "we",
+     "start": 7.52,
+     "end": 7.7
+    },
+    {
+     "text": "are",
+     "start": 7.7,
+     "end": 7.7
+    }
+   ]
+  },
+  {
+   "start": 7.7,
+   "end": 8.6,
+   "words": [
+    {
+     "text": "talking",
+     "start": 7.7,
+     "end": 7.96
+    },
+    {
+     "text": "about",
+     "start": 7.96,
+     "end": 8.3
+    },
+    {
+     "text": "the",
+     "start": 8.3,
+     "end": 8.6
+    }
+   ]
+  },
+  {
+   "start": 8.6,
+   "end": 9.5,
+   "words": [
+    {
+     "text": "biggest",
+     "start": 8.6,
+     "end": 8.8
+    },
+    {
+     "text": "things",
+     "start": 8.8,
+     "end": 9.12
+    },
+    {
+     "text": "happening",
+     "start": 9.12,
+     "end": 9.5
+    }
+   ]
+  },
+  {
+   "start": 9.5,
+   "end": 10.28,
+   "words": [
+    {
+     "text": "in",
+     "start": 9.5,
+     "end": 9.74
+    },
+    {
+     "text": "the",
+     "start": 9.74,
+     "end": 9.86
+    },
+    {
+     "text": "fitness",
+     "start": 9.86,
+     "end": 10.28
+    }
+   ]
+  },
+  {
+   "start": 10.28,
+   "end": 11.32,
+   "words": [
+    {
+     "text": "and",
+     "start": 10.28,
+     "end": 10.62
+    },
+    {
+     "text": "health",
+     "start": 10.62,
+     "end": 10.88
+    },
+    {
+     "text": "industry",
+     "start": 10.88,
+     "end": 11.32
+    }
+   ]
+  },
+  {
+   "start": 11.32,
+   "end": 12.5,
+   "words": [
+    {
+     "text": "right",
+     "start": 11.32,
+     "end": 11.66
+    },
+    {
+     "text": "now",
+     "start": 11.66,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "start": 12.5,
+   "end": 12.9,
+   "words": [
+    {
+     "text": "which",
+     "start": 12.5,
+     "end": 12.54
+    },
+    {
+     "text": "is",
+     "start": 12.54,
+     "end": 12.78
+    },
+    {
+     "text": "the",
+     "start": 12.78,
+     "end": 12.9
+    }
+   ]
+  },
+  {
+   "start": 12.9,
+   "end": 14.313,
+   "words": [
+    {
+     "text": "Ozempic",
+     "start": 12.9,
+     "end": 13.42
+    },
+    {
+     "text": "and",
+     "start": 13.42,
+     "end": 13.56
+    },
+    {
+     "text": "Mounjaro",
+     "start": 13.56,
+     "end": 14.06
+    }
+   ]
+  },
+  {
+   "start": 14.313,
+   "end": 14.833,
+   "words": [
+    {
+     "text": "So",
+     "start": 14.313,
+     "end": 14.513
+    },
+    {
+     "text": "if",
+     "start": 14.513,
+     "end": 14.653
+    },
+    {
+     "text": "you've",
+     "start": 14.653,
+     "end": 14.833
+    }
+   ]
+  },
+  {
+   "start": 14.833,
+   "end": 16.173,
+   "words": [
+    {
+     "text": "been",
+     "start": 14.833,
+     "end": 15.013
+    },
+    {
+     "text": "paying",
+     "start": 15.013,
+     "end": 15.173
+    },
+    {
+     "text": "attention",
+     "start": 15.173,
+     "end": 15.793
+    }
+   ]
+  },
+  {
+   "start": 16.173,
+   "end": 17.633,
+   "words": [
+    {
+     "text": "GLP-1",
+     "start": 16.173,
+     "end": 16.993
+    },
+    {
+     "text": "and",
+     "start": 16.993,
+     "end": 17.353
+    },
+    {
+     "text": "dual",
+     "start": 17.353,
+     "end": 17.633
+    }
+   ]
+  },
+  {
+   "start": 17.633,
+   "end": 18.973,
+   "words": [
+    {
+     "text": "action",
+     "start": 17.633,
+     "end": 17.933
+    },
+    {
+     "text": "GIP",
+     "start": 17.933,
+     "end": 18.373
+    },
+    {
+     "text": "medications",
+     "start": 18.373,
+     "end": 18.973
+    }
+   ]
+  },
+  {
+   "start": 18.973,
+   "end": 20.313,
+   "words": [
+    {
+     "text": "are",
+     "start": 18.973,
+     "end": 19.313
+    },
+    {
+     "text": "completely",
+     "start": 19.313,
+     "end": 19.873
+    },
+    {
+     "text": "changing",
+     "start": 19.873,
+     "end": 20.313
+    }
+   ]
+  },
+  {
+   "start": 20.313,
+   "end": 20.913,
+   "words": [
+    {
+     "text": "the",
+     "start": 20.313,
+     "end": 20.553
+    },
+    {
+     "text": "weight",
+     "start": 20.553,
+     "end": 20.693
+    },
+    {
+     "text": "loss",
+     "start": 20.693,
+     "end": 20.913
+    }
+   ]
+  },
+  {
+   "start": 20.913,
+   "end": 21.5,
+   "words": [
+    {
+     "text": "loss game",
+     "start": 20.913,
+     "end": 21.273
+    }
+   ]
+  },
+  {
+   "start": 21.5,
+   "end": 22.24,
+   "words": [
+    {
+     "text": "People",
+     "start": 21.5,
+     "end": 21.76
+    },
+    {
+     "text": "are",
+     "start": 21.76,
+     "end": 22.02
+    },
+    {
+     "text": "dropping",
+     "start": 22.02,
+     "end": 22.24
+    }
+   ]
+  },
+  {
+   "start": 22.24,
+   "end": 23.1,
+   "words": [
+    {
+     "text": "from",
+     "start": 22.24,
+     "end": 22.52
+    },
+    {
+     "text": "15",
+     "start": 22.52,
+     "end": 22.98
+    }
+   ]
+  },
+  {
+   "start": 23.1,
+   "end": 23.88,
+   "words": [
+    {
+     "text": "then",
+     "start": 23.1,
+     "end": 23.32
+    },
+    {
+     "text": "20",
+     "start": 23.32,
+     "end": 23.7
+    }
+   ]
+  },
+  {
+   "start": 23.88,
+   "end": 24.92,
+   "words": [
+    {
+     "text": "to",
+     "start": 23.88,
+     "end": 24.06
+    },
+    {
+     "text": "30",
+     "start": 24.06,
+     "end": 24.42
+    },
+    {
+     "text": "kilos",
+     "start": 24.42,
+     "end": 24.92
+    }
+   ]
+  },
+  {
+   "start": 24.92,
+   "end": 26.213,
+   "words": [
+    {
+     "text": "in",
+     "start": 24.92,
+     "end": 25.3
+    },
+    {
+     "text": "record",
+     "start": 25.3,
+     "end": 25.62
+    },
+    {
+     "text": "time",
+     "start": 25.62,
+     "end": 25.98
+    }
+   ]
+  },
+  {
+   "start": 26.213,
+   "end": 26.753,
+   "words": [
+    {
+     "text": "But",
+     "start": 26.213,
+     "end": 26.413
+    },
+    {
+     "text": "as",
+     "start": 26.413,
+     "end": 26.633
+    },
+    {
+     "text": "a",
+     "start": 26.633,
+     "end": 26.753
+    }
+   ]
+  },
+  {
+   "start": 26.753,
+   "end": 27.793,
+   "words": [
+    {
+     "text": "personal",
+     "start": 26.753,
+     "end": 26.993
+    },
+    {
+     "text": "trainer",
+     "start": 26.993,
+     "end": 27.473
+    }
+   ]
+  },
+  {
+   "start": 27.793,
+   "end": 28.493,
+   "words": [
+    {
+     "text": "whenever",
+     "start": 27.793,
+     "end": 28.033
+    },
+    {
+     "text": "a",
+     "start": 28.033,
+     "end": 28.233
+    },
+    {
+     "text": "client",
+     "start": 28.233,
+     "end": 28.493
+    }
+   ]
+  },
+  {
+   "start": 28.493,
+   "end": 29.273,
+   "words": [
+    {
+     "text": "comes",
+     "start": 28.493,
+     "end": 28.853
+    },
+    {
+     "text": "to",
+     "start": 28.853,
+     "end": 29.093
+    },
+    {
+     "text": "me",
+     "start": 29.093,
+     "end": 29.273
+    }
+   ]
+  },
+  {
+   "start": 29.273,
+   "end": 29.893,
+   "words": [
+    {
+     "text": "and",
+     "start": 29.273,
+     "end": 29.433
+    },
+    {
+     "text": "says",
+     "start": 29.433,
+     "end": 29.713
+    }
+   ]
+  },
+  {
+   "start": 29.893,
+   "end": 30.653,
+   "words": [
+    {
+     "text": "Coach",
+     "start": 29.893,
+     "end": 30.253
+    }
+   ]
+  },
+  {
+   "start": 30.653,
+   "end": 31.593,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 30.653,
+     "end": 30.913
+    },
+    {
+     "text": "thinking",
+     "start": 30.913,
+     "end": 31.273
+    },
+    {
+     "text": "about",
+     "start": 31.273,
+     "end": 31.593
+    }
+   ]
+  },
+  {
+   "start": 31.593,
+   "end": 32.653,
+   "words": [
+    {
+     "text": "going",
+     "start": 31.593,
+     "end": 31.853
+    },
+    {
+     "text": "on",
+     "start": 31.853,
+     "end": 32.093
+    },
+    {
+     "text": "Ozempic",
+     "start": 32.093,
+     "end": 32.653
+    }
+   ]
+  },
+  {
+   "start": 32.653,
+   "end": 33.513,
+   "words": [
+    {
+     "text": "or",
+     "start": 32.653,
+     "end": 32.953
+    },
+    {
+     "text": "I'm",
+     "start": 32.953,
+     "end": 33.153
+    },
+    {
+     "text": "already",
+     "start": 33.153,
+     "end": 33.513
+    }
+   ]
+  },
+  {
+   "start": 33.513,
+   "end": 34.733,
+   "words": [
+    {
+     "text": "on",
+     "start": 33.513,
+     "end": 33.833
+    },
+    {
+     "text": "Mounjaro",
+     "start": 33.833,
+     "end": 34.513
+    }
+   ]
+  },
+  {
+   "start": 34.733,
+   "end": 36.553,
+   "words": [
+    {
+     "text": "my",
+     "start": 34.733,
+     "end": 35.033
+    },
+    {
+     "text": "reaction",
+     "start": 35.033,
+     "end": 35.633
+    },
+    {
+     "text": "isn't",
+     "start": 35.633,
+     "end": 36.553
+    }
+   ]
+  },
+  {
+   "start": 36.553,
+   "end": 37.293,
+   "words": [
+    {
+     "text": "to",
+     "start": 36.553,
+     "end": 36.933
+    },
+    {
+     "text": "hate",
+     "start": 36.933,
+     "end": 37.093
+    },
+    {
+     "text": "on",
+     "start": 37.093,
+     "end": 37.293
+    }
+   ]
+  },
+  {
+   "start": 37.293,
+   "end": 38.327,
+   "words": [
+    {
+     "text": "it",
+     "start": 37.293,
+     "end": 38.113
+    }
+   ]
+  },
+  {
+   "start": 38.327,
+   "end": 39.167,
+   "words": [
+    {
+     "text": "Now",
+     "start": 38.327,
+     "end": 38.507
+    },
+    {
+     "text": "that",
+     "start": 38.507,
+     "end": 38.687
+    },
+    {
+     "text": "debate",
+     "start": 38.687,
+     "end": 39.167
+    }
+   ]
+  },
+  {
+   "start": 39.167,
+   "end": 40.367,
+   "words": [
+    {
+     "text": "shouldn't",
+     "start": 39.167,
+     "end": 39.787
+    },
+    {
+     "text": "be",
+     "start": 39.787,
+     "end": 39.947
+    },
+    {
+     "text": "about",
+     "start": 39.947,
+     "end": 40.367
+    }
+   ]
+  },
+  {
+   "start": 40.367,
+   "end": 41.327,
+   "words": [
+    {
+     "text": "whether",
+     "start": 40.367,
+     "end": 40.667
+    },
+    {
+     "text": "these",
+     "start": 40.667,
+     "end": 40.987
+    },
+    {
+     "text": "drugs",
+     "start": 40.987,
+     "end": 41.327
+    }
+   ]
+  },
+  {
+   "start": 41.327,
+   "end": 42.073,
+   "words": [
+    {
+     "text": "work",
+     "start": 41.327,
+     "end": 41.847
+    }
+   ]
+  },
+  {
+   "start": 42.073,
+   "end": 43.073,
+   "words": [
+    {
+     "text": "The",
+     "start": 42.073,
+     "end": 42.373
+    },
+    {
+     "text": "clinical",
+     "start": 42.373,
+     "end": 42.773
+    },
+    {
+     "text": "data",
+     "start": 42.773,
+     "end": 43.073
+    }
+   ]
+  },
+  {
+   "start": 43.073,
+   "end": 43.813,
+   "words": [
+    {
+     "text": "has",
+     "start": 43.073,
+     "end": 43.273
+    },
+    {
+     "text": "already",
+     "start": 43.273,
+     "end": 43.573
+    },
+    {
+     "text": "proved",
+     "start": 43.573,
+     "end": 43.813
+    }
+   ]
+  },
+  {
+   "start": 43.813,
+   "end": 44.553,
+   "words": [
+    {
+     "text": "they",
+     "start": 43.813,
+     "end": 44.193
+    },
+    {
+     "text": "do",
+     "start": 44.193,
+     "end": 44.533
+    }
+   ]
+  },
+  {
+   "start": 44.553,
+   "end": 45.413,
+   "words": [
+    {
+     "text": "but",
+     "start": 44.553,
+     "end": 44.933
+    },
+    {
+     "text": "the",
+     "start": 44.933,
+     "end": 45.253
+    },
+    {
+     "text": "real",
+     "start": 45.253,
+     "end": 45.413
+    }
+   ]
+  },
+  {
+   "start": 45.413,
+   "end": 46.433,
+   "words": [
+    {
+     "text": "conversation",
+     "start": 45.413,
+     "end": 46.013
+    },
+    {
+     "text": "we",
+     "start": 46.013,
+     "end": 46.253
+    },
+    {
+     "text": "need",
+     "start": 46.253,
+     "end": 46.433
+    }
+   ]
+  },
+  {
+   "start": 46.433,
+   "end": 47.013,
+   "words": [
+    {
+     "text": "to",
+     "start": 46.433,
+     "end": 46.613
+    },
+    {
+     "text": "have",
+     "start": 46.613,
+     "end": 46.793
+    },
+    {
+     "text": "is",
+     "start": 46.793,
+     "end": 47.013
+    }
+   ]
+  },
+  {
+   "start": 47.013,
+   "end": 48.393,
+   "words": [
+    {
+     "text": "about",
+     "start": 47.013,
+     "end": 47.733
+    },
+    {
+     "text": "what",
+     "start": 47.733,
+     "end": 48.093
+    },
+    {
+     "text": "kind",
+     "start": 48.093,
+     "end": 48.393
+    }
+   ]
+  },
+  {
+   "start": 48.393,
+   "end": 48.993,
+   "words": [
+    {
+     "text": "of",
+     "start": 48.393,
+     "end": 48.553
+    },
+    {
+     "text": "weight",
+     "start": 48.553,
+     "end": 48.693
+    },
+    {
+     "text": "you're",
+     "start": 48.693,
+     "end": 48.993
+    }
+   ]
+  },
+  {
+   "start": 48.993,
+   "end": 50.253,
+   "words": [
+    {
+     "text": "actually",
+     "start": 48.993,
+     "end": 49.333
+    },
+    {
+     "text": "losing",
+     "start": 49.333,
+     "end": 49.933
+    },
+    {
+     "text": "while",
+     "start": 49.933,
+     "end": 50.253
+    }
+   ]
+  },
+  {
+   "start": 50.253,
+   "end": 51.533,
+   "words": [
+    {
+     "text": "that",
+     "start": 50.253,
+     "end": 50.593
+    },
+    {
+     "text": "scale",
+     "start": 50.593,
+     "end": 50.993
+    },
+    {
+     "text": "number",
+     "start": 50.993,
+     "end": 51.533
+    }
+   ]
+  },
+  {
+   "start": 51.533,
+   "end": 52.427,
+   "words": [
+    {
+     "text": "goes",
+     "start": 51.533,
+     "end": 51.913
+    },
+    {
+     "text": "down",
+     "start": 51.913,
+     "end": 52.213
+    }
+   ]
+  },
+  {
+   "start": 52.427,
+   "end": 53.967,
+   "words": [
+    {
+     "text": "Now",
+     "start": 52.427,
+     "end": 53.107
+    },
+    {
+     "text": "let's",
+     "start": 53.107,
+     "end": 53.627
+    },
+    {
+     "text": "talk",
+     "start": 53.627,
+     "end": 53.967
+    }
+   ]
+  },
+  {
+   "start": 53.967,
+   "end": 55.407,
+   "words": [
+    {
+     "text": "about",
+     "start": 53.967,
+     "end": 54.327
+    },
+    {
+     "text": "the",
+     "start": 54.327,
+     "end": 54.727
+    },
+    {
+     "text": "science",
+     "start": 54.727,
+     "end": 55.167
+    }
+   ]
+  },
+  {
+   "start": 55.407,
+   "end": 56.207,
+   "words": [
+    {
+     "text": "which",
+     "start": 55.407,
+     "end": 55.447
+    },
+    {
+     "text": "is",
+     "start": 55.447,
+     "end": 55.967
+    },
+    {
+     "text": "the",
+     "start": 55.967,
+     "end": 56.207
+    }
+   ]
+  },
+  {
+   "start": 56.207,
+   "end": 58.387,
+   "words": [
+    {
+     "text": "semaglutide",
+     "start": 56.207,
+     "end": 57.487
+    },
+    {
+     "text": "vs",
+     "start": 57.487,
+     "end": 58.147
+    }
+   ]
+  },
+  {
+   "start": 58.387,
+   "end": 59.3,
+   "words": [
+    {
+     "text": "tirzepatide",
+     "start": 58.387,
+     "end": 59.067
+    }
+   ]
+  },
+  {
+   "start": 59.3,
+   "end": 60.4,
+   "words": [
+    {
+     "text": "Let's",
+     "start": 59.3,
+     "end": 59.74
+    },
+    {
+     "text": "quickly",
+     "start": 59.74,
+     "end": 60.08
+    },
+    {
+     "text": "break",
+     "start": 60.08,
+     "end": 60.4
+    }
+   ]
+  },
+  {
+   "start": 60.4,
+   "end": 61.36,
+   "words": [
+    {
+     "text": "down",
+     "start": 60.4,
+     "end": 60.68
+    },
+    {
+     "text": "how",
+     "start": 60.68,
+     "end": 61.02
+    },
+    {
+     "text": "these",
+     "start": 61.02,
+     "end": 61.36
+    }
+   ]
+  },
+  {
+   "start": 61.36,
+   "end": 62.86,
+   "words": [
+    {
+     "text": "two",
+     "start": 61.36,
+     "end": 61.68
+    },
+    {
+     "text": "differ",
+     "start": 61.68,
+     "end": 62.36
+    },
+    {
+     "text": "from",
+     "start": 62.36,
+     "end": 62.86
+    }
+   ]
+  },
+  {
+   "start": 62.86,
+   "end": 64.647,
+   "words": [
+    {
+     "text": "a",
+     "start": 62.86,
+     "end": 63.14
+    },
+    {
+     "text": "mechanical",
+     "start": 63.14,
+     "end": 63.74
+    },
+    {
+     "text": "standpoint",
+     "start": 63.74,
+     "end": 64.42
+    }
+   ]
+  },
+  {
+   "start": 64.647,
+   "end": 66.227,
+   "words": [
+    {
+     "text": "Ozempic",
+     "start": 64.647,
+     "end": 65.167
+    },
+    {
+     "text": "or",
+     "start": 65.167,
+     "end": 65.347
+    },
+    {
+     "text": "semaglutide",
+     "start": 65.347,
+     "end": 66.227
+    }
+   ]
+  },
+  {
+   "start": 66.227,
+   "end": 66.987,
+   "words": [
+    {
+     "text": "it",
+     "start": 66.227,
+     "end": 66.507
+    },
+    {
+     "text": "mimics",
+     "start": 66.507,
+     "end": 66.867
+    },
+    {
+     "text": "a",
+     "start": 66.867,
+     "end": 66.987
+    }
+   ]
+  },
+  {
+   "start": 66.987,
+   "end": 68.187,
+   "words": [
+    {
+     "text": "single",
+     "start": 66.987,
+     "end": 67.407
+    },
+    {
+     "text": "gut",
+     "start": 67.407,
+     "end": 67.767
+    },
+    {
+     "text": "hormone",
+     "start": 67.767,
+     "end": 68.187
+    }
+   ]
+  },
+  {
+   "start": 68.187,
+   "end": 69.587,
+   "words": [
+    {
+     "text": "called",
+     "start": 68.187,
+     "end": 68.507
+    },
+    {
+     "text": "GLP-1",
+     "start": 68.507,
+     "end": 69.387
+    }
+   ]
+  },
+  {
+   "start": 69.587,
+   "end": 70.487,
+   "words": [
+    {
+     "text": "It",
+     "start": 69.587,
+     "end": 69.847
+    },
+    {
+     "text": "slows",
+     "start": 69.847,
+     "end": 70.167
+    },
+    {
+     "text": "down",
+     "start": 70.167,
+     "end": 70.487
+    }
+   ]
+  },
+  {
+   "start": 70.487,
+   "end": 71.527,
+   "words": [
+    {
+     "text": "gastric",
+     "start": 70.487,
+     "end": 70.967
+    },
+    {
+     "text": "emptyings",
+     "start": 70.967,
+     "end": 71.527
+    }
+   ]
+  },
+  {
+   "start": 71.527,
+   "end": 72.367,
+   "words": [
+    {
+     "text": "and",
+     "start": 71.527,
+     "end": 71.867
+    },
+    {
+     "text": "tells",
+     "start": 71.867,
+     "end": 72.127
+    },
+    {
+     "text": "your",
+     "start": 72.127,
+     "end": 72.367
+    }
+   ]
+  },
+  {
+   "start": 72.367,
+   "end": 73.027,
+   "words": [
+    {
+     "text": "brain",
+     "start": 72.367,
+     "end": 72.567
+    },
+    {
+     "text": "you",
+     "start": 72.567,
+     "end": 72.807
+    },
+    {
+     "text": "are",
+     "start": 72.807,
+     "end": 73.027
+    }
+   ]
+  },
+  {
+   "start": 73.027,
+   "end": 73.247,
+   "words": [
+    {
+     "text": "full",
+     "start": 73.027,
+     "end": 73.247
+    }
+   ]
+  },
+  {
+   "start": 73.247,
+   "end": 74.327,
+   "words": [
+    {
+     "text": "You",
+     "start": 73.247,
+     "end": 73.807
+    },
+    {
+     "text": "emptying",
+     "start": 73.807,
+     "end": 74.067
+    },
+    {
+     "text": "less",
+     "start": 74.067,
+     "end": 74.327
+    }
+   ]
+  },
+  {
+   "start": 74.327,
+   "end": 75.267,
+   "words": [
+    {
+     "text": "because",
+     "start": 74.327,
+     "end": 74.687
+    },
+    {
+     "text": "you",
+     "start": 74.687,
+     "end": 74.947
+    },
+    {
+     "text": "simply",
+     "start": 74.947,
+     "end": 75.267
+    }
+   ]
+  },
+  {
+   "start": 75.267,
+   "end": 77.273,
+   "words": [
+    {
+     "text": "don't",
+     "start": 75.267,
+     "end": 75.567
+    },
+    {
+     "text": "feel",
+     "start": 75.567,
+     "end": 75.927
+    },
+    {
+     "text": "hungry",
+     "start": 75.927,
+     "end": 77.047
+    }
+   ]
+  },
+  {
+   "start": 77.273,
+   "end": 79.073,
+   "words": [
+    {
+     "text": "Mounjaro",
+     "start": 77.273,
+     "end": 77.753
+    },
+    {
+     "text": "or",
+     "start": 77.753,
+     "end": 78.093
+    },
+    {
+     "text": "tirzepatide",
+     "start": 78.093,
+     "end": 78.973
+    }
+   ]
+  },
+  {
+   "start": 79.073,
+   "end": 79.773,
+   "words": [
+    {
+     "text": "this",
+     "start": 79.073,
+     "end": 79.293
+    },
+    {
+     "text": "one",
+     "start": 79.293,
+     "end": 79.473
+    },
+    {
+     "text": "target",
+     "start": 79.473,
+     "end": 79.773
+    }
+   ]
+  },
+  {
+   "start": 79.773,
+   "end": 80.773,
+   "words": [
+    {
+     "text": "two",
+     "start": 79.773,
+     "end": 80.073
+    },
+    {
+     "text": "receptors",
+     "start": 80.073,
+     "end": 80.553
+    }
+   ]
+  },
+  {
+   "start": 80.773,
+   "end": 81.833,
+   "words": [
+    {
+     "text": "the",
+     "start": 80.773,
+     "end": 80.893
+    },
+    {
+     "text": "GLP-1",
+     "start": 80.893,
+     "end": 81.533
+    },
+    {
+     "text": "and",
+     "start": 81.533,
+     "end": 81.833
+    }
+   ]
+  },
+  {
+   "start": 81.833,
+   "end": 82.553,
+   "words": [
+    {
+     "text": "GIP",
+     "start": 81.833,
+     "end": 82.333
+    }
+   ]
+  },
+  {
+   "start": 82.553,
+   "end": 83.373,
+   "words": [
+    {
+     "text": "Because",
+     "start": 82.553,
+     "end": 82.813
+    },
+    {
+     "text": "it",
+     "start": 82.813,
+     "end": 83.013
+    },
+    {
+     "text": "hits",
+     "start": 83.013,
+     "end": 83.373
+    }
+   ]
+  },
+  {
+   "start": 83.373,
+   "end": 84.593,
+   "words": [
+    {
+     "text": "both",
+     "start": 83.373,
+     "end": 83.693
+    },
+    {
+     "text": "pathways",
+     "start": 83.693,
+     "end": 84.193
+    }
+   ]
+  },
+  {
+   "start": 84.593,
+   "end": 85.933,
+   "words": [
+    {
+     "text": "clinical",
+     "start": 84.593,
+     "end": 84.853
+    },
+    {
+     "text": "trial",
+     "start": 84.853,
+     "end": 85.253
+    },
+    {
+     "text": "shows",
+     "start": 85.253,
+     "end": 85.933
+    }
+   ]
+  },
+  {
+   "start": 85.933,
+   "end": 87.333,
+   "words": [
+    {
+     "text": "people",
+     "start": 85.933,
+     "end": 86.513
+    },
+    {
+     "text": "generally",
+     "start": 86.513,
+     "end": 86.973
+    },
+    {
+     "text": "lose",
+     "start": 86.973,
+     "end": 87.333
+    }
+   ]
+  },
+  {
+   "start": 87.333,
+   "end": 88.153,
+   "words": [
+    {
+     "text": "more",
+     "start": 87.333,
+     "end": 87.653
+    },
+    {
+     "text": "total",
+     "start": 87.653,
+     "end": 87.913
+    },
+    {
+     "text": "weight",
+     "start": 87.913,
+     "end": 88.153
+    }
+   ]
+  },
+  {
+   "start": 88.153,
+   "end": 89.413,
+   "words": [
+    {
+     "text": "on",
+     "start": 88.153,
+     "end": 88.453
+    },
+    {
+     "text": "Mounjaro",
+     "start": 88.453,
+     "end": 89.013
+    },
+    {
+     "text": "compared",
+     "start": 89.013,
+     "end": 89.413
+    }
+   ]
+  },
+  {
+   "start": 89.413,
+   "end": 90.507,
+   "words": [
+    {
+     "text": "to",
+     "start": 89.413,
+     "end": 89.633
+    },
+    {
+     "text": "Ozempic",
+     "start": 89.633,
+     "end": 90.273
+    }
+   ]
+  },
+  {
+   "start": 90.507,
+   "end": 91.467,
+   "words": [
+    {
+     "text": "Now",
+     "start": 90.507,
+     "end": 90.907
+    },
+    {
+     "text": "from",
+     "start": 90.907,
+     "end": 91.207
+    },
+    {
+     "text": "a",
+     "start": 91.207,
+     "end": 91.467
+    }
+   ]
+  },
+  {
+   "start": 91.467,
+   "end": 92.267,
+   "words": [
+    {
+     "text": "pure",
+     "start": 91.467,
+     "end": 91.727
+    },
+    {
+     "text": "scale",
+     "start": 91.727,
+     "end": 92.047
+    },
+    {
+     "text": "weight",
+     "start": 92.047,
+     "end": 92.267
+    }
+   ]
+  },
+  {
+   "start": 92.267,
+   "end": 93.373,
+   "words": [
+    {
+     "text": "perspective",
+     "start": 92.267,
+     "end": 93.147
+    }
+   ]
+  },
+  {
+   "start": 93.373,
+   "end": 94.453,
+   "words": [
+    {
+     "text": "Mounjaro",
+     "start": 93.373,
+     "end": 93.873
+    },
+    {
+     "text": "takes",
+     "start": 93.873,
+     "end": 94.193
+    },
+    {
+     "text": "the",
+     "start": 94.193,
+     "end": 94.453
+    }
+   ]
+  },
+  {
+   "start": 94.453,
+   "end": 94.853,
+   "words": [
+    {
+     "text": "crown",
+     "start": 94.453,
+     "end": 94.653
+    }
+   ]
+  },
+  {
+   "start": 94.853,
+   "end": 95.793,
+   "words": [
+    {
+     "text": "but",
+     "start": 94.853,
+     "end": 94.993
+    },
+    {
+     "text": "as",
+     "start": 94.993,
+     "end": 95.353
+    },
+    {
+     "text": "trainers",
+     "start": 95.353,
+     "end": 95.793
+    }
+   ]
+  },
+  {
+   "start": 95.793,
+   "end": 96.873,
+   "words": [
+    {
+     "text": "we",
+     "start": 95.793,
+     "end": 96.373
+    },
+    {
+     "text": "don't",
+     "start": 96.373,
+     "end": 96.573
+    },
+    {
+     "text": "just",
+     "start": 96.573,
+     "end": 96.873
+    }
+   ]
+  },
+  {
+   "start": 96.873,
+   "end": 97.633,
+   "words": [
+    {
+     "text": "care",
+     "start": 96.873,
+     "end": 97.013
+    },
+    {
+     "text": "about",
+     "start": 97.013,
+     "end": 97.333
+    },
+    {
+     "text": "scale",
+     "start": 97.333,
+     "end": 97.633
+    }
+   ]
+  },
+  {
+   "start": 97.633,
+   "end": 98.193,
+   "words": [
+    {
+     "text": "weight",
+     "start": 97.633,
+     "end": 97.913
+    }
+   ]
+  },
+  {
+   "start": 98.193,
+   "end": 99.013,
+   "words": [
+    {
+     "text": "we",
+     "start": 98.193,
+     "end": 98.373
+    },
+    {
+     "text": "care",
+     "start": 98.373,
+     "end": 98.613
+    },
+    {
+     "text": "about",
+     "start": 98.613,
+     "end": 99.013
+    }
+   ]
+  },
+  {
+   "start": 99.013,
+   "end": 100.467,
+   "words": [
+    {
+     "text": "body",
+     "start": 99.013,
+     "end": 99.333
+    },
+    {
+     "text": "compositions",
+     "start": 99.333,
+     "end": 100.253
+    }
+   ]
+  },
+  {
+   "start": 100.467,
+   "end": 101.287,
+   "words": [
+    {
+     "text": "Now",
+     "start": 100.467,
+     "end": 100.587
+    },
+    {
+     "text": "here's",
+     "start": 100.587,
+     "end": 100.987
+    },
+    {
+     "text": "the",
+     "start": 100.987,
+     "end": 101.287
+    }
+   ]
+  },
+  {
+   "start": 101.287,
+   "end": 102.127,
+   "words": [
+    {
+     "text": "hidden",
+     "start": 101.287,
+     "end": 101.527
+    },
+    {
+     "text": "catch",
+     "start": 101.527,
+     "end": 101.887
+    }
+   ]
+  },
+  {
+   "start": 102.127,
+   "end": 103.247,
+   "words": [
+    {
+     "text": "the",
+     "start": 102.127,
+     "end": 102.287
+    },
+    {
+     "text": "muscles",
+     "start": 102.287,
+     "end": 102.687
+    },
+    {
+     "text": "and",
+     "start": 102.687,
+     "end": 103.247
+    }
+   ]
+  },
+  {
+   "start": 103.247,
+   "end": 104.587,
+   "words": [
+    {
+     "text": "bone",
+     "start": 103.247,
+     "end": 103.527
+    },
+    {
+     "text": "loss",
+     "start": 103.527,
+     "end": 103.807
+    },
+    {
+     "text": "problem",
+     "start": 103.807,
+     "end": 104.347
+    }
+   ]
+  },
+  {
+   "start": 104.587,
+   "end": 105.267,
+   "words": [
+    {
+     "text": "Here's",
+     "start": 104.587,
+     "end": 104.927
+    },
+    {
+     "text": "the",
+     "start": 104.927,
+     "end": 105.087
+    },
+    {
+     "text": "part",
+     "start": 105.087,
+     "end": 105.267
+    }
+   ]
+  },
+  {
+   "start": 105.267,
+   "end": 106.427,
+   "words": [
+    {
+     "text": "that",
+     "start": 105.267,
+     "end": 105.667
+    },
+    {
+     "text": "most",
+     "start": 105.667,
+     "end": 105.987
+    },
+    {
+     "text": "prescribing",
+     "start": 105.987,
+     "end": 106.427
+    }
+   ]
+  },
+  {
+   "start": 106.427,
+   "end": 107.487,
+   "words": [
+    {
+     "text": "doctors",
+     "start": 106.427,
+     "end": 106.847
+    },
+    {
+     "text": "don't",
+     "start": 106.847,
+     "end": 107.147
+    },
+    {
+     "text": "spend",
+     "start": 107.147,
+     "end": 107.487
+    }
+   ]
+  },
+  {
+   "start": 107.487,
+   "end": 108.707,
+   "words": [
+    {
+     "text": "enough",
+     "start": 107.487,
+     "end": 107.727
+    },
+    {
+     "text": "time",
+     "start": 107.727,
+     "end": 108.067
+    },
+    {
+     "text": "explaining",
+     "start": 108.067,
+     "end": 108.467
+    }
+   ]
+  },
+  {
+   "start": 108.707,
+   "end": 109.247,
+   "words": [
+    {
+     "text": "So",
+     "start": 108.707,
+     "end": 108.927
+    },
+    {
+     "text": "up",
+     "start": 108.927,
+     "end": 109.087
+    },
+    {
+     "text": "to",
+     "start": 109.087,
+     "end": 109.247
+    }
+   ]
+  },
+  {
+   "start": 109.247,
+   "end": 110.927,
+   "words": [
+    {
+     "text": "25-40%",
+     "start": 109.247,
+     "end": 110.547
+    },
+    {
+     "text": "of",
+     "start": 110.547,
+     "end": 110.767
+    },
+    {
+     "text": "the",
+     "start": 110.767,
+     "end": 110.927
+    }
+   ]
+  },
+  {
+   "start": 110.927,
+   "end": 111.667,
+   "words": [
+    {
+     "text": "weight",
+     "start": 110.927,
+     "end": 111.067
+    },
+    {
+     "text": "loss",
+     "start": 111.067,
+     "end": 111.307
+    },
+    {
+     "text": "on",
+     "start": 111.307,
+     "end": 111.667
+    }
+   ]
+  },
+  {
+   "start": 111.667,
+   "end": 112.947,
+   "words": [
+    {
+     "text": "GLP-1",
+     "start": 111.667,
+     "end": 112.207
+    },
+    {
+     "text": "medications",
+     "start": 112.207,
+     "end": 112.947
+    }
+   ]
+  },
+  {
+   "start": 112.947,
+   "end": 114.107,
+   "words": [
+    {
+     "text": "can",
+     "start": 112.947,
+     "end": 113.547
+    },
+    {
+     "text": "come",
+     "start": 113.547,
+     "end": 113.767
+    },
+    {
+     "text": "from",
+     "start": 113.767,
+     "end": 114.107
+    }
+   ]
+  },
+  {
+   "start": 114.107,
+   "end": 115.427,
+   "words": [
+    {
+     "text": "lean",
+     "start": 114.107,
+     "end": 114.467
+    },
+    {
+     "text": "muscle",
+     "start": 114.467,
+     "end": 114.867
+    },
+    {
+     "text": "mass",
+     "start": 114.867,
+     "end": 115.167
+    }
+   ]
+  },
+  {
+   "start": 115.427,
+   "end": 116.293,
+   "words": [
+    {
+     "text": "not",
+     "start": 115.427,
+     "end": 115.727
+    },
+    {
+     "text": "fat",
+     "start": 115.727,
+     "end": 116.067
+    }
+   ]
+  },
+  {
+   "start": 116.293,
+   "end": 117.133,
+   "words": [
+    {
+     "text": "So",
+     "start": 116.293,
+     "end": 116.573
+    },
+    {
+     "text": "think",
+     "start": 116.573,
+     "end": 116.893
+    },
+    {
+     "text": "about",
+     "start": 116.893,
+     "end": 117.133
+    }
+   ]
+  },
+  {
+   "start": 117.133,
+   "end": 117.713,
+   "words": [
+    {
+     "text": "that",
+     "start": 117.133,
+     "end": 117.293
+    },
+    {
+     "text": "for",
+     "start": 117.293,
+     "end": 117.553
+    },
+    {
+     "text": "a",
+     "start": 117.553,
+     "end": 117.713
+    }
+   ]
+  },
+  {
+   "start": 117.713,
+   "end": 118.293,
+   "words": [
+    {
+     "text": "second",
+     "start": 117.713,
+     "end": 118.073
+    }
+   ]
+  },
+  {
+   "start": 118.293,
+   "end": 118.893,
+   "words": [
+    {
+     "text": "If",
+     "start": 118.293,
+     "end": 118.473
+    },
+    {
+     "text": "you",
+     "start": 118.473,
+     "end": 118.693
+    },
+    {
+     "text": "lose",
+     "start": 118.693,
+     "end": 118.893
+    }
+   ]
+  },
+  {
+   "start": 118.893,
+   "end": 119.693,
+   "words": [
+    {
+     "text": "10",
+     "start": 118.893,
+     "end": 119.213
+    },
+    {
+     "text": "kilos",
+     "start": 119.213,
+     "end": 119.473
+    },
+    {
+     "text": "on",
+     "start": 119.473,
+     "end": 119.693
+    }
+   ]
+  },
+  {
+   "start": 119.693,
+   "end": 120.593,
+   "words": [
+    {
+     "text": "a",
+     "start": 119.693,
+     "end": 119.933
+    },
+    {
+     "text": "scale",
+     "start": 119.933,
+     "end": 120.233
+    },
+    {
+     "text": "while",
+     "start": 120.233,
+     "end": 120.593
+    }
+   ]
+  },
+  {
+   "start": 120.593,
+   "end": 121.533,
+   "words": [
+    {
+     "text": "3",
+     "start": 120.593,
+     "end": 120.993
+    },
+    {
+     "text": "or",
+     "start": 120.993,
+     "end": 121.193
+    },
+    {
+     "text": "4",
+     "start": 121.193,
+     "end": 121.533
+    }
+   ]
+  },
+  {
+   "start": 121.533,
+   "end": 122.133,
+   "words": [
+    {
+     "text": "of",
+     "start": 121.533,
+     "end": 121.613
+    },
+    {
+     "text": "these",
+     "start": 121.613,
+     "end": 121.813
+    },
+    {
+     "text": "kilos",
+     "start": 121.813,
+     "end": 122.133
+    }
+   ]
+  },
+  {
+   "start": 122.133,
+   "end": 123.193,
+   "words": [
+    {
+     "text": "were",
+     "start": 122.133,
+     "end": 122.433
+    },
+    {
+     "text": "pure",
+     "start": 122.433,
+     "end": 122.733
+    },
+    {
+     "text": "skeletal",
+     "start": 122.733,
+     "end": 123.193
+    }
+   ]
+  },
+  {
+   "start": 123.193,
+   "end": 123.867,
+   "words": [
+    {
+     "text": "muscles",
+     "start": 123.193,
+     "end": 123.633
+    }
+   ]
+  },
+  {
+   "start": 123.867,
+   "end": 124.607,
+   "words": [
+    {
+     "text": "you",
+     "start": 123.867,
+     "end": 124.067
+    },
+    {
+     "text": "haven't",
+     "start": 124.067,
+     "end": 124.307
+    },
+    {
+     "text": "just",
+     "start": 124.307,
+     "end": 124.607
+    }
+   ]
+  },
+  {
+   "start": 124.607,
+   "end": 125.767,
+   "words": [
+    {
+     "text": "gotten",
+     "start": 124.607,
+     "end": 124.907
+    },
+    {
+     "text": "smaller",
+     "start": 124.907,
+     "end": 125.347
+    }
+   ]
+  },
+  {
+   "start": 125.767,
+   "end": 126.707,
+   "words": [
+    {
+     "text": "you",
+     "start": 125.767,
+     "end": 126.027
+    },
+    {
+     "text": "are",
+     "start": 126.027,
+     "end": 126.107
+    },
+    {
+     "text": "actively",
+     "start": 126.107,
+     "end": 126.707
+    }
+   ]
+  },
+  {
+   "start": 126.707,
+   "end": 128.007,
+   "words": [
+    {
+     "text": "wreck",
+     "start": 126.707,
+     "end": 127.287
+    },
+    {
+     "text": "your",
+     "start": 127.287,
+     "end": 127.547
+    },
+    {
+     "text": "metabolic",
+     "start": 127.547,
+     "end": 128.007
+    }
+   ]
+  },
+  {
+   "start": 128.007,
+   "end": 128.78,
+   "words": [
+    {
+     "text": "engine",
+     "start": 128.007,
+     "end": 128.547
+    }
+   ]
+  },
+  {
+   "start": 128.78,
+   "end": 129.68,
+   "words": [
+    {
+     "text": "Now",
+     "start": 128.78,
+     "end": 129.04
+    },
+    {
+     "text": "let's",
+     "start": 129.04,
+     "end": 129.4
+    },
+    {
+     "text": "talk",
+     "start": 129.4,
+     "end": 129.68
+    }
+   ]
+  },
+  {
+   "start": 129.68,
+   "end": 130.42,
+   "words": [
+    {
+     "text": "about",
+     "start": 129.68,
+     "end": 129.88
+    },
+    {
+     "text": "the",
+     "start": 129.88,
+     "end": 130.04
+    },
+    {
+     "text": "metabolic",
+     "start": 130.04,
+     "end": 130.42
+    }
+   ]
+  },
+  {
+   "start": 130.42,
+   "end": 131.22,
+   "words": [
+    {
+     "text": "slowdown",
+     "start": 130.42,
+     "end": 131.04
+    }
+   ]
+  },
+  {
+   "start": 131.22,
+   "end": 132.14,
+   "words": [
+    {
+     "text": "Because",
+     "start": 131.22,
+     "end": 131.52
+    },
+    {
+     "text": "your",
+     "start": 131.52,
+     "end": 131.74
+    },
+    {
+     "text": "skeletal",
+     "start": 131.74,
+     "end": 132.14
+    }
+   ]
+  },
+  {
+   "start": 132.14,
+   "end": 132.74,
+   "words": [
+    {
+     "text": "muscle",
+     "start": 132.14,
+     "end": 132.36
+    },
+    {
+     "text": "is",
+     "start": 132.36,
+     "end": 132.58
+    },
+    {
+     "text": "what",
+     "start": 132.58,
+     "end": 132.74
+    }
+   ]
+  },
+  {
+   "start": 132.74,
+   "end": 133.58,
+   "words": [
+    {
+     "text": "keeps",
+     "start": 132.74,
+     "end": 133.02
+    },
+    {
+     "text": "your",
+     "start": 133.02,
+     "end": 133.28
+    },
+    {
+     "text": "basal",
+     "start": 133.28,
+     "end": 133.58
+    }
+   ]
+  },
+  {
+   "start": 133.58,
+   "end": 134.96,
+   "words": [
+    {
+     "text": "metabolic",
+     "start": 133.58,
+     "end": 134.02
+    },
+    {
+     "text": "rate",
+     "start": 134.02,
+     "end": 134.22
+    },
+    {
+     "text": "high",
+     "start": 134.22,
+     "end": 134.64
+    }
+   ]
+  },
+  {
+   "start": 134.96,
+   "end": 135.84,
+   "words": [
+    {
+     "text": "if",
+     "start": 134.96,
+     "end": 135.18
+    },
+    {
+     "text": "you",
+     "start": 135.18,
+     "end": 135.48
+    },
+    {
+     "text": "strip",
+     "start": 135.48,
+     "end": 135.84
+    }
+   ]
+  },
+  {
+   "start": 135.84,
+   "end": 136.32,
+   "words": [
+    {
+     "text": "away",
+     "start": 135.84,
+     "end": 135.86
+    },
+    {
+     "text": "your",
+     "start": 135.86,
+     "end": 136.1
+    },
+    {
+     "text": "muscle",
+     "start": 136.1,
+     "end": 136.32
+    }
+   ]
+  },
+  {
+   "start": 136.32,
+   "end": 137.28,
+   "words": [
+    {
+     "text": "mass",
+     "start": 136.32,
+     "end": 136.66
+    },
+    {
+     "text": "the",
+     "start": 136.66,
+     "end": 136.9
+    },
+    {
+     "text": "second",
+     "start": 136.9,
+     "end": 137.28
+    }
+   ]
+  },
+  {
+   "start": 137.28,
+   "end": 138.46,
+   "words": [
+    {
+     "text": "you",
+     "start": 137.28,
+     "end": 137.68
+    },
+    {
+     "text": "plateau",
+     "start": 137.68,
+     "end": 137.98
+    }
+   ]
+  },
+  {
+   "start": 138.46,
+   "end": 139.24,
+   "words": [
+    {
+     "text": "or",
+     "start": 138.46,
+     "end": 138.66
+    },
+    {
+     "text": "stop",
+     "start": 138.66,
+     "end": 138.9
+    },
+    {
+     "text": "taking",
+     "start": 138.9,
+     "end": 139.24
+    }
+   ]
+  },
+  {
+   "start": 139.24,
+   "end": 140.287,
+   "words": [
+    {
+     "text": "the",
+     "start": 139.24,
+     "end": 139.46
+    },
+    {
+     "text": "medications",
+     "start": 139.46,
+     "end": 140.08
+    }
+   ]
+  },
+  {
+   "start": 140.287,
+   "end": 141.287,
+   "words": [
+    {
+     "text": "your",
+     "start": 140.287,
+     "end": 140.387
+    },
+    {
+     "text": "lower",
+     "start": 140.387,
+     "end": 140.547
+    },
+    {
+     "text": "metabolism",
+     "start": 140.547,
+     "end": 141.287
+    }
+   ]
+  },
+  {
+   "start": 141.287,
+   "end": 142.587,
+   "words": [
+    {
+     "text": "makes",
+     "start": 141.287,
+     "end": 141.747
+    },
+    {
+     "text": "weight",
+     "start": 141.747,
+     "end": 142.147
+    },
+    {
+     "text": "regain",
+     "start": 142.147,
+     "end": 142.587
+    }
+   ]
+  },
+  {
+   "start": 142.587,
+   "end": 143.86,
+   "words": [
+    {
+     "text": "almost",
+     "start": 142.587,
+     "end": 143.127
+    },
+    {
+     "text": "inevitable",
+     "start": 143.127,
+     "end": 143.647
+    }
+   ]
+  },
+  {
+   "start": 143.86,
+   "end": 144.84,
+   "words": [
+    {
+     "text": "This",
+     "start": 143.86,
+     "end": 144.24
+    },
+    {
+     "text": "will",
+     "start": 144.24,
+     "end": 144.64
+    },
+    {
+     "text": "make",
+     "start": 144.64,
+     "end": 144.84
+    }
+   ]
+  },
+  {
+   "start": 144.84,
+   "end": 146.72,
+   "words": [
+    {
+     "text": "you",
+     "start": 144.84,
+     "end": 145.04
+    },
+    {
+     "text": "have",
+     "start": 145.04,
+     "end": 145.38
+    },
+    {
+     "text": "sarcopenia",
+     "start": 145.38,
+     "end": 146.72
+    }
+   ]
+  },
+  {
+   "start": 146.72,
+   "end": 147.42,
+   "words": [
+    {
+     "text": "risk",
+     "start": 146.72,
+     "end": 147.2
+    }
+   ]
+  },
+  {
+   "start": 147.42,
+   "end": 148.12,
+   "words": [
+    {
+     "text": "So",
+     "start": 147.42,
+     "end": 147.66
+    },
+    {
+     "text": "if",
+     "start": 147.66,
+     "end": 147.82
+    },
+    {
+     "text": "you're",
+     "start": 147.82,
+     "end": 148.12
+    }
+   ]
+  },
+  {
+   "start": 148.12,
+   "end": 148.96,
+   "words": [
+    {
+     "text": "over",
+     "start": 148.12,
+     "end": 148.5
+    },
+    {
+     "text": "40",
+     "start": 148.5,
+     "end": 148.82
+    },
+    {
+     "text": "or",
+     "start": 148.82,
+     "end": 148.96
+    }
+   ]
+  },
+  {
+   "start": 148.96,
+   "end": 149.58,
+   "words": [
+    {
+     "text": "50",
+     "start": 148.96,
+     "end": 149.42
+    }
+   ]
+  },
+  {
+   "start": 149.58,
+   "end": 150.92,
+   "words": [
+    {
+     "text": "you're",
+     "start": 149.58,
+     "end": 150.02
+    },
+    {
+     "text": "already",
+     "start": 150.02,
+     "end": 150.54
+    },
+    {
+     "text": "fighting",
+     "start": 150.54,
+     "end": 150.92
+    }
+   ]
+  },
+  {
+   "start": 150.92,
+   "end": 151.98,
+   "words": [
+    {
+     "text": "natural",
+     "start": 150.92,
+     "end": 151.36
+    },
+    {
+     "text": "age-related",
+     "start": 151.36,
+     "end": 151.98
+    }
+   ]
+  },
+  {
+   "start": 151.98,
+   "end": 152.92,
+   "words": [
+    {
+     "text": "muscle",
+     "start": 151.98,
+     "end": 152.32
+    },
+    {
+     "text": "loss",
+     "start": 152.32,
+     "end": 152.7
+    }
+   ]
+  },
+  {
+   "start": 152.92,
+   "end": 153.64,
+   "words": [
+    {
+     "text": "So",
+     "start": 152.92,
+     "end": 153.08
+    },
+    {
+     "text": "layering",
+     "start": 153.08,
+     "end": 153.42
+    },
+    {
+     "text": "a",
+     "start": 153.42,
+     "end": 153.64
+    }
+   ]
+  },
+  {
+   "start": 153.64,
+   "end": 154.62,
+   "words": [
+    {
+     "text": "rapid",
+     "start": 153.64,
+     "end": 153.82
+    },
+    {
+     "text": "GLP-1",
+     "start": 153.82,
+     "end": 154.36
+    },
+    {
+     "text": "weight",
+     "start": 154.36,
+     "end": 154.62
+    }
+   ]
+  },
+  {
+   "start": 154.62,
+   "end": 155.14,
+   "words": [
+    {
+     "text": "loss",
+     "start": 154.62,
+     "end": 154.8
+    },
+    {
+     "text": "on",
+     "start": 154.8,
+     "end": 155.02
+    },
+    {
+     "text": "top",
+     "start": 155.02,
+     "end": 155.14
+    }
+   ]
+  },
+  {
+   "start": 155.14,
+   "end": 156.08,
+   "words": [
+    {
+     "text": "of",
+     "start": 155.14,
+     "end": 155.32
+    },
+    {
+     "text": "that",
+     "start": 155.32,
+     "end": 155.7
+    },
+    {
+     "text": "without",
+     "start": 155.7,
+     "end": 156.08
+    }
+   ]
+  },
+  {
+   "start": 156.08,
+   "end": 157.06,
+   "words": [
+    {
+     "text": "lifting",
+     "start": 156.08,
+     "end": 156.48
+    },
+    {
+     "text": "weight",
+     "start": 156.48,
+     "end": 156.74
+    },
+    {
+     "text": "is",
+     "start": 156.74,
+     "end": 157.06
+    }
+   ]
+  },
+  {
+   "start": 157.06,
+   "end": 157.72,
+   "words": [
+    {
+     "text": "a",
+     "start": 157.06,
+     "end": 157.26
+    },
+    {
+     "text": "fast",
+     "start": 157.26,
+     "end": 157.48
+    },
+    {
+     "text": "track",
+     "start": 157.48,
+     "end": 157.72
+    }
+   ]
+  },
+  {
+   "start": 157.72,
+   "end": 159.28,
+   "words": [
+    {
+     "text": "to",
+     "start": 157.72,
+     "end": 158.16
+    },
+    {
+     "text": "joint",
+     "start": 158.16,
+     "end": 158.4
+    },
+    {
+     "text": "pain",
+     "start": 158.4,
+     "end": 158.88
+    }
+   ]
+  },
+  {
+   "start": 159.28,
+   "end": 159.96,
+   "words": [
+    {
+     "text": "loss",
+     "start": 159.28,
+     "end": 159.48
+    },
+    {
+     "text": "of",
+     "start": 159.48,
+     "end": 159.72
+    },
+    {
+     "text": "strength",
+     "start": 159.72,
+     "end": 159.96
+    }
+   ]
+  },
+  {
+   "start": 159.96,
+   "end": 161.647,
+   "words": [
+    {
+     "text": "and",
+     "start": 159.96,
+     "end": 160.5
+    },
+    {
+     "text": "reduce",
+     "start": 160.5,
+     "end": 160.92
+    },
+    {
+     "text": "mobility",
+     "start": 160.92,
+     "end": 161.4
+    }
+   ]
+  },
+  {
+   "start": 161.647,
+   "end": 162.847,
+   "words": [
+    {
+     "text": "So",
+     "start": 161.647,
+     "end": 162.287
+    },
+    {
+     "text": "let's",
+     "start": 162.287,
+     "end": 162.567
+    },
+    {
+     "text": "talk",
+     "start": 162.567,
+     "end": 162.847
+    }
+   ]
+  },
+  {
+   "start": 162.847,
+   "end": 163.787,
+   "words": [
+    {
+     "text": "about",
+     "start": 162.847,
+     "end": 163.007
+    },
+    {
+     "text": "why",
+     "start": 163.007,
+     "end": 163.347
+    },
+    {
+     "text": "personal",
+     "start": 163.347,
+     "end": 163.787
+    }
+   ]
+  },
+  {
+   "start": 163.787,
+   "end": 165.087,
+   "words": [
+    {
+     "text": "trainers",
+     "start": 163.787,
+     "end": 164.207
+    },
+    {
+     "text": "aren't",
+     "start": 164.207,
+     "end": 164.807
+    },
+    {
+     "text": "out",
+     "start": 164.807,
+     "end": 165.087
+    }
+   ]
+  },
+  {
+   "start": 165.087,
+   "end": 165.887,
+   "words": [
+    {
+     "text": "of",
+     "start": 165.087,
+     "end": 165.307
+    },
+    {
+     "text": "job",
+     "start": 165.307,
+     "end": 165.647
+    }
+   ]
+  },
+  {
+   "start": 165.887,
+   "end": 167.247,
+   "words": [
+    {
+     "text": "When",
+     "start": 165.887,
+     "end": 166.127
+    },
+    {
+     "text": "GLP-1",
+     "start": 166.127,
+     "end": 166.827
+    },
+    {
+     "text": "first",
+     "start": 166.827,
+     "end": 167.247
+    }
+   ]
+  },
+  {
+   "start": 167.247,
+   "end": 167.987,
+   "words": [
+    {
+     "text": "blew",
+     "start": 167.247,
+     "end": 167.487
+    },
+    {
+     "text": "up",
+     "start": 167.487,
+     "end": 167.647
+    },
+    {
+     "text": "people",
+     "start": 167.647,
+     "end": 167.987
+    }
+   ]
+  },
+  {
+   "start": 167.987,
+   "end": 168.667,
+   "words": [
+    {
+     "text": "in",
+     "start": 167.987,
+     "end": 168.267
+    },
+    {
+     "text": "the",
+     "start": 168.267,
+     "end": 168.387
+    },
+    {
+     "text": "fitness",
+     "start": 168.387,
+     "end": 168.667
+    }
+   ]
+  },
+  {
+   "start": 168.667,
+   "end": 169.867,
+   "words": [
+    {
+     "text": "industry",
+     "start": 168.667,
+     "end": 169.207
+    },
+    {
+     "text": "panic",
+     "start": 169.207,
+     "end": 169.647
+    }
+   ]
+  },
+  {
+   "start": 169.867,
+   "end": 170.487,
+   "words": [
+    {
+     "text": "They",
+     "start": 169.867,
+     "end": 169.967
+    },
+    {
+     "text": "think",
+     "start": 169.967,
+     "end": 170.167
+    },
+    {
+     "text": "if",
+     "start": 170.167,
+     "end": 170.487
+    }
+   ]
+  },
+  {
+   "start": 170.487,
+   "end": 171.287,
+   "words": [
+    {
+     "text": "a",
+     "start": 170.487,
+     "end": 170.807
+    },
+    {
+     "text": "shot",
+     "start": 170.807,
+     "end": 170.967
+    },
+    {
+     "text": "can",
+     "start": 170.967,
+     "end": 171.287
+    }
+   ]
+  },
+  {
+   "start": 171.287,
+   "end": 172.227,
+   "words": [
+    {
+     "text": "melt",
+     "start": 171.287,
+     "end": 171.547
+    },
+    {
+     "text": "fat",
+     "start": 171.547,
+     "end": 171.927
+    }
+   ]
+  },
+  {
+   "start": 172.227,
+   "end": 173.107,
+   "words": [
+    {
+     "text": "why",
+     "start": 172.227,
+     "end": 172.447
+    },
+    {
+     "text": "would",
+     "start": 172.447,
+     "end": 172.647
+    },
+    {
+     "text": "anyone",
+     "start": 172.647,
+     "end": 173.107
+    }
+   ]
+  },
+  {
+   "start": 173.107,
+   "end": 174.127,
+   "words": [
+    {
+     "text": "hire",
+     "start": 173.107,
+     "end": 173.487
+    },
+    {
+     "text": "a",
+     "start": 173.487,
+     "end": 173.787
+    },
+    {
+     "text": "personal",
+     "start": 173.787,
+     "end": 174.127
+    }
+   ]
+  },
+  {
+   "start": 174.127,
+   "end": 174.673,
+   "words": [
+    {
+     "text": "trainer?",
+     "start": 174.127,
+     "end": 174.427
+    }
+   ]
+  },
+  {
+   "start": 174.673,
+   "end": 175.493,
+   "words": [
+    {
+     "text": "But",
+     "start": 174.673,
+     "end": 174.933
+    },
+    {
+     "text": "the",
+     "start": 174.933,
+     "end": 175.113
+    },
+    {
+     "text": "reality",
+     "start": 175.113,
+     "end": 175.493
+    }
+   ]
+  },
+  {
+   "start": 175.493,
+   "end": 176.553,
+   "words": [
+    {
+     "text": "is",
+     "start": 175.493,
+     "end": 176.233
+    }
+   ]
+  },
+  {
+   "start": 176.553,
+   "end": 177.013,
+   "words": [
+    {
+     "text": "personal",
+     "start": 176.553,
+     "end": 176.673
+    },
+    {
+     "text": "training",
+     "start": 176.673,
+     "end": 177.013
+    }
+   ]
+  },
+  {
+   "start": 177.013,
+   "end": 178.133,
+   "words": [
+    {
+     "text": "is",
+     "start": 177.013,
+     "end": 177.433
+    },
+    {
+     "text": "more",
+     "start": 177.433,
+     "end": 177.693
+    },
+    {
+     "text": "essential",
+     "start": 177.693,
+     "end": 178.133
+    }
+   ]
+  },
+  {
+   "start": 178.133,
+   "end": 179.453,
+   "words": [
+    {
+     "text": "now",
+     "start": 178.133,
+     "end": 178.713
+    },
+    {
+     "text": "than",
+     "start": 178.713,
+     "end": 179.213
+    },
+    {
+     "text": "it",
+     "start": 179.213,
+     "end": 179.453
+    }
+   ]
+  },
+  {
+   "start": 179.453,
+   "end": 180.633,
+   "words": [
+    {
+     "text": "has",
+     "start": 179.453,
+     "end": 179.733
+    },
+    {
+     "text": "ever",
+     "start": 179.733,
+     "end": 179.953
+    },
+    {
+     "text": "been",
+     "start": 179.953,
+     "end": 180.413
+    }
+   ]
+  },
+  {
+   "start": 180.633,
+   "end": 182.133,
+   "words": [
+    {
+     "text": "The",
+     "start": 180.633,
+     "end": 181.313
+    },
+    {
+     "text": "drug",
+     "start": 181.313,
+     "end": 181.653
+    },
+    {
+     "text": "handles",
+     "start": 181.653,
+     "end": 182.133
+    }
+   ]
+  },
+  {
+   "start": 182.133,
+   "end": 183.193,
+   "words": [
+    {
+     "text": "the",
+     "start": 182.133,
+     "end": 182.393
+    },
+    {
+     "text": "appetite",
+     "start": 182.393,
+     "end": 182.953
+    }
+   ]
+  },
+  {
+   "start": 183.193,
+   "end": 183.753,
+   "words": [
+    {
+     "text": "but",
+     "start": 183.193,
+     "end": 183.353
+    },
+    {
+     "text": "we",
+     "start": 183.353,
+     "end": 183.513
+    },
+    {
+     "text": "handle",
+     "start": 183.513,
+     "end": 183.753
+    }
+   ]
+  },
+  {
+   "start": 183.753,
+   "end": 184.713,
+   "words": [
+    {
+     "text": "the",
+     "start": 183.753,
+     "end": 184.013
+    },
+    {
+     "text": "protections",
+     "start": 184.013,
+     "end": 184.393
+    },
+    {
+     "text": "of",
+     "start": 184.393,
+     "end": 184.713
+    }
+   ]
+  },
+  {
+   "start": 184.713,
+   "end": 185.973,
+   "words": [
+    {
+     "text": "the",
+     "start": 184.713,
+     "end": 184.853
+    },
+    {
+     "text": "physical",
+     "start": 184.853,
+     "end": 185.213
+    },
+    {
+     "text": "body",
+     "start": 185.213,
+     "end": 185.733
+    }
+   ]
+  },
+  {
+   "start": 185.973,
+   "end": 186.713,
+   "words": [
+    {
+     "text": "You",
+     "start": 185.973,
+     "end": 186.013
+    },
+    {
+     "text": "cannot",
+     "start": 186.013,
+     "end": 186.273
+    },
+    {
+     "text": "inject",
+     "start": 186.273,
+     "end": 186.713
+    }
+   ]
+  },
+  {
+   "start": 186.713,
+   "end": 187.433,
+   "words": [
+    {
+     "text": "muscles",
+     "start": 186.713,
+     "end": 187.213
+    }
+   ]
+  },
+  {
+   "start": 187.433,
+   "end": 188.253,
+   "words": [
+    {
+     "text": "you",
+     "start": 187.433,
+     "end": 187.433
+    },
+    {
+     "text": "cannot",
+     "start": 187.433,
+     "end": 187.773
+    },
+    {
+     "text": "inject",
+     "start": 187.773,
+     "end": 188.253
+    }
+   ]
+  },
+  {
+   "start": 188.253,
+   "end": 189.233,
+   "words": [
+    {
+     "text": "bone",
+     "start": 188.253,
+     "end": 188.493
+    },
+    {
+     "text": "density",
+     "start": 188.493,
+     "end": 188.993
+    }
+   ]
+  },
+  {
+   "start": 189.233,
+   "end": 190.273,
+   "words": [
+    {
+     "text": "you",
+     "start": 189.233,
+     "end": 189.273
+    },
+    {
+     "text": "cannot",
+     "start": 189.273,
+     "end": 189.633
+    },
+    {
+     "text": "inject",
+     "start": 189.633,
+     "end": 190.273
+    }
+   ]
+  },
+  {
+   "start": 190.273,
+   "end": 191.413,
+   "words": [
+    {
+     "text": "functional",
+     "start": 190.273,
+     "end": 190.893
+    },
+    {
+     "text": "movement",
+     "start": 190.893,
+     "end": 191.413
+    }
+   ]
+  },
+  {
+   "start": 191.413,
+   "end": 192.167,
+   "words": [
+    {
+     "text": "pattern",
+     "start": 191.413,
+     "end": 191.933
+    }
+   ]
+  },
+  {
+   "start": 192.167,
+   "end": 193.247,
+   "words": [
+    {
+     "text": "So",
+     "start": 192.167,
+     "end": 192.847
+    },
+    {
+     "text": "if",
+     "start": 192.847,
+     "end": 193.087
+    },
+    {
+     "text": "a",
+     "start": 193.087,
+     "end": 193.247
+    }
+   ]
+  },
+  {
+   "start": 193.247,
+   "end": 194.107,
+   "words": [
+    {
+     "text": "client",
+     "start": 193.247,
+     "end": 193.427
+    },
+    {
+     "text": "is",
+     "start": 193.427,
+     "end": 193.767
+    },
+    {
+     "text": "on",
+     "start": 193.767,
+     "end": 194.107
+    }
+   ]
+  },
+  {
+   "start": 194.107,
+   "end": 195.207,
+   "words": [
+    {
+     "text": "GLP-1",
+     "start": 194.107,
+     "end": 194.927
+    }
+   ]
+  },
+  {
+   "start": 195.207,
+   "end": 195.687,
+   "words": [
+    {
+     "text": "strength",
+     "start": 195.207,
+     "end": 195.347
+    },
+    {
+     "text": "training",
+     "start": 195.347,
+     "end": 195.687
+    }
+   ]
+  },
+  {
+   "start": 195.687,
+   "end": 196.467,
+   "words": [
+    {
+     "text": "goes",
+     "start": 195.687,
+     "end": 195.927
+    },
+    {
+     "text": "from",
+     "start": 195.927,
+     "end": 196.227
+    },
+    {
+     "text": "being",
+     "start": 196.227,
+     "end": 196.467
+    }
+   ]
+  },
+  {
+   "start": 196.467,
+   "end": 197.807,
+   "words": [
+    {
+     "text": "an",
+     "start": 196.467,
+     "end": 196.747
+    },
+    {
+     "text": "option",
+     "start": 196.747,
+     "end": 197.127
+    },
+    {
+     "text": "to",
+     "start": 197.127,
+     "end": 197.807
+    }
+   ]
+  },
+  {
+   "start": 197.807,
+   "end": 198.967,
+   "words": [
+    {
+     "text": "a",
+     "start": 197.807,
+     "end": 198.147
+    },
+    {
+     "text": "mandatory",
+     "start": 198.147,
+     "end": 198.307
+    },
+    {
+     "text": "medical",
+     "start": 198.467,
+     "end": 198.967
+    }
+   ]
+  },
+  {
+   "start": 198.967,
+   "end": 199.893,
+   "words": [
+    {
+     "text": "shield",
+     "start": 198.967,
+     "end": 199.687
+    }
+   ]
+  },
+  {
+   "start": 199.893,
+   "end": 200.953,
+   "words": [
+    {
+     "text": "So",
+     "start": 199.893,
+     "end": 200.533
+    },
+    {
+     "text": "this",
+     "start": 200.533,
+     "end": 200.753
+    },
+    {
+     "text": "is",
+     "start": 200.753,
+     "end": 200.953
+    }
+   ]
+  },
+  {
+   "start": 200.953,
+   "end": 201.693,
+   "words": [
+    {
+     "text": "how",
+     "start": 200.953,
+     "end": 201.113
+    },
+    {
+     "text": "the",
+     "start": 201.113,
+     "end": 201.333
+    },
+    {
+     "text": "trainer's",
+     "start": 201.333,
+     "end": 201.693
+    }
+   ]
+  },
+  {
+   "start": 201.693,
+   "end": 202.573,
+   "words": [
+    {
+     "text": "game",
+     "start": 201.693,
+     "end": 201.933
+    },
+    {
+     "text": "plan",
+     "start": 201.933,
+     "end": 202.173
+    },
+    {
+     "text": "for",
+     "start": 202.173,
+     "end": 202.573
+    }
+   ]
+  },
+  {
+   "start": 202.573,
+   "end": 204.147,
+   "words": [
+    {
+     "text": "GLP-1",
+     "start": 202.573,
+     "end": 203.173
+    },
+    {
+     "text": "clients",
+     "start": 203.173,
+     "end": 203.513
+    },
+    {
+     "text": "are",
+     "start": 203.513,
+     "end": 203.893
+    }
+   ]
+  },
+  {
+   "start": 204.147,
+   "end": 204.767,
+   "words": [
+    {
+     "text": "If",
+     "start": 204.147,
+     "end": 204.307
+    },
+    {
+     "text": "you're",
+     "start": 204.307,
+     "end": 204.587
+    },
+    {
+     "text": "on",
+     "start": 204.587,
+     "end": 204.767
+    }
+   ]
+  },
+  {
+   "start": 204.767,
+   "end": 205.687,
+   "words": [
+    {
+     "text": "these",
+     "start": 204.767,
+     "end": 205.107
+    },
+    {
+     "text": "medications",
+     "start": 205.107,
+     "end": 205.687
+    }
+   ]
+  },
+  {
+   "start": 205.687,
+   "end": 206.807,
+   "words": [
+    {
+     "text": "or",
+     "start": 205.687,
+     "end": 206.267
+    },
+    {
+     "text": "if",
+     "start": 206.267,
+     "end": 206.507
+    },
+    {
+     "text": "you're",
+     "start": 206.507,
+     "end": 206.807
+    }
+   ]
+  },
+  {
+   "start": 206.807,
+   "end": 208.027,
+   "words": [
+    {
+     "text": "coaching",
+     "start": 206.807,
+     "end": 207.167
+    },
+    {
+     "text": "someone",
+     "start": 207.167,
+     "end": 207.707
+    },
+    {
+     "text": "who",
+     "start": 207.707,
+     "end": 208.027
+    }
+   ]
+  },
+  {
+   "start": 208.027,
+   "end": 208.7,
+   "words": [
+    {
+     "text": "is",
+     "start": 208.027,
+     "end": 208.487
+    }
+   ]
+  },
+  {
+   "start": 208.7,
+   "end": 209.56,
+   "words": [
+    {
+     "text": "here",
+     "start": 208.7,
+     "end": 208.94
+    },
+    {
+     "text": "is",
+     "start": 208.94,
+     "end": 209.26
+    },
+    {
+     "text": "the",
+     "start": 209.26,
+     "end": 209.56
+    }
+   ]
+  },
+  {
+   "start": 209.56,
+   "end": 211.72,
+   "words": [
+    {
+     "text": "non-negotiable",
+     "start": 209.56,
+     "end": 210.62
+    },
+    {
+     "text": "playbook",
+     "start": 210.62,
+     "end": 211.34
+    }
+   ]
+  },
+  {
+   "start": 211.72,
+   "end": 212.7,
+   "words": [
+    {
+     "text": "Number",
+     "start": 211.72,
+     "end": 211.98
+    },
+    {
+     "text": "1",
+     "start": 211.98,
+     "end": 212.32
+    },
+    {
+     "text": "is",
+     "start": 212.32,
+     "end": 212.7
+    }
+   ]
+  },
+  {
+   "start": 212.7,
+   "end": 213.52,
+   "words": [
+    {
+     "text": "heavy",
+     "start": 212.7,
+     "end": 213.0
+    },
+    {
+     "text": "progressive",
+     "start": 213.0,
+     "end": 213.52
+    }
+   ]
+  },
+  {
+   "start": 213.52,
+   "end": 214.793,
+   "words": [
+    {
+     "text": "resistance",
+     "start": 213.52,
+     "end": 214.04
+    },
+    {
+     "text": "training",
+     "start": 214.04,
+     "end": 214.56
+    }
+   ]
+  },
+  {
+   "start": 214.793,
+   "end": 215.633,
+   "words": [
+    {
+     "text": "Not",
+     "start": 214.793,
+     "end": 215.073
+    },
+    {
+     "text": "just",
+     "start": 215.073,
+     "end": 215.373
+    },
+    {
+     "text": "light",
+     "start": 215.373,
+     "end": 215.633
+    }
+   ]
+  },
+  {
+   "start": 215.633,
+   "end": 216.84,
+   "words": [
+    {
+     "text": "cardio",
+     "start": 215.633,
+     "end": 216.033
+    },
+    {
+     "text": "or",
+     "start": 216.033,
+     "end": 216.333
+    },
+    {
+     "text": "walking",
+     "start": 216.333,
+     "end": 216.613
+    }
+   ]
+  },
+  {
+   "start": 216.84,
+   "end": 217.74,
+   "words": [
+    {
+     "text": "you",
+     "start": 216.84,
+     "end": 216.98
+    },
+    {
+     "text": "need",
+     "start": 216.98,
+     "end": 217.12
+    },
+    {
+     "text": "progressive",
+     "start": 217.12,
+     "end": 217.74
+    }
+   ]
+  },
+  {
+   "start": 217.74,
+   "end": 219.02,
+   "words": [
+    {
+     "text": "overload",
+     "start": 217.74,
+     "end": 218.06
+    },
+    {
+     "text": "2-3",
+     "start": 218.18,
+     "end": 218.68
+    },
+    {
+     "text": "times",
+     "start": 218.68,
+     "end": 219.02
+    }
+   ]
+  },
+  {
+   "start": 219.02,
+   "end": 219.86,
+   "words": [
+    {
+     "text": "a",
+     "start": 219.02,
+     "end": 219.24
+    },
+    {
+     "text": "week",
+     "start": 219.24,
+     "end": 219.5
+    },
+    {
+     "text": "to",
+     "start": 219.5,
+     "end": 219.86
+    }
+   ]
+  },
+  {
+   "start": 219.86,
+   "end": 220.74,
+   "words": [
+    {
+     "text": "force",
+     "start": 219.86,
+     "end": 220.2
+    },
+    {
+     "text": "the",
+     "start": 220.2,
+     "end": 220.44
+    },
+    {
+     "text": "body",
+     "start": 220.44,
+     "end": 220.74
+    }
+   ]
+  },
+  {
+   "start": 220.74,
+   "end": 221.42,
+   "words": [
+    {
+     "text": "to",
+     "start": 220.74,
+     "end": 221.1
+    },
+    {
+     "text": "keep",
+     "start": 221.1,
+     "end": 221.26
+    },
+    {
+     "text": "it",
+     "start": 221.26,
+     "end": 221.42
+    }
+   ]
+  },
+  {
+   "start": 221.42,
+   "end": 222.76,
+   "words": [
+    {
+     "text": "muscle",
+     "start": 221.42,
+     "end": 221.76
+    },
+    {
+     "text": "tissue",
+     "start": 221.76,
+     "end": 222.38
+    },
+    {
+     "text": "while",
+     "start": 222.38,
+     "end": 222.76
+    }
+   ]
+  },
+  {
+   "start": 222.76,
+   "end": 223.34,
+   "words": [
+    {
+     "text": "in",
+     "start": 222.76,
+     "end": 223.02
+    },
+    {
+     "text": "a",
+     "start": 223.02,
+     "end": 223.08
+    },
+    {
+     "text": "massive",
+     "start": 223.08,
+     "end": 223.34
+    }
+   ]
+  },
+  {
+   "start": 223.34,
+   "end": 224.613,
+   "words": [
+    {
+     "text": "calorie",
+     "start": 223.34,
+     "end": 223.72
+    },
+    {
+     "text": "deficit",
+     "start": 223.72,
+     "end": 224.38
+    }
+   ]
+  },
+  {
+   "start": 224.613,
+   "end": 230.613,
+   "words": [
+    {
+     "text": "Number",
+     "start": 224.613,
+     "end": 224.833
+    },
+    {
+     "text": "2",
+     "start": 224.833,
+     "end": 230.413
+    },
+    {
+     "text": "is",
+     "start": 230.413,
+     "end": 230.613
+    }
+   ]
+  },
+  {
+   "start": 230.613,
+   "end": 231.613,
+   "words": [
+    {
+     "text": "aggressive",
+     "start": 230.613,
+     "end": 231.173
+    },
+    {
+     "text": "protein",
+     "start": 231.173,
+     "end": 231.613
+    }
+   ]
+  },
+  {
+   "start": 231.613,
+   "end": 232.447,
+   "words": [
+    {
+     "text": "targeting",
+     "start": 231.613,
+     "end": 232.213
+    }
+   ]
+  },
+  {
+   "start": 232.447,
+   "end": 234.907,
+   "words": [
+    {
+     "text": "Because",
+     "start": 232.447,
+     "end": 232.667
+    },
+    {
+     "text": "GLP-1",
+     "start": 232.667,
+     "end": 233.387
+    },
+    {
+     "text": "is",
+     "start": 233.387,
+     "end": 234.907
+    }
+   ]
+  },
+  {
+   "start": 234.907,
+   "end": 235.767,
+   "words": [
+    {
+     "text": "suppressed",
+     "start": 234.907,
+     "end": 235.207
+    },
+    {
+     "text": "appetite",
+     "start": 235.207,
+     "end": 235.767
+    }
+   ]
+  },
+  {
+   "start": 235.767,
+   "end": 236.927,
+   "words": [
+    {
+     "text": "so",
+     "start": 235.767,
+     "end": 236.487
+    },
+    {
+     "text": "heavily",
+     "start": 236.487,
+     "end": 236.867
+    }
+   ]
+  },
+  {
+   "start": 236.927,
+   "end": 237.767,
+   "words": [
+    {
+     "text": "people",
+     "start": 236.927,
+     "end": 237.267
+    },
+    {
+     "text": "end",
+     "start": 237.267,
+     "end": 237.567
+    },
+    {
+     "text": "up",
+     "start": 237.567,
+     "end": 237.767
+    }
+   ]
+  },
+  {
+   "start": 237.767,
+   "end": 238.987,
+   "words": [
+    {
+     "text": "eating",
+     "start": 237.767,
+     "end": 238.187
+    },
+    {
+     "text": "800",
+     "start": 238.187,
+     "end": 238.607
+    },
+    {
+     "text": "calories",
+     "start": 238.607,
+     "end": 238.987
+    }
+   ]
+  },
+  {
+   "start": 238.987,
+   "end": 240.087,
+   "words": [
+    {
+     "text": "a",
+     "start": 238.987,
+     "end": 239.267
+    },
+    {
+     "text": "day",
+     "start": 239.267,
+     "end": 239.607
+    },
+    {
+     "text": "and",
+     "start": 239.607,
+     "end": 240.087
+    }
+   ]
+  },
+  {
+   "start": 240.087,
+   "end": 241.027,
+   "words": [
+    {
+     "text": "completely",
+     "start": 240.087,
+     "end": 240.687
+    },
+    {
+     "text": "starving",
+     "start": 240.687,
+     "end": 241.027
+    }
+   ]
+  },
+  {
+   "start": 241.027,
+   "end": 241.747,
+   "words": [
+    {
+     "text": "their",
+     "start": 241.027,
+     "end": 241.287
+    },
+    {
+     "text": "muscles",
+     "start": 241.287,
+     "end": 241.747
+    }
+   ]
+  },
+  {
+   "start": 241.747,
+   "end": 242.907,
+   "words": [
+    {
+     "text": "You",
+     "start": 241.747,
+     "end": 242.387
+    },
+    {
+     "text": "have",
+     "start": 242.387,
+     "end": 242.687
+    },
+    {
+     "text": "to",
+     "start": 242.687,
+     "end": 242.907
+    }
+   ]
+  },
+  {
+   "start": 242.907,
+   "end": 244.287,
+   "words": [
+    {
+     "text": "prioritize",
+     "start": 242.907,
+     "end": 243.387
+    },
+    {
+     "text": "high",
+     "start": 243.387,
+     "end": 243.767
+    },
+    {
+     "text": "quality",
+     "start": 243.767,
+     "end": 244.287
+    }
+   ]
+  },
+  {
+   "start": 244.287,
+   "end": 244.993,
+   "words": [
+    {
+     "text": "protein",
+     "start": 244.287,
+     "end": 244.787
+    }
+   ]
+  },
+  {
+   "start": 244.993,
+   "end": 246.473,
+   "words": [
+    {
+     "text": "around",
+     "start": 244.993,
+     "end": 245.293
+    },
+    {
+     "text": "1.6g",
+     "start": 245.293,
+     "end": 246.233
+    },
+    {
+     "text": "to",
+     "start": 246.233,
+     "end": 246.473
+    }
+   ]
+  },
+  {
+   "start": 246.473,
+   "end": 248.153,
+   "words": [
+    {
+     "text": "2.2g",
+     "start": 246.473,
+     "end": 247.573
+    },
+    {
+     "text": "per",
+     "start": 247.573,
+     "end": 247.813
+    },
+    {
+     "text": "kilogram",
+     "start": 247.813,
+     "end": 248.153
+    }
+   ]
+  },
+  {
+   "start": 248.153,
+   "end": 248.853,
+   "words": [
+    {
+     "text": "of",
+     "start": 248.153,
+     "end": 248.413
+    },
+    {
+     "text": "your",
+     "start": 248.413,
+     "end": 248.633
+    },
+    {
+     "text": "body",
+     "start": 248.633,
+     "end": 248.853
+    }
+   ]
+  },
+  {
+   "start": 248.853,
+   "end": 249.533,
+   "words": [
+    {
+     "text": "weight",
+     "start": 248.853,
+     "end": 249.173
+    }
+   ]
+  },
+  {
+   "start": 249.533,
+   "end": 250.153,
+   "words": [
+    {
+     "text": "This",
+     "start": 249.533,
+     "end": 249.773
+    },
+    {
+     "text": "one",
+     "start": 249.773,
+     "end": 249.973
+    },
+    {
+     "text": "is",
+     "start": 249.973,
+     "end": 250.153
+    }
+   ]
+  },
+  {
+   "start": 250.153,
+   "end": 250.933,
+   "words": [
+    {
+     "text": "to",
+     "start": 250.153,
+     "end": 250.333
+    },
+    {
+     "text": "preserve",
+     "start": 250.333,
+     "end": 250.633
+    },
+    {
+     "text": "your",
+     "start": 250.633,
+     "end": 250.933
+    }
+   ]
+  },
+  {
+   "start": 250.933,
+   "end": 252.133,
+   "words": [
+    {
+     "text": "lean",
+     "start": 250.933,
+     "end": 251.053
+    },
+    {
+     "text": "muscle",
+     "start": 251.053,
+     "end": 251.433
+    },
+    {
+     "text": "mass",
+     "start": 251.433,
+     "end": 251.893
+    }
+   ]
+  },
+  {
+   "start": 252.133,
+   "end": 252.853,
+   "words": [
+    {
+     "text": "Number",
+     "start": 252.133,
+     "end": 252.353
+    },
+    {
+     "text": "3",
+     "start": 252.353,
+     "end": 252.473
+    },
+    {
+     "text": "is",
+     "start": 252.473,
+     "end": 252.853
+    }
+   ]
+  },
+  {
+   "start": 252.853,
+   "end": 254.5,
+   "words": [
+    {
+     "text": "tracking",
+     "start": 252.853,
+     "end": 253.113
+    },
+    {
+     "text": "DEXA",
+     "start": 253.113,
+     "end": 253.953
+    },
+    {
+     "text": "or InBody",
+     "start": 253.953,
+     "end": 254.273
+    }
+   ]
+  },
+  {
+   "start": 254.5,
+   "end": 255.08,
+   "words": [
+    {
+     "text": "not",
+     "start": 254.5,
+     "end": 254.72
+    },
+    {
+     "text": "just",
+     "start": 254.72,
+     "end": 254.94
+    },
+    {
+     "text": "the",
+     "start": 254.94,
+     "end": 255.08
+    }
+   ]
+  },
+  {
+   "start": 255.08,
+   "end": 255.553,
+   "words": [
+    {
+     "text": "scale",
+     "start": 255.08,
+     "end": 255.32
+    }
+   ]
+  },
+  {
+   "start": 255.553,
+   "end": 256.433,
+   "words": [
+    {
+     "text": "So",
+     "start": 255.553,
+     "end": 255.713
+    },
+    {
+     "text": "stop",
+     "start": 255.713,
+     "end": 255.913
+    },
+    {
+     "text": "obsessing",
+     "start": 255.913,
+     "end": 256.433
+    }
+   ]
+  },
+  {
+   "start": 256.433,
+   "end": 257.113,
+   "words": [
+    {
+     "text": "over",
+     "start": 256.433,
+     "end": 256.633
+    },
+    {
+     "text": "the",
+     "start": 256.633,
+     "end": 256.873
+    },
+    {
+     "text": "bathroom",
+     "start": 256.873,
+     "end": 257.113
+    }
+   ]
+  },
+  {
+   "start": 257.113,
+   "end": 257.613,
+   "words": [
+    {
+     "text": "scale",
+     "start": 257.113,
+     "end": 257.513
+    }
+   ]
+  },
+  {
+   "start": 257.613,
+   "end": 258.233,
+   "words": [
+    {
+     "text": "we",
+     "start": 257.613,
+     "end": 257.773
+    },
+    {
+     "text": "need",
+     "start": 257.773,
+     "end": 257.993
+    },
+    {
+     "text": "to",
+     "start": 257.993,
+     "end": 258.233
+    }
+   ]
+  },
+  {
+   "start": 258.233,
+   "end": 259.313,
+   "words": [
+    {
+     "text": "track",
+     "start": 258.233,
+     "end": 258.373
+    },
+    {
+     "text": "lean",
+     "start": 258.373,
+     "end": 258.713
+    },
+    {
+     "text": "tissue",
+     "start": 258.713,
+     "end": 259.313
+    }
+   ]
+  },
+  {
+   "start": 259.313,
+   "end": 260.913,
+   "words": [
+    {
+     "text": "versus",
+     "start": 259.313,
+     "end": 260.293
+    },
+    {
+     "text": "fat",
+     "start": 260.293,
+     "end": 260.613
+    },
+    {
+     "text": "mass",
+     "start": 260.613,
+     "end": 260.913
+    }
+   ]
+  },
+  {
+   "start": 260.913,
+   "end": 261.453,
+   "words": [
+    {
+     "text": "to",
+     "start": 260.913,
+     "end": 261.153
+    },
+    {
+     "text": "make",
+     "start": 261.153,
+     "end": 261.293
+    },
+    {
+     "text": "sure",
+     "start": 261.293,
+     "end": 261.453
+    }
+   ]
+  },
+  {
+   "start": 261.453,
+   "end": 262.133,
+   "words": [
+    {
+     "text": "the",
+     "start": 261.453,
+     "end": 261.613
+    },
+    {
+     "text": "weight",
+     "start": 261.613,
+     "end": 261.813
+    },
+    {
+     "text": "coming",
+     "start": 261.813,
+     "end": 262.133
+    }
+   ]
+  },
+  {
+   "start": 262.133,
+   "end": 262.953,
+   "words": [
+    {
+     "text": "off",
+     "start": 262.133,
+     "end": 262.393
+    },
+    {
+     "text": "is",
+     "start": 262.393,
+     "end": 262.633
+    },
+    {
+     "text": "actually",
+     "start": 262.633,
+     "end": 262.953
+    }
+   ]
+  },
+  {
+   "start": 262.953,
+   "end": 263.633,
+   "words": [
+    {
+     "text": "body",
+     "start": 262.953,
+     "end": 263.213
+    },
+    {
+     "text": "fat",
+     "start": 263.213,
+     "end": 263.393
+    }
+   ]
+  },
+  {
+   "start": 263.633,
+   "end": 264.193,
+   "words": [
+    {
+     "text": "So",
+     "start": 263.633,
+     "end": 263.773
+    },
+    {
+     "text": "here's",
+     "start": 263.773,
+     "end": 264.053
+    },
+    {
+     "text": "my",
+     "start": 264.053,
+     "end": 264.193
+    }
+   ]
+  },
+  {
+   "start": 264.193,
+   "end": 265.073,
+   "words": [
+    {
+     "text": "final",
+     "start": 264.193,
+     "end": 264.433
+    },
+    {
+     "text": "takeaway",
+     "start": 264.433,
+     "end": 264.813
+    }
+   ]
+  },
+  {
+   "start": 265.073,
+   "end": 265.693,
+   "words": [
+    {
+     "text": "So",
+     "start": 265.073,
+     "end": 265.133
+    },
+    {
+     "text": "Ozempic",
+     "start": 265.133,
+     "end": 265.573
+    },
+    {
+     "text": "and",
+     "start": 265.573,
+     "end": 265.693
+    }
+   ]
+  },
+  {
+   "start": 265.693,
+   "end": 266.793,
+   "words": [
+    {
+     "text": "Monjaro",
+     "start": 265.693,
+     "end": 266.113
+    },
+    {
+     "text": "aren't",
+     "start": 266.113,
+     "end": 266.453
+    },
+    {
+     "text": "magic",
+     "start": 266.453,
+     "end": 266.793
+    }
+   ]
+  },
+  {
+   "start": 266.793,
+   "end": 267.327,
+   "words": [
+    {
+     "text": "eraser",
+     "start": 266.793,
+     "end": 267.113
+    }
+   ]
+  },
+  {
+   "start": 267.327,
+   "end": 268.227,
+   "words": [
+    {
+     "text": "They",
+     "start": 267.327,
+     "end": 267.507
+    },
+    {
+     "text": "aren't",
+     "start": 267.507,
+     "end": 267.827
+    },
+    {
+     "text": "cheating",
+     "start": 267.827,
+     "end": 268.227
+    }
+   ]
+  },
+  {
+   "start": 268.227,
+   "end": 268.987,
+   "words": [
+    {
+     "text": "either",
+     "start": 268.227,
+     "end": 268.647
+    }
+   ]
+  },
+  {
+   "start": 268.987,
+   "end": 270.147,
+   "words": [
+    {
+     "text": "They",
+     "start": 268.987,
+     "end": 269.167
+    },
+    {
+     "text": "are",
+     "start": 269.167,
+     "end": 269.387
+    },
+    {
+     "text": "powerful",
+     "start": 269.387,
+     "end": 270.147
+    }
+   ]
+  },
+  {
+   "start": 270.147,
+   "end": 271.567,
+   "words": [
+    {
+     "text": "pharmaceutical",
+     "start": 270.147,
+     "end": 270.887
+    },
+    {
+     "text": "tool",
+     "start": 270.887,
+     "end": 271.327
+    }
+   ]
+  },
+  {
+   "start": 271.567,
+   "end": 272.227,
+   "words": [
+    {
+     "text": "But",
+     "start": 271.567,
+     "end": 271.727
+    },
+    {
+     "text": "using",
+     "start": 271.727,
+     "end": 272.027
+    },
+    {
+     "text": "a",
+     "start": 272.027,
+     "end": 272.227
+    }
+   ]
+  },
+  {
+   "start": 272.227,
+   "end": 273.427,
+   "words": [
+    {
+     "text": "GLP-1",
+     "start": 272.227,
+     "end": 272.787
+    },
+    {
+     "text": "without",
+     "start": 272.787,
+     "end": 273.067
+    },
+    {
+     "text": "lifting",
+     "start": 273.067,
+     "end": 273.427
+    }
+   ]
+  },
+  {
+   "start": 273.427,
+   "end": 273.967,
+   "words": [
+    {
+     "text": "weight",
+     "start": 273.427,
+     "end": 273.567
+    },
+    {
+     "text": "is",
+     "start": 273.567,
+     "end": 273.827
+    },
+    {
+     "text": "like",
+     "start": 273.827,
+     "end": 273.967
+    }
+   ]
+  },
+  {
+   "start": 273.967,
+   "end": 275.027,
+   "words": [
+    {
+     "text": "driving",
+     "start": 273.967,
+     "end": 274.287
+    },
+    {
+     "text": "a",
+     "start": 274.287,
+     "end": 274.547
+    },
+    {
+     "text": "supercar",
+     "start": 274.547,
+     "end": 275.027
+    }
+   ]
+  },
+  {
+   "start": 275.027,
+   "end": 275.667,
+   "words": [
+    {
+     "text": "with",
+     "start": 275.027,
+     "end": 275.267
+    },
+    {
+     "text": "no",
+     "start": 275.267,
+     "end": 275.487
+    },
+    {
+     "text": "oil",
+     "start": 275.487,
+     "end": 275.667
+    }
+   ]
+  },
+  {
+   "start": 275.667,
+   "end": 276.64,
+   "words": [
+    {
+     "text": "in",
+     "start": 275.667,
+     "end": 275.847
+    },
+    {
+     "text": "the",
+     "start": 275.847,
+     "end": 276.007
+    },
+    {
+     "text": "engine",
+     "start": 276.007,
+     "end": 276.407
+    }
+   ]
+  },
+  {
+   "start": 276.64,
+   "end": 277.12,
+   "words": [
+    {
+     "text": "Sure",
+     "start": 276.64,
+     "end": 276.78
+    },
+    {
+     "text": "it",
+     "start": 276.78,
+     "end": 276.9
+    },
+    {
+     "text": "goes",
+     "start": 276.9,
+     "end": 277.12
+    }
+   ]
+  },
+  {
+   "start": 277.12,
+   "end": 277.72,
+   "words": [
+    {
+     "text": "fast",
+     "start": 277.12,
+     "end": 277.36
+    },
+    {
+     "text": "for",
+     "start": 277.36,
+     "end": 277.58
+    },
+    {
+     "text": "a",
+     "start": 277.58,
+     "end": 277.72
+    }
+   ]
+  },
+  {
+   "start": 277.72,
+   "end": 278.58,
+   "words": [
+    {
+     "text": "minute",
+     "start": 277.72,
+     "end": 277.88
+    },
+    {
+     "text": "but",
+     "start": 277.88,
+     "end": 278.14
+    },
+    {
+     "text": "eventually",
+     "start": 278.14,
+     "end": 278.58
+    }
+   ]
+  },
+  {
+   "start": 278.58,
+   "end": 279.1,
+   "words": [
+    {
+     "text": "you're",
+     "start": 278.58,
+     "end": 278.84
+    },
+    {
+     "text": "going",
+     "start": 278.84,
+     "end": 278.9
+    },
+    {
+     "text": "to",
+     "start": 278.9,
+     "end": 279.1
+    }
+   ]
+  },
+  {
+   "start": 279.1,
+   "end": 279.787,
+   "words": [
+    {
+     "text": "break",
+     "start": 279.1,
+     "end": 279.32
+    },
+    {
+     "text": "down",
+     "start": 279.32,
+     "end": 279.58
+    }
+   ]
+  },
+  {
+   "start": 279.787,
+   "end": 280.407,
+   "words": [
+    {
+     "text": "So",
+     "start": 279.787,
+     "end": 280.067
+    },
+    {
+     "text": "let",
+     "start": 280.067,
+     "end": 280.267
+    },
+    {
+     "text": "me",
+     "start": 280.267,
+     "end": 280.407
+    }
+   ]
+  },
+  {
+   "start": 280.407,
+   "end": 280.987,
+   "words": [
+    {
+     "text": "turn",
+     "start": 280.407,
+     "end": 280.547
+    },
+    {
+     "text": "this",
+     "start": 280.547,
+     "end": 280.807
+    },
+    {
+     "text": "over",
+     "start": 280.807,
+     "end": 280.987
+    }
+   ]
+  },
+  {
+   "start": 280.987,
+   "end": 281.467,
+   "words": [
+    {
+     "text": "to",
+     "start": 280.987,
+     "end": 281.187
+    },
+    {
+     "text": "you",
+     "start": 281.187,
+     "end": 281.467
+    }
+   ]
+  },
+  {
+   "start": 281.467,
+   "end": 282.527,
+   "words": [
+    {
+     "text": "If",
+     "start": 281.467,
+     "end": 282.047
+    },
+    {
+     "text": "you",
+     "start": 282.047,
+     "end": 282.267
+    },
+    {
+     "text": "tried",
+     "start": 282.267,
+     "end": 282.527
+    }
+   ]
+  },
+  {
+   "start": 282.527,
+   "end": 284.287,
+   "words": [
+    {
+     "text": "Ozempic",
+     "start": 282.527,
+     "end": 283.107
+    },
+    {
+     "text": "or",
+     "start": 283.107,
+     "end": 283.227
+    },
+    {
+     "text": "Monjaro",
+     "start": 283.227,
+     "end": 284.007
+    }
+   ]
+  },
+  {
+   "start": 284.287,
+   "end": 284.767,
+   "words": [
+    {
+     "text": "did",
+     "start": 284.287,
+     "end": 284.347
+    },
+    {
+     "text": "your",
+     "start": 284.347,
+     "end": 284.507
+    },
+    {
+     "text": "doctor",
+     "start": 284.507,
+     "end": 284.767
+    }
+   ]
+  },
+  {
+   "start": 284.767,
+   "end": 285.387,
+   "words": [
+    {
+     "text": "talk",
+     "start": 284.767,
+     "end": 285.027
+    },
+    {
+     "text": "to",
+     "start": 285.027,
+     "end": 285.167
+    },
+    {
+     "text": "you",
+     "start": 285.167,
+     "end": 285.387
+    }
+   ]
+  },
+  {
+   "start": 285.387,
+   "end": 286.207,
+   "words": [
+    {
+     "text": "about",
+     "start": 285.387,
+     "end": 285.607
+    },
+    {
+     "text": "lifting",
+     "start": 285.607,
+     "end": 285.927
+    },
+    {
+     "text": "weights",
+     "start": 285.927,
+     "end": 286.207
+    }
+   ]
+  },
+  {
+   "start": 286.207,
+   "end": 287.4,
+   "words": [
+    {
+     "text": "and",
+     "start": 286.207,
+     "end": 286.427
+    },
+    {
+     "text": "protein",
+     "start": 286.427,
+     "end": 286.707
+    },
+    {
+     "text": "intake?",
+     "start": 286.707,
+     "end": 287.167
+    }
+   ]
+  },
+  {
+   "start": 287.4,
+   "end": 287.88,
+   "words": [
+    {
+     "text": "Or",
+     "start": 287.4,
+     "end": 287.54
+    },
+    {
+     "text": "were",
+     "start": 287.54,
+     "end": 287.64
+    },
+    {
+     "text": "you",
+     "start": 287.64,
+     "end": 287.88
+    }
+   ]
+  },
+  {
+   "start": 287.88,
+   "end": 288.42,
+   "words": [
+    {
+     "text": "just",
+     "start": 287.88,
+     "end": 288.12
+    },
+    {
+     "text": "told",
+     "start": 288.12,
+     "end": 288.24
+    },
+    {
+     "text": "to",
+     "start": 288.24,
+     "end": 288.42
+    }
+   ]
+  },
+  {
+   "start": 288.42,
+   "end": 289.093,
+   "words": [
+    {
+     "text": "eat",
+     "start": 288.42,
+     "end": 288.6
+    },
+    {
+     "text": "less?",
+     "start": 288.6,
+     "end": 288.86
+    }
+   ]
+  },
+  {
+   "start": 289.093,
+   "end": 289.513,
+   "words": [
+    {
+     "text": "So",
+     "start": 289.093,
+     "end": 289.253
+    },
+    {
+     "text": "let",
+     "start": 289.253,
+     "end": 289.373
+    },
+    {
+     "text": "me",
+     "start": 289.373,
+     "end": 289.513
+    }
+   ]
+  },
+  {
+   "start": 289.513,
+   "end": 289.953,
+   "words": [
+    {
+     "text": "know",
+     "start": 289.513,
+     "end": 289.633
+    },
+    {
+     "text": "in",
+     "start": 289.633,
+     "end": 289.753
+    },
+    {
+     "text": "the",
+     "start": 289.753,
+     "end": 289.953
+    }
+   ]
+  },
+  {
+   "start": 289.953,
+   "end": 290.733,
+   "words": [
+    {
+     "text": "comment",
+     "start": 289.953,
+     "end": 290.133
+    },
+    {
+     "text": "below",
+     "start": 290.133,
+     "end": 290.473
+    },
+    {
+     "text": "and",
+     "start": 290.473,
+     "end": 290.733
+    }
+   ]
+  },
+  {
+   "start": 290.733,
+   "end": 291.233,
+   "words": [
+    {
+     "text": "I'll",
+     "start": 290.733,
+     "end": 290.893
+    },
+    {
+     "text": "see",
+     "start": 290.893,
+     "end": 291.013
+    },
+    {
+     "text": "you",
+     "start": 291.013,
+     "end": 291.233
+    }
+   ]
+  },
+  {
+   "start": 291.233,
+   "end": 291.773,
+   "words": [
+    {
+     "text": "in",
+     "start": 291.233,
+     "end": 291.413
+    },
+    {
+     "text": "the",
+     "start": 291.413,
+     "end": 291.553
+    },
+    {
+     "text": "next",
+     "start": 291.553,
+     "end": 291.773
+    }
+   ]
+  },
+  {
+   "start": 291.773,
+   "end": 292.267,
+   "words": [
+    {
+     "text": "video",
+     "start": 291.773,
+     "end": 292.113
+    }
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "hook",
+   "start": 0.05,
+   "end": 7.333,
+   "line1": "⚠️ THE HIDDEN CATCH",
+   "line2": "UP TO 40% = MUSCLE"
+  },
+  {
+   "type": "title",
+   "start": 10.6,
+   "end": 14.233,
+   "kicker": "Biggest thing in fitness",
+   "text": "Ozempic & Mounjaro"
+  },
+  {
+   "type": "chip",
+   "start": 14.433,
+   "end": 21.233,
+   "emoji": "💉",
+   "text": "GLP-1 + GIP"
+  },
+  {
+   "type": "stat",
+   "start": 21.5,
+   "end": 26.133,
+   "to": 30,
+   "suffix": "KG",
+   "label": "lost in record time",
+   "from": 0
+  },
+  {
+   "type": "chip",
+   "start": 26.233,
+   "end": 31.233,
+   "emoji": "🏋️",
+   "text": "Coach's view"
+  },
+  {
+   "type": "chip",
+   "start": 42.033,
+   "end": 45.533,
+   "emoji": "✅",
+   "text": "They work"
+  },
+  {
+   "type": "title",
+   "start": 46.433,
+   "end": 52.367,
+   "kicker": "The real question",
+   "text": "What weight are you losing?",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "compare",
+   "start": 52.567,
+   "end": 59.233,
+   "leftValue": "OZEMPIC",
+   "leftLabel": "semaglutide",
+   "rightValue": "MOUNJARO",
+   "rightLabel": "tirzepatide"
+  },
+  {
+   "type": "title",
+   "start": 64.667,
+   "end": 69.467,
+   "kicker": "Ozempic",
+   "text": "1 hormone: GLP-1"
+  },
+  {
+   "type": "chip",
+   "start": 69.567,
+   "end": 73.167,
+   "emoji": "🧠",
+   "text": "You feel full"
+  },
+  {
+   "type": "chip",
+   "start": 73.267,
+   "end": 77.067,
+   "emoji": "🍽️",
+   "text": "Eat less"
+  },
+  {
+   "type": "title",
+   "start": 77.333,
+   "end": 82.5,
+   "kicker": "Mounjaro",
+   "text": "2 receptors: GLP-1 + GIP"
+  },
+  {
+   "type": "chip",
+   "start": 82.633,
+   "end": 90.333,
+   "emoji": "📉",
+   "text": "More weight lost"
+  },
+  {
+   "type": "chip",
+   "start": 91.867,
+   "end": 95.733,
+   "emoji": "👑",
+   "text": "Scale winner"
+  },
+  {
+   "type": "title",
+   "start": 96.833,
+   "end": 100.4,
+   "kicker": "But trainers care about",
+   "text": "Body composition",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "title",
+   "start": 100.467,
+   "end": 104.5,
+   "kicker": "The hidden catch",
+   "text": "Muscle & bone loss",
+   "color": "#FF3B30"
+  },
+  {
+   "type": "stat",
+   "start": 108.767,
+   "end": 116.167,
+   "to": 40,
+   "suffix": "%",
+   "label": "of weight lost can be muscle",
+   "color": "#FF3B30",
+   "from": 0
+  },
+  {
+   "type": "compare",
+   "start": 118.333,
+   "end": 123.8,
+   "leftValue": "10 KG",
+   "leftLabel": "lost on the scale",
+   "rightValue": "3-4 KG",
+   "rightLabel": "was muscle"
+  },
+  {
+   "type": "chip",
+   "start": 125.467,
+   "end": 128.667,
+   "emoji": "⚙️",
+   "text": "Metabolism wrecked"
+  },
+  {
+   "type": "title",
+   "start": 128.8,
+   "end": 131.2,
+   "text": "Metabolic slowdown"
+  },
+  {
+   "type": "chip",
+   "start": 140.267,
+   "end": 143.767,
+   "emoji": "📈",
+   "text": "Weight regain"
+  },
+  {
+   "type": "title",
+   "start": 143.8,
+   "end": 147.367,
+   "kicker": "Risk",
+   "text": "Sarcopenia",
+   "color": "#FF3B30"
+  },
+  {
+   "type": "chip",
+   "start": 147.5,
+   "end": 152.8,
+   "emoji": "⏳",
+   "text": "40+? Extra risk"
+  },
+  {
+   "type": "title",
+   "start": 156.8,
+   "end": 161.5,
+   "text": "Joint pain. Weakness. Less mobility.",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "title",
+   "start": 161.667,
+   "end": 165.767,
+   "text": "Are trainers out of a job?"
+  },
+  {
+   "type": "chip",
+   "start": 169.867,
+   "end": 174.467,
+   "emoji": "💉",
+   "text": "Fat-melting shot?"
+  },
+  {
+   "type": "title",
+   "start": 175.633,
+   "end": 180.533,
+   "kicker": "Reality",
+   "text": "More essential than ever",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "compare",
+   "start": 180.633,
+   "end": 185.833,
+   "leftValue": "APPETITE",
+   "leftLabel": "drug handles",
+   "rightValue": "BODY",
+   "rightLabel": "we protect"
+  },
+  {
+   "type": "title",
+   "start": 185.933,
+   "end": 192.033,
+   "text": "You can't inject:"
+  },
+  {
+   "type": "chip",
+   "start": 186.233,
+   "end": 187.367,
+   "emoji": "💪",
+   "text": "Muscle"
+  },
+  {
+   "type": "chip",
+   "start": 187.367,
+   "end": 189.233,
+   "emoji": "🦴",
+   "text": "Bone density"
+  },
+  {
+   "type": "chip",
+   "start": 189.233,
+   "end": 192.033,
+   "emoji": "🏃",
+   "text": "Movement"
+  },
+  {
+   "type": "title",
+   "start": 195.167,
+   "end": 199.767,
+   "kicker": "On GLP-1?",
+   "text": "Lifting = mandatory",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "title",
+   "start": 199.933,
+   "end": 204.033,
+   "kicker": "GLP-1 clients",
+   "text": "Trainer's game plan"
+  },
+  {
+   "type": "title",
+   "start": 208.7,
+   "end": 211.5,
+   "text": "Non-negotiable",
+   "color": "#FF3B30"
+  },
+  {
+   "type": "step",
+   "start": 211.7,
+   "end": 216.8,
+   "n": 1,
+   "total": 3,
+   "text": "Heavy resistance training"
+  },
+  {
+   "type": "chip",
+   "start": 216.9,
+   "end": 224.4,
+   "emoji": "🏋️",
+   "text": "2-3x / week"
+  },
+  {
+   "type": "step",
+   "start": 224.633,
+   "end": 232.333,
+   "n": 2,
+   "total": 3,
+   "text": "Aggressive protein"
+  },
+  {
+   "type": "stat",
+   "start": 236.967,
+   "end": 241.767,
+   "to": 800,
+   "suffix": "KCAL",
+   "label": "a day = starving muscle",
+   "color": "#FF3B30",
+   "from": 2000
+  },
+  {
+   "type": "stat",
+   "start": 241.767,
+   "end": 249.533,
+   "to": 2.2,
+   "prefix": "1.6–",
+   "suffix": "G/KG",
+   "label": "protein per kg bodyweight",
+   "color": "#30D158",
+   "from": 1.6
+  },
+  {
+   "type": "chip",
+   "start": 249.533,
+   "end": 251.933,
+   "emoji": "🥩",
+   "text": "Protect muscle"
+  },
+  {
+   "type": "step",
+   "start": 252.133,
+   "end": 255.4,
+   "n": 3,
+   "total": 3,
+   "text": "Track DEXA / InBody"
+  },
+  {
+   "type": "compare",
+   "start": 255.533,
+   "end": 263.433,
+   "leftValue": "LEAN",
+   "leftLabel": "tissue",
+   "rightValue": "FAT",
+   "rightLabel": "mass"
+  },
+  {
+   "type": "title",
+   "start": 263.633,
+   "end": 267.267,
+   "kicker": "Final takeaway",
+   "text": "Not a magic eraser",
+   "color": "#FFD60A"
+  },
+  {
+   "type": "chip",
+   "start": 267.327,
+   "end": 268.767,
+   "emoji": "🚫",
+   "text": "Not cheating"
+  },
+  {
+   "type": "chip",
+   "start": 268.967,
+   "end": 271.367,
+   "emoji": "💊",
+   "text": "Powerful tool"
+  },
+  {
+   "type": "title",
+   "start": 272.867,
+   "end": 276.567,
+   "kicker": "GLP-1 without lifting",
+   "text": "Supercar. No oil.",
+   "color": "#FF3B30"
+  },
+  {
+   "type": "chip",
+   "start": 277.5,
+   "end": 279.7,
+   "emoji": "💥",
+   "text": "Breakdown"
+  },
+  {
+   "type": "title",
+   "start": 281.467,
+   "end": 287.267,
+   "kicker": "Your turn",
+   "text": "Did your doctor mention lifting?"
+  },
+  {
+   "type": "chip",
+   "start": 287.4,
+   "end": 289.0,
+   "emoji": "🤔",
+   "text": "Or just eat less?"
+  },
+  {
+   "type": "cta",
+   "start": 289.033,
+   "end": 292.267,
+   "text": "Comment below 👇",
+   "sub": "Follow for more coaching tips"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "src": "whoosh_hit_a",
+   "volume": 0.5
+  },
+  {
+   "t": 10.55,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 14.383,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 21.45,
+   "src": "snap_glassy",
+   "volume": 0.45
+  },
+  {
+   "t": 26.183,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 41.983,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 46.383,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 52.517,
+   "src": "whoosh_organic",
+   "volume": 0.45
+  },
+  {
+   "t": 64.617,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 69.517,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 73.217,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 77.283,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 82.583,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 91.817,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 96.783,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 100.417,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 108.717,
+   "src": "snap_glassy",
+   "volume": 0.45
+  },
+  {
+   "t": 118.283,
+   "src": "whoosh_organic",
+   "volume": 0.45
+  },
+  {
+   "t": 125.417,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 128.75,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 140.217,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 143.75,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 147.45,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 156.75,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 161.617,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 169.817,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 175.583,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 180.583,
+   "src": "whoosh_organic",
+   "volume": 0.45
+  },
+  {
+   "t": 185.883,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 186.183,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 187.317,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 189.183,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 195.117,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 199.883,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 208.65,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 211.65,
+   "src": "snap_perc",
+   "volume": 0.5
+  },
+  {
+   "t": 216.85,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 224.583,
+   "src": "snap_perc",
+   "volume": 0.5
+  },
+  {
+   "t": 236.917,
+   "src": "snap_glassy",
+   "volume": 0.45
+  },
+  {
+   "t": 241.717,
+   "src": "snap_glassy",
+   "volume": 0.45
+  },
+  {
+   "t": 249.483,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 252.083,
+   "src": "snap_perc",
+   "volume": 0.5
+  },
+  {
+   "t": 255.483,
+   "src": "whoosh_organic",
+   "volume": 0.45
+  },
+  {
+   "t": 263.583,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 267.277,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 268.917,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 272.817,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 277.45,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 281.417,
+   "src": "whoosh_slide",
+   "volume": 0.42
+  },
+  {
+   "t": 287.35,
+   "src": "pop",
+   "volume": 0.38
+  },
+  {
+   "t": 288.983,
+   "src": "notif_a",
+   "volume": 0.4
+  },
+  {
+   "t": 0.0,
+   "src": "boom",
+   "volume": 0.55
+  },
+  {
+   "t": 6.7,
+   "src": "riser",
+   "volume": 0.35
+  },
+  {
+   "t": 7.23,
+   "src": "whoosh_short_a",
+   "volume": 0.5
+  },
+  {
+   "t": 21.8,
+   "src": "ui_blip",
+   "volume": 0.35
+  },
+  {
+   "t": 109.067,
+   "src": "ui_blip",
+   "volume": 0.3
+  },
+  {
+   "t": 100.467,
+   "src": "boom",
+   "volume": 0.35
+  },
+  {
+   "t": 118.433,
+   "src": "glitch",
+   "volume": 0.25
+  },
+  {
+   "t": 125.567,
+   "src": "glitch",
+   "volume": 0.3
+  },
+  {
+   "t": 143.8,
+   "src": "ping",
+   "volume": 0.35
+  },
+  {
+   "t": 175.633,
+   "src": "whoosh_hit_a",
+   "volume": 0.35
+  },
+  {
+   "t": 186.233,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 187.367,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 189.233,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 236.967,
+   "src": "glitch",
+   "volume": 0.25
+  },
+  {
+   "t": 241.767,
+   "src": "coins",
+   "volume": 0.3
+  },
+  {
+   "t": 271.867,
+   "src": "riser",
+   "volume": 0.3
+  },
+  {
+   "t": 277.5,
+   "src": "boom",
+   "volume": 0.4
+  },
+  {
+   "t": 252.133,
+   "src": "camera_a",
+   "volume": 0.35
+  }
+ ],
+ "flashes": [
+  7.35,
+  100.467,
+  199.933,
+  263.633
+ ],
+ "captionHidden": [
+  [
+   289.033,
+   292.267
+  ]
+ ]
+}
