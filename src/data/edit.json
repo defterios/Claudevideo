@@ -6126,741 +6126,1189 @@
  ],
  "overlays": [
   {
-   "type": "hook",
-   "start": 0.05,
+   "type": "kinetic",
+   "start": 0.2,
    "end": 7.333,
-   "line1": "⚠️ THE HIDDEN CATCH",
-   "line2": "UP TO 40% = MUSCLE"
+   "lines": [
+    {
+     "t": "40%",
+     "s": "xl",
+     "c": "red"
+    },
+    {
+     "t": "of GLP-1 weight loss can be",
+     "s": "sm"
+    },
+    {
+     "t": "muscle.",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 10.6,
    "end": 14.233,
-   "kicker": "Biggest thing in fitness",
-   "text": "Ozempic & Mounjaro"
+   "lines": [
+    {
+     "t": "The biggest thing in fitness",
+     "s": "sm"
+    },
+    {
+     "t": "Ozempic &",
+     "s": "lg"
+    },
+    {
+     "t": "Mounjaro",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "chip",
+   "type": "kinetic",
    "start": 14.433,
    "end": 21.233,
-   "emoji": "💉",
-   "text": "GLP-1 + GIP"
+   "lines": [
+    {
+     "t": "GLP-1 + dual-action GIP",
+     "s": "sm"
+    },
+    {
+     "t": "changing",
+     "s": "lg"
+    },
+    {
+     "t": "the game.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
   },
   {
-   "type": "stat",
+   "type": "kinetic",
    "start": 21.5,
-   "end": 26.133,
-   "to": 30,
-   "suffix": "KG",
-   "label": "lost in record time",
-   "from": 0
+   "end": 26.1,
+   "lines": [
+    {
+     "t": "People are dropping",
+     "s": "sm"
+    },
+    {
+     "t": "30 KG",
+     "s": "xl",
+     "c": "gold"
+    },
+    {
+     "t": "in record time",
+     "s": "sm"
+    }
+   ]
   },
   {
-   "type": "chip",
-   "start": 26.233,
-   "end": 31.233,
-   "emoji": "🏋️",
-   "text": "Coach's view"
+   "type": "kinetic",
+   "start": 34.667,
+   "end": 38.133,
+   "lines": [
+    {
+     "t": "As a coach, my reaction",
+     "s": "sm"
+    },
+    {
+     "t": "isn't hate.",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "chip",
+   "type": "kinetic",
    "start": 42.033,
-   "end": 45.533,
-   "emoji": "✅",
-   "text": "They work"
+   "end": 45.633,
+   "lines": [
+    {
+     "t": "The clinical data says",
+     "s": "sm"
+    },
+    {
+     "t": "they work.",
+     "s": "lg",
+     "c": "green"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 46.433,
    "end": 52.367,
-   "kicker": "The real question",
-   "text": "What weight are you losing?",
-   "color": "#FFD60A"
+   "lines": [
+    {
+     "t": "The real question",
+     "s": "sm"
+    },
+    {
+     "t": "what weight are",
+     "s": "lg"
+    },
+    {
+     "t": "you losing?",
+     "s": "lg",
+     "c": "red"
+    }
+   ]
   },
   {
-   "type": "compare",
+   "type": "scene",
    "start": 52.567,
-   "end": 59.233,
-   "leftValue": "OZEMPIC",
-   "leftLabel": "semaglutide",
-   "rightValue": "MOUNJARO",
-   "rightLabel": "tirzepatide"
+   "end": 64.4,
+   "scene": "cards",
+   "beats": [],
+   "props": {
+    "heading": "semaglutide vs tirzepatide",
+    "cards": [
+     {
+      "icon": "1",
+      "label": "Ozempic",
+      "sub": "1 receptor",
+      "color": "cyan"
+     },
+     {
+      "icon": "2",
+      "label": "Mounjaro",
+      "sub": "2 receptors",
+      "color": "gold"
+     }
+    ]
+   }
   },
   {
-   "type": "title",
+   "type": "scene",
    "start": 64.667,
-   "end": 69.467,
-   "kicker": "Ozempic",
-   "text": "1 hormone: GLP-1"
-  },
-  {
-   "type": "chip",
-   "start": 69.567,
-   "end": 73.167,
-   "emoji": "🧠",
-   "text": "You feel full"
-  },
-  {
-   "type": "chip",
-   "start": 73.267,
    "end": 77.067,
-   "emoji": "🍽️",
-   "text": "Eat less"
+   "scene": "receptors",
+   "beats": [
+    6.6
+   ],
+   "props": {
+    "drug": "Ozempic",
+    "sub": "semaglutide",
+    "lit": [
+     "GLP-1"
+    ],
+    "result": "You feel full"
+   }
   },
   {
-   "type": "title",
+   "type": "scene",
    "start": 77.333,
-   "end": 82.5,
-   "kicker": "Mounjaro",
-   "text": "2 receptors: GLP-1 + GIP"
-  },
-  {
-   "type": "chip",
-   "start": 82.633,
    "end": 90.333,
-   "emoji": "📉",
-   "text": "More weight lost"
+   "scene": "receptors",
+   "beats": [
+    8.1
+   ],
+   "props": {
+    "drug": "Mounjaro",
+    "sub": "tirzepatide",
+    "lit": [
+     "GLP-1",
+     "GIP"
+    ],
+    "result": "More weight lost"
+   }
   },
   {
-   "type": "chip",
-   "start": 91.867,
+   "type": "kinetic",
+   "start": 90.467,
    "end": 95.733,
-   "emoji": "👑",
-   "text": "Scale winner"
+   "lines": [
+    {
+     "t": "On the scale",
+     "s": "sm"
+    },
+    {
+     "t": "Mounjaro",
+     "s": "lg",
+     "c": "gold"
+    },
+    {
+     "t": "wins.",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "title",
-   "start": 96.833,
+   "type": "kinetic",
+   "start": 95.833,
    "end": 100.4,
-   "kicker": "But trainers care about",
-   "text": "Body composition",
-   "color": "#FFD60A"
+   "lines": [
+    {
+     "t": "But trainers care about",
+     "s": "sm"
+    },
+    {
+     "t": "body",
+     "s": "lg"
+    },
+    {
+     "t": "composition.",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 100.467,
    "end": 104.5,
-   "kicker": "The hidden catch",
-   "text": "Muscle & bone loss",
-   "color": "#FF3B30"
+   "lines": [
+    {
+     "t": "The hidden catch",
+     "s": "sm"
+    },
+    {
+     "t": "muscle & bone",
+     "s": "lg"
+    },
+    {
+     "t": "loss.",
+     "s": "lg",
+     "c": "red"
+    }
+   ]
   },
   {
-   "type": "stat",
+   "type": "kinetic",
+   "start": 104.567,
+   "end": 108.467,
+   "lines": [
+    {
+     "t": "What most doctors",
+     "s": "sm"
+    },
+    {
+     "t": "don't explain.",
+     "s": "lg"
+    }
+   ]
+  },
+  {
+   "type": "scene",
    "start": 108.767,
-   "end": 116.167,
-   "to": 40,
-   "suffix": "%",
-   "label": "of weight lost can be muscle",
-   "color": "#FF3B30",
-   "from": 0
+   "end": 116.233,
+   "scene": "weightbar",
+   "beats": [
+    2.5
+   ],
+   "props": {
+    "heading": "weight lost on GLP-1",
+    "foot": "lean muscle — not fat"
+   }
   },
   {
-   "type": "compare",
+   "type": "kinetic",
+   "start": 116.233,
+   "end": 118.233,
+   "lines": [
+    {
+     "t": "Think about",
+     "s": "lg"
+    },
+    {
+     "t": "that.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
+  },
+  {
+   "type": "scene",
    "start": 118.333,
-   "end": 123.8,
-   "leftValue": "10 KG",
-   "leftLabel": "lost on the scale",
-   "rightValue": "3-4 KG",
-   "rightLabel": "was muscle"
-  },
-  {
-   "type": "chip",
-   "start": 125.467,
    "end": 128.667,
-   "emoji": "⚙️",
-   "text": "Metabolism wrecked"
+   "scene": "blocks",
+   "beats": [
+    2.5
+   ],
+   "props": {}
   },
   {
-   "type": "title",
+   "type": "scene",
    "start": 128.8,
-   "end": 131.2,
-   "text": "Metabolic slowdown"
-  },
-  {
-   "type": "chip",
-   "start": 140.267,
    "end": 143.767,
-   "emoji": "📈",
-   "text": "Weight regain"
+   "scene": "gears",
+   "beats": [
+    7.6
+   ],
+   "props": {
+    "kicker": "your metabolic engine",
+    "title": "Metabolism",
+    "after": "slowing down"
+   }
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 143.8,
    "end": 147.367,
-   "kicker": "Risk",
-   "text": "Sarcopenia",
-   "color": "#FF3B30"
+   "lines": [
+    {
+     "t": "This raises your risk of",
+     "s": "sm"
+    },
+    {
+     "t": "sarcopenia.",
+     "s": "lg",
+     "c": "red"
+    }
+   ]
   },
   {
-   "type": "chip",
-   "start": 147.5,
+   "type": "kinetic",
+   "start": 147.4,
    "end": 152.8,
-   "emoji": "⏳",
-   "text": "40+? Extra risk"
+   "lines": [
+    {
+     "t": "Over 40 or 50?",
+     "s": "sm"
+    },
+    {
+     "t": "you're already",
+     "s": "lg"
+    },
+    {
+     "t": "losing muscle.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
   },
   {
-   "type": "title",
-   "start": 156.8,
-   "end": 161.5,
-   "text": "Joint pain. Weakness. Less mobility.",
-   "color": "#FFD60A"
+   "type": "kinetic",
+   "start": 156.7,
+   "end": 161.567,
+   "lines": [
+    {
+     "t": "A fast track to",
+     "s": "sm"
+    },
+    {
+     "t": "joint pain",
+     "s": "lg"
+    },
+    {
+     "t": "& weakness.",
+     "s": "lg",
+     "c": "red"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 161.667,
    "end": 165.767,
-   "text": "Are trainers out of a job?"
+   "lines": [
+    {
+     "t": "So are trainers",
+     "s": "sm"
+    },
+    {
+     "t": "out of a job?",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "chip",
+   "type": "kinetic",
    "start": 169.867,
    "end": 174.467,
-   "emoji": "💉",
-   "text": "Fat-melting shot?"
+   "lines": [
+    {
+     "t": "If a shot can melt fat...",
+     "s": "sm"
+    },
+    {
+     "t": "why hire",
+     "s": "lg"
+    },
+    {
+     "t": "a coach?",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "title",
-   "start": 175.633,
+   "type": "kinetic",
+   "start": 174.633,
    "end": 180.533,
-   "kicker": "Reality",
-   "text": "More essential than ever",
-   "color": "#FFD60A"
+   "lines": [
+    {
+     "t": "Reality",
+     "s": "sm"
+    },
+    {
+     "t": "more essential",
+     "s": "lg"
+    },
+    {
+     "t": "than ever.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
   },
   {
-   "type": "compare",
+   "type": "kinetic",
    "start": 180.633,
    "end": 185.833,
-   "leftValue": "APPETITE",
-   "leftLabel": "drug handles",
-   "rightValue": "BODY",
-   "rightLabel": "we protect"
+   "lines": [
+    {
+     "t": "The drug handles appetite",
+     "s": "sm"
+    },
+    {
+     "t": "we protect",
+     "s": "lg"
+    },
+    {
+     "t": "the body.",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "scene",
    "start": 185.933,
    "end": 192.033,
-   "text": "You can't inject:"
+   "scene": "cards",
+   "beats": [
+    0.1,
+    1.434,
+    3.4
+   ],
+   "props": {
+    "heading": "you can't inject",
+    "cards": [
+     {
+      "icon": "x",
+      "label": "Muscle",
+      "color": "red"
+     },
+     {
+      "icon": "x",
+      "label": "Bone density",
+      "color": "red"
+     },
+     {
+      "icon": "x",
+      "label": "Movement",
+      "color": "red"
+     }
+    ]
+   }
   },
   {
-   "type": "chip",
-   "start": 186.233,
-   "end": 187.367,
-   "emoji": "💪",
-   "text": "Muscle"
-  },
-  {
-   "type": "chip",
-   "start": 187.367,
-   "end": 189.233,
-   "emoji": "🦴",
-   "text": "Bone density"
-  },
-  {
-   "type": "chip",
-   "start": 189.233,
-   "end": 192.033,
-   "emoji": "🏃",
-   "text": "Movement"
-  },
-  {
-   "type": "title",
-   "start": 195.167,
+   "type": "kinetic",
+   "start": 192.167,
    "end": 199.767,
-   "kicker": "On GLP-1?",
-   "text": "Lifting = mandatory",
-   "color": "#FFD60A"
+   "lines": [
+    {
+     "t": "On GLP-1, strength training is",
+     "s": "sm"
+    },
+    {
+     "t": "mandatory.",
+     "s": "lg",
+     "c": "red"
+    },
+    {
+     "t": "your medical shield",
+     "s": "sm"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 199.933,
    "end": 204.033,
-   "kicker": "GLP-1 clients",
-   "text": "Trainer's game plan"
+   "lines": [
+    {
+     "t": "GLP-1 clients",
+     "s": "sm"
+    },
+    {
+     "t": "the game plan.",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 208.7,
    "end": 211.5,
-   "text": "Non-negotiable",
-   "color": "#FF3B30"
+   "lines": [
+    {
+     "t": "Here's the",
+     "s": "sm"
+    },
+    {
+     "t": "non-negotiable",
+     "s": "lg",
+     "c": "red"
+    },
+    {
+     "t": "playbook.",
+     "s": "lg"
+    }
+   ]
   },
   {
-   "type": "step",
+   "type": "scene",
    "start": 211.7,
    "end": 216.8,
-   "n": 1,
-   "total": 3,
-   "text": "Heavy resistance training"
+   "scene": "cards",
+   "beats": [
+    0.1,
+    0.4,
+    0.7
+   ],
+   "props": {
+    "heading": "the playbook",
+    "cards": [
+     {
+      "icon": "1",
+      "label": "Heavy lifting",
+      "sub": "2–3× / week",
+      "color": "red"
+     },
+     {
+      "icon": "2",
+      "label": "Protein",
+      "sub": "1.6–2.2 g/kg",
+      "color": "gold"
+     },
+     {
+      "icon": "3",
+      "label": "Track body",
+      "sub": "DEXA / InBody",
+      "color": "cyan"
+     }
+    ],
+    "active": 0
+   }
   },
   {
-   "type": "chip",
-   "start": 216.9,
+   "type": "kinetic",
+   "start": 216.8,
    "end": 224.4,
-   "emoji": "🏋️",
-   "text": "2-3x / week"
+   "lines": [
+    {
+     "t": "Not just cardio",
+     "s": "sm"
+    },
+    {
+     "t": "progressive",
+     "s": "lg"
+    },
+    {
+     "t": "overload.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
   },
   {
-   "type": "step",
+   "type": "scene",
    "start": 224.633,
    "end": 232.333,
-   "n": 2,
-   "total": 3,
-   "text": "Aggressive protein"
+   "scene": "cards",
+   "beats": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "props": {
+    "heading": "the playbook",
+    "cards": [
+     {
+      "icon": "1",
+      "label": "Heavy lifting",
+      "sub": "2–3× / week",
+      "color": "red"
+     },
+     {
+      "icon": "2",
+      "label": "Protein",
+      "sub": "1.6–2.2 g/kg",
+      "color": "gold"
+     },
+     {
+      "icon": "3",
+      "label": "Track body",
+      "sub": "DEXA / InBody",
+      "color": "cyan"
+     }
+    ],
+    "active": 1
+   }
   },
   {
-   "type": "stat",
-   "start": 236.967,
-   "end": 241.767,
-   "to": 800,
-   "suffix": "KCAL",
-   "label": "a day = starving muscle",
-   "color": "#FF3B30",
-   "from": 2000
+   "type": "kinetic",
+   "start": 232.467,
+   "end": 241.667,
+   "lines": [
+    {
+     "t": "People end up eating",
+     "s": "sm"
+    },
+    {
+     "t": "800",
+     "s": "xl",
+     "c": "red"
+    },
+    {
+     "t": "calories a day",
+     "s": "sm"
+    }
+   ]
   },
   {
-   "type": "stat",
+   "type": "scene",
    "start": 241.767,
-   "end": 249.533,
-   "to": 2.2,
-   "prefix": "1.6–",
-   "suffix": "G/KG",
-   "label": "protein per kg bodyweight",
-   "color": "#30D158",
-   "from": 1.6
-  },
-  {
-   "type": "chip",
-   "start": 249.533,
    "end": 251.933,
-   "emoji": "🥩",
-   "text": "Protect muscle"
+   "scene": "gauge",
+   "beats": [
+    1.5
+   ],
+   "props": {
+    "kicker": "daily protein target",
+    "title": "1.6–2.2",
+    "unit": "g per kg bodyweight",
+    "min": 0,
+    "max": 3,
+    "to": 1.9,
+    "band": [
+     1.6,
+     2.2
+    ],
+    "color": "green",
+    "from": 0
+   }
   },
   {
-   "type": "step",
+   "type": "scene",
    "start": 252.133,
-   "end": 255.4,
-   "n": 3,
-   "total": 3,
-   "text": "Track DEXA / InBody"
-  },
-  {
-   "type": "compare",
-   "start": 255.533,
    "end": 263.433,
-   "leftValue": "LEAN",
-   "leftLabel": "tissue",
-   "rightValue": "FAT",
-   "rightLabel": "mass"
+   "scene": "cards",
+   "beats": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "props": {
+    "heading": "the playbook",
+    "cards": [
+     {
+      "icon": "1",
+      "label": "Heavy lifting",
+      "sub": "2–3× / week",
+      "color": "red"
+     },
+     {
+      "icon": "2",
+      "label": "Protein",
+      "sub": "1.6–2.2 g/kg",
+      "color": "gold"
+     },
+     {
+      "icon": "3",
+      "label": "Track body",
+      "sub": "DEXA / InBody",
+      "color": "cyan"
+     }
+    ],
+    "active": 2
+   }
   },
   {
-   "type": "title",
+   "type": "kinetic",
    "start": 263.633,
-   "end": 267.267,
-   "kicker": "Final takeaway",
-   "text": "Not a magic eraser",
-   "color": "#FFD60A"
+   "end": 267.233,
+   "lines": [
+    {
+     "t": "Final takeaway",
+     "s": "sm"
+    },
+    {
+     "t": "not a magic",
+     "s": "lg"
+    },
+    {
+     "t": "eraser.",
+     "s": "lg",
+     "c": "gold"
+    }
+   ]
   },
   {
-   "type": "chip",
+   "type": "kinetic",
    "start": 267.327,
-   "end": 268.767,
-   "emoji": "🚫",
-   "text": "Not cheating"
-  },
-  {
-   "type": "chip",
-   "start": 268.967,
    "end": 271.367,
-   "emoji": "💊",
-   "text": "Powerful tool"
+   "lines": [
+    {
+     "t": "Not cheating either",
+     "s": "sm"
+    },
+    {
+     "t": "a powerful",
+     "s": "lg"
+    },
+    {
+     "t": "tool.",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "title",
-   "start": 272.867,
-   "end": 276.567,
-   "kicker": "GLP-1 without lifting",
-   "text": "Supercar. No oil.",
-   "color": "#FF3B30"
-  },
-  {
-   "type": "chip",
-   "start": 277.5,
+   "type": "scene",
+   "start": 271.567,
    "end": 279.7,
-   "emoji": "💥",
-   "text": "Breakdown"
+   "scene": "gauge",
+   "beats": [
+    2.9
+   ],
+   "props": {
+    "kicker": "GLP-1 without lifting",
+    "title": "No oil.",
+    "unit": "engine warning",
+    "min": 0,
+    "max": 100,
+    "minLabel": "E",
+    "maxLabel": "F",
+    "to": 2,
+    "color": "red",
+    "from": 85
+   }
   },
   {
-   "type": "title",
-   "start": 281.467,
-   "end": 287.267,
-   "kicker": "Your turn",
-   "text": "Did your doctor mention lifting?"
+   "type": "kinetic",
+   "start": 279.767,
+   "end": 287.167,
+   "lines": [
+    {
+     "t": "Your turn",
+     "s": "sm"
+    },
+    {
+     "t": "did your doctor",
+     "s": "lg"
+    },
+    {
+     "t": "mention lifting?",
+     "s": "lg",
+     "c": "cyan"
+    }
+   ]
   },
   {
-   "type": "chip",
+   "type": "kinetic",
    "start": 287.4,
-   "end": 289.0,
-   "emoji": "🤔",
-   "text": "Or just eat less?"
+   "end": 289.033,
+   "lines": [
+    {
+     "t": "Or just",
+     "s": "lg"
+    },
+    {
+     "t": "eat less?",
+     "s": "lg",
+     "c": "red"
+    }
+   ]
   },
   {
    "type": "cta",
    "start": 289.033,
    "end": 292.267,
-   "text": "Comment below 👇",
-   "sub": "Follow for more coaching tips"
+   "text": "Comment below",
+   "sub": "Follow for more"
   }
  ],
  "sfx": [
   {
-   "t": 0.0,
-   "src": "whoosh_hit_a",
-   "volume": 0.5
-  },
-  {
-   "t": 10.55,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 14.383,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 21.45,
-   "src": "snap_glassy",
-   "volume": 0.45
-  },
-  {
-   "t": 26.183,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 41.983,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 46.383,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 52.517,
-   "src": "whoosh_organic",
-   "volume": 0.45
-  },
-  {
-   "t": 64.617,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 69.517,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 73.217,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 77.283,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 82.583,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 91.817,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 96.783,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 100.417,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 108.717,
-   "src": "snap_glassy",
-   "volume": 0.45
-  },
-  {
-   "t": 118.283,
-   "src": "whoosh_organic",
-   "volume": 0.45
-  },
-  {
-   "t": 125.417,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 128.75,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 140.217,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 143.75,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 147.45,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 156.75,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 161.617,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 169.817,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 175.583,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 180.583,
-   "src": "whoosh_organic",
-   "volume": 0.45
-  },
-  {
-   "t": 185.883,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 186.183,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 187.317,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 189.183,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 195.117,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 199.883,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 208.65,
-   "src": "whoosh_slide",
-   "volume": 0.42
-  },
-  {
-   "t": 211.65,
+   "t": 0.17,
    "src": "snap_perc",
-   "volume": 0.5
+   "volume": 0.32
   },
   {
-   "t": 216.85,
-   "src": "pop",
-   "volume": 0.38
+   "t": 10.57,
+   "src": "whoosh_slide",
+   "volume": 0.24
   },
   {
-   "t": 224.583,
+   "t": 14.403,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 21.47,
    "src": "snap_perc",
-   "volume": 0.5
+   "volume": 0.32
   },
   {
-   "t": 236.917,
-   "src": "snap_glassy",
-   "volume": 0.45
+   "t": 34.637,
+   "src": "whoosh_slide",
+   "volume": 0.24
   },
   {
-   "t": 241.717,
-   "src": "snap_glassy",
-   "volume": 0.45
+   "t": 42.003,
+   "src": "whoosh_slide",
+   "volume": 0.24
   },
   {
-   "t": 249.483,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 252.083,
+   "t": 46.403,
    "src": "snap_perc",
-   "volume": 0.5
+   "volume": 0.32
   },
   {
-   "t": 255.483,
-   "src": "whoosh_organic",
-   "volume": 0.45
-  },
-  {
-   "t": 263.583,
+   "t": 90.437,
    "src": "whoosh_slide",
-   "volume": 0.42
+   "volume": 0.24
   },
   {
-   "t": 267.277,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 268.917,
-   "src": "pop",
-   "volume": 0.38
-  },
-  {
-   "t": 272.817,
+   "t": 95.803,
    "src": "whoosh_slide",
-   "volume": 0.42
+   "volume": 0.24
   },
   {
-   "t": 277.45,
-   "src": "pop",
-   "volume": 0.38
+   "t": 100.437,
+   "src": "snap_perc",
+   "volume": 0.32
   },
   {
-   "t": 281.417,
+   "t": 104.537,
    "src": "whoosh_slide",
-   "volume": 0.42
+   "volume": 0.24
   },
   {
-   "t": 287.35,
-   "src": "pop",
-   "volume": 0.38
+   "t": 116.203,
+   "src": "whoosh_slide",
+   "volume": 0.24
   },
   {
-   "t": 288.983,
+   "t": 143.77,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 147.37,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 156.67,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 161.637,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 169.837,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 174.603,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 180.603,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 186.113,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 187.447,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 189.413,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 192.137,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 199.903,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 208.67,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 211.88,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 216.77,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 224.713,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 232.437,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 252.213,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 263.603,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 267.297,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 279.737,
+   "src": "whoosh_slide",
+   "volume": 0.24
+  },
+  {
+   "t": 287.37,
+   "src": "snap_perc",
+   "volume": 0.32
+  },
+  {
+   "t": 289.133,
    "src": "notif_a",
-   "volume": 0.4
+   "volume": 0.35
   },
   {
    "t": 0.0,
    "src": "boom",
-   "volume": 0.55
-  },
-  {
-   "t": 6.7,
-   "src": "riser",
-   "volume": 0.35
-  },
-  {
-   "t": 7.23,
-   "src": "whoosh_short_a",
    "volume": 0.5
   },
   {
-   "t": 21.8,
-   "src": "ui_blip",
-   "volume": 0.35
-  },
-  {
-   "t": 109.067,
-   "src": "ui_blip",
-   "volume": 0.3
-  },
-  {
-   "t": 100.467,
-   "src": "boom",
-   "volume": 0.35
-  },
-  {
-   "t": 118.433,
-   "src": "glitch",
-   "volume": 0.25
-  },
-  {
-   "t": 125.567,
-   "src": "glitch",
-   "volume": 0.3
-  },
-  {
-   "t": 143.8,
-   "src": "ping",
-   "volume": 0.35
-  },
-  {
-   "t": 175.633,
-   "src": "whoosh_hit_a",
-   "volume": 0.35
-  },
-  {
-   "t": 186.233,
-   "src": "click",
-   "volume": 0.4
-  },
-  {
-   "t": 187.367,
-   "src": "click",
-   "volume": 0.4
-  },
-  {
-   "t": 189.233,
-   "src": "click",
-   "volume": 0.4
-  },
-  {
-   "t": 236.967,
-   "src": "glitch",
-   "volume": 0.25
-  },
-  {
-   "t": 241.767,
-   "src": "coins",
-   "volume": 0.3
-  },
-  {
-   "t": 271.867,
+   "t": 6.2,
    "src": "riser",
    "volume": 0.3
+  },
+  {
+   "t": 111.267,
+   "src": "riser",
+   "volume": 0.2
+  },
+  {
+   "t": 120.833,
+   "src": "glitch",
+   "volume": 0.22
+  },
+  {
+   "t": 136.4,
+   "src": "ui_blip",
+   "volume": 0.25
+  },
+  {
+   "t": 71.267,
+   "src": "ping",
+   "volume": 0.25
+  },
+  {
+   "t": 85.433,
+   "src": "ping",
+   "volume": 0.25
+  },
+  {
+   "t": 243.267,
+   "src": "ui_blip",
+   "volume": 0.25
+  },
+  {
+   "t": 274.467,
+   "src": "glitch",
+   "volume": 0.25
   },
   {
    "t": 277.5,
    "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 52.487,
+   "src": "whoosh_organic",
    "volume": 0.4
   },
   {
-   "t": 252.133,
-   "src": "camera_a",
-   "volume": 0.35
+   "t": 64.35,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 64.587,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 77.017,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 77.253,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 90.283,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 108.687,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 116.183,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 118.253,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 128.617,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 128.72,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 143.717,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 185.853,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 191.983,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 211.62,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 216.75,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 224.553,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 232.283,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 241.687,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 251.883,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 252.053,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 263.383,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 271.487,
+   "src": "whoosh_organic",
+   "volume": 0.4
+  },
+  {
+   "t": 279.65,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 7.23,
+   "src": "whoosh_short_a",
+   "volume": 0.4
+  },
+  {
+   "t": 100.347,
+   "src": "whoosh_short_a",
+   "volume": 0.4
+  },
+  {
+   "t": 161.547,
+   "src": "whoosh_short_a",
+   "volume": 0.4
+  },
+  {
+   "t": 199.813,
+   "src": "whoosh_short_a",
+   "volume": 0.4
+  },
+  {
+   "t": 263.513,
+   "src": "whoosh_short_a",
+   "volume": 0.4
   }
  ],
- "flashes": [
+ "whips": [
   7.35,
   100.467,
+  161.667,
   199.933,
   263.633
  ],

@@ -137,16 +137,25 @@ for o in P.OVERLAYS:
     st = to_out(o["start"], kind)
     en = to_out(o["end"], kind) if "end" in o else st + o.pop("dur")
     o["start"], o["end"] = st, round(en, 3)
+    if o["type"] == "scene":  # beats are source times -> seconds after scene start
+        o["beats"] = [round(to_out(b, kind) - st, 3) for b in o.get("beats", [])]
+        o.setdefault("props", {})
     overlays.append(o)
 sfx = []
 for s in P.SFX:
     sfx.append({"t": round(to_out(s[0], s[3] if len(s) > 3 else "main") + (s[4] if len(s) > 4 else 0), 3), "src": s[1], "volume": s[2]})
-# automatic: soft whoosh on the cold-open -> intro cut
-flashes = [to_out(t, k) for t, k in P.FLASHES]
+whips = [to_out(t, k) for t, k in P.WHIPS]
+# every scene gets a soft whoosh in and out (PiP move)
+for o in overlays:
+    if o["type"] == "scene":
+        sfx.append({"t": round(o["start"] - 0.08, 3), "src": "whoosh_organic", "volume": 0.4})
+        sfx.append({"t": round(o["end"] - 0.05, 3), "src": "whoosh_slide", "volume": 0.3})
+for t in whips:
+    sfx.append({"t": round(t - 0.12, 3), "src": "whoosh_short_a", "volume": 0.4})
 caption_hidden = [[o["start"], o["end"]] for o in overlays if o["type"] == "cta"]
 
 json.dump({"duration": duration, "segments": segments, "pages": pages, "overlays": overlays, "sfx": sfx,
-           "flashes": flashes, "captionHidden": caption_hidden},
+           "whips": whips, "captionHidden": caption_hidden},
           open(os.path.join(ROOT, "src/data/edit.json"), "w"), ensure_ascii=False, indent=1)
 
 # 6) render the voice track with 12 ms crossfades at every cut

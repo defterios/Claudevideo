@@ -12,6 +12,13 @@ Vertical 1080x1920 edit for TikTok / IG Reels.
 
 `public/src/` (source video, proxy, voice) is git-ignored — regenerate with ffmpeg (see build notes in the script).
 
+## Style (v2 — cinematic, after reference edit)
+- Cinematic grade (desaturated, contrast, teal shadows, vignette), blur-whip transitions on section changes.
+- Kinetic typography (blur-reveal, word by word) in the negative space above the head.
+- Motion-graphics scenes on a navy stage with the speaker in a PiP card (face stays visible):
+  cards, receptor diagram, fat/muscle bar, 10 kg blocks, metabolism gears, gauges.
+- Small clean captions, upcoming words dimmed, keywords in red.
+
 ## Layout rules
 - Safe zone (TikTok + IG): x 60–930, y 210–1440 (`src/theme.ts`).
 - Face box measured from footage: x 380–760, y 610–1110 — no graphic enters it.

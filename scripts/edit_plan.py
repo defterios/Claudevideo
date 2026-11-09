@@ -27,96 +27,107 @@ WORD_FIXES = [
     (307.98, "DEXA"), (308.82, "or InBody,"),
 ]
 
-# ---- motion graphics ----------------------------------------------------------
-# top zone = above the head, chip = left of the face. Nothing ever covers the face.
+# ---- motion graphics (reference style) -------------------------------------
+# kinetic = blur-reveal type in the negative space above the head
+# scene   = navy stage + speaker in a PiP card (face always visible) + animated graphic below
+def K(start, end, *lines, kind="main"):
+    return dict(kind=kind, type="kinetic", start=start, end=end,
+                lines=[dict(t=t, s=sz, **({"c": c} if c else {})) for sz, t, c in lines])
+
+def S(start, end, scene, beats=(), **props):
+    return dict(type="scene", start=start, end=end, scene=scene, beats=list(beats), props=props)
+
+sm = lambda t, c=None: ("sm", t, c)
+lg = lambda t, c=None: ("lg", t, c)
+xl = lambda t, c=None: ("xl", t, c)
+
+PLAYBOOK = [
+    dict(icon="1", label="Heavy lifting", sub="2–3× / week", color="red"),
+    dict(icon="2", label="Protein", sub="1.6–2.2 g/kg", color="gold"),
+    dict(icon="3", label="Track body", sub="DEXA / InBody", color="cyan"),
+]
+
 OVERLAYS = [
-    # hook
-    dict(kind="hook", type="hook", start=125.45, end=132.75, line1="⚠️ THE HIDDEN CATCH", line2="UP TO 40% = MUSCLE"),
+    # cold open
+    K(125.6, 132.75, xl("40%", "red"), sm("of GLP-1 weight loss can be"), lg("muscle."), kind="hook"),
     # intro
-    dict(type="title", start=4.3, end=8.3, kicker="Biggest thing in fitness", text="Ozempic & Mounjaro"),
-    dict(type="chip", start=8.6, end=15.4, emoji="💉", text="GLP-1 + GIP"),
-    dict(type="stat", start=16.0, end=20.7, from_=0, to=30, suffix="KG", label="lost in record time"),
-    dict(type="chip", start=21.0, end=26.0, emoji="🏋️", text="Coach's view"),
-    dict(type="chip", start=38.0, end=41.5, emoji="✅", text="They work"),
-    dict(type="title", start=42.4, end=48.4, kicker="The real question", text="What weight are you losing?", color="#FFD60A"),
+    K(4.3, 8.0, sm("The biggest thing in fitness"), lg("Ozempic &"), lg("Mounjaro", "cyan")),
+    K(8.6, 15.4, sm("GLP-1 + dual-action GIP"), lg("changing"), lg("the game.", "gold")),
+    K(16.0, 20.6, sm("People are dropping"), xl("30 KG", "gold"), sm("in record time")),
+    K(29.6, 33.3, sm("As a coach, my reaction"), lg("isn't hate.")),
+    K(38.0, 41.6, sm("The clinical data says"), lg("they work.", "green")),
+    K(42.4, 48.4, sm("The real question"), lg("what weight are"), lg("you losing?", "red")),
     # science
-    dict(type="compare", start=49.3, end=57.2, leftValue="OZEMPIC", leftLabel="semaglutide", rightValue="MOUNJARO", rightLabel="tirzepatide"),
-    dict(type="title", start=67.9, end=72.7, kicker="Ozempic", text="1 hormone: GLP-1"),
-    dict(type="chip", start=72.8, end=76.4, emoji="🧠", text="You feel full"),
-    dict(type="chip", start=76.5, end=80.3, emoji="🍽️", text="Eat less"),
-    dict(type="title", start=83.6, end=89.0, kicker="Mounjaro", text="2 receptors: GLP-1 + GIP"),
-    dict(type="chip", start=89.2, end=96.9, emoji="📉", text="More weight lost"),
-    dict(type="chip", start=99.0, end=103.2, emoji="👑", text="Scale winner"),
-    dict(type="title", start=104.3, end=107.9, kicker="But trainers care about", text="Body composition", color="#FFD60A"),
+    S(49.3, 63.0, "cards", heading="semaglutide vs tirzepatide",
+      cards=[dict(icon="1", label="Ozempic", sub="1 receptor", color="cyan"),
+             dict(icon="2", label="Mounjaro", sub="2 receptors", color="gold")]),
+    S(67.9, 80.3, "receptors", beats=[74.5], drug="Ozempic", sub="semaglutide", lit=["GLP-1"], result="You feel full"),
+    S(83.6, 96.9, "receptors", beats=[92.0], drug="Mounjaro", sub="tirzepatide", lit=["GLP-1", "GIP"], result="More weight lost"),
+    K(97.6, 103.2, sm("On the scale"), lg("Mounjaro", "gold"), lg("wins.")),
+    K(103.3, 107.9, sm("But trainers care about"), lg("body"), lg("composition.", "cyan")),
     # the catch
-    dict(type="title", start=116.2, end=120.3, kicker="The hidden catch", text="Muscle & bone loss", color="#FF3B30"),
-    dict(type="stat", start=125.3, end=132.7, from_=0, to=40, suffix="%", label="of weight lost can be muscle", color="#FF3B30"),
-    dict(type="compare", start=135.8, end=141.3, leftValue="10 KG", leftLabel="lost on the scale", rightValue="3-4 KG", rightLabel="was muscle"),
-    dict(type="chip", start=143.2, end=146.4, emoji="⚙️", text="Metabolism wrecked"),
-    dict(type="title", start=150.8, end=153.2, text="Metabolic slowdown"),
-    dict(type="chip", start=162.7, end=166.2, emoji="📈", text="Weight regain"),
-    dict(type="title", start=167.0, end=170.6, kicker="Risk", text="Sarcopenia", color="#FF3B30"),
-    dict(type="chip", start=171.0, end=176.3, emoji="⏳", text="40+? Extra risk"),
-    dict(type="title", start=180.8, end=185.5, text="Joint pain. Weakness. Less mobility.", color="#FFD60A"),
+    K(116.2, 120.3, sm("The hidden catch"), lg("muscle & bone"), lg("loss.", "red")),
+    K(120.8, 124.7, sm("What most doctors"), lg("don't explain.")),
+    S(125.3, 133.2, "weightbar", beats=[127.8], heading="weight lost on GLP-1", foot="lean muscle — not fat"),
+    K(133.3, 135.3, lg("Think about"), lg("that.", "gold")),
+    S(135.8, 146.4, "blocks", beats=[138.3]),
+    S(150.8, 166.2, "gears", beats=[158.4], kicker="your metabolic engine", title="Metabolism", after="slowing down"),
+    K(167.0, 170.6, sm("This raises your risk of"), lg("sarcopenia.", "red")),
+    K(170.9, 176.3, sm("Over 40 or 50?"), lg("you're already"), lg("losing muscle.", "gold")),
+    K(180.7, 185.6, sm("A fast track to"), lg("joint pain"), lg("& weakness.", "red")),
     # trainers
-    dict(type="title", start=192.9, end=197.0, text="Are trainers out of a job?"),
-    dict(type="chip", start=202.1, end=206.7, emoji="💉", text="Fat-melting shot?"),
-    dict(type="title", start=208.3, end=213.2, kicker="Reality", text="More essential than ever", color="#FFD60A"),
-    dict(type="compare", start=217.6, end=222.8, leftValue="APPETITE", leftLabel="drug handles", rightValue="BODY", rightLabel="we protect"),
-    dict(type="title", start=223.3, end=230.0, text="You can't inject:"),
-    dict(type="chip", start=223.6, end=225.0, emoji="💪", text="Muscle"),
-    dict(type="chip", start=225.0, end=227.2, emoji="🦴", text="Bone density"),
-    dict(type="chip", start=227.2, end=230.0, emoji="🏃", text="Movement"),
-    dict(type="title", start=242.1, end=246.7, kicker="On GLP-1?", text="Lifting = mandatory", color="#FFD60A"),
+    K(192.9, 197.0, sm("So are trainers"), lg("out of a job?")),
+    K(202.1, 206.7, sm("If a shot can melt fat..."), lg("why hire"), lg("a coach?", "cyan")),
+    K(207.3, 213.2, sm("Reality"), lg("more essential"), lg("than ever.", "gold")),
+    K(217.6, 222.8, sm("The drug handles appetite"), lg("we protect"), lg("the body.", "cyan")),
+    S(223.3, 230.0, "cards", beats=[223.4, 225.0, 227.3], heading="you can't inject",
+      cards=[dict(icon="x", label="Muscle", color="red"), dict(icon="x", label="Bone density", color="red"),
+             dict(icon="x", label="Movement", color="red")]),
+    K(239.1, 246.7, sm("On GLP-1, strength training is"), lg("mandatory.", "red"), sm("your medical shield")),
     # playbook
-    dict(type="title", start=252.5, end=256.6, kicker="GLP-1 clients", text="Trainer's game plan"),
-    dict(type="title", start=261.8, end=264.6, text="Non-negotiable", color="#FF3B30"),
-    dict(type="step", start=264.8, end=270.4, n=1, total=3, text="Heavy resistance training"),
-    dict(type="chip", start=270.5, end=278.0, emoji="🏋️", text="2-3x / week"),
-    dict(type="step", start=278.6, end=286.3, n=2, total=3, text="Aggressive protein"),
-    dict(type="stat", start=291.2, end=296.0, from_=2000, to=800, suffix="KCAL", label="a day = starving muscle", color="#FF3B30"),
-    dict(type="stat", start=296.0, end=304.0, from_=1.6, to=2.2, prefix="1.6–", suffix="G/KG", label="protein per kg bodyweight", color="#30D158"),
-    dict(type="chip", start=304.0, end=306.4, emoji="🥩", text="Protect muscle"),
-    dict(type="step", start=307.0, end=310.6, n=3, total=3, text="Track DEXA / InBody"),
-    dict(type="compare", start=311.0, end=318.9, leftValue="LEAN", leftLabel="tissue", rightValue="FAT", rightLabel="mass"),
+    K(252.5, 256.6, sm("GLP-1 clients"), lg("the game plan.")),
+    K(261.8, 264.6, sm("Here's the"), lg("non-negotiable", "red"), lg("playbook.")),
+    S(264.8, 270.4, "cards", beats=[264.9, 265.2, 265.5], heading="the playbook", cards=PLAYBOOK, active=0),
+    K(270.4, 278.0, sm("Not just cardio"), lg("progressive"), lg("overload.", "gold")),
+    S(278.6, 286.3, "cards", beats=[278.6, 278.6, 278.6], heading="the playbook", cards=PLAYBOOK, active=1),
+    K(286.7, 295.9, sm("People end up eating"), xl("800", "red"), sm("calories a day")),
+    S(296.0, 306.4, "gauge", beats=[297.5], kicker="daily protein target", title="1.6–2.2", unit="g per kg bodyweight",
+      min=0, max=3, from_=0, to=1.9, band=[1.6, 2.2], color="green"),
+    S(307.0, 318.9, "cards", beats=[307.0, 307.0, 307.0], heading="the playbook", cards=PLAYBOOK, active=2),
     # outro
-    dict(type="title", start=334.7, end=338.4, kicker="Final takeaway", text="Not a magic eraser", color="#FFD60A"),
-    dict(type="chip", start=338.66, end=340.1, emoji="🚫", text="Not cheating"),
-    dict(type="chip", start=340.3, end=342.7, emoji="💊", text="Powerful tool"),
-    dict(type="title", start=344.4, end=348.3, kicker="GLP-1 without lifting", text="Supercar. No oil.", color="#FF3B30"),
-    dict(type="chip", start=349.4, end=351.6, emoji="💥", text="Breakdown"),
-    dict(type="title", start=353.8, end=359.6, kicker="Your turn", text="Did your doctor mention lifting?"),
-    dict(type="chip", start=360.2, end=361.8, emoji="🤔", text="Or just eat less?"),
-    dict(type="cta", start=362.3, end=365.6, text="Comment below 👇", sub="Follow for more coaching tips"),
+    K(334.7, 338.3, sm("Final takeaway"), lg("not a magic"), lg("eraser.", "gold")),
+    K(338.66, 342.7, sm("Not cheating either"), lg("a powerful"), lg("tool.", "cyan")),
+    S(343.1, 351.6, "gauge", beats=[346.0], kicker="GLP-1 without lifting", title="No oil.", unit="engine warning",
+      min=0, max=100, minLabel="E", maxLabel="F", from_=85, to=2, color="red"),
+    K(352.1, 359.5, sm("Your turn"), lg("did your doctor"), lg("mention lifting?", "cyan")),
+    K(360.2, 362.0, lg("Or just"), lg("eat less?", "red")),
+    dict(type="cta", start=362.3, end=365.6, text="Comment below", sub="Follow for more"),
 ]
 for o in OVERLAYS:  # 'from' is a python keyword
-    if "from_" in o:
-        o["from"] = o.pop("from_")
+    if "from_" in o.get("props", {}):
+        o["props"]["from"] = o["props"].pop("from_")
 
-# ---- sound design ------------------------------------------------------------
+# ---- sound design (subtle, like the reference) --------------------------------
 # (source time, file, volume[, kind[, offset seconds]])
-_AUTO = {"title": ("whoosh_slide", 0.42), "chip": ("pop", 0.38), "stat": ("snap_glassy", 0.45),
-         "compare": ("whoosh_organic", 0.45), "step": ("snap_perc", 0.5), "cta": ("notif_a", 0.4),
-         "hook": ("whoosh_hit_a", 0.5)}
 SFX = []
 for o in OVERLAYS:
-    f, v = _AUTO[o["type"]]
-    SFX.append((o["start"], f, v, o.get("kind", "main"), -0.05))
+    if o["type"] == "kinetic":
+        hot = any(l.get("c") == "red" or l["s"] == "xl" for l in o["lines"])
+        SFX.append((o["start"], "snap_perc" if hot else "whoosh_slide", 0.32 if hot else 0.24, o["kind"], -0.03))
+    if o["type"] == "scene" and o["scene"] == "cards":
+        for b in o["beats"][:len(o["props"]["cards"])] if "active" not in o["props"] else o["beats"][:1]:
+            SFX.append((b, "click", 0.35, "main", 0.08))
+    if o["type"] == "cta":
+        SFX.append((o["start"], "notif_a", 0.35, "main", 0.1))
 
 SFX += [
-    (125.40, "boom", 0.55, "hook", 0.0),              # cold-open impact
-    (132.10, "riser", 0.35, "hook", 0.0),             # build into the intro
-    (1.05, "whoosh_short_a", 0.5, "main", -0.12),     # hook -> intro transition
-    (16.3, "ui_blip", 0.35), (125.6, "ui_blip", 0.3),  # counters ticking
-    (116.2, "boom", 0.35),                            # "hidden catch"
-    (135.9, "glitch", 0.25), (143.3, "glitch", 0.3),  # wrecked metabolism
-    (167.0, "ping", 0.35),
-    (208.3, "whoosh_hit_a", 0.35),
-    (223.6, "click", 0.4), (225.0, "click", 0.4), (227.2, "click", 0.4),
-    (291.2, "glitch", 0.25), (296.0, "coins", 0.3),
-    (344.4, "riser", 0.3, "main", -1.0), (349.4, "boom", 0.4),
-    (307.0, "camera_a", 0.35),
+    (125.40, "boom", 0.5, "hook", 0.0),               # cold-open impact
+    (131.6, "riser", 0.3, "hook", 0.0),               # build into the intro
+    (127.8, "riser", 0.2), (138.3, "glitch", 0.22),   # weight bar split / blocks turn red
+    (158.4, "ui_blip", 0.25),                         # gears stall
+    (74.5, "ping", 0.25), (92.0, "ping", 0.25),       # receptor results
+    (297.5, "ui_blip", 0.25), (346.0, "glitch", 0.25), (349.4, "boom", 0.3),
 ]
 
-# white flash on big section changes
-FLASHES = [(1.05, "main"), (116.2, "main"), (252.5, "main"), (334.7, "main")]
+# blur-whip transitions on section changes
+WHIPS = [(1.05, "main"), (116.2, "main"), (192.9, "main"), (252.5, "main"), (334.7, "main")]
