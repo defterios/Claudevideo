@@ -13,6 +13,7 @@ import numpy as np
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 import edit_plan as P  # noqa: E402
+BMETA = json.load(open(os.path.join(ROOT, 'scripts/broll_meta.json')))
 
 FPS = 30
 MERGE_GAP = 0.42   # pauses shorter than this stay untouched (natural rhythm)
@@ -137,6 +138,11 @@ for o in P.OVERLAYS:
     st = to_out(o["start"], kind)
     en = to_out(o["end"], kind) if "end" in o else st + o.pop("dur")
     o["start"], o["end"] = st, round(en, 3)
+    if o["type"] == "broll":
+        m = BMETA[o["img"]]
+        o["src"] = f"broll/{o.pop('img')}.jpg"
+        o["aspect"] = round(m["w"] / m["h"], 3)
+        o.setdefault("mode", "full"); o.setdefault("motion", "in")
     if o["type"] == "scene":  # beats are source times -> seconds after scene start
         o["beats"] = [round(to_out(b, kind) - st, 3) for b in o.get("beats", [])]
         o.setdefault("props", {})

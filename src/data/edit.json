@@ -6258,7 +6258,7 @@
   },
   {
    "type": "scene",
-   "start": 52.567,
+   "start": 53.267,
    "end": 64.4,
    "scene": "cards",
    "beats": [],
@@ -6422,7 +6422,7 @@
   {
    "type": "scene",
    "start": 118.333,
-   "end": 128.667,
+   "end": 123.8,
    "scene": "blocks",
    "beats": [
     2.5
@@ -6718,7 +6718,7 @@
   {
    "type": "scene",
    "start": 224.633,
-   "end": 232.333,
+   "end": 231.433,
    "scene": "cards",
    "beats": [
     0.0,
@@ -6773,7 +6773,7 @@
   {
    "type": "scene",
    "start": 241.767,
-   "end": 251.933,
+   "end": 244.767,
    "scene": "gauge",
    "beats": [
     1.5
@@ -6870,11 +6870,11 @@
   },
   {
    "type": "scene",
-   "start": 271.567,
+   "start": 274.467,
    "end": 279.7,
    "scene": "gauge",
    "beats": [
-    2.9
+    0.6
    ],
    "props": {
     "kicker": "GLP-1 without lifting",
@@ -6924,6 +6924,285 @@
      "c": "red"
     }
    ]
+  },
+  {
+   "type": "broll",
+   "start": 10.6,
+   "end": 14.233,
+   "motion": "in",
+   "src": "broll/ozempic_3.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 14.333,
+   "end": 20.433,
+   "motion": "left",
+   "src": "broll/ozempic_4.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 20.433,
+   "end": 26.133,
+   "motion": "in",
+   "src": "broll/scale_0.jpg",
+   "aspect": 0.747,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 26.133,
+   "end": 31.333,
+   "motion": "out",
+   "src": "broll/kettlebell_4.jpg",
+   "aspect": 0.862,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 38.267,
+   "end": 41.967,
+   "motion": "in",
+   "src": "broll/pills_2.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 42.033,
+   "end": 45.733,
+   "motion": "right",
+   "src": "broll/lab_5.jpg",
+   "aspect": 1.499,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 46.433,
+   "end": 53.267,
+   "motion": "in",
+   "src": "broll/ozempic_5.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 90.467,
+   "end": 95.833,
+   "motion": "out",
+   "src": "broll/scale_5.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 95.833,
+   "end": 100.4,
+   "motion": "in",
+   "src": "broll/physique_3.jpg",
+   "aspect": 0.76,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 100.467,
+   "end": 104.5,
+   "motion": "in",
+   "src": "broll/xray_4.jpg",
+   "aspect": 0.819,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 104.567,
+   "end": 108.567,
+   "motion": "out",
+   "src": "broll/doctor_0.jpg",
+   "aspect": 0.616,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 123.8,
+   "end": 128.667,
+   "motion": "left",
+   "src": "broll/engine_5.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 143.8,
+   "end": 147.367,
+   "motion": "in",
+   "src": "broll/elderly_1.jpg",
+   "aspect": 0.75,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 147.367,
+   "end": 152.8,
+   "motion": "out",
+   "src": "broll/senior_gym_0.jpg",
+   "aspect": 0.75,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 152.9,
+   "end": 161.5,
+   "motion": "in",
+   "src": "broll/knee_4.jpg",
+   "aspect": 1.0,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 161.667,
+   "end": 165.767,
+   "motion": "in",
+   "src": "broll/empty_gym_4.jpg",
+   "aspect": 1.0,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 165.867,
+   "end": 174.467,
+   "motion": "left",
+   "src": "broll/syringe_6.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 174.633,
+   "end": 180.533,
+   "motion": "in",
+   "src": "broll/deadlift_6.jpg",
+   "aspect": 1.499,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 180.633,
+   "end": 185.833,
+   "motion": "out",
+   "src": "broll/plate_4.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 185.933,
+   "end": 188.733,
+   "motion": "in",
+   "mode": "pip",
+   "src": "broll/xray_0.jpg",
+   "aspect": 0.74
+  },
+  {
+   "type": "broll",
+   "start": 192.167,
+   "end": 199.767,
+   "motion": "in",
+   "src": "broll/barbell_2.jpg",
+   "aspect": 0.944,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 199.933,
+   "end": 204.033,
+   "motion": "right",
+   "src": "broll/kettlebell_6.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 204.067,
+   "end": 211.5,
+   "motion": "in",
+   "src": "broll/kettlebell_3.jpg",
+   "aspect": 0.759,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 216.8,
+   "end": 224.4,
+   "motion": "in",
+   "src": "broll/deadlift_3.jpg",
+   "aspect": 0.663,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 231.433,
+   "end": 241.667,
+   "motion": "in",
+   "src": "broll/small_meal_0.jpg",
+   "aspect": 0.667,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 244.767,
+   "end": 248.233,
+   "motion": "left",
+   "src": "broll/protein_4.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 248.233,
+   "end": 251.933,
+   "motion": "in",
+   "src": "broll/protein2_1.jpg",
+   "aspect": 0.667,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 267.327,
+   "end": 271.367,
+   "motion": "out",
+   "src": "broll/pills_6.jpg",
+   "aspect": 1.499,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 271.567,
+   "end": 274.467,
+   "motion": "left",
+   "src": "broll/supercar_2.jpg",
+   "aspect": 1.333,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 279.767,
+   "end": 287.167,
+   "motion": "in",
+   "src": "broll/doctor2_3.jpg",
+   "aspect": 0.67,
+   "mode": "full"
+  },
+  {
+   "type": "broll",
+   "start": 287.4,
+   "end": 289.033,
+   "motion": "in",
+   "src": "broll/small_meal_5.jpg",
+   "aspect": 1.333,
+   "mode": "full"
   },
   {
    "type": "cta",
@@ -7110,6 +7389,161 @@
    "volume": 0.35
   },
   {
+   "t": 10.5,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 14.233,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 20.333,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 26.033,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 38.167,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 41.933,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 46.333,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 90.367,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 95.733,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 100.367,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 104.467,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 123.7,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 143.7,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 147.267,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 152.8,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 161.567,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 165.767,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 174.533,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 180.533,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 185.833,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 192.067,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 199.833,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 203.967,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 216.7,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 231.333,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 244.667,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 248.133,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 267.227,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 271.467,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 279.667,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
+   "t": 287.3,
+   "src": "whoosh_short_b",
+   "volume": 0.22
+  },
+  {
    "t": 0.0,
    "src": "boom",
    "volume": 0.5
@@ -7160,7 +7594,7 @@
    "volume": 0.3
   },
   {
-   "t": 52.487,
+   "t": 53.187,
    "src": "whoosh_organic",
    "volume": 0.4
   },
@@ -7205,7 +7639,7 @@
    "volume": 0.4
   },
   {
-   "t": 128.617,
+   "t": 123.75,
    "src": "whoosh_slide",
    "volume": 0.3
   },
@@ -7245,7 +7679,7 @@
    "volume": 0.4
   },
   {
-   "t": 232.283,
+   "t": 231.383,
    "src": "whoosh_slide",
    "volume": 0.3
   },
@@ -7255,7 +7689,7 @@
    "volume": 0.4
   },
   {
-   "t": 251.883,
+   "t": 244.717,
    "src": "whoosh_slide",
    "volume": 0.3
   },
@@ -7270,7 +7704,7 @@
    "volume": 0.3
   },
   {
-   "t": 271.487,
+   "t": 274.387,
    "src": "whoosh_organic",
    "volume": 0.4
   },

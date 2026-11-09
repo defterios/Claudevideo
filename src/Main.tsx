@@ -3,6 +3,7 @@ import {AbsoluteFill, Audio, OffthreadVideo, Sequence, interpolate, spring, stat
 import edit from './data/edit.json';
 import {Captions} from './components/Captions';
 import {Overlays} from './components/Overlays';
+import {BRollFull, BRollPip} from './components/BRoll';
 import {C, FACE, PIP} from './theme';
 import type {CaptionPage, Overlay, Segment, Sfx} from './data/types';
 
@@ -13,6 +14,7 @@ const sfx = edit.sfx as Sfx[];
 const whips = edit.whips as number[];
 const captionHidden = edit.captionHidden as [number, number][];
 const scenes = overlays.filter((o) => o.type === 'scene');
+const brolls = overlays.filter((o): o is Extract<Overlay, {type: 'broll'}> => o.type === 'broll');
 
 export const MAIN_DURATION_SEC: number = edit.duration;
 
@@ -140,7 +142,9 @@ export const Main: React.FC<{videoSrc: string; musicVolume: number}> = ({videoSr
     <AbsoluteFill style={{backgroundColor: C.navy2}}>
       <Stage />
       <Footage src={staticFile(videoSrc)} />
-      <Overlays items={overlays} />
+      <BRollPip items={brolls} />
+      <BRollFull items={brolls} />
+      <Overlays items={overlays.filter((o) => o.type !== 'broll')} />
       <Captions pages={pages} hiddenRanges={captionHidden} />
 
       <Audio src={staticFile('src/voice_edit.wav')} volume={1} />

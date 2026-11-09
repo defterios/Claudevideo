@@ -19,12 +19,18 @@ Vertical 1080x1920 edit for TikTok / IG Reels.
   cards, receptor diagram, fat/muscle bar, 10 kg blocks, metabolism gears, gauges.
 - Small clean captions, upcoming words dimmed, keywords in red.
 
+## B-roll (v3)
+- Photos (CC via Openverse/Flickr, see CREDITS.md) cover ~55 % of the runtime: topic moments + every span where
+  gaze analysis (MediaPipe face landmarks: eye look-down/side, head yaw/pitch) shows reading off-camera.
+- Portrait photos: full-bleed Ken Burns. Landscape: framed card over a blurred copy. During scenes: swapped into the PiP card.
+
 ## Layout rules
 - Safe zone (TikTok + IG): x 60–930, y 210–1440 (`src/theme.ts`).
 - Face box measured from footage: x 380–760, y 610–1110 — no graphic enters it.
 - Titles/stats live above the head, chips left of the face, captions on the chest.
 
 ## Audio
-- Voice: high-pass, denoise, compression, loudnorm −14 LUFS.
+- Voice (studio chain): high-pass 75 Hz, denoise, +2.5 dB warmth @120 Hz, −3.5 dB mud @320 Hz, +3.5 dB presence @3.8 kHz, air shelf, de-esser, 2-stage compression, limiter, −12 LUFS.
+- Master: `scripts/master.sh in.mp4 out.mp4` (limiter + −12 LUFS / −1 dBTP).
 - Music: "Chill Wave" – Kevin MacLeod (incompetech.com), CC BY 4.0 → **credit required in the post caption**.
 - SFX: Sonniss GDC Game Audio Bundle (royalty-free, commercial use, no attribution).

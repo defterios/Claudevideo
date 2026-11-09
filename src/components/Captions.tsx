@@ -49,7 +49,7 @@ export const Captions: React.FC<{pages: CaptionPage[]; hiddenRanges: [number, nu
                 letterSpacing: 0.5,
                 textTransform: 'uppercase',
                 color,
-                textShadow: '0 2px 12px rgba(0,0,0,0.75), 0 0 2px rgba(0,0,0,0.6)',
+                textShadow: '0 2px 14px rgba(0,0,0,0.9), 0 0 3px rgba(0,0,0,0.9), 0 0 24px rgba(0,0,0,0.5)',
                 transform: `translateY(${lift}px)`,
                 display: 'inline-block',
               }}
