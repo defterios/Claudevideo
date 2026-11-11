@@ -34,3 +34,14 @@ Vertical 1080x1920 edit for TikTok / IG Reels.
 - Master: `scripts/master.sh in.mp4 out.mp4` (limiter + −12 LUFS / −1 dBTP).
 - Music: "Chill Wave" – Kevin MacLeod (incompetech.com), CC BY 4.0 → **credit required in the post caption**.
 - SFX: Sonniss GDC Game Audio Bundle (royalty-free, commercial use, no attribution).
+
+---
+# Video 2 — Ozempic vs Mounjaro (trainer POV)
+Composition `OzVsMj` (`src/v2/`). Opening selfie clip + 3 voice-over recordings, editorial style after the reference
+(forest green / cream, Bodoni Moda titles, serif captions in green boxes, UI-card animations, title behind the speaker).
+
+1. Voice: studio chain per file (see above), −12 LUFS each.
+2. `python3 scripts/segment_person.py public/v2/opening.mp4 public/v2/cut` → person cut-outs (MediaPipe selfie multiclass) for text-behind-subject.
+3. `python3 scripts/build_v2.py <transcripts dir>` → cuts pauses > 0.26 s, writes `src/v2/data.json` + `public/v2/voice_edit.wav`.
+   Creative plan lives in `scripts/plan_v2.py` (scenes anchored to spoken words).
+4. `npx remotion render OzVsMj out/ozvsmj.mp4` then `scripts/master.sh`.

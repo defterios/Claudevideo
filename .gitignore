@@ -2,3 +2,6 @@ node_modules/
 out/
 public/src/
 *.log
+public/v2/*.mp4
+public/v2/*.wav
+public/v2/cut/
