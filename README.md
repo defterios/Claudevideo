@@ -45,3 +45,9 @@ Composition `OzVsMj` (`src/v2/`). Opening selfie clip + 3 voice-over recordings,
 3. `python3 scripts/build_v2.py <transcripts dir>` → cuts pauses > 0.26 s, writes `src/v2/data.json` + `public/v2/voice_edit.wav`.
    Creative plan lives in `scripts/plan_v2.py` (scenes anchored to spoken words).
 4. `npx remotion render OzVsMj out/ozvsmj.mp4` then `scripts/master.sh`.
+
+## Video 2 — v3 edit (slate / floating-cards reference)
+Composition `OzVsMjV3` (`src/v3/`), same recordings + cuts as v2, plan in `scripts/plan_v3.py`:
+split-screen opening (media cards on top, speaker below) → punch-in close-up; VO scenes as floating cards on a slate
+background — code windows, UI chips (timer, progress, CALORIE DEFICIT ✓), big counters, red X, popping cards, comment bar.
+Build: `PLAN=plan_v3 OUT=src/v3/data.json python3 scripts/build_v2.py <transcripts dir>`.

@@ -9,7 +9,9 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
-import plan_v2 as P  # noqa: E402
+import importlib
+P = importlib.import_module(os.environ.get('PLAN', 'plan_v2'))  # noqa: E402
+OUT_JSON = os.environ.get('OUT', 'src/v2/data.json')
 
 FPS, SR = 30, 48000
 MERGE_GAP, PAD_IN, PAD_OUT, SOURCE_GAP = 0.26, 0.05, 0.12, 0.10
@@ -91,7 +93,7 @@ for sc in scenes:  # default transition whoosh on every scene change
         sfx.append({"t": round(sc["start"] - 0.1, 3), "src": sc.get("sfx", "whoosh_slide"), "volume": sc.get("sfxVol", 0.3)})
 
 json.dump({"duration": duration, "video": video, "pages": pages, "scenes": scenes, "sfx": sfx},
-          open(os.path.join(ROOT, "src/v2/data.json"), "w"), indent=1)
+          open(os.path.join(ROOT, OUT_JSON), "w"), indent=1)
 
 # voice track: 10 ms crossfades at every cut
 out = np.zeros((int(duration * SR) + SR, 2), np.float32); xf = int(0.010 * SR)

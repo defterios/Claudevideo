@@ -1,0 +1,2039 @@
+{
+ "duration": 64.833,
+ "video": [
+  {
+   "srcStart": 1.2666666666666666,
+   "outStart": 0.0,
+   "dur": 0.8667
+  },
+  {
+   "srcStart": 2.2666666666666666,
+   "outStart": 0.8667,
+   "dur": 2.9667
+  },
+  {
+   "srcStart": 5.6,
+   "outStart": 3.8333,
+   "dur": 1.0333
+  },
+  {
+   "srcStart": 6.733333333333333,
+   "outStart": 4.8667,
+   "dur": 0.8333
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.033,
+   "end": 0.92,
+   "words": [
+    {
+     "text": "Hey",
+     "start": 0.033,
+     "end": 0.393
+    },
+    {
+     "text": "everybody,",
+     "start": 0.393,
+     "end": 0.753
+    }
+   ]
+  },
+  {
+   "start": 0.92,
+   "end": 1.48,
+   "words": [
+    {
+     "text": "so",
+     "start": 0.92,
+     "end": 0.98
+    },
+    {
+     "text": "many",
+     "start": 0.98,
+     "end": 1.12
+    },
+    {
+     "text": "people",
+     "start": 1.12,
+     "end": 1.34
+    },
+    {
+     "text": "have",
+     "start": 1.34,
+     "end": 1.48
+    }
+   ]
+  },
+  {
+   "start": 1.48,
+   "end": 2.18,
+   "words": [
+    {
+     "text": "been",
+     "start": 1.48,
+     "end": 1.6
+    },
+    {
+     "text": "asking",
+     "start": 1.6,
+     "end": 1.8
+    },
+    {
+     "text": "me",
+     "start": 1.8,
+     "end": 1.98
+    },
+    {
+     "text": "about",
+     "start": 1.98,
+     "end": 2.18
+    }
+   ]
+  },
+  {
+   "start": 2.18,
+   "end": 3.28,
+   "words": [
+    {
+     "text": "Mounjaro",
+     "start": 2.18,
+     "end": 2.56
+    },
+    {
+     "text": "and",
+     "start": 2.56,
+     "end": 2.72
+    },
+    {
+     "text": "Ozempic",
+     "start": 2.72,
+     "end": 3.12
+    },
+    {
+     "text": "for",
+     "start": 3.12,
+     "end": 3.28
+    }
+   ]
+  },
+  {
+   "start": 3.28,
+   "end": 3.873,
+   "words": [
+    {
+     "text": "weight",
+     "start": 3.28,
+     "end": 3.42
+    },
+    {
+     "text": "loss.",
+     "start": 3.42,
+     "end": 3.7
+    }
+   ]
+  },
+  {
+   "start": 3.873,
+   "end": 4.413,
+   "words": [
+    {
+     "text": "And",
+     "start": 3.873,
+     "end": 4.013
+    },
+    {
+     "text": "as",
+     "start": 4.013,
+     "end": 4.133
+    },
+    {
+     "text": "a",
+     "start": 4.133,
+     "end": 4.233
+    },
+    {
+     "text": "personal",
+     "start": 4.233,
+     "end": 4.413
+    }
+   ]
+  },
+  {
+   "start": 4.413,
+   "end": 4.933,
+   "words": [
+    {
+     "text": "trainer,",
+     "start": 4.413,
+     "end": 4.753
+    }
+   ]
+  },
+  {
+   "start": 4.933,
+   "end": 5.853,
+   "words": [
+    {
+     "text": "this",
+     "start": 4.933,
+     "end": 5.053
+    },
+    {
+     "text": "is",
+     "start": 5.053,
+     "end": 5.213
+    },
+    {
+     "text": "my",
+     "start": 5.213,
+     "end": 5.413
+    },
+    {
+     "text": "view.",
+     "start": 5.413,
+     "end": 5.593
+    }
+   ]
+  },
+  {
+   "start": 5.853,
+   "end": 7.273,
+   "words": [
+    {
+     "text": "Medically",
+     "start": 5.853,
+     "end": 6.473
+    },
+    {
+     "text": "speaking,",
+     "start": 6.473,
+     "end": 7.053
+    }
+   ]
+  },
+  {
+   "start": 7.273,
+   "end": 8.533,
+   "words": [
+    {
+     "text": "Ozempic",
+     "start": 7.273,
+     "end": 7.633
+    },
+    {
+     "text": "uses",
+     "start": 7.633,
+     "end": 7.973
+    },
+    {
+     "text": "the",
+     "start": 7.973,
+     "end": 8.213
+    },
+    {
+     "text": "active",
+     "start": 8.213,
+     "end": 8.533
+    }
+   ]
+  },
+  {
+   "start": 8.533,
+   "end": 10.133,
+   "words": [
+    {
+     "text": "ingredient",
+     "start": 8.533,
+     "end": 9.073
+    },
+    {
+     "text": "semaglutide,",
+     "start": 9.073,
+     "end": 9.953
+    }
+   ]
+  },
+  {
+   "start": 10.133,
+   "end": 11.113,
+   "words": [
+    {
+     "text": "which",
+     "start": 10.133,
+     "end": 10.373
+    },
+    {
+     "text": "mimics",
+     "start": 10.373,
+     "end": 10.653
+    },
+    {
+     "text": "a",
+     "start": 10.653,
+     "end": 10.833
+    },
+    {
+     "text": "single",
+     "start": 10.833,
+     "end": 11.113
+    }
+   ]
+  },
+  {
+   "start": 11.113,
+   "end": 13.033,
+   "words": [
+    {
+     "text": "hormone",
+     "start": 11.113,
+     "end": 11.553
+    },
+    {
+     "text": "called",
+     "start": 11.553,
+     "end": 11.873
+    },
+    {
+     "text": "GLP-1.",
+     "start": 11.873,
+     "end": 12.833
+    }
+   ]
+  },
+  {
+   "start": 13.033,
+   "end": 13.953,
+   "words": [
+    {
+     "text": "It",
+     "start": 13.033,
+     "end": 13.053
+    },
+    {
+     "text": "slows",
+     "start": 13.053,
+     "end": 13.333
+    },
+    {
+     "text": "down",
+     "start": 13.333,
+     "end": 13.533
+    },
+    {
+     "text": "digestion",
+     "start": 13.533,
+     "end": 13.953
+    }
+   ]
+  },
+  {
+   "start": 13.953,
+   "end": 14.953,
+   "words": [
+    {
+     "text": "so",
+     "start": 13.953,
+     "end": 14.273
+    },
+    {
+     "text": "you",
+     "start": 14.273,
+     "end": 14.453
+    },
+    {
+     "text": "feel",
+     "start": 14.453,
+     "end": 14.653
+    },
+    {
+     "text": "full",
+     "start": 14.653,
+     "end": 14.953
+    }
+   ]
+  },
+  {
+   "start": 14.953,
+   "end": 15.653,
+   "words": [
+    {
+     "text": "longer.",
+     "start": 14.953,
+     "end": 15.493
+    }
+   ]
+  },
+  {
+   "start": 15.653,
+   "end": 16.313,
+   "words": [
+    {
+     "text": "And",
+     "start": 15.653,
+     "end": 15.833
+    },
+    {
+     "text": "Mounjaro,",
+     "start": 15.833,
+     "end": 16.173
+    }
+   ]
+  },
+  {
+   "start": 16.313,
+   "end": 16.973,
+   "words": [
+    {
+     "text": "on",
+     "start": 16.313,
+     "end": 16.413
+    },
+    {
+     "text": "the",
+     "start": 16.413,
+     "end": 16.413
+    },
+    {
+     "text": "other",
+     "start": 16.413,
+     "end": 16.593
+    },
+    {
+     "text": "hand,",
+     "start": 16.593,
+     "end": 16.873
+    }
+   ]
+  },
+  {
+   "start": 16.973,
+   "end": 18.113,
+   "words": [
+    {
+     "text": "is",
+     "start": 16.973,
+     "end": 17.173
+    },
+    {
+     "text": "a",
+     "start": 17.173,
+     "end": 17.293
+    },
+    {
+     "text": "newer",
+     "start": 17.293,
+     "end": 17.553
+    },
+    {
+     "text": "generation",
+     "start": 17.553,
+     "end": 18.113
+    }
+   ]
+  },
+  {
+   "start": 18.113,
+   "end": 18.593,
+   "words": [
+    {
+     "text": "drug.",
+     "start": 18.113,
+     "end": 18.413
+    }
+   ]
+  },
+  {
+   "start": 18.593,
+   "end": 20.16,
+   "words": [
+    {
+     "text": "It",
+     "start": 18.593,
+     "end": 18.753
+    },
+    {
+     "text": "uses",
+     "start": 18.753,
+     "end": 19.073
+    },
+    {
+     "text": "tirzepatide,",
+     "start": 19.073,
+     "end": 19.973
+    }
+   ]
+  },
+  {
+   "start": 20.16,
+   "end": 21.26,
+   "words": [
+    {
+     "text": "which",
+     "start": 20.16,
+     "end": 20.38
+    },
+    {
+     "text": "mimics",
+     "start": 20.38,
+     "end": 20.7
+    },
+    {
+     "text": "two",
+     "start": 20.7,
+     "end": 20.92
+    },
+    {
+     "text": "hormones",
+     "start": 20.92,
+     "end": 21.26
+    }
+   ]
+  },
+  {
+   "start": 21.26,
+   "end": 22.1,
+   "words": [
+    {
+     "text": "at",
+     "start": 21.26,
+     "end": 21.54
+    },
+    {
+     "text": "once,",
+     "start": 21.54,
+     "end": 21.92
+    }
+   ]
+  },
+  {
+   "start": 22.1,
+   "end": 24.113,
+   "words": [
+    {
+     "text": "the",
+     "start": 22.1,
+     "end": 22.34
+    },
+    {
+     "text": "GLP-1",
+     "start": 22.34,
+     "end": 23.02
+    },
+    {
+     "text": "and",
+     "start": 23.02,
+     "end": 23.36
+    },
+    {
+     "text": "GIP.",
+     "start": 23.36,
+     "end": 23.94
+    }
+   ]
+  },
+  {
+   "start": 24.113,
+   "end": 25.013,
+   "words": [
+    {
+     "text": "Because",
+     "start": 24.113,
+     "end": 24.373
+    },
+    {
+     "text": "it",
+     "start": 24.373,
+     "end": 24.593
+    },
+    {
+     "text": "targets",
+     "start": 24.593,
+     "end": 24.773
+    },
+    {
+     "text": "two",
+     "start": 24.773,
+     "end": 25.013
+    }
+   ]
+  },
+  {
+   "start": 25.013,
+   "end": 25.627,
+   "words": [
+    {
+     "text": "hormones,",
+     "start": 25.013,
+     "end": 25.433
+    }
+   ]
+  },
+  {
+   "start": 25.627,
+   "end": 27.187,
+   "words": [
+    {
+     "text": "studies",
+     "start": 25.627,
+     "end": 25.867
+    },
+    {
+     "text": "show",
+     "start": 25.867,
+     "end": 26.287
+    },
+    {
+     "text": "Mounjaro",
+     "start": 26.287,
+     "end": 26.787
+    },
+    {
+     "text": "delivers",
+     "start": 26.787,
+     "end": 27.187
+    }
+   ]
+  },
+  {
+   "start": 27.187,
+   "end": 28.167,
+   "words": [
+    {
+     "text": "significantly",
+     "start": 27.187,
+     "end": 27.767
+    },
+    {
+     "text": "greater",
+     "start": 27.767,
+     "end": 28.167
+    }
+   ]
+  },
+  {
+   "start": 28.167,
+   "end": 29.647,
+   "words": [
+    {
+     "text": "weight",
+     "start": 28.167,
+     "end": 28.367
+    },
+    {
+     "text": "results",
+     "start": 28.367,
+     "end": 28.927
+    },
+    {
+     "text": "compared",
+     "start": 28.927,
+     "end": 29.647
+    }
+   ]
+  },
+  {
+   "start": 29.647,
+   "end": 30.767,
+   "words": [
+    {
+     "text": "to",
+     "start": 29.647,
+     "end": 29.887
+    },
+    {
+     "text": "Ozempic.",
+     "start": 29.887,
+     "end": 30.487
+    }
+   ]
+  },
+  {
+   "start": 30.767,
+   "end": 32.067,
+   "words": [
+    {
+     "text": "But",
+     "start": 30.767,
+     "end": 31.247
+    },
+    {
+     "text": "listen",
+     "start": 31.247,
+     "end": 31.547
+    },
+    {
+     "text": "up!",
+     "start": 31.547,
+     "end": 31.827
+    }
+   ]
+  },
+  {
+   "start": 32.067,
+   "end": 33.187,
+   "words": [
+    {
+     "text": "Here",
+     "start": 32.067,
+     "end": 32.267
+    },
+    {
+     "text": "is",
+     "start": 32.267,
+     "end": 32.447
+    },
+    {
+     "text": "my",
+     "start": 32.447,
+     "end": 32.627
+    },
+    {
+     "text": "perspective",
+     "start": 32.627,
+     "end": 33.187
+    }
+   ]
+  },
+  {
+   "start": 33.187,
+   "end": 34.027,
+   "words": [
+    {
+     "text": "as",
+     "start": 33.187,
+     "end": 33.427
+    },
+    {
+     "text": "a",
+     "start": 33.427,
+     "end": 33.587
+    },
+    {
+     "text": "PT.",
+     "start": 33.587,
+     "end": 33.847
+    }
+   ]
+  },
+  {
+   "start": 34.027,
+   "end": 34.827,
+   "words": [
+    {
+     "text": "Both",
+     "start": 34.027,
+     "end": 34.267
+    },
+    {
+     "text": "of",
+     "start": 34.267,
+     "end": 34.447
+    },
+    {
+     "text": "these",
+     "start": 34.447,
+     "end": 34.587
+    },
+    {
+     "text": "drugs",
+     "start": 34.587,
+     "end": 34.827
+    }
+   ]
+  },
+  {
+   "start": 34.827,
+   "end": 36.187,
+   "words": [
+    {
+     "text": "are",
+     "start": 34.827,
+     "end": 35.147
+    },
+    {
+     "text": "absolute",
+     "start": 35.147,
+     "end": 35.487
+    },
+    {
+     "text": "experts",
+     "start": 35.487,
+     "end": 35.987
+    },
+    {
+     "text": "at",
+     "start": 35.987,
+     "end": 36.187
+    }
+   ]
+  },
+  {
+   "start": 36.187,
+   "end": 37.567,
+   "words": [
+    {
+     "text": "cutting",
+     "start": 36.187,
+     "end": 36.427
+    },
+    {
+     "text": "your",
+     "start": 36.427,
+     "end": 36.667
+    },
+    {
+     "text": "appetite",
+     "start": 36.667,
+     "end": 37.067
+    },
+    {
+     "text": "to",
+     "start": 37.067,
+     "end": 37.567
+    }
+   ]
+  },
+  {
+   "start": 37.567,
+   "end": 38.94,
+   "words": [
+    {
+     "text": "create",
+     "start": 37.567,
+     "end": 37.807
+    },
+    {
+     "text": "a",
+     "start": 37.807,
+     "end": 37.987
+    },
+    {
+     "text": "calorie",
+     "start": 37.987,
+     "end": 38.267
+    },
+    {
+     "text": "deficit.",
+     "start": 38.267,
+     "end": 38.767
+    }
+   ]
+  },
+  {
+   "start": 38.94,
+   "end": 39.68,
+   "words": [
+    {
+     "text": "But",
+     "start": 38.94,
+     "end": 39.1
+    },
+    {
+     "text": "remember,",
+     "start": 39.1,
+     "end": 39.52
+    }
+   ]
+  },
+  {
+   "start": 39.68,
+   "end": 40.6,
+   "words": [
+    {
+     "text": "these",
+     "start": 39.68,
+     "end": 39.82
+    },
+    {
+     "text": "drugs",
+     "start": 39.82,
+     "end": 40.14
+    },
+    {
+     "text": "will",
+     "start": 40.14,
+     "end": 40.42
+    },
+    {
+     "text": "not",
+     "start": 40.42,
+     "end": 40.6
+    }
+   ]
+  },
+  {
+   "start": 40.6,
+   "end": 41.76,
+   "words": [
+    {
+     "text": "build",
+     "start": 40.6,
+     "end": 40.88
+    },
+    {
+     "text": "your",
+     "start": 40.88,
+     "end": 41.2
+    },
+    {
+     "text": "muscles.",
+     "start": 41.2,
+     "end": 41.58
+    }
+   ]
+  },
+  {
+   "start": 41.76,
+   "end": 42.48,
+   "words": [
+    {
+     "text": "When",
+     "start": 41.76,
+     "end": 41.94
+    },
+    {
+     "text": "you",
+     "start": 41.94,
+     "end": 42.12
+    },
+    {
+     "text": "lose",
+     "start": 42.12,
+     "end": 42.28
+    },
+    {
+     "text": "weight",
+     "start": 42.28,
+     "end": 42.48
+    }
+   ]
+  },
+  {
+   "start": 42.48,
+   "end": 43.18,
+   "words": [
+    {
+     "text": "too",
+     "start": 42.48,
+     "end": 42.8
+    },
+    {
+     "text": "quickly,",
+     "start": 42.8,
+     "end": 43.08
+    }
+   ]
+  },
+  {
+   "start": 43.18,
+   "end": 43.74,
+   "words": [
+    {
+     "text": "you",
+     "start": 43.18,
+     "end": 43.32
+    },
+    {
+     "text": "are",
+     "start": 43.32,
+     "end": 43.52
+    },
+    {
+     "text": "at",
+     "start": 43.52,
+     "end": 43.68
+    },
+    {
+     "text": "a",
+     "start": 43.68,
+     "end": 43.74
+    }
+   ]
+  },
+  {
+   "start": 43.74,
+   "end": 44.54,
+   "words": [
+    {
+     "text": "high",
+     "start": 43.74,
+     "end": 43.9
+    },
+    {
+     "text": "risk",
+     "start": 43.9,
+     "end": 44.08
+    },
+    {
+     "text": "of",
+     "start": 44.08,
+     "end": 44.32
+    },
+    {
+     "text": "losing",
+     "start": 44.32,
+     "end": 44.54
+    }
+   ]
+  },
+  {
+   "start": 44.54,
+   "end": 45.387,
+   "words": [
+    {
+     "text": "muscle",
+     "start": 44.54,
+     "end": 44.9
+    },
+    {
+     "text": "mass,",
+     "start": 44.9,
+     "end": 45.22
+    }
+   ]
+  },
+  {
+   "start": 45.387,
+   "end": 46.213,
+   "words": [
+    {
+     "text": "not",
+     "start": 45.387,
+     "end": 45.587
+    },
+    {
+     "text": "just",
+     "start": 45.587,
+     "end": 45.847
+    },
+    {
+     "text": "fat.",
+     "start": 45.847,
+     "end": 46.047
+    }
+   ]
+  },
+  {
+   "start": 46.213,
+   "end": 46.94,
+   "words": [
+    {
+     "text": "And",
+     "start": 46.213,
+     "end": 46.353
+    },
+    {
+     "text": "the",
+     "start": 46.353,
+     "end": 46.473
+    },
+    {
+     "text": "result?",
+     "start": 46.473,
+     "end": 46.773
+    }
+   ]
+  },
+  {
+   "start": 46.94,
+   "end": 48.593,
+   "words": [
+    {
+     "text": "You",
+     "start": 46.94,
+     "end": 47.2
+    },
+    {
+     "text": "become",
+     "start": 47.2,
+     "end": 47.68
+    },
+    {
+     "text": "skinny",
+     "start": 47.68,
+     "end": 48.18
+    },
+    {
+     "text": "fat,",
+     "start": 48.18,
+     "end": 48.4
+    }
+   ]
+  },
+  {
+   "start": 48.593,
+   "end": 49.853,
+   "words": [
+    {
+     "text": "and",
+     "start": 48.593,
+     "end": 48.753
+    },
+    {
+     "text": "your",
+     "start": 48.753,
+     "end": 48.933
+    },
+    {
+     "text": "metabolism",
+     "start": 48.933,
+     "end": 49.453
+    },
+    {
+     "text": "will",
+     "start": 49.453,
+     "end": 49.853
+    }
+   ]
+  },
+  {
+   "start": 49.853,
+   "end": 50.38,
+   "words": [
+    {
+     "text": "crash.",
+     "start": 49.853,
+     "end": 50.113
+    }
+   ]
+  },
+  {
+   "start": 50.38,
+   "end": 51.6,
+   "words": [
+    {
+     "text": "If",
+     "start": 50.38,
+     "end": 50.86
+    },
+    {
+     "text": "you're",
+     "start": 50.86,
+     "end": 51.08
+    },
+    {
+     "text": "using",
+     "start": 51.08,
+     "end": 51.34
+    },
+    {
+     "text": "these",
+     "start": 51.34,
+     "end": 51.6
+    }
+   ]
+  },
+  {
+   "start": 51.6,
+   "end": 52.44,
+   "words": [
+    {
+     "text": "drugs",
+     "start": 51.6,
+     "end": 51.82
+    },
+    {
+     "text": "under",
+     "start": 51.82,
+     "end": 52.12
+    },
+    {
+     "text": "a doctor's",
+     "start": 52.12,
+     "end": 52.44
+    }
+   ]
+  },
+  {
+   "start": 52.44,
+   "end": 53.013,
+   "words": [
+    {
+     "text": "supervision,",
+     "start": 52.44,
+     "end": 52.86
+    }
+   ]
+  },
+  {
+   "start": 53.013,
+   "end": 53.673,
+   "words": [
+    {
+     "text": "you",
+     "start": 53.013,
+     "end": 53.033
+    },
+    {
+     "text": "must",
+     "start": 53.033,
+     "end": 53.253
+    },
+    {
+     "text": "do",
+     "start": 53.253,
+     "end": 53.493
+    },
+    {
+     "text": "strength",
+     "start": 53.493,
+     "end": 53.673
+    }
+   ]
+  },
+  {
+   "start": 53.673,
+   "end": 54.653,
+   "words": [
+    {
+     "text": "training",
+     "start": 53.673,
+     "end": 53.953
+    },
+    {
+     "text": "and",
+     "start": 53.953,
+     "end": 54.213
+    },
+    {
+     "text": "eat",
+     "start": 54.213,
+     "end": 54.453
+    },
+    {
+     "text": "enough",
+     "start": 54.453,
+     "end": 54.653
+    }
+   ]
+  },
+  {
+   "start": 54.653,
+   "end": 55.753,
+   "words": [
+    {
+     "text": "protein",
+     "start": 54.653,
+     "end": 55.033
+    },
+    {
+     "text": "to",
+     "start": 55.033,
+     "end": 55.333
+    },
+    {
+     "text": "protect",
+     "start": 55.333,
+     "end": 55.573
+    },
+    {
+     "text": "your",
+     "start": 55.573,
+     "end": 55.753
+    }
+   ]
+  },
+  {
+   "start": 55.753,
+   "end": 56.353,
+   "words": [
+    {
+     "text": "muscles.",
+     "start": 55.753,
+     "end": 56.193
+    }
+   ]
+  },
+  {
+   "start": 56.353,
+   "end": 57.093,
+   "words": [
+    {
+     "text": "These",
+     "start": 56.353,
+     "end": 56.453
+    },
+    {
+     "text": "drugs",
+     "start": 56.453,
+     "end": 56.693
+    },
+    {
+     "text": "are",
+     "start": 56.693,
+     "end": 56.913
+    },
+    {
+     "text": "just",
+     "start": 56.913,
+     "end": 57.093
+    }
+   ]
+  },
+  {
+   "start": 57.093,
+   "end": 58.32,
+   "words": [
+    {
+     "text": "tools",
+     "start": 57.093,
+     "end": 57.313
+    },
+    {
+     "text": "and",
+     "start": 57.313,
+     "end": 57.553
+    },
+    {
+     "text": "not",
+     "start": 57.553,
+     "end": 57.733
+    },
+    {
+     "text": "shortcuts.",
+     "start": 57.733,
+     "end": 58.133
+    }
+   ]
+  },
+  {
+   "start": 58.32,
+   "end": 59.02,
+   "words": [
+    {
+     "text": "Exercise,",
+     "start": 58.32,
+     "end": 58.8
+    }
+   ]
+  },
+  {
+   "start": 59.02,
+   "end": 60.0,
+   "words": [
+    {
+     "text": "in",
+     "start": 59.02,
+     "end": 59.22
+    },
+    {
+     "text": "my",
+     "start": 59.22,
+     "end": 59.46
+    },
+    {
+     "text": "opinion,",
+     "start": 59.46,
+     "end": 59.82
+    }
+   ]
+  },
+  {
+   "start": 60.0,
+   "end": 61.02,
+   "words": [
+    {
+     "text": "is",
+     "start": 60.0,
+     "end": 60.12
+    },
+    {
+     "text": "still",
+     "start": 60.12,
+     "end": 60.32
+    },
+    {
+     "text": "mandatory.",
+     "start": 60.32,
+     "end": 60.84
+    }
+   ]
+  },
+  {
+   "start": 61.02,
+   "end": 61.76,
+   "words": [
+    {
+     "text": "If",
+     "start": 61.02,
+     "end": 61.22
+    },
+    {
+     "text": "you",
+     "start": 61.22,
+     "end": 61.42
+    },
+    {
+     "text": "agree",
+     "start": 61.42,
+     "end": 61.62
+    },
+    {
+     "text": "with",
+     "start": 61.62,
+     "end": 61.76
+    }
+   ]
+  },
+  {
+   "start": 61.76,
+   "end": 62.24,
+   "words": [
+    {
+     "text": "me,",
+     "start": 61.76,
+     "end": 62.1
+    }
+   ]
+  },
+  {
+   "start": 62.24,
+   "end": 62.86,
+   "words": [
+    {
+     "text": "let",
+     "start": 62.24,
+     "end": 62.48
+    },
+    {
+     "text": "me",
+     "start": 62.48,
+     "end": 62.6
+    },
+    {
+     "text": "know",
+     "start": 62.6,
+     "end": 62.76
+    },
+    {
+     "text": "in",
+     "start": 62.76,
+     "end": 62.86
+    }
+   ]
+  },
+  {
+   "start": 62.86,
+   "end": 63.9,
+   "words": [
+    {
+     "text": "the",
+     "start": 62.86,
+     "end": 63.1
+    },
+    {
+     "text": "comments.",
+     "start": 63.1,
+     "end": 63.4
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "kind": "openSplit",
+   "props": {
+    "imgs": [
+     "ozempic_3",
+     "syringe_6"
+    ],
+    "labels": [
+     "Ozempic",
+     "Mounjaro"
+    ]
+   },
+   "beats": [
+    1.0
+   ],
+   "start": 0.0,
+   "end": 2.1
+  },
+  {
+   "kind": "openTitle",
+   "props": {
+    "small": "everyone's asking about",
+    "big": [
+     "OZEMPIC",
+     "vs",
+     "MOUNJARO"
+    ]
+   },
+   "beats": [],
+   "sfx": "whoosh_slide",
+   "start": 2.1,
+   "end": 3.833
+  },
+  {
+   "kind": "openPunch",
+   "props": {
+    "chip": "MY POV \u00b7 PERSONAL TRAINER"
+   },
+   "beats": [],
+   "sfx": "whoosh_short_a",
+   "sfxVol": 0.3,
+   "start": 3.833,
+   "end": 5.8
+  },
+  {
+   "kind": "section",
+   "props": {
+    "n": 1,
+    "title": "THE SCIENCE",
+    "accent": "SCIENCE"
+   },
+   "beats": [],
+   "sfx": "whoosh_hit_a",
+   "sfxVol": 0.3,
+   "start": 5.8,
+   "end": 7.233
+  },
+  {
+   "kind": "mediaCard",
+   "props": {
+    "img": "ozempic_4",
+    "chips": [
+     [
+      "ACTIVE INGREDIENT",
+      "dim"
+     ],
+     [
+      "SEMAGLUTIDE",
+      "green"
+     ]
+    ]
+   },
+   "beats": [],
+   "start": 7.233,
+   "end": 10.083
+  },
+  {
+   "kind": "code",
+   "props": {
+    "file": "ozempic.js",
+    "lines": [
+     "// Ozempic",
+     "drug: \"Semaglutide\",",
+     "mimics: [\"GLP-1\"],",
+     "hormones: 1,"
+    ],
+    "hl": 2
+   },
+   "beats": [
+    0.75,
+    1.85
+   ],
+   "start": 10.083,
+   "end": 12.983
+  },
+  {
+   "kind": "progress",
+   "props": {
+    "label": "DIGESTION",
+    "status": "SLOWING",
+    "timer": "FULL LONGER",
+    "toPct": 28
+   },
+   "beats": [],
+   "start": 12.983,
+   "end": 15.613
+  },
+  {
+   "kind": "mediaCard",
+   "props": {
+    "img": "syringe_6",
+    "tag": "#2",
+    "chips": [
+     [
+      "NEWER GENERATION",
+      "dim"
+     ],
+     [
+      "TIRZEPATIDE",
+      "blue"
+     ]
+    ]
+   },
+   "beats": [],
+   "start": 15.613,
+   "end": 18.533
+  },
+  {
+   "kind": "code",
+   "props": {
+    "file": "mounjaro.js",
+    "lines": [
+     "// Mounjaro",
+     "drug: \"Tirzepatide\",",
+     "mimics: [\"GLP-1\", \"GIP\"],",
+     "hormones: 2,"
+    ],
+    "hl": 2
+   },
+   "beats": [
+    0.6,
+    3.667
+   ],
+   "start": 18.533,
+   "end": 24.067
+  },
+  {
+   "kind": "numbers",
+   "props": {
+    "items": [
+     {
+      "label": "OZEMPIC",
+      "value": 13.7
+     },
+     {
+      "label": "MOUNJARO",
+      "value": 20.2
+     }
+    ],
+    "note": "SURMOUNT-5 \u00b7 head-to-head \u00b7 72 weeks \u00b7 avg % body weight lost"
+   },
+   "beats": [
+    2.2
+   ],
+   "start": 24.067,
+   "end": 30.707
+  },
+  {
+   "kind": "section",
+   "props": {
+    "n": 3,
+    "title": "THE PT TAKE",
+    "accent": "PT"
+   },
+   "beats": [],
+   "sfx": "whoosh_hit_a",
+   "sfxVol": 0.32,
+   "start": 30.707,
+   "end": 33.967
+  },
+  {
+   "kind": "deficit",
+   "props": {
+    "fromKcal": 2400,
+    "toKcal": 1600
+   },
+   "beats": [
+    2.7,
+    4.0
+   ],
+   "start": 33.967,
+   "end": 38.9
+  },
+  {
+   "kind": "mediaX",
+   "props": {
+    "img": "physique_3",
+    "caption": "BUILDS MUSCLE?"
+   },
+   "beats": [
+    1.5
+   ],
+   "start": 38.9,
+   "end": 41.7
+  },
+  {
+   "kind": "bars",
+   "props": {
+    "title": "LOSING WEIGHT TOO FAST"
+   },
+   "beats": [
+    0.8,
+    2.8
+   ],
+   "start": 41.7,
+   "end": 46.167
+  },
+  {
+   "kind": "bigText",
+   "props": {
+    "small": "the result?",
+    "big": [
+     "SKINNY",
+     "FAT."
+    ],
+    "accentIdx": 1
+   },
+   "beats": [
+    1.433
+   ],
+   "start": 46.167,
+   "end": 48.533
+  },
+  {
+   "kind": "crash",
+   "props": {
+    "label": "metabolism.js"
+   },
+   "beats": [
+    0.9
+   ],
+   "start": 48.533,
+   "end": 50.333
+  },
+  {
+   "kind": "mediaCard",
+   "props": {
+    "img": "doctor_0",
+    "chips": [
+     [
+      "UNDER A DOCTOR'S",
+      "dim"
+     ],
+     [
+      "SUPERVISION",
+      "green"
+     ]
+    ]
+   },
+   "beats": [],
+   "start": 50.333,
+   "end": 52.967
+  },
+  {
+   "kind": "popCards",
+   "props": {
+    "cards": [
+     {
+      "img": "deadlift_3",
+      "label": "STRENGTH"
+     },
+     {
+      "img": "protein_4",
+      "label": "PROTEIN"
+     },
+     {
+      "img": "barbell_2",
+      "label": "MUSCLE"
+     }
+    ]
+   },
+   "beats": [
+    0.526,
+    1.666,
+    2.366
+   ],
+   "start": 52.967,
+   "end": 56.3
+  },
+  {
+   "kind": "bigText",
+   "props": {
+    "small": "remember",
+    "big": [
+     "TOOLS,",
+     "NOT SHORTCUTS."
+    ],
+    "strikeIdx": 1
+   },
+   "beats": [
+    1.233
+   ],
+   "start": 56.3,
+   "end": 58.267
+  },
+  {
+   "kind": "mediaCard",
+   "props": {
+    "img": "barbell_2",
+    "chips": [
+     [
+      "EXERCISE IS",
+      "dim"
+     ],
+     [
+      "MANDATORY",
+      "yellow"
+     ]
+    ],
+    "zoom": "out"
+   },
+   "beats": [],
+   "start": 58.267,
+   "end": 60.967
+  },
+  {
+   "kind": "commentBar",
+   "props": {
+    "text": "DO YOU AGREE?"
+   },
+   "beats": [
+    0.333,
+    1.933
+   ],
+   "start": 60.967,
+   "end": 64.833
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "src": "whoosh_organic",
+   "volume": 0.35
+  },
+  {
+   "t": 0.0,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 0.0,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 1.0,
+   "src": "snap_glassy",
+   "volume": 0.3
+  },
+  {
+   "t": 2.2,
+   "src": "snap_perc",
+   "volume": 0.3
+  },
+  {
+   "t": 7.633,
+   "src": "ui_blip",
+   "volume": 0.25
+  },
+  {
+   "t": 10.833,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 11.133,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 11.433,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 11.933,
+   "src": "ping",
+   "volume": 0.25
+  },
+  {
+   "t": 13.433,
+   "src": "ui_blip",
+   "volume": 0.25
+  },
+  {
+   "t": 19.133,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 19.433,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 22.2,
+   "src": "ping",
+   "volume": 0.3
+  },
+  {
+   "t": 25.867,
+   "src": "riser",
+   "volume": 0.22
+  },
+  {
+   "t": 27.367,
+   "src": "snap_glassy",
+   "volume": 0.4
+  },
+  {
+   "t": 34.667,
+   "src": "ui_blip",
+   "volume": 0.3
+  },
+  {
+   "t": 37.967,
+   "src": "snap_glassy",
+   "volume": 0.35
+  },
+  {
+   "t": 40.4,
+   "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 40.4,
+   "src": "glitch",
+   "volume": 0.22
+  },
+  {
+   "t": 44.5,
+   "src": "snap_perc",
+   "volume": 0.35
+  },
+  {
+   "t": 47.6,
+   "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 49.433,
+   "src": "glitch",
+   "volume": 0.3
+  },
+  {
+   "t": 49.483,
+   "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 53.493,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 54.633,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 55.333,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 57.533,
+   "src": "glitch",
+   "volume": 0.22
+  },
+  {
+   "t": 61.3,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 61.6,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 61.9,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 62.2,
+   "src": "click",
+   "volume": 0.18
+  },
+  {
+   "t": 62.9,
+   "src": "notif_a",
+   "volume": 0.35
+  },
+  {
+   "t": 2.0,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 3.733,
+   "src": "whoosh_short_a",
+   "volume": 0.3
+  },
+  {
+   "t": 5.7,
+   "src": "whoosh_hit_a",
+   "volume": 0.3
+  },
+  {
+   "t": 7.133,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 9.983,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 12.883,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 15.513,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 18.433,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 23.967,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 30.607,
+   "src": "whoosh_hit_a",
+   "volume": 0.32
+  },
+  {
+   "t": 33.867,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 38.8,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 41.6,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 46.067,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 48.433,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 50.233,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 52.867,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 56.2,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 58.167,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 60.867,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  }
+ ]
+}
