@@ -1,25 +1,35 @@
 {
- "duration": 64.833,
+ "duration": 64.25,
  "video": [
   {
+   "src": "open",
    "srcStart": 1.2666666666666666,
    "outStart": 0.0,
    "dur": 0.8667
   },
   {
+   "src": "open",
    "srcStart": 2.2666666666666666,
    "outStart": 0.8667,
    "dur": 2.9667
   },
   {
+   "src": "open",
    "srcStart": 5.6,
    "outStart": 3.8333,
    "dur": 1.0333
   },
   {
+   "src": "open",
    "srcStart": 6.733333333333333,
    "outStart": 4.8667,
    "dur": 0.8333
+  },
+  {
+   "src": "end",
+   "srcStart": 0.8333333333333334,
+   "outStart": 61.0667,
+   "dur": 2.5333
   }
  ],
  "pages": [
@@ -1331,7 +1341,7 @@
   },
   {
    "start": 60.0,
-   "end": 61.02,
+   "end": 61.113,
    "words": [
     {
      "text": "is",
@@ -1351,81 +1361,65 @@
    ]
   },
   {
-   "start": 61.02,
-   "end": 61.76,
+   "start": 61.113,
+   "end": 62.033,
    "words": [
     {
-     "text": "If",
-     "start": 61.02,
-     "end": 61.22
+     "text": "So",
+     "start": 61.113,
+     "end": 61.593
+    },
+    {
+     "text": "if",
+     "start": 61.593,
+     "end": 61.693
     },
     {
      "text": "you",
-     "start": 61.22,
-     "end": 61.42
+     "start": 61.693,
+     "end": 61.873
     },
     {
      "text": "agree",
-     "start": 61.42,
-     "end": 61.62
-    },
+     "start": 61.873,
+     "end": 62.033
+    }
+   ]
+  },
+  {
+   "start": 62.033,
+   "end": 62.833,
+   "words": [
     {
      "text": "with",
-     "start": 61.62,
-     "end": 61.76
-    }
-   ]
-  },
-  {
-   "start": 61.76,
-   "end": 62.24,
-   "words": [
+     "start": 62.033,
+     "end": 62.213
+    },
     {
      "text": "me,",
-     "start": 61.76,
-     "end": 62.1
+     "start": 62.213,
+     "end": 62.593
     }
    ]
   },
   {
-   "start": 62.24,
-   "end": 62.86,
+   "start": 62.833,
+   "end": 63.993,
    "words": [
     {
-     "text": "let",
-     "start": 62.24,
-     "end": 62.48
+     "text": "comment",
+     "start": 62.833,
+     "end": 62.893
     },
     {
-     "text": "me",
-     "start": 62.48,
-     "end": 62.6
+     "text": "down",
+     "start": 62.893,
+     "end": 63.173
     },
     {
-     "text": "know",
-     "start": 62.6,
-     "end": 62.76
-    },
-    {
-     "text": "in",
-     "start": 62.76,
-     "end": 62.86
-    }
-   ]
-  },
-  {
-   "start": 62.86,
-   "end": 63.9,
-   "words": [
-    {
-     "text": "the",
-     "start": 62.86,
-     "end": 63.1
-    },
-    {
-     "text": "comments.",
-     "start": 63.1,
-     "end": 63.4
+     "text": "below.",
+     "start": 63.173,
+     "end": 63.493
     }
    ]
   }
@@ -1754,19 +1748,21 @@
    },
    "beats": [],
    "start": 58.267,
-   "end": 60.967
+   "end": 61.067
   },
   {
-   "kind": "commentBar",
+   "kind": "endCta",
    "props": {
     "text": "DO YOU AGREE?"
    },
    "beats": [
-    0.333,
-    1.933
+    0.166,
+    1.766
    ],
-   "start": 60.967,
-   "end": 64.833
+   "sfx": "whoosh_short_a",
+   "sfxVol": 0.32,
+   "start": 61.067,
+   "end": 64.25
   }
  ],
  "sfx": [
@@ -1911,27 +1907,27 @@
    "volume": 0.22
   },
   {
-   "t": 61.3,
+   "t": 61.233,
    "src": "click",
    "volume": 0.18
   },
   {
-   "t": 61.6,
+   "t": 61.483,
    "src": "click",
    "volume": 0.18
   },
   {
-   "t": 61.9,
+   "t": 61.733,
    "src": "click",
    "volume": 0.18
   },
   {
-   "t": 62.2,
+   "t": 61.983,
    "src": "click",
    "volume": 0.18
   },
   {
-   "t": 62.9,
+   "t": 62.833,
    "src": "notif_a",
    "volume": 0.35
   },
@@ -2031,9 +2027,9 @@
    "volume": 0.3
   },
   {
-   "t": 60.867,
-   "src": "whoosh_slide",
-   "volume": 0.3
+   "t": 60.967,
+   "src": "whoosh_short_a",
+   "volume": 0.32
   }
  ]
 }

@@ -1,5 +1,12 @@
 """Ozempic vs Mounjaro — v3, edited after the "slate / floating media cards" reference."""
-from plan_v2 import SOURCES, REMOVE, TAIL, WORD_FIXES  # same recordings, same cuts
+from plan_v2 import WORD_FIXES  # same recordings, same cuts
+
+# The closing line of vo3 ("If you agree with me, let me know in the comments") is replaced by
+# a new on-camera clip (end): "So if you agree with me, comment down below."
+SOURCES = ["open", "vo1", "vo2", "vo3", "end"]
+VIDEO_SOURCES = ["open", "end"]
+REMOVE = [("vo3", 14.0, 17.0)]
+TAIL = 0.55  # the end clip only has ~0.7 s of picture after the last word
 
 def S(src, t, kind, beats=(), sfx=None, vol=None, **props):
     d = dict(at=(src, t), kind=kind, props=props, beats=list(beats))
@@ -37,7 +44,7 @@ SCENES = [
       cards=[dict(img="deadlift_3", label="STRENGTH"), dict(img="protein_4", label="PROTEIN"), dict(img="barbell_2", label="MUSCLE")]),
     S("vo3", 8.46, "bigText", beats=[("vo3", 9.7)], small="remember", big=["TOOLS,", "NOT SHORTCUTS."], strikeIdx=1),
     S("vo3", 10.96, "mediaCard", img="barbell_2", chips=[("EXERCISE IS", "dim"), ("MANDATORY", "yellow")], zoom="out"),
-    S("vo3", 14.06, "commentBar", beats=[("vo3", 14.4), ("vo3", 16.0)], text="DO YOU AGREE?"),
+    S("end", 0.70, "endCta", beats=[("end", 1.0), ("end", 2.6)], text="DO YOU AGREE?", sfx="whoosh_short_a", vol=0.32),
 ]
 
 # (time, file, volume, offset)
@@ -57,6 +64,6 @@ SFX = [
     (("vo2", 23.2), "glitch", 0.3, 0.0), (("vo2", 23.25), "boom", 0.3, 0.0),
     (("vo3", 5.16), "pop", 0.35, 0.0), (("vo3", 6.3), "pop", 0.35, 0.0), (("vo3", 7.0), "pop", 0.35, 0.0),
     (("vo3", 9.7), "glitch", 0.22, 0.0),
-    (("vo3", 14.4), "click", 0.18, 0.0), (("vo3", 14.7), "click", 0.18, 0.0), (("vo3", 15.0), "click", 0.18, 0.0), (("vo3", 15.3), "click", 0.18, 0.0),
-    (("vo3", 16.0), "notif_a", 0.35, 0.0),
+    (("end", 1.0), "click", 0.18, 0.0), (("end", 1.25), "click", 0.18, 0.0), (("end", 1.5), "click", 0.18, 0.0), (("end", 1.75), "click", 0.18, 0.0),
+    (("end", 2.6), "notif_a", 0.35, 0.0),
 ]

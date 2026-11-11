@@ -19,11 +19,62 @@ if (typeof document !== 'undefined') {
 type Scene = {kind: string; start: number; end: number; beats: number[]; props: Record<string, any>};
 type Word = {text: string; start: number; end: number};
 const scenes = data.scenes as Scene[];
-const video = data.video as {srcStart: number; outStart: number; dur: number}[];
+const allVideo = data.video as {src: string; srcStart: number; outStart: number; dur: number}[];
+const video = allVideo.filter((v) => v.src === 'open');
+const endVideo = allVideo.filter((v) => v.src === 'end');
 const pages = data.pages as {start: number; end: number; words: Word[]}[];
 export const V3_DURATION: number = data.duration;
 const OPEN_END = scenes.find((s) => !s.kind.startsWith('open'))!.start;
 const PUNCH_AT = scenes.find((s) => s.kind === 'openPunch')!.start;
+const END_AT = endVideo.length ? endVideo[0].outStart : Infinity;
+
+/* ---------- closing on-camera clip (full frame, handheld) ---------- */
+const EndSpeaker: React.FC = () => {
+  const frame = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const t = frame / fps;
+  if (!endVideo.length || t < END_AT - 0.01) return null;
+  const v = endVideo[0];
+  const k = interpolate(t, [END_AT, durationInFrames / fps], [1.06, 1.12]);
+  const inP = ease(t, END_AT, END_AT + 0.25);
+  return (
+    <AbsoluteFill style={{opacity: inP, filter: inP < 1 ? `blur(${(1 - inP) * 16}px)` : undefined}}>
+      <Sequence from={Math.round(v.outStart * fps)} layout="none">
+        <AbsoluteFill style={{transform: `scale(${k})`, transformOrigin: '540px 800px'}}>
+          <OffthreadVideo src={staticFile('v2/end.mp4')} muted trimBefore={Math.round(v.srcStart * fps)} style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.08) saturate(0.92) brightness(0.98)'}} />
+        </AbsoluteFill>
+      </Sequence>
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(27,32,39,0.65) 0%, rgba(27,32,39,0) 30%, rgba(27,32,39,0) 70%, rgba(27,32,39,0.55) 100%)'}} />
+    </AbsoluteFill>
+  );
+};
+
+/* ---------- CTA overlay on the closing clip: comment bar above the head ---------- */
+const EndCta: React.FC<{sc: Scene; local: number}> = ({sc, local}) => {
+  const text: string = sc.props.text;
+  const typed = Math.round(interpolate(local, [sc.beats[0], sc.beats[0] + 0.9], [0, text.length], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
+  const sent = pop(local, sc.beats[1]);
+  const icons = ['💪', '🥩', '🏋️', '💬'];
+  return (
+    <>
+      <Card local={local} at={0.05} style={{left: CX - 400, top: 250, width: 800, height: 120, borderRadius: 999, display: 'flex', alignItems: 'center', padding: '0 20px 0 46px', boxSizing: 'border-box', background: 'rgba(24,29,36,0.92)'}}>
+        <div style={{flex: 1, fontFamily: SANS, fontWeight: 900, fontSize: 54, color: K.white}}>
+          {text.slice(0, typed)}
+          {typed < text.length && Math.floor(local * 3) % 2 === 0 ? <span style={{color: K.dim}}>|</span> : null}
+        </div>
+        <div style={{width: 80, height: 80, borderRadius: 40, background: typed >= text.length ? K.green : '#3A424D', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 42, fontWeight: 900, fontFamily: SANS, color: '#0E1A12', transform: `scale(${1 + 0.18 * Math.sin(Math.min(1, sent) * Math.PI)})`}}>↑</div>
+      </Card>
+      <div style={{position: 'absolute', top: 400, width: 990, display: 'flex', justifyContent: 'center', gap: 18}}>
+        {icons.map((ic, i) => {
+          const p = pop(local, sc.beats[1] + i * 0.08);
+          return (
+            <div key={i} style={{width: 100, height: 100, borderRadius: 26, background: 'rgba(24,29,36,0.92)', border: `1.5px solid ${K.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 52, boxShadow: '0 14px 34px rgba(0,0,0,0.45)', opacity: p, transform: `translateY(${(1 - p) * 30}px) scale(${0.8 + 0.2 * p})`}}>{ic}</div>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 /* ---------- speaker (opening only): split-screen bottom half, then punch-in close-up ---------- */
 const Speaker: React.FC = () => {
@@ -103,6 +154,7 @@ const SceneLayer: React.FC = () => {
   const local = t - sc.start;
   const dur = sc.end - sc.start;
   if (sc.kind.startsWith('open')) return <OpenTop sc={sc} local={local} dur={dur} />;
+  if (sc.kind === 'endCta') return null;
   const C = REGISTRY[sc.kind];
   // previous scene blurs out quickly under the new one
   const prev = i > 0 && !scenes[i - 1].kind.startsWith('open') ? scenes[i - 1] : null;
@@ -130,7 +182,7 @@ const Captions: React.FC = () => {
   const t = frame / fps;
   const page = pages.find((p) => t >= p.start && t < p.end);
   if (!page) return null;
-  const y = t < PUNCH_AT ? 735 : t < OPEN_END ? 1350 : 1225;
+  const y = t >= END_AT ? 525 : t < PUNCH_AT ? 735 : t < OPEN_END ? 1350 : 1225;
   return (
     <div style={{position: 'absolute', top: y, width: 990, display: 'flex', justifyContent: 'center', opacity: ease(t, page.start, page.start + 0.08)}}>
       <div style={{background: 'rgba(18,22,28,0.88)', borderRadius: 18, padding: '10px 22px 12px', fontFamily: SANS, fontWeight: 800, fontSize: 40, color: K.white, border: `1.5px solid ${K.line}`, boxShadow: '0 10px 30px rgba(0,0,0,0.35)', maxWidth: 820, textAlign: 'center'}}>
@@ -145,6 +197,16 @@ const Captions: React.FC = () => {
   );
 };
 
+/** CTA must sit above the closing clip, so it is drawn in its own layer. */
+const EndCtaLayer: React.FC = () => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const t = frame / fps;
+  const sc = scenes[scenes.length - 1];
+  if (sc.kind !== 'endCta' || t < sc.start) return null;
+  return <EndCta sc={sc} local={t - sc.start} />;
+};
+
 export const OzVsMjV3: React.FC<{musicVolume: number}> = ({musicVolume}) => {
   const {fps, durationInFrames} = useVideoConfig();
   return (
@@ -152,6 +214,8 @@ export const OzVsMjV3: React.FC<{musicVolume: number}> = ({musicVolume}) => {
       <SlateBg />
       <Speaker />
       <SceneLayer />
+      <EndSpeaker />
+      <EndCtaLayer />
       <Captions />
       <Audio src={staticFile('v2/voice_edit.wav')} />
       <Audio

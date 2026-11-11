@@ -34,6 +34,8 @@ def load_words(name):
 pieces, t = [], 0.0
 for name in P.SOURCES:
     words = [w for w in load_words(name) if not any(a <= w["s"] < b for s, a, b in P.REMOVE if s == name)]
+    if not words:
+        continue
     isl = []
     for w in words:
         if isl and w["s"] - isl[-1]["e"] < MERGE_GAP:
@@ -61,7 +63,8 @@ def to_out(name, st):
     return round(best[1], 3)
 
 # opening video segments (only the "open" source has picture)
-video = [{"srcStart": p["s"], "outStart": round(p["out"], 4), "dur": round(p["e"] - p["s"], 4)} for p in pieces if p["src"] == "open"]
+VIDEO_SOURCES = getattr(P, "VIDEO_SOURCES", ["open"])
+video = [{"src": p["src"], "srcStart": p["s"], "outStart": round(p["out"], 4), "dur": round(p["e"] - p["s"], 4)} for p in pieces if p["src"] in VIDEO_SOURCES]
 
 out_words = []
 for p in pieces:
