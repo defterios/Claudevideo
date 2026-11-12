@@ -1,10 +1,10 @@
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate} from 'remotion';
-import {CX, Card, Chip, Heavy, K, MONO, SANS, SlateBg, cl, ease, pop} from '../v3/ui';
+import {CX, Card, Chip, Heavy, K, MONO, SANS, SlateBg, cl, ease, pop, useK} from '../v3/ui';
 import {Tubs3D, Variant} from './Tub3D';
 
 export type SP = {local: number; dur: number; beats: number[]; props: Record<string, any>};
-const ACC: Record<Variant, string> = {concentrate: K.yellow, isolate: '#4FA8F5', hydro: K.red};
+const ACC: Record<Variant, string> = {concentrate: '#E6A700', isolate: '#2F80ED', hydro: '#E5383B'};
 
 /** Single tub that drops in, turns to face camera, then keeps a slow spin + float. */
 const HeroTub: React.FC<{variant: Variant; local: number; w: number; h: number; camZ?: number; delay?: number}> = ({variant, local, w, h, camZ = 6.4, delay = 0}) => {
@@ -15,10 +15,12 @@ const HeroTub: React.FC<{variant: Variant; local: number; w: number; h: number; 
 };
 
 /* ---------- big hero tub + name ---------- */
-const TubHero: React.FC<SP> = ({local, beats, props}) => (
+const TubHero: React.FC<SP> = ({local, beats, props}) => {
+  const T = useK();
+  return (
   <AbsoluteFill>
     <SlateBg />
-    <div style={{position: 'absolute', top: 240, width: 990, textAlign: 'center', fontFamily: SANS, fontWeight: 800, fontSize: 40, color: K.green, opacity: ease(local, 0, 0.25)}}>#{props.n}</div>
+    <div style={{position: 'absolute', top: 240, width: 990, textAlign: 'center', fontFamily: SANS, fontWeight: 800, fontSize: 40, color: T.green, opacity: ease(local, 0, 0.25)}}>#{props.n}</div>
     <div style={{position: 'absolute', left: 0, top: 260}}>
       <HeroTub variant={props.variant} local={local} w={990} h={760} camZ={6.0} />
     </div>
@@ -28,9 +30,11 @@ const TubHero: React.FC<SP> = ({local, beats, props}) => (
     </div>
   </AbsoluteFill>
 );
+};
 
 /* ---------- macro breakdown card ---------- */
 const Macro: React.FC<SP> = ({local, beats, props}) => {
+  const T = useK();
   const v: Variant = props.variant;
   const go = beats[0] ?? 0.3;
   const p = interpolate(local, [go, go + 0.9], [0, 1], {...cl, easing: Easing.out(Easing.cubic)});
@@ -49,14 +53,14 @@ const Macro: React.FC<SP> = ({local, beats, props}) => {
         <HeroTub variant={v} local={local + 1} w={460} h={470} camZ={6.6} />
       </div>
       <Card local={local} at={0.05} style={{left: CX - 400, top: 690, width: 800, height: 400, padding: '34px 46px', boxSizing: 'border-box'}}>
-        <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: 4, color: K.dim}}>PROTEIN PER SCOOP</div>
+        <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: 4, color: T.dim}}>PROTEIN PER SCOOP</div>
         <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 140, letterSpacing: -5, color: props.color, lineHeight: 1.05}}>{nums.length ? shown : props.pct}</div>
-        <div style={{display: 'flex', height: 56, borderRadius: 14, overflow: 'hidden', background: '#11161C', marginTop: 10}}>
+        <div style={{display: 'flex', height: 56, borderRadius: 14, overflow: 'hidden', background: T.bg2, marginTop: 10}}>
           {seg(props.protein, props.color, 'PROTEIN', p)}
           {seg(Math.max(props.fat, 0.8), '#FF9F43', 'FAT', fat)}
           {seg(Math.max(props.carbs, 0.8), '#A0E7E5', 'CARBS', carbs)}
         </div>
-        <div style={{display: 'flex', gap: 24, marginTop: 18, fontFamily: SANS, fontWeight: 700, fontSize: 24, color: K.dim}}>
+        <div style={{display: 'flex', gap: 24, marginTop: 18, fontFamily: SANS, fontWeight: 700, fontSize: 24, color: T.dim}}>
           <span style={{color: props.color}}>● protein</span>
           <span style={{color: '#FF9F43', opacity: 0.3 + 0.7 * fat}}>● fat</span>
           <span style={{color: '#A0E7E5', opacity: 0.3 + 0.7 * carbs}}>● carbs</span>
@@ -65,7 +69,7 @@ const Macro: React.FC<SP> = ({local, beats, props}) => {
       {zeros ? (
         <div style={{position: 'absolute', top: 1110, width: 990, display: 'flex', justifyContent: 'center', gap: 12}}>
           {zeros.map((z, i) => (
-            <Chip key={z} text={z} tone="dim" size={26} p={pop(local, beats[i + 1] ?? 1)} dot={K.green} />
+            <Chip key={z} text={z} tone="dim" size={26} p={pop(local, beats[i + 1] ?? 1)} dot={T.green} />
           ))}
         </div>
       ) : null}
@@ -75,6 +79,7 @@ const Macro: React.FC<SP> = ({local, beats, props}) => {
 
 /* ---------- rating rows (taste / price / stomach) ---------- */
 const Ratings: React.FC<SP> = ({local, beats, props}) => {
+  const T = useK();
   const rows: [string, string, string][] = props.rows;
   const v: Variant = props.variant;
   return (
@@ -89,8 +94,8 @@ const Ratings: React.FC<SP> = ({local, beats, props}) => {
         return (
           <Card key={i} local={local} at={beats[i] - 0.15} style={{left: CX - 400, top: 700 + i * 210, width: 800, height: 180, padding: '0 40px', boxSizing: 'border-box', display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
             <div>
-              <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 26, letterSpacing: 4, color: K.dim}}>{label}</div>
-              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 84, color: value.startsWith('★') ? K.yellow : value === '✓' ? K.green : good ? K.green : '#FF9F43', letterSpacing: value.startsWith('$') ? 6 : 2}}>{value}</div>
+              <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 26, letterSpacing: 4, color: T.dim}}>{label}</div>
+              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 84, color: value.startsWith('★') ? T.yellow : value === '✓' ? T.green : good ? T.green : '#FF9F43', letterSpacing: value.startsWith('$') ? 6 : 2}}>{value}</div>
             </div>
             <Chip text={chip} tone={value.startsWith('$') && value.length > 1 ? 'dim' : 'green'} p={p} size={26} />
           </Card>
@@ -146,11 +151,12 @@ const TubCode: React.FC<SP> = ({local, beats, props}) => {
 
 /* ---------- absorption race ---------- */
 const Race: React.FC<SP> = ({local, beats}) => {
+  const T = useK();
   const go = beats[0] ?? 0.3;
   const rows: [string, string, number, number][] = [
-    ['CONCENTRATE', K.yellow, 0.62, 2.6],
+    ['CONCENTRATE', T.yellow, 0.62, 2.6],
     ['ISOLATE', '#4FA8F5', 0.75, 2.2],
-    ['HYDROLYZED', K.red, 1.0, 1.0],
+    ['HYDROLYZED', T.red, 1.0, 1.0],
   ];
   return (
     <AbsoluteFill>
@@ -164,11 +170,11 @@ const Race: React.FC<SP> = ({local, beats}) => {
           const win = i === 2 && v >= 0.99;
           return (
             <div key={name} style={{marginTop: i ? 44 : 16}}>
-              <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: 3, color: win ? K.white : K.dim}}>
+              <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: SANS, fontWeight: 800, fontSize: 28, letterSpacing: 3, color: win ? T.white : T.dim}}>
                 <span>{name}</span>
                 <span style={{fontFamily: MONO, color}}>{Math.round(v * 100)}%</span>
               </div>
-              <div style={{marginTop: 12, height: 34, borderRadius: 17, background: '#11161C', overflow: 'hidden', boxShadow: win ? `0 0 30px ${color}` : 'none'}}>
+              <div style={{marginTop: 12, height: 34, borderRadius: 17, background: T.bg2, overflow: 'hidden', boxShadow: win ? `0 0 30px ${color}` : 'none'}}>
                 <div style={{width: `${v * 100}%`, height: '100%', borderRadius: 17, background: `linear-gradient(90deg, ${color}99, ${color})`}} />
               </div>
             </div>
@@ -184,6 +190,7 @@ const Race: React.FC<SP> = ({local, beats}) => {
 
 /* ---------- 3D shelf with price tags ---------- */
 const Shelf: React.FC<SP> = ({local, beats}) => {
+  const T = useK();
   const items: Variant[] = ['concentrate', 'isolate', 'hydro'];
   const tags = ['$', '$$', '$$$'];
   return (
@@ -205,12 +212,12 @@ const Shelf: React.FC<SP> = ({local, beats}) => {
         const top = i === 2;
         return (
           <div key={v} style={{position: 'absolute', left: CX - 45 + (i - 1) * 270 - 85, top: 835, width: 260, display: 'flex', justifyContent: 'center'}}>
-            <div style={{fontFamily: SANS, fontWeight: 900, fontSize: top ? 64 : 52, color: top ? '#fff' : '#0E1A12', background: top ? K.red : K.green, borderRadius: 18, padding: '10px 26px', boxShadow: top ? `0 0 40px ${K.red}` : '0 12px 30px rgba(0,0,0,0.4)', opacity: p, transform: `translateY(${(1 - p) * 30}px) rotate(${top ? -4 : 0}deg) scale(${0.8 + 0.2 * p})`}}>{tags[i]}</div>
+            <div style={{fontFamily: SANS, fontWeight: 900, fontSize: top ? 64 : 52, color: top ? '#fff' : '#0E1A12', background: top ? T.red : K.green, borderRadius: 18, padding: '10px 26px', boxShadow: top ? `0 0 40px ${T.red}` : '0 12px 30px rgba(0,0,0,0.4)', opacity: p, transform: `translateY(${(1 - p) * 30}px) rotate(${top ? -4 : 0}deg) scale(${0.8 + 0.2 * p})`}}>{tags[i]}</div>
           </div>
         );
       })}
       <div style={{position: 'absolute', top: 975, width: 990, display: 'flex', justifyContent: 'center'}}>
-        <Heavy text="MOST EXPENSIVE" size={72} color={K.red} p={ease(local, (beats[2] ?? 1) - 0.1, (beats[2] ?? 1) + 0.3)} />
+        <Heavy text="MOST EXPENSIVE" size={72} color={T.red} p={ease(local, (beats[2] ?? 1) - 0.1, (beats[2] ?? 1) + 0.3)} />
       </div>
     </AbsoluteFill>
   );

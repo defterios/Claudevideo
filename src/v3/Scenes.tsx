@@ -1,23 +1,24 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, staticFile} from 'remotion';
-import {CX, Card, Chip, Heavy, K, MONO, Photo, SANS, SlateBg, cl, ease, pop} from './ui';
+import {CX, Card, Chip, Heavy, K, MONO, Photo, SANS, SlateBg, cl, ease, pop, useK} from './ui';
 
 export type SP = {local: number; dur: number; beats: number[]; props: Record<string, any>};
 
 /* ---------- section marker: "#1  THE SCIENCE" ---------- */
 const Section: React.FC<SP> = ({local, props}) => {
+  const T = useK();
   const words: string[] = props.title.split(' ');
   return (
     <AbsoluteFill>
       <SlateBg />
       <div style={{position: 'absolute', top: 470, width: 990, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
         {props.n !== null && props.n !== undefined ? <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 40, color: K.green, opacity: ease(local, 0, 0.3)}}>#{props.n}</div> : null}
-        <div style={{width: 110, height: 110, borderRadius: 28, background: '#11161C', border: `1.5px solid ${K.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${pop(local, 0.05)})`, boxShadow: '0 20px 50px rgba(0,0,0,0.45)'}}>
+        <div style={{width: 110, height: 110, borderRadius: 28, background: '#11161C', border: `1.5px solid ${T.line}`, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${pop(local, 0.05)})`, boxShadow: '0 20px 50px rgba(0,0,0,0.45)'}}>
           <div style={{width: 46, height: 46, borderRadius: 12, background: K.green, transform: 'rotate(45deg)'}} />
         </div>
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0 26px', maxWidth: 880}}>
           {words.map((w, i) => (
-            <Heavy key={i} text={w} size={118} p={ease(local, 0.15 + i * 0.08, 0.5 + i * 0.08)} color={w === props.accent ? K.yellow : K.white} />
+            <Heavy key={i} text={w} size={118} p={ease(local, 0.15 + i * 0.08, 0.5 + i * 0.08)} color={w === props.accent ? T.yellow : T.white} />
           ))}
         </div>
       </div>

@@ -124,7 +124,8 @@ export const Tubs3D: React.FC<{
   height: number;
   items: {variant: Variant; x: number; y?: number; z?: number; rotY: number; scale?: number}[];
   camZ?: number;
-}> = ({width, height, items, camZ = 6.2}) => {
+  mood?: 'studio' | 'warm';
+}> = ({width, height, items, camZ = 6.2, mood = 'studio'}) => {
   const [tex, setTex] = useState<Record<string, THREE.Texture> | null>(null);
   const [handle] = useState(() => delayRender('tub labels'));
   useEffect(() => {
@@ -136,11 +137,24 @@ export const Tubs3D: React.FC<{
   if (!tex) return null;
   return (
     <ThreeCanvas width={width} height={height} camera={{fov: 30, position: [0, 0.5, camZ]}} gl={{antialias: true, alpha: true, preserveDrawingBuffer: true}} style={{background: 'transparent'}}>
-      <ambientLight intensity={0.55} />
-      <directionalLight position={[3, 4, 5]} intensity={2.2} />
-      <directionalLight position={[-4, 2, -2]} intensity={1.4} color="#9fc4ff" />
-      <pointLight position={[0, -2, 4]} intensity={6} distance={12} color="#ffffff" />
-      <hemisphereLight args={['#ffffff', '#20262e', 0.6]} />
+      {mood === 'warm' ? (
+        <>
+          {/* matched to the gym: warm ceiling spots from above, cool daylight from the window behind */}
+          <ambientLight intensity={0.45} color="#ffe9cf" />
+          <directionalLight position={[1.5, 6, 3]} intensity={2.4} color="#ffd9a8" />
+          <directionalLight position={[0, 1, -5]} intensity={1.6} color="#cfe3ff" />
+          <pointLight position={[-3, 0, 4]} intensity={3} distance={12} color="#fff1dd" />
+          <hemisphereLight args={['#fff4e6', '#2a2420', 0.5]} />
+        </>
+      ) : (
+        <>
+          <ambientLight intensity={0.55} />
+          <directionalLight position={[3, 4, 5]} intensity={2.2} />
+          <directionalLight position={[-4, 2, -2]} intensity={1.4} color="#9fc4ff" />
+          <pointLight position={[0, -2, 4]} intensity={6} distance={12} color="#ffffff" />
+          <hemisphereLight args={['#ffffff', '#20262e', 0.6]} />
+        </>
+      )}
       {items.map((it, i) => (
         <group key={i} position={[it.x, it.y ?? 0, it.z ?? 0]} scale={it.scale ?? 1}>
           <Tub variant={it.variant} rotY={it.rotY} tex={tex[it.variant]} />

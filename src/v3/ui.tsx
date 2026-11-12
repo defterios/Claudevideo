@@ -15,21 +15,43 @@ export const K = {
   yellow: '#F5C518',
   red: '#FF3B3B',
 };
+/** Light (white) palette — same keys; `white` = primary text colour, `dim` = secondary. */
+export const KL: typeof K = {
+  bg1: '#FFFFFF',
+  bg2: '#E9EDF2',
+  card: '#FFFFFF',
+  line: 'rgba(15,23,42,0.09)',
+  white: '#11161C',
+  dim: '#6B7480',
+  green: '#16A34A',
+  blue: '#2563EB',
+  yellow: '#E6A700',
+  red: '#E5383B',
+};
+export const ThemeCtx = React.createContext<typeof K>(K);
+export const useK = () => React.useContext(ThemeCtx);
+const isLight = (t: typeof K) => t.bg1 === '#FFFFFF';
 export const CX = 495; // centre of the TikTok/IG safe zone (x 60..930)
 export const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 export const ease = (x: number, a: number, b: number) => interpolate(x, [a, b], [0, 1], {...cl, easing: Easing.out(Easing.cubic)});
 export const pop = (local: number, at = 0) => spring({frame: Math.round((local - at) * 30), fps: 30, config: {damping: 14, stiffness: 170, mass: 0.9}});
 
-export const SlateBg: React.FC = () => (
-  <AbsoluteFill
-    style={{
-      background: `radial-gradient(ellipse 80% 45% at 50% 18%, rgba(120,140,170,0.22), rgba(0,0,0,0) 70%), linear-gradient(180deg, ${K.bg1} 0%, ${K.bg2} 100%)`,
-    }}
-  />
-);
+export const SlateBg: React.FC = () => {
+  const T = useK();
+  return (
+    <AbsoluteFill
+      style={{
+        background: isLight(T)
+          ? 'radial-gradient(ellipse 85% 60% at 50% 35%, #FFFFFF 0%, #F6F7F9 55%, #E6EAF0 100%)'
+          : `radial-gradient(ellipse 80% 45% at 50% 18%, rgba(120,140,170,0.22), rgba(0,0,0,0) 70%), linear-gradient(180deg, ${K.bg1} 0%, ${K.bg2} 100%)`,
+      }}
+    />
+  );
+};
 
 /** Floating card: springs up from below with a slight 3D tilt + blur. */
 export const Card: React.FC<{local: number; at?: number; style?: React.CSSProperties; children?: React.ReactNode; tilt?: number}> = ({local, at = 0, style, children, tilt = 0}) => {
+  const T = useK();
   const p = pop(local, at);
   return (
     <div
@@ -37,9 +59,9 @@ export const Card: React.FC<{local: number; at?: number; style?: React.CSSProper
         position: 'absolute',
         borderRadius: 26,
         overflow: 'hidden',
-        background: K.card,
-        border: `1.5px solid ${K.line}`,
-        boxShadow: '0 40px 90px rgba(0,0,0,0.55), 0 8px 20px rgba(0,0,0,0.3)',
+        background: T.card,
+        border: `1.5px solid ${T.line}`,
+        boxShadow: isLight(T) ? '0 30px 70px rgba(15,23,42,0.13), 0 6px 16px rgba(15,23,42,0.06)' : '0 40px 90px rgba(0,0,0,0.55), 0 8px 20px rgba(0,0,0,0.3)',
         opacity: Math.min(1, p * 1.6),
         filter: p < 0.98 ? `blur(${(1 - p) * 10}px)` : undefined,
         transform: `perspective(1400px) translateY(${(1 - p) * 120}px) rotateX(${(1 - p) * 18}deg) rotate(${tilt}deg) scale(${0.92 + 0.08 * p})`,
@@ -64,7 +86,10 @@ const CHIP: Record<Tone, [string, string]> = {
   yellow: [K.yellow, '#1A1500'],
   red: [K.red, '#fff'],
 };
-export const Chip: React.FC<{text: string; tone?: Tone; p?: number; dot?: string; size?: number}> = ({text, tone = 'dim', p = 1, dot, size = 30}) => (
+export const Chip: React.FC<{text: string; tone?: Tone; p?: number; dot?: string; size?: number}> = ({text, tone = 'dim', p = 1, dot, size = 30}) => {
+  const T = useK();
+  const light = isLight(T) && tone === 'dim';
+  return (
   <div
     style={{
       display: 'inline-flex',
@@ -74,12 +99,12 @@ export const Chip: React.FC<{text: string; tone?: Tone; p?: number; dot?: string
       fontWeight: 800,
       fontSize: size,
       letterSpacing: 2,
-      background: CHIP[tone][0],
-      color: CHIP[tone][1],
+      background: light ? '#FFFFFF' : CHIP[tone][0],
+      color: light ? T.white : CHIP[tone][1],
       borderRadius: 999,
       padding: `${size * 0.35}px ${size * 0.8}px`,
-      border: tone === 'dim' ? `1.5px solid ${K.line}` : 'none',
-      boxShadow: '0 12px 30px rgba(0,0,0,0.35)',
+      border: tone === 'dim' ? `1.5px solid ${T.line}` : 'none',
+      boxShadow: isLight(T) ? '0 10px 24px rgba(15,23,42,0.12)' : '0 12px 30px rgba(0,0,0,0.35)',
       opacity: p,
       transform: `translateY(${(1 - p) * 24}px) scale(${0.9 + 0.1 * p})`,
     }}
@@ -87,10 +112,13 @@ export const Chip: React.FC<{text: string; tone?: Tone; p?: number; dot?: string
     {dot ? <span style={{width: size * 0.4, height: size * 0.4, borderRadius: 99, background: dot}} /> : null}
     {text}
   </div>
-);
+  );
+};
 
 /** Heavy sans headline; one word/line can take the yellow accent. */
-export const Heavy: React.FC<{text: string; size: number; color?: string; p: number; style?: React.CSSProperties}> = ({text, size, color = K.white, p, style}) => (
+export const Heavy: React.FC<{text: string; size: number; color?: string; p: number; style?: React.CSSProperties}> = ({text, size, color, p, style}) => {
+  const T = useK();
+  return (
   <div
     style={{
       fontFamily: SANS,
@@ -98,14 +126,15 @@ export const Heavy: React.FC<{text: string; size: number; color?: string; p: num
       fontSize: size,
       lineHeight: 0.98,
       letterSpacing: -size * 0.02,
-      color,
+      color: color ?? T.white,
       opacity: p,
       filter: `blur(${(1 - p) * 10}px)`,
       transform: `translateY(${(1 - p) * 30}px)`,
-      textShadow: '0 10px 40px rgba(0,0,0,0.35)',
+      textShadow: isLight(T) ? 'none' : '0 10px 40px rgba(0,0,0,0.35)',
       ...style,
     }}
   >
     {text}
   </div>
-);
+  );
+};

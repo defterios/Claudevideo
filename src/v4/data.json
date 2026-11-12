@@ -1039,7 +1039,7 @@
     "protein": 75,
     "fat": 8,
     "carbs": 7,
-    "color": "#F5C518"
+    "color": "#E6A700"
    },
    "beats": [
     0.52,
@@ -1102,7 +1102,7 @@
     "protein": 92,
     "fat": 1,
     "carbs": 1,
-    "color": "#4FA8F5",
+    "color": "#2F80ED",
     "zeros": [
      "FAT \u2248 0",
      "CARBS \u2248 0",

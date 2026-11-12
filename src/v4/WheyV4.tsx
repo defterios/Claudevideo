@@ -3,7 +3,8 @@ import {AbsoluteFill, Audio, OffthreadVideo, Sequence, continueRender, delayRend
 import '../v2/theme';
 import data from './data.json';
 import {REGISTRY as REG3} from '../v3/Scenes';
-import {CX, Card, Chip, Heavy, K, SANS, SlateBg, ease, pop} from '../v3/ui';
+import {Img} from 'remotion';
+import {CX, Card, Chip, Heavy, K, KL, SANS, ThemeCtx, ease, pop} from '../v3/ui';
 import {REGISTRY4, HeroTub} from './Scenes4';
 import {Tubs3D} from './Tub3D';
 
@@ -26,6 +27,8 @@ const pages = data.pages as {start: number; end: number; words: {text: string; s
 export const V4_DURATION: number = data.duration;
 const OPEN_END = scenes.find((s) => !s.kind.startsWith('open'))!.start;
 const PUNCH_AT = scenes.find((s) => s.kind === 'openPunch')!.start;
+const TITLE_AT = scenes.find((s) => s.kind === 'openTitle')!.start;
+const OPEN_BEATS = scenes.find((s) => s.kind === 'openTubs')!.beats;
 const END_AT = vids.find((v) => v.src === 'c3')!.outStart;
 const ALL: Record<string, React.FC<any>> = {...REG3, ...REGISTRY4};
 
@@ -51,22 +54,56 @@ const Clips: React.FC<{src: string; filter?: string}> = ({src, filter}) => {
 
 const GRADE = 'contrast(1.08) saturate(0.95) brightness(0.97)';
 
-/** Opening speaker: split (bottom) → punch-in close-up. Face sits high in this clip. */
-const OpenSpeaker: React.FC = () => {
+/** source time of c1 at output time t (for the per-frame person cut-out) */
+const c1At = (t: number) => {
+  const list = vids.filter((v) => v.src === 'c1');
+  let v = list[0];
+  for (const x of list) if (t >= x.outStart) v = x;
+  return v.srcStart + Math.min(Math.max(0, t - v.outStart), v.dur - 1 / 30);
+};
+
+/* tub screen positions (px centre) for each intro phase: pop-in → gather → fly out */
+const POS = {
+  pop: [[205, 760], [540, 500], [855, 760]],
+  gather: [[200, 690], [540, 585], [860, 690]],
+};
+const NAMES = ['CONCENTRATE', 'ISOLATE', 'HYDROLYZED'];
+const VARS = ['concentrate', 'isolate', 'hydro'] as const;
+
+/** Intro: full-frame gym clip with the 3D tubs composited INTO the shot (behind the speaker). */
+const OpenAR: React.FC = () => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
   if (t >= OPEN_END + 0.25) return null;
-  const p = ease(t, PUNCH_AT - 0.05, PUNCH_AT + 0.25);
-  const top = interpolate(p, [0, 1], [820, 0]);
-  const k = 1;
+  const g = ease(t, TITLE_AT - 0.1, TITLE_AT + 0.35);
+  const out = ease(t, PUNCH_AT, PUNCH_AT + 0.45);
+  const idx = Math.min(254, Math.max(0, Math.round(c1At(t) * 30)));
   return (
-    <div style={{position: 'absolute', left: 0, top, width: 1080, height: 1920 - top, overflow: 'hidden'}}>
-      <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, transform: `translateY(${interpolate(p, [0, 1], [-170, 0])}px) scale(${k})`, transformOrigin: '540px 520px'}}>
-        <Clips src="c1" filter={GRADE} />
-      </div>
-      <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 200, opacity: 1 - p, background: `linear-gradient(180deg, ${K.bg1}, rgba(53,61,73,0))`}} />
-    </div>
+    <AbsoluteFill>
+      <Clips src="c1" filter={GRADE} />
+      {/* 3D tubs, graded to sit in the footage */}
+      <AbsoluteFill style={{filter: 'saturate(0.86) contrast(0.95) brightness(0.95) sepia(0.07) blur(0.6px)'}}>
+        {VARS.map((v, i) => {
+          const p = pop(t, OPEN_BEATS[i] - 0.25);
+          const [x0, y0] = POS.pop[i];
+          const [x1, y1] = POS.gather[i];
+          const dir = i - 1;
+          const x = x0 + (x1 - x0) * g + dir * 520 * out + (i === 1 ? 0 : 0);
+          const y = y0 + (y1 - y0) * g - (i === 1 ? 700 : 120) * out + Math.sin(t * 2.2 + i) * 8;
+          const sc = (0.05 + 0.95 * p) * (1 - 0.6 * out) * (i === 1 ? 0.95 - 0.15 * g : 1 - 0.18 * g);
+          if (p < 0.01 || out > 0.98) return null;
+          return (
+            <div key={v} style={{position: 'absolute', left: x - 210, top: y - 240, width: 420, height: 480, opacity: Math.min(1, p * 2) * (1 - out)}}>
+              <Tubs3D width={420} height={480} camZ={6.4} mood="warm" items={[{variant: v, x: 0, rotY: -0.5 * dir + (1 - p) * -2 + Math.sin(t * 1.4 + i) * 0.25 + out * 2, scale: sc}]} />
+            </div>
+          );
+        })}
+      </AbsoluteFill>
+      {/* the speaker in front of the tubs (per-frame segmentation cut-out) */}
+      <Img src={staticFile(`v4/cut/${String(idx).padStart(4, '0')}.webp`)} style={{position: 'absolute', inset: 0, width: 1080, height: 1920, filter: GRADE}} />
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse 90% 70% at 50% 45%, rgba(0,0,0,0) 55%, rgba(10,12,16,0.4) 100%)'}} />
+    </AbsoluteFill>
   );
 };
 
@@ -90,31 +127,26 @@ const EndSpeaker: React.FC = () => {
 /* ---------- opening top-half content ---------- */
 const OpenTop: React.FC<{sc: Scene; local: number}> = ({sc, local}) => {
   if (sc.kind === 'openTubs') {
-    const vs = ['concentrate', 'isolate', 'hydro'] as const;
-    const names = ['CONCENTRATE', 'ISOLATE', 'HYDROLYZED'];
     return (
       <>
-        <div style={{position: 'absolute', left: -45, top: 200}}>
-          <Tubs3D width={1080} height={500} camZ={9.4} items={vs.map((v, i) => {
-            const p = pop(local, (sc.beats[i] ?? i * 0.4) - 0.2);
-            return {variant: v, x: (i - 1) * 2.45, y: interpolate(p, [0, 1], [-2.5, -0.1]), rotY: -0.35 * (i - 1) + Math.sin(local * 1.3 + i) * 0.15, scale: 0.05 + 0.85 * p};
-          })} />
-        </div>
-        {names.map((n, i) => (
-          <div key={n} style={{position: 'absolute', left: CX - 45 + (i - 1) * 270 - 85, top: 690, width: 260, display: 'flex', justifyContent: 'center'}}>
-            <Chip text={n} tone={i === 0 ? 'yellow' : i === 1 ? 'blue' : 'red'} size={22} p={pop(local, sc.beats[i] ?? 0.5)} />
-          </div>
-        ))}
+        {NAMES.map((n, i) => {
+          const [x, y] = POS.pop[i];
+          const chipY = i === 1 ? y - 250 : y + 175;
+          return (
+            <div key={n} style={{position: 'absolute', left: x - 150, top: chipY, width: 300, display: 'flex', justifyContent: 'center'}}>
+              <Chip text={n} tone={i === 0 ? 'yellow' : i === 1 ? 'blue' : 'red'} size={24} p={pop(local, sc.beats[i] ?? 0.5)} />
+            </div>
+          );
+        })}
       </>
     );
   }
   if (sc.kind === 'openTitle') {
     const [a, b] = sc.props.big as string[];
     return (
-      <div style={{position: 'absolute', top: 330, width: 990, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <div style={{fontFamily: SANS, fontWeight: 700, fontSize: 44, color: K.dim, opacity: ease(local, 0, 0.25)}}>{sc.props.small}</div>
-        <Heavy text={a} size={124} p={ease(local, 0.05, 0.3)} />
-        <Heavy text={b} size={124} p={ease(local, 0.15, 0.4)} color={K.yellow} />
+      <div style={{position: 'absolute', top: 222, width: 990, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <Heavy text={a} size={96} p={ease(local, 0.05, 0.3)} color="#FFFFFF" style={{textShadow: '0 6px 30px rgba(0,0,0,0.6)'}} />
+        <Heavy text={b} size={96} p={ease(local, 0.15, 0.4)} color={K.yellow} style={{textShadow: '0 6px 30px rgba(0,0,0,0.6)'}} />
       </div>
     );
   }
@@ -169,6 +201,7 @@ const SceneLayer: React.FC = () => {
   const inP = ease(local, 0, 8 / fps);
   const P = prev ? ALL[prev.kind] : null;
   return (
+    <ThemeCtx.Provider value={KL}>
     <AbsoluteFill style={{transform: 'translateY(40px)'}}>
       {P && inP < 1 ? (
         <AbsoluteFill style={{filter: `blur(${inP * 18}px)`, opacity: 1 - inP, transform: `translateY(${-inP * 60}px)`}}>
@@ -179,6 +212,7 @@ const SceneLayer: React.FC = () => {
         <C local={local} dur={sc.end - sc.start} beats={sc.beats} props={sc.props} />
       </AbsoluteFill>
     </AbsoluteFill>
+    </ThemeCtx.Provider>
   );
 };
 
@@ -201,7 +235,7 @@ const Captions: React.FC = () => {
   const t = frame / fps;
   const page = pages.find((p) => t >= p.start && t < p.end);
   if (!page) return null;
-  const y = t >= END_AT ? 1370 : t < PUNCH_AT ? 770 : t < OPEN_END ? 1300 : 1265;
+  const y = t >= END_AT ? 1370 : t < OPEN_END ? 1360 : 1265;
   return (
     <div style={{position: 'absolute', top: y, width: 990, display: 'flex', justifyContent: 'center', opacity: ease(t, page.start, page.start + 0.08)}}>
       <div style={{background: 'rgba(18,22,28,0.88)', borderRadius: 18, padding: '10px 22px 12px', fontFamily: SANS, fontWeight: 800, fontSize: 40, color: K.white, border: `1.5px solid ${K.line}`, boxShadow: '0 10px 30px rgba(0,0,0,0.35)', maxWidth: 820, textAlign: 'center'}}>
@@ -219,9 +253,8 @@ const Captions: React.FC = () => {
 export const WheyV4: React.FC<{musicVolume: number}> = ({musicVolume}) => {
   const {fps, durationInFrames} = useVideoConfig();
   return (
-    <AbsoluteFill style={{backgroundColor: K.bg2}}>
-      <SlateBg />
-      <OpenSpeaker />
+    <AbsoluteFill style={{backgroundColor: '#F6F7F9'}}>
+      <OpenAR />
       <SceneLayer />
       <EndSpeaker />
       <TopLayer />
