@@ -193,20 +193,23 @@ const Shelf: React.FC<SP> = ({local, beats}) => {
         <Chip text="ON THE SHELF" p={pop(local, 0)} />
       </div>
       <div style={{position: 'absolute', left: -45, top: 320}}>
-        <Tubs3D width={1080} height={560} camZ={9.6} items={items.map((v, i) => ({variant: v, x: (i - 1) * 2.45, y: -0.2 + interpolate(pop(local, i * 0.12), [0, 1], [3.2, 0]), rotY: -0.35 * (i - 1) + Math.sin(local * 1.2 + i) * 0.12, scale: 0.92}))} />
+        <Tubs3D width={1080} height={560} camZ={9.6} items={items.map((v, i) => {
+          const p = pop(local, i * 0.12);
+          return {variant: v, x: (i - 1) * 2.45, y: -0.2 + (1 - p) * 0.6, rotY: -0.35 * (i - 1) - (1 - p) * 1.2 + Math.sin(local * 1.2 + i) * 0.12, scale: 0.05 + 0.87 * p};
+        })} />
       </div>
       {/* shelf plank */}
-      <div style={{position: 'absolute', left: 70, width: 850, top: 820, height: 34, borderRadius: 8, background: 'linear-gradient(180deg, #4A5361, #2A313B)', boxShadow: '0 30px 60px rgba(0,0,0,0.55)', opacity: ease(local, 0, 0.3)}} />
+      <div style={{position: 'absolute', left: 70, width: 850, top: 768, height: 34, borderRadius: 8, background: 'linear-gradient(180deg, #4A5361, #2A313B)', boxShadow: '0 30px 60px rgba(0,0,0,0.55)', opacity: ease(local, 0, 0.3)}} />
       {items.map((v, i) => {
         const p = pop(local, beats[i] ?? 0.5 + i * 0.3);
         const top = i === 2;
         return (
-          <div key={v} style={{position: 'absolute', left: CX - 45 + (i - 1) * 270 - 85, top: 880, width: 260, display: 'flex', justifyContent: 'center'}}>
+          <div key={v} style={{position: 'absolute', left: CX - 45 + (i - 1) * 270 - 85, top: 835, width: 260, display: 'flex', justifyContent: 'center'}}>
             <div style={{fontFamily: SANS, fontWeight: 900, fontSize: top ? 64 : 52, color: top ? '#fff' : '#0E1A12', background: top ? K.red : K.green, borderRadius: 18, padding: '10px 26px', boxShadow: top ? `0 0 40px ${K.red}` : '0 12px 30px rgba(0,0,0,0.4)', opacity: p, transform: `translateY(${(1 - p) * 30}px) rotate(${top ? -4 : 0}deg) scale(${0.8 + 0.2 * p})`}}>{tags[i]}</div>
           </div>
         );
       })}
-      <div style={{position: 'absolute', top: 1020, width: 990, display: 'flex', justifyContent: 'center'}}>
+      <div style={{position: 'absolute', top: 975, width: 990, display: 'flex', justifyContent: 'center'}}>
         <Heavy text="MOST EXPENSIVE" size={72} color={K.red} p={ease(local, (beats[2] ?? 1) - 0.1, (beats[2] ?? 1) + 0.3)} />
       </div>
     </AbsoluteFill>
