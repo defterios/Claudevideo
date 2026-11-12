@@ -103,13 +103,13 @@ out = np.zeros((int(duration * SR) + SR, 2), np.float32); xf = int(0.010 * SR)
 cache = {}
 for p in pieces:
     if p["src"] not in cache:
-        w = wave.open(os.path.join(ROOT, f"public/v2/{p['src']}.wav"))
+        w = wave.open(os.path.join(ROOT, os.environ.get("MEDIA", "public/v2"), f"{p['src']}.wav"))
         cache[p["src"]] = np.frombuffer(w.readframes(w.getnframes()), np.int16).reshape(-1, 2).astype(np.float32)
     a = cache[p["src"]][int(p["s"] * SR): int(p["e"] * SR)].copy()
     if len(a) > 2 * xf:
         r = np.linspace(0, 1, xf)[:, None]; a[:xf] *= r; a[-xf:] *= r[::-1]
     i0 = int(round(p["out"] * SR)); out[i0:i0 + len(a)] += a
-ow = wave.open(os.path.join(ROOT, "public/v2/voice_edit.wav"), "w"); ow.setnchannels(2); ow.setsampwidth(2); ow.setframerate(SR)
+ow = wave.open(os.path.join(ROOT, os.environ.get("MEDIA", "public/v2"), "voice_edit.wav"), "w"); ow.setnchannels(2); ow.setsampwidth(2); ow.setframerate(SR)
 ow.writeframes(np.clip(out[: int(duration * SR)], -32768, 32767).astype(np.int16).tobytes()); ow.close()
 print(f"edit {duration:.1f}s  open video {sum(v['dur'] for v in video):.1f}s  {len(pages)} caption pages  {len(scenes)} scenes  {len(sfx)} sfx")
 print("source boundaries:", {p["src"]: round(p["out"], 2) for p in pieces[::-1]})

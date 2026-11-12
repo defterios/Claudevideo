@@ -1,0 +1,1430 @@
+{
+ "duration": 42.6,
+ "video": [
+  {
+   "src": "c1",
+   "srcStart": 2.2333333333333334,
+   "outStart": 0.0,
+   "dur": 2.7
+  },
+  {
+   "src": "c1",
+   "srcStart": 5.133333333333334,
+   "outStart": 2.7,
+   "dur": 1.0667
+  },
+  {
+   "src": "c3",
+   "srcStart": 0.7333333333333333,
+   "outStart": 32.1333,
+   "dur": 5.9667
+  },
+  {
+   "src": "c3",
+   "srcStart": 6.866666666666666,
+   "outStart": 38.1,
+   "dur": 3.8
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.047,
+   "end": 0.547,
+   "words": [
+    {
+     "text": "Concentrate,",
+     "start": 0.047,
+     "end": 0.447
+    }
+   ]
+  },
+  {
+   "start": 0.547,
+   "end": 1.827,
+   "words": [
+    {
+     "text": "isolate",
+     "start": 0.547,
+     "end": 0.867
+    },
+    {
+     "text": "or",
+     "start": 0.867,
+     "end": 1.107
+    },
+    {
+     "text": "hydrolyzed,",
+     "start": 1.107,
+     "end": 1.647
+    }
+   ]
+  },
+  {
+   "start": 1.827,
+   "end": 2.367,
+   "words": [
+    {
+     "text": "which",
+     "start": 1.827,
+     "end": 1.987
+    },
+    {
+     "text": "one",
+     "start": 1.987,
+     "end": 2.107
+    },
+    {
+     "text": "do",
+     "start": 2.107,
+     "end": 2.207
+    },
+    {
+     "text": "you",
+     "start": 2.207,
+     "end": 2.367
+    }
+   ]
+  },
+  {
+   "start": 2.367,
+   "end": 2.747,
+   "words": [
+    {
+     "text": "think?",
+     "start": 2.367,
+     "end": 2.567
+    }
+   ]
+  },
+  {
+   "start": 2.747,
+   "end": 3.867,
+   "words": [
+    {
+     "text": "Let's",
+     "start": 2.747,
+     "end": 3.027
+    },
+    {
+     "text": "break",
+     "start": 3.027,
+     "end": 3.147
+    },
+    {
+     "text": "it",
+     "start": 3.147,
+     "end": 3.287
+    },
+    {
+     "text": "down.",
+     "start": 3.287,
+     "end": 3.647
+    }
+   ]
+  },
+  {
+   "start": 3.867,
+   "end": 5.387,
+   "words": [
+    {
+     "text": "Here",
+     "start": 3.867,
+     "end": 4.647
+    },
+    {
+     "text": "is",
+     "start": 4.647,
+     "end": 4.927
+    },
+    {
+     "text": "the",
+     "start": 4.927,
+     "end": 5.047
+    },
+    {
+     "text": "simple",
+     "start": 5.047,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "start": 5.387,
+   "end": 6.187,
+   "words": [
+    {
+     "text": "science.",
+     "start": 5.387,
+     "end": 6.007
+    }
+   ]
+  },
+  {
+   "start": 6.187,
+   "end": 7.267,
+   "words": [
+    {
+     "text": "Whey",
+     "start": 6.187,
+     "end": 6.327
+    },
+    {
+     "text": "concentrate",
+     "start": 6.327,
+     "end": 6.787
+    },
+    {
+     "text": "is",
+     "start": 6.787,
+     "end": 7.027
+    },
+    {
+     "text": "the",
+     "start": 7.027,
+     "end": 7.267
+    }
+   ]
+  },
+  {
+   "start": 7.267,
+   "end": 7.727,
+   "words": [
+    {
+     "text": "standard.",
+     "start": 7.267,
+     "end": 7.547
+    }
+   ]
+  },
+  {
+   "start": 7.727,
+   "end": 9.367,
+   "words": [
+    {
+     "text": "It",
+     "start": 7.727,
+     "end": 7.807
+    },
+    {
+     "text": "is",
+     "start": 7.807,
+     "end": 8.027
+    },
+    {
+     "text": "about",
+     "start": 8.027,
+     "end": 8.187
+    },
+    {
+     "text": "70-80%",
+     "start": 8.187,
+     "end": 9.367
+    }
+   ]
+  },
+  {
+   "start": 9.367,
+   "end": 10.687,
+   "words": [
+    {
+     "text": "protein",
+     "start": 9.367,
+     "end": 9.807
+    },
+    {
+     "text": "and",
+     "start": 9.807,
+     "end": 10.267
+    },
+    {
+     "text": "contains",
+     "start": 10.267,
+     "end": 10.587
+    },
+    {
+     "text": "a",
+     "start": 10.587,
+     "end": 10.687
+    }
+   ]
+  },
+  {
+   "start": 10.687,
+   "end": 11.467,
+   "words": [
+    {
+     "text": "little",
+     "start": 10.687,
+     "end": 10.947
+    },
+    {
+     "text": "bit",
+     "start": 10.947,
+     "end": 11.147
+    },
+    {
+     "text": "of",
+     "start": 11.147,
+     "end": 11.287
+    },
+    {
+     "text": "fat",
+     "start": 11.287,
+     "end": 11.467
+    }
+   ]
+  },
+  {
+   "start": 11.467,
+   "end": 12.253,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.467,
+     "end": 11.747
+    },
+    {
+     "text": "carbs.",
+     "start": 11.747,
+     "end": 12.067
+    }
+   ]
+  },
+  {
+   "start": 12.253,
+   "end": 13.233,
+   "words": [
+    {
+     "text": "It",
+     "start": 12.253,
+     "end": 12.393
+    },
+    {
+     "text": "usually",
+     "start": 12.473,
+     "end": 12.753
+    },
+    {
+     "text": "tastes",
+     "start": 12.753,
+     "end": 13.013
+    },
+    {
+     "text": "the",
+     "start": 13.013,
+     "end": 13.233
+    }
+   ]
+  },
+  {
+   "start": 13.233,
+   "end": 14.353,
+   "words": [
+    {
+     "text": "best",
+     "start": 13.233,
+     "end": 13.413
+    },
+    {
+     "text": "and",
+     "start": 13.413,
+     "end": 13.713
+    },
+    {
+     "text": "also",
+     "start": 13.713,
+     "end": 14.093
+    },
+    {
+     "text": "is",
+     "start": 14.093,
+     "end": 14.353
+    }
+   ]
+  },
+  {
+   "start": 14.353,
+   "end": 15.133,
+   "words": [
+    {
+     "text": "the",
+     "start": 14.353,
+     "end": 14.573
+    },
+    {
+     "text": "cheapest.",
+     "start": 14.573,
+     "end": 14.953
+    }
+   ]
+  },
+  {
+   "start": 15.133,
+   "end": 16.273,
+   "words": [
+    {
+     "text": "Whey",
+     "start": 15.133,
+     "end": 15.353
+    },
+    {
+     "text": "isolate",
+     "start": 15.353,
+     "end": 15.653
+    },
+    {
+     "text": "goes",
+     "start": 15.653,
+     "end": 16.013
+    },
+    {
+     "text": "through",
+     "start": 16.013,
+     "end": 16.273
+    }
+   ]
+  },
+  {
+   "start": 16.273,
+   "end": 17.353,
+   "words": [
+    {
+     "text": "extra",
+     "start": 16.273,
+     "end": 16.733
+    },
+    {
+     "text": "filtering.",
+     "start": 16.733,
+     "end": 17.173
+    }
+   ]
+  },
+  {
+   "start": 17.353,
+   "end": 18.453,
+   "words": [
+    {
+     "text": "It",
+     "start": 17.353,
+     "end": 17.453
+    },
+    {
+     "text": "is",
+     "start": 17.453,
+     "end": 17.653
+    },
+    {
+     "text": "over",
+     "start": 17.653,
+     "end": 17.813
+    },
+    {
+     "text": "90%",
+     "start": 17.813,
+     "end": 18.453
+    }
+   ]
+  },
+  {
+   "start": 18.453,
+   "end": 19.493,
+   "words": [
+    {
+     "text": "protein",
+     "start": 18.453,
+     "end": 18.753
+    },
+    {
+     "text": "with",
+     "start": 18.753,
+     "end": 18.973
+    },
+    {
+     "text": "almost",
+     "start": 18.973,
+     "end": 19.233
+    },
+    {
+     "text": "zero",
+     "start": 19.233,
+     "end": 19.493
+    }
+   ]
+  },
+  {
+   "start": 19.493,
+   "end": 20.073,
+   "words": [
+    {
+     "text": "fat,",
+     "start": 19.493,
+     "end": 19.853
+    }
+   ]
+  },
+  {
+   "start": 20.073,
+   "end": 21.367,
+   "words": [
+    {
+     "text": "carbs",
+     "start": 20.073,
+     "end": 20.333
+    },
+    {
+     "text": "or",
+     "start": 20.333,
+     "end": 20.653
+    },
+    {
+     "text": "lactose.",
+     "start": 20.653,
+     "end": 21.213
+    }
+   ]
+  },
+  {
+   "start": 21.367,
+   "end": 22.207,
+   "words": [
+    {
+     "text": "It",
+     "start": 21.367,
+     "end": 21.527
+    },
+    {
+     "text": "costs",
+     "start": 21.527,
+     "end": 21.687
+    },
+    {
+     "text": "more",
+     "start": 21.687,
+     "end": 21.927
+    },
+    {
+     "text": "but",
+     "start": 21.927,
+     "end": 22.207
+    }
+   ]
+  },
+  {
+   "start": 22.207,
+   "end": 23.227,
+   "words": [
+    {
+     "text": "great",
+     "start": 22.207,
+     "end": 22.467
+    },
+    {
+     "text": "if",
+     "start": 22.467,
+     "end": 22.607
+    },
+    {
+     "text": "dairy",
+     "start": 22.607,
+     "end": 22.867
+    },
+    {
+     "text": "product",
+     "start": 22.867,
+     "end": 23.227
+    }
+   ]
+  },
+  {
+   "start": 23.227,
+   "end": 24.433,
+   "words": [
+    {
+     "text": "upsets",
+     "start": 23.227,
+     "end": 23.647
+    },
+    {
+     "text": "your",
+     "start": 23.647,
+     "end": 23.927
+    },
+    {
+     "text": "stomach.",
+     "start": 23.927,
+     "end": 24.287
+    }
+   ]
+  },
+  {
+   "start": 24.433,
+   "end": 25.613,
+   "words": [
+    {
+     "text": "Then",
+     "start": 24.433,
+     "end": 24.713
+    },
+    {
+     "text": "there's",
+     "start": 24.713,
+     "end": 24.993
+    },
+    {
+     "text": "hydrolyzed",
+     "start": 24.993,
+     "end": 25.613
+    }
+   ]
+  },
+  {
+   "start": 25.613,
+   "end": 26.213,
+   "words": [
+    {
+     "text": "whey.",
+     "start": 25.613,
+     "end": 26.113
+    }
+   ]
+  },
+  {
+   "start": 26.213,
+   "end": 27.813,
+   "words": [
+    {
+     "text": "This",
+     "start": 26.213,
+     "end": 26.433
+    },
+    {
+     "text": "is",
+     "start": 26.433,
+     "end": 26.653
+    },
+    {
+     "text": "partially",
+     "start": 26.653,
+     "end": 27.013
+    },
+    {
+     "text": "pre-digested",
+     "start": 27.013,
+     "end": 27.813
+    }
+   ]
+  },
+  {
+   "start": 27.813,
+   "end": 29.273,
+   "words": [
+    {
+     "text": "for",
+     "start": 27.813,
+     "end": 28.073
+    },
+    {
+     "text": "super",
+     "start": 28.073,
+     "end": 28.373
+    },
+    {
+     "text": "fast",
+     "start": 28.373,
+     "end": 28.593
+    },
+    {
+     "text": "absorption",
+     "start": 28.593,
+     "end": 29.273
+    }
+   ]
+  },
+  {
+   "start": 29.273,
+   "end": 30.193,
+   "words": [
+    {
+     "text": "and",
+     "start": 29.273,
+     "end": 29.833
+    },
+    {
+     "text": "it",
+     "start": 29.833,
+     "end": 29.913
+    },
+    {
+     "text": "is",
+     "start": 29.913,
+     "end": 30.113
+    },
+    {
+     "text": "the",
+     "start": 30.113,
+     "end": 30.193
+    }
+   ]
+  },
+  {
+   "start": 30.193,
+   "end": 31.433,
+   "words": [
+    {
+     "text": "most",
+     "start": 30.193,
+     "end": 30.393
+    },
+    {
+     "text": "expensive",
+     "start": 30.393,
+     "end": 30.813
+    },
+    {
+     "text": "option",
+     "start": 30.813,
+     "end": 31.173
+    },
+    {
+     "text": "on",
+     "start": 31.173,
+     "end": 31.433
+    }
+   ]
+  },
+  {
+   "start": 31.433,
+   "end": 32.2,
+   "words": [
+    {
+     "text": "the",
+     "start": 31.433,
+     "end": 31.673
+    },
+    {
+     "text": "shelf.",
+     "start": 31.673,
+     "end": 31.913
+    }
+   ]
+  },
+  {
+   "start": 32.2,
+   "end": 32.66,
+   "words": [
+    {
+     "text": "So,",
+     "start": 32.2,
+     "end": 32.6
+    }
+   ]
+  },
+  {
+   "start": 32.66,
+   "end": 33.66,
+   "words": [
+    {
+     "text": "if",
+     "start": 32.66,
+     "end": 32.86
+    },
+    {
+     "text": "you",
+     "start": 32.86,
+     "end": 33.04
+    },
+    {
+     "text": "ask",
+     "start": 33.04,
+     "end": 33.26
+    },
+    {
+     "text": "me,",
+     "start": 33.26,
+     "end": 33.62
+    }
+   ]
+  },
+  {
+   "start": 33.66,
+   "end": 34.48,
+   "words": [
+    {
+     "text": "I",
+     "start": 33.66,
+     "end": 33.76
+    },
+    {
+     "text": "would",
+     "start": 33.76,
+     "end": 33.96
+    },
+    {
+     "text": "still",
+     "start": 33.96,
+     "end": 34.18
+    },
+    {
+     "text": "go",
+     "start": 34.18,
+     "end": 34.48
+    }
+   ]
+  },
+  {
+   "start": 34.48,
+   "end": 35.74,
+   "words": [
+    {
+     "text": "for",
+     "start": 34.48,
+     "end": 34.74
+    },
+    {
+     "text": "whey",
+     "start": 34.74,
+     "end": 34.98
+    },
+    {
+     "text": "concentrate",
+     "start": 34.98,
+     "end": 35.42
+    },
+    {
+     "text": "if",
+     "start": 35.42,
+     "end": 35.74
+    }
+   ]
+  },
+  {
+   "start": 35.74,
+   "end": 36.82,
+   "words": [
+    {
+     "text": "you",
+     "start": 35.74,
+     "end": 35.92
+    },
+    {
+     "text": "are",
+     "start": 35.92,
+     "end": 36.06
+    },
+    {
+     "text": "a",
+     "start": 36.06,
+     "end": 36.22
+    },
+    {
+     "text": "beginner,",
+     "start": 36.22,
+     "end": 36.56
+    }
+   ]
+  },
+  {
+   "start": 36.82,
+   "end": 37.52,
+   "words": [
+    {
+     "text": "because",
+     "start": 36.82,
+     "end": 37.16
+    },
+    {
+     "text": "at",
+     "start": 37.16,
+     "end": 37.34
+    },
+    {
+     "text": "the",
+     "start": 37.34,
+     "end": 37.4
+    },
+    {
+     "text": "end",
+     "start": 37.4,
+     "end": 37.52
+    }
+   ]
+  },
+  {
+   "start": 37.52,
+   "end": 38.153,
+   "words": [
+    {
+     "text": "of",
+     "start": 37.52,
+     "end": 37.66
+    },
+    {
+     "text": "the",
+     "start": 37.66,
+     "end": 37.74
+    },
+    {
+     "text": "day,",
+     "start": 37.74,
+     "end": 37.98
+    }
+   ]
+  },
+  {
+   "start": 38.153,
+   "end": 39.593,
+   "words": [
+    {
+     "text": "a",
+     "start": 38.153,
+     "end": 38.153
+    },
+    {
+     "text": "consistent",
+     "start": 38.153,
+     "end": 38.433
+    },
+    {
+     "text": "training",
+     "start": 38.433,
+     "end": 38.873
+    },
+    {
+     "text": "and",
+     "start": 38.873,
+     "end": 39.593
+    }
+   ]
+  },
+  {
+   "start": 39.593,
+   "end": 40.353,
+   "words": [
+    {
+     "text": "also",
+     "start": 39.593,
+     "end": 39.833
+    },
+    {
+     "text": "a",
+     "start": 39.833,
+     "end": 39.993
+    },
+    {
+     "text": "good",
+     "start": 39.993,
+     "end": 40.113
+    },
+    {
+     "text": "diet",
+     "start": 40.113,
+     "end": 40.353
+    }
+   ]
+  },
+  {
+   "start": 40.353,
+   "end": 41.153,
+   "words": [
+    {
+     "text": "is",
+     "start": 40.353,
+     "end": 40.713
+    },
+    {
+     "text": "what",
+     "start": 40.713,
+     "end": 40.893
+    },
+    {
+     "text": "gets",
+     "start": 40.893,
+     "end": 41.033
+    },
+    {
+     "text": "you",
+     "start": 41.033,
+     "end": 41.153
+    }
+   ]
+  },
+  {
+   "start": 41.153,
+   "end": 42.273,
+   "words": [
+    {
+     "text": "that",
+     "start": 41.153,
+     "end": 41.233
+    },
+    {
+     "text": "body.",
+     "start": 41.413,
+     "end": 41.773
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "kind": "openTubs",
+   "props": {},
+   "beats": [
+    0.047,
+    0.547,
+    1.107
+   ],
+   "start": 0.0,
+   "end": 1.767
+  },
+  {
+   "kind": "openTitle",
+   "props": {
+    "small": "which one do you think?",
+    "big": [
+     "WHICH WHEY",
+     "IS BEST?"
+    ]
+   },
+   "beats": [],
+   "sfx": "whoosh_slide",
+   "start": 1.767,
+   "end": 2.7
+  },
+  {
+   "kind": "openPunch",
+   "props": {
+    "chip": "LET'S BREAK IT DOWN"
+   },
+   "beats": [],
+   "sfx": "whoosh_short_a",
+   "sfxVol": 0.3,
+   "start": 2.7,
+   "end": 3.867
+  },
+  {
+   "kind": "section",
+   "props": {
+    "n": null,
+    "title": "THE SIMPLE SCIENCE",
+    "accent": "SCIENCE"
+   },
+   "beats": [],
+   "sfx": "whoosh_hit_a",
+   "sfxVol": 0.3,
+   "start": 3.867,
+   "end": 6.133
+  },
+  {
+   "kind": "tubHero",
+   "props": {
+    "variant": "concentrate",
+    "n": 1,
+    "name": "WHEY CONCENTRATE",
+    "chip": "THE STANDARD",
+    "tone": "yellow"
+   },
+   "beats": [
+    1.134
+   ],
+   "start": 6.133,
+   "end": 7.667
+  },
+  {
+   "kind": "macro",
+   "props": {
+    "variant": "concentrate",
+    "pct": "70\u201380%",
+    "protein": 75,
+    "fat": 8,
+    "carbs": 7,
+    "color": "#F5C518"
+   },
+   "beats": [
+    0.52,
+    3.62,
+    4.08
+   ],
+   "start": 7.667,
+   "end": 12.2
+  },
+  {
+   "kind": "ratings",
+   "props": {
+    "variant": "concentrate",
+    "rows": [
+     [
+      "TASTE",
+      "\u2605\u2605\u2605\u2605\u2605",
+      "BEST"
+     ],
+     [
+      "PRICE",
+      "$",
+      "CHEAPEST"
+     ]
+    ]
+   },
+   "beats": [
+    0.553,
+    2.153
+   ],
+   "start": 12.2,
+   "end": 15.073
+  },
+  {
+   "kind": "tubCode",
+   "props": {
+    "variant": "isolate",
+    "n": 2,
+    "file": "isolate.js",
+    "lines": [
+     "// Whey Isolate",
+     "filter([",
+     "  \"fat\", \"carbs\",",
+     "  \"lactose\"",
+     "]);"
+    ]
+   },
+   "beats": [
+    1.06,
+    1.66
+   ],
+   "start": 15.073,
+   "end": 17.3
+  },
+  {
+   "kind": "macro",
+   "props": {
+    "variant": "isolate",
+    "pct": "90%+",
+    "protein": 92,
+    "fat": 1,
+    "carbs": 1,
+    "color": "#4FA8F5",
+    "zeros": [
+     "FAT \u2248 0",
+     "CARBS \u2248 0",
+     "LACTOSE \u2248 0"
+    ]
+   },
+   "beats": [
+    0.513,
+    2.193,
+    2.773,
+    3.353
+   ],
+   "start": 17.3,
+   "end": 21.333
+  },
+  {
+   "kind": "ratings",
+   "props": {
+    "variant": "isolate",
+    "rows": [
+     [
+      "PRICE",
+      "$$",
+      "COSTS MORE"
+     ],
+     [
+      "SENSITIVE STOMACH",
+      "\u2713",
+      "DAIRY-FRIENDLY"
+     ]
+    ]
+   },
+   "beats": [
+    0.194,
+    1.274
+   ],
+   "start": 21.333,
+   "end": 24.4
+  },
+  {
+   "kind": "tubHero",
+   "props": {
+    "variant": "hydro",
+    "n": 3,
+    "name": "HYDROLYZED WHEY",
+    "chip": "PRE-DIGESTED",
+    "tone": "red"
+   },
+   "beats": [
+    2.633
+   ],
+   "start": 24.4,
+   "end": 27.833
+  },
+  {
+   "kind": "race",
+   "props": {},
+   "beats": [
+    0.3
+   ],
+   "start": 27.833,
+   "end": 29.783
+  },
+  {
+   "kind": "shelf",
+   "props": {},
+   "beats": [
+    0.35,
+    0.61,
+    1.05
+   ],
+   "start": 29.783,
+   "end": 32.133
+  },
+  {
+   "kind": "endPick",
+   "props": {},
+   "beats": [
+    2.607,
+    4.087
+   ],
+   "start": 32.133,
+   "end": 36.76
+  },
+  {
+   "kind": "endChips",
+   "props": {},
+   "beats": [
+    1.393,
+    3.233
+   ],
+   "sfx": "whoosh_slide",
+   "sfxVol": 0.22,
+   "start": 36.76,
+   "end": 42.6
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "src": "whoosh_organic",
+   "volume": 0.35
+  },
+  {
+   "t": 0.047,
+   "src": "pop",
+   "volume": 0.32
+  },
+  {
+   "t": 0.547,
+   "src": "pop",
+   "volume": 0.32
+  },
+  {
+   "t": 1.107,
+   "src": "pop",
+   "volume": 0.32
+  },
+  {
+   "t": 1.867,
+   "src": "snap_perc",
+   "volume": 0.3
+  },
+  {
+   "t": 7.267,
+   "src": "snap_glassy",
+   "volume": 0.35
+  },
+  {
+   "t": 7.887,
+   "src": "riser",
+   "volume": 0.18
+  },
+  {
+   "t": 9.067,
+   "src": "ui_blip",
+   "volume": 0.3
+  },
+  {
+   "t": 11.287,
+   "src": "click",
+   "volume": 0.3
+  },
+  {
+   "t": 11.747,
+   "src": "click",
+   "volume": 0.3
+  },
+  {
+   "t": 12.753,
+   "src": "ping",
+   "volume": 0.25
+  },
+  {
+   "t": 14.353,
+   "src": "coins",
+   "volume": 0.3
+  },
+  {
+   "t": 16.133,
+   "src": "click",
+   "volume": 0.16
+  },
+  {
+   "t": 16.383,
+   "src": "click",
+   "volume": 0.16
+  },
+  {
+   "t": 16.633,
+   "src": "click",
+   "volume": 0.16
+  },
+  {
+   "t": 16.883,
+   "src": "click",
+   "volume": 0.16
+  },
+  {
+   "t": 17.813,
+   "src": "ui_blip",
+   "volume": 0.3
+  },
+  {
+   "t": 19.493,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 20.073,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 20.653,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 21.527,
+   "src": "coins",
+   "volume": 0.3
+  },
+  {
+   "t": 22.607,
+   "src": "snap_glassy",
+   "volume": 0.32
+  },
+  {
+   "t": 27.033,
+   "src": "glitch",
+   "volume": 0.2
+  },
+  {
+   "t": 27.933,
+   "src": "riser",
+   "volume": 0.25
+  },
+  {
+   "t": 29.033,
+   "src": "whoosh_hit_a",
+   "volume": 0.3
+  },
+  {
+   "t": 30.133,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 30.393,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 30.833,
+   "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 34.74,
+   "src": "snap_glassy",
+   "volume": 0.35
+  },
+  {
+   "t": 38.153,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 39.993,
+   "src": "click",
+   "volume": 0.35
+  },
+  {
+   "t": 1.667,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 2.6,
+   "src": "whoosh_short_a",
+   "volume": 0.3
+  },
+  {
+   "t": 3.767,
+   "src": "whoosh_hit_a",
+   "volume": 0.3
+  },
+  {
+   "t": 6.033,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 7.567,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 12.1,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 14.973,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 17.2,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 21.233,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 24.3,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 27.733,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 29.683,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 32.033,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 36.66,
+   "src": "whoosh_slide",
+   "volume": 0.22
+  }
+ ]
+}
