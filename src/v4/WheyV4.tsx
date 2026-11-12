@@ -4,7 +4,7 @@ import '../v2/theme';
 import data from './data.json';
 import {REGISTRY as REG3} from '../v3/Scenes';
 import {Img} from 'remotion';
-import {CX, Card, Chip, Heavy, K, KL, SANS, ThemeCtx, ease, pop} from '../v3/ui';
+import {BgImageCtx, CX, Card, Chip, Heavy, K, KL, SANS, ThemeCtx, ease, pop} from '../v3/ui';
 import {REGISTRY4, HeroTub} from './Scenes4';
 import {Tubs3D} from './Tub3D';
 
@@ -202,7 +202,8 @@ const SceneLayer: React.FC = () => {
   const P = prev ? ALL[prev.kind] : null;
   return (
     <ThemeCtx.Provider value={KL}>
-    <AbsoluteFill style={{transform: 'translateY(40px)'}}>
+    <BgImageCtx.Provider value="v4/bg_gym.jpg">
+    <AbsoluteFill style={{transform: 'translateY(40px)', top: -40}}>
       {P && inP < 1 ? (
         <AbsoluteFill style={{filter: `blur(${inP * 18}px)`, opacity: 1 - inP, transform: `translateY(${-inP * 60}px)`}}>
           <P local={t - prev!.start} dur={prev!.end - prev!.start} beats={prev!.beats} props={prev!.props} />
@@ -212,6 +213,7 @@ const SceneLayer: React.FC = () => {
         <C local={local} dur={sc.end - sc.start} beats={sc.beats} props={sc.props} />
       </AbsoluteFill>
     </AbsoluteFill>
+    </BgImageCtx.Provider>
     </ThemeCtx.Provider>
   );
 };

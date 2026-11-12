@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Easing, Img, interpolate, spring, staticFile} from 'remotion';
+import {AbsoluteFill, Easing, Img, interpolate, spring, staticFile, useCurrentFrame} from 'remotion';
 
 export const SANS = '"Inter Tight", "Noto Color Emoji", sans-serif';
 export const MONO = '"JetBrains Mono", monospace';
@@ -29,6 +29,8 @@ export const KL: typeof K = {
   red: '#E5383B',
 };
 export const ThemeCtx = React.createContext<typeof K>(K);
+/** Optional photo background (public path) used by SlateBg in the light theme. */
+export const BgImageCtx = React.createContext<string | null>(null);
 export const useK = () => React.useContext(ThemeCtx);
 const isLight = (t: typeof K) => t.bg1 === '#FFFFFF';
 export const CX = 495; // centre of the TikTok/IG safe zone (x 60..930)
@@ -38,6 +40,18 @@ export const pop = (local: number, at = 0) => spring({frame: Math.round((local -
 
 export const SlateBg: React.FC = () => {
   const T = useK();
+  const bg = React.useContext(BgImageCtx);
+  const frame = useCurrentFrame();
+  if (bg && isLight(T)) {
+    // photo background: blurred + washed bright so dark text / white cards stay readable
+    const k = 1.12 + frame * 0.00008;
+    return (
+      <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#F4F1EC'}}>
+        <Img src={staticFile(bg)} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${k})`, filter: 'blur(14px) brightness(1.22) saturate(1.15)'}} />
+        <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(255,248,238,0.56) 0%, rgba(255,248,238,0.46) 45%, rgba(255,248,238,0.62) 100%)'}} />
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill
       style={{
