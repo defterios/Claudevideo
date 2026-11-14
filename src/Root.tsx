@@ -6,6 +6,7 @@ import {OzVsMj, V2_DURATION} from './v2/OzVsMj';
 import {OzVsMjV3, V3_DURATION} from './v3/OzVsMjV3';
 import {TubTest} from './v4/TubTest';
 import {WheyV4, V4_DURATION} from './v4/WheyV4';
+import {ProgressiveOverload, PO_DURATION} from './v5/PO';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -25,6 +26,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="OzVsMjV3" component={OzVsMjV3} durationInFrames={Math.ceil(V3_DURATION * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{musicVolume: 0.075}} />
     {/* Video 3: whey concentrate vs isolate vs hydrolyzed */}
     <Composition id="WheyV4" component={WheyV4} durationInFrames={Math.ceil(V4_DURATION * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{musicVolume: 0.075}} />
+    {/* Video 4: progressive overload (cream / rust reference) */}
+    <Composition id="ProgressiveOverload" component={ProgressiveOverload} durationInFrames={Math.ceil(PO_DURATION * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{musicVolume: 0.07}} />
     <Composition id="TubTest" component={TubTest} durationInFrames={60} fps={FPS} width={WIDTH} height={HEIGHT} />
   </>
 );

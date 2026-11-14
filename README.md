@@ -51,3 +51,11 @@ Composition `OzVsMjV3` (`src/v3/`), same recordings + cuts as v2, plan in `scrip
 split-screen opening (media cards on top, speaker below) → punch-in close-up; VO scenes as floating cards on a slate
 background — code windows, UI chips (timer, progress, CALORIE DEFICIT ✓), big counters, red X, popping cards, comment bar.
 Build: `PLAN=plan_v3 OUT=src/v3/data.json python3 scripts/build_v2.py <transcripts dir>`.
+
+---
+# Video 4 — Progressive Overload (cream / rust reference)
+Composition `ProgressiveOverload` (`src/v5/PO.tsx`), plan in `scripts/plan_v5.py`.
+Single selfie take → pauses cut, studio voice, eye-anchored punch-ins (MediaPipe face track → `src/v5/face.json`),
+cream cut-aways (terminal, training log, stair chart, STOP cards, workout.log, last-week vs this-week), squared
+Chakra Petch numbers/captions with rust keyword boxes, Sonniss SFX (plate clank, typing, ticks, thuds, paper).
+Build: `PLAN=plan_v5 OUT=src/v5/data.json MEDIA=public/v5 python3 scripts/build_v2.py <transcripts dir>`.

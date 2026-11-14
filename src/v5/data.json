@@ -1,0 +1,2009 @@
+{
+ "duration": 63.433,
+ "video": [
+  {
+   "src": "po",
+   "srcStart": 0.5666666666666667,
+   "outStart": 0.0,
+   "dur": 3.9
+  },
+  {
+   "src": "po",
+   "srcStart": 4.633333333333334,
+   "outStart": 3.9,
+   "dur": 2.5667
+  },
+  {
+   "src": "po",
+   "srcStart": 7.3,
+   "outStart": 6.4667,
+   "dur": 6.5333
+  },
+  {
+   "src": "po",
+   "srcStart": 14.0,
+   "outStart": 13.0,
+   "dur": 2.5333
+  },
+  {
+   "src": "po",
+   "srcStart": 16.766666666666666,
+   "outStart": 15.5333,
+   "dur": 7.5667
+  },
+  {
+   "src": "po",
+   "srcStart": 24.466666666666665,
+   "outStart": 23.1,
+   "dur": 1.3667
+  },
+  {
+   "src": "po",
+   "srcStart": 26.133333333333333,
+   "outStart": 24.4667,
+   "dur": 1.7667
+  },
+  {
+   "src": "po",
+   "srcStart": 28.133333333333333,
+   "outStart": 26.2333,
+   "dur": 2.0333
+  },
+  {
+   "src": "po",
+   "srcStart": 30.333333333333332,
+   "outStart": 28.2667,
+   "dur": 6.6333
+  },
+  {
+   "src": "po",
+   "srcStart": 37.36666666666667,
+   "outStart": 34.9,
+   "dur": 5.4333
+  },
+  {
+   "src": "po",
+   "srcStart": 43.13333333333333,
+   "outStart": 40.3333,
+   "dur": 7.4333
+  },
+  {
+   "src": "po",
+   "srcStart": 50.833333333333336,
+   "outStart": 47.7667,
+   "dur": 5.9667
+  },
+  {
+   "src": "po",
+   "srcStart": 57.13333333333333,
+   "outStart": 53.7333,
+   "dur": 2.5
+  },
+  {
+   "src": "po",
+   "srcStart": 59.8,
+   "outStart": 56.2333,
+   "dur": 1.5333
+  },
+  {
+   "src": "po",
+   "srcStart": 61.93333333333333,
+   "outStart": 57.7667,
+   "dur": 2.8
+  },
+  {
+   "src": "po",
+   "srcStart": 65.03333333333333,
+   "outStart": 60.5667,
+   "dur": 1.0333
+  },
+  {
+   "src": "po",
+   "srcStart": 66.5,
+   "outStart": 61.6,
+   "dur": 0.8333
+  }
+ ],
+ "zooms": [
+  {
+   "start": 2.283,
+   "end": 3.883,
+   "k": 1.38
+  },
+  {
+   "start": 5.417,
+   "end": 7.217,
+   "k": 1.35
+  },
+  {
+   "start": 15.567,
+   "end": 20.067,
+   "k": 1.32
+  },
+  {
+   "start": 23.1,
+   "end": 24.467,
+   "k": 1.4
+  },
+  {
+   "start": 40.333,
+   "end": 42.4,
+   "k": 1.38
+  },
+  {
+   "start": 56.233,
+   "end": 57.783,
+   "k": 1.35
+  },
+  {
+   "start": 59.433,
+   "end": 61.6,
+   "k": 1.42
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.053,
+   "end": 1.213,
+   "words": [
+    {
+     "text": "Imagine",
+     "start": 0.053,
+     "end": 0.613
+    },
+    {
+     "text": "you",
+     "start": 0.613,
+     "end": 0.873
+    },
+    {
+     "text": "do",
+     "start": 0.873,
+     "end": 1.053
+    },
+    {
+     "text": "gym",
+     "start": 1.053,
+     "end": 1.213
+    }
+   ]
+  },
+  {
+   "start": 1.213,
+   "end": 2.193,
+   "words": [
+    {
+     "text": "for",
+     "start": 1.213,
+     "end": 1.513
+    },
+    {
+     "text": "one",
+     "start": 1.513,
+     "end": 1.793
+    },
+    {
+     "text": "whole",
+     "start": 1.793,
+     "end": 1.993
+    },
+    {
+     "text": "year",
+     "start": 1.993,
+     "end": 2.193
+    }
+   ]
+  },
+  {
+   "start": 2.193,
+   "end": 2.993,
+   "words": [
+    {
+     "text": "and",
+     "start": 2.193,
+     "end": 2.333
+    },
+    {
+     "text": "you",
+     "start": 2.333,
+     "end": 2.573
+    },
+    {
+     "text": "never",
+     "start": 2.573,
+     "end": 2.793
+    },
+    {
+     "text": "see",
+     "start": 2.793,
+     "end": 2.993
+    }
+   ]
+  },
+  {
+   "start": 2.993,
+   "end": 3.947,
+   "words": [
+    {
+     "text": "results",
+     "start": 2.993,
+     "end": 3.253
+    },
+    {
+     "text": "in",
+     "start": 3.253,
+     "end": 3.433
+    },
+    {
+     "text": "your",
+     "start": 3.433,
+     "end": 3.573
+    },
+    {
+     "text": "body.",
+     "start": 3.573,
+     "end": 3.793
+    }
+   ]
+  },
+  {
+   "start": 3.947,
+   "end": 4.907,
+   "words": [
+    {
+     "text": "You",
+     "start": 3.947,
+     "end": 4.167
+    },
+    {
+     "text": "probably",
+     "start": 4.167,
+     "end": 4.447
+    },
+    {
+     "text": "have",
+     "start": 4.447,
+     "end": 4.687
+    },
+    {
+     "text": "never",
+     "start": 4.687,
+     "end": 4.907
+    }
+   ]
+  },
+  {
+   "start": 4.907,
+   "end": 5.967,
+   "words": [
+    {
+     "text": "heard",
+     "start": 4.907,
+     "end": 5.147
+    },
+    {
+     "text": "about",
+     "start": 5.147,
+     "end": 5.487
+    },
+    {
+     "text": "progressive",
+     "start": 5.487,
+     "end": 5.967
+    }
+   ]
+  },
+  {
+   "start": 5.967,
+   "end": 6.527,
+   "words": [
+    {
+     "text": "overload.",
+     "start": 5.967,
+     "end": 6.347
+    }
+   ]
+  },
+  {
+   "start": 6.527,
+   "end": 7.287,
+   "words": [
+    {
+     "text": "Let's",
+     "start": 6.527,
+     "end": 6.747
+    },
+    {
+     "text": "talk",
+     "start": 6.747,
+     "end": 6.967
+    },
+    {
+     "text": "about",
+     "start": 6.967,
+     "end": 7.167
+    },
+    {
+     "text": "it.",
+     "start": 7.167,
+     "end": 7.267
+    }
+   ]
+  },
+  {
+   "start": 7.287,
+   "end": 8.567,
+   "words": [
+    {
+     "text": "So",
+     "start": 7.287,
+     "end": 7.527
+    },
+    {
+     "text": "our",
+     "start": 7.527,
+     "end": 7.787
+    },
+    {
+     "text": "muscles",
+     "start": 7.787,
+     "end": 8.227
+    },
+    {
+     "text": "are",
+     "start": 8.227,
+     "end": 8.567
+    }
+   ]
+  },
+  {
+   "start": 8.567,
+   "end": 9.047,
+   "words": [
+    {
+     "text": "lazy.",
+     "start": 8.567,
+     "end": 8.887
+    }
+   ]
+  },
+  {
+   "start": 9.047,
+   "end": 10.127,
+   "words": [
+    {
+     "text": "If",
+     "start": 9.047,
+     "end": 9.427
+    },
+    {
+     "text": "we",
+     "start": 9.427,
+     "end": 9.667
+    },
+    {
+     "text": "leave",
+     "start": 9.667,
+     "end": 9.827
+    },
+    {
+     "text": "the",
+     "start": 9.827,
+     "end": 10.127
+    }
+   ]
+  },
+  {
+   "start": 10.127,
+   "end": 11.387,
+   "words": [
+    {
+     "text": "same",
+     "start": 10.127,
+     "end": 10.407
+    },
+    {
+     "text": "dumbbells",
+     "start": 10.407,
+     "end": 10.887
+    },
+    {
+     "text": "for",
+     "start": 10.887,
+     "end": 11.087
+    },
+    {
+     "text": "10",
+     "start": 11.087,
+     "end": 11.387
+    }
+   ]
+  },
+  {
+   "start": 11.387,
+   "end": 13.06,
+   "words": [
+    {
+     "text": "reps",
+     "start": 11.387,
+     "end": 11.667
+    },
+    {
+     "text": "every",
+     "start": 11.667,
+     "end": 12.207
+    },
+    {
+     "text": "single",
+     "start": 12.207,
+     "end": 12.587
+    },
+    {
+     "text": "week,",
+     "start": 12.587,
+     "end": 12.867
+    }
+   ]
+  },
+  {
+   "start": 13.06,
+   "end": 14.44,
+   "words": [
+    {
+     "text": "our",
+     "start": 13.06,
+     "end": 13.3
+    },
+    {
+     "text": "body",
+     "start": 13.3,
+     "end": 13.54
+    },
+    {
+     "text": "has",
+     "start": 13.54,
+     "end": 13.88
+    },
+    {
+     "text": "zero",
+     "start": 13.88,
+     "end": 14.44
+    }
+   ]
+  },
+  {
+   "start": 14.44,
+   "end": 15.587,
+   "words": [
+    {
+     "text": "reason",
+     "start": 14.44,
+     "end": 14.88
+    },
+    {
+     "text": "to",
+     "start": 14.88,
+     "end": 15.22
+    },
+    {
+     "text": "grow.",
+     "start": 15.22,
+     "end": 15.4
+    }
+   ]
+  },
+  {
+   "start": 15.587,
+   "end": 17.007,
+   "words": [
+    {
+     "text": "So",
+     "start": 15.587,
+     "end": 15.887
+    },
+    {
+     "text": "progressive",
+     "start": 15.887,
+     "end": 16.307
+    },
+    {
+     "text": "overload",
+     "start": 16.307,
+     "end": 17.007
+    }
+   ]
+  },
+  {
+   "start": 17.007,
+   "end": 18.287,
+   "words": [
+    {
+     "text": "means",
+     "start": 17.007,
+     "end": 17.227
+    },
+    {
+     "text": "forcing",
+     "start": 17.227,
+     "end": 17.667
+    },
+    {
+     "text": "your",
+     "start": 17.667,
+     "end": 17.947
+    },
+    {
+     "text": "muscles",
+     "start": 17.947,
+     "end": 18.287
+    }
+   ]
+  },
+  {
+   "start": 18.287,
+   "end": 20.787,
+   "words": [
+    {
+     "text": "to",
+     "start": 18.287,
+     "end": 18.747
+    },
+    {
+     "text": "adapt",
+     "start": 18.747,
+     "end": 19.187
+    },
+    {
+     "text": "by",
+     "start": 19.187,
+     "end": 20.227
+    },
+    {
+     "text": "doing",
+     "start": 20.227,
+     "end": 20.787
+    }
+   ]
+  },
+  {
+   "start": 20.787,
+   "end": 21.927,
+   "words": [
+    {
+     "text": "this",
+     "start": 20.787,
+     "end": 21.127
+    },
+    {
+     "text": "a",
+     "start": 21.127,
+     "end": 21.427
+    },
+    {
+     "text": "little",
+     "start": 21.427,
+     "end": 21.687
+    },
+    {
+     "text": "bit",
+     "start": 21.687,
+     "end": 21.927
+    }
+   ]
+  },
+  {
+   "start": 21.927,
+   "end": 23.133,
+   "words": [
+    {
+     "text": "more",
+     "start": 21.927,
+     "end": 22.187
+    },
+    {
+     "text": "than",
+     "start": 22.187,
+     "end": 22.387
+    },
+    {
+     "text": "last",
+     "start": 22.387,
+     "end": 22.667
+    },
+    {
+     "text": "time.",
+     "start": 22.667,
+     "end": 22.987
+    }
+   ]
+  },
+  {
+   "start": 23.133,
+   "end": 23.833,
+   "words": [
+    {
+     "text": "So",
+     "start": 23.133,
+     "end": 23.313
+    },
+    {
+     "text": "how",
+     "start": 23.313,
+     "end": 23.533
+    },
+    {
+     "text": "do",
+     "start": 23.533,
+     "end": 23.633
+    },
+    {
+     "text": "you",
+     "start": 23.633,
+     "end": 23.833
+    }
+   ]
+  },
+  {
+   "start": 23.833,
+   "end": 24.513,
+   "words": [
+    {
+     "text": "do",
+     "start": 23.833,
+     "end": 24.033
+    },
+    {
+     "text": "this?",
+     "start": 24.033,
+     "end": 24.353
+    }
+   ]
+  },
+  {
+   "start": 24.513,
+   "end": 25.513,
+   "words": [
+    {
+     "text": "Well",
+     "start": 24.513,
+     "end": 24.713
+    },
+    {
+     "text": "either",
+     "start": 24.713,
+     "end": 24.993
+    },
+    {
+     "text": "you",
+     "start": 24.993,
+     "end": 25.273
+    },
+    {
+     "text": "add",
+     "start": 25.273,
+     "end": 25.513
+    }
+   ]
+  },
+  {
+   "start": 25.513,
+   "end": 26.28,
+   "words": [
+    {
+     "text": "more",
+     "start": 25.513,
+     "end": 25.753
+    },
+    {
+     "text": "weights,",
+     "start": 25.753,
+     "end": 26.113
+    }
+   ]
+  },
+  {
+   "start": 26.28,
+   "end": 27.26,
+   "words": [
+    {
+     "text": "try",
+     "start": 26.28,
+     "end": 26.4
+    },
+    {
+     "text": "to",
+     "start": 26.4,
+     "end": 26.7
+    },
+    {
+     "text": "squeeze",
+     "start": 26.7,
+     "end": 26.96
+    },
+    {
+     "text": "that",
+     "start": 26.96,
+     "end": 27.26
+    }
+   ]
+  },
+  {
+   "start": 27.26,
+   "end": 28.313,
+   "words": [
+    {
+     "text": "one",
+     "start": 27.26,
+     "end": 27.5
+    },
+    {
+     "text": "extra",
+     "start": 27.5,
+     "end": 27.9
+    },
+    {
+     "text": "rep,",
+     "start": 27.9,
+     "end": 28.14
+    }
+   ]
+  },
+  {
+   "start": 28.313,
+   "end": 29.573,
+   "words": [
+    {
+     "text": "add",
+     "start": 28.313,
+     "end": 28.433
+    },
+    {
+     "text": "another",
+     "start": 28.433,
+     "end": 28.833
+    },
+    {
+     "text": "set",
+     "start": 28.833,
+     "end": 29.073
+    },
+    {
+     "text": "or",
+     "start": 29.073,
+     "end": 29.573
+    }
+   ]
+  },
+  {
+   "start": 29.573,
+   "end": 30.573,
+   "words": [
+    {
+     "text": "just",
+     "start": 29.573,
+     "end": 29.953
+    },
+    {
+     "text": "slow",
+     "start": 29.953,
+     "end": 30.113
+    },
+    {
+     "text": "down",
+     "start": 30.113,
+     "end": 30.353
+    },
+    {
+     "text": "the",
+     "start": 30.353,
+     "end": 30.573
+    }
+   ]
+  },
+  {
+   "start": 30.573,
+   "end": 32.433,
+   "words": [
+    {
+     "text": "tempo",
+     "start": 30.573,
+     "end": 30.853
+    },
+    {
+     "text": "with",
+     "start": 30.853,
+     "end": 31.153
+    },
+    {
+     "text": "absolutely",
+     "start": 31.153,
+     "end": 31.913
+    },
+    {
+     "text": "perfect",
+     "start": 31.913,
+     "end": 32.433
+    }
+   ]
+  },
+  {
+   "start": 32.433,
+   "end": 33.393,
+   "words": [
+    {
+     "text": "form",
+     "start": 32.433,
+     "end": 32.753
+    },
+    {
+     "text": "is",
+     "start": 32.753,
+     "end": 33.093
+    },
+    {
+     "text": "a",
+     "start": 33.093,
+     "end": 33.253
+    },
+    {
+     "text": "good",
+     "start": 33.253,
+     "end": 33.393
+    }
+   ]
+  },
+  {
+   "start": 33.393,
+   "end": 34.953,
+   "words": [
+    {
+     "text": "way",
+     "start": 33.393,
+     "end": 33.593
+    },
+    {
+     "text": "to",
+     "start": 33.593,
+     "end": 33.833
+    },
+    {
+     "text": "progress",
+     "start": 33.833,
+     "end": 34.133
+    },
+    {
+     "text": "effectively.",
+     "start": 34.133,
+     "end": 34.773
+    }
+   ]
+  },
+  {
+   "start": 34.953,
+   "end": 35.833,
+   "words": [
+    {
+     "text": "So",
+     "start": 34.953,
+     "end": 35.033
+    },
+    {
+     "text": "as",
+     "start": 35.033,
+     "end": 35.273
+    },
+    {
+     "text": "a",
+     "start": 35.273,
+     "end": 35.513
+    },
+    {
+     "text": "trainer,",
+     "start": 35.513,
+     "end": 35.753
+    }
+   ]
+  },
+  {
+   "start": 35.833,
+   "end": 36.493,
+   "words": [
+    {
+     "text": "I",
+     "start": 35.833,
+     "end": 35.933
+    },
+    {
+     "text": "would",
+     "start": 35.933,
+     "end": 36.073
+    },
+    {
+     "text": "like",
+     "start": 36.073,
+     "end": 36.193
+    },
+    {
+     "text": "to",
+     "start": 36.193,
+     "end": 36.493
+    }
+   ]
+  },
+  {
+   "start": 36.493,
+   "end": 37.433,
+   "words": [
+    {
+     "text": "advise",
+     "start": 36.493,
+     "end": 36.693
+    },
+    {
+     "text": "you",
+     "start": 36.693,
+     "end": 36.933
+    },
+    {
+     "text": "to",
+     "start": 36.933,
+     "end": 37.193
+    },
+    {
+     "text": "stop",
+     "start": 37.193,
+     "end": 37.433
+    }
+   ]
+  },
+  {
+   "start": 37.433,
+   "end": 38.773,
+   "words": [
+    {
+     "text": "doing",
+     "start": 37.433,
+     "end": 37.753
+    },
+    {
+     "text": "random",
+     "start": 37.753,
+     "end": 38.133
+    },
+    {
+     "text": "TikTok",
+     "start": 38.133,
+     "end": 38.473
+    },
+    {
+     "text": "workouts",
+     "start": 38.473,
+     "end": 38.773
+    }
+   ]
+  },
+  {
+   "start": 38.773,
+   "end": 39.613,
+   "words": [
+    {
+     "text": "every",
+     "start": 38.773,
+     "end": 39.093
+    },
+    {
+     "text": "time",
+     "start": 39.093,
+     "end": 39.273
+    },
+    {
+     "text": "you",
+     "start": 39.273,
+     "end": 39.433
+    },
+    {
+     "text": "step",
+     "start": 39.433,
+     "end": 39.613
+    }
+   ]
+  },
+  {
+   "start": 39.613,
+   "end": 40.38,
+   "words": [
+    {
+     "text": "into",
+     "start": 39.613,
+     "end": 39.853
+    },
+    {
+     "text": "the",
+     "start": 39.853,
+     "end": 40.013
+    },
+    {
+     "text": "gym.",
+     "start": 40.013,
+     "end": 40.213
+    }
+   ]
+  },
+  {
+   "start": 40.38,
+   "end": 41.42,
+   "words": [
+    {
+     "text": "The",
+     "start": 40.38,
+     "end": 40.58
+    },
+    {
+     "text": "term",
+     "start": 40.58,
+     "end": 40.68
+    },
+    {
+     "text": "muscle",
+     "start": 40.68,
+     "end": 41.0
+    },
+    {
+     "text": "confusion",
+     "start": 41.0,
+     "end": 41.42
+    }
+   ]
+  },
+  {
+   "start": 41.42,
+   "end": 42.48,
+   "words": [
+    {
+     "text": "is",
+     "start": 41.42,
+     "end": 41.7
+    },
+    {
+     "text": "a",
+     "start": 41.7,
+     "end": 41.82
+    },
+    {
+     "text": "total",
+     "start": 41.82,
+     "end": 42.06
+    },
+    {
+     "text": "myth.",
+     "start": 42.06,
+     "end": 42.28
+    }
+   ]
+  },
+  {
+   "start": 42.48,
+   "end": 43.22,
+   "words": [
+    {
+     "text": "You",
+     "start": 42.48,
+     "end": 42.7
+    },
+    {
+     "text": "need",
+     "start": 42.7,
+     "end": 42.9
+    },
+    {
+     "text": "to",
+     "start": 42.9,
+     "end": 43.04
+    },
+    {
+     "text": "stick",
+     "start": 43.04,
+     "end": 43.22
+    }
+   ]
+  },
+  {
+   "start": 43.22,
+   "end": 44.08,
+   "words": [
+    {
+     "text": "to",
+     "start": 43.22,
+     "end": 43.4
+    },
+    {
+     "text": "the",
+     "start": 43.4,
+     "end": 43.64
+    },
+    {
+     "text": "exact",
+     "start": 43.64,
+     "end": 43.84
+    },
+    {
+     "text": "same",
+     "start": 43.84,
+     "end": 44.08
+    }
+   ]
+  },
+  {
+   "start": 44.08,
+   "end": 45.44,
+   "words": [
+    {
+     "text": "exercise",
+     "start": 44.08,
+     "end": 44.62
+    },
+    {
+     "text": "for",
+     "start": 44.62,
+     "end": 45.0
+    },
+    {
+     "text": "at",
+     "start": 45.0,
+     "end": 45.24
+    },
+    {
+     "text": "least",
+     "start": 45.24,
+     "end": 45.44
+    }
+   ]
+  },
+  {
+   "start": 45.44,
+   "end": 46.68,
+   "words": [
+    {
+     "text": "six",
+     "start": 45.44,
+     "end": 45.64
+    },
+    {
+     "text": "weeks",
+     "start": 45.64,
+     "end": 45.96
+    },
+    {
+     "text": "to",
+     "start": 45.96,
+     "end": 46.28
+    },
+    {
+     "text": "see",
+     "start": 46.28,
+     "end": 46.68
+    }
+   ]
+  },
+  {
+   "start": 46.68,
+   "end": 47.813,
+   "words": [
+    {
+     "text": "noticeable",
+     "start": 46.68,
+     "end": 47.2
+    },
+    {
+     "text": "results.",
+     "start": 47.2,
+     "end": 47.66
+    }
+   ]
+  },
+  {
+   "start": 47.813,
+   "end": 48.633,
+   "words": [
+    {
+     "text": "Please",
+     "start": 47.813,
+     "end": 48.093
+    },
+    {
+     "text": "grab",
+     "start": 48.093,
+     "end": 48.213
+    },
+    {
+     "text": "a",
+     "start": 48.213,
+     "end": 48.373
+    },
+    {
+     "text": "notebook",
+     "start": 48.373,
+     "end": 48.633
+    }
+   ]
+  },
+  {
+   "start": 48.633,
+   "end": 49.653,
+   "words": [
+    {
+     "text": "or",
+     "start": 48.633,
+     "end": 48.833
+    },
+    {
+     "text": "your",
+     "start": 48.833,
+     "end": 49.113
+    },
+    {
+     "text": "phone,",
+     "start": 49.113,
+     "end": 49.473
+    }
+   ]
+  },
+  {
+   "start": 49.653,
+   "end": 50.213,
+   "words": [
+    {
+     "text": "track",
+     "start": 49.653,
+     "end": 49.893
+    },
+    {
+     "text": "down,",
+     "start": 49.893,
+     "end": 50.213
+    }
+   ]
+  },
+  {
+   "start": 50.213,
+   "end": 52.053,
+   "words": [
+    {
+     "text": "record",
+     "start": 50.213,
+     "end": 50.833
+    },
+    {
+     "text": "everything",
+     "start": 50.833,
+     "end": 51.313
+    },
+    {
+     "text": "and",
+     "start": 51.313,
+     "end": 51.773
+    },
+    {
+     "text": "write",
+     "start": 51.773,
+     "end": 52.053
+    }
+   ]
+  },
+  {
+   "start": 52.053,
+   "end": 52.853,
+   "words": [
+    {
+     "text": "down",
+     "start": 52.053,
+     "end": 52.273
+    },
+    {
+     "text": "what",
+     "start": 52.273,
+     "end": 52.453
+    },
+    {
+     "text": "you",
+     "start": 52.453,
+     "end": 52.653
+    },
+    {
+     "text": "have",
+     "start": 52.653,
+     "end": 52.853
+    }
+   ]
+  },
+  {
+   "start": 52.853,
+   "end": 53.78,
+   "words": [
+    {
+     "text": "lifted",
+     "start": 52.853,
+     "end": 53.093
+    },
+    {
+     "text": "today.",
+     "start": 53.093,
+     "end": 53.613
+    }
+   ]
+  },
+  {
+   "start": 53.78,
+   "end": 55.02,
+   "words": [
+    {
+     "text": "Literally",
+     "start": 53.78,
+     "end": 54.24
+    },
+    {
+     "text": "try",
+     "start": 54.24,
+     "end": 54.68
+    },
+    {
+     "text": "to",
+     "start": 54.68,
+     "end": 54.9
+    },
+    {
+     "text": "beat",
+     "start": 54.9,
+     "end": 55.02
+    }
+   ]
+  },
+  {
+   "start": 55.02,
+   "end": 56.293,
+   "words": [
+    {
+     "text": "those",
+     "start": 55.02,
+     "end": 55.18
+    },
+    {
+     "text": "numbers",
+     "start": 55.18,
+     "end": 55.52
+    },
+    {
+     "text": "every",
+     "start": 55.52,
+     "end": 55.88
+    },
+    {
+     "text": "week.",
+     "start": 55.88,
+     "end": 56.12
+    }
+   ]
+  },
+  {
+   "start": 56.293,
+   "end": 57.053,
+   "words": [
+    {
+     "text": "That",
+     "start": 56.293,
+     "end": 56.393
+    },
+    {
+     "text": "is",
+     "start": 56.393,
+     "end": 56.593
+    },
+    {
+     "text": "how",
+     "start": 56.593,
+     "end": 56.833
+    },
+    {
+     "text": "you",
+     "start": 56.833,
+     "end": 57.053
+    }
+   ]
+  },
+  {
+   "start": 57.053,
+   "end": 57.833,
+   "words": [
+    {
+     "text": "build",
+     "start": 57.053,
+     "end": 57.173
+    },
+    {
+     "text": "muscles.",
+     "start": 57.173,
+     "end": 57.633
+    }
+   ]
+  },
+  {
+   "start": 57.833,
+   "end": 58.613,
+   "words": [
+    {
+     "text": "Because",
+     "start": 57.833,
+     "end": 58.113
+    },
+    {
+     "text": "at",
+     "start": 58.113,
+     "end": 58.353
+    },
+    {
+     "text": "the",
+     "start": 58.353,
+     "end": 58.473
+    },
+    {
+     "text": "end",
+     "start": 58.473,
+     "end": 58.613
+    }
+   ]
+  },
+  {
+   "start": 58.613,
+   "end": 59.493,
+   "words": [
+    {
+     "text": "of",
+     "start": 58.613,
+     "end": 58.773
+    },
+    {
+     "text": "the",
+     "start": 58.773,
+     "end": 58.913
+    },
+    {
+     "text": "day,",
+     "start": 58.913,
+     "end": 59.233
+    }
+   ]
+  },
+  {
+   "start": 59.493,
+   "end": 60.613,
+   "words": [
+    {
+     "text": "if",
+     "start": 59.493,
+     "end": 59.733
+    },
+    {
+     "text": "you",
+     "start": 59.733,
+     "end": 59.933
+    },
+    {
+     "text": "aren't",
+     "start": 59.933,
+     "end": 60.213
+    },
+    {
+     "text": "tracking,",
+     "start": 60.213,
+     "end": 60.433
+    }
+   ]
+  },
+  {
+   "start": 60.613,
+   "end": 61.64,
+   "words": [
+    {
+     "text": "you",
+     "start": 60.613,
+     "end": 60.713
+    },
+    {
+     "text": "are",
+     "start": 60.713,
+     "end": 60.913
+    },
+    {
+     "text": "just",
+     "start": 60.913,
+     "end": 61.133
+    },
+    {
+     "text": "guessing.",
+     "start": 61.133,
+     "end": 61.493
+    }
+   ]
+  },
+  {
+   "start": 61.64,
+   "end": 62.82,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 61.64,
+     "end": 61.8
+    },
+    {
+     "text": "me",
+     "start": 61.8,
+     "end": 62.0
+    },
+    {
+     "text": "for",
+     "start": 62.0,
+     "end": 62.18
+    },
+    {
+     "text": "more.",
+     "start": 62.18,
+     "end": 62.32
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "kind": "hookCount",
+   "props": {},
+   "beats": [
+    2.993
+   ],
+   "sfx": "whoosh_fast",
+   "sfxVol": 0.0,
+   "start": 0.0,
+   "end": 3.9
+  },
+  {
+   "kind": "glitchTitle",
+   "props": {
+    "kicker": "NEVER HEARD OF",
+    "lines": [
+     "PROGRESSIVE",
+     "OVERLOAD"
+    ]
+   },
+   "beats": [
+    1.587
+   ],
+   "start": 3.9,
+   "end": 7.247
+  },
+  {
+   "kind": "terminal",
+   "props": {
+    "file": "muscles.js",
+    "lines": [
+     "muscles.status = \"lazy\";"
+    ],
+    "label": "\u2014 YOUR MUSCLES",
+    "big": "LAZY"
+   },
+   "beats": [],
+   "start": 7.247,
+   "end": 9.017
+  },
+  {
+   "kind": "logTable",
+   "props": {
+    "label": "\u2014 SAME WORKOUT, EVERY WEEK"
+   },
+   "beats": [
+    4.043
+   ],
+   "start": 9.017,
+   "end": 15.547
+  },
+  {
+   "kind": "tag",
+   "props": {
+    "text": "FORCE YOUR MUSCLES TO ADAPT"
+   },
+   "beats": [],
+   "start": 15.547,
+   "end": 20.117
+  },
+  {
+   "kind": "stairs",
+   "props": {
+    "label": "\u2014 A LITTLE MORE THAN LAST TIME"
+   },
+   "beats": [
+    1.31
+   ],
+   "start": 20.117,
+   "end": 23.1
+  },
+  {
+   "kind": "steps",
+   "props": {
+    "items": [
+     "MORE WEIGHT",
+     "+1 EXTRA REP",
+     "ANOTHER SET",
+     "SLOWER TEMPO"
+    ],
+    "last": "PERFECT FORM"
+   },
+   "beats": [
+    2.173,
+    3.18,
+    5.213,
+    6.473,
+    8.813
+   ],
+   "start": 23.1,
+   "end": 34.913
+  },
+  {
+   "kind": "tag",
+   "props": {
+    "text": "COACH'S ADVICE"
+   },
+   "beats": [],
+   "start": 34.913,
+   "end": 37.133
+  },
+  {
+   "kind": "randomCards",
+   "props": {
+    "cards": [
+     "VIRAL ABS HACK",
+     "10-MIN SHRED",
+     "NEW WORKOUT DAILY"
+    ]
+   },
+   "beats": [
+    0.6,
+    2.7
+   ],
+   "start": 37.133,
+   "end": 40.333
+  },
+  {
+   "kind": "myth",
+   "props": {
+    "text": "MUSCLE CONFUSION"
+   },
+   "beats": [
+    1.727
+   ],
+   "start": 40.333,
+   "end": 42.44
+  },
+  {
+   "kind": "weeks",
+   "props": {
+    "n": 6
+   },
+   "beats": [
+    3.0
+   ],
+   "start": 42.44,
+   "end": 47.773
+  },
+  {
+   "kind": "logType",
+   "props": {
+    "label": "\u2014 TRACK EVERYTHING",
+    "file": "workout.log",
+    "lines": [
+     "14 NOV  \u00b7  PUSH DAY",
+     "BENCH    60.0kg x 8  \u2713",
+     "OHP      35.0kg x 10 \u2713",
+     "DIPS     BW     x 12 \u2713"
+    ]
+   },
+   "beats": [
+    1.88
+   ],
+   "start": 47.773,
+   "end": 53.74
+  },
+  {
+   "kind": "beat",
+   "props": {
+    "prev": [
+     "60.0",
+     "KG \u00d7 8"
+    ],
+    "now": [
+     "62.5",
+     "KG \u00d7 8"
+    ]
+   },
+   "beats": [
+    1.16,
+    2.553
+   ],
+   "start": 53.74,
+   "end": 57.783
+  },
+  {
+   "kind": "guess",
+   "props": {},
+   "beats": [
+    2.43,
+    3.35
+   ],
+   "start": 57.783,
+   "end": 61.6
+  },
+  {
+   "kind": "follow",
+   "props": {},
+   "beats": [],
+   "sfx": "whoosh_fast",
+   "sfxVol": 0.3,
+   "start": 61.6,
+   "end": 63.433
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.053,
+   "src": "counter",
+   "volume": 0.28
+  },
+  {
+   "t": 2.993,
+   "src": "thud",
+   "volume": 0.45
+  },
+  {
+   "t": 2.993,
+   "src": "glitch",
+   "volume": 0.2
+  },
+  {
+   "t": 5.437,
+   "src": "glitch",
+   "volume": 0.28
+  },
+  {
+   "t": 5.967,
+   "src": "hit_organic",
+   "volume": 0.3
+  },
+  {
+   "t": 7.567,
+   "src": "typing",
+   "volume": 0.22
+  },
+  {
+   "t": 8.567,
+   "src": "thud",
+   "volume": 0.4
+  },
+  {
+   "t": 9.667,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 9.967,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 10.267,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 10.567,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 10.867,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 11.167,
+   "src": "tick",
+   "volume": 0.3
+  },
+  {
+   "t": 13.88,
+   "src": "thud",
+   "volume": 0.4
+  },
+  {
+   "t": 20.367,
+   "src": "riser",
+   "volume": 0.2
+  },
+  {
+   "t": 21.427,
+   "src": "snap_glassy",
+   "volume": 0.3
+  },
+  {
+   "t": 25.273,
+   "src": "clank",
+   "volume": 0.42
+  },
+  {
+   "t": 26.28,
+   "src": "clank",
+   "volume": 0.38
+  },
+  {
+   "t": 28.313,
+   "src": "clank",
+   "volume": 0.38
+  },
+  {
+   "t": 29.573,
+   "src": "clank",
+   "volume": 0.38
+  },
+  {
+   "t": 31.913,
+   "src": "snap_glassy",
+   "volume": 0.32
+  },
+  {
+   "t": 37.733,
+   "src": "paper",
+   "volume": 0.4
+  },
+  {
+   "t": 37.983,
+   "src": "paper",
+   "volume": 0.4
+  },
+  {
+   "t": 38.233,
+   "src": "paper",
+   "volume": 0.4
+  },
+  {
+   "t": 39.833,
+   "src": "thud",
+   "volume": 0.5
+  },
+  {
+   "t": 39.833,
+   "src": "hit_organic",
+   "volume": 0.3
+  },
+  {
+   "t": 42.06,
+   "src": "thud",
+   "volume": 0.5
+  },
+  {
+   "t": 42.06,
+   "src": "glitch",
+   "volume": 0.22
+  },
+  {
+   "t": 45.44,
+   "src": "counter",
+   "volume": 0.25
+  },
+  {
+   "t": 49.653,
+   "src": "typing",
+   "volume": 0.25
+  },
+  {
+   "t": 51.533,
+   "src": "typing",
+   "volume": 0.2
+  },
+  {
+   "t": 54.9,
+   "src": "snap_glassy",
+   "volume": 0.35
+  },
+  {
+   "t": 56.293,
+   "src": "clank",
+   "volume": 0.35
+  },
+  {
+   "t": 60.213,
+   "src": "ping",
+   "volume": 0.25
+  },
+  {
+   "t": 61.133,
+   "src": "glitch",
+   "volume": 0.3
+  },
+  {
+   "t": 61.133,
+   "src": "thud",
+   "volume": 0.4
+  },
+  {
+   "t": 61.79,
+   "src": "notif_gym",
+   "volume": 0.4
+  },
+  {
+   "t": 3.8,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 7.147,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 8.917,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 15.447,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 20.017,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 23.0,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 34.813,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 37.033,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 40.233,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 42.34,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 47.673,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 53.64,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 57.683,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 61.5,
+   "src": "whoosh_fast",
+   "volume": 0.3
+  }
+ ]
+}

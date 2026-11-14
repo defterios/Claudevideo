@@ -95,7 +95,8 @@ for sc in scenes:  # default transition whoosh on every scene change
     if sc["start"] > 0.1:
         sfx.append({"t": round(sc["start"] - 0.1, 3), "src": sc.get("sfx", "whoosh_slide"), "volume": sc.get("sfxVol", 0.3)})
 
-json.dump({"duration": duration, "video": video, "pages": pages, "scenes": scenes, "sfx": sfx},
+zooms = [{"start": to_out(s, a), "end": to_out(s, b), "k": k} for s, a, b, k in getattr(P, "ZOOMS", [])]
+json.dump({"duration": duration, "video": video, "zooms": zooms, "pages": pages, "scenes": scenes, "sfx": sfx},
           open(os.path.join(ROOT, OUT_JSON), "w"), indent=1)
 
 # voice track: 10 ms crossfades at every cut
