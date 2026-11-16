@@ -65,12 +65,23 @@ const Captions: React.FC<{d: D; size: number}> = ({d, size}) => {
   );
 };
 
+/** 0..1 "is the voice talking" envelope, smoothed so the music ducks/rises gently */
+const speaking = (d: D, t: number) => {
+  let v = 0;
+  for (const p of d.pages) {
+    const a = p.start - 0.25, b = p.words.length ? p.words[p.words.length - 1].start + 0.45 : p.end;
+    if (t >= a - 0.4 && t <= b + 0.4) v = Math.max(v, interpolate(t, [a - 0.4, a, b, b + 0.4], [0, 1, 1, 0], cl));
+  }
+  return v;
+};
+
 const Sound: React.FC<{d: D; voice?: string; music: number}> = ({d, voice, music}) => {
   const {fps, durationInFrames} = useVideoConfig();
+  const duck = (f: number) => 1.5 - 0.5 * speaking(d, f / fps); // 1.0x under the voice, 1.5x in the gaps
   return (
     <>
       {voice ? <Audio src={staticFile(voice)} /> : null}
-      <Audio src={staticFile('music/sneaky_snitch.mp3')} loop volume={(f) => music * interpolate(f, [0, fps, durationInFrames - fps * 2, durationInFrames], [0.4, 1, 1, 0], cl)} />
+      <Audio src={staticFile('music/sneaky_snitch.mp3')} loop volume={(f) => music * duck(f) * interpolate(f, [0, fps, durationInFrames - fps * 2, durationInFrames], [0.4, 1, 1, 0], cl)} />
       {d.sfx.map((s, i) => (
         <Sequence key={i} from={Math.max(0, Math.round(s.t * fps))} layout="none">
           <Audio src={staticFile(`sfx/${s.src}.mp3`)} volume={s.volume} />
