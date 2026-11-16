@@ -13,3 +13,4 @@ public/v5/*.wav
 public/v6/*.wav
 __pycache__/
 *.pyc
+public/v7/*.wav

@@ -200,7 +200,7 @@ export const Schedule3: React.FC<P3> = ({t, dur, cue, wide}) => {
       {['TRAIN', 'EAT', 'SLEEP', 'TRAIN AGAIN'].map((s, i) => (
         <group key={s} scale={pop(t, st[i] - 0.1)}><Sign lines={[s]} position={[X[i], 2.7, -0.8]} w={1.6} h={0.5} bg={i === 3 ? '#1b1a20' : '#f4ead5'} fg={i === 3 ? '#FFD23F' : '#b02a1e'} /></group>
       ))}
-      {done ? <group scale={pop(t, two)}><Sign lines={['2 SESSIONS / DAY', '6 DAYS / WEEK']} position={[0, 3.3, 0.2]} w={3.0} h={1.0} bg="#1b1a20" fg="#FFD23F" /></group> : null}
+      {done ? <group scale={pop(t, two)}><Sign lines={['2 SESSIONS / DAY', '6 DAYS / WEEK']} position={[0, 3.55, 0.9]} w={2.8} h={0.95} bg="#1b1a20" fg="#FFD23F" /></group> : null}
       {t > tired - 0.2 ? <group scale={pop(t, tired)}><Sign lines={['ENERGY: 2%']} position={[0, 3.0, 0.4]} w={1.8} h={0.45} bg="#ffd1dc" /></group> : null}
     </>
   );
@@ -220,7 +220,7 @@ export const Clinch3: React.FC<P3> = ({t, dur, cue, wide}) => {
       <Warm />
       <group position={[0, -1, 0]}><Ring size={5} /></group>
       <Cam t={t} wide={wide} keys={[{t: 0, pos: [2.5, 2.2, 5.2], look: [0, 1.0, 0]}, {t: dur, pos: [1.5, 2.0, 4.4], look: [0, 0.9, 0]}]} />
-      <group rotation={[0, 0, fall * 1.35]} position={[-0.45 - fall * 0.6, fall * 0.15, 0]}>
+      <group rotation={[0, 0, fall * 1.35]} position={[-0.45 - fall * (wide ? 0.6 : 0.2), fall * 0.15, 0]}>
         <Character look={YOU} expr={fall > 0.3 ? 'shock' : 'pain'} limbs={{...clinch, legL: 0.15 + sway}} t={t} sweat rotY={Math.PI / 2 - 0.2} />
       </group>
       <Character look={FOE} expr="determined" limbs={{...clinch, legR: -0.25 - sway - fall * 0.8}} t={t} position={[0.45, 0, 0]} rotY={-Math.PI / 2 + 0.2} scale={0.78} />

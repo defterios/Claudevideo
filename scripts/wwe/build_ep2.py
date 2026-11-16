@@ -1,7 +1,7 @@
 """Timeline for Episode 2 (Muay Thai camp, 3D style).
 Usage:
   build_ep2.py estimate <out_long.json> <out_short.json>            -> placeholder timing (no audio yet)
-  build_ep2.py align <words.json> <out_long.json> <out_short.json> -> timing from the creator's recording
+  build_ep2.py align <words_long.json> <words_short.json> <out_long.json> <out_short.json> -> timing from the recording
 words.json = [{"line": n (1-based), "w": text, "s": sec, "e": sec}, ...] produced by align_ep2.py
 """
 import json, re, sys, os
@@ -68,7 +68,7 @@ def build(lines, words, out_path):
         s["cues"] = {}
         for c in CUES.get(s["id"], []):
             for w in s["words"]:
-                if norm(w["w"]).startswith(norm(c)):
+                if norm(w.get("cue", w["w"])).startswith(norm(c)):
                     s["cues"][c] = round(w["s"] - s["start"], 3)
                     break
     flat = [w for s in scenes for w in s["words"]]
@@ -102,9 +102,11 @@ if __name__ == "__main__":
     if mode == "estimate":
         wl = estimate_words(SC.LONG)
         out_long, out_short = sys.argv[2], sys.argv[3]
-    else:
-        wl = json.load(open(sys.argv[2]))
-        out_long, out_short = sys.argv[3], sys.argv[4]
+    else:  # align <words_long.json> <words_short.json> <out_long> <out_short>  (already edited timelines)
+        wl = json.load(open(sys.argv[2])); ws = json.load(open(sys.argv[3]))
+        print("long", build(SC.LONG, wl, sys.argv[4]))
+        print("short", build(SC.LONG, ws, sys.argv[5]))
+        sys.exit(0)
     print("long", build(SC.LONG, wl, out_long))
     # short: keep only SHORT_LINES, re-timed back-to-back
     keep = set(SC.SHORT_LINES)
