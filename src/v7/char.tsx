@@ -152,11 +152,18 @@ export const Sign: React.FC<{lines: string[]; w?: number; h?: number; bg?: strin
     g.textAlign = 'center';
     g.textBaseline = 'middle';
     const n = lines.length;
-    const fs = Math.min(170, (cv.height * (sub ? 0.62 : 0.8)) / n);
+    let fs = Math.min(170, (cv.height * (sub ? 0.62 : 0.8)) / n);
     g.font = `800 ${fs}px Rubik, sans-serif`;
+    // auto-fit: shrink until the widest line fits inside the frame
+    const maxW = cv.width * 0.86;
+    const widest = Math.max(...lines.map((ln) => g.measureText(ln).width));
+    if (widest > maxW) {
+      fs *= maxW / widest;
+      g.font = `800 ${fs}px Rubik, sans-serif`;
+    }
     lines.forEach((ln, i) => g.fillText(ln, cv.width / 2, cv.height * (sub ? 0.42 : 0.5) + (i - (n - 1) / 2) * fs * 1.05));
     if (sub) {
-      g.font = `700 ${fs * 0.33}px Rubik, sans-serif`;
+      g.font = `700 ${Math.min(fs * 0.33, (cv.height * 0.12))}px Rubik, sans-serif`;
       g.fillText(sub, cv.width / 2, cv.height * 0.8);
     }
     const t = new THREE.CanvasTexture(cv);

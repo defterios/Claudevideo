@@ -1,0 +1,1582 @@
+{
+ "duration": 82.84,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 13.115,
+   "cues": {
+    "Thailand": 4.74,
+    "beaches": 6.195,
+    "survive": 10.405
+   }
+  },
+  {
+   "id": "run",
+   "start": 13.115,
+   "end": 24.785,
+   "cues": {
+    "run": 4.05,
+    "thirty-degree": 4.91,
+    "towel": 10.94
+   }
+  },
+  {
+   "id": "pads",
+   "start": 24.785,
+   "end": 31.835,
+   "cues": {
+    "kicks": 1.775,
+    "knees": 2.475,
+    "elbows": 3.5,
+    "noodles": 6.21
+   }
+  },
+  {
+   "id": "shins",
+   "start": 31.835,
+   "end": 40.34,
+   "cues": {
+    "bruises": 3.56,
+    "shin": 1.985,
+    "foot": 8.11
+   }
+  },
+  {
+   "id": "schedule",
+   "start": 40.34,
+   "end": 46.925,
+   "cues": {
+    "Two": 0.2,
+    "tired": 5.775
+   }
+  },
+  {
+   "id": "clinch",
+   "start": 46.925,
+   "end": 54.82,
+   "cues": {
+    "neck": 0.58,
+    "half": 3.99,
+    "floor": 7.085
+   }
+  },
+  {
+   "id": "spar",
+   "start": 54.82,
+   "end": 63.135,
+   "cues": {
+    "guard": 1.285,
+    "push": 2.85,
+    "breathe": 7.395
+   }
+  },
+  {
+   "id": "fight",
+   "start": 63.135,
+   "end": 73.03,
+   "cues": {
+    "Three": 0.2,
+    "short": 3.775,
+    "fire": 9.14
+   }
+  },
+  {
+   "id": "cta",
+   "start": 73.03,
+   "end": 82.84,
+   "cues": {
+    "honest": 0.74,
+    "survive": 2.365,
+    "comments": 6.21,
+    "follow": 7.4
+   }
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.4,
+   "end": 1.595,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.4,
+     "end": 0.685
+    },
+    {
+     "text": "just",
+     "start": 0.725,
+     "end": 1.065
+    },
+    {
+     "text": "booked",
+     "start": 1.105,
+     "end": 1.555
+    }
+   ]
+  },
+  {
+   "start": 1.595,
+   "end": 2.845,
+   "words": [
+    {
+     "text": "a",
+     "start": 1.595,
+     "end": 1.77
+    },
+    {
+     "text": "one-month",
+     "start": 1.81,
+     "end": 2.425
+    },
+    {
+     "text": "trip",
+     "start": 2.465,
+     "end": 2.805
+    }
+   ]
+  },
+  {
+   "start": 2.845,
+   "end": 3.71,
+   "words": [
+    {
+     "text": "to",
+     "start": 2.845,
+     "end": 3.075
+    },
+    {
+     "text": "a",
+     "start": 3.115,
+     "end": 3.29
+    },
+    {
+     "text": "Muay",
+     "start": 3.33,
+     "end": 3.67
+    }
+   ]
+  },
+  {
+   "start": 3.71,
+   "end": 4.74,
+   "words": [
+    {
+     "text": "Thai",
+     "start": 3.71,
+     "end": 4.05
+    },
+    {
+     "text": "camp",
+     "start": 4.09,
+     "end": 4.43
+    },
+    {
+     "text": "in",
+     "start": 4.47,
+     "end": 4.7
+    }
+   ]
+  },
+  {
+   "start": 4.74,
+   "end": 5.605,
+   "words": [
+    {
+     "text": "Thailand.",
+     "start": 4.74,
+     "end": 5.355
+    }
+   ]
+  },
+  {
+   "start": 5.605,
+   "end": 6.195,
+   "words": [
+    {
+     "text": "Sun,",
+     "start": 5.605,
+     "end": 5.945
+    }
+   ]
+  },
+  {
+   "start": 6.195,
+   "end": 7.005,
+   "words": [
+    {
+     "text": "beaches,",
+     "start": 6.195,
+     "end": 6.755
+    }
+   ]
+  },
+  {
+   "start": 7.005,
+   "end": 8.145,
+   "words": [
+    {
+     "text": "maybe",
+     "start": 7.005,
+     "end": 7.4
+    },
+    {
+     "text": "a",
+     "start": 7.44,
+     "end": 7.615
+    },
+    {
+     "text": "little",
+     "start": 7.655,
+     "end": 8.105
+    }
+   ]
+  },
+  {
+   "start": 8.145,
+   "end": 9.0,
+   "words": [
+    {
+     "text": "training.",
+     "start": 8.145,
+     "end": 8.76
+    }
+   ]
+  },
+  {
+   "start": 9.0,
+   "end": 9.645,
+   "words": [
+    {
+     "text": "So...",
+     "start": 9.0,
+     "end": 9.395
+    }
+   ]
+  },
+  {
+   "start": 9.645,
+   "end": 10.95,
+   "words": [
+    {
+     "text": "would",
+     "start": 9.645,
+     "end": 10.04
+    },
+    {
+     "text": "you",
+     "start": 10.08,
+     "end": 10.365
+    },
+    {
+     "text": "survive",
+     "start": 10.405,
+     "end": 10.91
+    }
+   ]
+  },
+  {
+   "start": 10.95,
+   "end": 11.925,
+   "words": [
+    {
+     "text": "a",
+     "start": 10.95,
+     "end": 11.125
+    },
+    {
+     "text": "Muay",
+     "start": 11.165,
+     "end": 11.505
+    },
+    {
+     "text": "Thai",
+     "start": 11.545,
+     "end": 11.885
+    }
+   ]
+  },
+  {
+   "start": 11.925,
+   "end": 13.155,
+   "words": [
+    {
+     "text": "fight",
+     "start": 11.925,
+     "end": 12.32
+    },
+    {
+     "text": "camp?",
+     "start": 12.36,
+     "end": 12.755
+    }
+   ]
+  },
+  {
+   "start": 13.315,
+   "end": 14.51,
+   "words": [
+    {
+     "text": "Before",
+     "start": 13.315,
+     "end": 13.765
+    },
+    {
+     "text": "you",
+     "start": 13.805,
+     "end": 14.09
+    },
+    {
+     "text": "even",
+     "start": 14.13,
+     "end": 14.47
+    }
+   ]
+  },
+  {
+   "start": 14.51,
+   "end": 15.86,
+   "words": [
+    {
+     "text": "touch",
+     "start": 14.51,
+     "end": 14.905
+    },
+    {
+     "text": "a",
+     "start": 14.945,
+     "end": 15.12
+    },
+    {
+     "text": "glove,",
+     "start": 15.16,
+     "end": 15.61
+    }
+   ]
+  },
+  {
+   "start": 15.86,
+   "end": 17.165,
+   "words": [
+    {
+     "text": "there's",
+     "start": 15.86,
+     "end": 16.365
+    },
+    {
+     "text": "a",
+     "start": 16.405,
+     "end": 16.58
+    },
+    {
+     "text": "morning",
+     "start": 16.62,
+     "end": 17.125
+    }
+   ]
+  },
+  {
+   "start": 17.165,
+   "end": 17.755,
+   "words": [
+    {
+     "text": "run.",
+     "start": 17.165,
+     "end": 17.505
+    }
+   ]
+  },
+  {
+   "start": 17.755,
+   "end": 19.545,
+   "words": [
+    {
+     "text": "In",
+     "start": 17.755,
+     "end": 17.985
+    },
+    {
+     "text": "thirty-degree",
+     "start": 18.025,
+     "end": 18.86
+    },
+    {
+     "text": "heat,",
+     "start": 18.9,
+     "end": 19.295
+    }
+   ]
+  },
+  {
+   "start": 19.545,
+   "end": 20.795,
+   "words": [
+    {
+     "text": "with",
+     "start": 19.545,
+     "end": 19.885
+    },
+    {
+     "text": "humidity",
+     "start": 19.925,
+     "end": 20.485
+    },
+    {
+     "text": "so",
+     "start": 20.525,
+     "end": 20.755
+    }
+   ]
+  },
+  {
+   "start": 20.795,
+   "end": 21.935,
+   "words": [
+    {
+     "text": "thick",
+     "start": 20.795,
+     "end": 21.19
+    },
+    {
+     "text": "it",
+     "start": 21.23,
+     "end": 21.46
+    },
+    {
+     "text": "feels",
+     "start": 21.5,
+     "end": 21.895
+    }
+   ]
+  },
+  {
+   "start": 21.935,
+   "end": 23.515,
+   "words": [
+    {
+     "text": "like",
+     "start": 21.935,
+     "end": 22.275
+    },
+    {
+     "text": "breathing",
+     "start": 22.315,
+     "end": 22.93
+    },
+    {
+     "text": "through",
+     "start": 22.97,
+     "end": 23.475
+    }
+   ]
+  },
+  {
+   "start": 23.515,
+   "end": 24.905,
+   "words": [
+    {
+     "text": "a",
+     "start": 23.515,
+     "end": 23.69
+    },
+    {
+     "text": "wet",
+     "start": 23.73,
+     "end": 24.015
+    },
+    {
+     "text": "towel.",
+     "start": 24.055,
+     "end": 24.505
+    }
+   ]
+  },
+  {
+   "start": 24.985,
+   "end": 26.29,
+   "words": [
+    {
+     "text": "Round",
+     "start": 24.985,
+     "end": 25.38
+    },
+    {
+     "text": "after",
+     "start": 25.42,
+     "end": 25.815
+    },
+    {
+     "text": "round",
+     "start": 25.855,
+     "end": 26.25
+    }
+   ]
+  },
+  {
+   "start": 26.29,
+   "end": 27.26,
+   "words": [
+    {
+     "text": "of",
+     "start": 26.29,
+     "end": 26.52
+    },
+    {
+     "text": "kicks,",
+     "start": 26.56,
+     "end": 27.01
+    }
+   ]
+  },
+  {
+   "start": 27.26,
+   "end": 27.96,
+   "words": [
+    {
+     "text": "knees,",
+     "start": 27.26,
+     "end": 27.71
+    }
+   ]
+  },
+  {
+   "start": 27.96,
+   "end": 29.04,
+   "words": [
+    {
+     "text": "and",
+     "start": 27.96,
+     "end": 28.245
+    },
+    {
+     "text": "elbows,",
+     "start": 28.285,
+     "end": 28.79
+    }
+   ]
+  },
+  {
+   "start": 29.04,
+   "end": 30.235,
+   "words": [
+    {
+     "text": "until",
+     "start": 29.04,
+     "end": 29.435
+    },
+    {
+     "text": "your",
+     "start": 29.475,
+     "end": 29.815
+    },
+    {
+     "text": "arms",
+     "start": 29.855,
+     "end": 30.195
+    }
+   ]
+  },
+  {
+   "start": 30.235,
+   "end": 31.955,
+   "words": [
+    {
+     "text": "feel",
+     "start": 30.235,
+     "end": 30.575
+    },
+    {
+     "text": "like",
+     "start": 30.615,
+     "end": 30.955
+    },
+    {
+     "text": "noodles.",
+     "start": 30.995,
+     "end": 31.555
+    }
+   ]
+  },
+  {
+   "start": 32.035,
+   "end": 33.44,
+   "words": [
+    {
+     "text": "By",
+     "start": 32.035,
+     "end": 32.265
+    },
+    {
+     "text": "the",
+     "start": 32.305,
+     "end": 32.59
+    },
+    {
+     "text": "evening,",
+     "start": 32.63,
+     "end": 33.19
+    }
+   ]
+  },
+  {
+   "start": 33.44,
+   "end": 34.58,
+   "words": [
+    {
+     "text": "your",
+     "start": 33.44,
+     "end": 33.78
+    },
+    {
+     "text": "shins",
+     "start": 33.82,
+     "end": 34.215
+    },
+    {
+     "text": "are",
+     "start": 34.255,
+     "end": 34.54
+    }
+   ]
+  },
+  {
+   "start": 34.58,
+   "end": 36.205,
+   "words": [
+    {
+     "text": "covered",
+     "start": 34.58,
+     "end": 35.085
+    },
+    {
+     "text": "in",
+     "start": 35.125,
+     "end": 35.355
+    },
+    {
+     "text": "bruises.",
+     "start": 35.395,
+     "end": 35.955
+    }
+   ]
+  },
+  {
+   "start": 36.205,
+   "end": 37.565,
+   "words": [
+    {
+     "text": "Muay",
+     "start": 36.205,
+     "end": 36.545
+    },
+    {
+     "text": "Thai",
+     "start": 36.585,
+     "end": 36.925
+    },
+    {
+     "text": "fighters",
+     "start": 36.965,
+     "end": 37.525
+    }
+   ]
+  },
+  {
+   "start": 37.565,
+   "end": 38.65,
+   "words": [
+    {
+     "text": "kick",
+     "start": 37.565,
+     "end": 37.905
+    },
+    {
+     "text": "with",
+     "start": 37.945,
+     "end": 38.285
+    },
+    {
+     "text": "the",
+     "start": 38.325,
+     "end": 38.61
+    }
+   ]
+  },
+  {
+   "start": 38.65,
+   "end": 39.295,
+   "words": [
+    {
+     "text": "shin,",
+     "start": 38.65,
+     "end": 39.045
+    }
+   ]
+  },
+  {
+   "start": 39.295,
+   "end": 40.54,
+   "words": [
+    {
+     "text": "not",
+     "start": 39.295,
+     "end": 39.58
+    },
+    {
+     "text": "the",
+     "start": 39.62,
+     "end": 39.905
+    },
+    {
+     "text": "foot.",
+     "start": 39.945,
+     "end": 40.34
+    }
+   ]
+  },
+  {
+   "start": 40.54,
+   "end": 41.68,
+   "words": [
+    {
+     "text": "Two",
+     "start": 40.54,
+     "end": 40.825
+    },
+    {
+     "text": "sessions",
+     "start": 40.865,
+     "end": 41.425
+    },
+    {
+     "text": "a",
+     "start": 41.465,
+     "end": 41.64
+    }
+   ]
+  },
+  {
+   "start": 41.68,
+   "end": 42.27,
+   "words": [
+    {
+     "text": "day,",
+     "start": 41.68,
+     "end": 42.02
+    }
+   ]
+  },
+  {
+   "start": 42.27,
+   "end": 43.19,
+   "words": [
+    {
+     "text": "six",
+     "start": 42.27,
+     "end": 42.555
+    },
+    {
+     "text": "days",
+     "start": 42.595,
+     "end": 42.935
+    },
+    {
+     "text": "a",
+     "start": 42.975,
+     "end": 43.15
+    }
+   ]
+  },
+  {
+   "start": 43.19,
+   "end": 43.835,
+   "words": [
+    {
+     "text": "week.",
+     "start": 43.19,
+     "end": 43.585
+    }
+   ]
+  },
+  {
+   "start": 43.835,
+   "end": 44.92,
+   "words": [
+    {
+     "text": "Your",
+     "start": 43.835,
+     "end": 44.175
+    },
+    {
+     "text": "body",
+     "start": 44.215,
+     "end": 44.555
+    },
+    {
+     "text": "has",
+     "start": 44.595,
+     "end": 44.88
+    }
+   ]
+  },
+  {
+   "start": 44.92,
+   "end": 46.115,
+   "words": [
+    {
+     "text": "never",
+     "start": 44.92,
+     "end": 45.315
+    },
+    {
+     "text": "been",
+     "start": 45.355,
+     "end": 45.695
+    },
+    {
+     "text": "this",
+     "start": 45.735,
+     "end": 46.075
+    }
+   ]
+  },
+  {
+   "start": 46.115,
+   "end": 46.965,
+   "words": [
+    {
+     "text": "tired.",
+     "start": 46.115,
+     "end": 46.565
+    }
+   ]
+  },
+  {
+   "start": 47.125,
+   "end": 48.585,
+   "words": [
+    {
+     "text": "Your",
+     "start": 47.125,
+     "end": 47.465
+    },
+    {
+     "text": "neck",
+     "start": 47.505,
+     "end": 47.845
+    },
+    {
+     "text": "burns,",
+     "start": 47.885,
+     "end": 48.335
+    }
+   ]
+  },
+  {
+   "start": 48.585,
+   "end": 50.045,
+   "words": [
+    {
+     "text": "your",
+     "start": 48.585,
+     "end": 48.925
+    },
+    {
+     "text": "legs",
+     "start": 48.965,
+     "end": 49.305
+    },
+    {
+     "text": "shake,",
+     "start": 49.345,
+     "end": 49.795
+    }
+   ]
+  },
+  {
+   "start": 50.045,
+   "end": 51.295,
+   "words": [
+    {
+     "text": "and",
+     "start": 50.045,
+     "end": 50.33
+    },
+    {
+     "text": "someone",
+     "start": 50.37,
+     "end": 50.875
+    },
+    {
+     "text": "half",
+     "start": 50.915,
+     "end": 51.255
+    }
+   ]
+  },
+  {
+   "start": 51.295,
+   "end": 52.49,
+   "words": [
+    {
+     "text": "your",
+     "start": 51.295,
+     "end": 51.635
+    },
+    {
+     "text": "size",
+     "start": 51.675,
+     "end": 52.015
+    },
+    {
+     "text": "keeps",
+     "start": 52.055,
+     "end": 52.45
+    }
+   ]
+  },
+  {
+   "start": 52.49,
+   "end": 53.685,
+   "words": [
+    {
+     "text": "throwing",
+     "start": 52.49,
+     "end": 53.05
+    },
+    {
+     "text": "you",
+     "start": 53.09,
+     "end": 53.375
+    },
+    {
+     "text": "to",
+     "start": 53.415,
+     "end": 53.645
+    }
+   ]
+  },
+  {
+   "start": 53.685,
+   "end": 54.86,
+   "words": [
+    {
+     "text": "the",
+     "start": 53.685,
+     "end": 53.97
+    },
+    {
+     "text": "floor.",
+     "start": 54.01,
+     "end": 54.46
+    }
+   ]
+  },
+  {
+   "start": 55.02,
+   "end": 56.105,
+   "words": [
+    {
+     "text": "You",
+     "start": 55.02,
+     "end": 55.305
+    },
+    {
+     "text": "drop",
+     "start": 55.345,
+     "end": 55.685
+    },
+    {
+     "text": "your",
+     "start": 55.725,
+     "end": 56.065
+    }
+   ]
+  },
+  {
+   "start": 56.105,
+   "end": 56.805,
+   "words": [
+    {
+     "text": "guard.",
+     "start": 56.105,
+     "end": 56.555
+    }
+   ]
+  },
+  {
+   "start": 56.805,
+   "end": 57.67,
+   "words": [
+    {
+     "text": "You",
+     "start": 56.805,
+     "end": 57.09
+    },
+    {
+     "text": "eat",
+     "start": 57.13,
+     "end": 57.415
+    },
+    {
+     "text": "a",
+     "start": 57.455,
+     "end": 57.63
+    }
+   ]
+  },
+  {
+   "start": 57.67,
+   "end": 58.7,
+   "words": [
+    {
+     "text": "push",
+     "start": 57.67,
+     "end": 58.01
+    },
+    {
+     "text": "kick",
+     "start": 58.05,
+     "end": 58.39
+    },
+    {
+     "text": "to",
+     "start": 58.43,
+     "end": 58.66
+    }
+   ]
+  },
+  {
+   "start": 58.7,
+   "end": 59.835,
+   "words": [
+    {
+     "text": "the",
+     "start": 58.7,
+     "end": 58.985
+    },
+    {
+     "text": "stomach.",
+     "start": 59.025,
+     "end": 59.585
+    }
+   ]
+  },
+  {
+   "start": 59.835,
+   "end": 60.7,
+   "words": [
+    {
+     "text": "And",
+     "start": 59.835,
+     "end": 60.12
+    },
+    {
+     "text": "for",
+     "start": 60.16,
+     "end": 60.445
+    },
+    {
+     "text": "a",
+     "start": 60.485,
+     "end": 60.66
+    }
+   ]
+  },
+  {
+   "start": 60.7,
+   "end": 61.455,
+   "words": [
+    {
+     "text": "second,",
+     "start": 60.7,
+     "end": 61.205
+    }
+   ]
+  },
+  {
+   "start": 61.455,
+   "end": 63.175,
+   "words": [
+    {
+     "text": "you",
+     "start": 61.455,
+     "end": 61.74
+    },
+    {
+     "text": "can't",
+     "start": 61.78,
+     "end": 62.175
+    },
+    {
+     "text": "breathe.",
+     "start": 62.215,
+     "end": 62.775
+    }
+   ]
+  },
+  {
+   "start": 63.335,
+   "end": 64.525,
+   "words": [
+    {
+     "text": "Three",
+     "start": 63.335,
+     "end": 63.73
+    },
+    {
+     "text": "rounds.",
+     "start": 63.77,
+     "end": 64.275
+    }
+   ]
+  },
+  {
+   "start": 64.525,
+   "end": 66.15,
+   "words": [
+    {
+     "text": "Three",
+     "start": 64.525,
+     "end": 64.92
+    },
+    {
+     "text": "minutes",
+     "start": 64.96,
+     "end": 65.465
+    },
+    {
+     "text": "each.",
+     "start": 65.505,
+     "end": 65.9
+    }
+   ]
+  },
+  {
+   "start": 66.15,
+   "end": 67.72,
+   "words": [
+    {
+     "text": "It",
+     "start": 66.15,
+     "end": 66.38
+    },
+    {
+     "text": "sounds",
+     "start": 66.42,
+     "end": 66.87
+    },
+    {
+     "text": "short...",
+     "start": 66.91,
+     "end": 67.47
+    }
+   ]
+  },
+  {
+   "start": 67.72,
+   "end": 68.915,
+   "words": [
+    {
+     "text": "until",
+     "start": 67.72,
+     "end": 68.115
+    },
+    {
+     "text": "the",
+     "start": 68.155,
+     "end": 68.44
+    },
+    {
+     "text": "first",
+     "start": 68.48,
+     "end": 68.875
+    }
+   ]
+  },
+  {
+   "start": 68.915,
+   "end": 69.995,
+   "words": [
+    {
+     "text": "round",
+     "start": 68.915,
+     "end": 69.31
+    },
+    {
+     "text": "ends,",
+     "start": 69.35,
+     "end": 69.745
+    }
+   ]
+  },
+  {
+   "start": 69.995,
+   "end": 71.135,
+   "words": [
+    {
+     "text": "and",
+     "start": 69.995,
+     "end": 70.28
+    },
+    {
+     "text": "your",
+     "start": 70.32,
+     "end": 70.66
+    },
+    {
+     "text": "lungs",
+     "start": 70.7,
+     "end": 71.095
+    }
+   ]
+  },
+  {
+   "start": 71.135,
+   "end": 72.275,
+   "words": [
+    {
+     "text": "are",
+     "start": 71.135,
+     "end": 71.42
+    },
+    {
+     "text": "already",
+     "start": 71.46,
+     "end": 71.965
+    },
+    {
+     "text": "on",
+     "start": 72.005,
+     "end": 72.235
+    }
+   ]
+  },
+  {
+   "start": 72.275,
+   "end": 73.07,
+   "words": [
+    {
+     "text": "fire.",
+     "start": 72.275,
+     "end": 72.67
+    }
+   ]
+  },
+  {
+   "start": 73.23,
+   "end": 74.635,
+   "words": [
+    {
+     "text": "So",
+     "start": 73.23,
+     "end": 73.46
+    },
+    {
+     "text": "be",
+     "start": 73.5,
+     "end": 73.73
+    },
+    {
+     "text": "honest...",
+     "start": 73.77,
+     "end": 74.385
+    }
+   ]
+  },
+  {
+   "start": 74.635,
+   "end": 75.94,
+   "words": [
+    {
+     "text": "would",
+     "start": 74.635,
+     "end": 75.03
+    },
+    {
+     "text": "you",
+     "start": 75.07,
+     "end": 75.355
+    },
+    {
+     "text": "survive",
+     "start": 75.395,
+     "end": 75.9
+    }
+   ]
+  },
+  {
+   "start": 75.94,
+   "end": 76.915,
+   "words": [
+    {
+     "text": "a",
+     "start": 75.94,
+     "end": 76.115
+    },
+    {
+     "text": "Muay",
+     "start": 76.155,
+     "end": 76.495
+    },
+    {
+     "text": "Thai",
+     "start": 76.535,
+     "end": 76.875
+    }
+   ]
+  },
+  {
+   "start": 76.915,
+   "end": 77.995,
+   "words": [
+    {
+     "text": "fight",
+     "start": 76.915,
+     "end": 77.31
+    },
+    {
+     "text": "camp?",
+     "start": 77.35,
+     "end": 77.745
+    }
+   ]
+  },
+  {
+   "start": 77.995,
+   "end": 78.915,
+   "words": [
+    {
+     "text": "Tell",
+     "start": 77.995,
+     "end": 78.335
+    },
+    {
+     "text": "me",
+     "start": 78.375,
+     "end": 78.605
+    },
+    {
+     "text": "in",
+     "start": 78.645,
+     "end": 78.875
+    }
+   ]
+  },
+  {
+   "start": 78.915,
+   "end": 80.105,
+   "words": [
+    {
+     "text": "the",
+     "start": 78.915,
+     "end": 79.2
+    },
+    {
+     "text": "comments,",
+     "start": 79.24,
+     "end": 79.855
+    }
+   ]
+  },
+  {
+   "start": 80.105,
+   "end": 81.245,
+   "words": [
+    {
+     "text": "and",
+     "start": 80.105,
+     "end": 80.39
+    },
+    {
+     "text": "follow",
+     "start": 80.43,
+     "end": 80.88
+    },
+    {
+     "text": "for",
+     "start": 80.92,
+     "end": 81.205
+    }
+   ]
+  },
+  {
+   "start": 81.245,
+   "end": 82.04,
+   "words": [
+    {
+     "text": "more.",
+     "start": 81.245,
+     "end": 81.64
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "t": 4.74,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 10.405,
+   "src": "ring_bell",
+   "volume": 0.45
+  },
+  {
+   "t": 10.405,
+   "src": "boom",
+   "volume": 0.3
+  },
+  {
+   "t": 13.035,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 18.025,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 24.055,
+   "src": "cartoon_impact",
+   "volume": 0.3
+  },
+  {
+   "t": 24.705,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 25.505,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 26.305,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 27.105,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 27.905,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 28.705,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 29.505,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 30.305,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 30.995,
+   "src": "cartoon_down",
+   "volume": 0.35
+  },
+  {
+   "t": 31.105,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 31.755,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 33.82,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 35.395,
+   "src": "punch_deep",
+   "volume": 0.35
+  },
+  {
+   "t": 40.26,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 40.54,
+   "src": "snap_glassy",
+   "volume": 0.35
+  },
+  {
+   "t": 46.845,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 54.01,
+   "src": "slam",
+   "volume": 0.55
+  },
+  {
+   "t": 54.74,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 57.67,
+   "src": "punch_deep",
+   "volume": 0.55
+  },
+  {
+   "t": 62.215,
+   "src": "dizzy",
+   "volume": 0.35
+  },
+  {
+   "t": 63.055,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 63.335,
+   "src": "ring_bell",
+   "volume": 0.4
+  },
+  {
+   "t": 72.275,
+   "src": "whoosh_fast",
+   "volume": 0.35
+  },
+  {
+   "t": 72.95,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 75.395,
+   "src": "ring_bell",
+   "volume": 0.4
+  },
+  {
+   "t": 79.24,
+   "src": "notif_a",
+   "volume": 0.4
+  },
+  {
+   "t": 80.43,
+   "src": "pop",
+   "volume": 0.35
+  }
+ ]
+}
