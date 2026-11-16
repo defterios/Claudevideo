@@ -365,7 +365,7 @@ export const Promo: React.FC<SceneProps> = ({t, cue}) => {
 /* 9 ─ first live event */
 export const Live: React.FC<SceneProps> = ({t, cue}) => {
   const music = cue('music', 0.3), mistake = cue('mistake', 0.62), heart = cue('heart', 0.85);
-  const entr = interpolate(t, [music - 0.2, music + 1.6], [300, 860], cl);
+  const entr = interpolate(t, [music - 0.2, music + 1.6], [560, 900], cl);
   const slip = ease(t, mistake - 0.15, mistake + 0.15) * (t < heart - 0.2 ? 1 : 0);
   const bpm = Math.round(interpolate(t, [heart - 0.4, heart + 1], [90, 180], cl));
   const beat = Math.pow(Math.max(0, Math.sin(t * Math.PI * (bpm / 60))), 8);
@@ -377,7 +377,7 @@ export const Live: React.FC<SceneProps> = ({t, cue}) => {
         return <polygon key={k} points={`${400 + k * 560},0 ${440 + k * 560},0 ${600 + k * 560 + a * 10},860 ${240 + k * 560 + a * 10},860`} fill={['#F28C28', '#2E6FD8', '#D7262E'][k]} opacity={t > music - 0.2 ? 0.16 : 0.05} />;
       })}
       <Ring x={460} w={1000} floorY={620} />
-      <Stick x={entr} y={620} pose={slip > 0.5 ? lerpPose(POSES.stand, POSES.armsOut, slip) : t > music ? (entr < 850 ? cyclePose('walkA', 'walkB', t, 1.8) : POSES.cheer) : POSES.nervous} face={t > heart - 0.3 ? 'scared' : slip > 0.5 ? 'shock' : 'grin'} gear={{...YOU, sweat: t > mistake ? 1 : 0}} t={t} rot={-80 * slip} />
+      <Stick x={entr} y={620} pose={slip > 0.5 ? lerpPose(POSES.stand, POSES.armsOut, slip) : t > music ? (entr < 890 ? cyclePose('walkA', 'walkB', t, 1.8) : POSES.cheer) : POSES.nervous} face={t > heart - 0.3 ? 'scared' : slip > 0.5 ? 'shock' : 'grin'} gear={{...YOU, sweat: t > mistake ? 1 : 0}} t={t} rot={-80 * slip} />
       {t > music - 0.2 && t < mistake ? ['♪', '♫', '♪'].map((n, i) => <OText key={i} x={300 + i * 600 + Math.sin(t * 2 + i) * 30} y={300 - ((t * 120 + i * 80) % 200)} text={n} size={90} fill="#FFD23F" />) : null}
       <Crowd t={t} y={830} excite={t > music ? 1 : 0.3} />
       <OText x={960} y={240} text="OOOOH!" size={110} fill="#FFD23F" scale={pop(t, mistake) * (t < heart - 0.2 ? 1 : 0)} />
