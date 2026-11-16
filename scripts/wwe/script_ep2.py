@@ -1,4 +1,5 @@
-"""Episode 2 — 'Would You Survive a Muay Thai Fight Camp?' (same format as script.py: (scene, text, pause))."""
+"""Episode 2 — 'Would You Survive a Muay Thai Fight Camp?' (same format as script.py: (scene, text, pause)).
+Voice-over: recorded by the creator. Scene timing is taken from the recording (per-line alignment)."""
 
 TITLE = "Would You Survive a Muay Thai Fight Camp?"
 THUMBNAIL = ("30 DAYS IN A", "MUAY THAI CAMP")
@@ -26,14 +27,7 @@ LONG = [
     ("cta", "So be honest... would you survive a Muay Thai fight camp? Tell me in the comments, and follow for more.", 0.8),
 ]
 
-SHORT = [
-    ("hook", "You booked a month at a Muay Thai camp in Thailand. Would you survive it?", 0.4),
-    ("run", "Day one, six a.m.: a morning run in thirty-degree heat.", 0.3),
-    ("pads", "Then pad work. Kicks, knees, and elbows, until your arms feel like noodles.", 0.3),
-    ("shins", "By night, your shins are purple. Every kick feels like kicking a tree.", 0.4),
-    ("schedule", "Week one: two sessions a day, six days a week.", 0.4),
-    ("clinch", "Week two: the clinch. Someone half your size keeps throwing you down.", 0.4),
-    ("spar", "Week three: sparring. One push kick to the stomach, and you can't breathe.", 0.4),
-    ("fight", "Week four: fight night. Three rounds... and your lungs are on fire after the first one.", 0.4),
-    ("cta", "So be honest... would you survive a Muay Thai fight camp? Comment below.", 0.8),
-]
+# Narration is recorded by the creator (no AI voice). The 9:16 version is cut from the SAME recording:
+# 1-based line numbers of LONG used in the short version.
+SHORT_LINES = [1, 3, 5, 7, 8, 11, 13, 15, 17, 20]
+SHORT = [LONG[i - 1] for i in SHORT_LINES]
