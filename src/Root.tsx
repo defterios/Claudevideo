@@ -10,6 +10,8 @@ import {ProgressiveOverload, PO_DURATION} from './v5/PO';
 import {PoCover} from './v5/Cover';
 import {RigTest} from './v6/RigTest';
 import {WweLong, WweShort, WWE_LONG_DUR, WWE_SHORT_DUR} from './v6/Wwe';
+import {Test3D} from './v7/Test3D';
+import {MuayStyle} from './v7/Style';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -35,6 +37,8 @@ export const RemotionRoot: React.FC = () => (
     {/* Video 5: Will You Survive WWE Training? (animated, AI narration) */}
     <Composition id="WweLong" component={WweLong} durationInFrames={Math.ceil(WWE_LONG_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{music: 0.11}} />
     <Composition id="WweShort" component={WweShort} durationInFrames={Math.ceil(WWE_SHORT_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.11}} />
+    <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
+    <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />
     <Composition id="TubTest" component={TubTest} durationInFrames={60} fps={FPS} width={WIDTH} height={HEIGHT} />
   </>
