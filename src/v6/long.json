@@ -1,0 +1,3620 @@
+{
+ "duration": 159.576,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "lineEnd": 13.053,
+   "end": 13.603,
+   "cues": {
+    "call": 1.26,
+    "tryout": 3.9,
+    "never": 8.157,
+    "survive": 11.105
+   }
+  },
+  {
+   "id": "pc",
+   "start": 13.603,
+   "lineEnd": 29.922,
+   "end": 30.372,
+   "cues": {
+    "Orlando": 4.44,
+    "bigger": 10.937,
+    "College": 12.001,
+    "Olympians": 13.401,
+    "Bodybuilders": 14.181,
+    "there's": 15.781
+   }
+  },
+  {
+   "id": "bump",
+   "start": 30.372,
+   "lineEnd": 42.681,
+   "end": 43.031,
+   "cues": {
+    "fall": 3.72,
+    "bump": 5.729,
+    "Chin": 6.569,
+    "arms": 7.389,
+    "flat": 8.549,
+    "spreads": 10.609
+   }
+  },
+  {
+   "id": "ring",
+   "start": 43.031,
+   "lineEnd": 56.532,
+   "end": 56.882,
+   "cues": {
+    "hit": 1.82,
+    "trampoline": 5.42,
+    "steel": 7.0,
+    "wooden": 8.22,
+    "foam": 10.22,
+    "table": 13.157
+   }
+  },
+  {
+   "id": "bumps",
+   "start": 56.882,
+   "lineEnd": 65.356,
+   "end": 65.90599999999999,
+   "cues": {
+    "dozens": 0.76,
+    "purple": 5.374,
+    "sit": 6.954,
+    "groaning": 7.954
+   }
+  },
+  {
+   "id": "ropes",
+   "start": 65.90599999999999,
+   "lineEnd": 79.592,
+   "end": 80.142,
+   "cues": {
+    "ropes": 1.12,
+    "steel": 6.337,
+    "rubber": 8.137,
+    "tape": 9.117,
+    "ten": 10.623,
+    "bruises": 12.123
+   }
+  },
+  {
+   "id": "cardio",
+   "start": 80.142,
+   "lineEnd": 95.181,
+   "end": 95.731,
+   "cues": {
+    "cardio": 0.88,
+    "fifteen": 4.22,
+    "twenty": 4.84,
+    "thirty": 5.9,
+    "fire": 10.296,
+    "again": 12.077,
+    "smile": 13.777
+   }
+  },
+  {
+   "id": "promo",
+   "start": 95.731,
+   "lineEnd": 110.639,
+   "end": 111.189,
+   "cues": {
+    "promo": 0.96,
+    "microphone": 5.802,
+    "mic": 5.802,
+    "camera": 7.402,
+    "care": 8.802,
+    "shakes": 10.493,
+    "forget": 11.473,
+    "stare": 13.353
+   }
+  },
+  {
+   "id": "live",
+   "start": 111.189,
+   "lineEnd": 124.991,
+   "end": 125.541,
+   "cues": {
+    "live": 1.4,
+    "music": 5.525,
+    "mistake": 8.785,
+    "heart": 11.587,
+    "fans": 3.16
+   }
+  },
+  {
+   "id": "road",
+   "start": 125.541,
+   "lineEnd": 137.929,
+   "end": 138.47899999999998,
+   "cues": {
+    "main": 2.3,
+    "road": 4.45,
+    "city": 6.67,
+    "Airports": 8.321,
+    "hotel": 9.281,
+    "gyms": 9.961,
+    "arenas": 10.481,
+    "off-season": 11.641
+   }
+  },
+  {
+   "id": "takes",
+   "start": 138.47899999999998,
+   "lineEnd": 150.908,
+   "end": 151.458,
+   "cues": {
+    "body": 2.56,
+    "Cardio": 4.31,
+    "confidence": 6.75,
+    "mindset": 9.361,
+    "back": 10.181
+   }
+  },
+  {
+   "id": "cta",
+   "start": 151.458,
+   "lineEnd": 158.176,
+   "end": 159.576,
+   "cues": {
+    "survive": 2.0,
+    "comments": 5.24,
+    "comment": 5.24,
+    "follow": 5.86
+   }
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.3,
+   "end": 1.26,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.3,
+     "end": 0.5
+    },
+    {
+     "text": "just",
+     "start": 0.5,
+     "end": 0.82
+    },
+    {
+     "text": "got",
+     "start": 0.82,
+     "end": 0.98
+    },
+    {
+     "text": "the",
+     "start": 0.98,
+     "end": 1.26
+    }
+   ]
+  },
+  {
+   "start": 1.26,
+   "end": 2.1,
+   "words": [
+    {
+     "text": "call.",
+     "start": 1.26,
+     "end": 1.7
+    }
+   ]
+  },
+  {
+   "start": 2.34,
+   "end": 3.68,
+   "words": [
+    {
+     "text": "WWE",
+     "start": 2.34,
+     "end": 2.7
+    },
+    {
+     "text": "wants",
+     "start": 2.7,
+     "end": 3.3
+    },
+    {
+     "text": "you",
+     "start": 3.3,
+     "end": 3.56
+    },
+    {
+     "text": "at",
+     "start": 3.56,
+     "end": 3.68
+    }
+   ]
+  },
+  {
+   "start": 3.68,
+   "end": 4.577,
+   "words": [
+    {
+     "text": "a",
+     "start": 3.68,
+     "end": 3.9
+    },
+    {
+     "text": "tryout.",
+     "start": 3.9,
+     "end": 4.26
+    }
+   ]
+  },
+  {
+   "start": 4.577,
+   "end": 6.037,
+   "words": [
+    {
+     "text": "But",
+     "start": 4.577,
+     "end": 4.797
+    },
+    {
+     "text": "here's",
+     "start": 4.797,
+     "end": 5.137
+    },
+    {
+     "text": "the",
+     "start": 5.137,
+     "end": 5.357
+    },
+    {
+     "text": "thing:",
+     "start": 5.357,
+     "end": 5.637
+    }
+   ]
+  },
+  {
+   "start": 6.257,
+   "end": 7.197,
+   "words": [
+    {
+     "text": "most",
+     "start": 6.257,
+     "end": 6.377
+    },
+    {
+     "text": "people",
+     "start": 6.377,
+     "end": 6.697
+    },
+    {
+     "text": "who",
+     "start": 6.697,
+     "end": 6.997
+    },
+    {
+     "text": "walk",
+     "start": 6.997,
+     "end": 7.197
+    }
+   ]
+  },
+  {
+   "start": 7.197,
+   "end": 8.497,
+   "words": [
+    {
+     "text": "through",
+     "start": 7.197,
+     "end": 7.457
+    },
+    {
+     "text": "those",
+     "start": 7.457,
+     "end": 7.777
+    },
+    {
+     "text": "doors",
+     "start": 7.777,
+     "end": 8.157
+    },
+    {
+     "text": "never",
+     "start": 8.157,
+     "end": 8.497
+    }
+   ]
+  },
+  {
+   "start": 8.497,
+   "end": 9.957,
+   "words": [
+    {
+     "text": "make",
+     "start": 8.497,
+     "end": 8.797
+    },
+    {
+     "text": "it",
+     "start": 8.797,
+     "end": 8.977
+    },
+    {
+     "text": "to",
+     "start": 8.977,
+     "end": 9.197
+    },
+    {
+     "text": "TV.",
+     "start": 9.197,
+     "end": 9.557
+    }
+   ]
+  },
+  {
+   "start": 10.005,
+   "end": 10.665,
+   "words": [
+    {
+     "text": "So...",
+     "start": 10.005,
+     "end": 10.665
+    }
+   ]
+  },
+  {
+   "start": 10.665,
+   "end": 12.145,
+   "words": [
+    {
+     "text": "would",
+     "start": 10.665,
+     "end": 10.845
+    },
+    {
+     "text": "you",
+     "start": 10.845,
+     "end": 11.105
+    },
+    {
+     "text": "survive",
+     "start": 11.105,
+     "end": 11.605
+    },
+    {
+     "text": "WWE",
+     "start": 11.605,
+     "end": 12.145
+    }
+   ]
+  },
+  {
+   "start": 12.145,
+   "end": 13.425,
+   "words": [
+    {
+     "text": "training?",
+     "start": 12.145,
+     "end": 13.025
+    }
+   ]
+  },
+  {
+   "start": 13.703,
+   "end": 15.003,
+   "words": [
+    {
+     "text": "Day",
+     "start": 13.703,
+     "end": 14.143
+    },
+    {
+     "text": "one.",
+     "start": 14.143,
+     "end": 14.683
+    }
+   ]
+  },
+  {
+   "start": 15.003,
+   "end": 16.183,
+   "words": [
+    {
+     "text": "You",
+     "start": 15.003,
+     "end": 15.203
+    },
+    {
+     "text": "walk",
+     "start": 15.203,
+     "end": 15.463
+    },
+    {
+     "text": "into",
+     "start": 15.463,
+     "end": 15.763
+    },
+    {
+     "text": "the",
+     "start": 15.763,
+     "end": 16.183
+    }
+   ]
+  },
+  {
+   "start": 16.183,
+   "end": 18.043,
+   "words": [
+    {
+     "text": "WWE",
+     "start": 16.183,
+     "end": 16.743
+    },
+    {
+     "text": "Performance",
+     "start": 16.743,
+     "end": 17.403
+    },
+    {
+     "text": "Center",
+     "start": 17.403,
+     "end": 17.783
+    },
+    {
+     "text": "in",
+     "start": 17.783,
+     "end": 18.043
+    }
+   ]
+  },
+  {
+   "start": 18.043,
+   "end": 18.663,
+   "words": [
+    {
+     "text": "Orlando,",
+     "start": 18.043,
+     "end": 18.603
+    }
+   ]
+  },
+  {
+   "start": 18.663,
+   "end": 19.52,
+   "words": [
+    {
+     "text": "Florida.",
+     "start": 18.663,
+     "end": 19.123
+    }
+   ]
+  },
+  {
+   "start": 19.52,
+   "end": 20.8,
+   "words": [
+    {
+     "text": "It's",
+     "start": 19.52,
+     "end": 19.86
+    },
+    {
+     "text": "a",
+     "start": 19.86,
+     "end": 19.98
+    },
+    {
+     "text": "giant",
+     "start": 19.98,
+     "end": 20.3
+    },
+    {
+     "text": "warehouse",
+     "start": 20.3,
+     "end": 20.8
+    }
+   ]
+  },
+  {
+   "start": 20.8,
+   "end": 22.7,
+   "words": [
+    {
+     "text": "full",
+     "start": 20.8,
+     "end": 21.1
+    },
+    {
+     "text": "of",
+     "start": 21.1,
+     "end": 21.3
+    },
+    {
+     "text": "wrestling",
+     "start": 21.3,
+     "end": 21.68
+    },
+    {
+     "text": "rings,",
+     "start": 21.68,
+     "end": 22.3
+    }
+   ]
+  },
+  {
+   "start": 22.78,
+   "end": 23.42,
+   "words": [
+    {
+     "text": "weights,",
+     "start": 22.78,
+     "end": 23.02
+    }
+   ]
+  },
+  {
+   "start": 23.54,
+   "end": 24.42,
+   "words": [
+    {
+     "text": "and",
+     "start": 23.54,
+     "end": 23.66
+    },
+    {
+     "text": "people",
+     "start": 23.66,
+     "end": 23.98
+    },
+    {
+     "text": "who",
+     "start": 23.98,
+     "end": 24.22
+    },
+    {
+     "text": "are",
+     "start": 24.22,
+     "end": 24.42
+    }
+   ]
+  },
+  {
+   "start": 24.42,
+   "end": 25.604,
+   "words": [
+    {
+     "text": "way",
+     "start": 24.42,
+     "end": 24.54
+    },
+    {
+     "text": "bigger",
+     "start": 24.54,
+     "end": 24.86
+    },
+    {
+     "text": "than",
+     "start": 24.86,
+     "end": 25.12
+    },
+    {
+     "text": "you.",
+     "start": 25.12,
+     "end": 25.34
+    }
+   ]
+  },
+  {
+   "start": 25.604,
+   "end": 27.004,
+   "words": [
+    {
+     "text": "College",
+     "start": 25.604,
+     "end": 26.144
+    },
+    {
+     "text": "athletes.",
+     "start": 26.144,
+     "end": 26.744
+    }
+   ]
+  },
+  {
+   "start": 27.004,
+   "end": 27.784,
+   "words": [
+    {
+     "text": "Olympians.",
+     "start": 27.004,
+     "end": 27.524
+    }
+   ]
+  },
+  {
+   "start": 27.784,
+   "end": 28.524,
+   "words": [
+    {
+     "text": "Bodybuilders.",
+     "start": 27.784,
+     "end": 28.384
+    }
+   ]
+  },
+  {
+   "start": 28.524,
+   "end": 29.384,
+   "words": [
+    {
+     "text": "And",
+     "start": 28.524,
+     "end": 28.644
+    },
+    {
+     "text": "then...",
+     "start": 28.644,
+     "end": 29.384
+    }
+   ]
+  },
+  {
+   "start": 29.384,
+   "end": 30.264,
+   "words": [
+    {
+     "text": "there's",
+     "start": 29.384,
+     "end": 29.724
+    },
+    {
+     "text": "you.",
+     "start": 29.724,
+     "end": 29.864
+    }
+   ]
+  },
+  {
+   "start": 30.472,
+   "end": 31.892,
+   "words": [
+    {
+     "text": "Your",
+     "start": 30.472,
+     "end": 30.772
+    },
+    {
+     "text": "first",
+     "start": 30.772,
+     "end": 31.112
+    },
+    {
+     "text": "lesson",
+     "start": 31.112,
+     "end": 31.512
+    },
+    {
+     "text": "isn't",
+     "start": 31.512,
+     "end": 31.892
+    }
+   ]
+  },
+  {
+   "start": 31.892,
+   "end": 32.972,
+   "words": [
+    {
+     "text": "a",
+     "start": 31.892,
+     "end": 32.012
+    },
+    {
+     "text": "cool",
+     "start": 32.012,
+     "end": 32.212
+    },
+    {
+     "text": "move.",
+     "start": 32.212,
+     "end": 32.572
+    }
+   ]
+  },
+  {
+   "start": 33.072,
+   "end": 34.092,
+   "words": [
+    {
+     "text": "It's",
+     "start": 33.072,
+     "end": 33.272
+    },
+    {
+     "text": "learning",
+     "start": 33.272,
+     "end": 33.592
+    },
+    {
+     "text": "how",
+     "start": 33.592,
+     "end": 33.852
+    },
+    {
+     "text": "to",
+     "start": 33.852,
+     "end": 34.092
+    }
+   ]
+  },
+  {
+   "start": 34.092,
+   "end": 34.601,
+   "words": [
+    {
+     "text": "fall.",
+     "start": 34.092,
+     "end": 34.312
+    }
+   ]
+  },
+  {
+   "start": 34.601,
+   "end": 35.821,
+   "words": [
+    {
+     "text": "Wrestlers",
+     "start": 34.601,
+     "end": 35.181
+    },
+    {
+     "text": "call",
+     "start": 35.181,
+     "end": 35.401
+    },
+    {
+     "text": "it",
+     "start": 35.401,
+     "end": 35.541
+    },
+    {
+     "text": "taking",
+     "start": 35.541,
+     "end": 35.821
+    }
+   ]
+  },
+  {
+   "start": 35.821,
+   "end": 36.941,
+   "words": [
+    {
+     "text": "a",
+     "start": 35.821,
+     "end": 36.101
+    },
+    {
+     "text": "bump.",
+     "start": 36.101,
+     "end": 36.561
+    }
+   ]
+  },
+  {
+   "start": 36.941,
+   "end": 37.761,
+   "words": [
+    {
+     "text": "Chin",
+     "start": 36.941,
+     "end": 37.121
+    },
+    {
+     "text": "tucked,",
+     "start": 37.121,
+     "end": 37.721
+    }
+   ]
+  },
+  {
+   "start": 37.761,
+   "end": 38.661,
+   "words": [
+    {
+     "text": "arms",
+     "start": 37.761,
+     "end": 38.001
+    },
+    {
+     "text": "out,",
+     "start": 38.001,
+     "end": 38.421
+    }
+   ]
+  },
+  {
+   "start": 38.661,
+   "end": 39.601,
+   "words": [
+    {
+     "text": "land",
+     "start": 38.661,
+     "end": 38.921
+    },
+    {
+     "text": "flat",
+     "start": 38.921,
+     "end": 39.241
+    },
+    {
+     "text": "on",
+     "start": 39.241,
+     "end": 39.401
+    },
+    {
+     "text": "your",
+     "start": 39.401,
+     "end": 39.601
+    }
+   ]
+  },
+  {
+   "start": 39.601,
+   "end": 40.241,
+   "words": [
+    {
+     "text": "back,",
+     "start": 39.601,
+     "end": 39.901
+    }
+   ]
+  },
+  {
+   "start": 40.241,
+   "end": 41.341,
+   "words": [
+    {
+     "text": "so",
+     "start": 40.241,
+     "end": 40.321
+    },
+    {
+     "text": "the",
+     "start": 40.321,
+     "end": 40.601
+    },
+    {
+     "text": "impact",
+     "start": 40.601,
+     "end": 40.981
+    },
+    {
+     "text": "spreads",
+     "start": 40.981,
+     "end": 41.341
+    }
+   ]
+  },
+  {
+   "start": 41.341,
+   "end": 42.981,
+   "words": [
+    {
+     "text": "across",
+     "start": 41.341,
+     "end": 41.721
+    },
+    {
+     "text": "your",
+     "start": 41.721,
+     "end": 41.961
+    },
+    {
+     "text": "whole",
+     "start": 41.961,
+     "end": 42.201
+    },
+    {
+     "text": "body.",
+     "start": 42.201,
+     "end": 42.581
+    }
+   ]
+  },
+  {
+   "start": 43.131,
+   "end": 44.451,
+   "words": [
+    {
+     "text": "Sounds",
+     "start": 43.131,
+     "end": 43.611
+    },
+    {
+     "text": "easy,",
+     "start": 43.611,
+     "end": 44.151
+    }
+   ]
+  },
+  {
+   "start": 44.451,
+   "end": 45.251,
+   "words": [
+    {
+     "text": "until",
+     "start": 44.451,
+     "end": 44.671
+    },
+    {
+     "text": "you",
+     "start": 44.671,
+     "end": 44.851
+    },
+    {
+     "text": "hit",
+     "start": 44.851,
+     "end": 45.031
+    },
+    {
+     "text": "the",
+     "start": 45.031,
+     "end": 45.251
+    }
+   ]
+  },
+  {
+   "start": 45.251,
+   "end": 46.031,
+   "words": [
+    {
+     "text": "mat",
+     "start": 45.251,
+     "end": 45.411
+    },
+    {
+     "text": "for",
+     "start": 45.411,
+     "end": 45.611
+    },
+    {
+     "text": "the",
+     "start": 45.611,
+     "end": 45.851
+    },
+    {
+     "text": "first",
+     "start": 45.851,
+     "end": 46.031
+    }
+   ]
+  },
+  {
+   "start": 46.031,
+   "end": 46.651,
+   "words": [
+    {
+     "text": "time.",
+     "start": 46.031,
+     "end": 46.391
+    }
+   ]
+  },
+  {
+   "start": 46.651,
+   "end": 47.971,
+   "words": [
+    {
+     "text": "Because",
+     "start": 46.651,
+     "end": 46.991
+    },
+    {
+     "text": "a",
+     "start": 46.991,
+     "end": 47.291
+    },
+    {
+     "text": "wrestling",
+     "start": 47.291,
+     "end": 47.571
+    },
+    {
+     "text": "ring",
+     "start": 47.571,
+     "end": 47.971
+    }
+   ]
+  },
+  {
+   "start": 47.971,
+   "end": 49.451,
+   "words": [
+    {
+     "text": "isn't",
+     "start": 47.971,
+     "end": 48.311
+    },
+    {
+     "text": "a",
+     "start": 48.311,
+     "end": 48.451
+    },
+    {
+     "text": "trampoline.",
+     "start": 48.451,
+     "end": 49.051
+    }
+   ]
+  },
+  {
+   "start": 49.591,
+   "end": 51.211,
+   "words": [
+    {
+     "text": "It's",
+     "start": 49.591,
+     "end": 49.871
+    },
+    {
+     "text": "a",
+     "start": 49.871,
+     "end": 50.031
+    },
+    {
+     "text": "steel",
+     "start": 50.031,
+     "end": 50.311
+    },
+    {
+     "text": "frame,",
+     "start": 50.311,
+     "end": 50.811
+    }
+   ]
+  },
+  {
+   "start": 51.251,
+   "end": 52.071,
+   "words": [
+    {
+     "text": "wooden",
+     "start": 51.251,
+     "end": 51.411
+    },
+    {
+     "text": "boards,",
+     "start": 51.411,
+     "end": 51.911
+    }
+   ]
+  },
+  {
+   "start": 52.071,
+   "end": 52.931,
+   "words": [
+    {
+     "text": "and",
+     "start": 52.071,
+     "end": 52.291
+    },
+    {
+     "text": "a",
+     "start": 52.291,
+     "end": 52.391
+    },
+    {
+     "text": "thin",
+     "start": 52.391,
+     "end": 52.591
+    },
+    {
+     "text": "layer",
+     "start": 52.591,
+     "end": 52.931
+    }
+   ]
+  },
+  {
+   "start": 52.931,
+   "end": 53.768,
+   "words": [
+    {
+     "text": "of",
+     "start": 52.931,
+     "end": 53.251
+    },
+    {
+     "text": "foam.",
+     "start": 53.251,
+     "end": 53.511
+    }
+   ]
+  },
+  {
+   "start": 53.768,
+   "end": 55.288,
+   "words": [
+    {
+     "text": "Every",
+     "start": 53.768,
+     "end": 54.228
+    },
+    {
+     "text": "bump",
+     "start": 54.228,
+     "end": 54.508
+    },
+    {
+     "text": "feels",
+     "start": 54.508,
+     "end": 54.948
+    },
+    {
+     "text": "like",
+     "start": 54.948,
+     "end": 55.288
+    }
+   ]
+  },
+  {
+   "start": 55.288,
+   "end": 56.808,
+   "words": [
+    {
+     "text": "falling",
+     "start": 55.288,
+     "end": 55.628
+    },
+    {
+     "text": "onto",
+     "start": 55.628,
+     "end": 55.948
+    },
+    {
+     "text": "a",
+     "start": 55.948,
+     "end": 56.188
+    },
+    {
+     "text": "table.",
+     "start": 56.188,
+     "end": 56.408
+    }
+   ]
+  },
+  {
+   "start": 56.982,
+   "end": 58.082,
+   "words": [
+    {
+     "text": "And",
+     "start": 56.982,
+     "end": 57.162
+    },
+    {
+     "text": "you'll",
+     "start": 57.162,
+     "end": 57.442
+    },
+    {
+     "text": "take",
+     "start": 57.442,
+     "end": 57.642
+    },
+    {
+     "text": "dozens",
+     "start": 57.642,
+     "end": 58.082
+    }
+   ]
+  },
+  {
+   "start": 58.082,
+   "end": 58.982,
+   "words": [
+    {
+     "text": "of",
+     "start": 58.082,
+     "end": 58.342
+    },
+    {
+     "text": "them.",
+     "start": 58.342,
+     "end": 58.582
+    }
+   ]
+  },
+  {
+   "start": 59.022,
+   "end": 60.276,
+   "words": [
+    {
+     "text": "Then",
+     "start": 59.022,
+     "end": 59.222
+    },
+    {
+     "text": "dozens",
+     "start": 59.222,
+     "end": 59.602
+    },
+    {
+     "text": "more.",
+     "start": 59.602,
+     "end": 60.002
+    }
+   ]
+  },
+  {
+   "start": 60.276,
+   "end": 61.036,
+   "words": [
+    {
+     "text": "By",
+     "start": 60.276,
+     "end": 60.516
+    },
+    {
+     "text": "the",
+     "start": 60.516,
+     "end": 60.716
+    },
+    {
+     "text": "end",
+     "start": 60.716,
+     "end": 60.836
+    },
+    {
+     "text": "of",
+     "start": 60.836,
+     "end": 61.036
+    }
+   ]
+  },
+  {
+   "start": 61.036,
+   "end": 61.676,
+   "words": [
+    {
+     "text": "the",
+     "start": 61.036,
+     "end": 61.176
+    },
+    {
+     "text": "day,",
+     "start": 61.176,
+     "end": 61.416
+    }
+   ]
+  },
+  {
+   "start": 61.676,
+   "end": 62.976,
+   "words": [
+    {
+     "text": "your",
+     "start": 61.676,
+     "end": 61.776
+    },
+    {
+     "text": "back",
+     "start": 61.776,
+     "end": 61.996
+    },
+    {
+     "text": "is",
+     "start": 61.996,
+     "end": 62.256
+    },
+    {
+     "text": "purple,",
+     "start": 62.256,
+     "end": 62.636
+    }
+   ]
+  },
+  {
+   "start": 62.976,
+   "end": 63.836,
+   "words": [
+    {
+     "text": "and",
+     "start": 62.976,
+     "end": 63.156
+    },
+    {
+     "text": "you",
+     "start": 63.156,
+     "end": 63.276
+    },
+    {
+     "text": "can't",
+     "start": 63.276,
+     "end": 63.556
+    },
+    {
+     "text": "even",
+     "start": 63.556,
+     "end": 63.836
+    }
+   ]
+  },
+  {
+   "start": 63.836,
+   "end": 65.696,
+   "words": [
+    {
+     "text": "sit",
+     "start": 63.836,
+     "end": 64.056
+    },
+    {
+     "text": "down",
+     "start": 64.056,
+     "end": 64.456
+    },
+    {
+     "text": "without",
+     "start": 64.456,
+     "end": 64.836
+    },
+    {
+     "text": "groaning.",
+     "start": 64.836,
+     "end": 65.296
+    }
+   ]
+  },
+  {
+   "start": 66.006,
+   "end": 66.866,
+   "words": [
+    {
+     "text": "Day",
+     "start": 66.006,
+     "end": 66.366
+    },
+    {
+     "text": "two:",
+     "start": 66.366,
+     "end": 66.726
+    }
+   ]
+  },
+  {
+   "start": 66.866,
+   "end": 67.766,
+   "words": [
+    {
+     "text": "the",
+     "start": 66.866,
+     "end": 67.026
+    },
+    {
+     "text": "ropes.",
+     "start": 67.026,
+     "end": 67.366
+    }
+   ]
+  },
+  {
+   "start": 67.826,
+   "end": 69.286,
+   "words": [
+    {
+     "text": "You've",
+     "start": 67.826,
+     "end": 68.146
+    },
+    {
+     "text": "seen",
+     "start": 68.146,
+     "end": 68.386
+    },
+    {
+     "text": "wrestlers",
+     "start": 68.386,
+     "end": 68.906
+    },
+    {
+     "text": "bounce",
+     "start": 68.906,
+     "end": 69.286
+    }
+   ]
+  },
+  {
+   "start": 69.286,
+   "end": 70.286,
+   "words": [
+    {
+     "text": "off",
+     "start": 69.286,
+     "end": 69.546
+    },
+    {
+     "text": "them",
+     "start": 69.546,
+     "end": 69.706
+    },
+    {
+     "text": "like",
+     "start": 69.706,
+     "end": 69.946
+    },
+    {
+     "text": "it's",
+     "start": 69.946,
+     "end": 70.286
+    }
+   ]
+  },
+  {
+   "start": 70.286,
+   "end": 70.803,
+   "words": [
+    {
+     "text": "nothing.",
+     "start": 70.286,
+     "end": 70.446
+    }
+   ]
+  },
+  {
+   "start": 70.803,
+   "end": 71.603,
+   "words": [
+    {
+     "text": "Then",
+     "start": 70.803,
+     "end": 71.023
+    },
+    {
+     "text": "you",
+     "start": 71.023,
+     "end": 71.223
+    },
+    {
+     "text": "find",
+     "start": 71.223,
+     "end": 71.423
+    },
+    {
+     "text": "out",
+     "start": 71.423,
+     "end": 71.603
+    }
+   ]
+  },
+  {
+   "start": 71.603,
+   "end": 72.563,
+   "words": [
+    {
+     "text": "the",
+     "start": 71.603,
+     "end": 71.763
+    },
+    {
+     "text": "ropes",
+     "start": 71.763,
+     "end": 71.983
+    },
+    {
+     "text": "are",
+     "start": 71.983,
+     "end": 72.243
+    },
+    {
+     "text": "steel",
+     "start": 72.243,
+     "end": 72.563
+    }
+   ]
+  },
+  {
+   "start": 72.563,
+   "end": 73.463,
+   "words": [
+    {
+     "text": "cables,",
+     "start": 72.563,
+     "end": 73.063
+    }
+   ]
+  },
+  {
+   "start": 73.643,
+   "end": 74.723,
+   "words": [
+    {
+     "text": "wrapped",
+     "start": 73.643,
+     "end": 73.803
+    },
+    {
+     "text": "in",
+     "start": 73.803,
+     "end": 74.043
+    },
+    {
+     "text": "rubber",
+     "start": 74.043,
+     "end": 74.363
+    },
+    {
+     "text": "hose",
+     "start": 74.363,
+     "end": 74.723
+    }
+   ]
+  },
+  {
+   "start": 74.723,
+   "end": 75.509,
+   "words": [
+    {
+     "text": "and",
+     "start": 74.723,
+     "end": 75.023
+    },
+    {
+     "text": "tape.",
+     "start": 75.023,
+     "end": 75.223
+    }
+   ]
+  },
+  {
+   "start": 75.509,
+   "end": 76.529,
+   "words": [
+    {
+     "text": "Run",
+     "start": 75.509,
+     "end": 75.829
+    },
+    {
+     "text": "the",
+     "start": 75.829,
+     "end": 76.029
+    },
+    {
+     "text": "ropes",
+     "start": 76.029,
+     "end": 76.249
+    },
+    {
+     "text": "for",
+     "start": 76.249,
+     "end": 76.529
+    }
+   ]
+  },
+  {
+   "start": 76.529,
+   "end": 77.389,
+   "words": [
+    {
+     "text": "ten",
+     "start": 76.529,
+     "end": 76.789
+    },
+    {
+     "text": "minutes,",
+     "start": 76.789,
+     "end": 77.129
+    }
+   ]
+  },
+  {
+   "start": 77.389,
+   "end": 78.529,
+   "words": [
+    {
+     "text": "and",
+     "start": 77.389,
+     "end": 77.609
+    },
+    {
+     "text": "you'll",
+     "start": 77.609,
+     "end": 77.829
+    },
+    {
+     "text": "have",
+     "start": 77.829,
+     "end": 78.029
+    },
+    {
+     "text": "bruises",
+     "start": 78.029,
+     "end": 78.529
+    }
+   ]
+  },
+  {
+   "start": 78.529,
+   "end": 79.869,
+   "words": [
+    {
+     "text": "across",
+     "start": 78.529,
+     "end": 78.849
+    },
+    {
+     "text": "your",
+     "start": 78.849,
+     "end": 79.149
+    },
+    {
+     "text": "ribs.",
+     "start": 79.149,
+     "end": 79.469
+    }
+   ]
+  },
+  {
+   "start": 80.242,
+   "end": 81.022,
+   "words": [
+    {
+     "text": "Week",
+     "start": 80.242,
+     "end": 80.542
+    },
+    {
+     "text": "two:",
+     "start": 80.542,
+     "end": 81.022
+    }
+   ]
+  },
+  {
+   "start": 81.022,
+   "end": 82.002,
+   "words": [
+    {
+     "text": "cardio.",
+     "start": 81.022,
+     "end": 81.602
+    }
+   ]
+  },
+  {
+   "start": 82.242,
+   "end": 83.282,
+   "words": [
+    {
+     "text": "A",
+     "start": 82.242,
+     "end": 82.302
+    },
+    {
+     "text": "wrestling",
+     "start": 82.302,
+     "end": 82.722
+    },
+    {
+     "text": "match",
+     "start": 82.722,
+     "end": 83.022
+    },
+    {
+     "text": "is",
+     "start": 83.022,
+     "end": 83.282
+    }
+   ]
+  },
+  {
+   "start": 83.282,
+   "end": 84.042,
+   "words": [
+    {
+     "text": "a",
+     "start": 83.282,
+     "end": 83.482
+    },
+    {
+     "text": "sprint",
+     "start": 83.482,
+     "end": 83.622
+    },
+    {
+     "text": "that",
+     "start": 83.622,
+     "end": 83.822
+    },
+    {
+     "text": "can",
+     "start": 83.822,
+     "end": 84.042
+    }
+   ]
+  },
+  {
+   "start": 84.042,
+   "end": 84.982,
+   "words": [
+    {
+     "text": "last",
+     "start": 84.042,
+     "end": 84.362
+    },
+    {
+     "text": "fifteen,",
+     "start": 84.362,
+     "end": 84.842
+    }
+   ]
+  },
+  {
+   "start": 84.982,
+   "end": 85.802,
+   "words": [
+    {
+     "text": "twenty,",
+     "start": 84.982,
+     "end": 85.442
+    }
+   ]
+  },
+  {
+   "start": 85.802,
+   "end": 87.138,
+   "words": [
+    {
+     "text": "even",
+     "start": 85.802,
+     "end": 86.042
+    },
+    {
+     "text": "thirty",
+     "start": 86.042,
+     "end": 86.402
+    },
+    {
+     "text": "minutes.",
+     "start": 86.402,
+     "end": 86.842
+    }
+   ]
+  },
+  {
+   "start": 87.138,
+   "end": 88.478,
+   "words": [
+    {
+     "text": "Coaches",
+     "start": 87.138,
+     "end": 87.698
+    },
+    {
+     "text": "make",
+     "start": 87.698,
+     "end": 87.938
+    },
+    {
+     "text": "you",
+     "start": 87.938,
+     "end": 88.238
+    },
+    {
+     "text": "run",
+     "start": 88.238,
+     "end": 88.478
+    }
+   ]
+  },
+  {
+   "start": 88.478,
+   "end": 89.918,
+   "words": [
+    {
+     "text": "drills",
+     "start": 88.478,
+     "end": 88.858
+    },
+    {
+     "text": "until",
+     "start": 88.858,
+     "end": 89.398
+    },
+    {
+     "text": "your",
+     "start": 89.398,
+     "end": 89.698
+    },
+    {
+     "text": "lungs",
+     "start": 89.698,
+     "end": 89.918
+    }
+   ]
+  },
+  {
+   "start": 89.918,
+   "end": 90.979,
+   "words": [
+    {
+     "text": "are",
+     "start": 89.918,
+     "end": 90.178
+    },
+    {
+     "text": "on",
+     "start": 90.178,
+     "end": 90.438
+    },
+    {
+     "text": "fire...",
+     "start": 90.438,
+     "end": 90.858
+    }
+   ]
+  },
+  {
+   "start": 90.979,
+   "end": 91.839,
+   "words": [
+    {
+     "text": "then",
+     "start": 90.979,
+     "end": 91.219
+    },
+    {
+     "text": "tell",
+     "start": 91.219,
+     "end": 91.519
+    },
+    {
+     "text": "you",
+     "start": 91.519,
+     "end": 91.659
+    },
+    {
+     "text": "to",
+     "start": 91.659,
+     "end": 91.839
+    }
+   ]
+  },
+  {
+   "start": 91.839,
+   "end": 92.939,
+   "words": [
+    {
+     "text": "do",
+     "start": 91.839,
+     "end": 92.019
+    },
+    {
+     "text": "it",
+     "start": 92.019,
+     "end": 92.219
+    },
+    {
+     "text": "again.",
+     "start": 92.219,
+     "end": 92.559
+    }
+   ]
+  },
+  {
+   "start": 92.939,
+   "end": 93.919,
+   "words": [
+    {
+     "text": "But",
+     "start": 92.939,
+     "end": 93.079
+    },
+    {
+     "text": "this",
+     "start": 93.079,
+     "end": 93.299
+    },
+    {
+     "text": "time,",
+     "start": 93.299,
+     "end": 93.779
+    }
+   ]
+  },
+  {
+   "start": 93.919,
+   "end": 95.439,
+   "words": [
+    {
+     "text": "smile",
+     "start": 93.919,
+     "end": 94.279
+    },
+    {
+     "text": "for",
+     "start": 94.279,
+     "end": 94.519
+    },
+    {
+     "text": "the",
+     "start": 94.519,
+     "end": 94.719
+    },
+    {
+     "text": "crowd.",
+     "start": 94.719,
+     "end": 95.039
+    }
+   ]
+  },
+  {
+   "start": 95.831,
+   "end": 96.691,
+   "words": [
+    {
+     "text": "Month",
+     "start": 95.831,
+     "end": 96.251
+    },
+    {
+     "text": "two:",
+     "start": 96.251,
+     "end": 96.691
+    }
+   ]
+  },
+  {
+   "start": 96.691,
+   "end": 97.931,
+   "words": [
+    {
+     "text": "promo",
+     "start": 96.691,
+     "end": 97.071
+    },
+    {
+     "text": "class.",
+     "start": 97.071,
+     "end": 97.531
+    }
+   ]
+  },
+  {
+   "start": 97.931,
+   "end": 99.251,
+   "words": [
+    {
+     "text": "Turns",
+     "start": 97.931,
+     "end": 98.171
+    },
+    {
+     "text": "out",
+     "start": 98.171,
+     "end": 98.471
+    },
+    {
+     "text": "being",
+     "start": 98.471,
+     "end": 98.691
+    },
+    {
+     "text": "athletic",
+     "start": 98.691,
+     "end": 99.251
+    }
+   ]
+  },
+  {
+   "start": 99.251,
+   "end": 100.253,
+   "words": [
+    {
+     "text": "isn't",
+     "start": 99.251,
+     "end": 99.651
+    },
+    {
+     "text": "enough.",
+     "start": 99.651,
+     "end": 99.871
+    }
+   ]
+  },
+  {
+   "start": 100.253,
+   "end": 101.213,
+   "words": [
+    {
+     "text": "You",
+     "start": 100.253,
+     "end": 100.453
+    },
+    {
+     "text": "have",
+     "start": 100.453,
+     "end": 100.713
+    },
+    {
+     "text": "to",
+     "start": 100.713,
+     "end": 100.933
+    },
+    {
+     "text": "grab",
+     "start": 100.933,
+     "end": 101.213
+    }
+   ]
+  },
+  {
+   "start": 101.213,
+   "end": 102.513,
+   "words": [
+    {
+     "text": "a",
+     "start": 101.213,
+     "end": 101.533
+    },
+    {
+     "text": "microphone,",
+     "start": 101.533,
+     "end": 102.113
+    }
+   ]
+  },
+  {
+   "start": 102.513,
+   "end": 103.853,
+   "words": [
+    {
+     "text": "look",
+     "start": 102.513,
+     "end": 102.693
+    },
+    {
+     "text": "into",
+     "start": 102.693,
+     "end": 102.973
+    },
+    {
+     "text": "a",
+     "start": 102.973,
+     "end": 103.133
+    },
+    {
+     "text": "camera,",
+     "start": 103.133,
+     "end": 103.513
+    }
+   ]
+  },
+  {
+   "start": 103.853,
+   "end": 104.873,
+   "words": [
+    {
+     "text": "and",
+     "start": 103.853,
+     "end": 104.013
+    },
+    {
+     "text": "make",
+     "start": 104.013,
+     "end": 104.173
+    },
+    {
+     "text": "people",
+     "start": 104.173,
+     "end": 104.533
+    },
+    {
+     "text": "care",
+     "start": 104.533,
+     "end": 104.873
+    }
+   ]
+  },
+  {
+   "start": 104.873,
+   "end": 105.644,
+   "words": [
+    {
+     "text": "about",
+     "start": 104.873,
+     "end": 105.213
+    },
+    {
+     "text": "you.",
+     "start": 105.213,
+     "end": 105.433
+    }
+   ]
+  },
+  {
+   "start": 105.644,
+   "end": 107.084,
+   "words": [
+    {
+     "text": "Your",
+     "start": 105.644,
+     "end": 105.944
+    },
+    {
+     "text": "voice",
+     "start": 105.944,
+     "end": 106.224
+    },
+    {
+     "text": "shakes.",
+     "start": 106.224,
+     "end": 106.684
+    }
+   ]
+  },
+  {
+   "start": 107.084,
+   "end": 108.204,
+   "words": [
+    {
+     "text": "You",
+     "start": 107.084,
+     "end": 107.204
+    },
+    {
+     "text": "forget",
+     "start": 107.204,
+     "end": 107.444
+    },
+    {
+     "text": "your",
+     "start": 107.444,
+     "end": 107.724
+    },
+    {
+     "text": "lines.",
+     "start": 107.724,
+     "end": 108.044
+    }
+   ]
+  },
+  {
+   "start": 108.204,
+   "end": 109.724,
+   "words": [
+    {
+     "text": "The",
+     "start": 108.204,
+     "end": 108.344
+    },
+    {
+     "text": "coaches",
+     "start": 108.344,
+     "end": 108.624
+    },
+    {
+     "text": "just",
+     "start": 108.624,
+     "end": 109.084
+    },
+    {
+     "text": "stare...",
+     "start": 109.084,
+     "end": 109.724
+    }
+   ]
+  },
+  {
+   "start": 109.724,
+   "end": 110.884,
+   "words": [
+    {
+     "text": "in",
+     "start": 109.724,
+     "end": 110.004
+    },
+    {
+     "text": "silence.",
+     "start": 110.004,
+     "end": 110.484
+    }
+   ]
+  },
+  {
+   "start": 111.289,
+   "end": 112.209,
+   "words": [
+    {
+     "text": "Month",
+     "start": 111.289,
+     "end": 111.669
+    },
+    {
+     "text": "six:",
+     "start": 111.669,
+     "end": 112.009
+    }
+   ]
+  },
+  {
+   "start": 112.209,
+   "end": 113.649,
+   "words": [
+    {
+     "text": "your",
+     "start": 112.209,
+     "end": 112.309
+    },
+    {
+     "text": "first",
+     "start": 112.309,
+     "end": 112.589
+    },
+    {
+     "text": "live",
+     "start": 112.589,
+     "end": 112.849
+    },
+    {
+     "text": "event.",
+     "start": 112.849,
+     "end": 113.249
+    }
+   ]
+  },
+  {
+   "start": 113.749,
+   "end": 115.029,
+   "words": [
+    {
+     "text": "A",
+     "start": 113.749,
+     "end": 113.809
+    },
+    {
+     "text": "few",
+     "start": 113.809,
+     "end": 113.969
+    },
+    {
+     "text": "hundred",
+     "start": 113.969,
+     "end": 114.349
+    },
+    {
+     "text": "fans,",
+     "start": 114.349,
+     "end": 114.809
+    }
+   ]
+  },
+  {
+   "start": 115.029,
+   "end": 115.849,
+   "words": [
+    {
+     "text": "a",
+     "start": 115.029,
+     "end": 115.149
+    },
+    {
+     "text": "small",
+     "start": 115.149,
+     "end": 115.329
+    },
+    {
+     "text": "building,",
+     "start": 115.329,
+     "end": 115.709
+    }
+   ]
+  },
+  {
+   "start": 115.849,
+   "end": 116.474,
+   "words": [
+    {
+     "text": "and",
+     "start": 115.849,
+     "end": 116.049
+    },
+    {
+     "text": "you.",
+     "start": 116.049,
+     "end": 116.189
+    }
+   ]
+  },
+  {
+   "start": 116.474,
+   "end": 117.814,
+   "words": [
+    {
+     "text": "The",
+     "start": 116.474,
+     "end": 116.714
+    },
+    {
+     "text": "music",
+     "start": 116.714,
+     "end": 117.034
+    },
+    {
+     "text": "hits,",
+     "start": 117.034,
+     "end": 117.414
+    }
+   ]
+  },
+  {
+   "start": 117.874,
+   "end": 119.434,
+   "words": [
+    {
+     "text": "the",
+     "start": 117.874,
+     "end": 117.974
+    },
+    {
+     "text": "crowd",
+     "start": 117.974,
+     "end": 118.314
+    },
+    {
+     "text": "is",
+     "start": 118.314,
+     "end": 118.614
+    },
+    {
+     "text": "watching,",
+     "start": 118.614,
+     "end": 119.034
+    }
+   ]
+  },
+  {
+   "start": 119.514,
+   "end": 120.894,
+   "words": [
+    {
+     "text": "and",
+     "start": 119.514,
+     "end": 119.714
+    },
+    {
+     "text": "every",
+     "start": 119.714,
+     "end": 119.974
+    },
+    {
+     "text": "mistake",
+     "start": 119.974,
+     "end": 120.414
+    },
+    {
+     "text": "happens",
+     "start": 120.414,
+     "end": 120.894
+    }
+   ]
+  },
+  {
+   "start": 120.894,
+   "end": 121.774,
+   "words": [
+    {
+     "text": "in",
+     "start": 120.894,
+     "end": 121.174
+    },
+    {
+     "text": "front",
+     "start": 121.174,
+     "end": 121.254
+    },
+    {
+     "text": "of",
+     "start": 121.254,
+     "end": 121.514
+    },
+    {
+     "text": "real",
+     "start": 121.514,
+     "end": 121.774
+    }
+   ]
+  },
+  {
+   "start": 121.774,
+   "end": 122.456,
+   "words": [
+    {
+     "text": "people.",
+     "start": 121.774,
+     "end": 122.154
+    }
+   ]
+  },
+  {
+   "start": 122.456,
+   "end": 123.676,
+   "words": [
+    {
+     "text": "Your",
+     "start": 122.456,
+     "end": 122.776
+    },
+    {
+     "text": "heart",
+     "start": 122.776,
+     "end": 123.056
+    },
+    {
+     "text": "is",
+     "start": 123.056,
+     "end": 123.376
+    },
+    {
+     "text": "pounding",
+     "start": 123.376,
+     "end": 123.676
+    }
+   ]
+  },
+  {
+   "start": 123.676,
+   "end": 125.316,
+   "words": [
+    {
+     "text": "harder",
+     "start": 123.676,
+     "end": 124.136
+    },
+    {
+     "text": "than",
+     "start": 124.136,
+     "end": 124.396
+    },
+    {
+     "text": "any",
+     "start": 124.396,
+     "end": 124.616
+    },
+    {
+     "text": "workout.",
+     "start": 124.616,
+     "end": 124.916
+    }
+   ]
+  },
+  {
+   "start": 125.641,
+   "end": 126.401,
+   "words": [
+    {
+     "text": "And",
+     "start": 125.641,
+     "end": 125.861
+    },
+    {
+     "text": "if",
+     "start": 125.861,
+     "end": 126.021
+    },
+    {
+     "text": "you're",
+     "start": 126.021,
+     "end": 126.241
+    },
+    {
+     "text": "one",
+     "start": 126.241,
+     "end": 126.401
+    }
+   ]
+  },
+  {
+   "start": 126.401,
+   "end": 127.221,
+   "words": [
+    {
+     "text": "of",
+     "start": 126.401,
+     "end": 126.581
+    },
+    {
+     "text": "the",
+     "start": 126.581,
+     "end": 126.781
+    },
+    {
+     "text": "few",
+     "start": 126.781,
+     "end": 126.961
+    },
+    {
+     "text": "who",
+     "start": 126.961,
+     "end": 127.221
+    }
+   ]
+  },
+  {
+   "start": 127.221,
+   "end": 127.841,
+   "words": [
+    {
+     "text": "make",
+     "start": 127.221,
+     "end": 127.381
+    },
+    {
+     "text": "it",
+     "start": 127.381,
+     "end": 127.561
+    },
+    {
+     "text": "to",
+     "start": 127.561,
+     "end": 127.701
+    },
+    {
+     "text": "the",
+     "start": 127.701,
+     "end": 127.841
+    }
+   ]
+  },
+  {
+   "start": 127.841,
+   "end": 128.811,
+   "words": [
+    {
+     "text": "main",
+     "start": 127.841,
+     "end": 128.081
+    },
+    {
+     "text": "roster?",
+     "start": 128.081,
+     "end": 128.481
+    }
+   ]
+  },
+  {
+   "start": 128.811,
+   "end": 129.991,
+   "words": [
+    {
+     "text": "Now",
+     "start": 128.811,
+     "end": 129.291
+    },
+    {
+     "text": "you're",
+     "start": 129.291,
+     "end": 129.571
+    },
+    {
+     "text": "on",
+     "start": 129.571,
+     "end": 129.771
+    },
+    {
+     "text": "the",
+     "start": 129.771,
+     "end": 129.991
+    }
+   ]
+  },
+  {
+   "start": 129.991,
+   "end": 130.891,
+   "words": [
+    {
+     "text": "road",
+     "start": 129.991,
+     "end": 130.231
+    },
+    {
+     "text": "for",
+     "start": 130.231,
+     "end": 130.491
+    },
+    {
+     "text": "most",
+     "start": 130.491,
+     "end": 130.691
+    },
+    {
+     "text": "of",
+     "start": 130.691,
+     "end": 130.891
+    }
+   ]
+  },
+  {
+   "start": 130.891,
+   "end": 131.711,
+   "words": [
+    {
+     "text": "the",
+     "start": 130.891,
+     "end": 131.051
+    },
+    {
+     "text": "year.",
+     "start": 131.051,
+     "end": 131.311
+    }
+   ]
+  },
+  {
+   "start": 131.791,
+   "end": 133.051,
+   "words": [
+    {
+     "text": "A",
+     "start": 131.791,
+     "end": 131.951
+    },
+    {
+     "text": "different",
+     "start": 131.951,
+     "end": 132.211
+    },
+    {
+     "text": "city",
+     "start": 132.211,
+     "end": 132.531
+    },
+    {
+     "text": "almost",
+     "start": 132.531,
+     "end": 133.051
+    }
+   ]
+  },
+  {
+   "start": 133.051,
+   "end": 133.862,
+   "words": [
+    {
+     "text": "every",
+     "start": 133.051,
+     "end": 133.431
+    },
+    {
+     "text": "night.",
+     "start": 133.431,
+     "end": 133.671
+    }
+   ]
+  },
+  {
+   "start": 133.862,
+   "end": 134.822,
+   "words": [
+    {
+     "text": "Airports,",
+     "start": 133.862,
+     "end": 134.482
+    }
+   ]
+  },
+  {
+   "start": 134.822,
+   "end": 135.502,
+   "words": [
+    {
+     "text": "hotel",
+     "start": 134.822,
+     "end": 134.962
+    },
+    {
+     "text": "rooms,",
+     "start": 134.962,
+     "end": 135.262
+    }
+   ]
+  },
+  {
+   "start": 135.502,
+   "end": 135.842,
+   "words": [
+    {
+     "text": "gyms,",
+     "start": 135.502,
+     "end": 135.702
+    }
+   ]
+  },
+  {
+   "start": 135.842,
+   "end": 136.842,
+   "words": [
+    {
+     "text": "and",
+     "start": 135.842,
+     "end": 136.022
+    },
+    {
+     "text": "arenas.",
+     "start": 136.022,
+     "end": 136.662
+    }
+   ]
+  },
+  {
+   "start": 136.842,
+   "end": 138.329,
+   "words": [
+    {
+     "text": "No",
+     "start": 136.842,
+     "end": 137.182
+    },
+    {
+     "text": "off-season.",
+     "start": 137.182,
+     "end": 137.929
+    }
+   ]
+  },
+  {
+   "start": 138.579,
+   "end": 139.339,
+   "words": [
+    {
+     "text": "So",
+     "start": 138.579,
+     "end": 138.879
+    },
+    {
+     "text": "what",
+     "start": 138.879,
+     "end": 139.099
+    },
+    {
+     "text": "does",
+     "start": 139.099,
+     "end": 139.279
+    },
+    {
+     "text": "it",
+     "start": 139.279,
+     "end": 139.339
+    }
+   ]
+  },
+  {
+   "start": 139.339,
+   "end": 140.819,
+   "words": [
+    {
+     "text": "take",
+     "start": 139.339,
+     "end": 139.619
+    },
+    {
+     "text": "to",
+     "start": 139.619,
+     "end": 139.859
+    },
+    {
+     "text": "survive?",
+     "start": 139.859,
+     "end": 140.419
+    }
+   ]
+  },
+  {
+   "start": 140.839,
+   "end": 141.839,
+   "words": [
+    {
+     "text": "A",
+     "start": 140.839,
+     "end": 141.039
+    },
+    {
+     "text": "body",
+     "start": 141.039,
+     "end": 141.339
+    },
+    {
+     "text": "that",
+     "start": 141.339,
+     "end": 141.599
+    },
+    {
+     "text": "can",
+     "start": 141.599,
+     "end": 141.839
+    }
+   ]
+  },
+  {
+   "start": 141.839,
+   "end": 142.789,
+   "words": [
+    {
+     "text": "take",
+     "start": 141.839,
+     "end": 142.079
+    },
+    {
+     "text": "punishment.",
+     "start": 142.079,
+     "end": 142.519
+    }
+   ]
+  },
+  {
+   "start": 142.789,
+   "end": 145.049,
+   "words": [
+    {
+     "text": "Cardio",
+     "start": 142.789,
+     "end": 143.529
+    },
+    {
+     "text": "that",
+     "start": 143.529,
+     "end": 143.749
+    },
+    {
+     "text": "never",
+     "start": 143.749,
+     "end": 144.089
+    },
+    {
+     "text": "quits.",
+     "start": 144.089,
+     "end": 144.729
+    }
+   ]
+  },
+  {
+   "start": 145.049,
+   "end": 146.169,
+   "words": [
+    {
+     "text": "The",
+     "start": 145.049,
+     "end": 145.229
+    },
+    {
+     "text": "confidence",
+     "start": 145.229,
+     "end": 145.649
+    },
+    {
+     "text": "to",
+     "start": 145.649,
+     "end": 145.929
+    },
+    {
+     "text": "talk",
+     "start": 145.929,
+     "end": 146.169
+    }
+   ]
+  },
+  {
+   "start": 146.169,
+   "end": 147.42,
+   "words": [
+    {
+     "text": "in",
+     "start": 146.169,
+     "end": 146.429
+    },
+    {
+     "text": "front",
+     "start": 146.429,
+     "end": 146.569
+    },
+    {
+     "text": "of",
+     "start": 146.569,
+     "end": 146.809
+    },
+    {
+     "text": "millions.",
+     "start": 146.809,
+     "end": 147.089
+    }
+   ]
+  },
+  {
+   "start": 147.42,
+   "end": 148.44,
+   "words": [
+    {
+     "text": "And",
+     "start": 147.42,
+     "end": 147.62
+    },
+    {
+     "text": "the",
+     "start": 147.62,
+     "end": 147.84
+    },
+    {
+     "text": "mindset",
+     "start": 147.84,
+     "end": 148.2
+    },
+    {
+     "text": "to",
+     "start": 148.2,
+     "end": 148.44
+    }
+   ]
+  },
+  {
+   "start": 148.44,
+   "end": 149.48,
+   "words": [
+    {
+     "text": "get",
+     "start": 148.44,
+     "end": 148.66
+    },
+    {
+     "text": "back",
+     "start": 148.66,
+     "end": 148.92
+    },
+    {
+     "text": "up,",
+     "start": 148.92,
+     "end": 149.16
+    }
+   ]
+  },
+  {
+   "start": 149.48,
+   "end": 151.2,
+   "words": [
+    {
+     "text": "after",
+     "start": 149.48,
+     "end": 149.8
+    },
+    {
+     "text": "every",
+     "start": 149.8,
+     "end": 150.18
+    },
+    {
+     "text": "single",
+     "start": 150.18,
+     "end": 150.54
+    },
+    {
+     "text": "bump.",
+     "start": 150.54,
+     "end": 150.8
+    }
+   ]
+  },
+  {
+   "start": 151.558,
+   "end": 153.078,
+   "words": [
+    {
+     "text": "So",
+     "start": 151.558,
+     "end": 151.858
+    },
+    {
+     "text": "be",
+     "start": 151.858,
+     "end": 152.118
+    },
+    {
+     "text": "honest...",
+     "start": 152.118,
+     "end": 153.078
+    }
+   ]
+  },
+  {
+   "start": 153.078,
+   "end": 154.918,
+   "words": [
+    {
+     "text": "would",
+     "start": 153.078,
+     "end": 153.198
+    },
+    {
+     "text": "you",
+     "start": 153.198,
+     "end": 153.458
+    },
+    {
+     "text": "survive",
+     "start": 153.458,
+     "end": 153.998
+    },
+    {
+     "text": "WWE",
+     "start": 153.998,
+     "end": 154.918
+    }
+   ]
+  },
+  {
+   "start": 154.918,
+   "end": 155.958,
+   "words": [
+    {
+     "text": "training?",
+     "start": 154.918,
+     "end": 155.638
+    }
+   ]
+  },
+  {
+   "start": 155.958,
+   "end": 156.698,
+   "words": [
+    {
+     "text": "Tell",
+     "start": 155.958,
+     "end": 156.118
+    },
+    {
+     "text": "me",
+     "start": 156.118,
+     "end": 156.318
+    },
+    {
+     "text": "in",
+     "start": 156.318,
+     "end": 156.378
+    },
+    {
+     "text": "the",
+     "start": 156.378,
+     "end": 156.698
+    }
+   ]
+  },
+  {
+   "start": 156.698,
+   "end": 157.038,
+   "words": [
+    {
+     "text": "comments,",
+     "start": 156.698,
+     "end": 156.978
+    }
+   ]
+  },
+  {
+   "start": 157.038,
+   "end": 158.518,
+   "words": [
+    {
+     "text": "and",
+     "start": 157.038,
+     "end": 157.318
+    },
+    {
+     "text": "follow",
+     "start": 157.318,
+     "end": 157.598
+    },
+    {
+     "text": "for",
+     "start": 157.598,
+     "end": 157.858
+    },
+    {
+     "text": "more.",
+     "start": 157.858,
+     "end": 158.118
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "src": "ringtone",
+   "volume": 0.45
+  },
+  {
+   "t": 3.9,
+   "src": "pop",
+   "volume": 0.4
+  },
+  {
+   "t": 8.157,
+   "src": "cartoon_down",
+   "volume": 0.45
+  },
+  {
+   "t": 11.105,
+   "src": "ring_bell",
+   "volume": 0.5
+  },
+  {
+   "t": 11.105,
+   "src": "boom",
+   "volume": 0.35
+  },
+  {
+   "t": 13.523,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 13.603,
+   "src": "whoosh_slide",
+   "volume": 0.3
+  },
+  {
+   "t": 18.043,
+   "src": "whoosh_slide",
+   "volume": 0.35
+  },
+  {
+   "t": 25.604,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 27.004,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 27.784,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 29.384,
+   "src": "cartoon_impact",
+   "volume": 0.35
+  },
+  {
+   "t": 30.292,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 34.092,
+   "src": "whistle",
+   "volume": 0.35
+  },
+  {
+   "t": 36.941,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 37.761,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 38.921,
+   "src": "slam",
+   "volume": 0.6
+  },
+  {
+   "t": 38.921,
+   "src": "punch_deep",
+   "volume": 0.4
+  },
+  {
+   "t": 42.951,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 44.851,
+   "src": "body_hit",
+   "volume": 0.55
+  },
+  {
+   "t": 44.851,
+   "src": "boom",
+   "volume": 0.4
+  },
+  {
+   "t": 48.451,
+   "src": "cartoon_down",
+   "volume": 0.35
+  },
+  {
+   "t": 50.031,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 51.251,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 53.251,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 56.188,
+   "src": "thud",
+   "volume": 0.5
+  },
+  {
+   "t": 56.802,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 57.202,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 58.002,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 58.802,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 59.602,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 60.402,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 61.202,
+   "src": "slam",
+   "volume": 0.4
+  },
+  {
+   "t": 62.256,
+   "src": "dizzy",
+   "volume": 0.4
+  },
+  {
+   "t": 64.836,
+   "src": "punch_deep",
+   "volume": 0.4
+  },
+  {
+   "t": 64.836,
+   "src": "cartoon_impact",
+   "volume": 0.3
+  },
+  {
+   "t": 65.826,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 66.61,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 67.41,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 68.21,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 69.01,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 69.81,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 70.61,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 71.41,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 72.21,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 72.243,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 73.01,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 73.81,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 74.043,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 74.61,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 75.023,
+   "src": "pop",
+   "volume": 0.3
+  },
+  {
+   "t": 75.41,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 76.21,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 76.529,
+   "src": "tick",
+   "volume": 0.4
+  },
+  {
+   "t": 77.01,
+   "src": "boing",
+   "volume": 0.3
+  },
+  {
+   "t": 78.029,
+   "src": "body_hit",
+   "volume": 0.5
+  },
+  {
+   "t": 80.062,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 84.362,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 84.982,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 86.042,
+   "src": "pop",
+   "volume": 0.4
+  },
+  {
+   "t": 90.438,
+   "src": "whoosh_fast",
+   "volume": 0.4
+  },
+  {
+   "t": 92.219,
+   "src": "whistle",
+   "volume": 0.45
+  },
+  {
+   "t": 93.919,
+   "src": "ping",
+   "volume": 0.35
+  },
+  {
+   "t": 95.651,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 101.533,
+   "src": "click",
+   "volume": 0.4
+  },
+  {
+   "t": 103.133,
+   "src": "ui_blip",
+   "volume": 0.35
+  },
+  {
+   "t": 106.224,
+   "src": "mic_feedback",
+   "volume": 0.22
+  },
+  {
+   "t": 107.204,
+   "src": "cartoon_down",
+   "volume": 0.35
+  },
+  {
+   "t": 111.109,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 116.714,
+   "src": "crowd_cheer",
+   "volume": 0.32
+  },
+  {
+   "t": 119.974,
+   "src": "slam",
+   "volume": 0.55
+  },
+  {
+   "t": 119.974,
+   "src": "cartoon_impact",
+   "volume": 0.3
+  },
+  {
+   "t": 122.776,
+   "src": "thud",
+   "volume": 0.35
+  },
+  {
+   "t": 123.136,
+   "src": "thud",
+   "volume": 0.22
+  },
+  {
+   "t": 123.496,
+   "src": "thud",
+   "volume": 0.35
+  },
+  {
+   "t": 123.856,
+   "src": "thud",
+   "volume": 0.22
+  },
+  {
+   "t": 124.216,
+   "src": "thud",
+   "volume": 0.35
+  },
+  {
+   "t": 124.576,
+   "src": "thud",
+   "volume": 0.22
+  },
+  {
+   "t": 124.936,
+   "src": "thud",
+   "volume": 0.35
+  },
+  {
+   "t": 125.296,
+   "src": "thud",
+   "volume": 0.22
+  },
+  {
+   "t": 125.461,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 127.841,
+   "src": "ring_bell",
+   "volume": 0.4
+  },
+  {
+   "t": 132.211,
+   "src": "airplane",
+   "volume": 0.3
+  },
+  {
+   "t": 133.862,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 134.822,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 135.502,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 136.022,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 137.182,
+   "src": "thud",
+   "volume": 0.5
+  },
+  {
+   "t": 138.399,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 141.039,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 142.789,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 145.229,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 147.84,
+   "src": "pop",
+   "volume": 0.35
+  },
+  {
+   "t": 148.66,
+   "src": "whoosh_hit_a",
+   "volume": 0.35
+  },
+  {
+   "t": 151.378,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 153.458,
+   "src": "ring_bell",
+   "volume": 0.45
+  },
+  {
+   "t": 156.698,
+   "src": "notif_a",
+   "volume": 0.4
+  },
+  {
+   "t": 157.318,
+   "src": "pop",
+   "volume": 0.35
+  }
+ ]
+}
