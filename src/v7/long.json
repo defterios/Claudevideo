@@ -1,2759 +1,2753 @@
 {
- "duration": 119.8,
+ "duration": 118.54,
  "scenes": [
   {
    "id": "hook",
    "start": 0.0,
-   "end": 13.39,
+   "end": 12.98,
    "cues": {
-    "Thailand": 3.03,
-    "beaches": 4.36,
-    "arrive": 7.75,
-    "holiday": 10.41,
-    "survive": 11.7
+    "Thailand": 2.82,
+    "beaches": 4.47,
+    "arrive": 7.27,
+    "holiday": 9.47,
+    "survive": 11.25
    }
   },
   {
    "id": "run",
-   "start": 13.39,
-   "end": 28.26,
+   "start": 12.98,
+   "end": 27.46,
    "cues": {
-    "Six": 1.06,
-    "alarm": 2.46,
-    "trainers": 4.02,
-    "run": 8.3,
-    "thirty-degree": 9.25,
-    "towel": 14.17
+    "Six": 0.9,
+    "alarm": 2.08,
+    "trainers": 3.48,
+    "run": 7.96,
+    "thirty-degree": 8.86,
+    "towel": 13.16
    }
   },
   {
    "id": "pads",
-   "start": 28.26,
-   "end": 39.84,
+   "start": 27.46,
+   "end": 39.66,
    "cues": {
-    "pads": 1.16,
-    "again": 5.1,
-    "kicks": 7.84,
-    "knees": 8.45,
-    "elbows": 8.89,
-    "noodles": 10.87
+    "pads": 1.47,
+    "again": 6.02,
+    "kicks": 8.21,
+    "knees": 8.67,
+    "elbows": 9.27,
+    "noodles": 11.33
    }
   },
   {
    "id": "shins",
-   "start": 39.84,
-   "end": 53.27,
+   "start": 39.66,
+   "end": 53.19,
    "cues": {
-    "bruises": 2.72,
-    "shin": 1.72,
-    "foot": 6.03,
-    "tree": 8.07,
-    "tougher": 10.24,
-    "hurts": 12.7
+    "bruises": 2.56,
+    "shin": 1.54,
+    "foot": 6.04,
+    "tree": 8.22,
+    "tougher": 10.3,
+    "hurts": 12.64
    }
   },
   {
    "id": "schedule",
-   "start": 53.27,
-   "end": 65.12,
+   "start": 53.19,
+   "end": 64.61,
    "cues": {
-    "morning": 3.02,
-    "Eat": 3.65,
-    "Sleep": 4.22,
-    "afternoon": 6.16,
-    "Two": 6.9,
-    "tired": 11.32
+    "morning": 3.56,
+    "Eat": 4.16,
+    "Sleep": 4.66,
+    "afternoon": 6.26,
+    "Two": 7.18,
+    "tired": 10.92
    }
   },
   {
    "id": "clinch",
-   "start": 65.12,
-   "end": 76.47,
+   "start": 64.61,
+   "end": 75.19,
    "cues": {
-    "clinch": 1.41,
-    "lock": 2.8,
-    "knees": 5.38,
-    "neck": 6.33,
-    "half": 8.87,
-    "floor": 10.85
+    "clinch": 1.2,
+    "lock": 2.43,
+    "knees": 4.99,
+    "neck": 5.96,
+    "half": 8.52,
+    "floor": 10.18
    }
   },
   {
    "id": "spar",
-   "start": 76.47,
-   "end": 87.73,
+   "start": 75.19,
+   "end": 86.77,
    "cues": {
-    "sparring": 1.5,
-    "controlled": 2.48,
-    "back": 4.44,
-    "guard": 6.25,
-    "push": 7.35,
-    "breathe": 12.56
+    "sparring": 1.54,
+    "controlled": 2.74,
+    "back": 5.15,
+    "guard": 7.11,
+    "push": 8.09,
+    "breathe": 10.77
    }
   },
   {
    "id": "fight",
-   "start": 87.73,
-   "end": 101.32,
+   "start": 86.77,
+   "end": 100.76,
    "cues": {
-    "fight": 1.96,
-    "stadium": 2.79,
-    "music": 4.21,
-    "Three": 6.4,
-    "short": 9.35,
-    "fire": 12.95
+    "fight": 1.28,
+    "stadium": 2.48,
+    "music": 3.96,
+    "Three": 6.22,
+    "short": 9.17,
+    "fire": 13.09
    }
   },
   {
    "id": "takes",
-   "start": 101.32,
-   "end": 113.06,
+   "start": 100.76,
+   "end": 112.06,
    "cues": {
-    "survive": 1.8,
-    "Cardio": 2.84,
-    "Shins": 4.02,
-    "discipline": 5.95,
-    "heart": 9.01,
-    "stop": 11.25
+    "survive": 1.2,
+    "Cardio": 2.05,
+    "Shins": 3.11,
+    "discipline": 5.79,
+    "heart": 8.89,
+    "stop": 10.79
    }
   },
   {
    "id": "cta",
-   "start": 113.06,
-   "end": 119.8,
+   "start": 112.06,
+   "end": 118.54,
    "cues": {
-    "honest": 0.94,
-    "survive": 2.18,
-    "comments": 4.29,
-    "follow": 4.79
+    "honest": 0.64,
+    "survive": 1.58,
+    "comments": 3.92,
+    "follow": 4.52
    }
   }
  ],
  "pages": [
   {
    "start": 0.12,
-   "end": 0.97,
+   "end": 0.84,
    "words": [
     {
      "text": "You",
      "start": 0.12,
-     "end": 0.47
+     "end": 0.32
     },
     {
      "text": "just",
-     "start": 0.47,
-     "end": 0.83
+     "start": 0.32,
+     "end": 0.7
     },
     {
      "text": "book",
-     "start": 0.83,
-     "end": 0.97
+     "start": 0.7,
+     "end": 0.84
     }
    ]
   },
   {
-   "start": 0.97,
-   "end": 1.77,
+   "start": 0.84,
+   "end": 1.62,
    "words": [
     {
      "text": "a",
-     "start": 0.97,
-     "end": 1.21
+     "start": 0.84,
+     "end": 1.02
     },
     {
      "text": "one-month",
-     "start": 1.21,
-     "end": 1.53
+     "start": 1.02,
+     "end": 1.38
     },
     {
      "text": "trip",
-     "start": 1.53,
-     "end": 1.77
+     "start": 1.38,
+     "end": 1.62
     }
    ]
   },
   {
-   "start": 1.77,
-   "end": 2.39,
+   "start": 1.62,
+   "end": 2.18,
    "words": [
     {
      "text": "to",
-     "start": 1.77,
-     "end": 1.99
+     "start": 1.62,
+     "end": 1.84
     },
     {
      "text": "a",
-     "start": 1.99,
-     "end": 2.17
+     "start": 1.84,
+     "end": 2.0
     },
     {
      "text": "Muay",
-     "start": 2.17,
-     "end": 2.39
+     "start": 2.0,
+     "end": 2.18
     }
    ]
   },
   {
-   "start": 2.39,
-   "end": 3.03,
+   "start": 2.18,
+   "end": 2.82,
    "words": [
     {
      "text": "Thai",
-     "start": 2.39,
-     "end": 2.49
+     "start": 2.18,
+     "end": 2.3
     },
     {
      "text": "camp",
-     "start": 2.49,
-     "end": 2.71
+     "start": 2.3,
+     "end": 2.54
     },
     {
      "text": "in",
-     "start": 2.71,
-     "end": 3.03
+     "start": 2.54,
+     "end": 2.82
     }
    ]
   },
   {
-   "start": 3.03,
-   "end": 3.84,
+   "start": 2.82,
+   "end": 3.61,
    "words": [
     {
      "text": "Thailand.",
-     "start": 3.03,
-     "end": 3.55
+     "start": 2.82,
+     "end": 3.31
     }
    ]
   },
   {
-   "start": 3.84,
-   "end": 4.36,
+   "start": 3.61,
+   "end": 4.37,
    "words": [
     {
      "text": "Sun,",
-     "start": 3.84,
-     "end": 4.2
+     "start": 3.61,
+     "end": 3.97
     }
    ]
   },
   {
-   "start": 4.36,
-   "end": 5.16,
+   "start": 4.47,
+   "end": 5.51,
    "words": [
     {
-     "text": "beaches,",
-     "start": 4.36,
-     "end": 4.76
-    }
-   ]
-  },
-  {
-   "start": 5.26,
-   "end": 5.88,
-   "words": [
+     "text": "beaches",
+     "start": 4.47,
+     "end": 4.75
+    },
     {
      "text": "maybe",
-     "start": 5.26,
-     "end": 5.52
+     "start": 5.05,
+     "end": 5.35
     },
     {
      "text": "a",
-     "start": 5.52,
-     "end": 5.68
-    },
-    {
-     "text": "little",
-     "start": 5.68,
-     "end": 5.88
+     "start": 5.35,
+     "end": 5.51
     }
    ]
   },
   {
-   "start": 5.88,
-   "end": 6.81,
+   "start": 5.51,
+   "end": 6.49,
    "words": [
     {
+     "text": "little",
+     "start": 5.51,
+     "end": 5.71
+    },
+    {
      "text": "training.",
-     "start": 5.88,
-     "end": 6.44
+     "start": 5.71,
+     "end": 6.17
     }
    ]
   },
   {
-   "start": 6.81,
-   "end": 7.51,
+   "start": 6.49,
+   "end": 7.01,
    "words": [
     {
      "text": "But",
-     "start": 6.81,
-     "end": 7.11
+     "start": 6.49,
+     "end": 6.69
     },
     {
      "text": "the",
-     "start": 7.11,
-     "end": 7.29
+     "start": 6.69,
+     "end": 6.85
     },
     {
      "text": "moment",
-     "start": 7.29,
-     "end": 7.51
+     "start": 6.85,
+     "end": 7.01
     }
    ]
   },
   {
-   "start": 7.51,
-   "end": 8.29,
+   "start": 7.01,
+   "end": 7.67,
    "words": [
     {
      "text": "you",
-     "start": 7.51,
-     "end": 7.75
+     "start": 7.01,
+     "end": 7.27
     },
     {
      "text": "arrive,",
-     "start": 7.75,
-     "end": 8.15
+     "start": 7.27,
+     "end": 7.55
     }
    ]
   },
   {
-   "start": 8.29,
-   "end": 9.63,
+   "start": 7.67,
+   "end": 8.85,
    "words": [
     {
      "text": "you",
-     "start": 8.29,
-     "end": 8.43
+     "start": 7.67,
+     "end": 7.83
     },
     {
      "text": "realize",
-     "start": 8.43,
-     "end": 8.91
+     "start": 7.83,
+     "end": 8.29
     },
     {
      "text": "this",
-     "start": 8.91,
-     "end": 9.63
+     "start": 8.35,
+     "end": 8.85
     }
    ]
   },
   {
-   "start": 9.63,
-   "end": 10.41,
+   "start": 8.85,
+   "end": 9.47,
    "words": [
     {
      "text": "is",
-     "start": 9.63,
-     "end": 10.11
+     "start": 8.85,
+     "end": 9.13
     },
     {
      "text": "not",
-     "start": 10.11,
-     "end": 10.23
+     "start": 9.13,
+     "end": 9.29
     },
     {
-     "text": "the",
-     "start": 10.23,
-     "end": 10.41
+     "text": "a",
+     "start": 9.29,
+     "end": 9.47
     }
    ]
   },
   {
-   "start": 10.41,
-   "end": 11.1,
+   "start": 9.47,
+   "end": 10.25,
    "words": [
     {
      "text": "holiday.",
-     "start": 10.41,
-     "end": 10.85
+     "start": 9.47,
+     "end": 9.91
     }
    ]
   },
   {
-   "start": 11.1,
-   "end": 11.7,
+   "start": 10.25,
+   "end": 10.99,
    "words": [
     {
-     "text": "So",
-     "start": 11.1,
-     "end": 11.36
-    },
+     "text": "So,",
+     "start": 10.25,
+     "end": 10.61
+    }
+   ]
+  },
+  {
+   "start": 10.99,
+   "end": 11.53,
+   "words": [
     {
      "text": "will",
-     "start": 11.36,
-     "end": 11.48
+     "start": 10.99,
+     "end": 11.05
     },
     {
      "text": "you",
-     "start": 11.48,
-     "end": 11.7
+     "start": 11.05,
+     "end": 11.25
+    },
+    {
+     "text": "survive",
+     "start": 11.25,
+     "end": 11.53
     }
    ]
   },
   {
-   "start": 11.7,
-   "end": 12.42,
+   "start": 11.53,
+   "end": 12.17,
    "words": [
     {
-     "text": "survive",
-     "start": 11.7,
-     "end": 11.94
-    },
-    {
      "text": "a",
-     "start": 11.94,
-     "end": 12.18
+     "start": 11.53,
+     "end": 11.71
     },
     {
      "text": "Muay",
-     "start": 12.18,
-     "end": 12.42
+     "start": 11.71,
+     "end": 11.99
+    },
+    {
+     "text": "Thai",
+     "start": 11.99,
+     "end": 12.17
     }
    ]
   },
   {
-   "start": 12.42,
-   "end": 13.56,
+   "start": 12.17,
+   "end": 13.18,
    "words": [
     {
-     "text": "Thai",
-     "start": 12.42,
-     "end": 12.58
-    },
-    {
      "text": "fight",
-     "start": 12.58,
-     "end": 12.94
+     "start": 12.17,
+     "end": 12.51
     },
     {
      "text": "camp?",
-     "start": 12.94,
-     "end": 13.16
+     "start": 12.51,
+     "end": 12.87
     }
    ]
   },
   {
-   "start": 13.59,
-   "end": 14.45,
+   "start": 13.18,
+   "end": 13.88,
    "words": [
     {
      "text": "Day",
-     "start": 13.59,
-     "end": 13.79
+     "start": 13.18,
+     "end": 13.48
     },
     {
      "text": "1,",
-     "start": 13.79,
-     "end": 14.21
+     "start": 13.48,
+     "end": 13.88
     }
    ]
   },
   {
-   "start": 14.45,
-   "end": 15.57,
+   "start": 13.88,
+   "end": 14.84,
    "words": [
     {
      "text": "Six",
-     "start": 14.45,
-     "end": 14.81
+     "start": 13.88,
+     "end": 14.23
     },
     {
      "text": "a.m.",
-     "start": 14.81,
-     "end": 15.17
+     "start": 14.23,
+     "end": 14.58
     }
    ]
   },
   {
-   "start": 15.59,
-   "end": 16.43,
+   "start": 14.84,
+   "end": 15.62,
    "words": [
     {
      "text": "Your",
-     "start": 15.59,
-     "end": 15.85
+     "start": 14.84,
+     "end": 15.06
     },
     {
      "text": "alarm",
-     "start": 15.85,
-     "end": 16.15
+     "start": 15.06,
+     "end": 15.34
     },
     {
      "text": "goes",
-     "start": 16.15,
-     "end": 16.43
+     "start": 15.34,
+     "end": 15.62
     }
    ]
   },
   {
-   "start": 16.43,
-   "end": 17.41,
+   "start": 15.62,
+   "end": 16.46,
    "words": [
     {
      "text": "off",
-     "start": 16.43,
-     "end": 16.83
+     "start": 15.62,
+     "end": 15.96
     },
     {
      "text": "and",
-     "start": 16.83,
-     "end": 17.17
+     "start": 15.96,
+     "end": 16.26
     },
     {
      "text": "the",
-     "start": 17.17,
-     "end": 17.41
+     "start": 16.26,
+     "end": 16.46
     }
    ]
   },
   {
-   "start": 17.41,
-   "end": 18.27,
+   "start": 16.46,
+   "end": 17.26,
    "words": [
     {
      "text": "trainers",
-     "start": 17.41,
-     "end": 17.63
+     "start": 16.46,
+     "end": 16.64
     },
     {
      "text": "are",
-     "start": 17.63,
-     "end": 17.89
+     "start": 16.64,
+     "end": 16.9
     },
     {
      "text": "already",
-     "start": 17.89,
-     "end": 18.27
+     "start": 16.9,
+     "end": 17.26
     }
    ]
   },
   {
-   "start": 18.27,
-   "end": 19.15,
+   "start": 17.26,
+   "end": 18.46,
    "words": [
     {
      "text": "waiting",
-     "start": 18.27,
-     "end": 18.51
+     "start": 17.26,
+     "end": 17.52
     },
     {
      "text": "outside.",
-     "start": 18.51,
-     "end": 18.81
+     "start": 17.52,
+     "end": 18.06
     }
    ]
   },
   {
-   "start": 19.15,
-   "end": 19.93,
+   "start": 18.7,
+   "end": 19.44,
    "words": [
     {
      "text": "Before",
-     "start": 19.15,
-     "end": 19.45
+     "start": 18.7,
+     "end": 18.98
     },
     {
      "text": "you",
-     "start": 19.45,
-     "end": 19.63
+     "start": 18.98,
+     "end": 19.16
     },
     {
      "text": "even",
-     "start": 19.63,
-     "end": 19.93
+     "start": 19.16,
+     "end": 19.44
     }
    ]
   },
   {
-   "start": 19.93,
-   "end": 20.99,
+   "start": 19.44,
+   "end": 20.42,
    "words": [
     {
      "text": "touch",
-     "start": 19.93,
-     "end": 20.15
+     "start": 19.44,
+     "end": 19.62
     },
     {
-     "text": "your",
-     "start": 20.15,
-     "end": 20.35
+     "text": "a",
+     "start": 19.62,
+     "end": 19.8
     },
     {
      "text": "glove,",
-     "start": 20.35,
-     "end": 20.59
+     "start": 19.8,
+     "end": 20.02
     }
    ]
   },
   {
-   "start": 21.01,
-   "end": 21.69,
+   "start": 20.42,
+   "end": 20.94,
    "words": [
     {
      "text": "there's",
-     "start": 21.01,
-     "end": 21.29
+     "start": 20.42,
+     "end": 20.58
     },
     {
      "text": "a",
-     "start": 21.29,
-     "end": 21.43
+     "start": 20.58,
+     "end": 20.7
     },
     {
      "text": "morning",
-     "start": 21.43,
-     "end": 21.69
+     "start": 20.7,
+     "end": 20.94
     }
    ]
   },
   {
-   "start": 21.69,
-   "end": 22.38,
+   "start": 20.94,
+   "end": 21.6,
    "words": [
     {
      "text": "run.",
-     "start": 21.69,
-     "end": 22.07
+     "start": 20.94,
+     "end": 21.3
     }
    ]
   },
   {
-   "start": 22.38,
-   "end": 23.96,
+   "start": 21.6,
+   "end": 22.92,
    "words": [
     {
      "text": "In",
-     "start": 22.38,
-     "end": 22.64
+     "start": 21.6,
+     "end": 21.84
     },
     {
      "text": "thirty-degree",
-     "start": 22.64,
-     "end": 23.24
+     "start": 21.84,
+     "end": 22.34
     },
     {
      "text": "heat,",
-     "start": 23.24,
-     "end": 23.6
+     "start": 22.34,
+     "end": 22.66
     }
    ]
   },
   {
-   "start": 23.96,
-   "end": 25.08,
+   "start": 22.92,
+   "end": 23.98,
    "words": [
     {
      "text": "with",
-     "start": 23.96,
-     "end": 24.24
+     "start": 22.92,
+     "end": 23.14
     },
     {
      "text": "humidity",
-     "start": 24.24,
-     "end": 24.74
+     "start": 23.14,
+     "end": 23.66
     },
     {
      "text": "so",
-     "start": 24.74,
-     "end": 25.08
+     "start": 23.66,
+     "end": 23.98
     }
    ]
   },
   {
-   "start": 25.08,
-   "end": 25.68,
+   "start": 23.98,
+   "end": 24.54,
    "words": [
     {
      "text": "thick,",
-     "start": 25.08,
-     "end": 25.3
+     "start": 23.98,
+     "end": 24.16
     }
    ]
   },
   {
-   "start": 25.68,
-   "end": 26.46,
+   "start": 24.54,
+   "end": 25.22,
    "words": [
     {
      "text": "it",
-     "start": 25.68,
-     "end": 25.9
+     "start": 24.54,
+     "end": 24.66
     },
     {
      "text": "feels",
-     "start": 25.9,
-     "end": 26.16
+     "start": 24.66,
+     "end": 24.92
     },
     {
      "text": "like",
-     "start": 26.16,
-     "end": 26.46
+     "start": 24.92,
+     "end": 25.22
     }
    ]
   },
   {
-   "start": 26.46,
-   "end": 27.42,
+   "start": 25.22,
+   "end": 26.02,
    "words": [
     {
      "text": "breathing",
-     "start": 26.46,
-     "end": 26.8
+     "start": 25.22,
+     "end": 25.58
     },
     {
      "text": "through",
-     "start": 26.8,
-     "end": 27.26
+     "start": 25.58,
+     "end": 25.94
     },
     {
      "text": "a",
-     "start": 27.26,
-     "end": 27.42
+     "start": 25.94,
+     "end": 26.02
     }
    ]
   },
   {
-   "start": 27.42,
-   "end": 28.42,
+   "start": 26.02,
+   "end": 27.04,
    "words": [
     {
      "text": "wet",
-     "start": 27.42,
-     "end": 27.56
+     "start": 26.02,
+     "end": 26.14
     },
     {
      "text": "towel.",
-     "start": 27.56,
-     "end": 28.02
+     "start": 26.14,
+     "end": 26.64
     }
    ]
   },
   {
-   "start": 28.46,
-   "end": 29.42,
+   "start": 27.66,
+   "end": 28.93,
    "words": [
     {
      "text": "Then",
-     "start": 28.46,
-     "end": 28.72
+     "start": 27.66,
+     "end": 28.41
     },
     {
-     "text": "comes",
-     "start": 28.72,
-     "end": 29.12
+     "text": "come",
+     "start": 28.41,
+     "end": 28.65
     },
     {
      "text": "the",
-     "start": 29.12,
-     "end": 29.42
+     "start": 28.65,
+     "end": 28.93
     }
    ]
   },
   {
-   "start": 29.42,
-   "end": 29.76,
+   "start": 28.93,
+   "end": 29.54,
    "words": [
     {
-     "text": "pad.",
-     "start": 29.42,
-     "end": 29.65
+     "text": "pads.",
+     "start": 28.93,
+     "end": 29.29
     }
    ]
   },
   {
-   "start": 29.76,
-   "end": 30.56,
+   "start": 29.54,
+   "end": 30.14,
    "words": [
     {
      "text": "Your",
-     "start": 29.76,
-     "end": 30.02
+     "start": 29.54,
+     "end": 29.72
     },
     {
-     "text": "trainers",
-     "start": 30.02,
-     "end": 30.3
+     "text": "trainer",
+     "start": 29.72,
+     "end": 29.88
     },
     {
-     "text": "hold",
-     "start": 30.3,
-     "end": 30.56
+     "text": "holds",
+     "start": 29.88,
+     "end": 30.14
     }
    ]
   },
   {
-   "start": 30.56,
-   "end": 31.22,
+   "start": 30.14,
+   "end": 30.78,
    "words": [
     {
      "text": "them",
-     "start": 30.56,
-     "end": 30.76
+     "start": 30.14,
+     "end": 30.34
     },
     {
      "text": "up",
-     "start": 30.76,
-     "end": 31.0
+     "start": 30.34,
+     "end": 30.54
     },
     {
      "text": "and",
-     "start": 31.0,
-     "end": 31.22
+     "start": 30.54,
+     "end": 30.78
     }
    ]
   },
   {
-   "start": 31.22,
-   "end": 32.54,
+   "start": 30.78,
+   "end": 32.02,
    "words": [
     {
-     "text": "yell",
-     "start": 31.22,
-     "end": 31.46
+     "text": "yells",
+     "start": 30.78,
+     "end": 31.06
     },
     {
      "text": "one",
-     "start": 31.46,
-     "end": 31.78
+     "start": 31.06,
+     "end": 31.4
     },
     {
      "text": "word,",
-     "start": 31.78,
-     "end": 32.14
+     "start": 31.4,
+     "end": 31.74
     }
    ]
   },
   {
-   "start": 32.64,
-   "end": 33.36,
+   "start": 32.02,
+   "end": 33.48,
    "words": [
     {
      "text": "over",
-     "start": 32.64,
-     "end": 32.84
+     "start": 32.02,
+     "end": 32.46
     },
     {
      "text": "and",
-     "start": 32.84,
-     "end": 33.06
+     "start": 32.46,
+     "end": 32.68
     },
     {
-     "text": "over",
-     "start": 33.06,
-     "end": 33.36
+     "text": "over.",
+     "start": 32.68,
+     "end": 33.22
     }
    ]
   },
   {
-   "start": 33.36,
-   "end": 34.1,
-   "words": [
-    {
-     "text": "again.",
-     "start": 33.36,
-     "end": 33.84
-    }
-   ]
-  },
-  {
-   "start": 34.1,
-   "end": 35.0,
+   "start": 33.48,
+   "end": 34.4,
    "words": [
     {
      "text": "Again!",
-     "start": 34.1,
-     "end": 34.66
+     "start": 33.48,
+     "end": 34.0
     }
    ]
   },
   {
-   "start": 35.0,
-   "end": 35.86,
+   "start": 34.51,
+   "end": 35.41,
    "words": [
     {
      "text": "Round",
-     "start": 35.0,
-     "end": 35.34
+     "start": 34.51,
+     "end": 34.79
     },
     {
      "text": "after",
-     "start": 35.34,
-     "end": 35.62
+     "start": 34.79,
+     "end": 35.15
     },
     {
      "text": "rounds",
-     "start": 35.62,
-     "end": 35.86
+     "start": 35.15,
+     "end": 35.41
     }
    ]
   },
   {
-   "start": 35.86,
-   "end": 36.71,
+   "start": 35.41,
+   "end": 36.13,
    "words": [
     {
      "text": "of",
-     "start": 35.86,
-     "end": 36.1
+     "start": 35.41,
+     "end": 35.67
     },
     {
      "text": "kicks,",
-     "start": 36.1,
-     "end": 36.38
+     "start": 35.67,
+     "end": 35.89
     }
    ]
   },
   {
-   "start": 36.71,
-   "end": 37.57,
+   "start": 36.13,
+   "end": 37.15,
    "words": [
     {
      "text": "knees",
-     "start": 36.71,
-     "end": 36.93
+     "start": 36.13,
+     "end": 36.47
     },
     {
      "text": "and",
-     "start": 36.93,
-     "end": 37.15
+     "start": 36.47,
+     "end": 36.73
     },
     {
      "text": "elbows",
-     "start": 37.15,
-     "end": 37.57
+     "start": 36.73,
+     "end": 37.15
     }
    ]
   },
   {
-   "start": 37.57,
-   "end": 38.39,
+   "start": 37.15,
+   "end": 38.07,
    "words": [
     {
      "text": "until",
-     "start": 37.57,
-     "end": 37.89
+     "start": 37.15,
+     "end": 37.51
     },
     {
      "text": "your",
-     "start": 37.89,
-     "end": 38.17
+     "start": 37.51,
+     "end": 37.79
     },
     {
      "text": "arms",
-     "start": 38.17,
-     "end": 38.39
+     "start": 37.79,
+     "end": 38.07
     }
    ]
   },
   {
-   "start": 38.39,
-   "end": 39.97,
+   "start": 38.07,
+   "end": 39.73,
    "words": [
     {
-     "text": "feels",
-     "start": 38.39,
+     "text": "feel",
+     "start": 38.07,
+     "end": 38.41
+    },
+    {
+     "text": "like",
+     "start": 38.41,
      "end": 38.79
     },
     {
-     "text": "like",
+     "text": "noodles.",
      "start": 38.79,
-     "end": 39.13
-    },
-    {
-     "text": "noodle.",
-     "start": 39.13,
-     "end": 39.57
+     "end": 39.33
     }
    ]
   },
   {
-   "start": 40.04,
-   "end": 41.32,
+   "start": 39.86,
+   "end": 40.98,
    "words": [
     {
      "text": "By",
-     "start": 40.04,
-     "end": 40.36
+     "start": 39.86,
+     "end": 40.08
     },
     {
      "text": "the",
-     "start": 40.36,
-     "end": 40.56
+     "start": 40.08,
+     "end": 40.3
     },
     {
      "text": "evening,",
-     "start": 40.56,
-     "end": 40.94
+     "start": 40.3,
+     "end": 40.68
     }
    ]
   },
   {
-   "start": 41.32,
-   "end": 42.0,
+   "start": 40.98,
+   "end": 41.66,
    "words": [
     {
      "text": "your",
-     "start": 41.32,
-     "end": 41.56
+     "start": 40.98,
+     "end": 41.2
     },
     {
      "text": "shins",
-     "start": 41.56,
-     "end": 41.74
+     "start": 41.2,
+     "end": 41.44
     },
     {
      "text": "are",
-     "start": 41.74,
-     "end": 42.0
+     "start": 41.44,
+     "end": 41.66
     }
    ]
   },
   {
-   "start": 42.0,
-   "end": 43.48,
+   "start": 41.66,
+   "end": 43.18,
    "words": [
     {
      "text": "covered",
-     "start": 42.0,
-     "end": 42.24
+     "start": 41.66,
+     "end": 41.94
     },
     {
      "text": "in",
-     "start": 42.24,
-     "end": 42.56
+     "start": 41.94,
+     "end": 42.22
     },
     {
      "text": "bruises.",
-     "start": 42.56,
-     "end": 43.08
+     "start": 42.22,
+     "end": 42.88
     }
    ]
   },
   {
-   "start": 43.5,
-   "end": 44.18,
+   "start": 43.18,
+   "end": 43.86,
    "words": [
     {
      "text": "Muay",
-     "start": 43.5,
-     "end": 43.68
+     "start": 43.18,
+     "end": 43.32
     },
     {
      "text": "Thai",
-     "start": 43.68,
-     "end": 43.8
+     "start": 43.32,
+     "end": 43.48
     },
     {
      "text": "fighters",
-     "start": 43.8,
-     "end": 44.18
+     "start": 43.48,
+     "end": 43.86
     }
    ]
   },
   {
-   "start": 44.18,
-   "end": 44.86,
+   "start": 43.86,
+   "end": 44.58,
    "words": [
     {
      "text": "kick",
-     "start": 44.18,
-     "end": 44.46
+     "start": 43.86,
+     "end": 44.18
     },
     {
      "text": "with",
-     "start": 44.46,
-     "end": 44.68
+     "start": 44.18,
+     "end": 44.4
     },
     {
      "text": "the",
-     "start": 44.68,
-     "end": 44.86
+     "start": 44.4,
+     "end": 44.58
     }
    ]
   },
   {
-   "start": 44.86,
-   "end": 45.35,
+   "start": 44.58,
+   "end": 45.22,
    "words": [
     {
      "text": "shins,",
-     "start": 44.86,
-     "end": 45.16
+     "start": 44.58,
+     "end": 44.92
     }
    ]
   },
   {
-   "start": 45.35,
-   "end": 46.24,
+   "start": 45.22,
+   "end": 46.26,
    "words": [
     {
      "text": "not",
-     "start": 45.35,
-     "end": 45.65
+     "start": 45.22,
+     "end": 45.44
     },
     {
      "text": "the",
-     "start": 45.65,
-     "end": 45.87
+     "start": 45.44,
+     "end": 45.7
     },
     {
      "text": "foot.",
-     "start": 45.87,
-     "end": 46.07
+     "start": 45.7,
+     "end": 45.88
     }
    ]
   },
   {
-   "start": 46.24,
-   "end": 46.85,
+   "start": 46.26,
+   "end": 46.76,
    "words": [
     {
      "text": "And",
-     "start": 46.24,
-     "end": 46.49
+     "start": 46.26,
+     "end": 46.42
     },
     {
      "text": "the",
-     "start": 46.49,
-     "end": 46.69
+     "start": 46.42,
+     "end": 46.54
     },
     {
      "text": "heavy",
-     "start": 46.69,
-     "end": 46.85
+     "start": 46.54,
+     "end": 46.76
     }
    ]
   },
   {
-   "start": 46.85,
-   "end": 47.47,
+   "start": 46.76,
+   "end": 47.4,
    "words": [
     {
      "text": "bags",
-     "start": 46.85,
-     "end": 47.07
+     "start": 46.76,
+     "end": 46.98
     },
     {
      "text": "feel",
-     "start": 47.07,
-     "end": 47.29
+     "start": 46.98,
+     "end": 47.24
     },
     {
      "text": "like",
-     "start": 47.29,
-     "end": 47.47
+     "start": 47.24,
+     "end": 47.4
     }
    ]
   },
   {
-   "start": 47.47,
-   "end": 48.67,
+   "start": 47.4,
+   "end": 48.48,
    "words": [
     {
      "text": "kicking",
-     "start": 47.47,
-     "end": 47.67
+     "start": 47.4,
+     "end": 47.62
     },
     {
      "text": "a",
-     "start": 47.67,
-     "end": 47.91
+     "start": 47.62,
+     "end": 47.88
     },
     {
      "text": "tree.",
-     "start": 47.91,
-     "end": 48.27
+     "start": 47.88,
+     "end": 48.14
     }
    ]
   },
   {
-   "start": 48.74,
-   "end": 49.58,
+   "start": 48.48,
+   "end": 49.4,
    "words": [
     {
      "text": "Over",
-     "start": 48.74,
-     "end": 48.9
+     "start": 48.48,
+     "end": 48.68
     },
     {
      "text": "the",
-     "start": 48.9,
-     "end": 49.08
+     "start": 48.68,
+     "end": 48.88
     },
     {
      "text": "months,",
-     "start": 49.08,
-     "end": 49.36
+     "start": 48.88,
+     "end": 49.14
     }
    ]
   },
   {
-   "start": 49.58,
-   "end": 50.08,
+   "start": 49.4,
+   "end": 49.96,
    "words": [
     {
      "text": "your",
-     "start": 49.58,
-     "end": 49.64
+     "start": 49.4,
+     "end": 49.56
     },
     {
      "text": "shins",
-     "start": 49.64,
-     "end": 49.88
+     "start": 49.56,
+     "end": 49.74
     },
     {
      "text": "get",
-     "start": 49.88,
-     "end": 50.08
+     "start": 49.74,
+     "end": 49.96
     }
    ]
   },
   {
-   "start": 50.08,
-   "end": 50.88,
+   "start": 49.96,
+   "end": 50.74,
    "words": [
     {
      "text": "tougher.",
-     "start": 50.08,
-     "end": 50.5
+     "start": 49.96,
+     "end": 50.34
     }
    ]
   },
   {
-   "start": 50.88,
-   "end": 51.98,
+   "start": 50.74,
+   "end": 51.84,
    "words": [
     {
      "text": "But",
-     "start": 50.88,
-     "end": 51.04
+     "start": 50.74,
+     "end": 50.92
     },
     {
      "text": "for",
-     "start": 51.04,
-     "end": 51.22
+     "start": 50.92,
+     "end": 51.14
     },
     {
      "text": "now,",
-     "start": 51.22,
-     "end": 51.68
+     "start": 51.14,
+     "end": 51.52
     }
    ]
   },
   {
-   "start": 51.98,
-   "end": 53.47,
+   "start": 51.84,
+   "end": 53.22,
    "words": [
     {
      "text": "every",
-     "start": 51.98,
-     "end": 52.32
+     "start": 51.84,
+     "end": 52.1
     },
     {
      "text": "kick",
-     "start": 52.32,
-     "end": 52.54
+     "start": 52.1,
+     "end": 52.3
     },
     {
      "text": "hurts.",
-     "start": 52.54,
-     "end": 53.1
+     "start": 52.3,
+     "end": 52.82
     }
    ]
   },
   {
-   "start": 53.47,
-   "end": 54.43,
+   "start": 53.39,
+   "end": 54.79,
    "words": [
     {
      "text": "Week",
-     "start": 53.47,
-     "end": 53.63
+     "start": 53.39,
+     "end": 53.41
     },
     {
      "text": "1,",
-     "start": 53.63,
-     "end": 54.07
+     "start": 53.46,
+     "end": 54.63
     }
    ]
   },
   {
-   "start": 54.43,
-   "end": 54.87,
+   "start": 54.79,
+   "end": 55.29,
    "words": [
     {
      "text": "you",
-     "start": 54.43,
-     "end": 54.55
+     "start": 54.79,
+     "end": 54.95
     },
     {
      "text": "learn",
-     "start": 54.55,
-     "end": 54.69
+     "start": 54.95,
+     "end": 55.09
     },
     {
      "text": "the",
-     "start": 54.69,
-     "end": 54.87
+     "start": 55.09,
+     "end": 55.29
     }
    ]
   },
   {
-   "start": 54.87,
-   "end": 55.81,
+   "start": 55.29,
+   "end": 56.25,
    "words": [
     {
      "text": "real",
-     "start": 54.87,
-     "end": 55.05
+     "start": 55.29,
+     "end": 55.47
     },
     {
      "text": "schedule.",
-     "start": 55.05,
-     "end": 55.57
+     "start": 55.47,
+     "end": 56.07
     }
    ]
   },
   {
-   "start": 55.81,
-   "end": 56.29,
+   "start": 56.25,
+   "end": 56.75,
    "words": [
     {
      "text": "Train",
-     "start": 55.81,
-     "end": 55.97
+     "start": 56.25,
+     "end": 56.43
     },
     {
      "text": "in",
-     "start": 55.97,
-     "end": 56.15
+     "start": 56.43,
+     "end": 56.61
     },
     {
      "text": "the",
-     "start": 56.15,
-     "end": 56.29
+     "start": 56.61,
+     "end": 56.75
     }
    ]
   },
   {
-   "start": 56.29,
-   "end": 56.92,
+   "start": 56.75,
+   "end": 57.35,
    "words": [
     {
      "text": "morning,",
-     "start": 56.29,
-     "end": 56.63
+     "start": 56.75,
+     "end": 57.09
     }
    ]
   },
   {
-   "start": 56.92,
-   "end": 57.49,
+   "start": 57.35,
+   "end": 57.85,
    "words": [
     {
      "text": "eat,",
-     "start": 56.92,
-     "end": 57.3
+     "start": 57.35,
+     "end": 57.63
     }
    ]
   },
   {
-   "start": 57.49,
-   "end": 58.31,
+   "start": 57.85,
+   "end": 58.45,
    "words": [
     {
      "text": "sleep,",
-     "start": 57.49,
-     "end": 58.09
+     "start": 57.85,
+     "end": 58.15
     }
    ]
   },
   {
-   "start": 58.31,
-   "end": 59.05,
+   "start": 58.45,
+   "end": 59.11,
    "words": [
     {
      "text": "then",
-     "start": 58.31,
-     "end": 58.57
+     "start": 58.45,
+     "end": 58.61
     },
     {
      "text": "train",
-     "start": 58.57,
-     "end": 58.79
+     "start": 58.61,
+     "end": 58.85
     },
     {
      "text": "again",
-     "start": 58.79,
-     "end": 59.05
+     "start": 58.85,
+     "end": 59.11
     }
    ]
   },
   {
-   "start": 59.05,
-   "end": 60.17,
+   "start": 59.11,
+   "end": 60.37,
    "words": [
     {
      "text": "in",
-     "start": 59.05,
-     "end": 59.27
+     "start": 59.11,
+     "end": 59.31
     },
     {
      "text": "the",
-     "start": 59.27,
-     "end": 59.43
+     "start": 59.31,
+     "end": 59.45
     },
     {
      "text": "afternoon.",
-     "start": 59.43,
-     "end": 59.83
+     "start": 59.45,
+     "end": 59.99
     }
    ]
   },
   {
-   "start": 60.17,
-   "end": 60.97,
+   "start": 60.37,
+   "end": 60.93,
    "words": [
     {
      "text": "Two",
-     "start": 60.17,
-     "end": 60.37
+     "start": 60.37,
+     "end": 60.43
     },
     {
      "text": "sessions",
-     "start": 60.37,
-     "end": 60.77
+     "start": 60.43,
+     "end": 60.71
     },
     {
      "text": "a",
-     "start": 60.77,
-     "end": 60.97
+     "start": 60.71,
+     "end": 60.93
     }
    ]
   },
   {
-   "start": 60.97,
-   "end": 61.57,
+   "start": 60.93,
+   "end": 61.35,
    "words": [
     {
      "text": "day,",
-     "start": 60.97,
-     "end": 61.29
+     "start": 60.93,
+     "end": 61.15
     }
    ]
   },
   {
-   "start": 61.57,
-   "end": 62.31,
+   "start": 61.35,
+   "end": 62.09,
    "words": [
     {
      "text": "six",
-     "start": 61.57,
-     "end": 61.83
+     "start": 61.35,
+     "end": 61.59
     },
     {
      "text": "days",
-     "start": 61.83,
-     "end": 62.15
+     "start": 61.59,
+     "end": 61.93
     },
     {
      "text": "a",
-     "start": 62.15,
-     "end": 62.31
+     "start": 61.93,
+     "end": 62.09
     }
    ]
   },
   {
-   "start": 62.31,
-   "end": 62.87,
+   "start": 62.09,
+   "end": 62.65,
    "words": [
     {
      "text": "week.",
-     "start": 62.31,
-     "end": 62.51
+     "start": 62.09,
+     "end": 62.33
     }
    ]
   },
   {
-   "start": 62.87,
-   "end": 63.69,
+   "start": 62.65,
+   "end": 63.33,
    "words": [
     {
      "text": "Your",
-     "start": 62.87,
-     "end": 63.15
+     "start": 62.65,
+     "end": 62.85
     },
     {
      "text": "body",
-     "start": 63.15,
-     "end": 63.39
+     "start": 62.85,
+     "end": 63.11
     },
     {
      "text": "has",
-     "start": 63.39,
-     "end": 63.69
+     "start": 63.11,
+     "end": 63.33
     }
    ]
   },
   {
-   "start": 63.69,
-   "end": 64.59,
+   "start": 63.33,
+   "end": 64.11,
    "words": [
     {
      "text": "never",
-     "start": 63.69,
-     "end": 64.01
+     "start": 63.33,
+     "end": 63.59
     },
     {
      "text": "been",
-     "start": 64.01,
-     "end": 64.27
+     "start": 63.59,
+     "end": 63.79
     },
     {
      "text": "this",
-     "start": 64.27,
-     "end": 64.59
+     "start": 63.79,
+     "end": 64.11
     }
    ]
   },
   {
-   "start": 64.59,
-   "end": 65.32,
+   "start": 64.11,
+   "end": 64.81,
    "words": [
     {
      "text": "tired.",
-     "start": 64.59,
-     "end": 65.02
+     "start": 64.11,
+     "end": 64.52
     }
    ]
   },
   {
-   "start": 65.32,
-   "end": 66.19,
+   "start": 64.81,
+   "end": 65.59,
    "words": [
     {
      "text": "Week",
-     "start": 65.32,
-     "end": 65.68
+     "start": 64.81,
+     "end": 65.01
     },
     {
      "text": "2,",
-     "start": 65.68,
-     "end": 66.13
+     "start": 65.01,
+     "end": 65.41
     }
    ]
   },
   {
-   "start": 66.19,
-   "end": 67.4,
+   "start": 65.59,
+   "end": 66.46,
    "words": [
     {
      "text": "the",
-     "start": 66.19,
-     "end": 66.53
+     "start": 65.59,
+     "end": 65.81
     },
     {
      "text": "clinch.",
-     "start": 66.53,
-     "end": 67.0
+     "start": 65.81,
+     "end": 66.34
     }
    ]
   },
   {
-   "start": 67.4,
-   "end": 68.2,
+   "start": 66.46,
+   "end": 67.36,
    "words": [
     {
      "text": "Two",
-     "start": 67.4,
-     "end": 67.56
+     "start": 66.46,
+     "end": 66.64
     },
     {
      "text": "fighters",
-     "start": 67.56,
-     "end": 67.92
+     "start": 66.64,
+     "end": 67.04
     },
     {
      "text": "lock",
-     "start": 67.92,
-     "end": 68.2
+     "start": 67.04,
+     "end": 67.36
     }
    ]
   },
   {
-   "start": 68.2,
-   "end": 68.7,
+   "start": 67.36,
+   "end": 67.9,
    "words": [
     {
      "text": "up,",
-     "start": 68.2,
-     "end": 68.36
+     "start": 67.36,
+     "end": 67.7
     }
    ]
   },
   {
-   "start": 68.7,
-   "end": 69.4,
+   "start": 67.9,
+   "end": 68.58,
    "words": [
     {
      "text": "fighting",
-     "start": 68.7,
-     "end": 69.0
+     "start": 67.9,
+     "end": 68.18
     },
     {
      "text": "for",
-     "start": 69.0,
-     "end": 69.26
+     "start": 68.18,
+     "end": 68.44
     },
     {
      "text": "head",
-     "start": 69.26,
-     "end": 69.4
+     "start": 68.44,
+     "end": 68.58
     }
    ]
   },
   {
-   "start": 69.4,
-   "end": 70.5,
+   "start": 68.58,
+   "end": 69.6,
    "words": [
     {
      "text": "positions",
-     "start": 69.4,
-     "end": 69.92
+     "start": 68.58,
+     "end": 69.08
     },
     {
      "text": "and",
-     "start": 69.92,
-     "end": 70.28
+     "start": 69.08,
+     "end": 69.38
     },
     {
      "text": "throwing",
-     "start": 70.28,
-     "end": 70.5
+     "start": 69.38,
+     "end": 69.6
     }
    ]
   },
   {
-   "start": 70.5,
-   "end": 71.25,
+   "start": 69.6,
+   "end": 70.41,
    "words": [
     {
      "text": "knees.",
-     "start": 70.5,
-     "end": 70.96
+     "start": 69.6,
+     "end": 70.04
     }
    ]
   },
   {
-   "start": 71.25,
-   "end": 72.48,
+   "start": 70.41,
+   "end": 71.61,
    "words": [
     {
      "text": "Your",
-     "start": 71.25,
-     "end": 71.45
+     "start": 70.41,
+     "end": 70.57
     },
     {
      "text": "neck",
-     "start": 71.45,
-     "end": 71.71
+     "start": 70.57,
+     "end": 70.81
     },
     {
      "text": "burns,",
-     "start": 71.71,
-     "end": 72.15
+     "start": 70.81,
+     "end": 71.23
     }
    ]
   },
   {
-   "start": 72.48,
-   "end": 73.47,
+   "start": 71.61,
+   "end": 72.67,
    "words": [
     {
      "text": "your",
-     "start": 72.48,
-     "end": 72.62
+     "start": 71.61,
+     "end": 71.77
     },
     {
-     "text": "leg",
-     "start": 72.62,
-     "end": 72.78
+     "text": "legs",
+     "start": 71.77,
+     "end": 71.91
     },
     {
-     "text": "shakes,",
-     "start": 72.78,
-     "end": 73.24
+     "text": "shake,",
+     "start": 71.91,
+     "end": 72.29
     }
    ]
   },
   {
-   "start": 73.47,
-   "end": 74.17,
+   "start": 72.67,
+   "end": 73.35,
    "words": [
     {
      "text": "and",
-     "start": 73.47,
-     "end": 73.61
+     "start": 72.67,
+     "end": 72.83
     },
     {
      "text": "someone",
-     "start": 73.61,
-     "end": 73.99
+     "start": 72.83,
+     "end": 73.13
     },
     {
      "text": "half",
-     "start": 73.99,
-     "end": 74.17
+     "start": 73.13,
+     "end": 73.35
     }
    ]
   },
   {
-   "start": 74.17,
-   "end": 75.15,
+   "start": 73.35,
+   "end": 74.03,
    "words": [
     {
      "text": "your",
-     "start": 74.17,
-     "end": 74.47
+     "start": 73.35,
+     "end": 73.63
     },
     {
      "text": "size",
-     "start": 74.47,
-     "end": 74.79
+     "start": 73.63,
+     "end": 73.79
     },
     {
-     "text": "keep",
-     "start": 74.79,
-     "end": 75.15
+     "text": "keeps",
+     "start": 73.79,
+     "end": 74.03
     }
    ]
   },
   {
-   "start": 75.15,
-   "end": 75.87,
+   "start": 74.03,
+   "end": 74.63,
    "words": [
     {
      "text": "throwing",
-     "start": 75.15,
-     "end": 75.47
+     "start": 74.03,
+     "end": 74.29
     },
     {
      "text": "you",
-     "start": 75.47,
-     "end": 75.65
+     "start": 74.29,
+     "end": 74.49
     },
     {
      "text": "to",
-     "start": 75.65,
-     "end": 75.87
+     "start": 74.49,
+     "end": 74.63
     }
    ]
   },
   {
-   "start": 75.87,
-   "end": 76.67,
+   "start": 74.63,
+   "end": 75.39,
    "words": [
     {
      "text": "the",
-     "start": 75.87,
-     "end": 75.97
+     "start": 74.63,
+     "end": 74.79
     },
     {
      "text": "floor.",
-     "start": 75.97,
-     "end": 76.31
+     "start": 74.79,
+     "end": 75.09
     }
    ]
   },
   {
-   "start": 76.67,
-   "end": 77.59,
+   "start": 75.39,
+   "end": 76.33,
    "words": [
     {
      "text": "Week",
-     "start": 76.67,
-     "end": 76.95
+     "start": 75.39,
+     "end": 75.65
     },
     {
      "text": "3,",
-     "start": 76.95,
-     "end": 77.33
+     "start": 75.65,
+     "end": 76.05
     }
    ]
   },
   {
-   "start": 77.59,
-   "end": 78.61,
+   "start": 76.33,
+   "end": 77.51,
    "words": [
     {
      "text": "your",
-     "start": 77.59,
-     "end": 77.77
+     "start": 76.33,
+     "end": 76.47
     },
     {
      "text": "first",
-     "start": 77.77,
-     "end": 77.97
+     "start": 76.47,
+     "end": 76.73
     },
     {
      "text": "sparring.",
-     "start": 77.97,
-     "end": 78.43
+     "start": 76.73,
+     "end": 77.11
     }
    ]
   },
   {
-   "start": 78.61,
-   "end": 79.55,
+   "start": 77.61,
+   "end": 78.56,
    "words": [
     {
      "text": "It's",
-     "start": 78.61,
-     "end": 78.95
+     "start": 77.61,
+     "end": 77.93
     },
     {
-     "text": "control",
-     "start": 78.95,
-     "end": 79.33
-    },
-    {
-     "text": "but",
-     "start": 79.33,
-     "end": 79.55
+     "text": "control,",
+     "start": 77.93,
+     "end": 78.39
     }
    ]
   },
   {
-   "start": 79.55,
-   "end": 80.39,
+   "start": 78.56,
+   "end": 79.44,
    "words": [
     {
+     "text": "but",
+     "start": 78.56,
+     "end": 78.8
+    },
+    {
      "text": "now",
-     "start": 79.55,
-     "end": 79.87
+     "start": 78.8,
+     "end": 79.14
     },
     {
      "text": "someone",
-     "start": 79.87,
-     "end": 80.15
-    },
-    {
-     "text": "is",
-     "start": 80.15,
-     "end": 80.39
+     "start": 79.14,
+     "end": 79.44
     }
    ]
   },
   {
-   "start": 80.39,
-   "end": 81.56,
+   "start": 79.44,
+   "end": 80.34,
    "words": [
     {
+     "text": "is",
+     "start": 79.44,
+     "end": 79.7
+    },
+    {
      "text": "actually",
-     "start": 80.39,
-     "end": 80.65
+     "start": 79.7,
+     "end": 80.02
     },
     {
      "text": "hitting",
-     "start": 80.65,
-     "end": 80.91
-    },
-    {
-     "text": "back.",
-     "start": 80.91,
-     "end": 81.37
+     "start": 80.02,
+     "end": 80.34
     }
    ]
   },
   {
-   "start": 81.56,
-   "end": 82.72,
+   "start": 80.34,
+   "end": 81.04,
+   "words": [
+    {
+     "text": "back.",
+     "start": 80.34,
+     "end": 80.64
+    }
+   ]
+  },
+  {
+   "start": 81.19,
+   "end": 82.3,
    "words": [
     {
      "text": "You",
-     "start": 81.56,
-     "end": 82.16
+     "start": 81.19,
+     "end": 81.76
     },
     {
      "text": "drop",
-     "start": 82.16,
-     "end": 82.46
+     "start": 81.76,
+     "end": 82.02
     },
     {
      "text": "your",
-     "start": 82.46,
-     "end": 82.72
+     "start": 82.02,
+     "end": 82.3
     }
    ]
   },
   {
-   "start": 82.72,
-   "end": 83.32,
+   "start": 82.3,
+   "end": 82.8,
    "words": [
     {
      "text": "guard,",
-     "start": 82.72,
-     "end": 82.92
+     "start": 82.3,
+     "end": 82.48
     }
    ]
   },
   {
-   "start": 83.34,
-   "end": 83.82,
+   "start": 82.8,
+   "end": 83.28,
    "words": [
     {
      "text": "you",
-     "start": 83.34,
-     "end": 83.48
+     "start": 82.8,
+     "end": 82.94
     },
     {
      "text": "eat",
-     "start": 83.48,
-     "end": 83.62
+     "start": 82.94,
+     "end": 83.06
     },
     {
      "text": "a",
-     "start": 83.62,
-     "end": 83.82
+     "start": 83.06,
+     "end": 83.28
     }
    ]
   },
   {
-   "start": 83.82,
-   "end": 84.36,
+   "start": 83.28,
+   "end": 83.78,
    "words": [
     {
      "text": "push",
-     "start": 83.82,
-     "end": 84.02
+     "start": 83.28,
+     "end": 83.48
     },
     {
      "text": "kick",
-     "start": 84.02,
-     "end": 84.16
+     "start": 83.48,
+     "end": 83.58
     },
     {
      "text": "to",
-     "start": 84.16,
-     "end": 84.36
+     "start": 83.58,
+     "end": 83.78
     }
    ]
   },
   {
-   "start": 84.36,
-   "end": 85.18,
+   "start": 83.78,
+   "end": 84.44,
    "words": [
     {
      "text": "the",
-     "start": 84.36,
-     "end": 84.48
+     "start": 83.78,
+     "end": 83.94
     },
     {
      "text": "stomach",
-     "start": 84.48,
-     "end": 84.78
+     "start": 83.94,
+     "end": 84.2
     },
     {
      "text": "and",
-     "start": 84.78,
-     "end": 85.18
+     "start": 84.2,
+     "end": 84.44
     }
    ]
   },
   {
-   "start": 85.18,
-   "end": 86.24,
+   "start": 84.44,
+   "end": 85.44,
    "words": [
     {
      "text": "for",
-     "start": 85.18,
-     "end": 85.44
+     "start": 84.44,
+     "end": 84.7
     },
     {
      "text": "a",
-     "start": 85.44,
-     "end": 85.58
+     "start": 84.7,
+     "end": 84.84
     },
     {
      "text": "second,",
-     "start": 85.58,
-     "end": 85.92
+     "start": 84.84,
+     "end": 85.12
     }
    ]
   },
   {
-   "start": 86.24,
-   "end": 87.57,
+   "start": 85.44,
+   "end": 86.62,
    "words": [
     {
      "text": "you",
-     "start": 86.24,
-     "end": 86.44
+     "start": 85.44,
+     "end": 85.66
     },
     {
      "text": "can't",
-     "start": 86.44,
-     "end": 87.17
-    }
-   ]
-  },
-  {
-   "start": 89.03,
-   "end": 87.93,
-   "words": [
+     "start": 85.66,
+     "end": 85.96
+    },
     {
      "text": "breathe.",
-     "start": 89.03,
-     "end": 87.63
+     "start": 85.96,
+     "end": 86.22
     }
    ]
   },
   {
-   "start": 87.93,
-   "end": 89.59,
+   "start": 86.97,
+   "end": 88.05,
    "words": [
     {
      "text": "Week",
-     "start": 87.93,
-     "end": 87.98
+     "start": 86.97,
+     "end": 87.13
     },
     {
      "text": "4,",
-     "start": 88.16,
-     "end": 89.19
+     "start": 87.13,
+     "end": 87.67
     }
    ]
   },
   {
-   "start": 89.69,
-   "end": 90.3,
+   "start": 88.05,
+   "end": 89.07,
    "words": [
     {
      "text": "fight",
-     "start": 89.69,
-     "end": 89.81
+     "start": 88.05,
+     "end": 88.25
     },
     {
      "text": "night.",
-     "start": 89.81,
-     "end": 90.13
+     "start": 88.25,
+     "end": 88.71
     }
    ]
   },
   {
-   "start": 90.3,
-   "end": 91.04,
+   "start": 89.07,
+   "end": 89.81,
    "words": [
     {
      "text": "The",
-     "start": 90.3,
-     "end": 90.52
+     "start": 89.07,
+     "end": 89.25
     },
     {
      "text": "stadium",
-     "start": 90.52,
-     "end": 90.74
+     "start": 89.25,
+     "end": 89.49
     },
     {
      "text": "is",
-     "start": 90.74,
-     "end": 91.04
+     "start": 89.49,
+     "end": 89.81
     }
    ]
   },
   {
-   "start": 91.04,
-   "end": 91.48,
+   "start": 89.81,
+   "end": 90.33,
    "words": [
     {
      "text": "loud",
-     "start": 91.04,
-     "end": 91.2
+     "start": 89.81,
+     "end": 89.99
     },
     {
      "text": "and",
-     "start": 91.2,
-     "end": 91.4
+     "start": 89.99,
+     "end": 90.19
     },
     {
      "text": "the",
-     "start": 91.4,
-     "end": 91.48
+     "start": 90.19,
+     "end": 90.33
     }
    ]
   },
   {
-   "start": 91.48,
-   "end": 92.66,
+   "start": 90.33,
+   "end": 91.43,
    "words": [
     {
      "text": "traditional",
-     "start": 91.48,
-     "end": 91.94
+     "start": 90.33,
+     "end": 90.73
     },
     {
      "text": "music",
-     "start": 91.94,
-     "end": 92.32
+     "start": 90.73,
+     "end": 91.09
     },
     {
-     "text": "start",
-     "start": 92.32,
-     "end": 92.66
+     "text": "starts",
+     "start": 91.09,
+     "end": 91.43
     }
    ]
   },
   {
-   "start": 92.66,
-   "end": 93.22,
+   "start": 91.43,
+   "end": 92.15,
    "words": [
     {
      "text": "as",
-     "start": 92.66,
-     "end": 92.88
+     "start": 91.43,
+     "end": 91.79
     },
     {
      "text": "you",
-     "start": 92.88,
-     "end": 93.06
+     "start": 91.79,
+     "end": 91.97
     },
     {
      "text": "walk",
-     "start": 93.06,
-     "end": 93.22
+     "start": 91.97,
+     "end": 92.15
     }
    ]
   },
   {
-   "start": 93.22,
-   "end": 94.13,
+   "start": 92.15,
+   "end": 92.99,
    "words": [
     {
      "text": "to",
-     "start": 93.22,
-     "end": 93.42
+     "start": 92.15,
+     "end": 92.33
     },
     {
      "text": "the",
-     "start": 93.42,
-     "end": 93.58
+     "start": 92.33,
+     "end": 92.47
     },
     {
      "text": "ring.",
-     "start": 93.58,
-     "end": 93.93
+     "start": 92.47,
+     "end": 92.8
     }
    ]
   },
   {
-   "start": 94.13,
-   "end": 95.12,
+   "start": 92.99,
+   "end": 93.92,
    "words": [
     {
      "text": "Three",
-     "start": 94.13,
-     "end": 94.45
+     "start": 92.99,
+     "end": 93.27
     },
     {
      "text": "rounds,",
-     "start": 94.45,
-     "end": 94.91
+     "start": 93.27,
+     "end": 93.73
     }
    ]
   },
   {
-   "start": 95.12,
-   "end": 96.52,
+   "start": 93.92,
+   "end": 95.28,
    "words": [
     {
      "text": "three",
-     "start": 95.12,
-     "end": 95.36
+     "start": 93.92,
+     "end": 94.16
     },
     {
      "text": "minutes",
-     "start": 95.36,
-     "end": 95.74
+     "start": 94.16,
+     "end": 94.5
     },
     {
      "text": "each.",
-     "start": 95.74,
-     "end": 96.12
+     "start": 94.5,
+     "end": 94.9
     }
    ]
   },
   {
-   "start": 96.54,
-   "end": 97.44,
+   "start": 95.28,
+   "end": 96.34,
    "words": [
     {
      "text": "It",
-     "start": 96.54,
-     "end": 96.86
+     "start": 95.28,
+     "end": 95.58
     },
     {
      "text": "sounds",
-     "start": 96.86,
-     "end": 97.08
+     "start": 95.58,
+     "end": 95.94
     },
     {
      "text": "short",
-     "start": 97.08,
-     "end": 97.44
+     "start": 95.94,
+     "end": 96.34
     }
    ]
   },
   {
-   "start": 97.44,
-   "end": 98.28,
+   "start": 96.34,
+   "end": 97.34,
    "words": [
     {
      "text": "until",
-     "start": 97.44,
-     "end": 97.82
+     "start": 96.34,
+     "end": 96.84
     },
     {
      "text": "the",
-     "start": 97.82,
-     "end": 98.08
+     "start": 96.84,
+     "end": 97.14
     },
     {
      "text": "first",
-     "start": 98.08,
-     "end": 98.28
+     "start": 97.14,
+     "end": 97.34
     }
    ]
   },
   {
-   "start": 98.28,
-   "end": 99.32,
+   "start": 97.34,
+   "end": 98.4,
    "words": [
     {
      "text": "round",
-     "start": 98.28,
-     "end": 98.44
+     "start": 97.34,
+     "end": 97.54
     },
     {
      "text": "ends",
-     "start": 98.44,
-     "end": 98.82
+     "start": 97.54,
+     "end": 97.96
     },
     {
      "text": "and",
-     "start": 98.82,
-     "end": 99.32
+     "start": 97.96,
+     "end": 98.4
     }
    ]
   },
   {
-   "start": 99.32,
-   "end": 100.06,
+   "start": 98.4,
+   "end": 99.22,
    "words": [
     {
      "text": "your",
-     "start": 99.32,
-     "end": 99.58
+     "start": 98.4,
+     "end": 98.66
     },
     {
      "text": "lungs",
-     "start": 99.58,
-     "end": 99.76
+     "start": 98.66,
+     "end": 98.9
     },
     {
      "text": "are",
-     "start": 99.76,
-     "end": 100.06
+     "start": 98.9,
+     "end": 99.22
     }
    ]
   },
   {
-   "start": 100.06,
-   "end": 101.46,
+   "start": 99.22,
+   "end": 100.64,
    "words": [
     {
      "text": "already",
-     "start": 100.06,
-     "end": 100.4
+     "start": 99.22,
+     "end": 99.54
     },
     {
      "text": "on",
-     "start": 100.4,
-     "end": 100.68
+     "start": 99.54,
+     "end": 99.86
     },
     {
      "text": "fire.",
-     "start": 100.68,
-     "end": 101.06
+     "start": 99.86,
+     "end": 100.24
+    }
+   ]
+  },
+  {
+   "start": 100.96,
+   "end": 101.52,
+   "words": [
+    {
+     "text": "So",
+     "start": 100.96,
+     "end": 101.08
+    },
+    {
+     "text": "what",
+     "start": 101.08,
+     "end": 101.28
+    },
+    {
+     "text": "does",
+     "start": 101.28,
+     "end": 101.52
     }
    ]
   },
   {
    "start": 101.52,
-   "end": 102.72,
-   "words": [
-    {
-     "text": "So",
-     "start": 101.52,
-     "end": 102.08
-    },
-    {
-     "text": "what",
-     "start": 102.08,
-     "end": 102.36
-    },
-    {
-     "text": "does",
-     "start": 102.36,
-     "end": 102.72
-    }
-   ]
-  },
-  {
-   "start": 102.72,
-   "end": 103.12,
+   "end": 101.96,
    "words": [
     {
      "text": "it",
-     "start": 102.72,
-     "end": 102.72
+     "start": 101.52,
+     "end": 101.64
     },
     {
      "text": "take",
-     "start": 102.72,
-     "end": 102.92
+     "start": 101.64,
+     "end": 101.8
     },
     {
      "text": "to",
-     "start": 102.92,
-     "end": 103.12
+     "start": 101.8,
+     "end": 101.96
     }
    ]
   },
   {
-   "start": 103.12,
-   "end": 104.01,
+   "start": 101.96,
+   "end": 102.81,
    "words": [
     {
      "text": "survive?",
-     "start": 103.12,
-     "end": 103.61
+     "start": 101.96,
+     "end": 102.46
     }
    ]
   },
   {
-   "start": 104.16,
-   "end": 104.76,
+   "start": 102.81,
+   "end": 103.33,
    "words": [
     {
      "text": "Cardio",
-     "start": 104.16,
-     "end": 104.38
+     "start": 102.81,
+     "end": 102.99
     },
     {
      "text": "for",
-     "start": 104.38,
-     "end": 104.58
+     "start": 102.99,
+     "end": 103.17
     },
     {
      "text": "the",
-     "start": 104.58,
-     "end": 104.76
+     "start": 103.17,
+     "end": 103.33
     }
    ]
   },
   {
-   "start": 104.76,
-   "end": 105.34,
+   "start": 103.33,
+   "end": 103.87,
    "words": [
     {
      "text": "heat,",
-     "start": 104.76,
-     "end": 105.01
+     "start": 103.33,
+     "end": 103.51
     }
    ]
   },
   {
-   "start": 105.34,
-   "end": 106.14,
+   "start": 103.87,
+   "end": 104.51,
    "words": [
     {
      "text": "shins",
-     "start": 105.34,
-     "end": 105.64
+     "start": 103.87,
+     "end": 104.09
     },
     {
      "text": "that",
-     "start": 105.64,
-     "end": 105.98
+     "start": 104.09,
+     "end": 104.27
     },
     {
      "text": "can",
-     "start": 105.98,
-     "end": 106.14
+     "start": 104.27,
+     "end": 104.51
     }
    ]
   },
   {
-   "start": 106.14,
-   "end": 107.07,
+   "start": 104.51,
+   "end": 105.65,
    "words": [
     {
      "text": "take",
-     "start": 106.14,
-     "end": 106.36
+     "start": 104.51,
+     "end": 104.75
     },
     {
      "text": "the",
-     "start": 106.36,
-     "end": 106.54
+     "start": 104.75,
+     "end": 104.97
     },
     {
      "text": "pain.",
-     "start": 106.54,
-     "end": 106.87
+     "start": 104.97,
+     "end": 105.25
     }
    ]
   },
   {
-   "start": 107.07,
-   "end": 107.83,
+   "start": 105.89,
+   "end": 107.15,
    "words": [
     {
      "text": "The",
-     "start": 107.07,
-     "end": 107.27
+     "start": 105.89,
+     "end": 106.55
     },
     {
      "text": "discipline",
-     "start": 107.27,
-     "end": 107.63
+     "start": 106.55,
+     "end": 106.97
     },
     {
      "text": "to",
-     "start": 107.63,
-     "end": 107.83
+     "start": 106.97,
+     "end": 107.15
     }
    ]
   },
   {
-   "start": 107.83,
-   "end": 108.33,
+   "start": 107.15,
+   "end": 107.69,
    "words": [
     {
      "text": "wake",
-     "start": 107.83,
-     "end": 107.99
+     "start": 107.15,
+     "end": 107.33
     },
     {
      "text": "up",
-     "start": 107.99,
-     "end": 108.13
+     "start": 107.33,
+     "end": 107.49
     },
     {
      "text": "at",
-     "start": 108.13,
-     "end": 108.33
+     "start": 107.49,
+     "end": 107.69
     }
    ]
   },
   {
-   "start": 108.33,
-   "end": 109.57,
+   "start": 107.69,
+   "end": 108.77,
    "words": [
     {
      "text": "six",
-     "start": 108.33,
-     "end": 108.63
+     "start": 107.69,
+     "end": 107.93
     },
     {
      "text": "every",
-     "start": 108.63,
-     "end": 109.23
+     "start": 107.93,
+     "end": 108.41
     },
     {
      "text": "single",
-     "start": 109.23,
-     "end": 109.57
+     "start": 108.41,
+     "end": 108.77
     }
    ]
   },
   {
-   "start": 109.57,
-   "end": 110.33,
+   "start": 108.77,
+   "end": 109.65,
    "words": [
     {
      "text": "day",
-     "start": 109.57,
-     "end": 109.85
+     "start": 108.77,
+     "end": 108.99
     },
     {
      "text": "and",
-     "start": 109.85,
-     "end": 110.17
+     "start": 108.99,
+     "end": 109.49
     },
     {
      "text": "the",
-     "start": 110.17,
-     "end": 110.33
+     "start": 109.49,
+     "end": 109.65
     }
    ]
   },
   {
-   "start": 110.33,
-   "end": 110.81,
+   "start": 109.65,
+   "end": 110.23,
    "words": [
     {
      "text": "heart",
-     "start": 110.33,
-     "end": 110.47
+     "start": 109.65,
+     "end": 109.77
     },
     {
      "text": "to",
-     "start": 110.47,
-     "end": 110.65
+     "start": 109.77,
+     "end": 110.01
     },
     {
      "text": "keep",
-     "start": 110.65,
-     "end": 110.81
+     "start": 110.01,
+     "end": 110.23
     }
    ]
   },
   {
-   "start": 110.81,
-   "end": 112.01,
+   "start": 110.23,
+   "end": 110.99,
    "words": [
     {
      "text": "going",
-     "start": 110.81,
-     "end": 111.17
+     "start": 110.23,
+     "end": 110.47
     },
     {
      "text": "when",
-     "start": 111.17,
-     "end": 111.75
+     "start": 110.47,
+     "end": 110.77
     },
     {
      "text": "your",
-     "start": 111.75,
-     "end": 112.01
+     "start": 110.77,
+     "end": 110.99
     }
    ]
   },
   {
-   "start": 112.01,
-   "end": 113.26,
+   "start": 110.99,
+   "end": 112.23,
    "words": [
     {
      "text": "body",
-     "start": 112.01,
-     "end": 112.29
+     "start": 110.99,
+     "end": 111.23
     },
     {
      "text": "says",
-     "start": 112.29,
-     "end": 112.57
+     "start": 111.23,
+     "end": 111.55
     },
     {
      "text": "stop.",
-     "start": 112.57,
-     "end": 112.9
+     "start": 111.55,
+     "end": 111.83
     }
    ]
   },
   {
-   "start": 113.26,
-   "end": 114.78,
+   "start": 112.26,
+   "end": 113.34,
    "words": [
     {
      "text": "So",
-     "start": 113.26,
-     "end": 113.44
+     "start": 112.26,
+     "end": 112.46
     },
     {
      "text": "be",
-     "start": 113.74,
-     "end": 114.0
+     "start": 112.46,
+     "end": 112.7
     },
     {
      "text": "honest,",
-     "start": 114.0,
-     "end": 114.4
+     "start": 112.7,
+     "end": 113.02
     }
    ]
   },
   {
-   "start": 114.78,
-   "end": 115.52,
+   "start": 113.34,
+   "end": 113.96,
    "words": [
     {
      "text": "would",
-     "start": 114.78,
-     "end": 114.92
+     "start": 113.34,
+     "end": 113.42
     },
     {
      "text": "you",
-     "start": 114.92,
-     "end": 115.24
+     "start": 113.42,
+     "end": 113.64
     },
     {
      "text": "survive",
-     "start": 115.24,
-     "end": 115.52
+     "start": 113.64,
+     "end": 113.96
     }
    ]
   },
   {
-   "start": 115.52,
-   "end": 116.04,
+   "start": 113.96,
+   "end": 114.58,
    "words": [
     {
      "text": "a",
-     "start": 115.52,
-     "end": 115.7
+     "start": 113.96,
+     "end": 114.18
     },
     {
      "text": "Muay",
-     "start": 115.7,
-     "end": 115.9
+     "start": 114.18,
+     "end": 114.4
     },
     {
      "text": "Thai",
-     "start": 115.9,
-     "end": 116.04
+     "start": 114.4,
+     "end": 114.58
     }
    ]
   },
   {
-   "start": 116.04,
-   "end": 116.73,
+   "start": 114.58,
+   "end": 115.32,
    "words": [
     {
      "text": "fight",
-     "start": 116.04,
-     "end": 116.36
+     "start": 114.58,
+     "end": 114.9
     },
     {
      "text": "camp?",
-     "start": 116.36,
-     "end": 116.62
+     "start": 114.9,
+     "end": 115.12
     }
    ]
   },
   {
-   "start": 116.73,
-   "end": 117.15,
+   "start": 115.32,
+   "end": 115.76,
    "words": [
     {
      "text": "Tell",
-     "start": 116.73,
-     "end": 116.91
+     "start": 115.32,
+     "end": 115.5
     },
     {
-     "text": "me",
-     "start": 116.91,
-     "end": 117.05
+     "text": "us",
+     "start": 115.5,
+     "end": 115.64
     },
     {
      "text": "in",
-     "start": 117.05,
-     "end": 117.15
+     "start": 115.64,
+     "end": 115.76
     }
    ]
   },
   {
-   "start": 117.15,
-   "end": 117.85,
+   "start": 115.76,
+   "end": 116.58,
    "words": [
     {
      "text": "the",
-     "start": 117.15,
-     "end": 117.35
+     "start": 115.76,
+     "end": 115.98
     },
     {
      "text": "comments",
-     "start": 117.35,
-     "end": 117.57
+     "start": 115.98,
+     "end": 116.24
     },
     {
      "text": "and",
-     "start": 117.57,
-     "end": 117.85
+     "start": 116.24,
+     "end": 116.58
     }
    ]
   },
   {
-   "start": 117.85,
-   "end": 119.0,
+   "start": 116.58,
+   "end": 117.74,
    "words": [
     {
      "text": "follow",
-     "start": 117.85,
-     "end": 118.11
+     "start": 116.58,
+     "end": 116.84
     },
     {
      "text": "for",
-     "start": 118.11,
-     "end": 118.35
+     "start": 116.84,
+     "end": 117.06
     },
     {
      "text": "more.",
-     "start": 118.35,
-     "end": 118.6
+     "start": 117.06,
+     "end": 117.34
     }
    ]
   }
  ],
  "sfx": [
   {
-   "t": 3.03,
+   "t": 2.82,
    "src": "whoosh_slide",
    "volume": 0.3
   },
   {
-   "t": 10.41,
+   "t": 9.47,
    "src": "cartoon_down",
    "volume": 0.4
   },
   {
-   "t": 11.7,
+   "t": 11.25,
    "src": "ring_bell",
    "volume": 0.45
   },
   {
-   "t": 11.7,
+   "t": 11.25,
    "src": "boom",
    "volume": 0.3
   },
   {
-   "t": 13.31,
+   "t": 12.9,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 14.45,
+   "t": 13.88,
    "src": "tick",
    "volume": 0.5
   },
   {
-   "t": 15.85,
+   "t": 15.06,
    "src": "ringtone",
    "volume": 0.35
   },
   {
-   "t": 22.64,
+   "t": 21.84,
    "src": "pop",
    "volume": 0.35
   },
   {
-   "t": 27.56,
+   "t": 26.14,
    "src": "cartoon_impact",
    "volume": 0.3
   },
   {
-   "t": 28.18,
+   "t": 27.38,
    "src": "whoosh_organic",
    "volume": 0.25
+  },
+  {
+   "t": 28.18,
+   "src": "punch_deep",
+   "volume": 0.35
   },
   {
    "t": 28.98,
@@ -2786,7 +2780,7 @@
    "volume": 0.35
   },
   {
-   "t": 33.36,
+   "t": 33.48,
    "src": "whistle",
    "volume": 0.4
   },
@@ -2826,167 +2820,162 @@
    "volume": 0.35
   },
   {
-   "t": 39.13,
+   "t": 38.79,
    "src": "cartoon_down",
    "volume": 0.35
   },
   {
-   "t": 39.38,
-   "src": "punch_deep",
-   "volume": 0.35
-  },
-  {
-   "t": 39.76,
+   "t": 39.58,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 41.56,
+   "t": 41.2,
    "src": "pop",
    "volume": 0.3
   },
   {
-   "t": 42.56,
+   "t": 42.22,
    "src": "punch_deep",
    "volume": 0.35
   },
   {
-   "t": 47.91,
+   "t": 47.88,
    "src": "thud",
    "volume": 0.45
   },
   {
-   "t": 52.54,
+   "t": 52.3,
    "src": "body_hit",
    "volume": 0.4
   },
   {
-   "t": 53.19,
+   "t": 53.11,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 56.29,
+   "t": 56.75,
    "src": "pop",
    "volume": 0.3
   },
   {
-   "t": 56.92,
+   "t": 57.35,
    "src": "pop",
    "volume": 0.3
   },
   {
-   "t": 57.49,
+   "t": 57.85,
    "src": "pop",
    "volume": 0.3
   },
   {
-   "t": 59.43,
+   "t": 59.45,
    "src": "pop",
    "volume": 0.3
   },
   {
-   "t": 60.17,
+   "t": 60.37,
    "src": "snap_glassy",
    "volume": 0.35
   },
   {
-   "t": 65.04,
+   "t": 64.53,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 66.53,
+   "t": 65.81,
    "src": "whoosh_slide",
    "volume": 0.3
   },
   {
-   "t": 75.97,
+   "t": 74.79,
    "src": "slam",
    "volume": 0.55
   },
   {
-   "t": 76.39,
+   "t": 75.11,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 77.97,
+   "t": 76.73,
    "src": "ring_bell",
    "volume": 0.35
   },
   {
-   "t": 83.82,
+   "t": 83.28,
    "src": "punch_deep",
    "volume": 0.55
   },
   {
-   "t": 87.65,
-   "src": "whoosh_organic",
-   "volume": 0.25
-  },
-  {
-   "t": 89.03,
+   "t": 85.96,
    "src": "dizzy",
    "volume": 0.35
   },
   {
-   "t": 90.52,
+   "t": 86.69,
+   "src": "whoosh_organic",
+   "volume": 0.25
+  },
+  {
+   "t": 89.25,
    "src": "crowd_cheer",
    "volume": 0.32
   },
   {
-   "t": 94.13,
+   "t": 92.99,
    "src": "ring_bell",
    "volume": 0.4
   },
   {
-   "t": 100.68,
+   "t": 99.86,
    "src": "whoosh_fast",
    "volume": 0.35
   },
   {
-   "t": 101.24,
+   "t": 100.68,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 104.16,
+   "t": 102.81,
    "src": "pop",
    "volume": 0.35
   },
   {
-   "t": 105.34,
+   "t": 103.87,
    "src": "pop",
    "volume": 0.35
   },
   {
-   "t": 107.27,
+   "t": 106.55,
    "src": "pop",
    "volume": 0.35
   },
   {
-   "t": 110.33,
+   "t": 109.65,
    "src": "pop",
    "volume": 0.35
   },
   {
-   "t": 112.98,
+   "t": 111.98,
    "src": "whoosh_organic",
    "volume": 0.25
   },
   {
-   "t": 115.24,
+   "t": 113.64,
    "src": "ring_bell",
    "volume": 0.4
   },
   {
-   "t": 117.35,
+   "t": 115.98,
    "src": "notif_a",
    "volume": 0.4
   },
   {
-   "t": 117.85,
+   "t": 116.58,
    "src": "pop",
    "volume": 0.35
   }

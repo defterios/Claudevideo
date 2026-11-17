@@ -77,7 +77,7 @@ const speaking = (d: D, t: number) => {
 
 const Sound: React.FC<{d: D; voice?: string; music: number}> = ({d, voice, music}) => {
   const {fps, durationInFrames} = useVideoConfig();
-  const duck = (f: number) => 1.5 - 0.5 * speaking(d, f / fps); // 1.0x under the voice, 1.5x in the gaps
+  const duck = (f: number) => 1.6 - 0.6 * speaking(d, f / fps); // 1.0x under the voice, 1.6x in the gaps
   return (
     <>
       {voice ? <Audio src={staticFile(voice)} /> : null}

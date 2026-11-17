@@ -6,7 +6,9 @@ import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import script_ep2 as SC
 
-REMOVE = [(35.0, 36.3), (57.2, 58.9)]  # profanity in a flubbed take; false start "Then comes the pad."
+# spans to drop (source seconds) and caption fixes for mis-heard words — per recording, via env
+REMOVE = json.loads(os.environ.get("REMOVE", "[]"))
+CAPFIX = json.loads(os.environ.get("CAPFIX", "{}"))
 MERGE, PAD_IN, PAD_OUT = 0.34, 0.06, 0.14
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("six", "6").replace("thirty", "30").replace("one", "1").replace("two", "2").replace("three", "3").replace("four", "4"))
 
@@ -23,7 +25,9 @@ for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, R, H, autojunk=False).g
     if tag == "equal" or (tag == "replace" and i2 - i1 == j2 - j1):
         for k in range(i2 - i1):
             times[i1 + k] = (hyp[j1 + k]["s"], hyp[j1 + k]["e"])
-            spoken[i1 + k] = hyp[j1 + k]["w"].strip()
+            sp = hyp[j1 + k]["w"].strip()
+            core = re.sub(r"[^A-Za-z0-9-]", "", sp)
+            spoken[i1 + k] = sp.replace(core, CAPFIX[core.lower()]) if core.lower() in CAPFIX else sp
             used_hyp.add(j1 + k)
     elif tag == "replace":  # unequal blocks: spread the spoken span over the script words
         used_hyp.update(range(j1, j2))
@@ -67,11 +71,18 @@ def split_silence(ps, pe):
     return parts
 
 def trim(ps, pe):
-    """move span edges in to where the voice actually starts/ends (energy based)"""
+    """snap span edges to where the voice really starts/ends: grow outward over adjacent voiced frames
+    (whisper word starts are often late), then shrink inward over leading/trailing silence"""
     i0, i1 = int(ps / 0.01), int(pe / 0.01)
-    loud = np.where(_env[i0:i1] > SIL_DB)[0]
+    lo = i0
+    while lo > max(0, i0 - 45) and _env[lo - 1] > SIL_DB:  # voiced right before the span -> include it
+        lo -= 1
+    hi = i1
+    while hi < min(len(_env), i1 + 30) and _env[hi] > SIL_DB:
+        hi += 1
+    loud = np.where(_env[lo:hi] > SIL_DB)[0]
     if len(loud) == 0: return ps, pe
-    return max(ps, ps + loud[0] * 0.01 - 0.09), min(pe, ps + loud[-1] * 0.01 + 0.1)
+    return lo * 0.01 + loud[0] * 0.01 - 0.09, lo * 0.01 + loud[-1] * 0.01 + 0.1
 
 def edit(lines, name):
     out_words, pieces, t = [], [], 0.12
@@ -79,7 +90,7 @@ def edit(lines, name):
     for n in lines:
         scene = SC.LONG[n - 1][0]
         if prev_scene is not None:
-            t += 0.3 if scene != prev_scene else 0.14   # gap between sentences
+            t += 0.2 if scene != prev_scene else 0.08   # gap between sentences
         prev_scene = scene
         idx = [i for i, (ln, _) in enumerate(ref) if ln == n]
         items = [(times[i][0], times[i][1], spoken[i] or ref[i][1], ref[i][1]) for i in idx]
