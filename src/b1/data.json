@@ -1,0 +1,1415 @@
+{
+ "duration": 82.2,
+ "lines": [
+  {
+   "n": 1,
+   "scene": "carpenter",
+   "bid": "Slama 30 sowa, yeh jek eh tukang koyuh. Doi nyaa piruh eh.",
+   "en": "For thirty years, he was just a carpenter. Nobody noticed him.",
+   "tempter": false,
+   "start": 0.25,
+   "end": 5.24
+  },
+  {
+   "n": 2,
+   "scene": "river",
+   "bid": "Jadi daang 1 pagi, yeh meh muun ke sungi.",
+   "en": "Then one morning, he stepped into a river.",
+   "tempter": false,
+   "start": 5.84,
+   "end": 11.37
+  },
+  {
+   "n": 3,
+   "scene": "river",
+   "bid": "Longit pun meh tibuka",
+   "en": "And the sky tore open.",
+   "tempter": false,
+   "start": 11.79,
+   "end": 13.13
+  },
+  {
+   "n": 4,
+   "scene": "river",
+   "bid": "Ogi suara nang: Muu onak Ku, Oku nyayang muu.",
+   "en": "A voice said: You are my Son. I love you.",
+   "tempter": false,
+   "start": 13.55,
+   "end": 17.11
+  },
+  {
+   "n": 5,
+   "scene": "desert",
+   "bid": "Mokuo de munu tia? Yeh meh toban dep eh ke padang pasir.",
+   "en": "And right after that? He was driven into the desert.",
+   "tempter": false,
+   "start": 17.71,
+   "end": 21.71
+  },
+  {
+   "n": 6,
+   "scene": "desert",
+   "bid": "40 onu. Doi pinguman. Jek eh bonguh, batuh, duoh binatang buas.",
+   "en": "Forty days. No food. Just heat, stone, and wild animals.",
+   "tempter": false,
+   "start": 22.13,
+   "end": 28.21
+  },
+  {
+   "n": 7,
+   "scene": "whisper",
+   "bid": "Mokuo inuh meh ogi suara nang.",
+   "en": "Then came a whisper.",
+   "tempter": false,
+   "start": 28.81,
+   "end": 31.02
+  },
+  {
+   "n": 8,
+   "scene": "bread",
+   "bid": "Muu neh pirai, duok tukar batuh itih jadi ruti",
+   "en": "You're starving. Turn this stone into bread.",
+   "tempter": true,
+   "start": 31.77,
+   "end": 35.76
+  },
+  {
+   "n": 9,
+   "scene": "bread",
+   "bid": "Yeh meh nang: Misia ideh di eh idip pakai pinguman sija.",
+   "en": "He said: man does not live on bread alone.",
+   "tempter": false,
+   "start": 36.18,
+   "end": 41.15
+  },
+  {
+   "n": 10,
+   "scene": "jump",
+   "bid": "Bitabung. Pikirien mu onak Topa.",
+   "en": "Jump. Prove who you are.",
+   "tempter": true,
+   "start": 41.9,
+   "end": 44.62
+  },
+  {
+   "n": 11,
+   "scene": "jump",
+   "bid": "Yeh nang in eh: Ma mu suba Topa.",
+   "en": "He said: do not test God.",
+   "tempter": false,
+   "start": 45.04,
+   "end": 48.09
+  },
+  {
+   "n": 12,
+   "scene": "bow",
+   "bid": "Sujud tudu oku, tie suo de muti jadi tu dimu. Doi monam, doi salip.",
+   "en": "Bow to me, and all of this is yours. No pain. No cross.",
+   "tempter": true,
+   "start": 48.84,
+   "end": 55.38
+  },
+  {
+   "n": 13,
+   "scene": "bow",
+   "bid": "Yeh de meh pirai, kowek, sadi eh ade.",
+   "en": "He was starving. Shaking. Completely alone.",
+   "tempter": false,
+   "start": 55.8,
+   "end": 58.78
+  },
+  {
+   "n": 14,
+   "scene": "bow",
+   "bid": "Meh in eh: Buu",
+   "en": "And he said: Go.",
+   "tempter": false,
+   "start": 59.2,
+   "end": 61.0
+  },
+  {
+   "n": 15,
+   "scene": "angels",
+   "bid": "Muot pun meh buu. Ju Malaikat meh neg.",
+   "en": "The whisper left. And angels came.",
+   "tempter": false,
+   "start": 61.6,
+   "end": 64.29
+  },
+  {
+   "n": 16,
+   "scene": "angels",
+   "bid": "Jesus ruah suo padang pasir inuh romah, kowek tapi masih gogah mun pimonu eh.",
+   "en": "He walked out of that desert thin, sunburnt, and unstoppable.",
+   "tempter": false,
+   "start": 64.71,
+   "end": 70.25
+  },
+  {
+   "n": 17,
+   "scene": "kingdom",
+   "bid": "Masa meh rie neg, Pritah Topa meh sinek.",
+   "en": "The time has come. The kingdom of God is near.",
+   "tempter": false,
+   "start": 70.85,
+   "end": 74.72
+  },
+  {
+   "n": 18,
+   "scene": "title",
+   "bid": "Episod 1: Padang Pasir. Follow suo part 2.",
+   "en": "Episode one: The Wilderness. Follow for part two.",
+   "tempter": false,
+   "start": 75.32,
+   "end": 80.0
+  }
+ ],
+ "scenes": [
+  {
+   "id": "carpenter",
+   "start": 0,
+   "lines": [
+    1
+   ],
+   "end": 5.54
+  },
+  {
+   "id": "river",
+   "start": 5.54,
+   "lines": [
+    2,
+    3,
+    4
+   ],
+   "end": 17.41
+  },
+  {
+   "id": "desert",
+   "start": 17.41,
+   "lines": [
+    5,
+    6
+   ],
+   "end": 28.51
+  },
+  {
+   "id": "whisper",
+   "start": 28.51,
+   "lines": [
+    7
+   ],
+   "end": 31.47
+  },
+  {
+   "id": "bread",
+   "start": 31.47,
+   "lines": [
+    8,
+    9
+   ],
+   "end": 41.6
+  },
+  {
+   "id": "jump",
+   "start": 41.6,
+   "lines": [
+    10,
+    11
+   ],
+   "end": 48.54
+  },
+  {
+   "id": "bow",
+   "start": 48.54,
+   "lines": [
+    12,
+    13,
+    14
+   ],
+   "end": 61.3
+  },
+  {
+   "id": "angels",
+   "start": 61.3,
+   "lines": [
+    15,
+    16
+   ],
+   "end": 70.55
+  },
+  {
+   "id": "kingdom",
+   "start": 70.55,
+   "lines": [
+    17
+   ],
+   "end": 75.02
+  },
+  {
+   "id": "title",
+   "start": 75.02,
+   "lines": [
+    18
+   ],
+   "end": 82.2
+  }
+ ],
+ "pages": [
+  {
+   "line": 1,
+   "start": 0.33,
+   "end": 1.37,
+   "words": [
+    {
+     "text": "Slama",
+     "start": 0.33
+    },
+    {
+     "text": "30",
+     "start": 0.77
+    },
+    {
+     "text": "sowa,",
+     "start": 1.02
+    }
+   ]
+  },
+  {
+   "line": 1,
+   "start": 1.37,
+   "end": 2.14,
+   "words": [
+    {
+     "text": "yeh",
+     "start": 1.37
+    },
+    {
+     "text": "jek",
+     "start": 1.64
+    },
+    {
+     "text": "eh",
+     "start": 1.92
+    }
+   ]
+  },
+  {
+   "line": 1,
+   "start": 2.14,
+   "end": 3.17,
+   "words": [
+    {
+     "text": "tukang",
+     "start": 2.14
+    },
+    {
+     "text": "koyuh.",
+     "start": 2.75
+    }
+   ]
+  },
+  {
+   "line": 1,
+   "start": 3.17,
+   "end": 4.88,
+   "words": [
+    {
+     "text": "Doi",
+     "start": 3.17
+    },
+    {
+     "text": "nyaa",
+     "start": 4.06
+    },
+    {
+     "text": "piruh",
+     "start": 4.48
+    }
+   ]
+  },
+  {
+   "line": 1,
+   "start": 4.88,
+   "end": 5.6,
+   "words": [
+    {
+     "text": "eh.",
+     "start": 4.88
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "start": 5.92,
+   "end": 7.44,
+   "words": [
+    {
+     "text": "Jadi",
+     "start": 5.92
+    },
+    {
+     "text": "daang",
+     "start": 6.42
+    },
+    {
+     "text": "1",
+     "start": 7.12
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "start": 7.44,
+   "end": 7.99,
+   "words": [
+    {
+     "text": "pagi,",
+     "start": 7.44
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "start": 7.99,
+   "end": 10.24,
+   "words": [
+    {
+     "text": "yeh",
+     "start": 7.99
+    },
+    {
+     "text": "meh",
+     "start": 8.41
+    },
+    {
+     "text": "muun",
+     "start": 9.42
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "start": 10.24,
+   "end": 11.84,
+   "words": [
+    {
+     "text": "ke",
+     "start": 10.24
+    },
+    {
+     "text": "sungi.",
+     "start": 10.59
+    }
+   ]
+  },
+  {
+   "line": 3,
+   "start": 11.87,
+   "end": 12.63,
+   "words": [
+    {
+     "text": "Longit",
+     "start": 11.87
+    },
+    {
+     "text": "pun",
+     "start": 12.21
+    },
+    {
+     "text": "meh",
+     "start": 12.42
+    }
+   ]
+  },
+  {
+   "line": 3,
+   "start": 12.63,
+   "end": 13.48,
+   "words": [
+    {
+     "text": "tibuka",
+     "start": 12.63
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "start": 13.63,
+   "end": 14.65,
+   "words": [
+    {
+     "text": "Ogi",
+     "start": 13.63
+    },
+    {
+     "text": "suara",
+     "start": 13.86
+    },
+    {
+     "text": "nang:",
+     "start": 14.21
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "start": 14.65,
+   "end": 16.01,
+   "words": [
+    {
+     "text": "Muu",
+     "start": 14.65
+    },
+    {
+     "text": "onak",
+     "start": 15.49
+    },
+    {
+     "text": "Ku,",
+     "start": 15.82
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "start": 16.01,
+   "end": 17.46,
+   "words": [
+    {
+     "text": "Oku",
+     "start": 16.01
+    },
+    {
+     "text": "nyayang",
+     "start": 16.25
+    },
+    {
+     "text": "muu.",
+     "start": 16.7
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 17.79,
+   "end": 18.64,
+   "words": [
+    {
+     "text": "Mokuo",
+     "start": 17.79
+    },
+    {
+     "text": "de",
+     "start": 18.13
+    },
+    {
+     "text": "munu",
+     "start": 18.31
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 18.64,
+   "end": 18.87,
+   "words": [
+    {
+     "text": "tia?",
+     "start": 18.64
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 18.87,
+   "end": 19.71,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 18.87
+    },
+    {
+     "text": "meh",
+     "start": 19.1
+    },
+    {
+     "text": "toban",
+     "start": 19.38
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 19.71,
+   "end": 20.41,
+   "words": [
+    {
+     "text": "dep",
+     "start": 19.71
+    },
+    {
+     "text": "eh",
+     "start": 19.99
+    },
+    {
+     "text": "ke",
+     "start": 20.23
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "start": 20.41,
+   "end": 22.06,
+   "words": [
+    {
+     "text": "padang",
+     "start": 20.41
+    },
+    {
+     "text": "pasir.",
+     "start": 20.83
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 22.21,
+   "end": 22.79,
+   "words": [
+    {
+     "text": "40",
+     "start": 22.21
+    },
+    {
+     "text": "onu.",
+     "start": 22.5
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 22.79,
+   "end": 24.03,
+   "words": [
+    {
+     "text": "Doi",
+     "start": 22.79
+    },
+    {
+     "text": "pinguman.",
+     "start": 23.09
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 24.03,
+   "end": 25.3,
+   "words": [
+    {
+     "text": "Jek",
+     "start": 24.03
+    },
+    {
+     "text": "eh",
+     "start": 24.41
+    },
+    {
+     "text": "bonguh,",
+     "start": 24.81
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 25.3,
+   "end": 26.68,
+   "words": [
+    {
+     "text": "batuh,",
+     "start": 25.3
+    }
+   ]
+  },
+  {
+   "line": 6,
+   "start": 26.68,
+   "end": 28.56,
+   "words": [
+    {
+     "text": "duoh",
+     "start": 26.68
+    },
+    {
+     "text": "binatang",
+     "start": 27.04
+    },
+    {
+     "text": "buas.",
+     "start": 27.69
+    }
+   ]
+  },
+  {
+   "line": 7,
+   "start": 28.89,
+   "end": 29.93,
+   "words": [
+    {
+     "text": "Mokuo",
+     "start": 28.89
+    },
+    {
+     "text": "inuh",
+     "start": 29.36
+    },
+    {
+     "text": "meh",
+     "start": 29.67
+    }
+   ]
+  },
+  {
+   "line": 7,
+   "start": 29.93,
+   "end": 31.37,
+   "words": [
+    {
+     "text": "ogi",
+     "start": 29.93
+    },
+    {
+     "text": "suara",
+     "start": 30.18
+    },
+    {
+     "text": "nang.",
+     "start": 30.55
+    }
+   ]
+  },
+  {
+   "line": 8,
+   "start": 31.85,
+   "end": 32.84,
+   "words": [
+    {
+     "text": "Muu",
+     "start": 31.85
+    },
+    {
+     "text": "neh",
+     "start": 32.11
+    },
+    {
+     "text": "pirai,",
+     "start": 32.45
+    }
+   ]
+  },
+  {
+   "line": 8,
+   "start": 32.84,
+   "end": 34.58,
+   "words": [
+    {
+     "text": "duok",
+     "start": 32.84
+    },
+    {
+     "text": "tukar",
+     "start": 33.73
+    },
+    {
+     "text": "batuh",
+     "start": 34.16
+    }
+   ]
+  },
+  {
+   "line": 8,
+   "start": 34.58,
+   "end": 36.11,
+   "words": [
+    {
+     "text": "itih",
+     "start": 34.58
+    },
+    {
+     "text": "jadi",
+     "start": 34.91
+    },
+    {
+     "text": "ruti",
+     "start": 35.24
+    }
+   ]
+  },
+  {
+   "line": 9,
+   "start": 36.26,
+   "end": 37.42,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 36.26
+    },
+    {
+     "text": "meh",
+     "start": 36.82
+    },
+    {
+     "text": "nang:",
+     "start": 37.09
+    }
+   ]
+  },
+  {
+   "line": 9,
+   "start": 37.42,
+   "end": 38.96,
+   "words": [
+    {
+     "text": "Misia",
+     "start": 37.42
+    },
+    {
+     "text": "ideh",
+     "start": 38.42
+    },
+    {
+     "text": "di",
+     "start": 38.75
+    }
+   ]
+  },
+  {
+   "line": 9,
+   "start": 38.96,
+   "end": 40.09,
+   "words": [
+    {
+     "text": "eh",
+     "start": 38.96
+    },
+    {
+     "text": "idip",
+     "start": 39.17
+    },
+    {
+     "text": "pakai",
+     "start": 39.5
+    }
+   ]
+  },
+  {
+   "line": 9,
+   "start": 40.09,
+   "end": 41.5,
+   "words": [
+    {
+     "text": "pinguman",
+     "start": 40.09
+    },
+    {
+     "text": "sija.",
+     "start": 40.66
+    }
+   ]
+  },
+  {
+   "line": 10,
+   "start": 41.98,
+   "end": 42.56,
+   "words": [
+    {
+     "text": "Bitabung.",
+     "start": 41.98
+    }
+   ]
+  },
+  {
+   "line": 10,
+   "start": 42.56,
+   "end": 44.07,
+   "words": [
+    {
+     "text": "Pikirien",
+     "start": 42.56
+    },
+    {
+     "text": "mu",
+     "start": 43.44
+    },
+    {
+     "text": "onak",
+     "start": 43.66
+    }
+   ]
+  },
+  {
+   "line": 10,
+   "start": 44.07,
+   "end": 44.97,
+   "words": [
+    {
+     "text": "Topa.",
+     "start": 44.07
+    }
+   ]
+  },
+  {
+   "line": 11,
+   "start": 45.12,
+   "end": 45.93,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 45.12
+    },
+    {
+     "text": "nang",
+     "start": 45.39
+    },
+    {
+     "text": "in",
+     "start": 45.72
+    }
+   ]
+  },
+  {
+   "line": 11,
+   "start": 45.93,
+   "end": 46.74,
+   "words": [
+    {
+     "text": "eh:",
+     "start": 45.93
+    }
+   ]
+  },
+  {
+   "line": 11,
+   "start": 46.74,
+   "end": 47.52,
+   "words": [
+    {
+     "text": "Ma",
+     "start": 46.74
+    },
+    {
+     "text": "mu",
+     "start": 46.96
+    },
+    {
+     "text": "suba",
+     "start": 47.17
+    }
+   ]
+  },
+  {
+   "line": 11,
+   "start": 47.52,
+   "end": 48.44,
+   "words": [
+    {
+     "text": "Topa.",
+     "start": 47.52
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 48.92,
+   "end": 50.25,
+   "words": [
+    {
+     "text": "Sujud",
+     "start": 48.92
+    },
+    {
+     "text": "tudu",
+     "start": 49.4
+    },
+    {
+     "text": "oku,",
+     "start": 49.89
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 50.25,
+   "end": 51.43,
+   "words": [
+    {
+     "text": "tie",
+     "start": 50.25
+    },
+    {
+     "text": "suo",
+     "start": 50.62
+    },
+    {
+     "text": "de",
+     "start": 51.17
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 51.43,
+   "end": 52.55,
+   "words": [
+    {
+     "text": "muti",
+     "start": 51.43
+    },
+    {
+     "text": "jadi",
+     "start": 51.84
+    },
+    {
+     "text": "tu",
+     "start": 52.29
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 52.55,
+   "end": 52.96,
+   "words": [
+    {
+     "text": "dimu.",
+     "start": 52.55
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 52.96,
+   "end": 54.38,
+   "words": [
+    {
+     "text": "Doi",
+     "start": 52.96
+    },
+    {
+     "text": "monam,",
+     "start": 53.9
+    }
+   ]
+  },
+  {
+   "line": 12,
+   "start": 54.38,
+   "end": 55.74,
+   "words": [
+    {
+     "text": "doi",
+     "start": 54.38
+    },
+    {
+     "text": "salip.",
+     "start": 54.75
+    }
+   ]
+  },
+  {
+   "line": 13,
+   "start": 55.88,
+   "end": 56.67,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 55.88
+    },
+    {
+     "text": "de",
+     "start": 56.15
+    },
+    {
+     "text": "meh",
+     "start": 56.35
+    }
+   ]
+  },
+  {
+   "line": 13,
+   "start": 56.67,
+   "end": 57.18,
+   "words": [
+    {
+     "text": "pirai,",
+     "start": 56.67
+    }
+   ]
+  },
+  {
+   "line": 13,
+   "start": 57.18,
+   "end": 57.81,
+   "words": [
+    {
+     "text": "kowek,",
+     "start": 57.18
+    }
+   ]
+  },
+  {
+   "line": 13,
+   "start": 57.81,
+   "end": 59.13,
+   "words": [
+    {
+     "text": "sadi",
+     "start": 57.81
+    },
+    {
+     "text": "eh",
+     "start": 58.13
+    },
+    {
+     "text": "ade.",
+     "start": 58.33
+    }
+   ]
+  },
+  {
+   "line": 14,
+   "start": 59.28,
+   "end": 60.57,
+   "words": [
+    {
+     "text": "Meh",
+     "start": 59.28
+    },
+    {
+     "text": "in",
+     "start": 59.55
+    },
+    {
+     "text": "eh:",
+     "start": 59.76
+    }
+   ]
+  },
+  {
+   "line": 14,
+   "start": 60.57,
+   "end": 61.35,
+   "words": [
+    {
+     "text": "Buu",
+     "start": 60.57
+    }
+   ]
+  },
+  {
+   "line": 15,
+   "start": 61.69,
+   "end": 62.55,
+   "words": [
+    {
+     "text": "Muot",
+     "start": 61.69
+    },
+    {
+     "text": "pun",
+     "start": 62.06
+    },
+    {
+     "text": "meh",
+     "start": 62.3
+    }
+   ]
+  },
+  {
+   "line": 15,
+   "start": 62.55,
+   "end": 62.88,
+   "words": [
+    {
+     "text": "buu.",
+     "start": 62.55
+    }
+   ]
+  },
+  {
+   "line": 15,
+   "start": 62.88,
+   "end": 63.9,
+   "words": [
+    {
+     "text": "Ju",
+     "start": 62.88
+    },
+    {
+     "text": "Malaikat",
+     "start": 63.07
+    },
+    {
+     "text": "meh",
+     "start": 63.65
+    }
+   ]
+  },
+  {
+   "line": 15,
+   "start": 63.9,
+   "end": 64.65,
+   "words": [
+    {
+     "text": "neg.",
+     "start": 63.9
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 64.79,
+   "end": 65.7,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 64.79
+    },
+    {
+     "text": "ruah",
+     "start": 65.13
+    },
+    {
+     "text": "suo",
+     "start": 65.42
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 65.7,
+   "end": 66.74,
+   "words": [
+    {
+     "text": "padang",
+     "start": 65.7
+    },
+    {
+     "text": "pasir",
+     "start": 66.11
+    },
+    {
+     "text": "inuh",
+     "start": 66.45
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 66.74,
+   "end": 67.09,
+   "words": [
+    {
+     "text": "romah,",
+     "start": 66.74
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 67.09,
+   "end": 68.92,
+   "words": [
+    {
+     "text": "kowek",
+     "start": 67.09
+    },
+    {
+     "text": "tapi",
+     "start": 68.04
+    },
+    {
+     "text": "masih",
+     "start": 68.57
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 68.92,
+   "end": 69.92,
+   "words": [
+    {
+     "text": "gogah",
+     "start": 68.92
+    },
+    {
+     "text": "mun",
+     "start": 69.26
+    },
+    {
+     "text": "pimonu",
+     "start": 69.52
+    }
+   ]
+  },
+  {
+   "line": 16,
+   "start": 69.92,
+   "end": 70.61,
+   "words": [
+    {
+     "text": "eh.",
+     "start": 69.92
+    }
+   ]
+  },
+  {
+   "line": 17,
+   "start": 70.93,
+   "end": 72.05,
+   "words": [
+    {
+     "text": "Masa",
+     "start": 70.93
+    },
+    {
+     "text": "meh",
+     "start": 71.55
+    },
+    {
+     "text": "rie",
+     "start": 71.8
+    }
+   ]
+  },
+  {
+   "line": 17,
+   "start": 72.05,
+   "end": 72.31,
+   "words": [
+    {
+     "text": "neg,",
+     "start": 72.05
+    }
+   ]
+  },
+  {
+   "line": 17,
+   "start": 72.31,
+   "end": 74.14,
+   "words": [
+    {
+     "text": "Pritah",
+     "start": 72.31
+    },
+    {
+     "text": "Topa",
+     "start": 73.22
+    },
+    {
+     "text": "meh",
+     "start": 73.58
+    }
+   ]
+  },
+  {
+   "line": 17,
+   "start": 74.14,
+   "end": 75.07,
+   "words": [
+    {
+     "text": "sinek.",
+     "start": 74.14
+    }
+   ]
+  },
+  {
+   "line": 18,
+   "start": 75.41,
+   "end": 76.32,
+   "words": [
+    {
+     "text": "Episod",
+     "start": 75.41
+    },
+    {
+     "text": "1:",
+     "start": 75.96
+    }
+   ]
+  },
+  {
+   "line": 18,
+   "start": 76.32,
+   "end": 77.64,
+   "words": [
+    {
+     "text": "Padang",
+     "start": 76.32
+    },
+    {
+     "text": "Pasir.",
+     "start": 77.13
+    }
+   ]
+  },
+  {
+   "line": 18,
+   "start": 77.64,
+   "end": 79.59,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 77.64
+    },
+    {
+     "text": "suo",
+     "start": 78.8
+    },
+    {
+     "text": "part",
+     "start": 79.14
+    }
+   ]
+  },
+  {
+   "line": 18,
+   "start": 79.59,
+   "end": 80.36,
+   "words": [
+    {
+     "text": "2.",
+     "start": 79.59
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "40",
+  "batuh",
+  "bitabung",
+  "buu",
+  "episod",
+  "gogah",
+  "jesus",
+  "koyuh",
+  "longit",
+  "malaikat",
+  "nyayang",
+  "onak",
+  "onu",
+  "padang",
+  "pasir",
+  "pinguman",
+  "pirai",
+  "pritah",
+  "ruti",
+  "salip",
+  "sujud",
+  "sungi",
+  "topa",
+  "tukang"
+ ]
+}

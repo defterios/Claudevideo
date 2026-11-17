@@ -2,7 +2,7 @@ import React, {useMemo} from 'react';
 import * as THREE from 'three';
 
 /** Cute big-head 3D character (reference style). Units: ~1 = 1 m. Feet at y=0. */
-export type Look = {skin: string; shirt: string; shorts: string; hair?: string; headband?: string; beard?: boolean; cap?: string};
+export type Look = {skin: string; shirt: string; shorts: string; hair?: string; headband?: string; beard?: boolean; cap?: string; robe?: string; sash?: string; longHair?: boolean; glow?: number};
 export type Expr = 'happy' | 'neutral' | 'scared' | 'tired' | 'shock' | 'determined' | 'pain' | 'yell';
 export type Limbs = {armL: number; armR: number; elbowL?: number; elbowR?: number; legL?: number; legR?: number; lean?: number; headTilt?: number; headTurn?: number; bob?: number; armOutL?: number; armOutR?: number};
 
@@ -48,12 +48,28 @@ export const Character: React.FC<{look: Look; expr?: Expr; limbs: Limbs; t: numb
         <group position={[0.13, 0.62, 0]}>
           <Limb len={0.62} r={0.075} mat={mats.skin} rot={limbs.legR ?? 0} hand={mats.black} handR={0.1} />
         </group>
-        {/* shorts + body */}
-        <mesh position={[0, 0.66, 0]} material={mats.shorts} castShadow>
-          <cylinderGeometry args={[0.25, 0.27, 0.22, 20]} />
-        </mesh>
-        <mesh position={[0, 0.98, 0]} material={mats.shirt} castShadow>
+        {/* shorts + body (or a long robe) */}
+        {look.robe ? (
+          <>
+            <mesh position={[0, 0.66, 0]} castShadow>
+              <cylinderGeometry args={[0.27, 0.42, 1.02, 24]} />
+              <meshStandardMaterial color={look.robe} roughness={0.85} emissive={look.robe} emissiveIntensity={look.glow ?? 0} />
+            </mesh>
+            {look.sash ? (
+              <mesh position={[0, 0.92, 0]} rotation={[0, 0, 0.55]}>
+                <torusGeometry args={[0.27, 0.035, 8, 28]} />
+                <meshStandardMaterial color={look.sash} roughness={0.6} />
+              </mesh>
+            ) : null}
+          </>
+        ) : (
+          <mesh position={[0, 0.66, 0]} material={mats.shorts} castShadow>
+            <cylinderGeometry args={[0.25, 0.27, 0.22, 20]} />
+          </mesh>
+        )}
+        <mesh position={[0, 0.98, 0]} castShadow>
           <capsuleGeometry args={[0.24, 0.32, 8, 20]} />
+          <meshStandardMaterial color={look.robe ?? look.shirt} roughness={0.8} emissive={look.robe ?? '#000'} emissiveIntensity={look.glow ?? 0} />
         </mesh>
         {/* arms */}
         <group position={[-0.3, 1.18, 0]}>
@@ -70,6 +86,11 @@ export const Character: React.FC<{look: Look; expr?: Expr; limbs: Limbs; t: numb
           <mesh position={[0, 0.1, -0.03]} scale={[1.02, 0.78, 1.02]} material={mats.hair}>
             <sphereGeometry args={[0.42, 32, 24, 0, Math.PI * 2, 0, Math.PI * 0.42]} />
           </mesh>
+          {look.longHair ? (
+            <mesh position={[0, -0.02, -0.12]} scale={[1.08, 1.15, 0.95]} material={mats.hair}>
+              <sphereGeometry args={[0.42, 32, 24, Math.PI * 0.62, Math.PI * 1.76, 0, Math.PI * 0.82]} />
+            </mesh>
+          ) : null}
           {look.beard ? (
             <mesh position={[0, -0.1, 0.02]} scale={[1, 0.8, 1]} material={mats.hair}>
               <sphereGeometry args={[0.415, 32, 20, Math.PI * 0.2, Math.PI * 0.6, Math.PI * 0.68, Math.PI * 0.3]} />

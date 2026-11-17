@@ -5,9 +5,9 @@ import {Character, Limbs, Look, Sign} from './char';
 import {Bag, Beach, Camp, Palm, Ring, Stadium} from './sets';
 
 export type P3 = {t: number; dur: number; cue: (n: string, f?: number) => number; wide: boolean};
-const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const e = (x: number, a: number, b: number) => interpolate(x, [a, b], [0, 1], {...cl, easing: Easing.inOut(Easing.cubic)});
-const pop = (t: number, at: number) => spring({frame: Math.round((t - at) * 30), fps: 30, config: {damping: 12, stiffness: 160}});
+export const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+export const e = (x: number, a: number, b: number) => interpolate(x, [a, b], [0, 1], {...cl, easing: Easing.inOut(Easing.cubic)});
+export const pop = (t: number, at: number) => spring({frame: Math.round((t - at) * 30), fps: 30, config: {damping: 12, stiffness: 160}});
 const lerp = (a: number[], b: number[], p: number) => a.map((v, i) => v + (b[i] - v) * p);
 
 export const YOU: Look = {skin: '#8d5a3b', shirt: '#f4f1e8', shorts: '#c0392b', headband: '#c0392b'};
@@ -24,7 +24,7 @@ const kick = (p: number): Limbs => ({...GUARD, legR: -1.5 * p, lean: -0.18 * p, 
 const TIRED: Limbs = {armL: 0.15, armR: 0.2, elbowL: -0.2, elbowR: -0.2, lean: 0.32, headTilt: 0.3, legL: 0.1, legR: -0.1};
 
 /** camera with keyframes; tall (9:16) frames pull back so everything fits horizontally */
-const Cam: React.FC<{keys: {t: number; pos: number[]; look: number[]}[]; t: number; wide: boolean}> = ({keys, t, wide}) => {
+export const Cam: React.FC<{keys: {t: number; pos: number[]; look: number[]}[]; t: number; wide: boolean}> = ({keys, t, wide}) => {
   const {camera} = useThree();
   let a = keys[0], b = keys[keys.length - 1];
   for (let i = 0; i < keys.length - 1; i++) if (t >= keys[i].t && t <= keys[i + 1].t) { a = keys[i]; b = keys[i + 1]; }
@@ -40,7 +40,7 @@ const Cam: React.FC<{keys: {t: number; pos: number[]; look: number[]}[]; t: numb
   return null;
 };
 
-const Warm: React.FC<{key1?: string; amb?: number; sun?: number[]}> = ({key1 = '#ffd29a', amb = 0.45, sun = [3, 6, 4]}) => (
+export const Warm: React.FC<{key1?: string; amb?: number; sun?: number[]}> = ({key1 = '#ffd29a', amb = 0.45, sun = [3, 6, 4]}) => (
   <>
     <ambientLight intensity={amb} color="#ffd9b0" />
     <directionalLight position={sun as [number, number, number]} intensity={2.4} color={key1} castShadow shadow-mapSize={[1024, 1024]} shadow-camera-left={-8} shadow-camera-right={8} shadow-camera-top={8} shadow-camera-bottom={-8} />
