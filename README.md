@@ -93,3 +93,8 @@ Compositions `FollowTall` / `FollowWide` (`src/v9/`), sharing the player in `src
 ## Episode 2 Bidayuh — "Nuna Oku"
 `cd scripts/wilderness && EP=2 python3 bidayuh.py raw.wav <build dir>` (lines + cue-word aliases in `LINES2`, extra pauses in `EXTRA_PAUSE`),
 then `EP=2 python3 scripts/wilderness/build.py <build dir> _bdy`; compositions `FollowTallBdy` / `FollowWideBdy`.
+
+---
+# Jesus series, Episode 3 — "Through the Roof" (Mark 2:1-17), TikTok only
+Composition `RoofTall` (`src/v10/`). Script `scripts/wilderness/script_ep3.py`, cues `scripts/wilderness/sound_ep3.py`.
+`SCRIPT=script_ep3 python3 tts.py …` → `EP=3 python3 scripts/wilderness/build.py <build dir>` → `npx remotion render RoofTall out/through_the_roof_tiktok_9x16.mp4 --crf=18`.

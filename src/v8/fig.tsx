@@ -17,6 +17,15 @@ export const ZEBEDEE: Look = {skin: '#CF9670', hair: '#D9D4CC', tunic: '#6E6A5E'
 export const MOTHER: Look = {skin: '#D9A07C', hair: '#3A2A22', tunic: '#8E4E5A', sash: '#C9A35A', style: 'hood', wrap: '#4F6B78', beard: false};
 export const POSSESSED: Look = {skin: '#B9A08C', hair: '#2E2420', tunic: '#7D7468', sash: '#4A443C', style: 'wild', beard: true};
 export const LEPER: Look = {skin: '#C9AFA0', hair: '#5A5048', tunic: '#9A9288', sash: '#6A6258', style: 'hood', wrap: '#8B8378', beard: true, spots: 1};
+export const PARALYTIC: Look = {skin: '#D2A07E', hair: '#4A3426', tunic: '#B7AE9C', sash: '#7A705E', style: 'short', beard: true, gaunt: 0.4};
+export const LEVI: Look = {skin: '#D8A27A', hair: '#2A1C14', tunic: '#6B3E8E', sash: '#D9A93A', style: 'short', beard: false};
+export const SCRIBE: Look = {skin: '#D0A07C', hair: '#3A2E26', tunic: '#EDE6D6', sash: '#3E5C9A', style: 'hood', wrap: '#F2EEE4', beard: true};
+export const FRIENDS: Look[] = [
+  {skin: '#C98E64', hair: '#2E1E16', tunic: '#C0663A', sash: '#6E3218', style: 'short', beard: true},
+  {skin: '#E0AC84', hair: '#5A3A22', tunic: '#5E8A5A', sash: '#2F4A2C', style: 'long', beard: false},
+  {skin: '#B9845E', hair: '#1E1612', tunic: '#C9A04A', sash: '#6A5020', style: 'wild', beard: true},
+  {skin: '#D9A07C', hair: '#3A2418', tunic: '#4F6F9A', sash: '#2A3C58', style: 'short', beard: false},
+];
 export const SHADOW: Look = {skin: '#150a12', hair: '#0b0509', tunic: '#150a12', style: 'long', beard: false, shadow: true};
 
 export const P: Record<string, Pose> = {
