@@ -3,7 +3,8 @@ Writes voice.wav (24 kHz mono) and timing.json (segments + estimated word times)
 import sys, json, os, re, wave
 import numpy as np
 from kokoro_onnx import Kokoro
-import script as SC
+import importlib
+SC = importlib.import_module(os.environ.get("SCRIPT", "script"))
 
 mdir, out = sys.argv[1], sys.argv[2]
 k = Kokoro(os.path.join(mdir, "kokoro-v1.0.onnx"), os.path.join(mdir, "voices-v1.0.bin"))
@@ -12,7 +13,8 @@ LEAD = 0.5
 buf = [np.zeros(int(LEAD * SR), np.float32)]
 t = LEAD
 segs = []
-for scene, text, voice, speed, pause, keys in SC.LINES:
+for n, (scene, text, voice, speed, pause, keys) in enumerate(SC.LINES):
+    lead = getattr(SC, "END_LEAD", 0) if n == len(SC.LINES) - 1 else 0
     s, sr = k.create(text, voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
     assert sr == SR
     s = s.astype(np.float32)
@@ -30,13 +32,14 @@ for scene, text, voice, speed, pause, keys in SC.LINES:
         for i, x in enumerate(s):
             y += a * (x - y); o[i] = y
         s = o / max(1e-6, np.abs(o).max()) * 0.85
+    if lead: s = np.concatenate([np.zeros(int(lead * SR), np.float32), s])
     dur = len(s) / SR
     # estimated word timings: weight by letters, extra weight after punctuation (pauses)
     words = text.split()
     wts = [len(re.sub(r"[^A-Za-z']", "", w)) + 1.5 + (4.5 if re.search(r"[.?!:]$", w) else 2.0 if w.endswith(",") else 0) for w in words]
     tot = sum(wts); acc = 0; wl = []
     for w, wt in zip(words, wts):
-        wl.append({"text": w, "start": round(t + (dur - 0.1) * acc / tot, 3), "key": re.sub(r"[^A-Za-z']", "", w) in keys})
+        wl.append({"text": w, "start": round(t + lead + (dur - lead - 0.1) * acc / tot, 3), "key": re.sub(r"[^A-Za-z']", "", w) in keys})
         acc += wt
     segs.append({"scene": scene, "text": text, "tempter": voice == SC.T, "start": round(t, 3), "end": round(t + dur, 3), "words": wl})
     buf.append(s); buf.append(np.zeros(int(pause * SR), np.float32))

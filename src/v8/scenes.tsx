@@ -3,49 +3,49 @@ import {Easing, interpolate} from 'remotion';
 import {Bust, Fig, INK, JESUS, JOHN, Look, P, SHADOW, mix, walk} from './fig';
 
 export type SP = {t: number; dur: number; w: (word: string, fallback?: number) => number; segs: number[]; wide: boolean; W: number; H: number};
-type C3 = {x: number; y: number; z: number; rot?: number};
-const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const k = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], {...cl, easing: Easing.inOut(Easing.cubic)});
-const ko = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], {...cl, easing: Easing.out(Easing.cubic)});
-const lin = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], cl);
-const lerp = (a: number, b: number, p: number) => a + (b - a) * p;
-const rnd = (i: number) => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
-const BIG = 3200;
-const FOOT = 300;
+export type C3 = {x: number; y: number; z: number; rot?: number};
+export const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+export const k = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], {...cl, easing: Easing.inOut(Easing.cubic)});
+export const ko = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], {...cl, easing: Easing.out(Easing.cubic)});
+export const lin = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], cl);
+export const lerp = (a: number, b: number, p: number) => a + (b - a) * p;
+export const rnd = (i: number) => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+export const BIG = 3200;
+export const FOOT = 300;
 
-const Cam: React.FC<{c: C3; p: SP; children: React.ReactNode}> = ({c, p, children}) => (
+export const Cam: React.FC<{c: C3; p: SP; children: React.ReactNode}> = ({c, p, children}) => (
   <g transform={`translate(${p.W / 2} ${p.H / 2}) scale(${(p.wide ? 0.78 : 1) * c.z}) rotate(${c.rot ?? 0}) translate(${-c.x} ${-c.y})`}>{children}</g>
 );
 /** parallax: d=1 moves with the world, d=0 is glued to the camera */
-const par = (c: C3, d: number) => `translate(${c.x * (1 - d)} ${c.y * (1 - d)})`;
-const Fill: React.FC<{fill: string; o?: number}> = ({fill, o = 1}) => <rect x={-BIG} y={-BIG} width={BIG * 2} height={BIG * 2} fill={fill} opacity={o} />;
-const Ground: React.FC<{y?: number; fill: string; line?: boolean}> = ({y = FOOT, fill, line = true}) => (
+export const par = (c: C3, d: number) => `translate(${c.x * (1 - d)} ${c.y * (1 - d)})`;
+export const Fill: React.FC<{fill: string; o?: number}> = ({fill, o = 1}) => <rect x={-BIG} y={-BIG} width={BIG * 2} height={BIG * 2} fill={fill} opacity={o} />;
+export const Ground: React.FC<{y?: number; fill: string; line?: boolean}> = ({y = FOOT, fill, line = true}) => (
   <g><rect x={-BIG} y={y} width={BIG * 2} height={BIG} fill={fill} />{line ? <line x1={-BIG} y1={y} x2={BIG} y2={y} stroke={INK} strokeWidth={8} /> : null}</g>
 );
-const Glow: React.FC<{x: number; y: number; r: number; o?: number; id?: string}> = ({x, y, r, o = 1, id = 'gGold'}) => <circle cx={x} cy={y} r={r} fill={`url(#${id})`} opacity={o} />;
-const Mesa: React.FC<{x: number; y: number; w: number; h: number; fill: string; shade?: string; stroke?: boolean}> = ({x, y, w, h, fill, shade, stroke = true}) => (
+export const Glow: React.FC<{x: number; y: number; r: number; o?: number; id?: string}> = ({x, y, r, o = 1, id = 'gGold'}) => <circle cx={x} cy={y} r={r} fill={`url(#${id})`} opacity={o} />;
+export const Mesa: React.FC<{x: number; y: number; w: number; h: number; fill: string; shade?: string; stroke?: boolean}> = ({x, y, w, h, fill, shade, stroke = true}) => (
   <g>
     <path d={`M ${x - w / 2 - h * 0.22} ${y} L ${x - w / 2} ${y - h} L ${x + w / 2} ${y - h} L ${x + w / 2 + h * 0.22} ${y} Z`} fill={fill} stroke={stroke ? INK : 'none'} strokeWidth={7} strokeLinejoin="round" />
     {shade ? <path d={`M ${x + w * 0.12} ${y - h} L ${x + w / 2} ${y - h} L ${x + w / 2 + h * 0.22} ${y} L ${x + w * 0.2} ${y} Z`} fill={shade} opacity={0.6} /> : null}
     {[0.3, 0.55, 0.78].map((f, i) => <line key={i} x1={x - w / 2 - h * 0.22 * f + 6} y1={y - h * (1 - f)} x2={x + w / 2 + h * 0.22 * f - 6} y2={y - h * (1 - f)} stroke={INK} strokeWidth={3} opacity={0.22} />)}
   </g>
 );
-const Rock: React.FC<{x: number; y: number; s?: number; fill?: string}> = ({x, y, s = 1, fill = '#B79A7C'}) => (
+export const Rock: React.FC<{x: number; y: number; s?: number; fill?: string}> = ({x, y, s = 1, fill = '#B79A7C'}) => (
   <path d={`M ${x - 46 * s} ${y} Q ${x - 50 * s} ${y - 40 * s} ${x - 14 * s} ${y - 52 * s} Q ${x + 34 * s} ${y - 58 * s} ${x + 48 * s} ${y - 18 * s} L ${x + 52 * s} ${y} Z`} fill={fill} stroke={INK} strokeWidth={7} strokeLinejoin="round" />
 );
-const Stars: React.FC<{n?: number; t: number; o?: number}> = ({n = 90, t, o = 1}) => (
+export const Stars: React.FC<{n?: number; t: number; o?: number}> = ({n = 90, t, o = 1}) => (
   <g opacity={o}>{Array.from({length: n}).map((_, i) => <circle key={i} cx={(rnd(i) - 0.5) * 3000} cy={(rnd(i + 99) - 0.5) * 2400 - 300} r={1.5 + rnd(i + 7) * 3.2} fill="#fff" opacity={0.45 + 0.5 * Math.sin(t * (1.5 + rnd(i) * 3) + i)} />)}</g>
 );
-const Sun: React.FC<{x: number; y: number; r: number; fill?: string}> = ({x, y, r, fill = '#FFF1C9'}) => (<g><Glow x={x} y={y} r={r * 4.5} o={0.75} /><circle cx={x} cy={y} r={r} fill={fill} /></g>);
-const Wind: React.FC<{t: number; o: number; n?: number; col?: string}> = ({t, o, n = 12, col = '#fff'}) => (
+export const Sun: React.FC<{x: number; y: number; r: number; fill?: string}> = ({x, y, r, fill = '#FFF1C9'}) => (<g><Glow x={x} y={y} r={r * 4.5} o={0.75} /><circle cx={x} cy={y} r={r} fill={fill} /></g>);
+export const Wind: React.FC<{t: number; o: number; n?: number; col?: string}> = ({t, o, n = 12, col = '#fff'}) => (
   <g opacity={o}>{Array.from({length: n}).map((_, i) => { const sp = 900 + rnd(i) * 900; const x = (((t * sp + rnd(i + 3) * 3000) % 3000) + 3000) % 3000 - 1500; const y = (rnd(i + 11) - 0.5) * 1700; return <line key={i} x1={-x} y1={y} x2={-x + 150 + rnd(i) * 220} y2={y} stroke={col} strokeWidth={4} strokeLinecap="round" opacity={0.25 + rnd(i + 5) * 0.4} />; })}</g>
 );
-const Dust: React.FC<{t: number; o: number; col?: string; n?: number; up?: boolean}> = ({t, o, col = '#F5D9A8', n = 40, up}) => (
+export const Dust: React.FC<{t: number; o: number; col?: string; n?: number; up?: boolean}> = ({t, o, col = '#F5D9A8', n = 40, up}) => (
   <g opacity={o}>{Array.from({length: n}).map((_, i) => { const ph = (t * (0.12 + rnd(i) * 0.2) + rnd(i + 2)) % 1; const x = (rnd(i + 5) - 0.5) * 2400 + Math.sin(t + i) * 30; const y = up ? FOOT - ph * 900 : (rnd(i + 9) - 0.5) * 1800 + Math.sin(t * 0.7 + i) * 20; return <circle key={i} cx={x} cy={y} r={2 + rnd(i + 1) * 4} fill={col} opacity={up ? (1 - ph) * 0.8 : 0.35} />; })}</g>
 );
 
-const GREY = (i: number): Look => ({skin: ['#B9997F', '#A98C74', '#C2A389'][i % 3], hair: ['#3a302c', '#2e2826', '#4a3e38'][i % 3], tunic: ['#8C8377', '#7B7469', '#9A9184'][i % 3], sash: '#5c554d', style: i % 2 ? 'short' : 'long', beard: i % 2 === 0});
-const Hammer = (<g><rect x={-6} y={-8} width={12} height={92} rx={4} fill="#7a5233" stroke={INK} strokeWidth={5} /><rect x={-28} y={74} width={56} height={32} rx={5} fill="#6f7178" stroke={INK} strokeWidth={6} /></g>);
+export const GREY = (i: number): Look => ({skin: ['#B9997F', '#A98C74', '#C2A389'][i % 3], hair: ['#3a302c', '#2e2826', '#4a3e38'][i % 3], tunic: ['#8C8377', '#7B7469', '#9A9184'][i % 3], sash: '#5c554d', style: i % 2 ? 'short' : 'long', beard: i % 2 === 0});
+export const Hammer = (<g><rect x={-6} y={-8} width={12} height={92} rx={4} fill="#7a5233" stroke={INK} strokeWidth={5} /><rect x={-28} y={74} width={56} height={32} rx={5} fill="#6f7178" stroke={INK} strokeWidth={6} /></g>);
 
 /* ------------------------------------------------------------------ 1. river */
 const River: React.FC<SP> = (p) => {
@@ -228,7 +228,7 @@ const Drive: React.FC<SP> = (p) => {
 };
 
 /* ------------------------------------------------------------------ 5. forty days */
-const Hyena: React.FC<{x: number; y: number; s?: number; flip?: boolean; t: number; lie?: boolean; dark?: boolean}> = ({x, y, s = 1, flip, t, lie, dark}) => {
+export const Hyena: React.FC<{x: number; y: number; s?: number; flip?: boolean; t: number; lie?: boolean; dark?: boolean}> = ({x, y, s = 1, flip, t, lie, dark}) => {
   const f = dark ? '#120c14' : '#A58A66';
   const st = dark ? '#000' : INK;
   const leg = (lx: number, ph: number) => lie ? null : <line x1={lx} y1={-60} x2={lx + Math.sin(t * 7 + ph) * 22} y2={0} stroke={st} strokeWidth={18} strokeLinecap="round" />;
@@ -297,7 +297,7 @@ const Fast: React.FC<SP> = (p) => {
 };
 
 /* ------------------------------------------------------------------ 6. bread */
-const Stone: React.FC<{bread: number; t: number}> = ({bread, t}) => (
+export const Stone: React.FC<{bread: number; t: number}> = ({bread, t}) => (
   <g>
     {bread > 0 ? <Glow x={0} y={0} r={190 * bread} o={0.9} /> : null}
     <path d="M -46 10 Q -52 -30 -10 -38 Q 40 -42 50 -4 Q 52 24 0 28 Q -40 28 -46 10 Z" fill={bread > 0.5 ? '#D99848' : '#9C968E'} stroke={bread > 0.5 ? '#5a2f12' : INK} strokeWidth={7} strokeLinejoin="round" />
@@ -396,7 +396,7 @@ const Temple: React.FC<SP> = (p) => {
 };
 
 /* ------------------------------------------------------------------ 8. the kingdoms */
-const Skyline: React.FC<{y: number; seed: number; col: string; t: number; h: number}> = ({y, seed, col, t, h}) => (
+export const Skyline: React.FC<{y: number; seed: number; col: string; t: number; h: number}> = ({y, seed, col, t, h}) => (
   <g>
     {Array.from({length: 46}).map((_, i) => { const x = -1700 + i * 76 + rnd(i + seed) * 30; const hh = h * (0.35 + rnd(i + seed * 3)); const kind = Math.floor(rnd(i + seed * 7) * 4); const fl = 0.75 + 0.25 * Math.sin(t * 3 + i + seed);
       return <g key={i} opacity={fl} stroke={col} strokeWidth={5} fill="none" strokeLinejoin="round">
@@ -407,7 +407,7 @@ const Skyline: React.FC<{y: number; seed: number; col: string; t: number; h: num
     <line x1={-BIG} y1={y} x2={BIG} y2={y} stroke={col} strokeWidth={5} />
   </g>
 );
-const Giant: React.FC<{t: number; o?: number; eyes?: number}> = ({t, o = 1, eyes = 1}) => (
+export const Giant: React.FC<{t: number; o?: number; eyes?: number}> = ({t, o = 1, eyes = 1}) => (
   <g opacity={o}>
     <path d={`M -1500 ${BIG} L -1400 -200 Q -1200 -520 -640 -560 Q -620 -1250 0 -1280 Q 620 -1250 640 -560 Q 1200 -520 1400 -200 L 1500 ${BIG} Z`} fill="#050208" />
     {[-1, 1].map((s) => <g key={s}><ellipse cx={s * 250} cy={-900} rx={130} ry={46 * eyes + Math.sin(t * 2) * 4} fill="#fff" /><ellipse cx={s * 250} cy={-900} rx={260} ry={150} fill="url(#gWhite)" opacity={0.35} /></g>)}
@@ -477,7 +477,7 @@ const Go: React.FC<SP> = (p) => {
 };
 
 /* ------------------------------------------------------------------ 10. angels */
-const Angel: React.FC<{x: number; y: number; s: number; o: number; t: number; i: number; bow?: number}> = ({x, y, s, o, t, i, bow = 0}) => (
+export const Angel: React.FC<{x: number; y: number; s: number; o: number; t: number; i: number; bow?: number}> = ({x, y, s, o, t, i, bow = 0}) => (
   <g transform={`translate(${x} ${y + Math.sin(t * 1.3 + i) * 10}) scale(${s})`} opacity={o}>
     <ellipse cx={0} cy={-330} rx={520} ry={640} fill="url(#gWhite)" opacity={0.75} />
     {[-1, 1].map((sd) => <path key={sd} d={`M ${sd * 30} -480 Q ${sd * (330 + Math.sin(t * 2 + i) * 30)} -760 ${sd * 250} -260 Q ${sd * 140} -330 ${sd * 30} -330 Z`} fill="#FFF8DC" stroke="#F2B64E" strokeWidth={5} opacity={0.75} />)}
@@ -511,7 +511,7 @@ const Angels: React.FC<SP> = (p) => {
 };
 
 /* ------------------------------------------------------------------ 11. out of the desert */
-const Boat: React.FC<{x: number; y: number; s: number; t: number}> = ({x, y, s, t}) => (
+export const Boat: React.FC<{x: number; y: number; s: number; t: number}> = ({x, y, s, t}) => (
   <g transform={`translate(${x} ${y + Math.sin(t * 1.5 + x) * 5}) scale(${s}) rotate(${Math.sin(t * 1.2 + x) * 2})`}>
     <path d="M -80 0 Q 0 46 80 0 L 60 -6 L -60 -6 Z" fill="#7a4f2f" stroke={INK} strokeWidth={6} strokeLinejoin="round" />
     <line x1={0} y1={-6} x2={0} y2={-120} stroke={INK} strokeWidth={6} /><path d="M 6 -116 L 70 -30 L 6 -24 Z" fill="#F3E6C8" stroke={INK} strokeWidth={5} strokeLinejoin="round" />
@@ -593,6 +593,10 @@ export const Defs: React.FC = () => {
       {lg('skyGold', [[0, '#FFB52E'], [0.45, '#FFD469'], [0.75, '#FFEBA8']])}
       {lg('skyRose', [[0, '#7E6A9A'], [0.4, '#E39A93'], [0.7, '#FFD3A8']])}
       {lg('skyDay', [[0, '#3E8FD0'], [0.45, '#8CC6EA'], [0.72, '#DDF0F4']])}
+      {lg('skySea', [[0, '#6C86B8'], [0.45, '#E7B59A'], [0.7, '#FCE3BE']])}
+      {lg('skyDusk', [[0, '#2E3466'], [0.45, '#B4607A'], [0.72, '#F4A867']])}
+      {lg('wallStone', [[0, '#7A6250'], [0.5, '#A8876A'], [0.75, '#C9A884']])}
+      {lg('roomNight', [[0, '#1B1426'], [0.5, '#3A2838'], [0.75, '#5A3C3A']])}
       <linearGradient id="gFloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#FFB347" stopOpacity={0.7} /><stop offset="1" stopColor="#FFB347" stopOpacity={0} /></linearGradient>
       {rg('gGold', '#FFD98A')}
       {rg('gWhite', '#FFFFFF')}

@@ -1,0 +1,1593 @@
+{
+ "duration": 69.271,
+ "scenes": [
+  {
+   "id": "shore",
+   "start": 0.0,
+   "segs": [
+    0.5,
+    5.186
+   ],
+   "w": {
+    "he": 0.5,
+    "walked": 0.669,
+    "along": 1.033,
+    "the": 1.347,
+    "sea": 1.565,
+    "of": 1.783,
+    "galilee": 1.953,
+    "two": 2.582,
+    "brothers": 2.8,
+    "were": 3.26,
+    "throwing": 3.527,
+    "their": 3.987,
+    "nets": 4.302,
+    "simon": 5.186,
+    "and": 5.517,
+    "andrew": 5.746,
+    "fishermen": 6.356,
+    "up": 7.119,
+    "all": 7.297,
+    "night": 7.526,
+    "nothing": 8.188
+   },
+   "end": 9.019
+  },
+  {
+   "id": "call",
+   "start": 9.019,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "said": 0.446,
+    "follow": 0.922,
+    "me": 1.279,
+    "i": 1.66,
+    "will": 1.779,
+    "make": 2.04,
+    "you": 2.302,
+    "fishers": 2.516,
+    "of": 2.921,
+    "people": 3.087
+   },
+   "end": 12.947
+  },
+  {
+   "id": "drop",
+   "start": 12.947,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "right": 0.493,
+    "away": 0.8,
+    "they": 1.154,
+    "dropped": 1.414,
+    "their": 1.816,
+    "nets": 2.123
+   },
+   "end": 15.812
+  },
+  {
+   "id": "zebedee",
+   "start": 15.812,
+   "segs": [
+    0.28,
+    4.616
+   ],
+   "w": {
+    "a": 0.28,
+    "little": 0.405,
+    "further": 0.778,
+    "james": 1.301,
+    "and": 1.625,
+    "john": 1.849,
+    "were": 2.123,
+    "in": 2.397,
+    "the": 2.572,
+    "boat": 2.796,
+    "with": 3.07,
+    "their": 3.344,
+    "father": 3.668,
+    "he": 4.616,
+    "called": 4.774,
+    "them": 5.115,
+    "they": 5.568,
+    "left": 5.817,
+    "everything": 7.337
+   },
+   "end": 24.194
+  },
+  {
+   "id": "synagogue",
+   "start": 24.194,
+   "segs": [
+    0.28,
+    3.885
+   ],
+   "w": {
+    "in": 0.28,
+    "capernaum": 0.457,
+    "he": 1.088,
+    "stood": 1.264,
+    "up": 1.592,
+    "the": 1.945,
+    "synagogue": 2.172,
+    "and": 2.702,
+    "taught": 2.929,
+    "not": 3.885,
+    "like": 4.098,
+    "scholars": 4.571,
+    "someone": 5.494,
+    "with": 5.896,
+    "authority": 6.156
+   },
+   "end": 31.23
+  },
+  {
+   "id": "demon",
+   "start": 31.23,
+   "segs": [
+    0.28,
+    2.723
+   ],
+   "w": {
+    "then": 0.28,
+    "a": 0.608,
+    "man": 0.756,
+    "started": 1.024,
+    "screaming": 1.53,
+    "what": 2.723,
+    "do": 2.962,
+    "you": 3.114,
+    "want": 3.309,
+    "with": 3.548,
+    "us": 3.787,
+    "i": 4.134,
+    "know": 4.243,
+    "who": 4.481,
+    "are": 4.872
+   },
+   "end": 36.713
+  },
+  {
+   "id": "rebuke",
+   "start": 36.713,
+   "segs": [
+    0.28,
+    3.132
+   ],
+   "w": {
+    "he": 0.28,
+    "said": 0.446,
+    "be": 0.922,
+    "quiet": 1.089,
+    "come": 1.612,
+    "out": 1.874,
+    "of": 2.088,
+    "him": 2.254,
+    "the": 3.132,
+    "man": 3.366,
+    "shook": 3.599,
+    "cried": 4.041,
+    "and": 4.715,
+    "it": 4.949,
+    "was": 5.131,
+    "gone": 5.364
+   },
+   "end": 43.016
+  },
+  {
+   "id": "house",
+   "start": 43.016,
+   "segs": [
+    0.28,
+    4.342
+   ],
+   "w": {
+    "that": 0.28,
+    "evening": 0.583,
+    "simon's": 1.161,
+    "motherinlaw": 1.629,
+    "was": 2.317,
+    "burning": 2.565,
+    "with": 3.033,
+    "fever": 3.336,
+    "he": 4.342,
+    "took": 4.51,
+    "her": 4.775,
+    "by": 4.992,
+    "the": 5.161,
+    "hand": 5.378,
+    "left": 6.39
+   },
+   "end": 50.425
+  },
+  {
+   "id": "door",
+   "start": 50.425,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "by": 0.28,
+    "sunset": 0.468,
+    "the": 0.977,
+    "whole": 1.219,
+    "town": 1.568,
+    "was": 1.863,
+    "at": 2.104,
+    "door": 2.533
+   },
+   "end": 53.815
+  },
+  {
+   "id": "leper",
+   "start": 53.815,
+   "segs": [
+    0.28,
+    2.997
+   ],
+   "w": {
+    "then": 0.28,
+    "a": 0.614,
+    "leper": 0.765,
+    "fell": 1.16,
+    "to": 1.494,
+    "his": 1.706,
+    "knees": 1.979,
+    "if": 2.997,
+    "you": 3.165,
+    "want": 3.381,
+    "can": 4.126,
+    "make": 4.342,
+    "me": 4.607,
+    "clean": 4.775
+   },
+   "end": 59.339
+  },
+  {
+   "id": "touch",
+   "start": 59.339,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "nobody": 0.28,
+    "touched": 0.656,
+    "lepers": 1.082,
+    "he": 1.685,
+    "him": 2.287,
+    "and": 2.512,
+    "said": 2.738,
+    "i": 3.24,
+    "want": 3.366,
+    "to": 3.641,
+    "be": 4.043,
+    "clean": 4.219
+   },
+   "end": 64.829
+  },
+  {
+   "id": "end",
+   "start": 64.829,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "follow": 1.98,
+    "for": 2.365,
+    "part": 2.596,
+    "three": 2.878
+   },
+   "end": 69.271
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.565,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "walked",
+     "start": 0.669,
+     "key": false
+    },
+    {
+     "text": "along",
+     "start": 1.033,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 1.347,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.565,
+   "end": 2.582,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Sea",
+     "start": 1.565,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 1.783,
+     "key": false
+    },
+    {
+     "text": "Galilee.",
+     "start": 1.953,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 2.582,
+   "end": 3.987,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Two",
+     "start": 2.582,
+     "key": false
+    },
+    {
+     "text": "brothers",
+     "start": 2.8,
+     "key": false
+    },
+    {
+     "text": "were",
+     "start": 3.26,
+     "key": false
+    },
+    {
+     "text": "throwing",
+     "start": 3.527,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 3.987,
+   "end": 5.136,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "their",
+     "start": 3.987,
+     "key": false
+    },
+    {
+     "text": "nets.",
+     "start": 4.302,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 5.186,
+   "end": 6.356,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Simon",
+     "start": 5.186,
+     "key": true
+    },
+    {
+     "text": "and",
+     "start": 5.517,
+     "key": false
+    },
+    {
+     "text": "Andrew.",
+     "start": 5.746,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 6.356,
+   "end": 7.959,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Fishermen.",
+     "start": 6.356,
+     "key": false
+    },
+    {
+     "text": "Up",
+     "start": 7.119,
+     "key": false
+    },
+    {
+     "text": "all",
+     "start": 7.297,
+     "key": false
+    },
+    {
+     "text": "night,",
+     "start": 7.526,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 7.959,
+   "end": 9.199,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 7.959,
+     "key": false
+    },
+    {
+     "text": "nothing.",
+     "start": 8.188,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 9.299,
+   "end": 9.941,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 9.299,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 9.465,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.941,
+   "end": 10.679,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 9.941,
+     "key": true
+    },
+    {
+     "text": "me.",
+     "start": 10.298,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.679,
+   "end": 11.535,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 10.679,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 10.798,
+     "key": false
+    },
+    {
+     "text": "make",
+     "start": 11.059,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 11.321,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.535,
+   "end": 13.027,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "fishers",
+     "start": 11.535,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 11.94,
+     "key": false
+    },
+    {
+     "text": "people.",
+     "start": 12.106,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 13.227,
+   "end": 14.101,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 13.227,
+     "key": false
+    },
+    {
+     "text": "right",
+     "start": 13.44,
+     "key": false
+    },
+    {
+     "text": "away,",
+     "start": 13.747,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 14.101,
+   "end": 15.892,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "they",
+     "start": 14.101,
+     "key": false
+    },
+    {
+     "text": "dropped",
+     "start": 14.361,
+     "key": true
+    },
+    {
+     "text": "their",
+     "start": 14.763,
+     "key": false
+    },
+    {
+     "text": "nets.",
+     "start": 15.07,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.092,
+   "end": 17.113,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "A",
+     "start": 16.092,
+     "key": false
+    },
+    {
+     "text": "little",
+     "start": 16.217,
+     "key": false
+    },
+    {
+     "text": "further,",
+     "start": 16.59,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.113,
+   "end": 18.209,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "James",
+     "start": 17.113,
+     "key": true
+    },
+    {
+     "text": "and",
+     "start": 17.437,
+     "key": false
+    },
+    {
+     "text": "John",
+     "start": 17.661,
+     "key": true
+    },
+    {
+     "text": "were",
+     "start": 17.935,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.209,
+   "end": 19.156,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 18.209,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 18.384,
+     "key": false
+    },
+    {
+     "text": "boat",
+     "start": 18.608,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 18.882,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 19.156,
+   "end": 20.428,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "their",
+     "start": 19.156,
+     "key": false
+    },
+    {
+     "text": "father.",
+     "start": 19.48,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 20.428,
+   "end": 21.38,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 20.428,
+     "key": false
+    },
+    {
+     "text": "called",
+     "start": 20.586,
+     "key": true
+    },
+    {
+     "text": "them.",
+     "start": 20.927,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.38,
+   "end": 22.423,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "They",
+     "start": 21.38,
+     "key": false
+    },
+    {
+     "text": "left",
+     "start": 21.629,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 21.879,
+     "key": false
+    },
+    {
+     "text": "boat,",
+     "start": 22.083,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 22.423,
+   "end": 23.149,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "their",
+     "start": 22.423,
+     "key": false
+    },
+    {
+     "text": "father,",
+     "start": 22.718,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 23.149,
+   "end": 24.224,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "everything.",
+     "start": 23.149,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 24.474,
+   "end": 25.282,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "In",
+     "start": 24.474,
+     "key": false
+    },
+    {
+     "text": "Capernaum,",
+     "start": 24.651,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 25.282,
+   "end": 26.139,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 25.282,
+     "key": false
+    },
+    {
+     "text": "stood",
+     "start": 25.458,
+     "key": false
+    },
+    {
+     "text": "up",
+     "start": 25.786,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 25.963,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 26.139,
+   "end": 28.079,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 26.139,
+     "key": false
+    },
+    {
+     "text": "synagogue",
+     "start": 26.366,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 26.896,
+     "key": false
+    },
+    {
+     "text": "taught.",
+     "start": 27.123,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 28.079,
+   "end": 29.427,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Not",
+     "start": 28.079,
+     "key": false
+    },
+    {
+     "text": "like",
+     "start": 28.292,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 28.552,
+     "key": false
+    },
+    {
+     "text": "scholars.",
+     "start": 28.765,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.427,
+   "end": 31.41,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Like",
+     "start": 29.427,
+     "key": false
+    },
+    {
+     "text": "someone",
+     "start": 29.688,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 30.09,
+     "key": false
+    },
+    {
+     "text": "authority.",
+     "start": 30.35,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 31.51,
+   "end": 34.003,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 31.51,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 31.838,
+     "key": false
+    },
+    {
+     "text": "man",
+     "start": 31.986,
+     "key": false
+    },
+    {
+     "text": "started",
+     "start": 32.254,
+     "key": false
+    },
+    {
+     "text": "screaming.",
+     "start": 32.76,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 33.953,
+   "end": 34.778,
+   "tempter": true,
+   "god": false,
+   "words": [
+    {
+     "text": "What",
+     "start": 33.953,
+     "key": false
+    },
+    {
+     "text": "do",
+     "start": 34.192,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 34.344,
+     "key": false
+    },
+    {
+     "text": "want",
+     "start": 34.539,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 34.778,
+   "end": 35.364,
+   "tempter": true,
+   "god": false,
+   "words": [
+    {
+     "text": "with",
+     "start": 34.778,
+     "key": false
+    },
+    {
+     "text": "us?",
+     "start": 35.017,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 35.364,
+   "end": 36.843,
+   "tempter": true,
+   "god": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 35.364,
+     "key": false
+    },
+    {
+     "text": "know",
+     "start": 35.473,
+     "key": true
+    },
+    {
+     "text": "who",
+     "start": 35.711,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 35.907,
+     "key": false
+    },
+    {
+     "text": "are!",
+     "start": 36.102,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 36.993,
+   "end": 37.635,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 36.993,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 37.159,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 37.635,
+   "end": 38.325,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Be",
+     "start": 37.635,
+     "key": false
+    },
+    {
+     "text": "quiet.",
+     "start": 37.802,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 38.325,
+   "end": 39.745,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Come",
+     "start": 38.325,
+     "key": false
+    },
+    {
+     "text": "out",
+     "start": 38.587,
+     "key": true
+    },
+    {
+     "text": "of",
+     "start": 38.801,
+     "key": false
+    },
+    {
+     "text": "him.",
+     "start": 38.967,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 39.845,
+   "end": 40.754,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 39.845,
+     "key": false
+    },
+    {
+     "text": "man",
+     "start": 40.079,
+     "key": false
+    },
+    {
+     "text": "shook,",
+     "start": 40.312,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.754,
+   "end": 41.428,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "cried",
+     "start": 40.754,
+     "key": false
+    },
+    {
+     "text": "out,",
+     "start": 41.091,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 41.428,
+   "end": 42.946,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 41.428,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 41.662,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 41.844,
+     "key": false
+    },
+    {
+     "text": "gone.",
+     "start": 42.077,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.296,
+   "end": 44.177,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "That",
+     "start": 43.296,
+     "key": false
+    },
+    {
+     "text": "evening,",
+     "start": 43.599,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.177,
+   "end": 46.049,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Simon's",
+     "start": 44.177,
+     "key": false
+    },
+    {
+     "text": "mother-in-law",
+     "start": 44.645,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 45.333,
+     "key": false
+    },
+    {
+     "text": "burning",
+     "start": 45.581,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 46.049,
+   "end": 47.308,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "with",
+     "start": 46.049,
+     "key": false
+    },
+    {
+     "text": "fever.",
+     "start": 46.352,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 47.358,
+   "end": 48.177,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 47.358,
+     "key": false
+    },
+    {
+     "text": "took",
+     "start": 47.526,
+     "key": false
+    },
+    {
+     "text": "her",
+     "start": 47.791,
+     "key": false
+    },
+    {
+     "text": "by",
+     "start": 48.008,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 48.177,
+   "end": 48.876,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 48.177,
+     "key": false
+    },
+    {
+     "text": "hand.",
+     "start": 48.394,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 48.876,
+   "end": 50.455,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 48.876,
+     "key": false
+    },
+    {
+     "text": "fever",
+     "start": 49.093,
+     "key": false
+    },
+    {
+     "text": "left",
+     "start": 49.406,
+     "key": true
+    },
+    {
+     "text": "her.",
+     "start": 49.671,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 50.705,
+   "end": 51.402,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "By",
+     "start": 50.705,
+     "key": false
+    },
+    {
+     "text": "sunset,",
+     "start": 50.893,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 51.402,
+   "end": 52.529,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 51.402,
+     "key": false
+    },
+    {
+     "text": "whole",
+     "start": 51.644,
+     "key": true
+    },
+    {
+     "text": "town",
+     "start": 51.993,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 52.288,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 52.529,
+   "end": 53.845,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "at",
+     "start": 52.529,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 52.717,
+     "key": false
+    },
+    {
+     "text": "door.",
+     "start": 52.958,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 54.095,
+   "end": 55.309,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 54.095,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 54.429,
+     "key": false
+    },
+    {
+     "text": "leper",
+     "start": 54.58,
+     "key": true
+    },
+    {
+     "text": "fell",
+     "start": 54.975,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 55.309,
+   "end": 56.812,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "to",
+     "start": 55.309,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 55.521,
+     "key": false
+    },
+    {
+     "text": "knees.",
+     "start": 55.794,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 56.812,
+   "end": 57.725,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "If",
+     "start": 56.812,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 56.98,
+     "key": false
+    },
+    {
+     "text": "want",
+     "start": 57.196,
+     "key": false
+    },
+    {
+     "text": "to,",
+     "start": 57.46,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 57.725,
+   "end": 59.469,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "you",
+     "start": 57.725,
+     "key": false
+    },
+    {
+     "text": "can",
+     "start": 57.941,
+     "key": false
+    },
+    {
+     "text": "make",
+     "start": 58.157,
+     "key": false
+    },
+    {
+     "text": "me",
+     "start": 58.422,
+     "key": false
+    },
+    {
+     "text": "clean.",
+     "start": 58.59,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 59.619,
+   "end": 61.024,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Nobody",
+     "start": 59.619,
+     "key": true
+    },
+    {
+     "text": "touched",
+     "start": 59.995,
+     "key": true
+    },
+    {
+     "text": "lepers.",
+     "start": 60.421,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 61.024,
+   "end": 62.077,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 61.024,
+     "key": false
+    },
+    {
+     "text": "touched",
+     "start": 61.199,
+     "key": true
+    },
+    {
+     "text": "him",
+     "start": 61.626,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 61.851,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 62.077,
+   "end": 63.382,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "said:",
+     "start": 62.077,
+     "key": false
+    },
+    {
+     "text": "I",
+     "start": 62.579,
+     "key": false
+    },
+    {
+     "text": "want",
+     "start": 62.705,
+     "key": false
+    },
+    {
+     "text": "to.",
+     "start": 62.98,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 63.382,
+   "end": 64.459,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Be",
+     "start": 63.382,
+     "key": false
+    },
+    {
+     "text": "clean.",
+     "start": 63.558,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 66.809,
+   "end": 68.621,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 66.809,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 67.194,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 67.425,
+     "key": false
+    },
+    {
+     "text": "three.",
+     "start": 67.707,
+     "key": false
+    }
+   ]
+  }
+ ]
+}

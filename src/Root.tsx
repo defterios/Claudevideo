@@ -13,6 +13,7 @@ import {WweLong, WweShort, WWE_LONG_DUR, WWE_SHORT_DUR} from './v6/Wwe';
 import {Test3D} from './v7/Test3D';
 import {MuayStyle} from './v7/Style';
 import {WildernessTall, WildernessWide, WILD_DUR, WILD_DUR_BDY} from './v8/Wilderness';
+import {FollowTall, FollowWide, FOLLOW_DUR} from './v9/FollowMe';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -48,6 +49,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="WildernessWide" component={WildernessWide} durationInFrames={Math.ceil(WILD_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{bed: 0.7}} />
     <Composition id="WildernessTallBdy" component={WildernessTall} durationInFrames={Math.ceil(WILD_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.7, lang: 'bdy' as const}} />
     <Composition id="WildernessWideBdy" component={WildernessWide} durationInFrames={Math.ceil(WILD_DUR_BDY * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{bed: 0.7, lang: 'bdy' as const}} />
+    {/* Jesus series, Episode 2: Follow Me (Mark 1:16-45) */}
+    <Composition id="FollowTall" component={FollowTall} durationInFrames={Math.ceil(FOLLOW_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.7}} />
+    <Composition id="FollowWide" component={FollowWide} durationInFrames={Math.ceil(FOLLOW_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{bed: 0.7}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

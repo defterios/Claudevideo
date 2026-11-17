@@ -81,3 +81,11 @@ Compositions `WildernessTallBdy` / `WildernessWideBdy` (same scenes, `lang: 'bdy
    in `LINES`), shortens pauses > 0.42 s, faint echo on tempter lines, captions = the written Bidayuh text, and maps the
    English cue words the scenes use ("bread", "cross", "go", …) to their Bidayuh words.
 3. `python3 scripts/wilderness/build.py <build dir> _bdy` → `src/v8/data_bdy.json`, `public/v8/voice_bdy.mp3`, `public/v8/bed_bdy.mp3`.
+
+---
+# Jesus series, Episode 2 — "Follow Me" (Mark 1:16-45)
+Compositions `FollowTall` / `FollowWide` (`src/v9/`), sharing the player in `src/v8/Episode.tsx` and the figure rig / set pieces in `src/v8`.
+1. Script: `scripts/wilderness/script_ep2.py`
+2. Voice: `cd scripts/wilderness && SCRIPT=script_ep2 python3 tts.py <kokoro model dir> <build dir>`
+3. Timeline + sound: `EP=2 python3 scripts/wilderness/build.py <build dir>` (cues in `scripts/wilderness/sound_ep2.py`) → `src/v9/data.json`, `public/v9/`.
+4. `npx remotion render FollowTall out/follow_me_tiktok_9x16.mp4 --crf=18` (and `FollowWide`).

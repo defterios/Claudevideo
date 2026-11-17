@@ -5,10 +5,18 @@ import React from 'react';
 export const INK = '#2a1420';
 export type Pose = {lean?: number; head?: number; aB?: [number, number]; aF?: [number, number]; lB?: [number, number]; lF?: [number, number]; drop?: number};
 export type Face = {eyes?: 'open' | 'half' | 'closed' | 'wide'; brow?: number; mouth?: 'flat' | 'smile' | 'frown' | 'open' | 'grit' | 'none'; look?: [number, number]};
-export type Look = {skin: string; hair: string; tunic: string; sash?: string; style?: 'long' | 'wild' | 'short' | 'hood'; beard?: boolean; gaunt?: number; shadow?: boolean; glow?: string};
+export type Look = {skin: string; hair: string; tunic: string; sash?: string; style?: 'long' | 'wild' | 'short' | 'hood'; beard?: boolean; gaunt?: number; shadow?: boolean; glow?: string; spots?: number; wrap?: string};
 
 export const JESUS: Look = {skin: '#E9B48A', hair: '#4A2B1D', tunic: '#E8DCC2', sash: '#A6492E', style: 'long', beard: true};
 export const JOHN: Look = {skin: '#D9A074', hair: '#2E1B14', tunic: '#8A5A33', sash: '#3B2618', style: 'wild', beard: true};
+export const SIMON: Look = {skin: '#D69A6C', hair: '#3A2418', tunic: '#5F7C8A', sash: '#2F4550', style: 'short', beard: true};
+export const ANDREW: Look = {skin: '#E0A77B', hair: '#6B3E22', tunic: '#A8754A', sash: '#5A3A22', style: 'short', beard: false};
+export const JAMES: Look = {skin: '#D9A074', hair: '#1F1712', tunic: '#7E5C8A', sash: '#4A3352', style: 'short', beard: true};
+export const JOHNZ: Look = {skin: '#E8B48C', hair: '#2A1A12', tunic: '#C79B4A', sash: '#7A5524', style: 'long', beard: false};
+export const ZEBEDEE: Look = {skin: '#CF9670', hair: '#D9D4CC', tunic: '#6E6A5E', sash: '#3E3B33', style: 'short', beard: true};
+export const MOTHER: Look = {skin: '#D9A07C', hair: '#3A2A22', tunic: '#8E4E5A', sash: '#C9A35A', style: 'hood', wrap: '#4F6B78', beard: false};
+export const POSSESSED: Look = {skin: '#B9A08C', hair: '#2E2420', tunic: '#7D7468', sash: '#4A443C', style: 'wild', beard: true};
+export const LEPER: Look = {skin: '#C9AFA0', hair: '#5A5048', tunic: '#9A9288', sash: '#6A6258', style: 'hood', wrap: '#8B8378', beard: true, spots: 1};
 export const SHADOW: Look = {skin: '#150a12', hair: '#0b0509', tunic: '#150a12', style: 'long', beard: false, shadow: true};
 
 export const P: Record<string, Pose> = {
@@ -76,6 +84,7 @@ const Head: React.FC<{look: Look; face: Face; t: number}> = ({look, face, t}) =>
     <g>
       {/* hair behind */}
       {look.style === 'long' ? <path d={`M ${-R - 6} -10 Q ${-R - 18} 70 ${-R + 8} 108 L ${R - 8} 108 Q ${R + 18} 70 ${R + 6} -10 Z`} fill={look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" /> : null}
+      {look.style === 'hood' ? <path d={`M ${-R - 16} -20 Q ${-R - 30} 80 ${-R - 6} 128 L ${R + 6} 128 Q ${R + 30} 80 ${R + 16} -20 Z`} fill={look.wrap ?? look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" /> : null}
       {look.style === 'wild' ? (
         <path d={Array.from({length: 13}).map((_, i) => { const a = Math.PI * (1 + i / 12) + (i % 2 ? 0.06 : -0.06); const rr = R + (i % 2 ? 44 : 16); const a2 = a - Math.PI * 0.15 * (i === 0 ? -1 : 0); return `${i ? 'L' : 'M'} ${Math.cos(a2) * rr} ${Math.sin(a2) * rr + 6}`; }).join(' ') + ` L ${R + 20} 80 L ${-R - 20} 80 Z`} fill={look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" />
       ) : null}
@@ -86,6 +95,8 @@ const Head: React.FC<{look: Look; face: Face; t: number}> = ({look, face, t}) =>
       {/* hair cap */}
       {look.style === 'long' || look.style === 'short' ? <path d={`M ${-R} -8 A ${R} ${R} 0 0 1 ${R} -8 Q ${R - 30} -44 6 -52 Q -4 -30 ${-R} -8 Z`} fill={look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" /> : null}
       {look.style === 'wild' ? <path d={`M ${-R} -4 A ${R} ${R} 0 0 1 ${R} -4 Q ${R - 20} -30 30 -40 L 16 -22 L 0 -42 L -18 -22 L -34 -40 Q ${-R + 14} -30 ${-R} -4 Z`} fill={look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" /> : null}
+      {look.style === 'hood' ? <path d={`M ${-R - 14} 10 Q ${-R - 18} ${-R - 30} 0 ${-R - 22} Q ${R + 18} ${-R - 30} ${R + 14} 10 Q ${R - 6} -40 0 -46 Q ${-R + 6} -40 ${-R - 14} 10 Z`} fill={look.wrap ?? look.hair} stroke={ink} strokeWidth={8} strokeLinejoin="round" /> : null}
+      {look.spots && !look.shadow ? <g opacity={look.spots}>{[[-44, -30, 11], [40, 22, 9], [-22, 48, 7], [52, -40, 8], [-58, 18, 10]].map((q, i) => <circle key={i} cx={q[0]} cy={q[1]} r={q[2]} fill="#B98A86" stroke="#8a5a52" strokeWidth={2.5} />)}<path d={`M ${-R + 4} -30 L ${R - 4} -46 L ${R - 2} -26 L ${-R + 6} -10 Z`} fill="#E9E1CC" stroke={ink} strokeWidth={5} strokeLinejoin="round" /></g> : null}
       {/* gaunt: hollow cheeks + eye bags */}
       {g > 0.2 && !look.shadow ? (
         <g opacity={g}>
