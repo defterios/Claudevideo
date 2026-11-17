@@ -1,7 +1,8 @@
 import React from 'react';
 import {AbsoluteFill, Audio, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Defs, SCENES} from './scenes';
-import data from './data.json';
+import dataEn from './data.json';
+import dataBdy from './data_bdy.json';
 
 /** Episode 1 — "The Wilderness" (Mark 1). Toon figures on painted sets, narrated, kinetic captions. */
 if (typeof document !== 'undefined') {
@@ -16,11 +17,18 @@ if (typeof document !== 'undefined') {
 
 type Sc = {id: string; start: number; end: number; segs: number[]; w: Record<string, number>};
 type Pg = {start: number; end: number; tempter: boolean; words: {text: string; start: number; key: boolean}[]};
-const D = data as unknown as {duration: number; scenes: Sc[]; pages: Pg[]};
-export const WILD_DUR = D.duration;
+type Data = {duration: number; scenes: Sc[]; pages: Pg[]};
+type Lang = 'en' | 'bdy';
+const DATA: Record<Lang, Data> = {en: dataEn as unknown as Data, bdy: dataBdy as unknown as Data};
+const TXT: Record<Lang, {ep: string; title: [string, string]; ref: string; follow: string; voice: string; bed: string}> = {
+  en: {ep: 'EPISODE 1', title: ['THE', 'WILDERNESS'], ref: 'MARK 1', follow: 'Follow for Part 2 →', voice: 'v8/voice.mp3', bed: 'v8/bed.mp3'},
+  bdy: {ep: 'EPISOD 1', title: ['PADANG', 'PASIR'], ref: 'MARK 1', follow: 'Follow suo Part 2 →', voice: 'v8/voice_bdy.mp3', bed: 'v8/bed_bdy.mp3'},
+};
+export const WILD_DUR = DATA.en.duration;
+export const WILD_DUR_BDY = DATA.bdy.duration;
 const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
-const World: React.FC<{W: number; H: number}> = ({W, H}) => {
+const World: React.FC<{W: number; H: number; D: Data}> = ({W, H, D}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -44,7 +52,7 @@ const World: React.FC<{W: number; H: number}> = ({W, H}) => {
   );
 };
 
-const Captions: React.FC<{size: number}> = ({size}) => {
+const Captions: React.FC<{size: number; D: Data}> = ({size, D}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -68,7 +76,8 @@ const Captions: React.FC<{size: number}> = ({size}) => {
   );
 };
 
-const Title: React.FC<{W: number; H: number}> = ({W, H}) => {
+const Title: React.FC<{W: number; H: number; D: Data; lang: Lang}> = ({W, H, D, lang}) => {
+  const X = TXT[lang];
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -80,37 +89,43 @@ const Title: React.FC<{W: number; H: number}> = ({W, H}) => {
   const s = wide ? 0.8 : 1;
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', paddingBottom: H * (wide ? 0.2 : 0.22)}}>
-      <div style={{fontFamily: 'Fredoka', fontWeight: 700, fontSize: 54 * s, letterSpacing: 14 * s, color: '#FFDD33', opacity: a(0.15), transform: `translateY(${(1 - a(0.15)) * 30}px)`}}>EPISODE 1</div>
-      <div style={{fontFamily: 'Anton', fontSize: 190 * s, lineHeight: 1.02, color: '#FBEFD9', textAlign: 'center', letterSpacing: 4, opacity: a(0.5), transform: `scale(${0.9 + 0.1 * a(0.5)})`, textShadow: '0 10px 0 #1c0d16, 0 0 80px rgba(255,180,90,0.55)'}}>THE{wide ? ' ' : <br />}WILDERNESS</div>
-      <div style={{fontFamily: 'Fredoka', fontWeight: 700, fontSize: 40 * s, color: '#fff', opacity: 0.85 * a(0.9), marginTop: 18 * s, letterSpacing: 3}}>MARK 1</div>
-      <div style={{marginTop: 70 * s, fontFamily: 'Fredoka', fontWeight: 700, fontSize: 56 * s, color: '#1c0d16', background: '#FFDD33', padding: `${14 * s}px ${44 * s}px`, borderRadius: 60, border: '6px solid #1c0d16', opacity: a(2.0), transform: `scale(${a(2.0)})`}}>Follow for Part 2 →</div>
+      <div style={{fontFamily: 'Fredoka', fontWeight: 700, fontSize: 54 * s, letterSpacing: 14 * s, color: '#FFDD33', opacity: a(0.15), transform: `translateY(${(1 - a(0.15)) * 30}px)`}}>{X.ep}</div>
+      <div style={{fontFamily: 'Anton', fontSize: 190 * s, lineHeight: 1.02, color: '#FBEFD9', textAlign: 'center', letterSpacing: 4, opacity: a(0.5), transform: `scale(${0.9 + 0.1 * a(0.5)})`, textShadow: '0 10px 0 #1c0d16, 0 0 80px rgba(255,180,90,0.55)'}}>{X.title[0]}{wide ? ' ' : <br />}{X.title[1]}</div>
+      <div style={{fontFamily: 'Fredoka', fontWeight: 700, fontSize: 40 * s, color: '#fff', opacity: 0.85 * a(0.9), marginTop: 18 * s, letterSpacing: 3}}>{X.ref}</div>
+      <div style={{marginTop: 70 * s, fontFamily: 'Fredoka', fontWeight: 700, fontSize: 56 * s, color: '#1c0d16', background: '#FFDD33', padding: `${14 * s}px ${44 * s}px`, borderRadius: 60, border: '6px solid #1c0d16', opacity: a(2.0), transform: `scale(${a(2.0)})`}}>{X.follow}</div>
     </AbsoluteFill>
   );
 };
 
-const Sound: React.FC<{bed: number}> = ({bed}) => (
+const Sound: React.FC<{bed: number; lang: Lang}> = ({bed, lang}) => (
   <>
-    <Audio src={staticFile('v8/voice.mp3')} />
-    <Audio src={staticFile('v8/bed.mp3')} volume={bed} />
+    <Audio src={staticFile(TXT[lang].voice)} />
+    <Audio src={staticFile(TXT[lang].bed)} volume={bed} />
   </>
 );
 
-type Props = {bed: number};
+type Props = {bed: number; lang?: Lang};
 /** TikTok / Shorts / Reels 9:16 */
-export const WildernessTall: React.FC<Props> = ({bed}) => (
+export const WildernessTall: React.FC<Props> = ({bed, lang = 'en'}) => {
+  const D = DATA[lang];
+  return (
   <AbsoluteFill style={{background: '#000'}}>
-    <World W={1080} H={1920} />
-    <div style={{position: 'absolute', left: 60, right: 60, top: 300, height: 260, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={76} /></div>
-    <Title W={1080} H={1920} />
-    <Sound bed={bed} />
+    <World W={1080} H={1920} D={D} />
+    <div style={{position: 'absolute', left: 60, right: 60, top: 300, height: 260, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={76} D={D} /></div>
+    <Title W={1080} H={1920} D={D} lang={lang} />
+    <Sound bed={bed} lang={lang} />
   </AbsoluteFill>
-);
+  );
+};
 /** YouTube 16:9 */
-export const WildernessWide: React.FC<Props> = ({bed}) => (
+export const WildernessWide: React.FC<Props> = ({bed, lang = 'en'}) => {
+  const D = DATA[lang];
+  return (
   <AbsoluteFill style={{background: '#000'}}>
-    <World W={1920} H={1080} />
-    <div style={{position: 'absolute', left: 200, right: 200, top: 60, height: 190, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={70} /></div>
-    <Title W={1920} H={1080} />
-    <Sound bed={bed} />
+    <World W={1920} H={1080} D={D} />
+    <div style={{position: 'absolute', left: 200, right: 200, top: 60, height: 190, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={70} D={D} /></div>
+    <Title W={1920} H={1080} D={D} lang={lang} />
+    <Sound bed={bed} lang={lang} />
   </AbsoluteFill>
-);
+  );
+};

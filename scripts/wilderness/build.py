@@ -4,6 +4,7 @@ import sys, json, os, re, wave, subprocess
 import numpy as np
 
 bd = sys.argv[1]
+OUT = sys.argv[2] if len(sys.argv) > 2 else ""  # suffix, e.g. "_bdy"
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 T = json.load(open(os.path.join(bd, "timing.json")))
 segs, DUR = T["segments"], T["duration"]
@@ -20,6 +21,7 @@ for i, sc in enumerate(scenes):
     for s in sc["segs"]:
         for w in s["words"]:
             sc["w"].setdefault(re.sub(r"[^a-z']", "", w["text"].lower()), round(w["start"] - st, 3))
+            if w.get("alias"): sc["w"].setdefault(w["alias"], round(w["start"] - st, 3))
     sc["segs"] = [round(s["start"] - st, 3) for s in sc["segs"]]
 
 # ---------- caption pages (2-4 words, break on punctuation) ----------
@@ -37,7 +39,7 @@ for s in segs:
             pages.append({"start": cur[0]["start"], "end": s["end"] + 0.25 if last else ws[i + 1]["start"], "tempter": s["tempter"],
                           "words": [{"text": x["text"], "start": x["start"], "key": x["key"]} for x in cur]})
             cur = []
-json.dump({"duration": DUR, "scenes": scenes, "pages": pages}, open(os.path.join(ROOT, "src/v8/data.json"), "w"), indent=1)
+json.dump({"duration": DUR, "scenes": scenes, "pages": pages}, open(os.path.join(ROOT, f"src/v8/data{OUT}.json"), "w"), indent=1, ensure_ascii=False)
 for sc in scenes: print(f"{sc['id']:9s} {sc['start']:6.2f} {sc['end']:6.2f}")
 
 # ---------- sound bed ----------
@@ -142,7 +144,7 @@ os.makedirs(os.path.join(ROOT, "public/v8"), exist_ok=True)
 tmp = os.path.join(bd, "bed.wav")
 with wave.open(tmp, "wb") as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((bed * 32767).astype(np.int16).tobytes())
-subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp, "-b:a", "160k", os.path.join(ROOT, "public/v8/bed.mp3")])
+subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp, "-b:a", "160k", os.path.join(ROOT, f"public/v8/bed{OUT}.mp3")])
 subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", os.path.join(bd, "voice.wav"), "-af",
-    "highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7", "-ar", "44100", "-b:a", "160k", os.path.join(ROOT, "public/v8/voice.mp3")])
+    "highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7", "-ar", "44100", "-b:a", "160k", os.path.join(ROOT, f"public/v8/voice{OUT}.mp3")])
 print("ok", DUR)

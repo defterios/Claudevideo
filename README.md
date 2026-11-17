@@ -73,3 +73,11 @@ Style after the reference (narrated parable, big-head toon figures, warm flat se
 
 Figures are a 2D SVG rig (`src/v8/fig.tsx`); every scene has its own camera with parallax (`src/v8/scenes.tsx`).
 Caption word timings are estimated from line length, not aligned to the audio.
+
+## Bidayuh (Bau) version — "Padang Pasir"
+Compositions `WildernessTallBdy` / `WildernessWideBdy` (same scenes, `lang: 'bdy'`), creator voiceover.
+1. `ffmpeg -i Bible_ep1.m4a -ac 1 -ar 24000 raw.wav`
+2. `cd scripts/wilderness && python3 bidayuh.py raw.wav <build dir>` — cuts the recording into the 18 lines (start/end per line
+   in `LINES`), shortens pauses > 0.42 s, faint echo on tempter lines, captions = the written Bidayuh text, and maps the
+   English cue words the scenes use ("bread", "cross", "go", …) to their Bidayuh words.
+3. `python3 scripts/wilderness/build.py <build dir> _bdy` → `src/v8/data_bdy.json`, `public/v8/voice_bdy.mp3`, `public/v8/bed_bdy.mp3`.
