@@ -12,6 +12,7 @@ import {RigTest} from './v6/RigTest';
 import {WweLong, WweShort, WWE_LONG_DUR, WWE_SHORT_DUR} from './v6/Wwe';
 import {Test3D} from './v7/Test3D';
 import {MuayStyle} from './v7/Style';
+import {WildernessTall, WildernessWide, WILD_DUR} from './v8/Wilderness';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -42,6 +43,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="MuayLong" component={MuayLong} durationInFrames={Math.ceil(MUAY_LONG_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{music: 0.2, voice: 'v7/voice_long.wav'}} />
     <Composition id="MuayTall" component={MuayTall} durationInFrames={Math.ceil(MUAY_LONG_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.2, voice: 'v7/voice_long.wav'}} />
     <Composition id="MuayShort" component={MuayShort} durationInFrames={Math.ceil(MUAY_SHORT_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.2, voice: 'v7/voice_short.wav'}} />
+    {/* Jesus series, Episode 1: The Wilderness (Mark 1) — toon figures, narrated */}
+    <Composition id="WildernessTall" component={WildernessTall} durationInFrames={Math.ceil(WILD_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.7}} />
+    <Composition id="WildernessWide" component={WildernessWide} durationInFrames={Math.ceil(WILD_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{bed: 0.7}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

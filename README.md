@@ -59,3 +59,17 @@ Single selfie take → pauses cut, studio voice, eye-anchored punch-ins (MediaPi
 cream cut-aways (terminal, training log, stair chart, STOP cards, workout.log, last-week vs this-week), squared
 Chakra Petch numbers/captions with rust keyword boxes, Sonniss SFX (plate clank, typing, ticks, thuds, paper).
 Build: `PLAN=plan_v5 OUT=src/v5/data.json MEDIA=public/v5 python3 scripts/build_v2.py <transcripts dir>`.
+
+---
+# Jesus series, Episode 1 — "The Wilderness" (Mark 1)
+Compositions `WildernessTall` (9:16, TikTok/Shorts) and `WildernessWide` (16:9, YouTube), `src/v8/`.
+Style after the reference (narrated parable, big-head toon figures, warm flat sets, pop-in captions with a yellow keyword).
+
+1. Script: `scripts/wilderness/script.py` (scene id, line, voice, pause, caption keywords).
+2. Voice: `python3 scripts/wilderness/tts.py <kokoro model dir> <build dir>` — Kokoro-82M ONNX (`bm_george` narrator, `am_onyx` tempter).
+3. Timeline + sound: `python3 scripts/wilderness/build.py <build dir>` → `src/v8/data.json`, `public/v8/voice.mp3`,
+   `public/v8/bed.mp3` (score, ambience and impacts are synthesised in numpy — no third-party audio, no credit needed).
+4. Render: `npx remotion render WildernessTall out/wilderness_tiktok_9x16.mp4 --crf=18` (same for `WildernessWide`).
+
+Figures are a 2D SVG rig (`src/v8/fig.tsx`); every scene has its own camera with parallax (`src/v8/scenes.tsx`).
+Caption word timings are estimated from line length, not aligned to the audio.

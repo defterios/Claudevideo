@@ -1,0 +1,1292 @@
+{
+ "duration": 61.882,
+ "scenes": [
+  {
+   "id": "river",
+   "start": 0.0,
+   "segs": [
+    0.5,
+    5.071
+   ],
+   "w": {
+    "for": 0.5,
+    "thirty": 0.748,
+    "years": 1.162,
+    "he": 1.631,
+    "was": 1.824,
+    "just": 2.072,
+    "a": 2.376,
+    "carpenter": 2.514,
+    "nobody": 3.341,
+    "noticed": 3.755,
+    "him": 4.224,
+    "then": 5.071,
+    "one": 5.339,
+    "morning": 5.559,
+    "stepped": 6.243,
+    "into": 6.659,
+    "river": 7.05
+   },
+   "end": 7.757
+  },
+  {
+   "id": "sky",
+   "start": 7.757,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "the": 0.545,
+    "sky": 0.81,
+    "tore": 1.075,
+    "open": 1.399
+   },
+   "end": 10.465
+  },
+  {
+   "id": "voice",
+   "start": 10.465,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "a": 0.28,
+    "voice": 0.404,
+    "said": 0.725,
+    "you": 1.218,
+    "are": 1.44,
+    "my": 1.662,
+    "son": 1.835,
+    "i": 2.28,
+    "love": 2.403
+   },
+   "end": 13.904
+  },
+  {
+   "id": "drive",
+   "start": 13.904,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "right": 0.504,
+    "after": 0.828,
+    "that": 1.151,
+    "he": 1.649,
+    "was": 1.823,
+    "driven": 2.048,
+    "into": 2.421,
+    "the": 2.695,
+    "desert": 2.919
+   },
+   "end": 17.591
+  },
+  {
+   "id": "fast",
+   "start": 17.591,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "forty": 0.28,
+    "days": 0.667,
+    "no": 1.264,
+    "food": 1.473,
+    "just": 2.069,
+    "heat": 2.398,
+    "stone": 2.845,
+    "and": 3.352,
+    "wild": 3.621,
+    "animals": 3.949
+   },
+   "end": 22.585
+  },
+  {
+   "id": "bread",
+   "start": 22.585,
+   "segs": [
+    0.28,
+    2.105,
+    5.08
+   ],
+   "w": {
+    "then": 0.28,
+    "came": 0.586,
+    "a": 0.892,
+    "whisper": 1.032,
+    "you're": 2.105,
+    "starving": 2.446,
+    "turn": 3.083,
+    "this": 3.333,
+    "stone": 3.584,
+    "into": 3.879,
+    "bread": 4.13,
+    "he": 5.08,
+    "said": 5.261,
+    "man": 5.78,
+    "does": 6.013,
+    "not": 6.298,
+    "live": 6.531,
+    "on": 6.816,
+    "alone": 7.335
+   },
+   "end": 30.71
+  },
+  {
+   "id": "temple",
+   "start": 30.71,
+   "segs": [
+    0.28,
+    2.55
+   ],
+   "w": {
+    "jump": 0.28,
+    "prove": 0.807,
+    "who": 1.15,
+    "you": 1.388,
+    "are": 1.625,
+    "he": 2.55,
+    "said": 2.736,
+    "do": 3.268,
+    "not": 3.454,
+    "test": 3.693,
+    "god": 3.986
+   },
+   "end": 35.394
+  },
+  {
+   "id": "kingdoms",
+   "start": 35.394,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "bow": 0.28,
+    "to": 0.492,
+    "me": 0.656,
+    "and": 0.914,
+    "all": 1.125,
+    "of": 1.336,
+    "this": 1.5,
+    "is": 1.759,
+    "yours": 1.923,
+    "no": 2.439,
+    "pain": 2.603,
+    "cross": 3.237
+   },
+   "end": 39.467
+  },
+  {
+   "id": "go",
+   "start": 39.467,
+   "segs": [
+    0.28,
+    3.682
+   ],
+   "w": {
+    "he": 0.28,
+    "was": 0.46,
+    "starving": 0.691,
+    "shaking": 1.409,
+    "completely": 2.077,
+    "alone": 2.667,
+    "and": 3.682,
+    "said": 4.188,
+    "go": 4.82
+   },
+   "end": 45.613
+  },
+  {
+   "id": "angels",
+   "start": 45.613,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "the": 0.28,
+    "whisper": 0.53,
+    "left": 1.003,
+    "and": 1.559,
+    "angels": 1.81,
+    "came": 2.227
+   },
+   "end": 49.116
+  },
+  {
+   "id": "walk",
+   "start": 49.116,
+   "segs": [
+    0.28,
+    4.382
+   ],
+   "w": {
+    "he": 0.28,
+    "walked": 0.457,
+    "out": 0.834,
+    "of": 1.061,
+    "that": 1.237,
+    "desert": 1.514,
+    "thin": 1.892,
+    "sunburnt": 2.27,
+    "and": 2.849,
+    "unstoppable": 3.076,
+    "the": 4.382,
+    "time": 4.63,
+    "has": 4.933,
+    "come": 5.18,
+    "kingdom": 5.979,
+    "god": 6.639,
+    "is": 6.887,
+    "near": 7.08
+   },
+   "end": 57.267
+  },
+  {
+   "id": "end",
+   "start": 57.267,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "episode": 0.28,
+    "one": 0.719,
+    "the": 1.185,
+    "wilderness": 1.417,
+    "follow": 2.245,
+    "for": 2.633,
+    "part": 2.865,
+    "two": 3.15
+   },
+   "end": 61.882
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.631,
+   "tempter": false,
+   "words": [
+    {
+     "text": "For",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "thirty",
+     "start": 0.748,
+     "key": false
+    },
+    {
+     "text": "years,",
+     "start": 1.162,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.631,
+   "end": 2.514,
+   "tempter": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 1.631,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 1.824,
+     "key": false
+    },
+    {
+     "text": "just",
+     "start": 2.072,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 2.376,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 2.514,
+   "end": 5.071,
+   "tempter": false,
+   "words": [
+    {
+     "text": "carpenter.",
+     "start": 2.514,
+     "key": true
+    },
+    {
+     "text": "Nobody",
+     "start": 3.341,
+     "key": false
+    },
+    {
+     "text": "noticed",
+     "start": 3.755,
+     "key": false
+    },
+    {
+     "text": "him.",
+     "start": 4.224,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.071,
+   "end": 6.072,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 5.071,
+     "key": false
+    },
+    {
+     "text": "one",
+     "start": 5.339,
+     "key": false
+    },
+    {
+     "text": "morning,",
+     "start": 5.559,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.072,
+   "end": 7.937,
+   "tempter": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 6.072,
+     "key": false
+    },
+    {
+     "text": "stepped",
+     "start": 6.243,
+     "key": false
+    },
+    {
+     "text": "into",
+     "start": 6.659,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 6.927,
+     "key": false
+    },
+    {
+     "text": "river.",
+     "start": 7.05,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 8.037,
+   "end": 10.095,
+   "tempter": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 8.037,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 8.302,
+     "key": false
+    },
+    {
+     "text": "sky",
+     "start": 8.567,
+     "key": false
+    },
+    {
+     "text": "tore",
+     "start": 8.832,
+     "key": true
+    },
+    {
+     "text": "open.",
+     "start": 9.156,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.745,
+   "end": 11.683,
+   "tempter": false,
+   "words": [
+    {
+     "text": "A",
+     "start": 10.745,
+     "key": false
+    },
+    {
+     "text": "voice",
+     "start": 10.869,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 11.19,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.683,
+   "end": 12.745,
+   "tempter": false,
+   "words": [
+    {
+     "text": "You",
+     "start": 11.683,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 11.905,
+     "key": false
+    },
+    {
+     "text": "my",
+     "start": 12.127,
+     "key": false
+    },
+    {
+     "text": "Son.",
+     "start": 12.3,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 12.745,
+   "end": 13.934,
+   "tempter": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 12.745,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 12.868,
+     "key": true
+    },
+    {
+     "text": "you.",
+     "start": 13.139,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 14.184,
+   "end": 15.553,
+   "tempter": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 14.184,
+     "key": false
+    },
+    {
+     "text": "right",
+     "start": 14.408,
+     "key": false
+    },
+    {
+     "text": "after",
+     "start": 14.732,
+     "key": false
+    },
+    {
+     "text": "that?",
+     "start": 15.055,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.553,
+   "end": 16.599,
+   "tempter": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 15.553,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 15.727,
+     "key": false
+    },
+    {
+     "text": "driven",
+     "start": 15.952,
+     "key": true
+    },
+    {
+     "text": "into",
+     "start": 16.325,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.599,
+   "end": 17.771,
+   "tempter": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 16.599,
+     "key": false
+    },
+    {
+     "text": "desert.",
+     "start": 16.823,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 17.871,
+   "end": 18.855,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Forty",
+     "start": 17.871,
+     "key": true
+    },
+    {
+     "text": "days.",
+     "start": 18.258,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.855,
+   "end": 19.66,
+   "tempter": false,
+   "words": [
+    {
+     "text": "No",
+     "start": 18.855,
+     "key": false
+    },
+    {
+     "text": "food.",
+     "start": 19.064,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 19.66,
+   "end": 20.436,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Just",
+     "start": 19.66,
+     "key": false
+    },
+    {
+     "text": "heat,",
+     "start": 19.989,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 20.436,
+   "end": 22.665,
+   "tempter": false,
+   "words": [
+    {
+     "text": "stone,",
+     "start": 20.436,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 20.943,
+     "key": false
+    },
+    {
+     "text": "wild",
+     "start": 21.212,
+     "key": true
+    },
+    {
+     "text": "animals.",
+     "start": 21.54,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 22.865,
+   "end": 24.69,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 22.865,
+     "key": false
+    },
+    {
+     "text": "came",
+     "start": 23.171,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 23.477,
+     "key": false
+    },
+    {
+     "text": "whisper.",
+     "start": 23.617,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 24.69,
+   "end": 25.668,
+   "tempter": true,
+   "words": [
+    {
+     "text": "You're",
+     "start": 24.69,
+     "key": false
+    },
+    {
+     "text": "starving.",
+     "start": 25.031,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 25.668,
+   "end": 27.565,
+   "tempter": true,
+   "words": [
+    {
+     "text": "Turn",
+     "start": 25.668,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 25.918,
+     "key": false
+    },
+    {
+     "text": "stone",
+     "start": 26.169,
+     "key": false
+    },
+    {
+     "text": "into",
+     "start": 26.464,
+     "key": false
+    },
+    {
+     "text": "bread.",
+     "start": 26.715,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 27.665,
+   "end": 28.365,
+   "tempter": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 27.665,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 27.846,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 28.365,
+   "end": 29.401,
+   "tempter": false,
+   "words": [
+    {
+     "text": "man",
+     "start": 28.365,
+     "key": false
+    },
+    {
+     "text": "does",
+     "start": 28.598,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 28.883,
+     "key": true
+    },
+    {
+     "text": "live",
+     "start": 29.116,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.401,
+   "end": 30.84,
+   "tempter": false,
+   "words": [
+    {
+     "text": "on",
+     "start": 29.401,
+     "key": false
+    },
+    {
+     "text": "bread",
+     "start": 29.583,
+     "key": false
+    },
+    {
+     "text": "alone.",
+     "start": 29.92,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 30.99,
+   "end": 33.16,
+   "tempter": true,
+   "words": [
+    {
+     "text": "Jump.",
+     "start": 30.99,
+     "key": true
+    },
+    {
+     "text": "Prove",
+     "start": 31.517,
+     "key": true
+    },
+    {
+     "text": "who",
+     "start": 31.86,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 32.098,
+     "key": false
+    },
+    {
+     "text": "are.",
+     "start": 32.335,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 33.26,
+   "end": 33.978,
+   "tempter": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 33.26,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 33.446,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 33.978,
+   "end": 35.524,
+   "tempter": false,
+   "words": [
+    {
+     "text": "do",
+     "start": 33.978,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 34.164,
+     "key": false
+    },
+    {
+     "text": "test",
+     "start": 34.403,
+     "key": true
+    },
+    {
+     "text": "God.",
+     "start": 34.696,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 35.674,
+   "end": 36.308,
+   "tempter": true,
+   "words": [
+    {
+     "text": "Bow",
+     "start": 35.674,
+     "key": true
+    },
+    {
+     "text": "to",
+     "start": 35.886,
+     "key": false
+    },
+    {
+     "text": "me,",
+     "start": 36.05,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 36.308,
+   "end": 37.153,
+   "tempter": true,
+   "words": [
+    {
+     "text": "and",
+     "start": 36.308,
+     "key": false
+    },
+    {
+     "text": "all",
+     "start": 36.519,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 36.73,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 36.894,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 37.153,
+   "end": 37.833,
+   "tempter": true,
+   "words": [
+    {
+     "text": "is",
+     "start": 37.153,
+     "key": false
+    },
+    {
+     "text": "yours.",
+     "start": 37.317,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 37.833,
+   "end": 38.466,
+   "tempter": true,
+   "words": [
+    {
+     "text": "No",
+     "start": 37.833,
+     "key": false
+    },
+    {
+     "text": "pain.",
+     "start": 37.997,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 38.466,
+   "end": 39.497,
+   "tempter": true,
+   "words": [
+    {
+     "text": "No",
+     "start": 38.466,
+     "key": false
+    },
+    {
+     "text": "cross.",
+     "start": 38.631,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 39.747,
+   "end": 40.876,
+   "tempter": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 39.747,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 39.927,
+     "key": false
+    },
+    {
+     "text": "starving.",
+     "start": 40.158,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 40.876,
+   "end": 43.049,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Shaking.",
+     "start": 40.876,
+     "key": false
+    },
+    {
+     "text": "Completely",
+     "start": 41.544,
+     "key": false
+    },
+    {
+     "text": "alone.",
+     "start": 42.134,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.149,
+   "end": 44.287,
+   "tempter": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 43.149,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 43.434,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 43.655,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.287,
+   "end": 45.143,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Go.",
+     "start": 44.287,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 45.893,
+   "end": 47.172,
+   "tempter": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 45.893,
+     "key": false
+    },
+    {
+     "text": "whisper",
+     "start": 46.143,
+     "key": false
+    },
+    {
+     "text": "left.",
+     "start": 46.616,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 47.172,
+   "end": 48.746,
+   "tempter": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 47.172,
+     "key": false
+    },
+    {
+     "text": "angels",
+     "start": 47.423,
+     "key": true
+    },
+    {
+     "text": "came.",
+     "start": 47.84,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 49.396,
+   "end": 50.353,
+   "tempter": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 49.396,
+     "key": false
+    },
+    {
+     "text": "walked",
+     "start": 49.573,
+     "key": false
+    },
+    {
+     "text": "out",
+     "start": 49.95,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 50.177,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 50.353,
+   "end": 51.386,
+   "tempter": false,
+   "words": [
+    {
+     "text": "that",
+     "start": 50.353,
+     "key": false
+    },
+    {
+     "text": "desert",
+     "start": 50.63,
+     "key": false
+    },
+    {
+     "text": "thin,",
+     "start": 51.008,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 51.386,
+   "end": 53.398,
+   "tempter": false,
+   "words": [
+    {
+     "text": "sunburnt,",
+     "start": 51.386,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 51.965,
+     "key": false
+    },
+    {
+     "text": "unstoppable.",
+     "start": 52.192,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 53.498,
+   "end": 54.847,
+   "tempter": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 53.498,
+     "key": false
+    },
+    {
+     "text": "time",
+     "start": 53.746,
+     "key": true
+    },
+    {
+     "text": "has",
+     "start": 54.049,
+     "key": false
+    },
+    {
+     "text": "come.",
+     "start": 54.296,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 54.847,
+   "end": 56.003,
+   "tempter": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 54.847,
+     "key": false
+    },
+    {
+     "text": "kingdom",
+     "start": 55.095,
+     "key": true
+    },
+    {
+     "text": "of",
+     "start": 55.563,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 55.755,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 56.003,
+   "end": 57.097,
+   "tempter": false,
+   "words": [
+    {
+     "text": "is",
+     "start": 56.003,
+     "key": false
+    },
+    {
+     "text": "near.",
+     "start": 56.196,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 57.547,
+   "end": 58.452,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Episode",
+     "start": 57.547,
+     "key": false
+    },
+    {
+     "text": "one:",
+     "start": 57.986,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.452,
+   "end": 59.512,
+   "tempter": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 58.452,
+     "key": false
+    },
+    {
+     "text": "Wilderness.",
+     "start": 58.684,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 59.512,
+   "end": 61.232,
+   "tempter": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 59.512,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 59.9,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 60.132,
+     "key": false
+    },
+    {
+     "text": "two.",
+     "start": 60.417,
+     "key": false
+    }
+   ]
+  }
+ ]
+}
