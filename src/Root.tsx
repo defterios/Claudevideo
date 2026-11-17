@@ -14,6 +14,7 @@ import {Test3D} from './v7/Test3D';
 import {MuayStyle} from './v7/Style';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 import {MuayThumbYT, MuayCoverTT} from './v7/Thumbs';
+import {BibleLong, BibleTall, BIBLE1_DUR} from './b1/Bible';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -45,6 +46,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="MuayShort" component={MuayShort} durationInFrames={Math.ceil(MUAY_SHORT_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.47, voice: 'v7/voice_short.wav'}} />
     <Composition id="MuayThumbYT" component={MuayThumbYT} durationInFrames={1} fps={FPS} width={1920} height={1080} />
     <Composition id="MuayCoverTT" component={MuayCoverTT} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} />
+    {/* Bible series Ep1: The Wilderness (Bidayuh, creator voice) */}
+    <Composition id="BibleLong" component={BibleLong} durationInFrames={Math.ceil(BIBLE1_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{music: 0.36}} />
+    <Composition id="BibleTall" component={BibleTall} durationInFrames={Math.ceil(BIBLE1_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.36}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />
