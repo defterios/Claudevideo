@@ -15,6 +15,7 @@ import {MuayStyle} from './v7/Style';
 import {WildernessTall, WildernessWide, WILD_DUR, WILD_DUR_BDY} from './v8/Wilderness';
 import {FollowTall, FollowWide, FOLLOW_DUR, FOLLOW_DUR_BDY} from './v9/FollowMe';
 import {Ep1Cover} from './v8/Cover';
+import {Ep2Cover} from './v9/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -58,6 +59,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep1CoverBdy" component={Ep1Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const, W: WIDTH, H: HEIGHT}} />
     <Composition id="Ep1CoverEn" component={Ep1Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const, W: WIDTH, H: HEIGHT}} />
     <Composition id="Ep1ThumbBdy" component={Ep1Cover} durationInFrames={1} fps={FPS} width={1280} height={720} defaultProps={{lang: 'bdy' as const, W: 1280, H: 720}} />
+    <Composition id="Ep2CoverBdy" component={Ep2Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const, W: WIDTH, H: HEIGHT}} />
+    <Composition id="Ep2CoverEn" component={Ep2Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const, W: WIDTH, H: HEIGHT}} />
+    <Composition id="Ep2ThumbBdy" component={Ep2Cover} durationInFrames={1} fps={FPS} width={1280} height={720} defaultProps={{lang: 'bdy' as const, W: 1280, H: 720}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />
