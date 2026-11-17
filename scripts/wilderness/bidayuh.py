@@ -64,6 +64,16 @@ def env_db(x):
     return 20 * np.log10(np.sqrt((x[: n * H].reshape(n, H) ** 2).mean(1)) + 1e-9)
 DB = env_db(a)
 TH = -45  # speech vs room tone (gaps sit at about -65 dB)
+# Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
+# no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
+TAKE = int(os.environ.get("TAKE", "1"))
+TIMES_EP1_TAKE2 = [(20.1, 23.9), (24.7, 26.85), (27.35, 28.7), (29.5, 33.4), (34.0, 37.5), (37.8, 44.1), (44.45, 45.95),
+                   (46.8, 50.1), (51.2, 55.4), (57.15, 59.6), (60.9, 64.25), (65.05, 70.8), (72.25, 75.15), (75.25, 77.4),
+                   (78.55, 81.6), (82.8, 88.1), (88.65, 92.2), (93.2, 94.75)]
+if EP == 1 and TAKE == 2:
+    TH = -40
+    with wave.open(sys.argv[3]) as w:
+        a_first = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
 
 # EP1 only: split point between lines 13 and 14: longest quiet run in 69.5–71.6 s
 q = DB[int(69.5 * 100): int(71.6 * 100)] < TH
@@ -76,7 +86,9 @@ for i, v in enumerate(q):
         run = 0
 cut = 69.5 + (best[1] + best[0] / 2) / 100
 L = [list(x) for x in LINES]
-if EP == 1:
+if EP == 1 and TAKE == 2:
+  for i, (s_, e_) in enumerate(TIMES_EP1_TAKE2): L[i][1], L[i][2] = s_, e_
+elif EP == 1:
   L[12][2] = cut; L[13][1] = cut
   print(f"line 13/14 split at {cut:.2f}s (quiet run {best[0] * 10} ms)")
 
@@ -100,8 +112,8 @@ def fade(x, ms=12):
     n = int(ms / 1000 * SR); f = np.linspace(0, 1, n, dtype=np.float32)
     x = x.copy(); x[:n] *= f; x[-n:] *= f[::-1]; return x
 
-def clip(s, e):
-    x = a[int((s - 0.06) * SR): int((e + 0.1) * SR)]
+def clip(s, e, src=None):
+    x = (a if src is None else src)[int((s - 0.06) * SR): int((e + 0.1) * SR)]
     d = env_db(x); v = np.nonzero(d > TH)[0]  # trim to first/last voiced frame
     x = x[max(0, v[0] * H - int(0.05 * SR)): min(len(x), (v[-1] + 1) * H + int(0.12 * SR))]
     return fade(tighten(x))
@@ -127,7 +139,7 @@ def god_voice(x):
     d = env_db(y); v = np.nonzero(d > -50)[0]
     return fade(y[: (v[-1] + 1) * H], 40), len(x) / SR
 
-GOD_SPLIT = (19.5, 20.05)  # line 4: "Ogi suara nang:" | "Muu onak Ku, Oku nyayang muu."
+GOD_SPLIT = (19.5, 20.05) if TAKE == 1 else (30.5, 30.98)  # line 4: "Ogi suara nang:" | "Muu onak Ku, Oku nyayang muu."
 END_LEAD = 1.7              # line 18 starts after the title card has landed
 
 buf = [np.zeros(int(0.5 * SR), np.float32)]
@@ -162,7 +174,7 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
         print(f"{t:6.2f} {len(xb) / SR:5.2f}  (God) {tb}")
         buf += [xb, np.zeros(int(0.15 * SR), np.float32)]; t += len(xb) / SR + 0.15
         continue
-    x = clip(s, e)
+    x = clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
     if n == len(L) - 1:
         x = np.concatenate([np.zeros(int(END_LEAD * SR), np.float32), x])
     tempter = voice == SC.T
