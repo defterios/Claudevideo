@@ -89,3 +89,7 @@ Compositions `FollowTall` / `FollowWide` (`src/v9/`), sharing the player in `src
 2. Voice: `cd scripts/wilderness && SCRIPT=script_ep2 python3 tts.py <kokoro model dir> <build dir>`
 3. Timeline + sound: `EP=2 python3 scripts/wilderness/build.py <build dir>` (cues in `scripts/wilderness/sound_ep2.py`) → `src/v9/data.json`, `public/v9/`.
 4. `npx remotion render FollowTall out/follow_me_tiktok_9x16.mp4 --crf=18` (and `FollowWide`).
+
+## Episode 2 Bidayuh — "Nuna Oku"
+`cd scripts/wilderness && EP=2 python3 bidayuh.py raw.wav <build dir>` (lines + cue-word aliases in `LINES2`, extra pauses in `EXTRA_PAUSE`),
+then `EP=2 python3 scripts/wilderness/build.py <build dir> _bdy`; compositions `FollowTallBdy` / `FollowWideBdy`.

@@ -3,9 +3,11 @@ in the same format as tts.py, so build.py can be reused.   Usage: bidayuh.py <vo
 Each line: (scene, Bidayuh text, tempter?, start/end in the raw recording, caption keywords, {english cue: bidayuh word})."""
 import sys, json, os, re, wave, subprocess, tempfile
 import numpy as np
-import script as SC
+import importlib
+EP = int(os.environ.get("EP", "1"))
+SC = importlib.import_module("script" if EP == 1 else f"script_ep{EP}")
 
-LINES = [
+LINES = [  # episode 1
     ("Slama 30 sowa, yeh jek eh tukang koyuh. Doi nyaa piruh eh.", 6.35, 10.95, ["tukang", "koyuh", "Doi"], {"nobody": "Doi"}),
     ("Jadi daang 1 pagi, yeh meh muun ke sungi.", 11.95, 14.9, ["sungi"], {}),
     ("Longit pun meh tibuka.", 15.25, 17.4, ["Longit", "tibuka"], {"tore": "tibuka"}),
@@ -25,6 +27,31 @@ LINES = [
     ("Masa meh rie neg, Pritah Topa meh sinek.", 83.95, 87.8, ["Masa", "Pritah", "sinek"], {}),
     ("Follow suo part 2.", 93.2, 94.75, ["Follow"], {}),  # spoken "Bidayuh, Episod 1: Padang Pasir" removed; title card shows it
 ]
+LINES2 = [  # episode 2 (alias "word#2" = second occurrence of that word)
+    ("Takar Jesus ponu de pang laut Galilee. Yeh kirin 2 sikie sudi ngijaring.", 5.15, 9.45, ["Galilee", "ngijaring"], {}),
+    ("Simon duoh Andrew. De kroja takap kien, masih doi koyuh de daped eh.", 9.7, 14.85, ["Simon", "Andrew", "doi"], {"nothing": "doi"}),
+    ("Yeh nang: Nuna Oku. Oku rie ngajar ingan ngijaring misia da jagin rayat Ku.", 15.45, 20.95, ["Nuna", "Oku", "misia"], {"follow": "Nuna", "fishers": "ngijaring"}),
+    ("Torus nya munu posan jaring eh.", 21.45, 23.45, ["posan", "jaring"], {"dropped": "posan"}),
+    ("Doi juo suo kanu, James duoh John dowoh orud duoh sama eh.", 24.7, 29.3, ["James", "John", "sama"], {}),
+    ("Yeh mogan nya munu. Nya munu sua geh supieh orud, sama, duoh suo de boken.", 30.35, 35.35, ["mogan", "boken"], {"called": "mogan", "left": "supieh", "everything": "boken"}),
+    ("Daang Capernaum. Yeh meh ngajar dang synagogue.", 36.15, 39.5, ["Capernaum", "ngajar"], {}),
+    ("Ideh di koda guru, tapi koda nya'a de ogi kiasa eh.", 40.3, 43.5, ["kiasa"], {"someone": "tapi"}),
+    ("Mokuo inuh meh ogi nyaa ngrais.", 44.0, 46.1, ["ngrais"], {"screaming": "ngrais"}),
+    ("Oni de ran mu duoh koih? Oku puan osi Ingan!", 47.3, 50.8, ["puan", "Ingan"], {}),
+    ("Yeh meh in eh: Ngorok nya. Ruah suo gonan yeh.", 51.4, 55.7, ["Ngorok", "Ruah"], {"quiet": "Ngorok", "out": "Ruah"}),
+    ("Nya inuh meh gogeh, ngam ngrais, ju muot meh ruah.", 56.8, 60.8, ["gogeh", "ruah"], {"gone": "ruah"}),
+    ("Dang ngumi inuh, Tua Simon meh bonguh da aen.", 63.15, 66.85, ["bonguh", "aen"], {}),
+    ("Yeh meh mit tongan eh. Aen inuh meh musuop.", 67.55, 70.55, ["tongan", "musuop"], {"hand": "tongan", "left": "musuop"}),
+    ("Sibayuh boten onu rabu, ni kupuo inuh meh kajen de dopan tiban.", 71.95, 75.6, ["kupuo", "tiban"], {}),
+    ("Ju dari de ogi onam eh meh guru ngoruob dopan yeh.", 76.45, 79.05, ["onam", "ngoruob"], {"knees": "ngoruob"}),
+    ("Asa Ingan raan, Ingan daped da oku bait.", 80.1, 82.9, ["bait"], {}),
+    ("Doi nya toma nya de ogi onam inuh. Yeh meh toma eh duoh sobut: Raan Ku. Bait negeh.", 83.35, 90.7, ["Doi", "toma", "Bait"], {"touched": "toma#2", "clean": "Bait"}),
+    ("Follow suo part 3.", 92.05, 94.3, ["Follow"], {}),
+]
+EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
+if EP == 2:
+    LINES = LINES2
+    EXTRA_PAUSE = {5: 1.0, 13: 1.3}
 assert len(LINES) == len(SC.LINES)
 
 src, out = sys.argv[1], sys.argv[2]
@@ -38,7 +65,7 @@ def env_db(x):
 DB = env_db(a)
 TH = -45  # speech vs room tone (gaps sit at about -65 dB)
 
-# split point between lines 13 and 14: longest quiet run in 69.5–71.6 s
+# EP1 only: split point between lines 13 and 14: longest quiet run in 69.5–71.6 s
 q = DB[int(69.5 * 100): int(71.6 * 100)] < TH
 best, run, bs = (0, 0), 0, 0
 for i, v in enumerate(q):
@@ -49,8 +76,9 @@ for i, v in enumerate(q):
         run = 0
 cut = 69.5 + (best[1] + best[0] / 2) / 100
 L = [list(x) for x in LINES]
-L[12][2] = cut; L[13][1] = cut
-print(f"line 13/14 split at {cut:.2f}s (quiet run {best[0] * 10} ms)")
+if EP == 1:
+  L[12][2] = cut; L[13][1] = cut
+  print(f"line 13/14 split at {cut:.2f}s (quiet run {best[0] * 10} ms)")
 
 def tighten(x, cap=0.42):
     """shorten internal pauses longer than `cap` (keeps breaths natural)"""
@@ -111,16 +139,18 @@ def words_for(x, text, keys, alias, t0, voiced_len=None):
     words = text.split()
     wts = [len(re.sub(r"[^\w]", "", w)) + 1.2 for w in words]
     tot = sum(wts); acc = 0; wl = []
-    inv = {b.lower(): k for k, b in alias.items()}
+    inv = {(b.split("#")[0].lower(), int(b.split("#")[1]) if "#" in b else 1): k for k, b in alias.items()}
+    seen = {}
     for w, wt in zip(words, wts):
         fr = int(np.searchsorted(cum, acc / tot + 1e-6))
         bare = re.sub(r"[^\w]", "", w)
-        wl.append({"text": w, "start": round(t0 + fr / 100, 3), "key": bare in keys, "alias": inv.get(bare.lower())})
+        seen[bare.lower()] = seen.get(bare.lower(), 0) + 1
+        wl.append({"text": w, "start": round(t0 + fr / 100, 3), "key": bare in keys, "alias": inv.get((bare.lower(), seen[bare.lower()]))})
         acc += wt
     return wl
 
 for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enumerate(zip(SC.LINES, L)):
-    if n == 3:  # narrator intro, then God's voice
+    if EP == 1 and n == 3:  # narrator intro, then God's voice
         ta, tb = text.split(": ", 1)
         xa = clip(s, GOD_SPLIT[0])
         segs.append({"scene": scene, "text": ta + ":", "tempter": False, "start": round(t, 3), "end": round(t + len(xa) / SR, 3), "words": words_for(xa, ta + ":", keys, alias, t)})
@@ -146,6 +176,7 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
     wl = words_for(x[int(lead * SR):], text, keys, alias, t + lead)
     segs.append({"scene": scene, "text": text, "tempter": tempter, "start": round(t, 3), "end": round(t + dur, 3), "words": wl})
     print(f"{t:6.2f} {dur:5.2f}  {text}")
+    pause += EXTRA_PAUSE.get(n, 0)
     buf.append(x); buf.append(np.zeros(int(pause * SR), np.float32))
     t += dur + int(pause * SR) / SR
 y = np.concatenate(buf)
