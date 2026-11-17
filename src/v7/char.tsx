@@ -3,7 +3,7 @@ import * as THREE from 'three';
 
 /** Cute big-head 3D character (reference style). Units: ~1 = 1 m. Feet at y=0. */
 export type Look = {skin: string; shirt: string; shorts: string; hair?: string; headband?: string; beard?: boolean; cap?: string};
-export type Expr = 'happy' | 'neutral' | 'scared' | 'tired' | 'shock' | 'determined' | 'pain';
+export type Expr = 'happy' | 'neutral' | 'scared' | 'tired' | 'shock' | 'determined' | 'pain' | 'yell';
 export type Limbs = {armL: number; armR: number; elbowL?: number; elbowR?: number; legL?: number; legR?: number; lean?: number; headTilt?: number; headTurn?: number; bob?: number; armOutL?: number; armOutR?: number};
 
 const M = (c: string, r = 0.75) => new THREE.MeshStandardMaterial({color: c, roughness: r, metalness: 0});
@@ -32,8 +32,8 @@ export const Character: React.FC<{look: Look; expr?: Expr; limbs: Limbs; t: numb
     [look, gloves]
   );
   const blink = Math.floor(t * 10) % 41 === 0;
-  const eyeS: Record<Expr, number> = {happy: 1, neutral: 1, scared: 1.25, tired: 0.55, shock: 1.35, determined: 0.8, pain: 0.35};
-  const browA: Record<Expr, number> = {happy: 0, neutral: 0, scared: -0.35, tired: 0.25, shock: -0.45, determined: 0.4, pain: 0.45};
+  const eyeS: Record<Expr, number> = {happy: 1, neutral: 1, scared: 1.25, tired: 0.55, shock: 1.35, determined: 0.8, pain: 0.35, yell: 0.85};
+  const browA: Record<Expr, number> = {happy: 0, neutral: 0, scared: -0.35, tired: 0.25, shock: -0.45, determined: 0.4, pain: 0.45, yell: 0.55};
   const es = blink ? 0.12 : eyeS[expr];
   const bob = limbs.bob ?? 0;
   const handMat = gloves ? mats.glove : pads ? mats.pad : mats.skin;
@@ -104,8 +104,8 @@ export const Character: React.FC<{look: Look; expr?: Expr; limbs: Limbs; t: numb
             </group>
           ))}
           {/* mouth */}
-          {expr === 'shock' || expr === 'scared' || expr === 'tired' ? (
-            <mesh position={[0, -0.17, 0.38]} scale={[1, expr === 'tired' ? 0.6 : 1.2, 0.4]} material={M('#4a1515', 0.6)}>
+          {expr === 'shock' || expr === 'scared' || expr === 'tired' || expr === 'yell' ? (
+            <mesh position={[0, expr === 'yell' ? -0.19 : -0.17, 0.38]} scale={expr === 'yell' ? [1.7, 1.5, 0.45] : [1, expr === 'tired' ? 0.6 : 1.2, 0.4]} material={M('#4a1515', 0.6)}>
               <sphereGeometry args={[0.06, 16, 12]} />
             </mesh>
           ) : (
