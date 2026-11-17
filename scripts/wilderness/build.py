@@ -36,7 +36,7 @@ for s in segs:
         if last or (brk and len(cur) >= 2) or len(cur) >= 4:
             if not last and len(ws) - i - 1 == 1 and not brk:  # don't orphan a single word
                 continue
-            pages.append({"start": cur[0]["start"], "end": s["end"] + 0.25 if last else ws[i + 1]["start"], "tempter": s["tempter"],
+            pages.append({"start": cur[0]["start"], "end": s["end"] + 0.25 if last else ws[i + 1]["start"], "tempter": s["tempter"], "god": s.get("god", False),
                           "words": [{"text": x["text"], "start": x["start"], "key": x["key"]} for x in cur]})
             cur = []
 json.dump({"duration": DUR, "scenes": scenes, "pages": pages}, open(os.path.join(ROOT, f"src/v8/data{OUT}.json"), "w"), indent=1, ensure_ascii=False)

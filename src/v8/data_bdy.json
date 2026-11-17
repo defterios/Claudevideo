@@ -1,5 +1,5 @@
 {
- "duration": 77.37,
+ "duration": 76.49,
  "scenes": [
   {
    "id": "river",
@@ -50,26 +50,27 @@
    "id": "voice",
    "start": 11.44,
    "segs": [
-    0.28
+    0.28,
+    1.9
    ],
    "w": {
     "ogi": 0.33,
-    "suara": 0.66,
-    "nang": 1.14,
-    "muu": 1.97,
-    "you": 1.97,
-    "onak": 2.3,
-    "son": 2.3,
-    "ku": 2.86,
-    "oku": 3.53,
-    "nyayang": 3.9,
-    "love": 3.9
+    "suara": 0.62,
+    "nang": 1.06,
+    "muu": 1.95,
+    "you": 1.95,
+    "onak": 2.4,
+    "son": 2.4,
+    "ku": 2.96,
+    "oku": 3.3,
+    "nyayang": 3.76,
+    "love": 3.76
    },
-   "end": 16.66
+   "end": 16.97
   },
   {
    "id": "drive",
-   "start": 16.66,
+   "start": 16.97,
    "segs": [
     0.28
    ],
@@ -88,11 +89,11 @@
     "desert": 2.9,
     "pasir": 3.34
    },
-   "end": 20.52
+   "end": 20.83
   },
   {
    "id": "fast",
-   "start": 20.52,
+   "start": 20.83,
    "segs": [
     0.28
    ],
@@ -113,11 +114,11 @@
     "wild": 4.98,
     "buas": 5.64
    },
-   "end": 26.8
+   "end": 27.11
   },
   {
    "id": "bread",
-   "start": 26.8,
+   "start": 27.11,
    "segs": [
     0.28,
     2.68,
@@ -154,11 +155,11 @@
     "pinguman": 10.83,
     "sija": 11.41
    },
-   "end": 38.78
+   "end": 39.09
   },
   {
    "id": "temple",
-   "start": 38.78,
+   "start": 39.09,
    "segs": [
     0.28,
     3.74
@@ -176,11 +177,11 @@
     "ma": 5.21,
     "suba": 5.62
    },
-   "end": 45.41
+   "end": 45.72
   },
   {
    "id": "kingdoms",
-   "start": 45.41,
+   "start": 45.72,
    "segs": [
     0.28
    ],
@@ -202,11 +203,11 @@
     "salip": 6.09,
     "cross": 6.09
    },
-   "end": 52.37
+   "end": 52.68
   },
   {
    "id": "go",
-   "start": 52.37,
+   "start": 52.68,
    "segs": [
     0.28,
     3.48
@@ -225,11 +226,11 @@
     "buu": 4.63,
     "go": 4.63
    },
-   "end": 58.11
+   "end": 58.42
   },
   {
    "id": "angels",
-   "start": 58.11,
+   "start": 58.42,
    "segs": [
     0.28
    ],
@@ -243,11 +244,11 @@
     "angels": 1.7,
     "neg": 2.56
    },
-   "end": 61.65
+   "end": 61.96
   },
   {
    "id": "walk",
-   "start": 61.65,
+   "start": 61.96,
    "segs": [
     0.28,
     5.91
@@ -275,24 +276,21 @@
     "topa": 8.27,
     "sinek": 9.14
    },
-   "end": 71.78
+   "end": 72.09
   },
   {
    "id": "end",
-   "start": 71.78,
+   "start": 72.09,
    "segs": [
     0.28
    ],
    "w": {
-    "episod": 0.33,
-    "": 0.89,
-    "padang": 1.28,
-    "pasir": 2.08,
-    "follow": 2.61,
-    "suo": 3.6,
-    "part": 3.93
+    "follow": 2.03,
+    "suo": 2.52,
+    "part": 2.86,
+    "": 3.22
    },
-   "end": 77.37
+   "end": 76.49
   }
  ],
  "pages": [
@@ -300,6 +298,7 @@
    "start": 0.55,
    "end": 1.62,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Slama",
@@ -322,6 +321,7 @@
    "start": 1.62,
    "end": 3.04,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "yeh",
@@ -349,6 +349,7 @@
    "start": 3.04,
    "end": 5.45,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "koyuh.",
@@ -381,6 +382,7 @@
    "start": 5.5,
    "end": 6.77,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Jadi",
@@ -408,6 +410,7 @@
    "start": 6.77,
    "end": 8.69,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "yeh",
@@ -440,6 +443,7 @@
    "start": 8.84,
    "end": 11.07,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Longit",
@@ -465,8 +469,9 @@
   },
   {
    "start": 11.77,
-   "end": 13.41,
+   "end": 13.24,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Ogi",
@@ -475,952 +480,956 @@
     },
     {
      "text": "suara",
-     "start": 12.1,
+     "start": 12.06,
      "key": false
     },
     {
      "text": "nang:",
-     "start": 12.58,
+     "start": 12.5,
      "key": false
     }
    ]
   },
   {
-   "start": 13.41,
-   "end": 14.97,
+   "start": 13.39,
+   "end": 14.74,
    "tempter": false,
+   "god": true,
    "words": [
     {
      "text": "Muu",
-     "start": 13.41,
+     "start": 13.39,
      "key": false
     },
     {
      "text": "onak",
-     "start": 13.74,
+     "start": 13.84,
      "key": true
     },
     {
      "text": "Ku,",
-     "start": 14.3,
+     "start": 14.4,
      "key": false
     }
    ]
   },
   {
-   "start": 14.97,
-   "end": 16.69,
+   "start": 14.74,
+   "end": 16.79,
    "tempter": false,
+   "god": true,
    "words": [
     {
      "text": "Oku",
-     "start": 14.97,
+     "start": 14.74,
      "key": false
     },
     {
      "text": "nyayang",
-     "start": 15.34,
+     "start": 15.2,
      "key": true
     },
     {
      "text": "muu.",
-     "start": 15.99,
+     "start": 16.08,
      "key": false
     }
    ]
   },
   {
-   "start": 16.99,
-   "end": 18.05,
+   "start": 17.3,
+   "end": 18.36,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Mokuo",
-     "start": 16.99,
+     "start": 17.3,
      "key": false
     },
     {
      "text": "de",
-     "start": 17.31,
+     "start": 17.62,
      "key": false
     },
     {
      "text": "munu",
-     "start": 17.48,
+     "start": 17.79,
      "key": false
     },
     {
      "text": "tia?",
-     "start": 17.83,
+     "start": 18.14,
      "key": false
     }
    ]
   },
   {
-   "start": 18.05,
-   "end": 19.11,
+   "start": 18.36,
+   "end": 19.42,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Yeh",
-     "start": 18.05,
+     "start": 18.36,
      "key": false
     },
     {
      "text": "meh",
-     "start": 18.28,
+     "start": 18.59,
      "key": false
     },
     {
      "text": "toban",
-     "start": 18.55,
+     "start": 18.86,
      "key": true
     },
     {
      "text": "dep",
-     "start": 18.88,
+     "start": 19.19,
      "key": false
     }
    ]
   },
   {
-   "start": 19.11,
-   "end": 20.7,
+   "start": 19.42,
+   "end": 21.01,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "eh",
-     "start": 19.11,
+     "start": 19.42,
      "key": false
     },
     {
      "text": "ke",
-     "start": 19.39,
+     "start": 19.7,
      "key": false
     },
     {
      "text": "padang",
-     "start": 19.56,
+     "start": 19.87,
      "key": true
     },
     {
      "text": "pasir.",
-     "start": 20.0,
+     "start": 20.31,
      "key": true
     }
    ]
   },
   {
-   "start": 20.85,
-   "end": 21.43,
+   "start": 21.16,
+   "end": 21.74,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "40",
-     "start": 20.85,
+     "start": 21.16,
      "key": true
     },
     {
      "text": "onu.",
-     "start": 21.15,
+     "start": 21.46,
      "key": false
     }
    ]
   },
   {
-   "start": 21.43,
-   "end": 22.65,
+   "start": 21.74,
+   "end": 22.96,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Doi",
-     "start": 21.43,
+     "start": 21.74,
      "key": false
     },
     {
      "text": "pinguman.",
-     "start": 21.7,
+     "start": 22.01,
      "key": true
     }
    ]
   },
   {
-   "start": 22.65,
-   "end": 23.94,
+   "start": 22.96,
+   "end": 24.25,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Jek",
-     "start": 22.65,
+     "start": 22.96,
      "key": false
     },
     {
      "text": "eh",
-     "start": 23.25,
+     "start": 23.56,
      "key": false
     },
     {
      "text": "bonguh,",
-     "start": 23.47,
+     "start": 23.78,
      "key": false
     }
    ]
   },
   {
-   "start": 23.94,
-   "end": 26.88,
+   "start": 24.25,
+   "end": 27.19,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "batuh,",
-     "start": 23.94,
+     "start": 24.25,
      "key": false
     },
     {
      "text": "duoh",
-     "start": 25.15,
+     "start": 25.46,
      "key": false
     },
     {
      "text": "binatang",
-     "start": 25.5,
+     "start": 25.81,
      "key": false
     },
     {
      "text": "buas.",
-     "start": 26.16,
+     "start": 26.47,
      "key": true
     }
    ]
   },
   {
-   "start": 27.13,
-   "end": 28.44,
+   "start": 27.44,
+   "end": 28.75,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Mokuo",
-     "start": 27.13,
+     "start": 27.44,
      "key": false
     },
     {
      "text": "inuh",
-     "start": 27.64,
+     "start": 27.95,
      "key": false
     },
     {
      "text": "meh",
-     "start": 27.94,
+     "start": 28.25,
      "key": false
     },
     {
      "text": "ogi",
-     "start": 28.19,
+     "start": 28.5,
      "key": false
     }
    ]
   },
   {
-   "start": 28.44,
-   "end": 29.48,
+   "start": 28.75,
+   "end": 29.79,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "suara",
-     "start": 28.44,
+     "start": 28.75,
      "key": true
     },
     {
      "text": "nang.",
-     "start": 28.8,
+     "start": 29.11,
      "key": false
     }
    ]
   },
   {
-   "start": 29.53,
-   "end": 30.62,
+   "start": 29.84,
+   "end": 30.93,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "Muu",
-     "start": 29.53,
-     "key": false
-    },
-    {
-     "text": "neh",
      "start": 29.84,
      "key": false
     },
     {
-     "text": "pirai.",
+     "text": "neh",
      "start": 30.15,
+     "key": false
+    },
+    {
+     "text": "pirai.",
+     "start": 30.46,
      "key": true
     }
    ]
   },
   {
-   "start": 30.62,
-   "end": 32.63,
+   "start": 30.93,
+   "end": 32.94,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "Duok",
-     "start": 30.62,
+     "start": 30.93,
      "key": false
     },
     {
      "text": "tukar",
-     "start": 31.16,
+     "start": 31.47,
      "key": false
     },
     {
      "text": "batuh",
-     "start": 31.77,
+     "start": 32.08,
      "key": false
     },
     {
      "text": "itih",
-     "start": 32.24,
+     "start": 32.55,
      "key": false
     }
    ]
   },
   {
-   "start": 32.63,
-   "end": 33.83,
+   "start": 32.94,
+   "end": 34.14,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "jadi",
-     "start": 32.63,
+     "start": 32.94,
      "key": false
     },
     {
      "text": "ruti.",
-     "start": 33.02,
+     "start": 33.33,
      "key": true
     }
    ]
   },
   {
-   "start": 33.98,
-   "end": 35.19,
+   "start": 34.29,
+   "end": 35.5,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Yeh",
-     "start": 33.98,
+     "start": 34.29,
      "key": false
     },
     {
      "text": "meh",
-     "start": 34.6,
+     "start": 34.91,
      "key": false
     },
     {
      "text": "nang:",
-     "start": 34.86,
+     "start": 35.17,
      "key": false
     }
    ]
   },
   {
-   "start": 35.19,
-   "end": 36.72,
+   "start": 35.5,
+   "end": 37.03,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Misia",
-     "start": 35.19,
+     "start": 35.5,
      "key": false
     },
     {
      "text": "ideh",
-     "start": 35.99,
+     "start": 36.3,
      "key": true
     },
     {
      "text": "di",
-     "start": 36.32,
+     "start": 36.63,
      "key": false
     },
     {
      "text": "eh",
-     "start": 36.52,
+     "start": 36.83,
      "key": false
     }
    ]
   },
   {
-   "start": 36.72,
-   "end": 38.91,
+   "start": 37.03,
+   "end": 39.22,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "idip",
-     "start": 36.72,
+     "start": 37.03,
      "key": false
     },
     {
      "text": "pakai",
-     "start": 37.05,
+     "start": 37.36,
      "key": false
     },
     {
      "text": "pinguman",
-     "start": 37.63,
+     "start": 37.94,
      "key": false
     },
     {
      "text": "sija.",
-     "start": 38.21,
+     "start": 38.52,
      "key": true
     }
    ]
   },
   {
-   "start": 39.11,
-   "end": 42.42,
+   "start": 39.42,
+   "end": 42.73,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "Bitabung.",
-     "start": 39.11,
+     "start": 39.42,
      "key": true
     },
     {
      "text": "Pikirien",
-     "start": 40.09,
+     "start": 40.4,
      "key": true
     },
     {
      "text": "mu",
-     "start": 40.94,
+     "start": 41.25,
      "key": false
     },
     {
      "text": "onak",
-     "start": 41.19,
+     "start": 41.5,
      "key": false
     },
     {
      "text": "Topa.",
-     "start": 41.6,
+     "start": 41.91,
      "key": false
     }
    ]
   },
   {
-   "start": 42.57,
-   "end": 43.99,
+   "start": 42.88,
+   "end": 44.3,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Yeh",
-     "start": 42.57,
+     "start": 42.88,
      "key": false
     },
     {
      "text": "nang",
-     "start": 42.83,
+     "start": 43.14,
      "key": false
     },
     {
      "text": "in",
-     "start": 43.17,
+     "start": 43.48,
      "key": false
     },
     {
      "text": "eh:",
-     "start": 43.37,
+     "start": 43.68,
      "key": false
     }
    ]
   },
   {
-   "start": 43.99,
-   "end": 45.54,
+   "start": 44.3,
+   "end": 45.85,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Ma",
-     "start": 43.99,
+     "start": 44.3,
      "key": false
     },
     {
      "text": "mu",
-     "start": 44.2,
+     "start": 44.51,
      "key": false
     },
     {
      "text": "suba",
-     "start": 44.4,
+     "start": 44.71,
      "key": true
     },
     {
      "text": "Topa.",
-     "start": 44.75,
+     "start": 45.06,
      "key": false
     }
    ]
   },
   {
-   "start": 45.74,
-   "end": 47.3,
+   "start": 46.05,
+   "end": 47.61,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "Sujud",
-     "start": 45.74,
+     "start": 46.05,
      "key": true
     },
     {
      "text": "tudu",
-     "start": 46.53,
+     "start": 46.84,
      "key": false
     },
     {
      "text": "oku,",
-     "start": 46.96,
+     "start": 47.27,
      "key": false
     }
    ]
   },
   {
-   "start": 47.3,
-   "end": 48.87,
+   "start": 47.61,
+   "end": 49.18,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "tie",
-     "start": 47.3,
+     "start": 47.61,
      "key": false
     },
     {
      "text": "suo",
-     "start": 47.65,
+     "start": 47.96,
      "key": false
     },
     {
      "text": "de",
-     "start": 48.18,
+     "start": 48.49,
      "key": false
     },
     {
      "text": "muti",
-     "start": 48.45,
+     "start": 48.76,
      "key": false
     }
    ]
   },
   {
-   "start": 48.87,
-   "end": 50.28,
+   "start": 49.18,
+   "end": 50.59,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "jadi",
-     "start": 48.87,
+     "start": 49.18,
      "key": false
     },
     {
      "text": "tu",
-     "start": 49.3,
+     "start": 49.61,
      "key": false
     },
     {
      "text": "dimu.",
-     "start": 49.56,
+     "start": 49.87,
      "key": true
     }
    ]
   },
   {
-   "start": 50.28,
-   "end": 51.13,
+   "start": 50.59,
+   "end": 51.44,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "Doi",
-     "start": 50.28,
+     "start": 50.59,
      "key": false
     },
     {
      "text": "monam,",
-     "start": 50.62,
+     "start": 50.93,
      "key": false
     }
    ]
   },
   {
-   "start": 51.13,
-   "end": 52.4,
+   "start": 51.44,
+   "end": 52.71,
    "tempter": true,
+   "god": false,
    "words": [
     {
      "text": "doi",
-     "start": 51.13,
+     "start": 51.44,
      "key": false
     },
     {
      "text": "salip.",
-     "start": 51.5,
+     "start": 51.81,
      "key": true
     }
    ]
   },
   {
-   "start": 52.7,
-   "end": 53.99,
+   "start": 53.01,
+   "end": 54.3,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Yeh",
-     "start": 52.7,
+     "start": 53.01,
      "key": false
     },
     {
      "text": "de",
-     "start": 52.97,
+     "start": 53.28,
      "key": false
     },
     {
      "text": "meh",
-     "start": 53.16,
+     "start": 53.47,
      "key": false
     },
     {
      "text": "pirai,",
-     "start": 53.48,
+     "start": 53.79,
      "key": true
     }
    ]
   },
   {
-   "start": 53.99,
-   "end": 55.75,
+   "start": 54.3,
+   "end": 56.06,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "kowek,",
-     "start": 53.99,
+     "start": 54.3,
      "key": false
     },
     {
      "text": "sadi",
-     "start": 54.62,
+     "start": 54.93,
      "key": true
     },
     {
      "text": "eh",
-     "start": 54.93,
+     "start": 55.24,
      "key": false
     },
     {
      "text": "ade.",
-     "start": 55.12,
+     "start": 55.43,
      "key": false
     }
    ]
   },
   {
-   "start": 55.9,
-   "end": 57.0,
+   "start": 56.21,
+   "end": 57.31,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Meh",
-     "start": 55.9,
+     "start": 56.21,
      "key": false
     },
     {
      "text": "in",
-     "start": 56.17,
+     "start": 56.48,
      "key": false
     },
     {
      "text": "eh:",
-     "start": 56.38,
+     "start": 56.69,
      "key": false
     }
    ]
   },
   {
-   "start": 57.0,
-   "end": 57.64,
+   "start": 57.31,
+   "end": 57.95,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Buu.",
-     "start": 57.0,
+     "start": 57.31,
      "key": true
     }
    ]
   },
   {
-   "start": 58.44,
-   "end": 59.63,
+   "start": 58.75,
+   "end": 59.94,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Muot",
-     "start": 58.44,
+     "start": 58.75,
      "key": false
     },
     {
      "text": "pun",
-     "start": 58.73,
-     "key": false
-    },
-    {
-     "text": "meh",
      "start": 59.04,
      "key": false
     },
     {
+     "text": "meh",
+     "start": 59.35,
+     "key": false
+    },
+    {
      "text": "buu.",
-     "start": 59.28,
+     "start": 59.59,
      "key": true
     }
    ]
   },
   {
-   "start": 59.63,
-   "end": 61.28,
+   "start": 59.94,
+   "end": 61.59,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Ju",
-     "start": 59.63,
+     "start": 59.94,
      "key": false
     },
     {
      "text": "Malaikat",
-     "start": 59.81,
+     "start": 60.12,
      "key": true
     },
     {
      "text": "meh",
-     "start": 60.43,
+     "start": 60.74,
      "key": false
     },
     {
      "text": "neg.",
-     "start": 60.67,
+     "start": 60.98,
      "key": false
     }
    ]
   },
   {
-   "start": 61.98,
-   "end": 63.31,
+   "start": 62.29,
+   "end": 63.62,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Jesus",
-     "start": 61.98,
+     "start": 62.29,
      "key": false
     },
     {
      "text": "ruah",
-     "start": 62.32,
+     "start": 62.63,
      "key": false
     },
     {
      "text": "suo",
-     "start": 62.6,
+     "start": 62.91,
      "key": false
     },
     {
      "text": "padang",
-     "start": 62.83,
+     "start": 63.14,
      "key": false
     }
    ]
   },
   {
-   "start": 63.31,
-   "end": 64.27,
+   "start": 63.62,
+   "end": 64.58,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "pasir",
-     "start": 63.31,
+     "start": 63.62,
      "key": false
     },
     {
      "text": "inuh",
-     "start": 63.65,
+     "start": 63.96,
      "key": false
     },
     {
      "text": "romah,",
-     "start": 63.93,
+     "start": 64.24,
      "key": false
     }
    ]
   },
   {
-   "start": 64.27,
-   "end": 66.26,
+   "start": 64.58,
+   "end": 66.57,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "kowek",
-     "start": 64.27,
+     "start": 64.58,
      "key": false
     },
     {
      "text": "tapi",
-     "start": 65.07,
+     "start": 65.38,
      "key": false
     },
     {
      "text": "masih",
-     "start": 65.58,
+     "start": 65.89,
      "key": false
     },
     {
      "text": "gogah",
-     "start": 65.92,
+     "start": 66.23,
      "key": true
     }
    ]
   },
   {
-   "start": 66.26,
-   "end": 67.46,
+   "start": 66.57,
+   "end": 67.77,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "mun",
-     "start": 66.26,
+     "start": 66.57,
      "key": false
     },
     {
      "text": "pimonu",
-     "start": 66.51,
+     "start": 66.82,
      "key": false
     },
     {
      "text": "eh.",
-     "start": 66.91,
+     "start": 67.22,
      "key": false
     }
    ]
   },
   {
-   "start": 67.61,
-   "end": 68.95,
+   "start": 67.92,
+   "end": 69.26,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Masa",
-     "start": 67.61,
+     "start": 67.92,
      "key": true
     },
     {
      "text": "meh",
-     "start": 68.23,
+     "start": 68.54,
      "key": false
     },
     {
      "text": "rie",
-     "start": 68.47,
+     "start": 68.78,
      "key": false
     },
     {
      "text": "neg,",
-     "start": 68.71,
+     "start": 69.02,
      "key": false
     }
    ]
   },
   {
-   "start": 68.95,
-   "end": 71.61,
+   "start": 69.26,
+   "end": 71.92,
    "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Pritah",
-     "start": 68.95,
+     "start": 69.26,
      "key": true
     },
     {
      "text": "Topa",
-     "start": 69.92,
+     "start": 70.23,
      "key": false
     },
     {
      "text": "meh",
-     "start": 70.26,
+     "start": 70.57,
      "key": false
     },
     {
      "text": "sinek.",
-     "start": 70.79,
+     "start": 71.1,
      "key": true
     }
    ]
   },
   {
-   "start": 72.11,
-   "end": 73.06,
+   "start": 74.12,
+   "end": 75.84,
    "tempter": false,
-   "words": [
-    {
-     "text": "Episod",
-     "start": 72.11,
-     "key": false
-    },
-    {
-     "text": "1:",
-     "start": 72.67,
-     "key": false
-    }
-   ]
-  },
-  {
-   "start": 73.06,
-   "end": 74.39,
-   "tempter": false,
-   "words": [
-    {
-     "text": "Padang",
-     "start": 73.06,
-     "key": true
-    },
-    {
-     "text": "Pasir.",
-     "start": 73.86,
-     "key": false
-    }
-   ]
-  },
-  {
-   "start": 74.39,
-   "end": 76.72,
-   "tempter": false,
+   "god": false,
    "words": [
     {
      "text": "Follow",
-     "start": 74.39,
+     "start": 74.12,
      "key": true
     },
     {
      "text": "suo",
-     "start": 75.38,
+     "start": 74.61,
      "key": false
     },
     {
      "text": "part",
-     "start": 75.71,
+     "start": 74.95,
      "key": false
     },
     {
      "text": "2.",
-     "start": 76.17,
+     "start": 75.31,
      "key": false
     }
    ]

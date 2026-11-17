@@ -16,7 +16,7 @@ if (typeof document !== 'undefined') {
 }
 
 type Sc = {id: string; start: number; end: number; segs: number[]; w: Record<string, number>};
-type Pg = {start: number; end: number; tempter: boolean; words: {text: string; start: number; key: boolean}[]};
+type Pg = {start: number; end: number; tempter: boolean; god?: boolean; words: {text: string; start: number; key: boolean}[]};
 type Data = {duration: number; scenes: Sc[]; pages: Pg[]};
 type Lang = 'en' | 'bdy';
 const DATA: Record<Lang, Data> = {en: dataEn as unknown as Data, bdy: dataBdy as unknown as Data};
@@ -65,9 +65,10 @@ const Captions: React.FC<{size: number; D: Data}> = ({size, D}) => {
       {p.words.map((w, i) => {
         const s = spring({frame: frame - Math.round((w.start - 0.04) * fps), fps, config: {damping: 13, stiffness: 240}});
         const on = t >= w.start - 0.04;
-        const col = w.key ? (p.tempter ? '#FF6A55' : '#FFDD33') : p.tempter ? '#E9D9F2' : '#fff';
+        const col = p.god ? (w.key ? '#FFD24A' : '#FFF6D8') : w.key ? (p.tempter ? '#FF6A55' : '#FFDD33') : p.tempter ? '#E9D9F2' : '#fff';
+        const glow = p.god ? `, 0 0 ${size * 0.5}px rgba(255,214,110,0.95), 0 0 ${size * 1.1}px rgba(255,200,90,0.6)` : '';
         return (
-          <span key={i} style={{fontSize: size * (w.key ? 1.42 : 1), color: col, opacity: on ? 1 : 0, transform: `scale(${0.6 + 0.4 * s}) rotate(${w.key ? -2 : 0}deg)`, display: 'inline-block', margin: w.key ? `0 ${size * 0.12}px` : 0, WebkitTextStroke: `${size * 0.2}px #1c0d16`, paintOrder: 'stroke fill', textShadow: `0 ${size * 0.08}px 0 #1c0d16, 0 ${size * 0.14}px ${size * 0.3}px rgba(0,0,0,0.45)`, fontStyle: p.tempter ? 'italic' : 'normal'}}>
+          <span key={i} style={{fontSize: size * (w.key ? 1.42 : 1), color: col, opacity: on ? 1 : 0, transform: `scale(${0.6 + 0.4 * s}) rotate(${w.key ? -2 : 0}deg)`, display: 'inline-block', margin: w.key ? `0 ${size * 0.12}px` : 0, WebkitTextStroke: `${size * 0.2}px #1c0d16`, paintOrder: 'stroke fill', textShadow: `0 ${size * 0.08}px 0 #1c0d16, 0 ${size * 0.14}px ${size * 0.3}px rgba(0,0,0,0.45)${glow}`, fontStyle: p.tempter ? 'italic' : 'normal'}}>
             {w.text}
           </span>
         );

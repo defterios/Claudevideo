@@ -1,7 +1,7 @@
 """Bidayuh (Bau) version: cut the creator's voiceover into the 18 script lines and write timing.json + voice.wav
 in the same format as tts.py, so build.py can be reused.   Usage: bidayuh.py <voice.wav 24k mono> <out dir>
 Each line: (scene, Bidayuh text, tempter?, start/end in the raw recording, caption keywords, {english cue: bidayuh word})."""
-import sys, json, os, re, wave
+import sys, json, os, re, wave, subprocess, tempfile
 import numpy as np
 import script as SC
 
@@ -23,7 +23,7 @@ LINES = [
     ("Muot pun meh buu. Ju Malaikat meh neg.", 74.38, 76.95, ["buu", "Malaikat"], {"angels": "Malaikat"}),
     ("Jesus ruah suo padang pasir inuh romah, kowek tapi masih gogah mun pimonu eh.", 78.1, 83.5, ["gogah"], {}),
     ("Masa meh rie neg, Pritah Topa meh sinek.", 83.95, 87.8, ["Masa", "Pritah", "sinek"], {}),
-    ("Episod 1: Padang Pasir. Follow suo part 2.", 89.95, 94.75, ["Padang", "Follow"], {}),
+    ("Follow suo part 2.", 93.2, 94.75, ["Follow"], {}),  # spoken "Bidayuh, Episod 1: Padang Pasir" removed; title card shows it
 ]
 assert len(LINES) == len(SC.LINES)
 
@@ -72,15 +72,69 @@ def fade(x, ms=12):
     n = int(ms / 1000 * SR); f = np.linspace(0, 1, n, dtype=np.float32)
     x = x.copy(); x[:n] *= f; x[-n:] *= f[::-1]; return x
 
+def clip(s, e):
+    x = a[int((s - 0.06) * SR): int((e + 0.1) * SR)]
+    d = env_db(x); v = np.nonzero(d > TH)[0]  # trim to first/last voiced frame
+    x = x[max(0, v[0] * H - int(0.05 * SR)): min(len(x), (v[-1] + 1) * H + int(0.12 * SR))]
+    return fade(tighten(x))
+
+def god_voice(x):
+    """God's words: an octave-down double, a fifth-down double and a long hall echo. Returns (audio, length of the dry voice)."""
+    with tempfile.TemporaryDirectory() as td:
+        i, o = os.path.join(td, "i.wav"), os.path.join(td, "o.wav")
+        x2 = np.concatenate([x, np.zeros(int(2.2 * SR), np.float32)])
+        with wave.open(i, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(x2, -1, 1) * 32767).astype(np.int16).tobytes())
+        fc = ("[0:a]asplit=3[a][b][c];"
+              "[b]rubberband=pitch=0.5:formant=preserved,lowpass=f=2500,volume=0.55[b2];"
+              "[c]rubberband=pitch=0.667:formant=preserved,volume=0.30[c2];"
+              "[a][b2][c2]amix=inputs=3:normalize=0,"
+              "aecho=0.8:0.75:70|160|290|460|700:0.42|0.33|0.25|0.18|0.12,"
+              "lowshelf=f=140:g=4,highshelf=f=6000:g=-3,alimiter=limit=0.9")
+        subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", i, "-filter_complex", fc, "-ar", str(SR), "-ac", "1", o])
+        with wave.open(o) as w:
+            y = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+    y = y / max(1e-6, np.abs(y).max()) * 0.9
+    # trim the echo tail to where it falls below -50 dB
+    d = env_db(y); v = np.nonzero(d > -50)[0]
+    return fade(y[: (v[-1] + 1) * H], 40), len(x) / SR
+
+GOD_SPLIT = (19.5, 20.05)  # line 4: "Ogi suara nang:" | "Muu onak Ku, Oku nyayang muu."
+END_LEAD = 1.7              # line 18 starts after the title card has landed
+
 buf = [np.zeros(int(0.5 * SR), np.float32)]
 t = 0.5
 segs = []
-for (scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias) in zip(SC.LINES, L):
-    x = a[int((s - 0.06) * SR): int((e + 0.1) * SR)]
-    # trim to first/last voiced frame
-    d = env_db(x); v = np.nonzero(d > TH)[0]
-    x = x[max(0, v[0] * H - int(0.05 * SR)): min(len(x), (v[-1] + 1) * H + int(0.12 * SR))]
-    x = fade(tighten(x))
+def words_for(x, text, keys, alias, t0, voiced_len=None):
+    xx = x[: int(voiced_len * SR)] if voiced_len else x
+    d = env_db(xx); voiced = (d > TH).astype(float); cum = np.cumsum(voiced); cum /= cum[-1]
+    words = text.split()
+    wts = [len(re.sub(r"[^\w]", "", w)) + 1.2 for w in words]
+    tot = sum(wts); acc = 0; wl = []
+    inv = {b.lower(): k for k, b in alias.items()}
+    for w, wt in zip(words, wts):
+        fr = int(np.searchsorted(cum, acc / tot + 1e-6))
+        bare = re.sub(r"[^\w]", "", w)
+        wl.append({"text": w, "start": round(t0 + fr / 100, 3), "key": bare in keys, "alias": inv.get(bare.lower())})
+        acc += wt
+    return wl
+
+for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enumerate(zip(SC.LINES, L)):
+    if n == 3:  # narrator intro, then God's voice
+        ta, tb = text.split(": ", 1)
+        xa = clip(s, GOD_SPLIT[0])
+        segs.append({"scene": scene, "text": ta + ":", "tempter": False, "start": round(t, 3), "end": round(t + len(xa) / SR, 3), "words": words_for(xa, ta + ":", keys, alias, t)})
+        print(f"{t:6.2f} {len(xa) / SR:5.2f}  {ta}:")
+        gap = np.zeros(int(0.35 * SR), np.float32)
+        buf += [xa, gap]; t += (len(xa) + len(gap)) / SR
+        xb, dry = god_voice(clip(GOD_SPLIT[1], e))
+        segs.append({"scene": scene, "text": tb, "tempter": False, "god": True, "start": round(t, 3), "end": round(t + dry, 3), "words": words_for(xb, tb, keys, alias, t, dry)})
+        print(f"{t:6.2f} {len(xb) / SR:5.2f}  (God) {tb}")
+        buf += [xb, np.zeros(int(0.15 * SR), np.float32)]; t += len(xb) / SR + 0.15
+        continue
+    x = clip(s, e)
+    if n == len(L) - 1:
+        x = np.concatenate([np.zeros(int(END_LEAD * SR), np.float32), x])
     tempter = voice == SC.T
     if tempter:  # same voice, with a faint doubled echo so the tempter feels "other"
         dl = int(0.085 * SR)
@@ -88,17 +142,8 @@ for (scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias) in zip(SC.LIN
         y[: len(x)] += x; y[dl: dl + len(x)] += 0.28 * x; y[2 * dl:] += 0.12 * x
         x = y
     dur = len(x) / SR
-    # word timings: spread the written words over the *voiced* time of the clip, weighted by letters
-    d = env_db(x); voiced = (d > TH).astype(float); cum = np.cumsum(voiced); cum /= cum[-1]
-    words = text.replace(" :", ":").split()
-    wts = [len(re.sub(r"[^\w]", "", w)) + 1.2 for w in words]
-    tot = sum(wts); acc = 0; wl = []
-    inv = {b.lower(): k for k, b in alias.items()}
-    for w, wt in zip(words, wts):
-        fr = int(np.searchsorted(cum, acc / tot + 1e-6))
-        bare = re.sub(r"[^\w]", "", w)
-        wl.append({"text": w, "start": round(t + fr / 100, 3), "key": bare in keys, "alias": inv.get(bare.lower())})
-        acc += wt
+    lead = END_LEAD if n == len(L) - 1 else 0
+    wl = words_for(x[int(lead * SR):], text, keys, alias, t + lead)
     segs.append({"scene": scene, "text": text, "tempter": tempter, "start": round(t, 3), "end": round(t + dur, 3), "words": wl})
     print(f"{t:6.2f} {dur:5.2f}  {text}")
     buf.append(x); buf.append(np.zeros(int(pause * SR), np.float32))
