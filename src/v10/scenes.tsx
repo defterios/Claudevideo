@@ -3,13 +3,13 @@ import {Bust, FRIENDS, Fig, INK, JESUS, LEVI, Look, P, PARALYTIC, Pose, SCRIBE, 
 import {BIG, C3, Cam, Dust, FOOT, Fill, GREY, Glow, Ground, SP, Stars, Sun, k, ko, lerp, lin, par, rnd} from '../v8/scenes';
 
 /** Episode 3 — "Through the Roof" (Mark 2:1-17). */
-const ROOF = -260; // roof line of the house
+export const ROOF = -260; // roof line of the house
 const CARRY: Pose = {lean: 2, aB: [-176, 0], aF: [176, 0], lB: [-6, 0], lF: [6, 0]};
 const LIE: Pose = {aB: [8, 6], aF: [-8, -6], lB: [-3, 0], lF: [3, 0]};
 const flash = (t: number, at: number, len = 0.12) => t > at && t < at + len;
 const shakeAt = (t: number, at: number, amp = 24, decay = 3.2) => (t > at ? Math.exp(-(t - at) * decay) * amp : 0);
 
-const Mat: React.FC<{x: number; y: number; t: number; face?: 'closed' | 'open' | 'wide'; smile?: boolean; glow?: number}> = ({x, y, t, face = 'open', smile, glow = 0}) => (
+export const Mat: React.FC<{x: number; y: number; t: number; face?: 'closed' | 'open' | 'wide'; smile?: boolean; glow?: number}> = ({x, y, t, face = 'open', smile, glow = 0}) => (
   <g>
     {glow > 0 ? <Glow x={x - 60} y={y - 40} r={360} o={glow} id="gWhite" /> : null}
     <Fig x={x + 200} y={y - 44} rot={-90} pose={LIE} look={PARALYTIC} t={0.05} face={{eyes: face, mouth: smile ? 'smile' : 'flat', look: [0, -1]}} scale={0.95} />
@@ -36,7 +36,7 @@ const House: React.FC<{x?: number; hole?: number; stairs?: boolean}> = ({x = 0, 
     {stairs ? Array.from({length: 8}).map((_, i) => <rect key={i} x={x + 420 + i * 36} y={ROOF + i * ((FOOT - ROOF) / 8)} width={300 - i * 36} height={(FOOT - ROOF) / 8} fill="#D2B28A" stroke={INK} strokeWidth={5} />) : null}
   </g>
 );
-const Interior: React.FC<{c: C3; t: number; holeX?: number; hole?: number; beam?: number}> = ({c, t, holeX = 0, hole = 0, beam = 0}) => (
+export const Interior: React.FC<{c: C3; t: number; holeX?: number; hole?: number; beam?: number}> = ({c, t, holeX = 0, hole = 0, beam = 0}) => (
   <>
     <Fill fill="#7A5A44" />
     <g transform={par(c, 0.8)}>
@@ -49,7 +49,7 @@ const Interior: React.FC<{c: C3; t: number; holeX?: number; hole?: number; beam?
     <Ground fill="#6A4C38" />
   </>
 );
-const Crowd: React.FC<{t: number; xs: number[]; y?: number; scale?: number; face?: 'half' | 'wide' | 'open'; lookUp?: boolean; lookTo?: number; flipAt?: number; lean?: number}> = ({t, xs, y = FOOT + 120, scale = 0.95, face = 'half', lookUp, lookTo, flipAt = 0, lean = 0}) => (
+export const Crowd: React.FC<{t: number; xs: number[]; y?: number; scale?: number; face?: 'half' | 'wide' | 'open'; lookUp?: boolean; lookTo?: number; flipAt?: number; lean?: number}> = ({t, xs, y = FOOT + 120, scale = 0.95, face = 'half', lookUp, lookTo, flipAt = 0, lean = 0}) => (
   <g>{xs.map((x, i) => <Fig key={i} x={x} y={y + (i % 2) * 30} scale={scale} flip={x > flipAt} pose={{...P.stand, lean}} look={GREY(i)} t={t + i} face={{eyes: face, mouth: face === 'wide' ? 'open' : 'flat', look: lookUp ? [x > flipAt ? -0.3 : 0.3, -1] : [lookTo ?? 1, 0]}} />)}</g>
 );
 const Coins: React.FC<{x: number; y: number; n?: number}> = ({x, y, n = 5}) => (
