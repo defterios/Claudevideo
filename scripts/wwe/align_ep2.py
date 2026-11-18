@@ -4,13 +4,14 @@ Writes: words_long.json, words_short.json (script words with EDITED times + line
 import json, re, sys, os, wave, difflib
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import script_ep2 as SC
+import importlib
+SC = importlib.import_module(os.environ.get("SCRIPT", "script_ep2"))
 
 # spans to drop (source seconds) and caption fixes for mis-heard words — per recording, via env
 REMOVE = json.loads(os.environ.get("REMOVE", "[]"))
 CAPFIX = json.loads(os.environ.get("CAPFIX", "{}"))
 MERGE, PAD_IN, PAD_OUT = 0.34, 0.06, 0.14
-norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("six", "6").replace("thirty", "30").replace("one", "1").replace("two", "2").replace("three", "3").replace("four", "4"))
+norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("six", "6").replace("thirty", "30").replace("one", "1").replace("two", "2").replace("three", "3").replace("four", "4").replace("ten", "10").replace("fifteen", "15").replace("twenty", "20"))
 
 hyp = [w for s in json.load(open(sys.argv[1])) for w in s["words"] if w["w"].strip() and not any(a <= w["s"] < b for a, b in REMOVE)]
 ref = []  # (line, word)
@@ -124,4 +125,4 @@ def edit(lines, name):
     print(name, f"{total:.1f}s", len(out_words), "words", len(pieces), "pieces")
 
 edit(list(range(1, len(SC.LONG) + 1)), "long")
-edit(SC.SHORT_LINES, "short")
+if hasattr(SC, "SHORT_LINES"): edit(SC.SHORT_LINES, "short")

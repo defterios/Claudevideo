@@ -38,3 +38,33 @@ LONG = [
     ("takes", "And the mindset to get back up, after every single bump.", 0.7),
     ("cta", "So be honest... would you survive WWE training? Tell me in the comments, and follow for more.", 0.8),
 ]
+
+# cue words (scene-local timing for animation) and sound effects at those cues
+CUES = {
+    "hook": ["call", "WWE", "doors", "survive"],
+    "pc": ["Day", "Performance", "warehouse", "College", "Olympians", "Bodybuilders", "there's"],
+    "bump": ["lesson", "fall", "bump", "Chin", "land"],
+    "ring": ["mat", "trampoline", "steel", "foam", "table"],
+    "bumps": ["dozens", "more", "purple", "groaning"],
+    "ropes": ["ropes", "bounce", "steel", "ten", "bruises"],
+    "cardio": ["cardio", "sprint", "fifteen", "drills", "fire", "again", "smile"],
+    "promo": ["promo", "microphone", "camera", "shakes", "forget", "stare"],
+    "live": ["live", "hundred", "music", "mistake", "heart"],
+    "road": ["main", "road", "city", "Airports", "off-season"],
+    "takes": ["take", "body", "Cardio", "confidence", "mindset", "bump"],
+    "cta": ["honest", "survive", "comments", "follow"],
+}
+SFX = {
+    "hook": [("call", "ringtone", 0.3), ("WWE", "whoosh_slide", 0.3), ("doors", "slam", 0.35), ("survive", "ring_bell", 0.45), ("survive", "boom", 0.3)],
+    "pc": [("Performance", "whoosh_slide", 0.3), ("College", "pop", 0.3), ("Olympians", "pop", 0.3), ("Bodybuilders", "pop", 0.3), ("there's", "cartoon_down", 0.35)],
+    "bump": [("fall", "whoosh_fast", 0.3), ("land", "slam", 0.55)],
+    "ring": [("mat", "slam", 0.6), ("steel", "clank", 0.35), ("table", "thud", 0.5)],
+    "bumps": [("dozens", "slam", 0.4), ("more", "slam", 0.45), ("purple", "pop", 0.3), ("groaning", "cartoon_down", 0.3)],
+    "ropes": [("bounce", "boing", 0.3), ("steel", "clank", 0.35), ("bruises", "body_hit", 0.45)],
+    "cardio": [("sprint", "whistle", 0.35), ("fire", "whoosh_fast", 0.3), ("again", "whistle", 0.4), ("smile", "snap_glassy", 0.35)],
+    "promo": [("microphone", "mic_feedback", 0.25), ("camera", "shutter", 0.35), ("forget", "dizzy", 0.3), ("stare", "tick", 0.35)],
+    "live": [("live", "crowd_cheer", 0.3), ("music", "riser", 0.3), ("heart", "thud", 0.45)],
+    "road": [("road", "whoosh_slide", 0.3), ("Airports", "airplane", 0.35), ("off-season", "pop", 0.3)],
+    "takes": [("body", "pop", 0.35), ("Cardio", "pop", 0.35), ("confidence", "pop", 0.35), ("mindset", "pop", 0.35), ("bump", "slam", 0.4)],
+    "cta": [("survive", "ring_bell", 0.4), ("comments", "notif_a", 0.4), ("follow", "pop", 0.35)],
+}

@@ -15,13 +15,13 @@ export const KRU: Look = {skin: '#a86f48', shirt: '#2e2e2e', shorts: '#1d3557', 
 export const FOE: Look = {skin: '#c48a5c', shirt: '#2e2e2e', shorts: '#1d6fd1', headband: '#1d6fd1'};
 
 /* ---------- poses ---------- */
-const GUARD: Limbs = {armL: -1.3, armR: -1.1, elbowL: -1.5, elbowR: -1.5, legL: 0.12, legR: -0.12};
-const run = (t: number, hz = 2.6): Limbs => {
+export const GUARD: Limbs = {armL: -1.3, armR: -1.1, elbowL: -1.5, elbowR: -1.5, legL: 0.12, legR: -0.12};
+export const run = (t: number, hz = 2.6): Limbs => {
   const s = Math.sin(t * Math.PI * 2 * hz);
   return {armL: 0.7 * s, armR: -0.7 * s, elbowL: -1.3, elbowR: -1.3, legL: -0.75 * s, legR: 0.75 * s, lean: 0.12, bob: Math.abs(s) * 0.06};
 };
-const kick = (p: number): Limbs => ({...GUARD, legR: -1.5 * p, lean: -0.18 * p, armR: -1.1 + 1.4 * p, elbowR: -1.5 + 1.2 * p});
-const TIRED: Limbs = {armL: 0.15, armR: 0.2, elbowL: -0.2, elbowR: -0.2, lean: 0.32, headTilt: 0.3, legL: 0.1, legR: -0.1};
+export const kick = (p: number): Limbs => ({...GUARD, legR: -1.5 * p, lean: -0.18 * p, armR: -1.1 + 1.4 * p, elbowR: -1.5 + 1.2 * p});
+export const TIRED: Limbs = {armL: 0.15, armR: 0.2, elbowL: -0.2, elbowR: -0.2, lean: 0.32, headTilt: 0.3, legL: 0.1, legR: -0.1};
 
 /** camera with keyframes; tall (9:16) frames pull back so everything fits horizontally */
 export const Cam: React.FC<{keys: {t: number; pos: number[]; look: number[]}[]; t: number; wide: boolean}> = ({keys, t, wide}) => {

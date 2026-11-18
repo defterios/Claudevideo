@@ -6,7 +6,8 @@ words.json = [{"line": n (1-based), "w": text, "s": sec, "e": sec}, ...] produce
 """
 import json, re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import script_ep2 as SC
+import importlib
+SC = importlib.import_module(os.environ.get("SCRIPT", "script_ep2"))
 
 norm = lambda s: re.sub(r"[^a-z0-9-]", "", s.lower())
 CUES = {
@@ -33,6 +34,9 @@ SFX = {
     "takes": [("Cardio", "pop", 0.35), ("Shins", "pop", 0.35), ("discipline", "pop", 0.35), ("heart", "pop", 0.35)],
     "cta": [("survive", "ring_bell", 0.4), ("comments", "notif_a", 0.4), ("follow", "pop", 0.35)],
 }
+
+CUES = getattr(SC, "CUES", CUES)
+SFX = getattr(SC, "SFX", SFX)
 
 def estimate_words(lines):
     """placeholder: 2.55 words/s, line pauses from the script"""
@@ -88,7 +92,7 @@ def build(lines, words, out_path):
                 sfx.append({"t": round(s["start"] + s["cues"][c], 3), "src": f, "volume": v})
         if s["start"] > 0:
             sfx.append({"t": round(s["start"] - 0.08, 3), "src": "whoosh_organic", "volume": 0.25})
-        if s["id"] == "pads":  # pad impacts on the kick loop (matches the Pads scene: kick every 0.8 s)
+        if s["id"] == "pads" and "pads" in CUES and "again" in CUES["pads"]:  # pad impacts on the kick loop (matches the Pads scene: kick every 0.8 s)
             k = 0.5
             while k < s["end"] - s["start"] - 0.6:
                 sfx.append({"t": round(s["start"] + k + 0.22, 3), "src": "punch_deep", "volume": 0.35}); k += 0.8
@@ -103,9 +107,10 @@ if __name__ == "__main__":
         wl = estimate_words(SC.LONG)
         out_long, out_short = sys.argv[2], sys.argv[3]
     else:  # align <words_long.json> <words_short.json> <out_long> <out_short>  (already edited timelines)
-        wl = json.load(open(sys.argv[2])); ws = json.load(open(sys.argv[3]))
+        wl = json.load(open(sys.argv[2]))
         print("long", build(SC.LONG, wl, sys.argv[4]))
-        print("short", build(SC.LONG, ws, sys.argv[5]))
+        if len(sys.argv) > 5:
+            print("short", build(SC.LONG, json.load(open(sys.argv[3])), sys.argv[5]))
         sys.exit(0)
     print("long", build(SC.LONG, wl, out_long))
     # short: keep only SHORT_LINES, re-timed back-to-back
