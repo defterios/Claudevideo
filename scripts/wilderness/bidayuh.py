@@ -48,10 +48,34 @@ LINES2 = [  # episode 2 (alias "word#2" = second occurrence of that word)
     ("Doi nya toma nya de ogi onam inuh. Yeh meh toma eh duoh sobut: Raan Ku. Bait negeh.", 83.35, 90.7, ["Doi", "toma", "Bait"], {"touched": "toma#2", "clean": "Bait"}),
     ("Follow suo part 3.", 92.05, 94.3, ["Follow"], {}),
 ]
+LINES3 = [  # episode 3 (line 19 was not recorded: start None = silent line)
+    ("Takar de Capernaum, Nyaa meh laju puan brita. Jesus meh pari ke bori.", 4.8, 10.45, ["Capernaum", "bori"], {}),
+    ("Punuo nya de bori eh. Doi sukup topat. Bidodat neg ke tiban.", 11.1, 15.5, ["Punuo", "tiban"], {}),
+    ("4 urang nyaa toban dingan eh de pirie pakai tawiek.", 16.0, 19.85, ["4", "pirie"], {}),
+    ("Dari de 4 inuh doi daped moret. Ju meh maad ke bung bori inuh.", 20.75, 24.3, ["moret", "bung"], {"roof": "bung"}),
+    ("Ju meh ngirokang bungan eh.", 24.5, 26.75, ["ngirokang", "bungan"], {"dug": "ngirokang", "through": "bungan"}),
+    ("Dari inuh meh obuoh pimuun, rimongan Jesus mujuog.", 27.7, 30.9, ["pimuun", "Jesus"], {"lowered": "obuoh"}),
+    ("Jesus puan nya munu bisaya, yeh meh nang: Oo madih, dusa mu meh obuoh apun.", 31.5, 37.6, ["bisaya", "apun"], {"son": "madih", "forgiven": "apun"}),
+    ("Guru adat de guru danu meh pikir:", 38.7, 40.5, ["Guru"], {}),
+    ("Oni nya itih pak nang koyuh de in ninu? Jek eh Topa sija de daped ngapun dusa nya neh.", 40.85, 46.05, ["Topa", "dusa"], {}),
+    ("Jesus sobut nudu dari de pirie inuh. Mokat. Mit omek mu. Maad tia.", 46.75, 53.2, ["Mokat", "omek"], {"up": "Mokat"}),
+    ("Dari de pirie inuh meh mujuog. De dopan suo nya.", 53.9, 58.1, ["mujuog", "suo"], {"stood": "mujuog"}),
+    ("Nyaa de boge tia meh gogeh. Tiboon manah-manah geh nya kirin koyuh de watitih neh!", 58.45, 62.85, ["gogeh", "Tiboon"], {}),
+    ("Sodang tian ade, Jesus bidaped duoh nyaa de koja mit sukie. Levi. Nyaa de boge rakyat doi suka eh.", 64.0, 71.45, ["Levi", "suka"], {}),
+    ("Jesus nang: Get nuna Oku. Levi meh mokat nuna Jesus.", 72.35, 77.4, ["nuna", "mokat"], {"follow": "nuna", "followed": "mokat"}),
+    ("Ngaruom inuh, Levi ngija nya biayuo de bori eh. Nyaa de kroja mit sukie. Duoh bara de gia nya nang bidusa. Duoh Jesus, ogi de tongah eh.", 78.3, 88.4, ["biayuo", "bidusa", "tongah"], {}),
+    ("Oni yeh pak bisapur de nya de gia bidusa?", 89.95, 92.4, ["bidusa"], {}),
+    ("Jesus meh nang: Nya de gogah ideh di karik doktor. Nya de monam sija.", 93.45, 98.95, ["doktor", "monam"], {}),
+    ("Oku neg ideh ku rie mogan nya de pikir yeh paguh de otin eh. Oku neg suo nyaa de bidusa.", 99.85, 106.15, ["neg", "bidusa"], {"came": "neg#2"}),
+    ("", None, None, [], {}),
+]
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
 if EP == 2:
     LINES = LINES2
     EXTRA_PAUSE = {5: 1.0, 13: 1.3}
+if EP == 3:
+    LINES = LINES3
+    EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
 assert len(LINES) == len(SC.LINES)
 
 src, out = sys.argv[1], sys.argv[2]
@@ -174,7 +198,7 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
         print(f"{t:6.2f} {len(xb) / SR:5.2f}  (God) {tb}")
         buf += [xb, np.zeros(int(0.15 * SR), np.float32)]; t += len(xb) / SR + 0.15
         continue
-    x = clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
+    x = np.zeros(int(1.0 * SR), np.float32) if s is None else clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
     if n == len(L) - 1:
         x = np.concatenate([np.zeros(int(END_LEAD * SR), np.float32), x])
     tempter = voice == SC.T
@@ -185,7 +209,7 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
         x = y
     dur = len(x) / SR
     lead = END_LEAD if n == len(L) - 1 else 0
-    wl = words_for(x[int(lead * SR):], text, keys, alias, t + lead)
+    wl = words_for(x[int(lead * SR):], text, keys, alias, t + lead) if text else []
     segs.append({"scene": scene, "text": text, "tempter": tempter, "start": round(t, 3), "end": round(t + dur, 3), "words": wl})
     print(f"{t:6.2f} {dur:5.2f}  {text}")
     pause += EXTRA_PAUSE.get(n, 0)
