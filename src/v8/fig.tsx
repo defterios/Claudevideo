@@ -68,7 +68,7 @@ const lerpHex = (a: string, b: string, p: number) => {
 const R = 82; // head radius
 const HIP = -118, SHO = -268, HEADY = -338;
 
-const Head: React.FC<{look: Look; face: Face; t: number}> = ({look, face, t}) => {
+export const Head: React.FC<{look: Look; face: Face; t: number}> = ({look, face, t}) => {
   const g = look.gaunt ?? 0;
   const skin = look.shadow ? look.skin : lerpHex(look.skin, '#C9825F', g * 0.7);
   const eyes = face.eyes ?? 'half';

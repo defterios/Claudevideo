@@ -17,10 +17,10 @@ export type Sc = {id: string; start: number; end: number; segs: number[]; w: Rec
 export type Pg = {start: number; end: number; tempter: boolean; god?: boolean; words: {text: string; start: number; key: boolean}[]};
 export type Data = {duration: number; scenes: Sc[]; pages: Pg[]; lines?: {start: number; end: number; text: string; tempter: boolean}[]};
 export type Text = {ep: string; title: [string, string]; ref: string; follow: string; voice: string; bed: string};
-type Ep = {D: Data; scenes: Record<string, React.FC<SP>>; X: Text; film?: boolean};
+type Ep = {D: Data; scenes: Record<string, React.FC<SP>>; X: Text; film?: boolean; room?: boolean};
 const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
-const World: React.FC<Ep & {W: number; H: number}> = ({W, H, D, scenes, film}) => {
+const World: React.FC<Ep & {W: number; H: number}> = ({W, H, D, scenes, film, room}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -35,17 +35,17 @@ const World: React.FC<Ep & {W: number; H: number}> = ({W, H, D, scenes, film}) =
         <Defs />
         <S t={local} dur={sc.end - sc.start} w={(word, fb = 0) => sc.w[word] ?? fb} segs={sc.segs} wide={W > H} W={W} H={H} />
         <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed={frame % 7} /><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.55 0" /></filter>
-        <rect width={W} height={H} filter="url(#grain)" opacity={film ? 0.3 : 0.16} style={{mixBlendMode: 'overlay'}} />
+        <rect width={W} height={H} filter="url(#grain)" opacity={film ? 0.3 : room ? 0.2 : 0.16} style={{mixBlendMode: 'overlay'}} />
       </svg>
       {film ? <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(70,40,140,0.35) 0%, rgba(0,0,0,0) 45%, rgba(255,120,40,0.18) 100%)', mixBlendMode: 'soft-light'}} /> : null}
       {film ? <AbsoluteFill style={{background: `rgba(255,220,180,${0.025 + 0.02 * Math.sin(frame * 1.7)})`}} /> : null}
-      <AbsoluteFill style={{background: film ? 'radial-gradient(ellipse 80% 70% at 50% 46%, rgba(0,0,0,0) 45%, rgba(10,4,16,0.75) 100%)' : 'radial-gradient(ellipse 85% 75% at 50% 48%, rgba(0,0,0,0) 52%, rgba(20,6,14,0.55) 100%)'}} />
+      <AbsoluteFill style={{background: film || room ? 'radial-gradient(ellipse 80% 70% at 50% 46%, rgba(0,0,0,0) 45%, rgba(10,4,16,0.75) 100%)' : 'radial-gradient(ellipse 85% 75% at 50% 48%, rgba(0,0,0,0) 52%, rgba(20,6,14,0.55) 100%)'}} />
       {dip > 0 ? <AbsoluteFill style={{background: '#120810', opacity: dip * 0.85}} /> : null}
     </AbsoluteFill>
   );
 };
 
-const Captions: React.FC<{size: number; D: Data}> = ({size, D}) => {
+const Captions: React.FC<{size: number; D: Data; plain?: boolean}> = ({size, D, plain}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -58,6 +58,7 @@ const Captions: React.FC<{size: number; D: Data}> = ({size, D}) => {
       {p.words.map((w, i) => {
         const s = spring({frame: frame - Math.round((w.start - 0.04) * fps), fps, config: {damping: 13, stiffness: 240}});
         const on = t >= w.start - 0.04;
+        if (plain) return <span key={i} style={{fontSize: size, color: '#fff', opacity: on ? 1 : 0, transform: `scale(${0.75 + 0.25 * s})`, display: 'inline-block', fontFamily: 'Fredoka', WebkitTextStroke: `${size * 0.16}px #0a0608`, paintOrder: 'stroke fill', textShadow: `0 ${size * 0.06}px ${size * 0.2}px rgba(0,0,0,0.6)`}}>{w.key ? w.text.toUpperCase() : w.text}</span>;
         const col = p.god ? (w.key ? '#FFD24A' : '#FFF6D8') : w.key ? (p.tempter ? '#FF6A55' : '#FFDD33') : p.tempter ? '#E9D9F2' : '#fff';
         const glow = p.god ? `, 0 0 ${size * 0.5}px rgba(255,214,110,0.95), 0 0 ${size * 1.1}px rgba(255,200,90,0.6)` : '';
         return (
@@ -111,7 +112,9 @@ const Title: React.FC<{W: number; H: number; D: Data; X: Text}> = ({W, H, D, X})
 export const EpisodeTall: React.FC<Ep & {bed: number}> = (p) => (
   <AbsoluteFill style={{background: '#000'}}>
     <World {...p} W={1080} H={1920} />
-    {p.film
+    {p.room
+      ? <div style={{position: 'absolute', left: 80, right: 80, top: 1250, height: 220, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={72} D={p.D} plain /></div>
+      : p.film
       ? <div style={{position: 'absolute', left: 70, right: 70, top: 1290, height: 220, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><FilmSubs size={46} D={p.D} /></div>
       : <div style={{position: 'absolute', left: 60, right: 60, top: 300, height: 260, display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Captions size={76} D={p.D} /></div>}
     <Title W={1080} H={1920} D={p.D} X={p.X} />
