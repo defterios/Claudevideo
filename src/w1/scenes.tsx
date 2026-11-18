@@ -4,8 +4,8 @@ import {Character, Limbs, Look, Sign} from '../v7/char';
 import {Cam, P3, TIRED, Warm, YOU as Y0, cl, e, pop, run} from '../v7/scenes3d';
 import {Ring} from '../v7/sets';
 
-const YOU: Look = {...Y0, shirt: '#1f1f24', shorts: '#c0392b', headband: undefined};
-const COACH: Look = {skin: '#a86f48', shirt: '#2e2e2e', shorts: '#2e2e2e', cap: '#c0392b', beard: true};
+export const YOU: Look = {...Y0, shirt: '#1f1f24', shorts: '#c0392b', headband: undefined};
+export const COACH: Look = {skin: '#a86f48', shirt: '#2e2e2e', shorts: '#2e2e2e', cap: '#c0392b', beard: true};
 const BIG: Look[] = [
   {skin: '#c48a5c', shirt: '#c48a5c', shorts: '#1d3557'},
   {skin: '#7a4a2e', shirt: '#d4af37', shorts: '#111'},
@@ -24,7 +24,7 @@ const S: React.FC<{l: string[]; sub?: string; p: [number, number, number]; w?: n
   <Sign lines={l} sub={sub} position={p} w={w} h={h} bg={dark ? '#1b1a20' : '#f4ead5'} fg={dark ? '#FFD23F' : '#b02a1e'} />
 );
 /** a person falling flat on their back (pivot at the feet) */
-const Faller: React.FC<{look: Look; f: number; t: number; p: [number, number, number]; rotY?: number; expr?: 'shock' | 'pain' | 'determined' | 'tired'}> = ({look, f, t, p, rotY = 0, expr = 'shock'}) => (
+export const Faller: React.FC<{look: Look; f: number; t: number; p: [number, number, number]; rotY?: number; expr?: 'shock' | 'pain' | 'determined' | 'tired'}> = ({look, f, t, p, rotY = 0, expr = 'shock'}) => (
   <group position={p} rotation={[0, rotY, 0]}>
     <group rotation={[-f * Math.PI * 0.5, 0, 0]}>
       <Character look={look} expr={expr} limbs={{armL: -0.6 * f, armR: -0.6 * f, armOutL: 0.9 * f, armOutR: -0.9 * f, headTilt: 0.5 * f}} t={t} />
@@ -56,7 +56,7 @@ const Warehouse: React.FC<{t: number; rings?: boolean}> = ({rings = true}) => (
     ))}
   </>
 );
-const Gym: React.FC<{t: number}> = ({t}) => (
+export const Gym: React.FC<{t: number}> = ({t}) => (
   <>
     <Warehouse t={t} />
     <Ring size={5} canvas="#e9e1d0" />
