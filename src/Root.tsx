@@ -65,7 +65,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep2ThumbBdy" component={Ep2Cover} durationInFrames={1} fps={FPS} width={1280} height={720} defaultProps={{lang: 'bdy' as const, W: 1280, H: 720}} />
     {/* Jesus series, Episode 3: Through the Roof (Mark 2:1-17), TikTok only */}
     <Composition id="RoofTall" component={RoofTall} durationInFrames={Math.ceil(ROOF_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.7}} />
-    <Composition id="RoofTallBdy" component={RoofTall} durationInFrames={Math.ceil(ROOF_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.7, lang: 'bdy' as const}} />
+    <Composition id="RoofTallBdy" component={RoofTall} durationInFrames={Math.ceil(ROOF_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.9, lang: 'bdy' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

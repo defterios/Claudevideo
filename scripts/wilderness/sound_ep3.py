@@ -30,6 +30,18 @@ creak = (np.sin(2 * np.pi * np.cumsum(180 + 40 * np.sin(2 * np.pi * 0.8 * x_)) /
 place(creak, W_("lower", "lowered") - 0.2, 0.06)
 place(hit(44, 2.0, 0.3), W_("forgive", "forgiven"), 0.55); place(swell(0.8, 200, 7000), W_("forgive", "forgiven") - 0.75, 0.25)
 place(hit(36, 2.4, 0.4), S["scholars"]["start"] + 0.1, 0.6)
+# the scholars thinking to themselves: a suspicious "hmm" sting, a ticking clock and a held breath of tension
+sc0 = S["scholars"]["start"]; th0 = sc0 + S["scholars"]["segs"][1]; th1 = S["rise"]["start"]
+place(swell(1.0, 150, 4000), th0 - 1.0, 0.35)
+for k, f in enumerate([233.08, 277.18, 311.13]): place(note(f, 2.6), th0 - 0.05 + k * 0.09, 0.09, (k - 1) * 0.3)  # minor "uh-oh" chord
+for k, b in enumerate(np.arange(sc0 + 0.3, th1 - 0.2, 0.5)):
+    n_ = int(0.05 * SR); x_ = np.arange(n_) / SR
+    tick = (np.sin(2 * np.pi * (2400 if k % 2 else 1900) * x_) * np.exp(-x_ * 90)).astype(np.float32)
+    place(tick, b, 0.12, 0.35 if k % 2 else -0.35)
+n_ = int((th1 - th0) * SR); x_ = np.arange(n_) / SR
+whis = bp(rng.standard_normal(n_).astype(np.float32), 2500, 9000) * (0.5 + 0.5 * np.sin(2 * np.pi * 0.9 * x_)) * np.minimum(x_ / 0.5, 1) * np.minimum((x_[-1] - x_) / 0.5, 1)
+place(whis, th0, 0.04)
+place(hit(44, 1.4, 0.2), th1 - 0.35, 0.4)
 place(hit(52, 1.0, 0.3), W_("rise", "up"), 0.55)
 place(swell(0.9), W_("rise", "stood") - 0.85, 0.3); place(hit(36, 3.0, 1.4), W_("rise", "stood") + 0.05, 1.0); place(hit(90, 1.0, 1.0), W_("rise", "stood") + 0.05, 0.4)
 # coins

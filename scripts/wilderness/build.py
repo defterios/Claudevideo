@@ -60,9 +60,13 @@ def lp(x, a):
 def bp(x, lo, hi):
     X = np.fft.rfft(x); f = np.fft.rfftfreq(len(x), 1 / SR)
     return np.fft.irfft(X * (1 / (1 + (f / hi) ** 4)) * (1 - 1 / (1 + (f / lo) ** 4)), len(x)).astype(np.float32)
+MUSIC_GAIN = float(os.environ.get("MUSIC_GAIN", "1"))  # music + ambience (add)
+SFX_GAIN = float(os.environ.get("SFX_GAIN", "1"))      # one-shot effects (place)
 def add(x, g=1.0, pan=0.0):
+    g *= MUSIC_GAIN
     bed[:, 0] += x * g * (1 - max(0, pan)); bed[:, 1] += x * g * (1 + min(0, pan))
 def place(x, at, g=1.0, pan=0.0):
+    g *= SFX_GAIN
     i = int(at * SR)
     if i >= N or i < 0: return
     x = x[: N - i]

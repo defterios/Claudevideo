@@ -142,6 +142,25 @@ def clip(s, e, src=None):
     x = x[max(0, v[0] * H - int(0.05 * SR)): min(len(x), (v[-1] + 1) * H + int(0.12 * SR))]
     return fade(tighten(x))
 
+def thought_voice(x):
+    """Inner monologue: band-limited, close slap-back echoes, slightly doubled."""
+    with tempfile.TemporaryDirectory() as td:
+        i, o = os.path.join(td, "i.wav"), os.path.join(td, "o.wav")
+        x2 = np.concatenate([x, np.zeros(int(0.8 * SR), np.float32)])
+        with wave.open(i, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(x2, -1, 1) * 32767).astype(np.int16).tobytes())
+        fc = ("highpass=f=220,lowpass=f=4200,"
+              "chorus=0.6:0.9:40|55:0.35|0.3:0.25|0.4:2|2.5,"
+              "aecho=0.85:0.7:110|220|380:0.35|0.22|0.12,alimiter=limit=0.9")
+        subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", i, "-af", fc, "-ar", str(SR), "-ac", "1", o])
+        with wave.open(o) as w:
+            y = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+    y = y / max(1e-6, np.abs(y).max()) * 0.9
+    d = env_db(y); v = np.nonzero(d > -50)[0]
+    return fade(y[: (v[-1] + 1) * H], 30)
+
+THOUGHT = {(3, 8)}  # (episode, line index) read as an inner thought
+
 def god_voice(x):
     """God's words: an octave-down double, a fifth-down double and a long hall echo. Returns (audio, length of the dry voice)."""
     with tempfile.TemporaryDirectory() as td:
@@ -202,6 +221,8 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
     if n == len(L) - 1:
         x = np.concatenate([np.zeros(int(END_LEAD * SR), np.float32), x])
     tempter = voice == SC.T
+    if (EP, n) in THOUGHT:
+        x = thought_voice(x)
     if tempter:  # same voice, with a faint doubled echo so the tempter feels "other"
         dl = int(0.085 * SR)
         y = np.zeros(len(x) + dl * 2, np.float32)
