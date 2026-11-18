@@ -18,6 +18,8 @@ import {Ep1Cover} from './v8/Cover';
 import {Ep2Cover} from './v9/Cover';
 import {RoofTall, ROOF_DUR, ROOF_DUR_BDY} from './v10/Roof';
 import {Ep3Cover} from './v10/Cover';
+import {AnimeTest} from './v11/Test';
+import {SabbathTall, SABBATH_DUR} from './v11/Sabbath';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -69,6 +71,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="RoofTallBdy" component={RoofTall} durationInFrames={Math.ceil(ROOF_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.9, lang: 'bdy' as const}} />
     <Composition id="Ep3CoverBdy" component={Ep3Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="Ep3CoverEn" component={Ep3Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    <Composition id="AnimeTest" component={AnimeTest} durationInFrames={1} fps={FPS} width={1920} height={1080} />
+    {/* Jesus series, Episode 4: Lord of the Sabbath (Mark 2:23-3:6), TikTok only, 80s-anime look */}
+    <Composition id="SabbathTall" component={SabbathTall} durationInFrames={Math.ceil(SABBATH_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.85}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

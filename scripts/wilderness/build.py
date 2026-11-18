@@ -41,7 +41,8 @@ for s in segs:
             pages.append({"start": cur[0]["start"], "end": s["end"] + 0.25 if last else ws[i + 1]["start"], "tempter": s["tempter"], "god": s.get("god", False),
                           "words": [{"text": x["text"], "start": x["start"], "key": x["key"]} for x in cur]})
             cur = []
-json.dump({"duration": DUR, "scenes": scenes, "pages": pages}, open(os.path.join(ROOT, f"{SRC}/data{OUT}.json"), "w"), indent=1, ensure_ascii=False)
+lines = [{"start": s_["start"], "end": s_["end"], "text": s_["text"], "tempter": s_["tempter"]} for s_ in segs if s_["text"]]
+json.dump({"duration": DUR, "scenes": scenes, "pages": pages, "lines": lines}, open(os.path.join(ROOT, f"{SRC}/data{OUT}.json"), "w"), indent=1, ensure_ascii=False)
 for sc in scenes: print(f"{sc['id']:9s} {sc['start']:6.2f} {sc['end']:6.2f}")
 
 # ---------- sound bed ----------

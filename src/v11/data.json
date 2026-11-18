@@ -1,0 +1,1050 @@
+{
+ "duration": 55.442,
+ "scenes": [
+  {
+   "id": "field",
+   "start": 0.0,
+   "segs": [
+    3.2
+   ],
+   "w": {
+    "one": 3.2,
+    "sabbath": 3.433,
+    "they": 3.976,
+    "walked": 4.26,
+    "through": 4.648,
+    "the": 5.088,
+    "grain": 5.32,
+    "fields": 5.657
+   },
+   "end": 7.697
+  },
+  {
+   "id": "watchers",
+   "start": 7.697,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "look": 0.28,
+    "they": 0.673,
+    "are": 0.889,
+    "breaking": 1.066,
+    "the": 1.439,
+    "sabbath": 1.616
+   },
+   "end": 10.543
+  },
+  {
+   "id": "reply",
+   "start": 10.543,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "the": 0.28,
+    "sabbath": 0.504,
+    "was": 0.926,
+    "made": 1.149,
+    "for": 1.423,
+    "people": 1.646,
+    "not": 2.242
+   },
+   "end": 15.894
+  },
+  {
+   "id": "hand",
+   "start": 15.894,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "later": 0.28,
+    "in": 0.765,
+    "the": 0.965,
+    "synagogue": 1.222,
+    "a": 1.935,
+    "man": 2.077,
+    "sat": 2.334,
+    "with": 2.591,
+    "withered": 3.047,
+    "hand": 3.589
+   },
+   "end": 20.874
+  },
+  {
+   "id": "watch",
+   "start": 20.874,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "they": 0.508,
+    "watched": 0.788,
+    "waiting": 1.449,
+    "for": 1.881,
+    "him": 2.109,
+    "to": 2.338,
+    "break": 2.516,
+    "the": 2.846,
+    "rule": 3.075
+   },
+   "end": 25.477
+  },
+  {
+   "id": "stand",
+   "start": 25.477,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "stand": 0.28,
+    "up": 0.542,
+    "come": 0.864,
+    "to": 1.085,
+    "the": 1.226,
+    "middle": 1.407
+   },
+   "end": 28.187
+  },
+  {
+   "id": "question",
+   "start": 28.187,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "is": 0.28,
+    "it": 0.46,
+    "right": 0.64,
+    "on": 0.974,
+    "the": 1.155,
+    "sabbath": 1.386,
+    "to": 1.823,
+    "do": 2.004,
+    "good": 2.184,
+    "or": 2.57,
+    "evil": 3.11,
+    "save": 3.804,
+    "a": 4.087,
+    "life": 4.216,
+    "kill": 4.962
+   },
+   "end": 34.084
+  },
+  {
+   "id": "silence",
+   "start": 34.084,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "silence": 0.28
+   },
+   "end": 36.726
+  },
+  {
+   "id": "stretch",
+   "start": 36.726,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "stretch": 0.28,
+    "out": 0.682,
+    "your": 0.894,
+    "hand": 1.154
+   },
+   "end": 39.973
+  },
+  {
+   "id": "heal",
+   "start": 39.973,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "it": 0.542,
+    "was": 0.746,
+    "made": 1.008,
+    "whole": 1.329
+   },
+   "end": 43.563
+  },
+  {
+   "id": "plot",
+   "start": 43.563,
+   "segs": [
+    0.28,
+    4.309
+   ],
+   "w": {
+    "that": 0.28,
+    "night": 0.543,
+    "they": 0.95,
+    "went": 1.214,
+    "out": 1.477,
+    "into": 1.693,
+    "the": 1.956,
+    "dark": 2.172,
+    "and": 2.531,
+    "made": 2.747,
+    "a": 3.011,
+    "plan": 3.13,
+    "he": 4.309,
+    "has": 4.544,
+    "to": 4.845,
+    "die": 5.08
+   },
+   "end": 50.865
+  },
+  {
+   "id": "end",
+   "start": 50.865,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "follow": 1.98,
+    "for": 2.388,
+    "part": 2.633,
+    "five": 2.933
+   },
+   "end": 55.442
+  }
+ ],
+ "pages": [
+  {
+   "start": 3.2,
+   "end": 3.976,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "One",
+     "start": 3.2,
+     "key": false
+    },
+    {
+     "text": "Sabbath,",
+     "start": 3.433,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 3.976,
+   "end": 5.32,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "they",
+     "start": 3.976,
+     "key": false
+    },
+    {
+     "text": "walked",
+     "start": 4.26,
+     "key": false
+    },
+    {
+     "text": "through",
+     "start": 4.648,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 5.088,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.32,
+   "end": 6.627,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "grain",
+     "start": 5.32,
+     "key": false
+    },
+    {
+     "text": "fields.",
+     "start": 5.657,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 7.977,
+   "end": 9.136,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Look.",
+     "start": 7.977,
+     "key": false
+    },
+    {
+     "text": "They",
+     "start": 8.37,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 8.586,
+     "key": false
+    },
+    {
+     "text": "breaking",
+     "start": 8.763,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 9.136,
+   "end": 10.173,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 9.136,
+     "key": false
+    },
+    {
+     "text": "Sabbath.",
+     "start": 9.313,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.823,
+   "end": 11.966,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 10.823,
+     "key": false
+    },
+    {
+     "text": "Sabbath",
+     "start": 11.047,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 11.469,
+     "key": false
+    },
+    {
+     "text": "made",
+     "start": 11.692,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.966,
+   "end": 12.785,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "for",
+     "start": 11.966,
+     "key": false
+    },
+    {
+     "text": "people.",
+     "start": 12.189,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 12.785,
+   "end": 14.824,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Not",
+     "start": 12.785,
+     "key": false
+    },
+    {
+     "text": "people",
+     "start": 13.009,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 13.381,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 13.605,
+     "key": false
+    },
+    {
+     "text": "Sabbath.",
+     "start": 13.828,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.174,
+   "end": 17.829,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Later,",
+     "start": 16.174,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 16.659,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 16.859,
+     "key": false
+    },
+    {
+     "text": "synagogue,",
+     "start": 17.116,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.829,
+   "end": 18.799,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 17.829,
+     "key": false
+    },
+    {
+     "text": "man",
+     "start": 17.971,
+     "key": false
+    },
+    {
+     "text": "sat",
+     "start": 18.228,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 18.485,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.799,
+   "end": 20.404,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 18.799,
+     "key": false
+    },
+    {
+     "text": "withered",
+     "start": 18.941,
+     "key": true
+    },
+    {
+     "text": "hand.",
+     "start": 19.483,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.154,
+   "end": 22.323,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 21.154,
+     "key": false
+    },
+    {
+     "text": "they",
+     "start": 21.382,
+     "key": false
+    },
+    {
+     "text": "watched.",
+     "start": 21.662,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 22.323,
+   "end": 23.39,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Waiting",
+     "start": 22.323,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 22.755,
+     "key": false
+    },
+    {
+     "text": "him",
+     "start": 22.983,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 23.212,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 23.39,
+   "end": 24.807,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "break",
+     "start": 23.39,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 23.72,
+     "key": false
+    },
+    {
+     "text": "rule.",
+     "start": 23.949,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.757,
+   "end": 26.341,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Stand",
+     "start": 25.757,
+     "key": false
+    },
+    {
+     "text": "up.",
+     "start": 26.019,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 26.341,
+   "end": 27.717,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Come",
+     "start": 26.341,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 26.562,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 26.703,
+     "key": false
+    },
+    {
+     "text": "middle.",
+     "start": 26.884,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 28.467,
+   "end": 29.342,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Is",
+     "start": 28.467,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 28.647,
+     "key": false
+    },
+    {
+     "text": "right",
+     "start": 28.827,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 29.161,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.342,
+   "end": 30.371,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 29.342,
+     "key": false
+    },
+    {
+     "text": "Sabbath",
+     "start": 29.573,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 30.01,
+     "key": false
+    },
+    {
+     "text": "do",
+     "start": 30.191,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 30.371,
+   "end": 31.297,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "good,",
+     "start": 30.371,
+     "key": true
+    },
+    {
+     "text": "or",
+     "start": 30.757,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 30.937,
+     "key": false
+    },
+    {
+     "text": "do",
+     "start": 31.117,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 31.297,
+   "end": 32.403,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "evil?",
+     "start": 31.297,
+     "key": false
+    },
+    {
+     "text": "To",
+     "start": 31.811,
+     "key": false
+    },
+    {
+     "text": "save",
+     "start": 31.991,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 32.274,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 32.403,
+   "end": 34.014,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "life,",
+     "start": 32.403,
+     "key": true
+    },
+    {
+     "text": "or",
+     "start": 32.789,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 32.969,
+     "key": false
+    },
+    {
+     "text": "kill?",
+     "start": 33.149,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 34.364,
+   "end": 35.656,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Silence.",
+     "start": 34.364,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 37.006,
+   "end": 38.703,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Stretch",
+     "start": 37.006,
+     "key": false
+    },
+    {
+     "text": "out",
+     "start": 37.408,
+     "key": false
+    },
+    {
+     "text": "your",
+     "start": 37.62,
+     "key": false
+    },
+    {
+     "text": "hand.",
+     "start": 37.88,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 40.253,
+   "end": 42.293,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 40.253,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 40.515,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 40.719,
+     "key": false
+    },
+    {
+     "text": "made",
+     "start": 40.981,
+     "key": false
+    },
+    {
+     "text": "whole.",
+     "start": 41.302,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.843,
+   "end": 44.513,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "That",
+     "start": 43.843,
+     "key": false
+    },
+    {
+     "text": "night,",
+     "start": 44.106,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.513,
+   "end": 45.519,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "they",
+     "start": 44.513,
+     "key": false
+    },
+    {
+     "text": "went",
+     "start": 44.777,
+     "key": false
+    },
+    {
+     "text": "out",
+     "start": 45.04,
+     "key": false
+    },
+    {
+     "text": "into",
+     "start": 45.256,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 45.519,
+   "end": 46.094,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 45.519,
+     "key": false
+    },
+    {
+     "text": "dark,",
+     "start": 45.735,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 46.094,
+   "end": 47.522,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 46.094,
+     "key": false
+    },
+    {
+     "text": "made",
+     "start": 46.31,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 46.574,
+     "key": false
+    },
+    {
+     "text": "plan.",
+     "start": 46.693,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 47.872,
+   "end": 49.595,
+   "tempter": true,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 47.872,
+     "key": false
+    },
+    {
+     "text": "has",
+     "start": 48.107,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 48.408,
+     "key": false
+    },
+    {
+     "text": "die.",
+     "start": 48.643,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 52.845,
+   "end": 54.692,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 52.845,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 53.253,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 53.498,
+     "key": false
+    },
+    {
+     "text": "five.",
+     "start": 53.798,
+     "key": false
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 3.2,
+   "end": 6.377,
+   "text": "One Sabbath, they walked through the grain fields.",
+   "tempter": false
+  },
+  {
+   "start": 7.977,
+   "end": 9.923,
+   "text": "Look. They are breaking the Sabbath.",
+   "tempter": false
+  },
+  {
+   "start": 10.823,
+   "end": 14.574,
+   "text": "The Sabbath was made for people. Not people for the Sabbath.",
+   "tempter": false
+  },
+  {
+   "start": 16.174,
+   "end": 20.154,
+   "text": "Later, in the synagogue, a man sat with a withered hand.",
+   "tempter": false
+  },
+  {
+   "start": 21.154,
+   "end": 24.557,
+   "text": "And they watched. Waiting for him to break the rule.",
+   "tempter": false
+  },
+  {
+   "start": 25.757,
+   "end": 27.467,
+   "text": "Stand up. Come to the middle.",
+   "tempter": false
+  },
+  {
+   "start": 28.467,
+   "end": 33.764,
+   "text": "Is it right on the Sabbath to do good, or to do evil? To save a life, or to kill?",
+   "tempter": false
+  },
+  {
+   "start": 34.364,
+   "end": 35.406,
+   "text": "Silence.",
+   "tempter": false
+  },
+  {
+   "start": 37.006,
+   "end": 38.453,
+   "text": "Stretch out your hand.",
+   "tempter": false
+  },
+  {
+   "start": 40.253,
+   "end": 42.043,
+   "text": "And it was made whole.",
+   "tempter": false
+  },
+  {
+   "start": 43.843,
+   "end": 47.272,
+   "text": "That night, they went out into the dark, and made a plan.",
+   "tempter": false
+  },
+  {
+   "start": 47.872,
+   "end": 49.345,
+   "text": "He has to die.",
+   "tempter": true
+  },
+  {
+   "start": 51.145,
+   "end": 54.442,
+   "text": "Follow for part five.",
+   "tempter": false
+  }
+ ]
+}

@@ -98,3 +98,9 @@ then `EP=2 python3 scripts/wilderness/build.py <build dir> _bdy`; compositions `
 # Jesus series, Episode 3 — "Through the Roof" (Mark 2:1-17), TikTok only
 Composition `RoofTall` (`src/v10/`). Script `scripts/wilderness/script_ep3.py`, cues `scripts/wilderness/sound_ep3.py`.
 `SCRIPT=script_ep3 python3 tts.py …` → `EP=3 python3 scripts/wilderness/build.py <build dir>` → `npx remotion render RoofTall out/through_the_roof_tiktok_9x16.mp4 --crf=18`.
+
+---
+# Jesus series, Episode 4 — "Lord of the Sabbath" (Mark 2:23-3:6), TikTok only, 80s-anime look
+Composition `SabbathTall` (`src/v11/`): cel-shaded anime close-up heads, hands, wheat, robed silhouettes (`src/v11/anime.tsx`),
+film mode in the shared player (bottom subtitles, purple/orange grade, heavier grain). Sparse dialogue, visual-first.
+`SCRIPT=script_ep4 python3 tts.py …` → `EP=4 python3 scripts/wilderness/build.py <build dir>` → `npx remotion render SabbathTall out/lord_of_the_sabbath_tiktok_9x16.mp4 --crf=18`.
