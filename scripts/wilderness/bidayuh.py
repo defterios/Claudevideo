@@ -69,10 +69,28 @@ LINES3 = [  # episode 3 (line 19 was not recorded: start None = silent line)
     ("Oku neg ideh ku rie mogan nya de pikir yeh paguh de otin eh. Oku neg suo nyaa de bidusa.", 99.85, 106.15, ["neg", "bidusa"], {"came": "neg#2"}),
     ("", None, None, [], {}),
 ]
+LINES4 = [  # episode 4 (line 13 not recorded)
+    ("Dang onu Sabbath, Jesus biayuo de onak murid eh ponu nuna tota gondom.", 3.3, 7.8, ["Sabbath", "gondom"], {}),
+    ("Ninga. Nya munu bitupas de gondom.", 8.8, 10.65, ["bitupas"], {"breaking": "bitupas"}),
+    ("Topa nai Sabbath suo misia. Ideh nai misia suo Sabbath.", 12.15, 15.8, ["misia"], {}),
+    ("Sodang tian ade de synagogue, tonga ni dari noman tongan eh de nawa.", 17.35, 21.4, ["nawa"], {"withered": "nawa"}),
+    ("Bara Farisi prati Jesus. Rie kajen yeh doi nuna pritah onu Sabbath.", 22.45, 27.2, ["prati"], {}),
+    ("Mokat nya. Get ke tongah itih.", 28.4, 30.5, ["tongah"], {"come": "Get"}),
+    ("Patut keh ideh dang onu Sabbath otte nai koyuh de paguh, atau koyuh de jaat? Te ngramat nyawa, ato katod eh?", 32.2, 39.5, ["paguh", "jaat", "nyawa", "katod"], {"good": "paguh", "life": "nyawa", "kill": "katod"}),
+    ("Suo nya meh ngorek.", 40.25, 41.3, ["ngorek"], {}),
+    ("Nongon tongan mu.", 42.55, 43.75, ["tongan"], {"hand": "tongan"}),
+    ("Tongan eh meh bait.", 44.45, 45.45, ["bait"], {}),
+    ("Ngaruom inuh, bala Farisi meh bipokat dupan dep eh.", 46.4, 49.15, ["Farisi"], {}),
+    ("Yeh inuh mesti rie kobes.", 49.75, 51.85, ["kobes"], {"die": "kobes"}),
+    ("", None, None, [], {}),
+]
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
 if EP == 2:
     LINES = LINES2
     EXTRA_PAUSE = {5: 1.0, 13: 1.3}
+if EP == 4:
+    LINES = LINES4
+    EXTRA_PAUSE = {9: 0.9}
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -185,8 +203,9 @@ def god_voice(x):
 GOD_SPLIT = (19.5, 20.05) if TAKE == 1 else (30.5, 30.98)  # line 4: "Ogi suara nang:" | "Muu onak Ku, Oku nyayang muu."
 END_LEAD = 1.7              # line 18 starts after the title card has landed
 
-buf = [np.zeros(int(0.5 * SR), np.float32)]
-t = 0.5
+LEAD0 = getattr(SC, "LEAD", 0.5)
+buf = [np.zeros(int(LEAD0 * SR), np.float32)]
+t = LEAD0
 segs = []
 def words_for(x, text, keys, alias, t0, voiced_len=None):
     xx = x[: int(voiced_len * SR)] if voiced_len else x

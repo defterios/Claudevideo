@@ -1,0 +1,1077 @@
+{
+ "duration": 59.35,
+ "scenes": [
+  {
+   "id": "field",
+   "start": 0.0,
+   "segs": [
+    3.2
+   ],
+   "w": {
+    "dang": 3.25,
+    "onu": 3.53,
+    "sabbath": 3.74,
+    "jesus": 4.22,
+    "biayuo": 4.53,
+    "de": 4.9,
+    "onak": 5.06,
+    "murid": 5.32,
+    "eh": 5.68,
+    "ponu": 5.96,
+    "nuna": 6.22,
+    "tota": 6.58,
+    "gondom": 6.84
+   },
+   "end": 8.67
+  },
+  {
+   "id": "watchers",
+   "start": 8.67,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "ninga": 0.29,
+    "nya": 0.61,
+    "munu": 0.84,
+    "bitupas": 1.12,
+    "breaking": 1.12,
+    "de": 1.62,
+    "gondom": 1.79
+   },
+   "end": 11.58
+  },
+  {
+   "id": "reply",
+   "start": 11.58,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "topa": 0.33,
+    "nai": 0.67,
+    "sabbath": 0.91,
+    "suo": 1.42,
+    "misia": 1.66,
+    "ideh": 2.01
+   },
+   "end": 16.94
+  },
+  {
+   "id": "hand",
+   "start": 16.94,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "sodang": 0.33,
+    "tian": 0.68,
+    "ade": 0.95,
+    "de": 1.16,
+    "synagogue": 1.32,
+    "tonga": 1.84,
+    "ni": 2.62,
+    "dari": 2.78,
+    "noman": 3.04,
+    "tongan": 3.35,
+    "eh": 3.76,
+    "nawa": 4.08,
+    "withered": 4.08
+   },
+   "end": 22.12
+  },
+  {
+   "id": "watch",
+   "start": 22.12,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "bara": 0.33,
+    "farisi": 0.61,
+    "prati": 1.0,
+    "jesus": 1.47,
+    "rie": 1.85,
+    "kajen": 2.1,
+    "yeh": 2.83,
+    "doi": 3.06,
+    "nuna": 3.29,
+    "pritah": 3.58,
+    "onu": 4.08,
+    "sabbath": 4.31
+   },
+   "end": 27.95
+  },
+  {
+   "id": "stand",
+   "start": 27.95,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "mokat": 0.33,
+    "nya": 0.6,
+    "get": 0.86,
+    "come": 0.86,
+    "ke": 1.57,
+    "tongah": 1.77,
+    "itih": 2.09
+   },
+   "end": 31.16
+  },
+  {
+   "id": "question",
+   "start": 31.16,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "patut": 0.33,
+    "keh": 0.67,
+    "ideh": 0.86,
+    "dang": 1.1,
+    "onu": 1.34,
+    "sabbath": 1.53,
+    "otte": 2.0,
+    "nai": 2.25,
+    "koyuh": 2.46,
+    "de": 2.8,
+    "paguh": 2.95,
+    "good": 2.95,
+    "atau": 3.74,
+    "jaat": 4.43,
+    "te": 5.18,
+    "ngramat": 5.33,
+    "nyawa": 5.72,
+    "life": 5.72,
+    "ato": 6.01,
+    "katod": 6.58,
+    "kill": 6.58,
+    "eh": 6.93
+   },
+   "end": 38.68
+  },
+  {
+   "id": "silence",
+   "start": 38.68,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "suo": 0.33,
+    "nya": 0.51,
+    "meh": 0.7,
+    "ngorek": 0.89
+   },
+   "end": 41.33
+  },
+  {
+   "id": "stretch",
+   "start": 41.33,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "nongon": 0.33,
+    "tongan": 0.72,
+    "hand": 0.72,
+    "mu": 1.15
+   },
+   "end": 44.33
+  },
+  {
+   "id": "heal",
+   "start": 44.33,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "tongan": 0.33,
+    "eh": 0.57,
+    "meh": 0.68,
+    "bait": 0.83
+   },
+   "end": 47.88
+  },
+  {
+   "id": "plot",
+   "start": 47.88,
+   "segs": [
+    0.28,
+    3.69
+   ],
+   "w": {
+    "ngaruom": 0.33,
+    "inuh": 0.69,
+    "bala": 0.92,
+    "farisi": 1.15,
+    "meh": 1.48,
+    "bipokat": 1.66,
+    "dupan": 2.07,
+    "dep": 2.4,
+    "eh": 2.64,
+    "yeh": 3.74,
+    "mesti": 4.47,
+    "rie": 4.95,
+    "kobes": 5.28,
+    "die": 5.28
+   },
+   "end": 55.37
+  },
+  {
+   "id": "end",
+   "start": 55.37,
+   "segs": [
+    0.28
+   ],
+   "w": {},
+   "end": 59.35
+  }
+ ],
+ "pages": [
+  {
+   "start": 3.25,
+   "end": 4.22,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Dang",
+     "start": 3.25,
+     "key": false
+    },
+    {
+     "text": "onu",
+     "start": 3.53,
+     "key": false
+    },
+    {
+     "text": "Sabbath,",
+     "start": 3.74,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 4.22,
+   "end": 5.32,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 4.22,
+     "key": false
+    },
+    {
+     "text": "biayuo",
+     "start": 4.53,
+     "key": false
+    },
+    {
+     "text": "de",
+     "start": 4.9,
+     "key": false
+    },
+    {
+     "text": "onak",
+     "start": 5.06,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.32,
+   "end": 6.58,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "murid",
+     "start": 5.32,
+     "key": false
+    },
+    {
+     "text": "eh",
+     "start": 5.68,
+     "key": false
+    },
+    {
+     "text": "ponu",
+     "start": 5.96,
+     "key": false
+    },
+    {
+     "text": "nuna",
+     "start": 6.22,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.58,
+   "end": 7.6,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "tota",
+     "start": 6.58,
+     "key": false
+    },
+    {
+     "text": "gondom.",
+     "start": 6.84,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 8.96,
+   "end": 10.29,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Ninga.",
+     "start": 8.96,
+     "key": false
+    },
+    {
+     "text": "Nya",
+     "start": 9.28,
+     "key": false
+    },
+    {
+     "text": "munu",
+     "start": 9.51,
+     "key": false
+    },
+    {
+     "text": "bitupas",
+     "start": 9.79,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 10.29,
+   "end": 11.21,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "de",
+     "start": 10.29,
+     "key": false
+    },
+    {
+     "text": "gondom.",
+     "start": 10.46,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.91,
+   "end": 13.24,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Topa",
+     "start": 11.91,
+     "key": false
+    },
+    {
+     "text": "nai",
+     "start": 12.25,
+     "key": false
+    },
+    {
+     "text": "Sabbath",
+     "start": 12.49,
+     "key": false
+    },
+    {
+     "text": "suo",
+     "start": 13.0,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 13.24,
+   "end": 14.87,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "misia.",
+     "start": 13.24,
+     "key": true
+    },
+    {
+     "text": "Ideh",
+     "start": 13.59,
+     "key": false
+    },
+    {
+     "text": "nai",
+     "start": 14.28,
+     "key": false
+    },
+    {
+     "text": "misia",
+     "start": 14.52,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 14.87,
+   "end": 15.87,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "suo",
+     "start": 14.87,
+     "key": false
+    },
+    {
+     "text": "Sabbath.",
+     "start": 15.12,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.27,
+   "end": 18.26,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Sodang",
+     "start": 17.27,
+     "key": false
+    },
+    {
+     "text": "tian",
+     "start": 17.62,
+     "key": false
+    },
+    {
+     "text": "ade",
+     "start": 17.89,
+     "key": false
+    },
+    {
+     "text": "de",
+     "start": 18.1,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.26,
+   "end": 19.98,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "synagogue,",
+     "start": 18.26,
+     "key": false
+    },
+    {
+     "text": "tonga",
+     "start": 18.78,
+     "key": false
+    },
+    {
+     "text": "ni",
+     "start": 19.56,
+     "key": false
+    },
+    {
+     "text": "dari",
+     "start": 19.72,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 19.98,
+   "end": 21.65,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "noman",
+     "start": 19.98,
+     "key": false
+    },
+    {
+     "text": "tongan",
+     "start": 20.29,
+     "key": false
+    },
+    {
+     "text": "eh",
+     "start": 20.7,
+     "key": false
+    },
+    {
+     "text": "de",
+     "start": 20.86,
+     "key": false
+    },
+    {
+     "text": "nawa.",
+     "start": 21.02,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 22.45,
+   "end": 23.97,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Bara",
+     "start": 22.45,
+     "key": false
+    },
+    {
+     "text": "Farisi",
+     "start": 22.73,
+     "key": false
+    },
+    {
+     "text": "prati",
+     "start": 23.12,
+     "key": true
+    },
+    {
+     "text": "Jesus.",
+     "start": 23.59,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 23.97,
+   "end": 25.41,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Rie",
+     "start": 23.97,
+     "key": false
+    },
+    {
+     "text": "kajen",
+     "start": 24.22,
+     "key": false
+    },
+    {
+     "text": "yeh",
+     "start": 24.95,
+     "key": false
+    },
+    {
+     "text": "doi",
+     "start": 25.18,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.41,
+   "end": 27.28,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "nuna",
+     "start": 25.41,
+     "key": false
+    },
+    {
+     "text": "pritah",
+     "start": 25.7,
+     "key": false
+    },
+    {
+     "text": "onu",
+     "start": 26.2,
+     "key": false
+    },
+    {
+     "text": "Sabbath.",
+     "start": 26.43,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 28.28,
+   "end": 28.81,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Mokat",
+     "start": 28.28,
+     "key": false
+    },
+    {
+     "text": "nya.",
+     "start": 28.55,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 28.81,
+   "end": 30.69,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Get",
+     "start": 28.81,
+     "key": false
+    },
+    {
+     "text": "ke",
+     "start": 29.52,
+     "key": false
+    },
+    {
+     "text": "tongah",
+     "start": 29.72,
+     "key": true
+    },
+    {
+     "text": "itih.",
+     "start": 30.04,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 31.49,
+   "end": 32.5,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Patut",
+     "start": 31.49,
+     "key": false
+    },
+    {
+     "text": "keh",
+     "start": 31.83,
+     "key": false
+    },
+    {
+     "text": "ideh",
+     "start": 32.02,
+     "key": false
+    },
+    {
+     "text": "dang",
+     "start": 32.26,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 33.62,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "onu",
+     "start": 32.5,
+     "key": false
+    },
+    {
+     "text": "Sabbath",
+     "start": 32.69,
+     "key": false
+    },
+    {
+     "text": "otte",
+     "start": 33.16,
+     "key": false
+    },
+    {
+     "text": "nai",
+     "start": 33.41,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 33.62,
+   "end": 34.9,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "koyuh",
+     "start": 33.62,
+     "key": false
+    },
+    {
+     "text": "de",
+     "start": 33.96,
+     "key": false
+    },
+    {
+     "text": "paguh,",
+     "start": 34.11,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 34.9,
+   "end": 36.34,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "atau",
+     "start": 34.9,
+     "key": false
+    },
+    {
+     "text": "koyuh",
+     "start": 35.16,
+     "key": false
+    },
+    {
+     "text": "de",
+     "start": 35.44,
+     "key": false
+    },
+    {
+     "text": "jaat?",
+     "start": 35.59,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 36.34,
+   "end": 37.17,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Te",
+     "start": 36.34,
+     "key": false
+    },
+    {
+     "text": "ngramat",
+     "start": 36.49,
+     "key": false
+    },
+    {
+     "text": "nyawa,",
+     "start": 36.88,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 37.17,
+   "end": 38.61,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "ato",
+     "start": 37.17,
+     "key": false
+    },
+    {
+     "text": "katod",
+     "start": 37.74,
+     "key": true
+    },
+    {
+     "text": "eh?",
+     "start": 38.09,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 39.01,
+   "end": 40.26,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Suo",
+     "start": 39.01,
+     "key": false
+    },
+    {
+     "text": "nya",
+     "start": 39.19,
+     "key": false
+    },
+    {
+     "text": "meh",
+     "start": 39.38,
+     "key": false
+    },
+    {
+     "text": "ngorek.",
+     "start": 39.57,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 41.66,
+   "end": 43.06,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Nongon",
+     "start": 41.66,
+     "key": false
+    },
+    {
+     "text": "tongan",
+     "start": 42.05,
+     "key": true
+    },
+    {
+     "text": "mu.",
+     "start": 42.48,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.66,
+   "end": 45.71,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Tongan",
+     "start": 44.66,
+     "key": false
+    },
+    {
+     "text": "eh",
+     "start": 44.9,
+     "key": false
+    },
+    {
+     "text": "meh",
+     "start": 45.01,
+     "key": false
+    },
+    {
+     "text": "bait.",
+     "start": 45.16,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 48.21,
+   "end": 48.8,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Ngaruom",
+     "start": 48.21,
+     "key": false
+    },
+    {
+     "text": "inuh,",
+     "start": 48.57,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 48.8,
+   "end": 49.95,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "bala",
+     "start": 48.8,
+     "key": false
+    },
+    {
+     "text": "Farisi",
+     "start": 49.03,
+     "key": true
+    },
+    {
+     "text": "meh",
+     "start": 49.36,
+     "key": false
+    },
+    {
+     "text": "bipokat",
+     "start": 49.54,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 49.95,
+   "end": 51.22,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "dupan",
+     "start": 49.95,
+     "key": false
+    },
+    {
+     "text": "dep",
+     "start": 50.28,
+     "key": false
+    },
+    {
+     "text": "eh.",
+     "start": 50.52,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 51.62,
+   "end": 54.1,
+   "tempter": true,
+   "god": false,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 51.62,
+     "key": false
+    },
+    {
+     "text": "inuh",
+     "start": 51.94,
+     "key": false
+    },
+    {
+     "text": "mesti",
+     "start": 52.35,
+     "key": false
+    },
+    {
+     "text": "rie",
+     "start": 52.83,
+     "key": false
+    },
+    {
+     "text": "kobes.",
+     "start": 53.16,
+     "key": true
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 3.2,
+   "end": 7.35,
+   "text": "Dang onu Sabbath, Jesus biayuo de onak murid eh ponu nuna tota gondom.",
+   "tempter": false
+  },
+  {
+   "start": 8.95,
+   "end": 10.96,
+   "text": "Ninga. Nya munu bitupas de gondom.",
+   "tempter": false
+  },
+  {
+   "start": 11.86,
+   "end": 15.62,
+   "text": "Topa nai Sabbath suo misia. Ideh nai misia suo Sabbath.",
+   "tempter": false
+  },
+  {
+   "start": 17.22,
+   "end": 21.4,
+   "text": "Sodang tian ade de synagogue, tonga ni dari noman tongan eh de nawa.",
+   "tempter": false
+  },
+  {
+   "start": 22.4,
+   "end": 27.03,
+   "text": "Bara Farisi prati Jesus. Rie kajen yeh doi nuna pritah onu Sabbath.",
+   "tempter": false
+  },
+  {
+   "start": 28.23,
+   "end": 30.44,
+   "text": "Mokat nya. Get ke tongah itih.",
+   "tempter": false
+  },
+  {
+   "start": 31.44,
+   "end": 38.36,
+   "text": "Patut keh ideh dang onu Sabbath otte nai koyuh de paguh, atau koyuh de jaat? Te ngramat nyawa, ato katod eh?",
+   "tempter": false
+  },
+  {
+   "start": 38.96,
+   "end": 40.01,
+   "text": "Suo nya meh ngorek.",
+   "tempter": false
+  },
+  {
+   "start": 41.61,
+   "end": 42.81,
+   "text": "Nongon tongan mu.",
+   "tempter": false
+  },
+  {
+   "start": 44.61,
+   "end": 45.46,
+   "text": "Tongan eh meh bait.",
+   "tempter": false
+  },
+  {
+   "start": 48.16,
+   "end": 50.97,
+   "text": "Ngaruom inuh, bala Farisi meh bipokat dupan dep eh.",
+   "tempter": false
+  },
+  {
+   "start": 51.57,
+   "end": 53.85,
+   "text": "Yeh inuh mesti rie kobes.",
+   "tempter": true
+  }
+ ]
+}
