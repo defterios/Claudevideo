@@ -104,3 +104,8 @@ Composition `RoofTall` (`src/v10/`). Script `scripts/wilderness/script_ep3.py`, 
 Composition `SabbathTall` (`src/v11/`): cel-shaded anime close-up heads, hands, wheat, robed silhouettes (`src/v11/anime.tsx`),
 film mode in the shared player (bottom subtitles, purple/orange grade, heavier grain). Sparse dialogue, visual-first.
 `SCRIPT=script_ep4 python3 tts.py …` → `EP=4 python3 scripts/wilderness/build.py <build dir>` → `npx remotion render SabbathTall out/lord_of_the_sabbath_tiktok_9x16.mp4 --crf=18`.
+
+---
+# Jesus series, Episode 5 — "The Twelve" (Mark 3:7-35), TikTok only, lit-room cartoon style
+Composition `TwelveTall` (`src/v12/`). Names montage cut on each spoken name (per-word timings `ws` in the data), name cards,
+one big moment (the divided house). Script `script_ep5.py`, cues `sound_ep5.py`; `EP=5 MUSIC_GAIN=1.5 SFX_GAIN=1.6 python3 scripts/wilderness/build.py <build dir>`.

@@ -24,6 +24,7 @@ for i, sc in enumerate(scenes):
         for w in s["words"]:
             sc["w"].setdefault(re.sub(r"[^a-z']", "", w["text"].lower()), round(w["start"] - st, 3))
             if w.get("alias"): sc["w"].setdefault(w["alias"], round(w["start"] - st, 3))
+            sc.setdefault("ws", []).append([re.sub(r"[^a-z']", "", w["text"].lower()), round(w["start"] - st, 3)])
     sc["segs"] = [round(s["start"] - st, 3) for s in sc["segs"]]
 
 # ---------- caption pages (2-4 words, break on punctuation) ----------

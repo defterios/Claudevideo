@@ -2,7 +2,7 @@ import React from 'react';
 import {Easing, interpolate} from 'remotion';
 import {Bust, Fig, INK, JESUS, JOHN, Look, P, SHADOW, mix, walk} from './fig';
 
-export type SP = {t: number; dur: number; w: (word: string, fallback?: number) => number; segs: number[]; wide: boolean; W: number; H: number};
+export type SP = {t: number; dur: number; w: (word: string, fallback?: number) => number; segs: number[]; wide: boolean; W: number; H: number; ws?: [string, number][]};
 export type C3 = {x: number; y: number; z: number; rot?: number};
 export const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 export const k = (t: number, a: number, b: number) => interpolate(t, [a, b], [0, 1], {...cl, easing: Easing.inOut(Easing.cubic)});

@@ -13,7 +13,7 @@ if (typeof document !== 'undefined') {
   }
 }
 
-export type Sc = {id: string; start: number; end: number; segs: number[]; w: Record<string, number>};
+export type Sc = {id: string; start: number; end: number; segs: number[]; w: Record<string, number>; ws?: [string, number][]};
 export type Pg = {start: number; end: number; tempter: boolean; god?: boolean; words: {text: string; start: number; key: boolean}[]};
 export type Data = {duration: number; scenes: Sc[]; pages: Pg[]; lines?: {start: number; end: number; text: string; tempter: boolean}[]};
 export type Text = {ep: string; title: [string, string]; ref: string; follow: string; voice: string; bed: string};
@@ -33,7 +33,7 @@ const World: React.FC<Ep & {W: number; H: number}> = ({W, H, D, scenes, film, ro
     <AbsoluteFill>
       <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position: 'absolute'}}>
         <Defs />
-        <S t={local} dur={sc.end - sc.start} w={(word, fb = 0) => sc.w[word] ?? fb} segs={sc.segs} wide={W > H} W={W} H={H} />
+        <S t={local} dur={sc.end - sc.start} w={(word, fb = 0) => sc.w[word] ?? fb} segs={sc.segs} ws={sc.ws} wide={W > H} W={W} H={H} />
         <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed={frame % 7} /><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.55 0" /></filter>
         <rect width={W} height={H} filter="url(#grain)" opacity={film ? 0.3 : room ? 0.2 : 0.16} style={{mixBlendMode: 'overlay'}} />
       </svg>
