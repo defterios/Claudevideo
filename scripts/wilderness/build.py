@@ -116,7 +116,7 @@ with wave.open(os.path.join(bd, "voice.wav")) as w:
 vsr = 24000
 e = np.abs(v); k = int(0.25 * vsr); e = np.convolve(e, np.ones(k) / k, "same")
 e = np.interp(tt, np.arange(len(e)) / vsr, e)
-duck = 1 - 0.45 * np.clip(e / 0.08, 0, 1)
+duck = 1 - float(os.environ.get("DUCK", "0.45")) * np.clip(e / 0.08, 0, 1)  # DUCK: how far the music dips under the voice
 bed *= duck[:, None].astype(np.float32)
 bed *= (np.clip(tt / 0.4, 0, 1) * np.clip((DUR - tt) / 1.5, 0, 1))[:, None].astype(np.float32)
 bed = np.tanh(bed * 1.6) * 0.8
@@ -126,5 +126,5 @@ with wave.open(tmp, "wb") as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((bed * 32767).astype(np.int16).tobytes())
 subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp, "-b:a", "160k", os.path.join(ROOT, f"{PUB}/bed{OUT}.mp3")])
 subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", os.path.join(bd, "voice.wav"), "-af",
-    "highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7", "-ar", "44100", "-b:a", "160k", os.path.join(ROOT, f"{PUB}/voice{OUT}.mp3")])
+    ("highpass=f=70," + ("agate=threshold=0.02:ratio=3:range=0.25:attack=5:release=150,equalizer=f=300:t=q:w=1:g=-3,equalizer=f=3200:t=q:w=1.2:g=3.5,deesser=i=0.4," if os.environ.get("CLEAR") else "") + "acompressor=threshold=-18dB:ratio=3:attack=8:release=120:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7"), "-ar", "44100", "-b:a", "160k", os.path.join(ROOT, f"{PUB}/voice{OUT}.mp3")])
 print("ok", DUR)

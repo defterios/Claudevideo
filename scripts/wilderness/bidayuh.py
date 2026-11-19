@@ -137,7 +137,7 @@ PARTS = {
     (6, 12): [("Onak murid eh meh sikubuon toru, ju meh in eh:", 69.25, 73.4, None), ("Osi-osi Nyaa itih? Sapai sobak ribut duoh grumang ngojit sina Eh.", 73.45, 77.5, "disciple")],
 }
 VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
-    "jesus": "aecho=0.9:0.7:90|180|320:0.22|0.13|0.07",  # the creator's own voice, untouched, with a gentle echo
+    "jesus": "aecho=0.9:0.7:90|180|320:0.22|0.13|0.07",  # the creator's own voice, untouched, with a gentle echo (ep5)
     "spirit": "rubberband=pitch=0.72:formant=shifted,lowpass=f=3500,aecho=0.8:0.75:80|160|260:0.4|0.28|0.16,acrusher=bits=10:mix=0.15",
     "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
     "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
@@ -249,6 +249,8 @@ THOUGHT = {(3, 8)}  # (episode, line index) read as an inner thought
 
 def char_voice(x, kind):
     """apply a character voice chain; returns (audio, length of the dry voice)"""
+    if kind == "jesus" and EP >= 6:
+        kind = None  # creator's request: Jesus in the natural voice, no echo
     if not kind:
         return x, len(x) / SR
     with tempfile.TemporaryDirectory() as td:
