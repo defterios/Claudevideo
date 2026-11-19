@@ -84,6 +84,39 @@ LINES4 = [  # episode 4 (line 13 not recorded)
     ("Yeh inuh mesti rie kobes.", 49.75, 51.85, ["kobes"], {"die": "kobes"}),
     ("", None, None, [], {}),
 ]
+LINES5 = [  # episode 5 (denoised take; line 16 not recorded). Lines with characters speaking are split in PARTS.
+    ("Nyaa meh puan pasal Jesus. Sapai meh bogo nuna yeh kati kanih. Brobut rie toma Yeh.", 1.45, 7.3, ["Jesus", "toma"], {}),
+    ("Yeh meh da onak murit eh sidia orud, sa eh di pisiet da nyaa.", 8.0, 11.85, ["orud"], {}),
+    ("Nyaa de ogi muot de gonan eh sapai toru duoh ngrais.", 12.9, 16.15, ["muot", "ngrais"], {}),
+    ("Muu en eh Onak Topa!", 16.2, 18.4, ["Onak", "Topa"], {}),
+    ("Mokuo nuh yeh meh maad ke pungu, duoh mogan bara de rie da Eh nuna Dep eh.", 19.05, 23.4, ["pungu", "mogan"], {"called": "mogan"}),
+    ("Simon, Jesus praden yeh Peter. James duoh John, onak Zebedee, yaa de koda dudu. Andrew. Philip. Bartholomew.", 24.6, 30.95, ["Peter", "dudu"], {}),
+    ("Matthew. Thomas. James. Thaddeus. Simon.", 31.3, 36.15, ["Matthew", "Thomas"], {}),
+    ("Duoh Judas Iscariot. Nyaa de rie jua Jesus.", 36.2, 39.75, ["Judas", "jua"], {"betray": "jua"}),
+    ("12 urang rasol eh. Rie da ponu magah Gah de Paguh, duoh kasig pibuu muot.", 41.3, 46.8, ["12", "rasol"], {}),
+    ("", 48.5, 54.95, ["madis", "gira"], {"said": "nang"}),
+    ("", 55.9, 58.65, ["raja"], {}),
+    ("", 59.6, 68.0, ["bisamah", "mujuog"], {"divided": "bisamah", "stand": "mujuog"}),
+    ("Sino duoh sikie sudi Jesus meh neg, kajen de ruar ju meh sobut duoh nya da Jesus ruah.", 69.1, 75.25, ["Sino", "ruar"], {}),
+    ("", 76.0, 79.45, ["sino", "sikie"], {}),
+    ("", 80.9, 87.0, ["sikie", "sino"], {}),
+    ("", None, None, [], {}),
+]
+# (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
+PARTS = {
+    (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
+    (5, 10): [("Yeh kasig muot pakai kuasa raja muot!", 55.9, 58.65, "scholar")],
+    (5, 11): [("Jesus nang:", 59.6, 61.1, None), ("Watki Sitan kasig pibuu Sitan? Bori de doi bisamah otin eh, ideh di daped mujuog tuui.", 61.6, 68.0, "jesus")],
+    (5, 13): [("Jesus meh in eh:", 76.0, 77.1, None), ("Osi sino duoh sikie sudi ku?", 77.9, 79.45, "jesus")],
+    (5, 14): [("Osi de raan idip nuna de nang Topa, de munu leh sikie sudi ku, de munu leh sino ku.", 80.9, 87.0, "jesus")],
+    (5, 3): [("Muu en eh Onak Topa!", 16.2, 18.4, "spirit")],
+}
+VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
+    "jesus": "rubberband=pitch=0.9:formant=preserved,lowshelf=f=160:g=4,highshelf=f=7000:g=-2,aecho=0.85:0.55:55|110|190:0.16|0.1|0.06",
+    "spirit": "rubberband=pitch=0.72:formant=shifted,lowpass=f=3500,aecho=0.8:0.75:80|160|260:0.4|0.28|0.16,acrusher=bits=10:mix=0.15",
+    "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
+    "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
+}
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
 if EP == 2:
     LINES = LINES2
@@ -91,6 +124,9 @@ if EP == 2:
 if EP == 4:
     LINES = LINES4
     EXTRA_PAUSE = {9: 0.9}
+if EP == 5:
+    LINES = LINES5
+    TH = -43
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -106,6 +142,8 @@ def env_db(x):
     return 20 * np.log10(np.sqrt((x[: n * H].reshape(n, H) ** 2).mean(1)) + 1e-9)
 DB = env_db(a)
 TH = -45  # speech vs room tone (gaps sit at about -65 dB)
+if EP == 5:
+    TH = -43
 # Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
 # no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
 TAKE = int(os.environ.get("TAKE", "1"))
@@ -179,6 +217,22 @@ def thought_voice(x):
 
 THOUGHT = {(3, 8)}  # (episode, line index) read as an inner thought
 
+def char_voice(x, kind):
+    """apply a character voice chain; returns (audio, length of the dry voice)"""
+    if not kind:
+        return x, len(x) / SR
+    with tempfile.TemporaryDirectory() as td:
+        i, o = os.path.join(td, "i.wav"), os.path.join(td, "o.wav")
+        x2 = np.concatenate([x, np.zeros(int(0.9 * SR), np.float32)])
+        with wave.open(i, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(x2, -1, 1) * 32767).astype(np.int16).tobytes())
+        subprocess.check_call(["ffmpeg", "-loglevel", "error", "-y", "-i", i, "-af", VOICE_FX[kind] + ",alimiter=limit=0.9", "-ar", str(SR), "-ac", "1", o])
+        with wave.open(o) as w:
+            y = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+    y = y / max(1e-6, np.abs(y).max()) * float(np.abs(x).max())
+    d = env_db(y); v = np.nonzero(d > -50)[0]
+    return fade(y[: (v[-1] + 1) * H], 30), len(x) / SR
+
 def god_voice(x):
     """God's words: an octave-down double, a fifth-down double and a long hall echo. Returns (audio, length of the dry voice)."""
     with tempfile.TemporaryDirectory() as td:
@@ -235,6 +289,14 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
         segs.append({"scene": scene, "text": tb, "tempter": False, "god": True, "start": round(t, 3), "end": round(t + dry, 3), "words": words_for(xb, tb, keys, alias, t, dry)})
         print(f"{t:6.2f} {len(xb) / SR:5.2f}  (God) {tb}")
         buf += [xb, np.zeros(int(0.15 * SR), np.float32)]; t += len(xb) / SR + 0.15
+        continue
+    if (EP, n) in PARTS:
+        for k_, (ptxt, ps, pe, fx) in enumerate(PARTS[(EP, n)]):
+            xp, dry = char_voice(clip(ps, pe), fx)
+            segs.append({"scene": scene, "text": ptxt, "tempter": fx == "spirit", "start": round(t, 3), "end": round(t + dry, 3), "words": words_for(xp, ptxt, keys, alias, t, dry)})
+            print(f"{t:6.2f} {len(xp) / SR:5.2f}  [{fx or 'narr'}] {ptxt}")
+            gap = pause + EXTRA_PAUSE.get(n, 0) if k_ == len(PARTS[(EP, n)]) - 1 else 0.22
+            buf += [xp, np.zeros(int(gap * SR), np.float32)]; t += len(xp) / SR + int(gap * SR) / SR
         continue
     x = np.zeros(int(1.0 * SR), np.float32) if s is None else clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
     if n == len(L) - 1:

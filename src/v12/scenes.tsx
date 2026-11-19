@@ -6,9 +6,9 @@ import {Bean, OilLamp, RDEFS, Room, SunPatch} from '../v11/room';
 import {Hall, PH} from '../v11/scenes_room';
 
 /** Episode 5 — "The Twelve" (Mark 3:7-35), lit-room cartoon style. */
-const MARY: Look = {skin: '#E0A880', hair: '#3A2418', tunic: '#3E5C8A', sash: '#C9A35A', style: 'hood', wrap: '#2F4A7A', beard: false};
+export const MARY: Look = {skin: '#E0A880', hair: '#3A2418', tunic: '#3E5C8A', sash: '#C9A35A', style: 'hood', wrap: '#2F4A7A', beard: false};
 const BRO = (i: number): Look => ({...FRIENDS[i % 4], beard: i !== 1});
-const AP: Record<string, Look> = {
+export const AP: Record<string, Look> = {
   simon: SIMON, andrew: ANDREW, james: JAMES, john: JOHNZ,
   philip: {skin: '#D9A07C', hair: '#4A3020', tunic: '#7A8A4A', sash: '#4A5A2A', style: 'short', beard: false},
   bartholomew: {skin: '#C98E64', hair: '#2A1C14', tunic: '#8A4A6A', sash: '#5A2A40', style: 'long', beard: true},
@@ -19,7 +19,7 @@ const AP: Record<string, Look> = {
   simon2: {skin: '#D2966A', hair: '#2E1E16', tunic: '#A84A3A', sash: '#5A2418', style: 'short', beard: true},
   judas: {skin: '#C8926C', hair: '#1A120E', tunic: '#5A4E3A', sash: '#2A2418', style: 'short', beard: true},
 };
-const TWELVE = ['simon', 'andrew', 'james', 'john', 'philip', 'bartholomew', 'matthew', 'thomas', 'james2', 'thaddaeus', 'simon2', 'judas'];
+export const TWELVE = ['simon', 'andrew', 'james', 'john', 'philip', 'bartholomew', 'matthew', 'thomas', 'james2', 'thaddaeus', 'simon2', 'judas'];
 const Bust: React.FC<{x: number; y: number; look: Look; face?: React.ComponentProps<typeof Bean>['face']; t?: number; s?: number; dim?: number}> = ({x, y, look, face, t = 0, s = 1.5, dim}) => (
   <g transform={`translate(${x} ${y}) scale(${s})`}><Bean x={0} y={440} look={look} face={face} t={t} dim={dim} /></g>
 );
@@ -130,9 +130,10 @@ const Mountain: React.FC<SP> = (p) => {
 const Names: React.FC<SP> = (p) => {
   const {t} = p;
   const ws = p.ws ?? [];
-  const order: [string, string, string?, string?][] = [['simon', 'SIMON', '"THE ROCK"'], ['james', 'JAMES & JOHN', '"SONS OF THUNDER"', 'john'], ['andrew', 'ANDREW'], ['philip', 'PHILIP'], ['bartholomew', 'BARTHOLOMEW'], ['matthew', 'MATTHEW'], ['thomas', 'THOMAS'], ['james2', 'JAMES', 'SON OF ALPHAEUS'], ['thaddaeus', 'THADDAEUS'], ['simon2', 'SIMON', 'THE ZEALOT']];
+  const bdy = ws.some(([w]) => w === 'peter');
+  const order: [string, string, string?, string?][] = [['simon', 'SIMON', bdy ? '"PETER"' : '"THE ROCK"'], ['james', 'JAMES & JOHN', bdy ? 'ONAK ZEBEDEE' : '"SONS OF THUNDER"', 'john'], ['andrew', 'ANDREW'], ['philip', 'PHILIP'], ['bartholomew', 'BARTHOLOMEW'], ['matthew', 'MATTHEW'], ['thomas', 'THOMAS'], ['james2', 'JAMES', bdy ? 'ONAK ALPHAEUS' : 'SON OF ALPHAEUS'], ['thaddaeus', bdy ? 'THADDEUS' : 'THADDAEUS'], ['simon2', 'SIMON', bdy ? undefined : 'THE ZEALOT']];
   // name start times, in order (the second James / Simon come from the per-word list)
-  const names = ws.filter(([w]) => ['simon', 'james', 'andrew', 'philip', 'bartholomew', 'matthew', 'thomas', 'thaddaeus'].includes(w)).map(([, tm]) => tm);
+  const names = ws.filter(([w]) => ['simon', 'james', 'andrew', 'philip', 'bartholomew', 'matthew', 'thomas', 'thaddaeus', 'thaddeus'].includes(w)).map(([, tm]) => tm);
   const times = order.map((_, i) => names[i] ?? i * 0.9);
   let i = 0;
   for (let j = 0; j < times.length; j++) if (t >= times[j] - 0.12) i = j;

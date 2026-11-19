@@ -16,7 +16,7 @@ add(wind * env(S["mountain"]["start"], S["names"]["start"] + 1.0, 0.6, 1.0), 0.1
 add(pad([D3, A3, D3 * 2]) * env(S["mountain"]["start"] + 0.5, S["judas"]["start"], 1.5, 0.3), 0.15)
 # the names: a soft frame-drum tap on every name
 for nm, tm in S["names"].get("ws", []):
-    if nm in ("simon", "james", "john", "andrew", "philip", "bartholomew", "matthew", "thomas", "thaddaeus"):
+    if nm in ("simon", "james", "john", "andrew", "philip", "bartholomew", "matthew", "thomas", "thaddaeus", "thaddeus"):
         place(hit(68, 0.5, 0.2), S["names"]["start"] + tm, 0.35); place(note(587.33 if nm != "simon" else 440.0, 0.8), S["names"]["start"] + tm, 0.05)
 # Judas: everything drops to a low minor chord
 add(pad([D2, F3 * 0.5, A2]) * env(S["judas"]["start"], S["twelve"]["start"] + 0.2, 0.2, 0.4), 0.22)
