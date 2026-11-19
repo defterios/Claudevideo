@@ -25,13 +25,13 @@ storm_env = env(st0, still, 0.4, 0.02)
 rain = bp(noise, 2000, 10000) * (0.75 + 0.25 * np.sin(2 * np.pi * 0.7 * tt))
 howl = bp(noise, 300, 1500) * (0.4 + 0.6 * np.abs(np.sin(2 * np.pi * 0.23 * tt + np.sin(2 * np.pi * 0.11 * tt) * 2)))
 surf = lp(noise, 700) * (0.3 + 0.7 * (np.sin(2 * np.pi * 0.45 * tt) > 0.2))
-add(rain * storm_env, 0.18, 0.25); add(howl * storm_env, 0.22, -0.3); add(surf * storm_env, 0.3)
-add(pad([C3 * 0.5, Fs3 * 0.5, C3]) * (0.6 + 0.4 * np.sin(2 * np.pi * 4 * tt)) * storm_env, 0.2)
+add(rain * storm_env, 0.02, 0.25); add(howl * storm_env, 0.025, -0.3); add(surf * storm_env, 0.03)
+add(pad([C3 * 0.5, Fs3 * 0.5, C3]) * (0.6 + 0.4 * np.sin(2 * np.pi * 4 * tt)) * storm_env, 0.05)
 for k, b in enumerate([st0 + 0.6, st0 + 2.4, st0 + 4.1, S["wake"]["start"] + 0.2, S["rebuke"]["start"] - 0.3]):
-    place(hit(30 + k * 3, 2.6, 1.0), b, 0.75); place(bp(rng.standard_normal(int(0.4 * SR)).astype(np.float32), 1500, 9000) * np.exp(-np.arange(int(0.4 * SR)) / SR * 8), b, 0.35)
+    place(hit(30 + k * 3, 2.6, 1.0), b, 0.2); place(bp(rng.standard_normal(int(0.4 * SR)).astype(np.float32), 1500, 9000) * np.exp(-np.arange(int(0.4 * SR)) / SR * 8), b, 0.08)
 for b in np.arange(st0 + 0.3, still - 0.2, 1.3):
     n_ = int(0.6 * SR); x_ = np.arange(n_) / SR
-    place((np.sin(2 * np.pi * np.cumsum(140 + 60 * np.sin(2 * np.pi * 2 * x_)) / SR) * np.exp(-x_ * 4) * (np.sin(2 * np.pi * 18 * x_) > 0)).astype(np.float32), b, 0.06)  # creak
+    place((np.sin(2 * np.pi * np.cumsum(140 + 60 * np.sin(2 * np.pi * 2 * x_)) / SR) * np.exp(-x_ * 4) * (np.sin(2 * np.pi * 18 * x_) > 0)).astype(np.float32), b, 0.035)  # creak
 # the silence: a single held high note, then a gentle G major as the moon comes out
 n_ = int(3.0 * SR); x_ = np.arange(n_) / SR
 place((np.sin(2 * np.pi * 1567.98 * x_) * np.minimum(x_ / 0.6, 1) * np.exp(-x_ * 0.6)).astype(np.float32), still + 0.3, 0.035)

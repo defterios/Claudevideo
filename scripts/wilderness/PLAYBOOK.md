@@ -49,3 +49,4 @@ finished voice track (`align_names.py`, or patch the scene's `w` values in `data
 - Jesus: the creator's natural voice, no pitch change and (from Ep6) no echo — creator's request.
 - Noisy takes: gentle denoise only (`highpass=f=90,afftdn=nr=12:nf=-34:tn=1,lowpass=f=9500`); heavy denoise sounds watery.
 - Clarity: build with `CLEAR=1` (gate between words, −3 dB @300 Hz, +3.5 dB @3.2 kHz, de-esser) and `DUCK=0.7` (music dips further under the voice).
+- Effects under speech must stay ≥ 8 dB below the voice (measure voice vs bed per scene with volumedetect before rendering).
