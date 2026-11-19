@@ -1,5 +1,5 @@
 {
- "duration": 87.52,
+ "duration": 87.8,
  "scenes": [
   {
    "id": "crowd",
@@ -773,24 +773,24 @@
     "jesus": 0.29,
     "nang": 1.18,
     "watki": 2.18,
-    "sitan": 2.57,
-    "kasig": 2.96,
-    "pibuu": 3.35,
-    "bori": 4.16,
-    "de": 4.78,
-    "doi": 5.21,
-    "bisamah": 5.48,
-    "divided": 5.48,
-    "otin": 5.99,
-    "eh": 6.32,
-    "ideh": 6.53,
-    "di": 7.26,
-    "daped": 7.46,
-    "mujuog": 7.85,
-    "stand": 7.85,
-    "tuui": 8.32
+    "sitan": 2.58,
+    "kasig": 2.98,
+    "pibuu": 3.38,
+    "bori": 4.19,
+    "de": 4.82,
+    "doi": 5.23,
+    "bisamah": 5.5,
+    "divided": 5.5,
+    "otin": 6.02,
+    "eh": 6.36,
+    "ideh": 6.56,
+    "di": 7.27,
+    "daped": 7.47,
+    "mujuog": 7.87,
+    "stand": 7.87,
+    "tuui": 8.34
    },
-   "end": 65.72,
+   "end": 65.83,
    "ws": [
     [
      "jesus",
@@ -806,69 +806,69 @@
     ],
     [
      "sitan",
-     2.57
+     2.58
     ],
     [
      "kasig",
-     2.96
+     2.98
     ],
     [
      "pibuu",
-     3.35
+     3.38
     ],
     [
      "sitan",
-     3.74
+     3.78
     ],
     [
      "bori",
-     4.16
+     4.19
     ],
     [
      "de",
-     4.78
+     4.82
     ],
     [
      "doi",
-     5.21
+     5.23
     ],
     [
      "bisamah",
-     5.48
+     5.5
     ],
     [
      "otin",
-     5.99
+     6.02
     ],
     [
      "eh",
-     6.32
+     6.36
     ],
     [
      "ideh",
-     6.53
+     6.56
     ],
     [
      "di",
-     7.26
+     7.27
     ],
     [
      "daped",
-     7.46
+     7.47
     ],
     [
      "mujuog",
-     7.85
+     7.87
     ],
     [
      "tuui",
-     8.32
+     8.34
     ]
    ]
   },
   {
    "id": "door",
-   "start": 65.72,
+   "start": 65.83,
    "segs": [
     0.28
    ],
@@ -889,7 +889,7 @@
     "da": 5.39,
     "ruah": 6.21
    },
-   "end": 72.43,
+   "end": 72.54,
    "ws": [
     [
      "sino",
@@ -967,7 +967,7 @@
   },
   {
    "id": "answer",
-   "start": 72.43,
+   "start": 72.54,
    "segs": [
     0.28,
     1.7
@@ -978,13 +978,13 @@
     "in": 1.04,
     "eh": 1.24,
     "osi": 1.73,
-    "sino": 1.97,
+    "sino": 1.98,
     "duoh": 2.27,
     "sikie": 2.57,
     "sudi": 2.92,
     "ku": 3.22
    },
-   "end": 76.48,
+   "end": 76.65,
    "ws": [
     [
      "jesus",
@@ -1008,7 +1008,7 @@
     ],
     [
      "sino",
-     1.97
+     1.98
     ],
     [
      "duoh",
@@ -1030,26 +1030,26 @@
   },
   {
    "id": "circle",
-   "start": 76.48,
+   "start": 76.65,
    "segs": [
     0.28
    ],
    "w": {
     "osi": 0.3,
-    "de": 0.55,
-    "raan": 0.74,
-    "idip": 1.05,
-    "nuna": 1.37,
-    "nang": 1.87,
-    "topa": 2.18,
-    "munu": 3.01,
-    "leh": 3.32,
-    "sikie": 3.6,
-    "sudi": 3.98,
-    "ku": 4.46,
-    "sino": 5.86
+    "de": 0.57,
+    "raan": 0.76,
+    "idip": 1.09,
+    "nuna": 1.41,
+    "nang": 1.93,
+    "topa": 2.26,
+    "munu": 2.99,
+    "leh": 3.31,
+    "sikie": 3.59,
+    "sudi": 3.97,
+    "ku": 4.3,
+    "sino": 5.84
    },
-   "end": 83.54,
+   "end": 83.82,
    "ws": [
     [
      "osi",
@@ -1057,71 +1057,71 @@
     ],
     [
      "de",
-     0.55
+     0.57
     ],
     [
      "raan",
-     0.74
+     0.76
     ],
     [
      "idip",
-     1.05
+     1.09
     ],
     [
      "nuna",
-     1.37
+     1.41
     ],
     [
      "de",
-     1.68
+     1.73
     ],
     [
      "nang",
-     1.87
+     1.93
     ],
     [
      "topa",
-     2.18
+     2.26
     ],
     [
      "de",
-     2.5
+     2.59
     ],
     [
      "munu",
-     3.01
+     2.99
     ],
     [
      "leh",
-     3.32
+     3.31
     ],
     [
      "sikie",
-     3.6
+     3.59
     ],
     [
      "sudi",
-     3.98
+     3.97
     ],
     [
      "ku",
-     4.46
+     4.3
     ],
     [
      "de",
-     5.1
+     5.06
     ],
     [
      "munu",
-     5.29
+     5.26
     ],
     [
      "leh",
-     5.61
+     5.58
     ],
     [
      "sino",
-     5.86
+     5.84
     ],
     [
      "ku",
@@ -1131,12 +1131,12 @@
   },
   {
    "id": "end",
-   "start": 83.54,
+   "start": 83.82,
    "segs": [
     0.28
    ],
    "w": {},
-   "end": 87.52
+   "end": 87.8
   }
  ],
  "pages": [
@@ -2155,7 +2155,7 @@
   },
   {
    "start": 58.5,
-   "end": 60.06,
+   "end": 60.1,
    "tempter": false,
    "god": false,
    "words": [
@@ -2166,440 +2166,440 @@
     },
     {
      "text": "Sitan",
-     "start": 58.89,
+     "start": 58.9,
      "key": false
     },
     {
      "text": "kasig",
-     "start": 59.28,
+     "start": 59.3,
      "key": false
     },
     {
      "text": "pibuu",
-     "start": 59.67,
+     "start": 59.7,
      "key": false
     }
    ]
   },
   {
-   "start": 60.06,
-   "end": 61.8,
+   "start": 60.1,
+   "end": 61.82,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Sitan?",
-     "start": 60.06,
+     "start": 60.1,
      "key": false
     },
     {
      "text": "Bori",
-     "start": 60.48,
+     "start": 60.51,
      "key": false
     },
     {
      "text": "de",
-     "start": 61.1,
+     "start": 61.14,
      "key": false
     },
     {
      "text": "doi",
-     "start": 61.53,
+     "start": 61.55,
      "key": false
     }
    ]
   },
   {
-   "start": 61.8,
-   "end": 62.85,
+   "start": 61.82,
+   "end": 62.88,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "bisamah",
-     "start": 61.8,
+     "start": 61.82,
      "key": true
     },
     {
      "text": "otin",
-     "start": 62.31,
+     "start": 62.34,
      "key": false
     },
     {
      "text": "eh,",
-     "start": 62.64,
+     "start": 62.68,
      "key": false
     }
    ]
   },
   {
-   "start": 62.85,
+   "start": 62.88,
    "end": 65.29,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "ideh",
-     "start": 62.85,
+     "start": 62.88,
      "key": false
     },
     {
      "text": "di",
-     "start": 63.58,
+     "start": 63.59,
      "key": false
     },
     {
      "text": "daped",
-     "start": 63.78,
+     "start": 63.79,
      "key": false
     },
     {
      "text": "mujuog",
-     "start": 64.17,
+     "start": 64.19,
      "key": true
     },
     {
      "text": "tuui.",
-     "start": 64.64,
+     "start": 64.66,
      "key": false
     }
    ]
   },
   {
-   "start": 66.03,
-   "end": 67.75,
+   "start": 66.14,
+   "end": 67.86,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Sino",
-     "start": 66.03,
+     "start": 66.14,
      "key": true
     },
     {
      "text": "duoh",
-     "start": 66.75,
+     "start": 66.86,
      "key": false
     },
     {
      "text": "sikie",
-     "start": 67.07,
+     "start": 67.18,
      "key": false
     },
     {
      "text": "sudi",
-     "start": 67.42,
+     "start": 67.53,
      "key": false
     }
    ]
   },
   {
-   "start": 67.75,
-   "end": 68.58,
+   "start": 67.86,
+   "end": 68.69,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Jesus",
-     "start": 67.75,
+     "start": 67.86,
      "key": false
     },
     {
      "text": "meh",
-     "start": 68.1,
+     "start": 68.21,
      "key": false
     },
     {
      "text": "neg,",
-     "start": 68.34,
+     "start": 68.45,
      "key": false
     }
    ]
   },
   {
-   "start": 68.58,
-   "end": 69.98,
+   "start": 68.69,
+   "end": 70.09,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "kajen",
-     "start": 68.58,
+     "start": 68.69,
      "key": false
     },
     {
      "text": "de",
-     "start": 69.31,
+     "start": 69.42,
      "key": false
     },
     {
      "text": "ruar",
-     "start": 69.5,
+     "start": 69.61,
      "key": true
     },
     {
      "text": "ju",
-     "start": 69.79,
+     "start": 69.9,
      "key": false
     }
    ]
   },
   {
-   "start": 69.98,
-   "end": 71.11,
+   "start": 70.09,
+   "end": 71.22,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "meh",
-     "start": 69.98,
+     "start": 70.09,
      "key": false
     },
     {
      "text": "sobut",
-     "start": 70.22,
+     "start": 70.33,
      "key": false
     },
     {
      "text": "duoh",
-     "start": 70.58,
+     "start": 70.69,
      "key": false
     },
     {
      "text": "nya",
-     "start": 70.87,
+     "start": 70.98,
      "key": false
     }
    ]
   },
   {
-   "start": 71.11,
-   "end": 72.56,
+   "start": 71.22,
+   "end": 72.67,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "da",
-     "start": 71.11,
+     "start": 71.22,
      "key": false
     },
     {
      "text": "Jesus",
-     "start": 71.58,
+     "start": 71.69,
      "key": false
     },
     {
      "text": "ruah.",
-     "start": 71.93,
+     "start": 72.04,
      "key": false
     }
    ]
   },
   {
-   "start": 72.76,
-   "end": 74.16,
+   "start": 72.87,
+   "end": 74.27,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Jesus",
-     "start": 72.76,
+     "start": 72.87,
      "key": false
     },
     {
      "text": "meh",
-     "start": 73.21,
+     "start": 73.32,
      "key": false
     },
     {
      "text": "in",
-     "start": 73.47,
+     "start": 73.58,
      "key": false
     },
     {
      "text": "eh:",
-     "start": 73.67,
+     "start": 73.78,
      "key": false
     }
    ]
   },
   {
-   "start": 74.16,
-   "end": 75.35,
+   "start": 74.27,
+   "end": 75.46,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Osi",
-     "start": 74.16,
+     "start": 74.27,
      "key": false
     },
     {
      "text": "sino",
-     "start": 74.4,
+     "start": 74.52,
      "key": true
     },
     {
      "text": "duoh",
-     "start": 74.7,
+     "start": 74.81,
      "key": false
     },
     {
      "text": "sikie",
-     "start": 75.0,
+     "start": 75.11,
      "key": true
     }
    ]
   },
   {
-   "start": 75.35,
-   "end": 76.09,
+   "start": 75.46,
+   "end": 76.2,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "sudi",
-     "start": 75.35,
+     "start": 75.46,
      "key": false
     },
     {
      "text": "ku?",
-     "start": 75.65,
+     "start": 75.76,
      "key": false
     }
    ]
   },
   {
-   "start": 76.78,
-   "end": 77.85,
+   "start": 76.95,
+   "end": 78.06,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "Osi",
-     "start": 76.78,
+     "start": 76.95,
      "key": false
     },
     {
      "text": "de",
-     "start": 77.03,
-     "key": false
-    },
-    {
-     "text": "raan",
      "start": 77.22,
      "key": false
     },
     {
+     "text": "raan",
+     "start": 77.41,
+     "key": false
+    },
+    {
      "text": "idip",
-     "start": 77.53,
+     "start": 77.74,
      "key": false
     }
    ]
   },
   {
-   "start": 77.85,
-   "end": 78.98,
+   "start": 78.06,
+   "end": 79.24,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "nuna",
-     "start": 77.85,
+     "start": 78.06,
      "key": false
     },
     {
      "text": "de",
-     "start": 78.16,
+     "start": 78.38,
      "key": false
     },
     {
      "text": "nang",
-     "start": 78.35,
+     "start": 78.58,
      "key": false
     },
     {
      "text": "Topa,",
-     "start": 78.66,
+     "start": 78.91,
      "key": false
     }
    ]
   },
   {
-   "start": 78.98,
-   "end": 80.46,
+   "start": 79.24,
+   "end": 80.62,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "de",
-     "start": 78.98,
+     "start": 79.24,
      "key": false
     },
     {
      "text": "munu",
-     "start": 79.49,
+     "start": 79.64,
      "key": false
     },
     {
      "text": "leh",
-     "start": 79.8,
+     "start": 79.96,
      "key": false
     },
     {
      "text": "sikie",
-     "start": 80.08,
+     "start": 80.24,
      "key": true
     }
    ]
   },
   {
-   "start": 80.46,
-   "end": 81.58,
+   "start": 80.62,
+   "end": 81.71,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "sudi",
-     "start": 80.46,
+     "start": 80.62,
      "key": false
     },
     {
      "text": "ku,",
-     "start": 80.94,
+     "start": 80.95,
      "key": false
     }
    ]
   },
   {
-   "start": 81.58,
-   "end": 83.12,
+   "start": 81.71,
+   "end": 83.29,
    "tempter": false,
    "god": false,
    "words": [
     {
      "text": "de",
-     "start": 81.58,
+     "start": 81.71,
      "key": false
     },
     {
      "text": "munu",
-     "start": 81.77,
+     "start": 81.91,
      "key": false
     },
     {
      "text": "leh",
-     "start": 82.09,
+     "start": 82.23,
      "key": false
     },
     {
      "text": "sino",
-     "start": 82.34,
+     "start": 82.49,
      "key": true
     },
     {
      "text": "ku.",
-     "start": 82.65,
+     "start": 82.82,
      "key": false
     }
    ]
@@ -2691,26 +2691,26 @@
    "tempter": false
   },
   {
-   "start": 66.0,
-   "end": 72.31,
+   "start": 66.11,
+   "end": 72.42,
    "text": "Sino duoh sikie sudi Jesus meh neg, kajen de ruar ju meh sobut duoh nya da Jesus ruah.",
    "tempter": false
   },
   {
-   "start": 72.71,
-   "end": 73.91,
+   "start": 72.82,
+   "end": 74.02,
    "text": "Jesus meh in eh:",
    "tempter": false
   },
   {
-   "start": 74.13,
-   "end": 75.84,
+   "start": 74.24,
+   "end": 75.95,
    "text": "Osi sino duoh sikie sudi ku?",
    "tempter": false
   },
   {
-   "start": 76.76,
-   "end": 82.87,
+   "start": 76.93,
+   "end": 83.04,
    "text": "Osi de raan idip nuna de nang Topa, de munu leh sikie sudi ku, de munu leh sino ku.",
    "tempter": false
   }

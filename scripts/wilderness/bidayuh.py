@@ -112,7 +112,7 @@ PARTS = {
     (5, 3): [("Muu en eh Onak Topa!", 16.2, 18.4, "spirit")],
 }
 VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
-    "jesus": "rubberband=pitch=0.9:formant=preserved,lowshelf=f=160:g=4,highshelf=f=7000:g=-2,aecho=0.85:0.55:55|110|190:0.16|0.1|0.06",
+    "jesus": "aecho=0.9:0.7:90|180|320:0.22|0.13|0.07",  # the creator's own voice, untouched, with a gentle echo
     "spirit": "rubberband=pitch=0.72:formant=shifted,lowpass=f=3500,aecho=0.8:0.75:80|160|260:0.4|0.28|0.16,acrusher=bits=10:mix=0.15",
     "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
     "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
