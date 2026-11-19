@@ -23,7 +23,8 @@ import {SabbathTall, SabbathAnimeTall, SABBATH_DUR, SABBATH_DUR_BDY} from './v11
 import {Ep4Cover} from './v11/Cover';
 import {TwelveTall, TWELVE_DUR, TWELVE_DUR_BDY} from './v12/Twelve';
 import {Ep5Cover} from './v12/Cover';
-import {StormTall, STORM_DUR} from './v13/Storm';
+import {StormTall, STORM_DUR, STORM_DUR_BDY} from './v13/Storm';
+import {Ep6Cover} from './v13/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -89,6 +90,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep5CoverEn" component={Ep5Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     {/* Jesus series, Episode 6: The Storm (Mark 4), TikTok only */}
     <Composition id="StormTall" component={StormTall} durationInFrames={Math.ceil(STORM_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="StormTallBdy" component={StormTall} durationInFrames={Math.ceil(STORM_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Ep6CoverBdy" component={Ep6Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    <Composition id="Ep6CoverEn" component={Ep6Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

@@ -27,6 +27,12 @@ for i, sc in enumerate(scenes):
             sc.setdefault("ws", []).append([re.sub(r"[^a-z']", "", w["text"].lower()), round(w["start"] - st, 3)])
     sc["segs"] = [round(s["start"] - st, 3) for s in sc["segs"]]
 
+# measured cue corrections (cue_fix.json in the build dir: {scene: {word: seconds from scene start}})
+_fix = os.path.join(bd, "cue_fix.json")
+if os.path.exists(_fix):
+    for sc in scenes:
+        sc["w"].update(json.load(open(_fix)).get(sc["id"], {}))
+
 # ---------- caption pages (2-4 words, break on punctuation) ----------
 pages = []
 for s in segs:

@@ -102,6 +102,22 @@ LINES5 = [  # episode 5 (denoised take; line 16 not recorded). Lines with charac
     ("", 80.9, 87.0, ["sikie", "sino"], {}),
     ("", None, None, [], {}),
 ]
+LINES6 = [  # episode 6 (heavily denoised take)
+    ("Meh boge nya tia rie ngojit Jesus. Ju yeh meh odi guru ke orud, ngajar nyaa suo kanu.", 1.3, 8.35, ["orud"], {}),
+    ("", 8.4, 11.3, ["ruang"], {}),
+    ("", 11.3, 26.3, ["oran", "batuh", "roja"], {"path": "oran", "birds": "manuk", "rock": "batuh", "thorns": "roja"}),
+    ("", 26.35, 34.6, ["bibua", "100"], {"good": "buogmamuo", "grew": "bibua", "thirty": "30", "sixty": "60", "hundred": "100"}),
+    ("", 34.95, 40.95, ["sit", "ayuh"], {"smallest": "sit", "biggest": "ayuh"}),
+    ("", 41.0, 45.0, ["pirad"], {"other": "pirad"}),
+    ("Yeh me guring de punuok orud, ju meh bees.", 45.05, 49.1, ["bees"], {"asleep": "bees"}),
+    ("Sobak ribut tia meh gogeh-gogeh neg. Ju piin grumang meh moret kang orud.", 49.2, 53.9, ["ribut", "grumang"], {}),
+    ("", 53.95, 57.7, ["kuom"], {}),
+    ("", 57.75, 61.4, ["Tono"], {"still": "Tono"}),
+    ("Sobak ribut meh roo. Ju raut meh tono.", 62.1, 65.4, ["tono"], {"calm": "tono"}),
+    ("", 65.6, 69.2, ["toru", "bisaya"], {}),
+    ("", 69.25, 77.5, ["Osiosi", "ngojit"], {"who": "Osiosi", "obey": "ngojit"}),
+    ("Nuna koih suo part 7.", 77.55, 81.5, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
@@ -110,12 +126,22 @@ PARTS = {
     (5, 13): [("Jesus meh in eh:", 76.0, 77.1, None), ("Osi sino duoh sikie sudi ku?", 77.9, 79.45, "jesus")],
     (5, 14): [("Osi de raan idip nuna de nang Topa, de munu leh sikie sudi ku, de munu leh sino ku.", 80.9, 87.0, "jesus")],
     (5, 3): [("Muu en eh Onak Topa!", 16.2, 18.4, "spirit")],
+    (6, 1): [("Ogi nyaa motak dabur ruang koyuh de rie puruh eh.", 8.4, 11.3, "jesus")],
+    (6, 2): [("Ogi ruang de rabu dang oran, ju manuk meh neg man eh. Ogi de rabu de batuh, asa onu meh putiek yeh meh korong. Ogi geh de rabu de tana de boge koyuh de roja, ju meh obuoh kup meh doi ponai rie bibua.", 11.3, 26.3, "jesus")],
+    (6, 3): [("Pak ogi geh de rabu de tana de buog-mamuo. Ju meh bibua. 30, 60, 100 sideh.", 26.35, 34.6, "jesus")],
+    (6, 4): [("Pritah Topa itih koda ruang koyuh, ruang de sit geh, rie bibua jadi tongon de ayuh.", 34.95, 40.95, "jesus")],
+    (6, 5): [("Singumi inuh Yeh meh nang:", 41.0, 43.15, None), ("Ja te motas ke pirad kanih.", 43.2, 45.0, "jesus")],
+    (6, 8): [("Mistar! Ideh keh ingan gaguo otte meh rie kuom?", 53.95, 57.7, "disciple")],
+    (6, 9): [("Ngorek nya. Tono tia.", 57.75, 61.4, "jesus")],
+    (6, 11): [("Oni ingan pak skia toru? Aruo keh di ingan bisaya?", 65.6, 69.2, "jesus")],
+    (6, 12): [("Onak murid eh meh sikubuon toru, ju meh in eh:", 69.25, 73.4, None), ("Osi-osi Nyaa itih? Sapai sobak ribut duoh grumang ngojit sina Eh.", 73.45, 77.5, "disciple")],
 }
 VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "jesus": "aecho=0.9:0.7:90|180|320:0.22|0.13|0.07",  # the creator's own voice, untouched, with a gentle echo
     "spirit": "rubberband=pitch=0.72:formant=shifted,lowpass=f=3500,aecho=0.8:0.75:80|160|260:0.4|0.28|0.16,acrusher=bits=10:mix=0.15",
     "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
     "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
+    "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
 if EP == 2:
@@ -127,6 +153,8 @@ if EP == 4:
 if EP == 5:
     LINES = LINES5
     TH = -43
+if EP == 6:
+    LINES = LINES6
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -144,6 +172,8 @@ DB = env_db(a)
 TH = -45  # speech vs room tone (gaps sit at about -65 dB)
 if EP == 5:
     TH = -43
+if EP == 6:
+    TH = -35
 # Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
 # no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
 TAKE = int(os.environ.get("TAKE", "1"))

@@ -7,11 +7,11 @@ import {AP, Bust, Sea, Sky} from '../v12/scenes';
 
 /** Episode 6 — "The Storm" (Mark 4), lit-room cartoon style. */
 const FARMER: Look = {skin: '#C98E64', hair: '#3A2418', tunic: '#9A7A4A', sash: '#5A4428', style: 'short', beard: true};
-const CREW = ['simon', 'andrew', 'james', 'john'];
+export const CREW = ['simon', 'andrew', 'james', 'john'];
 const shake = (t: number, at: number, amp = 12, decay = 4) => (t > at ? Math.exp(-(t - at) * decay) * amp : 0);
 
 /** big boat, side view; people drawn inside appear cut at the gunwale. x,y = waterline centre */
-const BigBoat: React.FC<{x: number; y: number; tilt?: number; children?: React.ReactNode; night?: boolean; sail?: boolean}> = ({x, y, tilt = 0, children, night, sail = true}) => (
+export const BigBoat: React.FC<{x: number; y: number; tilt?: number; children?: React.ReactNode; night?: boolean; sail?: boolean}> = ({x, y, tilt = 0, children, night, sail = true}) => (
   <g transform={`translate(${x} ${y}) rotate(${tilt})`}>
     {sail ? <g><line x1={-40} y1={-150} x2={-40} y2={-900} stroke={INK} strokeWidth={16} /><path d="M -28 -880 Q 220 -620 -28 -240 Z" fill={night ? '#3A3E54' : '#EFE2C2'} stroke={INK} strokeWidth={7} /></g> : null}
     {children}
@@ -19,14 +19,14 @@ const BigBoat: React.FC<{x: number; y: number; tilt?: number; children?: React.R
     {[-110, -40].map((yy) => <line key={yy} x1={-540} y1={yy} x2={540} y2={yy} stroke={INK} strokeWidth={4} opacity={0.35} />)}
   </g>
 );
-const Waves: React.FC<{t: number; y: number; amp: number; col: string; speed?: number; o?: number; ph?: number}> = ({t, y, amp, col, speed = 1, o = 1, ph = 0}) => {
+export const Waves: React.FC<{t: number; y: number; amp: number; col: string; speed?: number; o?: number; ph?: number}> = ({t, y, amp, col, speed = 1, o = 1, ph = 0}) => {
   const pts = Array.from({length: 41}).map((_, i) => { const x = -2000 + i * 100; return `${x},${y + Math.sin(x * 0.006 + t * 2.2 * speed + ph) * amp + Math.sin(x * 0.013 - t * 3.1 * speed) * amp * 0.4}`; });
   return <polygon points={`-2000,3000 ${pts.join(' ')} 2000,3000`} fill={col} stroke={INK} strokeWidth={6} opacity={o} />;
 };
-const Rain: React.FC<{t: number; o?: number}> = ({t, o = 1}) => (
+export const Rain: React.FC<{t: number; o?: number}> = ({t, o = 1}) => (
   <g opacity={o}>{Array.from({length: 90}).map((_, i) => { const sp = 1800 + rnd(i) * 900; const y = ((t * sp + rnd(i + 1) * 3000) % 3000) - 1500; const x = (rnd(i + 2) - 0.5) * 2600 + y * 0.35; return <line key={i} x1={x} y1={y} x2={x - 40} y2={y - 120} stroke="#BFD6F0" strokeWidth={3} opacity={0.5} />; })}</g>
 );
-const Moon: React.FC<{x: number; y: number}> = ({x, y}) => (<g><circle cx={x} cy={y} r={110} fill="#F4F0E2" /><Glow x={x} y={y} r={420} o={0.45} id="gWhite" /></g>);
+export const Moon: React.FC<{x: number; y: number}> = ({x, y}) => (<g><circle cx={x} cy={y} r={110} fill="#F4F0E2" /><Glow x={x} y={y} r={420} o={0.45} id="gWhite" /></g>);
 const Seed: React.FC<{x: number; y: number; s?: number}> = ({x, y, s = 1}) => <ellipse cx={x} cy={y} rx={9 * s} ry={6 * s} fill="#C9A060" stroke={INK} strokeWidth={2.5} />;
 const Sprout: React.FC<{x: number; y: number; g: number; wilt?: number; s?: number}> = ({x, y, g, wilt = 0, s = 1}) => {
   const col = wilt > 0.5 ? '#B39A4A' : '#5E9A4A';

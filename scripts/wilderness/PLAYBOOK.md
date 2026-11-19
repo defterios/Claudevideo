@@ -40,3 +40,7 @@ Use this as the checklist for every new episode.
 ## Optional upgrades
 - Real motion blur: render 3 sub-frames per frame (t − 1/240, t, t + 1/240) and blend (ffmpeg `tmix`).
 - Multiple cuts from one codebase: the 60 s / 30 s / 15 s versions are just different scene lists.
+
+## Bidayuh cue words
+Word times inside a line are estimated from word length; for montage beats (names, numbers) measure them with whisper on the
+finished voice track (`align_names.py`, or patch the scene's `w` values in `data_bdy.json`) before rendering.
