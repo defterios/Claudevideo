@@ -109,3 +109,8 @@ film mode in the shared player (bottom subtitles, purple/orange grade, heavier g
 # Jesus series, Episode 5 — "The Twelve" (Mark 3:7-35), TikTok only, lit-room cartoon style
 Composition `TwelveTall` (`src/v12/`). Names montage cut on each spoken name (per-word timings `ws` in the data), name cards,
 one big moment (the divided house). Script `script_ep5.py`, cues `sound_ep5.py`; `EP=5 MUSIC_GAIN=1.5 SFX_GAIN=1.6 python3 scripts/wilderness/build.py <build dir>`.
+
+---
+# Jesus series, Episode 6 — "The Storm" (Mark 4), TikTok only, lit-room cartoon style
+Composition `StormTall` (`src/v13/`): sower + seeds (cut on path/rock/thorns), 30×/60×/100× counter, mustard seed → tree,
+storm with a match cut into stillness on "still" (the one big moment). Script `script_ep6.py`, cues `sound_ep6.py`.

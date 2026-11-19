@@ -1,0 +1,2302 @@
+{
+ "duration": 68.317,
+ "scenes": [
+  {
+   "id": "shore",
+   "start": 0.0,
+   "segs": [
+    0.5
+   ],
+   "w": {
+    "the": 0.5,
+    "crowd": 0.746,
+    "was": 1.101,
+    "so": 1.346,
+    "big": 1.538,
+    "he": 1.893,
+    "sat": 2.084,
+    "in": 2.329,
+    "a": 2.521,
+    "boat": 2.657,
+    "and": 3.067,
+    "taught": 3.312,
+    "them": 3.722,
+    "from": 4.022,
+    "water": 4.569
+   },
+   "end": 5.389,
+   "ws": [
+    [
+     "the",
+     0.5
+    ],
+    [
+     "crowd",
+     0.746
+    ],
+    [
+     "was",
+     1.101
+    ],
+    [
+     "so",
+     1.346
+    ],
+    [
+     "big",
+     1.538
+    ],
+    [
+     "he",
+     1.893
+    ],
+    [
+     "sat",
+     2.084
+    ],
+    [
+     "in",
+     2.329
+    ],
+    [
+     "a",
+     2.521
+    ],
+    [
+     "boat",
+     2.657
+    ],
+    [
+     "and",
+     3.067
+    ],
+    [
+     "taught",
+     3.312
+    ],
+    [
+     "them",
+     3.722
+    ],
+    [
+     "from",
+     4.022
+    ],
+    [
+     "the",
+     4.323
+    ],
+    [
+     "water",
+     4.569
+    ]
+   ]
+  },
+  {
+   "id": "sower",
+   "start": 5.389,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "a": 0.28,
+    "farmer": 0.4,
+    "went": 0.758,
+    "out": 1.02,
+    "to": 1.235,
+    "sow": 1.402,
+    "his": 1.617,
+    "seed": 1.832
+   },
+   "end": 7.819,
+   "ws": [
+    [
+     "a",
+     0.28
+    ],
+    [
+     "farmer",
+     0.4
+    ],
+    [
+     "went",
+     0.758
+    ],
+    [
+     "out",
+     1.02
+    ],
+    [
+     "to",
+     1.235
+    ],
+    [
+     "sow",
+     1.402
+    ],
+    [
+     "his",
+     1.617
+    ],
+    [
+     "seed",
+     1.832
+    ]
+   ]
+  },
+  {
+   "id": "seeds",
+   "start": 7.819,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "some": 0.28,
+    "fell": 0.571,
+    "on": 0.862,
+    "the": 1.047,
+    "path": 1.285,
+    "and": 1.682,
+    "birds": 1.92,
+    "ate": 2.264,
+    "it": 2.502,
+    "rock": 3.402,
+    "withered": 4.222,
+    "among": 5.254,
+    "thorns": 5.598,
+    "was": 6.524,
+    "choked": 6.762
+   },
+   "end": 15.436,
+   "ws": [
+    [
+     "some",
+     0.28
+    ],
+    [
+     "fell",
+     0.571
+    ],
+    [
+     "on",
+     0.862
+    ],
+    [
+     "the",
+     1.047
+    ],
+    [
+     "path",
+     1.285
+    ],
+    [
+     "and",
+     1.682
+    ],
+    [
+     "birds",
+     1.92
+    ],
+    [
+     "ate",
+     2.264
+    ],
+    [
+     "it",
+     2.502
+    ],
+    [
+     "some",
+     2.926
+    ],
+    [
+     "on",
+     3.217
+    ],
+    [
+     "rock",
+     3.402
+    ],
+    [
+     "and",
+     3.799
+    ],
+    [
+     "it",
+     4.037
+    ],
+    [
+     "withered",
+     4.222
+    ],
+    [
+     "some",
+     4.963
+    ],
+    [
+     "among",
+     5.254
+    ],
+    [
+     "thorns",
+     5.598
+    ],
+    [
+     "and",
+     6.101
+    ],
+    [
+     "it",
+     6.339
+    ],
+    [
+     "was",
+     6.524
+    ],
+    [
+     "choked",
+     6.762
+    ]
+   ]
+  },
+  {
+   "id": "good",
+   "start": 15.436,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "but": 0.28,
+    "some": 0.541,
+    "fell": 0.86,
+    "on": 1.179,
+    "good": 1.382,
+    "soil": 1.701,
+    "and": 2.281,
+    "it": 2.542,
+    "grew": 2.745,
+    "thirty": 3.325,
+    "sixty": 3.876,
+    "a": 4.369,
+    "hundred": 4.514,
+    "times": 5.007
+   },
+   "end": 21.501,
+   "ws": [
+    [
+     "but",
+     0.28
+    ],
+    [
+     "some",
+     0.541
+    ],
+    [
+     "fell",
+     0.86
+    ],
+    [
+     "on",
+     1.179
+    ],
+    [
+     "good",
+     1.382
+    ],
+    [
+     "soil",
+     1.701
+    ],
+    [
+     "and",
+     2.281
+    ],
+    [
+     "it",
+     2.542
+    ],
+    [
+     "grew",
+     2.745
+    ],
+    [
+     "thirty",
+     3.325
+    ],
+    [
+     "sixty",
+     3.876
+    ],
+    [
+     "a",
+     4.369
+    ],
+    [
+     "hundred",
+     4.514
+    ],
+    [
+     "times",
+     5.007
+    ]
+   ]
+  },
+  {
+   "id": "mustard",
+   "start": 21.501,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "the": 0.28,
+    "kingdom": 0.544,
+    "of": 1.043,
+    "god": 1.249,
+    "is": 1.513,
+    "like": 1.719,
+    "a": 2.042,
+    "mustard": 2.189,
+    "seed": 2.688,
+    "smallest": 3.54,
+    "that": 4.538,
+    "grows": 4.861,
+    "into": 5.243,
+    "biggest": 5.831,
+    "tree": 6.33
+   },
+   "end": 28.938,
+   "ws": [
+    [
+     "the",
+     0.28
+    ],
+    [
+     "kingdom",
+     0.544
+    ],
+    [
+     "of",
+     1.043
+    ],
+    [
+     "god",
+     1.249
+    ],
+    [
+     "is",
+     1.513
+    ],
+    [
+     "like",
+     1.719
+    ],
+    [
+     "a",
+     2.042
+    ],
+    [
+     "mustard",
+     2.189
+    ],
+    [
+     "seed",
+     2.688
+    ],
+    [
+     "the",
+     3.275
+    ],
+    [
+     "smallest",
+     3.54
+    ],
+    [
+     "seed",
+     4.098
+    ],
+    [
+     "that",
+     4.538
+    ],
+    [
+     "grows",
+     4.861
+    ],
+    [
+     "into",
+     5.243
+    ],
+    [
+     "the",
+     5.566
+    ],
+    [
+     "biggest",
+     5.831
+    ],
+    [
+     "tree",
+     6.33
+    ]
+   ]
+  },
+  {
+   "id": "evening",
+   "start": 28.938,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "that": 0.28,
+    "evening": 0.567,
+    "he": 1.011,
+    "said": 1.194,
+    "let's": 1.715,
+    "go": 2.055,
+    "across": 2.237,
+    "to": 2.629,
+    "the": 2.811,
+    "other": 3.046,
+    "side": 3.385
+   },
+   "end": 33.065,
+   "ws": [
+    [
+     "that",
+     0.28
+    ],
+    [
+     "evening",
+     0.567
+    ],
+    [
+     "he",
+     1.011
+    ],
+    [
+     "said",
+     1.194
+    ],
+    [
+     "let's",
+     1.715
+    ],
+    [
+     "go",
+     2.055
+    ],
+    [
+     "across",
+     2.237
+    ],
+    [
+     "to",
+     2.629
+    ],
+    [
+     "the",
+     2.811
+    ],
+    [
+     "other",
+     3.046
+    ],
+    [
+     "side",
+     3.385
+    ]
+   ]
+  },
+  {
+   "id": "sleep",
+   "start": 33.065,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "lay": 0.456,
+    "down": 0.682,
+    "in": 0.958,
+    "the": 1.134,
+    "back": 1.36,
+    "of": 1.637,
+    "boat": 2.039,
+    "and": 2.415,
+    "fell": 2.641,
+    "asleep": 2.918
+   },
+   "end": 37.206,
+   "ws": [
+    [
+     "he",
+     0.28
+    ],
+    [
+     "lay",
+     0.456
+    ],
+    [
+     "down",
+     0.682
+    ],
+    [
+     "in",
+     0.958
+    ],
+    [
+     "the",
+     1.134
+    ],
+    [
+     "back",
+     1.36
+    ],
+    [
+     "of",
+     1.637
+    ],
+    [
+     "the",
+     1.812
+    ],
+    [
+     "boat",
+     2.039
+    ],
+    [
+     "and",
+     2.415
+    ],
+    [
+     "fell",
+     2.641
+    ],
+    [
+     "asleep",
+     2.918
+    ]
+   ]
+  },
+  {
+   "id": "storm",
+   "start": 37.206,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "then": 0.28,
+    "a": 0.573,
+    "furious": 0.706,
+    "storm": 1.159,
+    "came": 1.505,
+    "waves": 2.038,
+    "broke": 2.384,
+    "over": 2.731,
+    "the": 3.024,
+    "boat": 3.264,
+    "it": 3.796,
+    "was": 3.983,
+    "filling": 4.223,
+    "with": 4.676,
+    "water": 4.969
+   },
+   "end": 42.781,
+   "ws": [
+    [
+     "then",
+     0.28
+    ],
+    [
+     "a",
+     0.573
+    ],
+    [
+     "furious",
+     0.706
+    ],
+    [
+     "storm",
+     1.159
+    ],
+    [
+     "came",
+     1.505
+    ],
+    [
+     "waves",
+     2.038
+    ],
+    [
+     "broke",
+     2.384
+    ],
+    [
+     "over",
+     2.731
+    ],
+    [
+     "the",
+     3.024
+    ],
+    [
+     "boat",
+     3.264
+    ],
+    [
+     "it",
+     3.796
+    ],
+    [
+     "was",
+     3.983
+    ],
+    [
+     "filling",
+     4.223
+    ],
+    [
+     "with",
+     4.676
+    ],
+    [
+     "water",
+     4.969
+    ]
+   ]
+  },
+  {
+   "id": "wake",
+   "start": 42.781,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "teacher": 0.28,
+    "don't": 0.733,
+    "you": 0.96,
+    "care": 1.117,
+    "if": 1.309,
+    "we": 1.431,
+    "drown": 1.553
+   },
+   "end": 45.038,
+   "ws": [
+    [
+     "teacher",
+     0.28
+    ],
+    [
+     "don't",
+     0.733
+    ],
+    [
+     "you",
+     0.96
+    ],
+    [
+     "care",
+     1.117
+    ],
+    [
+     "if",
+     1.309
+    ],
+    [
+     "we",
+     1.431
+    ],
+    [
+     "drown",
+     1.553
+    ]
+   ]
+  },
+  {
+   "id": "rebuke",
+   "start": 45.038,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "quiet": 0.28,
+    "be": 0.781,
+    "still": 0.94
+   },
+   "end": 47.699,
+   "ws": [
+    [
+     "quiet",
+     0.28
+    ],
+    [
+     "be",
+     0.781
+    ],
+    [
+     "still",
+     0.94
+    ]
+   ]
+  },
+  {
+   "id": "calm",
+   "start": 47.699,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "the": 0.28,
+    "wind": 0.554,
+    "died": 0.89,
+    "down": 1.225,
+    "and": 1.835,
+    "it": 2.11,
+    "was": 2.323,
+    "completely": 2.598,
+    "calm": 3.299
+   },
+   "end": 52.228,
+   "ws": [
+    [
+     "the",
+     0.28
+    ],
+    [
+     "wind",
+     0.554
+    ],
+    [
+     "died",
+     0.89
+    ],
+    [
+     "down",
+     1.225
+    ],
+    [
+     "and",
+     1.835
+    ],
+    [
+     "it",
+     2.11
+    ],
+    [
+     "was",
+     2.323
+    ],
+    [
+     "completely",
+     2.598
+    ],
+    [
+     "calm",
+     3.299
+    ]
+   ]
+  },
+  {
+   "id": "faith",
+   "start": 52.228,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "why": 0.28,
+    "are": 0.525,
+    "you": 0.769,
+    "so": 1.014,
+    "afraid": 1.204,
+    "do": 1.856,
+    "still": 2.291,
+    "have": 2.644,
+    "no": 2.943,
+    "faith": 3.133
+   },
+   "end": 56.579,
+   "ws": [
+    [
+     "why",
+     0.28
+    ],
+    [
+     "are",
+     0.525
+    ],
+    [
+     "you",
+     0.769
+    ],
+    [
+     "so",
+     1.014
+    ],
+    [
+     "afraid",
+     1.204
+    ],
+    [
+     "do",
+     1.856
+    ],
+    [
+     "you",
+     2.046
+    ],
+    [
+     "still",
+     2.291
+    ],
+    [
+     "have",
+     2.644
+    ],
+    [
+     "no",
+     2.943
+    ],
+    [
+     "faith",
+     3.133
+    ]
+   ]
+  },
+  {
+   "id": "whois",
+   "start": 56.579,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "they": 0.28,
+    "were": 0.575,
+    "terrified": 0.871,
+    "and": 1.543,
+    "asked": 1.785,
+    "each": 2.135,
+    "other": 2.431,
+    "who": 3.022,
+    "is": 3.264,
+    "this": 3.452,
+    "even": 3.99,
+    "the": 4.286,
+    "wind": 4.528,
+    "waves": 5.308,
+    "obey": 5.657,
+    "him": 5.953
+   },
+   "end": 63.736,
+   "ws": [
+    [
+     "they",
+     0.28
+    ],
+    [
+     "were",
+     0.575
+    ],
+    [
+     "terrified",
+     0.871
+    ],
+    [
+     "and",
+     1.543
+    ],
+    [
+     "asked",
+     1.785
+    ],
+    [
+     "each",
+     2.135
+    ],
+    [
+     "other",
+     2.431
+    ],
+    [
+     "who",
+     3.022
+    ],
+    [
+     "is",
+     3.264
+    ],
+    [
+     "this",
+     3.452
+    ],
+    [
+     "even",
+     3.99
+    ],
+    [
+     "the",
+     4.286
+    ],
+    [
+     "wind",
+     4.528
+    ],
+    [
+     "and",
+     4.824
+    ],
+    [
+     "the",
+     5.066
+    ],
+    [
+     "waves",
+     5.308
+    ],
+    [
+     "obey",
+     5.657
+    ],
+    [
+     "him",
+     5.953
+    ]
+   ]
+  },
+  {
+   "id": "end",
+   "start": 63.736,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "follow": 1.98,
+    "for": 2.375,
+    "part": 2.612,
+    "seven": 2.902
+   },
+   "end": 68.317,
+   "ws": [
+    [
+     "follow",
+     1.98
+    ],
+    [
+     "for",
+     2.375
+    ],
+    [
+     "part",
+     2.612
+    ],
+    [
+     "seven",
+     2.902
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.538,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "crowd",
+     "start": 0.746,
+     "key": true
+    },
+    {
+     "text": "was",
+     "start": 1.101,
+     "key": false
+    },
+    {
+     "text": "so",
+     "start": 1.346,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.538,
+   "end": 2.521,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "big,",
+     "start": 1.538,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 1.893,
+     "key": false
+    },
+    {
+     "text": "sat",
+     "start": 2.084,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 2.329,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 2.521,
+   "end": 3.067,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 2.521,
+     "key": false
+    },
+    {
+     "text": "boat,",
+     "start": 2.657,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 3.067,
+   "end": 4.323,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 3.067,
+     "key": false
+    },
+    {
+     "text": "taught",
+     "start": 3.312,
+     "key": false
+    },
+    {
+     "text": "them",
+     "start": 3.722,
+     "key": false
+    },
+    {
+     "text": "from",
+     "start": 4.022,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 4.323,
+   "end": 5.519,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 4.323,
+     "key": false
+    },
+    {
+     "text": "water.",
+     "start": 4.569,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.669,
+   "end": 6.624,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "A",
+     "start": 5.669,
+     "key": false
+    },
+    {
+     "text": "farmer",
+     "start": 5.789,
+     "key": true
+    },
+    {
+     "text": "went",
+     "start": 6.147,
+     "key": false
+    },
+    {
+     "text": "out",
+     "start": 6.409,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.624,
+   "end": 8.049,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "to",
+     "start": 6.624,
+     "key": false
+    },
+    {
+     "text": "sow",
+     "start": 6.791,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 7.006,
+     "key": false
+    },
+    {
+     "text": "seed.",
+     "start": 7.221,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 8.099,
+   "end": 9.104,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Some",
+     "start": 8.099,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 8.39,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 8.681,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 8.866,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.104,
+   "end": 10.321,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "path,",
+     "start": 9.104,
+     "key": true
+    },
+    {
+     "text": "and",
+     "start": 9.501,
+     "key": false
+    },
+    {
+     "text": "birds",
+     "start": 9.739,
+     "key": false
+    },
+    {
+     "text": "ate",
+     "start": 10.083,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.321,
+   "end": 11.618,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "it.",
+     "start": 10.321,
+     "key": false
+    },
+    {
+     "text": "Some",
+     "start": 10.745,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 11.036,
+     "key": false
+    },
+    {
+     "text": "rock,",
+     "start": 11.221,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 11.618,
+   "end": 12.782,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.618,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 11.856,
+     "key": false
+    },
+    {
+     "text": "withered.",
+     "start": 12.041,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 12.782,
+   "end": 13.92,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Some",
+     "start": 12.782,
+     "key": false
+    },
+    {
+     "text": "among",
+     "start": 13.073,
+     "key": false
+    },
+    {
+     "text": "thorns,",
+     "start": 13.417,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 13.92,
+   "end": 15.567,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 13.92,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 14.158,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 14.343,
+     "key": false
+    },
+    {
+     "text": "choked.",
+     "start": 14.581,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.716,
+   "end": 16.818,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.716,
+     "key": false
+    },
+    {
+     "text": "some",
+     "start": 15.977,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 16.296,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 16.615,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.818,
+   "end": 17.717,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "good",
+     "start": 16.818,
+     "key": true
+    },
+    {
+     "text": "soil.",
+     "start": 17.137,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.717,
+   "end": 18.761,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 17.717,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 17.978,
+     "key": false
+    },
+    {
+     "text": "grew.",
+     "start": 18.181,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.761,
+   "end": 19.805,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Thirty,",
+     "start": 18.761,
+     "key": false
+    },
+    {
+     "text": "sixty,",
+     "start": 19.312,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 19.805,
+   "end": 21.431,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 19.805,
+     "key": false
+    },
+    {
+     "text": "hundred",
+     "start": 19.95,
+     "key": true
+    },
+    {
+     "text": "times.",
+     "start": 20.443,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.781,
+   "end": 23.014,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 21.781,
+     "key": false
+    },
+    {
+     "text": "kingdom",
+     "start": 22.045,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 22.544,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 22.75,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 23.014,
+   "end": 24.189,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "is",
+     "start": 23.014,
+     "key": false
+    },
+    {
+     "text": "like",
+     "start": 23.22,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 23.543,
+     "key": false
+    },
+    {
+     "text": "mustard",
+     "start": 23.69,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 24.189,
+   "end": 26.039,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "seed.",
+     "start": 24.189,
+     "key": false
+    },
+    {
+     "text": "The",
+     "start": 24.776,
+     "key": false
+    },
+    {
+     "text": "smallest",
+     "start": 25.041,
+     "key": true
+    },
+    {
+     "text": "seed,",
+     "start": 25.599,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 26.039,
+   "end": 27.332,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "that",
+     "start": 26.039,
+     "key": false
+    },
+    {
+     "text": "grows",
+     "start": 26.362,
+     "key": false
+    },
+    {
+     "text": "into",
+     "start": 26.744,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 27.067,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 27.332,
+   "end": 28.768,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "biggest",
+     "start": 27.332,
+     "key": true
+    },
+    {
+     "text": "tree.",
+     "start": 27.831,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.218,
+   "end": 30.653,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "That",
+     "start": 29.218,
+     "key": false
+    },
+    {
+     "text": "evening",
+     "start": 29.505,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 29.949,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 30.132,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 30.653,
+   "end": 31.749,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Let's",
+     "start": 30.653,
+     "key": false
+    },
+    {
+     "text": "go",
+     "start": 30.993,
+     "key": false
+    },
+    {
+     "text": "across",
+     "start": 31.175,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 31.567,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 31.749,
+   "end": 33.195,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 31.749,
+     "key": false
+    },
+    {
+     "text": "other",
+     "start": 31.984,
+     "key": true
+    },
+    {
+     "text": "side.",
+     "start": 32.323,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 33.345,
+   "end": 34.199,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 33.345,
+     "key": false
+    },
+    {
+     "text": "lay",
+     "start": 33.521,
+     "key": false
+    },
+    {
+     "text": "down",
+     "start": 33.747,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 34.023,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 34.199,
+   "end": 35.104,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 34.199,
+     "key": false
+    },
+    {
+     "text": "back",
+     "start": 34.425,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 34.702,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 34.877,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 35.104,
+   "end": 36.936,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "boat,",
+     "start": 35.104,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 35.48,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 35.706,
+     "key": false
+    },
+    {
+     "text": "asleep.",
+     "start": 35.983,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 37.486,
+   "end": 38.711,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 37.486,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 37.779,
+     "key": false
+    },
+    {
+     "text": "furious",
+     "start": 37.912,
+     "key": false
+    },
+    {
+     "text": "storm",
+     "start": 38.365,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 38.711,
+   "end": 40.23,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "came.",
+     "start": 38.711,
+     "key": false
+    },
+    {
+     "text": "Waves",
+     "start": 39.244,
+     "key": false
+    },
+    {
+     "text": "broke",
+     "start": 39.59,
+     "key": false
+    },
+    {
+     "text": "over",
+     "start": 39.937,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.23,
+   "end": 41.002,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 40.23,
+     "key": false
+    },
+    {
+     "text": "boat.",
+     "start": 40.47,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 41.002,
+   "end": 43.111,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "It",
+     "start": 41.002,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 41.189,
+     "key": false
+    },
+    {
+     "text": "filling",
+     "start": 41.429,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 41.882,
+     "key": false
+    },
+    {
+     "text": "water.",
+     "start": 42.175,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.061,
+   "end": 44.09,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Teacher!",
+     "start": 43.061,
+     "key": false
+    },
+    {
+     "text": "Don't",
+     "start": 43.514,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 43.741,
+     "key": false
+    },
+    {
+     "text": "care",
+     "start": 43.898,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.09,
+   "end": 45.068,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "if",
+     "start": 44.09,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 44.212,
+     "key": false
+    },
+    {
+     "text": "drown?",
+     "start": 44.334,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 45.318,
+   "end": 46.829,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Quiet.",
+     "start": 45.318,
+     "key": false
+    },
+    {
+     "text": "Be",
+     "start": 45.819,
+     "key": false
+    },
+    {
+     "text": "still.",
+     "start": 45.978,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 47.979,
+   "end": 49.534,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 47.979,
+     "key": false
+    },
+    {
+     "text": "wind",
+     "start": 48.253,
+     "key": false
+    },
+    {
+     "text": "died",
+     "start": 48.589,
+     "key": false
+    },
+    {
+     "text": "down.",
+     "start": 48.924,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 49.534,
+   "end": 51.958,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 49.534,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 49.809,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 50.022,
+     "key": false
+    },
+    {
+     "text": "completely",
+     "start": 50.297,
+     "key": false
+    },
+    {
+     "text": "calm.",
+     "start": 50.998,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 52.508,
+   "end": 53.432,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Why",
+     "start": 52.508,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 52.753,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 52.997,
+     "key": false
+    },
+    {
+     "text": "so",
+     "start": 53.242,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 53.432,
+   "end": 54.872,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "afraid?",
+     "start": 53.432,
+     "key": true
+    },
+    {
+     "text": "Do",
+     "start": 54.084,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 54.274,
+     "key": false
+    },
+    {
+     "text": "still",
+     "start": 54.519,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 54.872,
+   "end": 56.309,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "have",
+     "start": 54.872,
+     "key": false
+    },
+    {
+     "text": "no",
+     "start": 55.171,
+     "key": false
+    },
+    {
+     "text": "faith?",
+     "start": 55.361,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 56.859,
+   "end": 58.122,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "They",
+     "start": 56.859,
+     "key": false
+    },
+    {
+     "text": "were",
+     "start": 57.154,
+     "key": false
+    },
+    {
+     "text": "terrified,",
+     "start": 57.45,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.122,
+   "end": 59.601,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 58.122,
+     "key": false
+    },
+    {
+     "text": "asked",
+     "start": 58.364,
+     "key": false
+    },
+    {
+     "text": "each",
+     "start": 58.714,
+     "key": false
+    },
+    {
+     "text": "other:",
+     "start": 59.01,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 59.601,
+   "end": 60.569,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Who",
+     "start": 59.601,
+     "key": true
+    },
+    {
+     "text": "is",
+     "start": 59.843,
+     "key": false
+    },
+    {
+     "text": "this?",
+     "start": 60.031,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 60.569,
+   "end": 61.645,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Even",
+     "start": 60.569,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 60.865,
+     "key": false
+    },
+    {
+     "text": "wind",
+     "start": 61.107,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 61.403,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 61.645,
+   "end": 63.366,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 61.645,
+     "key": false
+    },
+    {
+     "text": "waves",
+     "start": 61.887,
+     "key": false
+    },
+    {
+     "text": "obey",
+     "start": 62.236,
+     "key": true
+    },
+    {
+     "text": "him.",
+     "start": 62.532,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 65.716,
+   "end": 67.567,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 65.716,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 66.111,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 66.348,
+     "key": false
+    },
+    {
+     "text": "seven.",
+     "start": 66.638,
+     "key": false
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 0.5,
+   "end": 5.269,
+   "text": "The crowd was so big, he sat in a boat, and taught them from the water.",
+   "tempter": false
+  },
+  {
+   "start": 5.669,
+   "end": 7.799,
+   "text": "A farmer went out to sow his seed.",
+   "tempter": false
+  },
+  {
+   "start": 8.099,
+   "end": 15.317,
+   "text": "Some fell on the path, and birds ate it. Some on rock, and it withered. Some among thorns, and it was choked.",
+   "tempter": false
+  },
+  {
+   "start": 15.716,
+   "end": 21.181,
+   "text": "But some fell on good soil. And it grew. Thirty, sixty, a hundred times.",
+   "tempter": false
+  },
+  {
+   "start": 21.781,
+   "end": 28.518,
+   "text": "The kingdom of God is like a mustard seed. The smallest seed, that grows into the biggest tree.",
+   "tempter": false
+  },
+  {
+   "start": 29.218,
+   "end": 32.945,
+   "text": "That evening he said: Let's go across to the other side.",
+   "tempter": false
+  },
+  {
+   "start": 33.345,
+   "end": 36.686,
+   "text": "He lay down in the back of the boat, and fell asleep.",
+   "tempter": false
+  },
+  {
+   "start": 37.486,
+   "end": 42.861,
+   "text": "Then a furious storm came. Waves broke over the boat. It was filling with water.",
+   "tempter": false
+  },
+  {
+   "start": 43.061,
+   "end": 44.818,
+   "text": "Teacher! Don't you care if we drown?",
+   "tempter": false
+  },
+  {
+   "start": 45.318,
+   "end": 46.579,
+   "text": "Quiet. Be still.",
+   "tempter": false
+  },
+  {
+   "start": 47.979,
+   "end": 51.708,
+   "text": "The wind died down. And it was completely calm.",
+   "tempter": false
+  },
+  {
+   "start": 52.508,
+   "end": 56.059,
+   "text": "Why are you so afraid? Do you still have no faith?",
+   "tempter": false
+  },
+  {
+   "start": 56.859,
+   "end": 63.116,
+   "text": "They were terrified, and asked each other: Who is this? Even the wind and the waves obey him.",
+   "tempter": false
+  },
+  {
+   "start": 64.016,
+   "end": 67.317,
+   "text": "Follow for part seven.",
+   "tempter": false
+  }
+ ]
+}
