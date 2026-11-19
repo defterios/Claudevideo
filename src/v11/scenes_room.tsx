@@ -5,8 +5,8 @@ import {Hand, Wheat} from './anime';
 import {BenchR, Bean, OilLamp, RDEFS, Room, SunPatch} from './room';
 
 /** Episode 4 — "Lord of the Sabbath", 2nd reference: narrated cartoon people in dim, lit, depth-of-field sets. */
-const MAN: Look = {skin: '#D9A07C', hair: '#2E2018', tunic: '#5E7C6A', sash: '#3A4E40', style: 'short', beard: true};
-const PH = (i: number): Look => ({...SCRIBE, sash: ['#3E5C9A', '#6A3E3E', '#3E6A5A', '#5A4A7A'][i % 4]});
+export const MAN: Look = {skin: '#D9A07C', hair: '#2E2018', tunic: '#5E7C6A', sash: '#3A4E40', style: 'short', beard: true};
+export const PH = (i: number): Look => ({...SCRIBE, sash: ['#3E5C9A', '#6A3E3E', '#3E6A5A', '#5A4A7A'][i % 4]});
 const H = (x: number, y: number, s: number, el: React.ReactNode, rot = 0) => <g transform={`translate(${x} ${y}) scale(${s}) rotate(${rot})`}>{el}</g>;
 const Bust: React.FC<{x: number; y: number; look: Look; face?: Face; t?: number}> = ({x, y, look, face, t = 0}) => <g transform={`translate(${x} ${y}) scale(1.5)`}><Bean x={0} y={440} look={look} face={face} t={t} /></g>;
 const flash = (t: number, at: number, len = 0.1) => t > at && t < at + len;
@@ -15,7 +15,7 @@ const Dust: React.FC<{t: number; frozen?: boolean; o?: number}> = ({t, frozen, o
 );
 
 /* the synagogue: dim stone hall, one high window throwing a hard diagonal patch */
-const Hall: React.FC<{t: number; frozen?: boolean; blur?: boolean; dark?: number}> = ({t, frozen, blur = true, dark = 0}) => (
+export const Hall: React.FC<{t: number; frozen?: boolean; blur?: boolean; dark?: number}> = ({t, frozen, blur = true, dark = 0}) => (
   <g filter={blur ? 'url(#dof)' : undefined}>
     <Room t={t} wall="#6A5A50" floor="#4A3426" win={false} />
     {[-900, -380, 380, 900].map((x) => <rect key={x} x={x - 60} y={-3000} width={120} height={3300} fill="#5A4A40" stroke="#2a201a" strokeWidth={6} />)}

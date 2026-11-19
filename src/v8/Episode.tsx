@@ -58,7 +58,7 @@ const Captions: React.FC<{size: number; D: Data; plain?: boolean}> = ({size, D, 
       {p.words.map((w, i) => {
         const s = spring({frame: frame - Math.round((w.start - 0.04) * fps), fps, config: {damping: 13, stiffness: 240}});
         const on = t >= w.start - 0.04;
-        if (plain) return <span key={i} style={{fontSize: size, color: '#fff', opacity: on ? 1 : 0, transform: `scale(${0.75 + 0.25 * s})`, display: 'inline-block', fontFamily: 'Fredoka', WebkitTextStroke: `${size * 0.16}px #0a0608`, paintOrder: 'stroke fill', textShadow: `0 ${size * 0.06}px ${size * 0.2}px rgba(0,0,0,0.6)`}}>{w.key ? w.text.toUpperCase() : w.text}</span>;
+        if (plain) return <span key={i} style={{fontSize: size, color: w.key ? '#FFDD33' : '#fff', opacity: on ? 1 : 0, transform: `scale(${0.75 + 0.25 * s})`, display: 'inline-block', fontFamily: 'Fredoka', WebkitTextStroke: `${size * 0.16}px #0a0608`, paintOrder: 'stroke fill', textShadow: `0 ${size * 0.06}px ${size * 0.2}px rgba(0,0,0,0.6)`}}>{w.key ? w.text.toUpperCase() : w.text}</span>;
         const col = p.god ? (w.key ? '#FFD24A' : '#FFF6D8') : w.key ? (p.tempter ? '#FF6A55' : '#FFDD33') : p.tempter ? '#E9D9F2' : '#fff';
         const glow = p.god ? `, 0 0 ${size * 0.5}px rgba(255,214,110,0.95), 0 0 ${size * 1.1}px rgba(255,200,90,0.6)` : '';
         return (

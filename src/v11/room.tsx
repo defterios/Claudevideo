@@ -42,7 +42,7 @@ export const Bean: React.FC<{x: number; y: number; look: Look; face?: Face; s?: 
   const legA = sit ? [[-30, -100], [-40, -70], [30, -60]] : [[-30, -110 + lift], [-30 - ph * 18 * walk, -50], [-26 - ph * 30 * walk, 0]];
   const legB = sit ? [[30, -100], [24, -70], [90, -60]] : [[30, -110 + lift], [30 + ph * 18 * walk, -50], [34 + ph * 30 * walk, 0]];
   return (
-    <g transform={`translate(${x + sx} ${y}) scale(${(flip ? -1 : 1) * s} ${s})`}>
+    <g transform={`translate(${x + sx} ${y}) scale(${(flip ? -1 : 1) * s} ${s})`} style={dim ? {filter: `brightness(${1 - dim * 0.85})`} : undefined}>
       <ellipse cx={0} cy={0} rx={110} ry={18} fill="#000" opacity={0.28} filter="url(#dofS)" />
       {L(legA)}{L(legB)}
       {[legA[2], legB[2]].map((f, i) => <ellipse key={i} cx={f[0] + 10} cy={f[1] - 4} rx={18} ry={9} fill="#3a2a22" stroke={INK} strokeWidth={4} />)}
@@ -56,7 +56,6 @@ export const Bean: React.FC<{x: number; y: number; look: Look; face?: Face; s?: 
       </g>
       {front ? L(front.pts) : null}
       {front && hold ? <g transform={`translate(${front.h[0]} ${front.h[1]}) rotate(${-front.ang})`}>{hold}</g> : null}
-      {dim ? <path d="M -100 -560 L 100 -560 L 100 20 L -100 20 Z" fill="#0a0612" opacity={dim} /> : null}
     </g>
   );
 };

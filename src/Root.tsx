@@ -20,6 +20,7 @@ import {RoofTall, ROOF_DUR, ROOF_DUR_BDY} from './v10/Roof';
 import {Ep3Cover} from './v10/Cover';
 import {AnimeTest} from './v11/Test';
 import {SabbathTall, SabbathAnimeTall, SABBATH_DUR, SABBATH_DUR_BDY} from './v11/Sabbath';
+import {Ep4Cover} from './v11/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -76,6 +77,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="SabbathTall" component={SabbathTall} durationInFrames={Math.ceil(SABBATH_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.85}} />
     <Composition id="SabbathTallBdy" component={SabbathTall} durationInFrames={Math.ceil(SABBATH_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="SabbathAnimeTall" component={SabbathAnimeTall} durationInFrames={Math.ceil(SABBATH_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.85}} />
+    <Composition id="Ep4CoverBdy" component={Ep4Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    <Composition id="Ep4CoverEn" component={Ep4Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />
