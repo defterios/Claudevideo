@@ -51,6 +51,7 @@ const Captions: React.FC<{size: number; D: Data; plain?: boolean}> = ({size, D, 
   const t = frame / fps;
   const end = D.scenes[D.scenes.length - 1];
   if (t >= end.start) return null;
+  if (plain && D.scenes.some((sc) => sc.id === 'names' && t >= sc.start && t < sc.end)) return null; // the name cards are the captions there
   const p = D.pages.find((x) => t >= x.start - 0.04 && t < x.end);
   if (!p) return null;
   return (
