@@ -118,6 +118,22 @@ LINES6 = [  # episode 6 (heavily denoised take)
     ("", 69.25, 77.5, ["Osiosi", "ngojit"], {"who": "Osiosi", "obey": "ngojit"}),
     ("Nuna koih suo part 7.", 77.55, 81.5, ["Nuna"], {}),
 ]
+LINES7 = [  # episode 7 (clean take, used as is)
+    ("Ngan Jesus meh nog ke sborang. Topat jier. Deng rate. Duoh deng nya ngrais.", 3.5, 9.3, ["jier", "ngrais"], {"chains": "rate", "screaming": "ngrais"}),
+    ("Ogi dari de ree de jier inuh. Doi nya daped pasung eh tia.", 9.4, 13.85, ["jier", "pasung"], {"chain": "pasung"}),
+    ("Takar yeh meh kirin Jesus, yeh meh bikoduh nudu Eh, ju meh ngoruob de peen Jesus.", 13.9, 19.5, ["bikoduh", "ngoruob"], {"feet": "ngoruob"}),
+    ("", 19.6, 24.0, ["Ayuh", "Kiasa"], {}),
+    ("", 24.1, 26.9, ["aden"], {}),
+    ("", 27.1, 29.8, ["Legion", "boge"], {"legion": "Legion", "many": "boge"}),
+    ("De tun pungu, ogi kaban oyuo tongah man.", 29.85, 33.3, ["oyuo"], {"pigs": "oyuo"}),
+    ("", 33.35, 36.15, ["oyuo"], {}),
+    ("Jesus meh da eh. Oyuo de munu meh trajak bidasuor suo pungu, nuju ke laut.", 36.2, 43.45, ["trajak", "laut"], {"rushed": "trajak", "sea": "laut"}),
+    ("Ayuo de kirin koyuh de munu, meh kruti ninga dari inuh, meh ideh di mun nya de nawa.", 43.5, 48.4, ["kruti", "nawa"], {}),
+    ("Nya munu meh toru. Bripotak da Jesus buu suo inuh.", 49.85, 53.1, ["toru", "buu"], {"leave": "buu"}),
+    ("", 54.0, 56.05, ["nuna"], {}),
+    ("", 57.2, 63.0, ["bori", "Topa"], {"tell": "Tanen", "done": "nai"}),
+    ("Nuna koih suo part 8.", 63.9, 66.0, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
@@ -126,6 +142,12 @@ PARTS = {
     (5, 13): [("Jesus meh in eh:", 76.0, 77.1, None), ("Osi sino duoh sikie sudi ku?", 77.9, 79.45, "jesus")],
     (5, 14): [("Osi de raan idip nuna de nang Topa, de munu leh sikie sudi ku, de munu leh sino ku.", 80.9, 87.0, "jesus")],
     (5, 3): [("Muu en eh Onak Topa!", 16.2, 18.4, "spirit")],
+    (7, 3): [("Oni de raan Ingan duoh oku, Jesus, Onak Topa de Ayuh Manah Kiasa?", 19.6, 24.0, "spirit")],
+    (7, 4): [("Osi aden mu?", 24.1, 26.9, "jesus")],
+    (7, 5): [("Aden koih Legion. Nya koih boge.", 27.1, 29.8, "spirit")],
+    (7, 7): [("Da koih moret kang oyuo de munu.", 33.35, 36.15, "spirit")],
+    (7, 11): [("Ja oku rie nuna Ingan.", 54.0, 56.05, "disciple")],
+    (7, 12): [("Pari negeh ke bori mu. Tanen duoh nyaa oni koyuh de meh nai Topa suo mu.", 57.2, 63.0, "jesus")],
     (6, 1): [("Ogi nyaa motak dabur ruang koyuh de rie puruh eh.", 8.4, 11.3, "jesus")],
     (6, 2): [("Ogi ruang de rabu dang oran, ju manuk meh neg man eh. Ogi de rabu de batuh, asa onu meh putiek yeh meh korong. Ogi geh de rabu de tana de boge koyuh de roja, ju meh obuoh kup meh doi ponai rie bibua.", 11.3, 26.3, "jesus")],
     (6, 3): [("Pak ogi geh de rabu de tana de buog-mamuo. Ju meh bibua. 30, 60, 100 sideh.", 26.35, 34.6, "jesus")],
@@ -155,6 +177,8 @@ if EP == 5:
     TH = -43
 if EP == 6:
     LINES = LINES6
+if EP == 7:
+    LINES = LINES7
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}

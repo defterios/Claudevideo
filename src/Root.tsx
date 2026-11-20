@@ -25,7 +25,8 @@ import {TwelveTall, TWELVE_DUR, TWELVE_DUR_BDY} from './v12/Twelve';
 import {Ep5Cover} from './v12/Cover';
 import {StormTall, STORM_DUR, STORM_DUR_BDY} from './v13/Storm';
 import {Ep6Cover} from './v13/Cover';
-import {LegionTall, LEGION_DUR} from './v14/Legion';
+import {LegionTall, LEGION_DUR, LEGION_DUR_BDY} from './v14/Legion';
+import {Ep7Cover} from './v14/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -96,6 +97,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep6CoverEn" component={Ep6Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     {/* Jesus series, Episode 7: Legion (Mark 5:1-20), TikTok only */}
     <Composition id="LegionTall" component={LegionTall} durationInFrames={Math.ceil(LEGION_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="LegionTallBdy" component={LegionTall} durationInFrames={Math.ceil(LEGION_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Ep7CoverBdy" component={Ep7Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    <Composition id="Ep7CoverEn" component={Ep7Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />
