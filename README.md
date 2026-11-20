@@ -124,3 +124,8 @@ Script `script_ep7.py`, cues `sound_ep7.py`; `EP=7 DUCK=0.7 MUSIC_GAIN=1.5 SFX_G
 # Jesus series, Episode 8 — "Talitha Koum" (Mark 5:21-43), TikTok only, lit-room cartoon style
 Compositions `TalithaTall` / `TalithaTallBdy` (`src/v15/`): Jairus, the woman's touch (crowd freezes), the girl rises on "get up / mokat".
 Script `script_ep8.py`, cues `sound_ep8.py`, Bidayuh lines `LINES8`; build with `EP=8 CLEAR=1 DUCK=0.7 MUSIC_GAIN=1.5 SFX_GAIN=1.6`.
+
+---
+# Jesus series, Episode 9 — "A Prophet Without Honor" (Mark 6:1-29), TikTok only
+Compositions `ProphetTall` / `ProphetTallBdy` (`src/v16/`): Nazareth (carpenter flashback), the twelve sent out, Herod's feast,
+John's death shown only as a candle going out. Script `script_ep9.py`, cues `sound_ep9.py`, Bidayuh `LINES9`.

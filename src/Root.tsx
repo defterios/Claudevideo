@@ -29,6 +29,8 @@ import {LegionTall, LEGION_DUR, LEGION_DUR_BDY} from './v14/Legion';
 import {Ep7Cover} from './v14/Cover';
 import {TalithaTall, TALITHA_DUR, TALITHA_DUR_BDY} from './v15/Talitha';
 import {Ep8Cover} from './v15/Cover';
+import {ProphetTall, PROPHET_DUR, PROPHET_DUR_BDY} from './v16/Prophet';
+import {Ep9Cover} from './v16/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -107,6 +109,11 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="TalithaTallBdy" component={TalithaTall} durationInFrames={Math.ceil(TALITHA_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="Ep8CoverBdy" component={Ep8Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="Ep8CoverEn" component={Ep8Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    {/* Jesus series, Episode 9: A Prophet Without Honor (Mark 6:1-29), TikTok only */}
+    <Composition id="ProphetTall" component={ProphetTall} durationInFrames={Math.ceil(PROPHET_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="ProphetTallBdy" component={ProphetTall} durationInFrames={Math.ceil(PROPHET_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Ep9CoverBdy" component={Ep9Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    <Composition id="Ep9CoverEn" component={Ep9Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

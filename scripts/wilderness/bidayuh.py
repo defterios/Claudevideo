@@ -152,6 +152,26 @@ LINES8 = [  # episode 8 (clean take)
     ("Onak dayung inuh de 12 umur eh, meh rasu mokat ju meh ponu.", 95.8, 100.65, ["mokat", "ponu"], {"walked": "ponu"}),
     ("Nuna koih suo part 9.", 101.8, 103.5, ["Nuna"], {}),
 ]
+LINES9 = [  # episode 9 (clean take)
+    ("Jesus meh mori ke Nazareth, ju meh ngajar de synagogue.", 2.75, 6.5, ["Nazareth"], {}),
+    ("", 7.05, 12.55, ["tukang"], {"carpenter": "tukang"}),
+    ("Nya danu meh dorie bisaya duoh Yeh.", 13.65, 15.75, ["dorie"], {}),
+    ("", 16.1, 21.55, ["Nabi", "hormat"], {}),
+    ("Jesus meh doi daped pikirien kiasa Eh danu. Boyo iran Eh ninga rayat danu doi bisaya duoh Yeh.", 22.1, 28.25, ["kiasa", "doi"], {}),
+    ("Jadi yeh meh pait rasol eh de 12 inuh, da nga duoh nga duoh. Ma toban oni-oni. Toban sikuud meh geh. Ngan pinguman. Ngan duit isah nya toban eh.", 28.85, 39.8, ["12", "sikuud"], {"two": "duoh", "staff": "sikuud"}),
+    ("Nya munu meh ponu. Kasig muot kati kanih, ngubat nya da bait.", 40.95, 45.55, ["bait"], {"healed": "bait"}),
+    ("King Herod meh ngojit brita itih, ju yeh meh toru.", 47.05, 50.3, ["Herod", "toru"], {}),
+    ("", 51.95, 55.5, ["Joanis", "idip"], {}),
+    ("Herod pronah gan Joanis de jier, sobab Joanis tanen nang: Porih ingan mit sowen sudi ingan neh.", 56.35, 63.95, ["jier", "Porih"], {}),
+    ("Takar onu branak Herod, yeh mogan nya bruman. Onak dayung Herodias meh mokat bitana. Herod meh rami ninga eh.", 65.85, 73.35, ["bruman", "bitana"], {"danced": "bitana"}),
+    ("", 74.1, 78.8, ["Simunmun", "stongah"], {}),
+    ("", 79.65, 81.75, ["mitie"], {}),
+    ("", 82.35, 84.85, ["Joanis"], {"john": "Joanis"}),
+    ("Raja Herod meh susah otin. Tapi yeh dorie rie nurak pimitie dayung inuh sobap yeh meh bisupah dopan nya.", 85.8, 92.6, ["susah", "bisupah"], {}),
+    ("Ngaruom inuh, dowoh jier, meh ngorok eh tia.", 93.2, 97.2, ["ngorok"], {"silent": "ngorok"}),
+    ("Onak murit Joanis meh neg, mit gonan eh, ju meh ngubur.", 97.9, 102.6, ["ngubur"], {"tomb": "ngubur"}),
+    ("Nuna koih suo part 10.", 103.6, 105.3, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
@@ -173,6 +193,12 @@ PARTS = {
     (8, 9): [("Onak ingan meh kobes. Dusah nya gaguo Mistar tia.", 68.6, 72.4, "scholar")],
     (8, 10): [("Ma toru. Bisaya negeh.", 73.85, 75.95, "jesus")],
     (8, 13): [("Talitha koum. Onak dayung, Oku da muu mokat.", 90.4, 95.05, "jesus")],
+    (9, 1): [("Suo ki Yeh daped suo koyuh de in niti? Abah tukang koyuh sija? Onak Mary?", 7.05, 12.55, "scholar")],
+    (9, 3): [("Nabi neh kati kanih nya hormat eh, jek eh de topat dep eh sija nya doi hormat eh.", 16.1, 21.55, "jesus")],
+    (9, 8): [("Joanis, nya de notek ku bak eh, meh mokat idip bauh!", 51.95, 55.5, "herod")],
+    (9, 11): [("Simun-mun koyuh de mitie mu ngin ku geh. Aropun stongah negri ku.", 74.1, 78.8, "herod")],
+    (9, 12): [("Oni de rie mitie ku yeh?", 79.65, 81.75, "girl")],
+    (9, 13): [("Oku ran bak Joanis Baptista.", 82.35, 84.85, "queen")],
     (6, 1): [("Ogi nyaa motak dabur ruang koyuh de rie puruh eh.", 8.4, 11.3, "jesus")],
     (6, 2): [("Ogi ruang de rabu dang oran, ju manuk meh neg man eh. Ogi de rabu de batuh, asa onu meh putiek yeh meh korong. Ogi geh de rabu de tana de boge koyuh de roja, ju meh obuoh kup meh doi ponai rie bibua.", 11.3, 26.3, "jesus")],
     (6, 3): [("Pak ogi geh de rabu de tana de buog-mamuo. Ju meh bibua. 30, 60, 100 sideh.", 26.35, 34.6, "jesus")],
@@ -189,6 +215,9 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
     "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
     "woman": "rubberband=pitch=1.16:formant=preserved,highpass=f=200,equalizer=f=3000:t=q:w=1:g=3",
+    "herod": "rubberband=pitch=0.86:formant=preserved,lowshelf=f=150:g=3",
+    "girl": "rubberband=pitch=1.22:formant=preserved,highpass=f=220,equalizer=f=3200:t=q:w=1:g=3",
+    "queen": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=1800:t=q:w=1:g=4,aecho=0.8:0.5:60:0.15",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
@@ -207,6 +236,8 @@ if EP == 7:
     LINES = LINES7
 if EP == 8:
     LINES = LINES8
+if EP == 9:
+    LINES = LINES9
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
