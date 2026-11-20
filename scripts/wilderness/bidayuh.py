@@ -134,6 +134,24 @@ LINES7 = [  # episode 7 (clean take, used as is)
     ("", 57.2, 63.0, ["bori", "Topa"], {"tell": "Tanen", "done": "nai"}),
     ("Nuna koih suo part 8.", 63.9, 66.0, ["Nuna"], {}),
 ]
+LINES8 = [  # episode 8 (clean take)
+    ("Jesus meh pari motas orad, ogi ni dari biturak duoh nya rie ninga Jesus. Jairus, kitua bori synagogue.", 6.7, 15.45, ["Jairus"], {}),
+    ("", 16.35, 22.25, ["monam", "bait"], {}),
+    ("Jesus meh nuna yeh. Ju nya de kiang kiang inuh meh nuna geh dep eh duoh.", 23.05, 27.65, ["kiang"], {}),
+    ("Daang ayuo nya de munu ogi dayung de obuoh onam bubu sapai meh 12 sowa. Puas yeh odi brubat, pak eh makin bitamah onam eh.", 28.7, 38.0, ["12", "bitamah"], {}),
+    ("", 39.0, 43.35, ["toma", "onam"], {}),
+    ("Yeh pruah tongan eh, toma jubah Eh. Rasu danu geh, yeh meh sai onam eh meh doi.", 44.1, 50.3, ["toma", "doi"], {"touched": "toma", "stopped": "doi"}),
+    ("", 51.0, 53.15, ["Osi"], {}),
+    ("Yeh meh kimotor tia, ju ju meh pubap de peen Jesus, dang eh tanen oni de nai eh.", 53.95, 60.7, ["kimotor"], {}),
+    ("", 61.6, 67.55, ["bisaya", "sonang"], {}),
+    ("", 68.6, 72.4, ["kobes"], {"dead": "kobes"}),
+    ("", 73.85, 75.95, ["Bisaya"], {}),
+    ("Takar de bori inuh, nyaa kiak kaung sien. Yeh meh nang: Yeh ideh di eh kobes, jek eh bees. Nya munu meh toweh yeh.", 77.0, 86.2, ["bees", "toweh"], {"laughed": "toweh"}),
+    ("Yeh meh geng tongan onak dayung inuh, ju meh in Eh:", 86.75, 89.85, ["tongan"], {"hand": "tongan"}),
+    ("", 90.4, 95.05, ["koum", "mokat"], {"up": "mokat"}),
+    ("Onak dayung inuh de 12 umur eh, meh rasu mokat ju meh ponu.", 95.8, 100.65, ["mokat", "ponu"], {"walked": "ponu"}),
+    ("Nuna koih suo part 9.", 101.8, 103.5, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
@@ -148,6 +166,13 @@ PARTS = {
     (7, 7): [("Da koih moret kang oyuo de munu.", 33.35, 36.15, "spirit")],
     (7, 11): [("Ja oku rie nuna Ingan.", 54.0, 56.05, "disciple")],
     (7, 12): [("Pari negeh ke bori mu. Tanen duoh nyaa oni koyuh de meh nai Topa suo mu.", 57.2, 63.0, "jesus")],
+    (8, 1): [("Onak dayungku doras monam. Mitie masi duoh Ingan, odi toma gonan eh da yeh bait.", 16.35, 22.25, "disciple")],
+    (8, 4): [("Komo ku meh daped kadu toma jubah Eh, mokuo onam ku neh.", 39.0, 43.35, "woman")],
+    (8, 6): [("Osi de toma jubah Ku?", 51.0, 53.15, "jesus")],
+    (8, 8): [("Oo madis, mu meh bait sobab mu bisaya. Maad toban otin mu de sonang.", 61.6, 67.55, "jesus")],
+    (8, 9): [("Onak ingan meh kobes. Dusah nya gaguo Mistar tia.", 68.6, 72.4, "scholar")],
+    (8, 10): [("Ma toru. Bisaya negeh.", 73.85, 75.95, "jesus")],
+    (8, 13): [("Talitha koum. Onak dayung, Oku da muu mokat.", 90.4, 95.05, "jesus")],
     (6, 1): [("Ogi nyaa motak dabur ruang koyuh de rie puruh eh.", 8.4, 11.3, "jesus")],
     (6, 2): [("Ogi ruang de rabu dang oran, ju manuk meh neg man eh. Ogi de rabu de batuh, asa onu meh putiek yeh meh korong. Ogi geh de rabu de tana de boge koyuh de roja, ju meh obuoh kup meh doi ponai rie bibua.", 11.3, 26.3, "jesus")],
     (6, 3): [("Pak ogi geh de rabu de tana de buog-mamuo. Ju meh bibua. 30, 60, 100 sideh.", 26.35, 34.6, "jesus")],
@@ -163,6 +188,7 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "spirit": "rubberband=pitch=0.72:formant=shifted,lowpass=f=3500,aecho=0.8:0.75:80|160|260:0.4|0.28|0.16,acrusher=bits=10:mix=0.15",
     "scholar": "rubberband=pitch=1.08:formant=preserved,highpass=f=280,lowpass=f=5200,equalizer=f=1400:t=q:w=1.2:g=5",
     "family": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
+    "woman": "rubberband=pitch=1.16:formant=preserved,highpass=f=200,equalizer=f=3000:t=q:w=1:g=3",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
@@ -179,6 +205,8 @@ if EP == 6:
     LINES = LINES6
 if EP == 7:
     LINES = LINES7
+if EP == 8:
+    LINES = LINES8
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}

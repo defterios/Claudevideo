@@ -119,3 +119,8 @@ storm with a match cut into stillness on "still" (the one big moment). Script `s
 # Jesus series, Episode 7 — "Legion" (Mark 5:1-20), TikTok only, lit-room cartoon style
 Composition `LegionTall` (`src/v14/`): tombs + chains, Legion's eyes multiplying, the herd rushing into the sea (big moment).
 Script `script_ep7.py`, cues `sound_ep7.py`; `EP=7 DUCK=0.7 MUSIC_GAIN=1.5 SFX_GAIN=1.6 python3 scripts/wilderness/build.py <build dir>`.
+
+---
+# Jesus series, Episode 8 — "Talitha Koum" (Mark 5:21-43), TikTok only, lit-room cartoon style
+Compositions `TalithaTall` / `TalithaTallBdy` (`src/v15/`): Jairus, the woman's touch (crowd freezes), the girl rises on "get up / mokat".
+Script `script_ep8.py`, cues `sound_ep8.py`, Bidayuh lines `LINES8`; build with `EP=8 CLEAR=1 DUCK=0.7 MUSIC_GAIN=1.5 SFX_GAIN=1.6`.

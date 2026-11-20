@@ -1,0 +1,2514 @@
+{
+ "duration": 72.988,
+ "scenes": [
+  {
+   "id": "lake",
+   "start": 0.0,
+   "segs": [
+    0.5
+   ],
+   "w": {
+    "back": 0.5,
+    "across": 0.8,
+    "the": 1.21,
+    "lake": 1.455,
+    "a": 1.865,
+    "man": 2.001,
+    "pushed": 2.247,
+    "through": 2.656,
+    "crowd": 3.366,
+    "jairus": 3.966,
+    "leader": 4.621,
+    "of": 5.03,
+    "synagogue": 5.467
+   },
+   "end": 6.406,
+   "ws": [
+    [
+     "back",
+     0.5
+    ],
+    [
+     "across",
+     0.8
+    ],
+    [
+     "the",
+     1.21
+    ],
+    [
+     "lake",
+     1.455
+    ],
+    [
+     "a",
+     1.865
+    ],
+    [
+     "man",
+     2.001
+    ],
+    [
+     "pushed",
+     2.247
+    ],
+    [
+     "through",
+     2.656
+    ],
+    [
+     "the",
+     3.12
+    ],
+    [
+     "crowd",
+     3.366
+    ],
+    [
+     "jairus",
+     3.966
+    ],
+    [
+     "a",
+     4.484
+    ],
+    [
+     "leader",
+     4.621
+    ],
+    [
+     "of",
+     5.03
+    ],
+    [
+     "the",
+     5.221
+    ],
+    [
+     "synagogue",
+     5.467
+    ]
+   ]
+  },
+  {
+   "id": "plea",
+   "start": 6.406,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "my": 0.28,
+    "little": 0.42,
+    "daughter": 0.722,
+    "is": 1.104,
+    "dying": 1.244,
+    "please": 1.687,
+    "come": 2.069,
+    "and": 2.29,
+    "put": 2.471,
+    "your": 2.652,
+    "hands": 2.873,
+    "on": 3.134,
+    "her": 3.275,
+    "so": 3.536,
+    "she": 3.677,
+    "will": 3.858,
+    "live": 4.079
+   },
+   "end": 11.207,
+   "ws": [
+    [
+     "my",
+     0.28
+    ],
+    [
+     "little",
+     0.42
+    ],
+    [
+     "daughter",
+     0.722
+    ],
+    [
+     "is",
+     1.104
+    ],
+    [
+     "dying",
+     1.244
+    ],
+    [
+     "please",
+     1.687
+    ],
+    [
+     "come",
+     2.069
+    ],
+    [
+     "and",
+     2.29
+    ],
+    [
+     "put",
+     2.471
+    ],
+    [
+     "your",
+     2.652
+    ],
+    [
+     "hands",
+     2.873
+    ],
+    [
+     "on",
+     3.134
+    ],
+    [
+     "her",
+     3.275
+    ],
+    [
+     "so",
+     3.536
+    ],
+    [
+     "she",
+     3.677
+    ],
+    [
+     "will",
+     3.858
+    ],
+    [
+     "live",
+     4.079
+    ]
+   ]
+  },
+  {
+   "id": "crowd",
+   "start": 11.207,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "jesus": 0.28,
+    "went": 0.631,
+    "with": 0.928,
+    "him": 1.226,
+    "and": 1.712,
+    "the": 1.956,
+    "crowd": 2.199,
+    "pressed": 2.55,
+    "in": 3.01,
+    "on": 3.199,
+    "every": 3.388,
+    "side": 3.74
+   },
+   "end": 15.607,
+   "ws": [
+    [
+     "jesus",
+     0.28
+    ],
+    [
+     "went",
+     0.631
+    ],
+    [
+     "with",
+     0.928
+    ],
+    [
+     "him",
+     1.226
+    ],
+    [
+     "and",
+     1.712
+    ],
+    [
+     "the",
+     1.956
+    ],
+    [
+     "crowd",
+     2.199
+    ],
+    [
+     "pressed",
+     2.55
+    ],
+    [
+     "in",
+     3.01
+    ],
+    [
+     "on",
+     3.199
+    ],
+    [
+     "every",
+     3.388
+    ],
+    [
+     "side",
+     3.74
+    ]
+   ]
+  },
+  {
+   "id": "woman",
+   "start": 15.607,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "in": 0.28,
+    "the": 0.47,
+    "crowd": 0.713,
+    "was": 1.065,
+    "a": 1.309,
+    "woman": 1.444,
+    "who": 1.796,
+    "had": 2.04,
+    "been": 2.284,
+    "bleeding": 2.582,
+    "for": 3.096,
+    "twelve": 3.34,
+    "years": 3.746,
+    "she": 4.341,
+    "spent": 4.829,
+    "everything": 5.18,
+    "on": 5.803,
+    "doctors": 5.993,
+    "and": 6.561,
+    "only": 6.805,
+    "got": 7.103,
+    "worse": 7.346
+   },
+   "end": 23.669,
+   "ws": [
+    [
+     "in",
+     0.28
+    ],
+    [
+     "the",
+     0.47
+    ],
+    [
+     "crowd",
+     0.713
+    ],
+    [
+     "was",
+     1.065
+    ],
+    [
+     "a",
+     1.309
+    ],
+    [
+     "woman",
+     1.444
+    ],
+    [
+     "who",
+     1.796
+    ],
+    [
+     "had",
+     2.04
+    ],
+    [
+     "been",
+     2.284
+    ],
+    [
+     "bleeding",
+     2.582
+    ],
+    [
+     "for",
+     3.096
+    ],
+    [
+     "twelve",
+     3.34
+    ],
+    [
+     "years",
+     3.746
+    ],
+    [
+     "she",
+     4.341
+    ],
+    [
+     "had",
+     4.585
+    ],
+    [
+     "spent",
+     4.829
+    ],
+    [
+     "everything",
+     5.18
+    ],
+    [
+     "on",
+     5.803
+    ],
+    [
+     "doctors",
+     5.993
+    ],
+    [
+     "and",
+     6.561
+    ],
+    [
+     "only",
+     6.805
+    ],
+    [
+     "got",
+     7.103
+    ],
+    [
+     "worse",
+     7.346
+    ]
+   ]
+  },
+  {
+   "id": "thought",
+   "start": 23.669,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "if": 0.28,
+    "i": 0.43,
+    "just": 0.537,
+    "touch": 0.773,
+    "his": 1.051,
+    "clothes": 1.244,
+    "will": 1.802,
+    "be": 2.037,
+    "healed": 2.187
+   },
+   "end": 26.591,
+   "ws": [
+    [
+     "if",
+     0.28
+    ],
+    [
+     "i",
+     0.43
+    ],
+    [
+     "just",
+     0.537
+    ],
+    [
+     "touch",
+     0.773
+    ],
+    [
+     "his",
+     1.051
+    ],
+    [
+     "clothes",
+     1.244
+    ],
+    [
+     "i",
+     1.694
+    ],
+    [
+     "will",
+     1.802
+    ],
+    [
+     "be",
+     2.037
+    ],
+    [
+     "healed",
+     2.187
+    ]
+   ]
+  },
+  {
+   "id": "touch",
+   "start": 26.591,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "she": 0.28,
+    "reached": 0.514,
+    "out": 0.957,
+    "and": 1.296,
+    "touched": 1.53,
+    "his": 1.973,
+    "robe": 2.208,
+    "immediately": 2.729,
+    "the": 3.484,
+    "bleeding": 3.718,
+    "stopped": 4.213
+   },
+   "end": 32.102,
+   "ws": [
+    [
+     "she",
+     0.28
+    ],
+    [
+     "reached",
+     0.514
+    ],
+    [
+     "out",
+     0.957
+    ],
+    [
+     "and",
+     1.296
+    ],
+    [
+     "touched",
+     1.53
+    ],
+    [
+     "his",
+     1.973
+    ],
+    [
+     "robe",
+     2.208
+    ],
+    [
+     "immediately",
+     2.729
+    ],
+    [
+     "the",
+     3.484
+    ],
+    [
+     "bleeding",
+     3.718
+    ],
+    [
+     "stopped",
+     4.213
+    ]
+   ]
+  },
+  {
+   "id": "who",
+   "start": 32.102,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "who": 0.28,
+    "touched": 0.49,
+    "my": 0.887,
+    "clothes": 1.05
+   },
+   "end": 34.179,
+   "ws": [
+    [
+     "who",
+     0.28
+    ],
+    [
+     "touched",
+     0.49
+    ],
+    [
+     "my",
+     0.887
+    ],
+    [
+     "clothes",
+     1.05
+    ]
+   ]
+  },
+  {
+   "id": "feet",
+   "start": 34.179,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "trembling": 0.28,
+    "she": 0.894,
+    "fell": 1.116,
+    "at": 1.386,
+    "his": 1.558,
+    "feet": 1.779,
+    "and": 2.147,
+    "told": 2.368,
+    "him": 2.639,
+    "everything": 2.86
+   },
+   "end": 38.045,
+   "ws": [
+    [
+     "trembling",
+     0.28
+    ],
+    [
+     "she",
+     0.894
+    ],
+    [
+     "fell",
+     1.116
+    ],
+    [
+     "at",
+     1.386
+    ],
+    [
+     "his",
+     1.558
+    ],
+    [
+     "feet",
+     1.779
+    ],
+    [
+     "and",
+     2.147
+    ],
+    [
+     "told",
+     2.368
+    ],
+    [
+     "him",
+     2.639
+    ],
+    [
+     "everything",
+     2.86
+    ]
+   ]
+  },
+  {
+   "id": "peace",
+   "start": 38.045,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "daughter": 0.28,
+    "your": 0.805,
+    "faith": 1.057,
+    "has": 1.354,
+    "healed": 1.56,
+    "you": 1.903,
+    "go": 2.314,
+    "in": 2.474,
+    "peace": 2.634
+   },
+   "end": 41.702,
+   "ws": [
+    [
+     "daughter",
+     0.28
+    ],
+    [
+     "your",
+     0.805
+    ],
+    [
+     "faith",
+     1.057
+    ],
+    [
+     "has",
+     1.354
+    ],
+    [
+     "healed",
+     1.56
+    ],
+    [
+     "you",
+     1.903
+    ],
+    [
+     "go",
+     2.314
+    ],
+    [
+     "in",
+     2.474
+    ],
+    [
+     "peace",
+     2.634
+    ]
+   ]
+  },
+  {
+   "id": "news",
+   "start": 41.702,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "your": 0.28,
+    "daughter": 0.548,
+    "is": 1.01,
+    "dead": 1.181,
+    "why": 1.668,
+    "bother": 1.887,
+    "the": 2.252,
+    "teacher": 2.472,
+    "anymore": 2.886
+   },
+   "end": 45.641,
+   "ws": [
+    [
+     "your",
+     0.28
+    ],
+    [
+     "daughter",
+     0.548
+    ],
+    [
+     "is",
+     1.01
+    ],
+    [
+     "dead",
+     1.181
+    ],
+    [
+     "why",
+     1.668
+    ],
+    [
+     "bother",
+     1.887
+    ],
+    [
+     "the",
+     2.252
+    ],
+    [
+     "teacher",
+     2.472
+    ],
+    [
+     "anymore",
+     2.886
+    ]
+   ]
+  },
+  {
+   "id": "believe",
+   "start": 45.641,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "don't": 0.28,
+    "be": 0.613,
+    "afraid": 0.792,
+    "just": 1.407,
+    "believe": 1.689
+   },
+   "end": 48.616,
+   "ws": [
+    [
+     "don't",
+     0.28
+    ],
+    [
+     "be",
+     0.613
+    ],
+    [
+     "afraid",
+     0.792
+    ],
+    [
+     "just",
+     1.407
+    ],
+    [
+     "believe",
+     1.689
+    ]
+   ]
+  },
+  {
+   "id": "house",
+   "start": 48.616,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "at": 0.28,
+    "the": 0.452,
+    "house": 0.674,
+    "people": 1.094,
+    "were": 1.464,
+    "crying": 1.736,
+    "and": 2.106,
+    "wailing": 2.328,
+    "he": 2.97,
+    "said": 3.142,
+    "she": 3.636,
+    "is": 3.858,
+    "not": 4.031,
+    "dead": 4.253,
+    "only": 4.623,
+    "asleep": 4.895,
+    "they": 5.487,
+    "laughed": 5.758,
+    "him": 6.351
+   },
+   "end": 55.731,
+   "ws": [
+    [
+     "at",
+     0.28
+    ],
+    [
+     "the",
+     0.452
+    ],
+    [
+     "house",
+     0.674
+    ],
+    [
+     "people",
+     1.094
+    ],
+    [
+     "were",
+     1.464
+    ],
+    [
+     "crying",
+     1.736
+    ],
+    [
+     "and",
+     2.106
+    ],
+    [
+     "wailing",
+     2.328
+    ],
+    [
+     "he",
+     2.97
+    ],
+    [
+     "said",
+     3.142
+    ],
+    [
+     "she",
+     3.636
+    ],
+    [
+     "is",
+     3.858
+    ],
+    [
+     "not",
+     4.031
+    ],
+    [
+     "dead",
+     4.253
+    ],
+    [
+     "only",
+     4.623
+    ],
+    [
+     "asleep",
+     4.895
+    ],
+    [
+     "they",
+     5.487
+    ],
+    [
+     "laughed",
+     5.758
+    ],
+    [
+     "at",
+     6.178
+    ],
+    [
+     "him",
+     6.351
+    ]
+   ]
+  },
+  {
+   "id": "hand",
+   "start": 55.731,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "took": 0.465,
+    "her": 0.756,
+    "by": 0.994,
+    "the": 1.179,
+    "hand": 1.417,
+    "and": 1.813,
+    "said": 2.051
+   },
+   "end": 58.531,
+   "ws": [
+    [
+     "he",
+     0.28
+    ],
+    [
+     "took",
+     0.465
+    ],
+    [
+     "her",
+     0.756
+    ],
+    [
+     "by",
+     0.994
+    ],
+    [
+     "the",
+     1.179
+    ],
+    [
+     "hand",
+     1.417
+    ],
+    [
+     "and",
+     1.813
+    ],
+    [
+     "said",
+     2.051
+    ]
+   ]
+  },
+  {
+   "id": "rise",
+   "start": 58.531,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "talitha": 0.28,
+    "koum": 0.751,
+    "little": 1.306,
+    "girl": 1.721,
+    "i": 2.137,
+    "say": 2.276,
+    "to": 2.525,
+    "you": 2.719,
+    "get": 3.08,
+    "up": 3.329
+   },
+   "end": 63.124,
+   "ws": [
+    [
+     "talitha",
+     0.28
+    ],
+    [
+     "koum",
+     0.751
+    ],
+    [
+     "little",
+     1.306
+    ],
+    [
+     "girl",
+     1.721
+    ],
+    [
+     "i",
+     2.137
+    ],
+    [
+     "say",
+     2.276
+    ],
+    [
+     "to",
+     2.525
+    ],
+    [
+     "you",
+     2.719
+    ],
+    [
+     "get",
+     3.08
+    ],
+    [
+     "up",
+     3.329
+    ]
+   ]
+  },
+  {
+   "id": "walk",
+   "start": 63.124,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "immediately": 0.28,
+    "she": 1.017,
+    "stood": 1.245,
+    "up": 1.576,
+    "and": 1.753,
+    "walked": 1.982,
+    "around": 2.363,
+    "was": 3.202,
+    "twelve": 3.431,
+    "years": 3.812,
+    "old": 4.142
+   },
+   "end": 68.444,
+   "ws": [
+    [
+     "immediately",
+     0.28
+    ],
+    [
+     "she",
+     1.017
+    ],
+    [
+     "stood",
+     1.245
+    ],
+    [
+     "up",
+     1.576
+    ],
+    [
+     "and",
+     1.753
+    ],
+    [
+     "walked",
+     1.982
+    ],
+    [
+     "around",
+     2.363
+    ],
+    [
+     "she",
+     2.973
+    ],
+    [
+     "was",
+     3.202
+    ],
+    [
+     "twelve",
+     3.431
+    ],
+    [
+     "years",
+     3.812
+    ],
+    [
+     "old",
+     4.142
+    ]
+   ]
+  },
+  {
+   "id": "end",
+   "start": 68.444,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "follow": 1.98,
+    "for": 2.379,
+    "part": 2.618,
+    "nine": 2.911
+   },
+   "end": 72.988,
+   "ws": [
+    [
+     "follow",
+     1.98
+    ],
+    [
+     "for",
+     2.379
+    ],
+    [
+     "part",
+     2.618
+    ],
+    [
+     "nine",
+     2.911
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.865,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Back",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "across",
+     "start": 0.8,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 1.21,
+     "key": false
+    },
+    {
+     "text": "lake,",
+     "start": 1.455,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.865,
+   "end": 3.12,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 1.865,
+     "key": false
+    },
+    {
+     "text": "man",
+     "start": 2.001,
+     "key": false
+    },
+    {
+     "text": "pushed",
+     "start": 2.247,
+     "key": false
+    },
+    {
+     "text": "through",
+     "start": 2.656,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 3.12,
+   "end": 3.966,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 3.12,
+     "key": false
+    },
+    {
+     "text": "crowd.",
+     "start": 3.366,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 3.966,
+   "end": 5.221,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jairus,",
+     "start": 3.966,
+     "key": true
+    },
+    {
+     "text": "a",
+     "start": 4.484,
+     "key": false
+    },
+    {
+     "text": "leader",
+     "start": 4.621,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 5.03,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.221,
+   "end": 6.636,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 5.221,
+     "key": false
+    },
+    {
+     "text": "synagogue.",
+     "start": 5.467,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.686,
+   "end": 7.65,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "My",
+     "start": 6.686,
+     "key": false
+    },
+    {
+     "text": "little",
+     "start": 6.826,
+     "key": false
+    },
+    {
+     "text": "daughter",
+     "start": 7.128,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 7.51,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 7.65,
+   "end": 8.475,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "dying.",
+     "start": 7.65,
+     "key": true
+    },
+    {
+     "text": "Please,",
+     "start": 8.093,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 8.475,
+   "end": 9.279,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "come",
+     "start": 8.475,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 8.696,
+     "key": false
+    },
+    {
+     "text": "put",
+     "start": 8.877,
+     "key": false
+    },
+    {
+     "text": "your",
+     "start": 9.058,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.279,
+   "end": 9.942,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "hands",
+     "start": 9.279,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 9.54,
+     "key": false
+    },
+    {
+     "text": "her,",
+     "start": 9.681,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.942,
+   "end": 11.237,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "so",
+     "start": 9.942,
+     "key": false
+    },
+    {
+     "text": "she",
+     "start": 10.083,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 10.264,
+     "key": false
+    },
+    {
+     "text": "live.",
+     "start": 10.485,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 11.487,
+   "end": 12.919,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 11.487,
+     "key": false
+    },
+    {
+     "text": "went",
+     "start": 11.838,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 12.135,
+     "key": false
+    },
+    {
+     "text": "him.",
+     "start": 12.433,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 12.919,
+   "end": 14.217,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 12.919,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 13.163,
+     "key": false
+    },
+    {
+     "text": "crowd",
+     "start": 13.406,
+     "key": true
+    },
+    {
+     "text": "pressed",
+     "start": 13.757,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 14.217,
+   "end": 15.837,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 14.217,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 14.406,
+     "key": false
+    },
+    {
+     "text": "every",
+     "start": 14.595,
+     "key": false
+    },
+    {
+     "text": "side.",
+     "start": 14.947,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.887,
+   "end": 16.916,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "In",
+     "start": 15.887,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 16.077,
+     "key": false
+    },
+    {
+     "text": "crowd",
+     "start": 16.32,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 16.672,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.916,
+   "end": 17.891,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 16.916,
+     "key": false
+    },
+    {
+     "text": "woman",
+     "start": 17.051,
+     "key": false
+    },
+    {
+     "text": "who",
+     "start": 17.403,
+     "key": false
+    },
+    {
+     "text": "had",
+     "start": 17.647,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.891,
+   "end": 19.353,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "been",
+     "start": 17.891,
+     "key": false
+    },
+    {
+     "text": "bleeding",
+     "start": 18.189,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 18.703,
+     "key": false
+    },
+    {
+     "text": "twelve",
+     "start": 18.947,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 19.353,
+   "end": 20.787,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "years.",
+     "start": 19.353,
+     "key": false
+    },
+    {
+     "text": "She",
+     "start": 19.948,
+     "key": false
+    },
+    {
+     "text": "had",
+     "start": 20.192,
+     "key": false
+    },
+    {
+     "text": "spent",
+     "start": 20.436,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 20.787,
+   "end": 22.168,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "everything",
+     "start": 20.787,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 21.41,
+     "key": false
+    },
+    {
+     "text": "doctors,",
+     "start": 21.6,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 22.168,
+   "end": 23.899,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 22.168,
+     "key": false
+    },
+    {
+     "text": "only",
+     "start": 22.412,
+     "key": false
+    },
+    {
+     "text": "got",
+     "start": 22.71,
+     "key": false
+    },
+    {
+     "text": "worse.",
+     "start": 22.953,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 23.949,
+   "end": 24.72,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "If",
+     "start": 23.949,
+     "key": false
+    },
+    {
+     "text": "I",
+     "start": 24.099,
+     "key": false
+    },
+    {
+     "text": "just",
+     "start": 24.206,
+     "key": false
+    },
+    {
+     "text": "touch",
+     "start": 24.442,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 24.72,
+   "end": 25.363,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "his",
+     "start": 24.72,
+     "key": false
+    },
+    {
+     "text": "clothes,",
+     "start": 24.913,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.363,
+   "end": 26.721,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 25.363,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 25.471,
+     "key": false
+    },
+    {
+     "text": "be",
+     "start": 25.706,
+     "key": false
+    },
+    {
+     "text": "healed.",
+     "start": 25.856,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 26.871,
+   "end": 27.887,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "She",
+     "start": 26.871,
+     "key": false
+    },
+    {
+     "text": "reached",
+     "start": 27.105,
+     "key": false
+    },
+    {
+     "text": "out,",
+     "start": 27.548,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 27.887,
+   "end": 29.32,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 27.887,
+     "key": false
+    },
+    {
+     "text": "touched",
+     "start": 28.121,
+     "key": true
+    },
+    {
+     "text": "his",
+     "start": 28.564,
+     "key": false
+    },
+    {
+     "text": "robe.",
+     "start": 28.799,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.32,
+   "end": 31.832,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Immediately,",
+     "start": 29.32,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 30.075,
+     "key": false
+    },
+    {
+     "text": "bleeding",
+     "start": 30.309,
+     "key": false
+    },
+    {
+     "text": "stopped.",
+     "start": 30.804,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 32.382,
+   "end": 34.109,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Who",
+     "start": 32.382,
+     "key": true
+    },
+    {
+     "text": "touched",
+     "start": 32.592,
+     "key": false
+    },
+    {
+     "text": "my",
+     "start": 32.989,
+     "key": false
+    },
+    {
+     "text": "clothes?",
+     "start": 33.152,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 34.459,
+   "end": 35.737,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Trembling,",
+     "start": 34.459,
+     "key": true
+    },
+    {
+     "text": "she",
+     "start": 35.073,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 35.295,
+     "key": false
+    },
+    {
+     "text": "at",
+     "start": 35.565,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 35.737,
+   "end": 36.326,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "his",
+     "start": 35.737,
+     "key": false
+    },
+    {
+     "text": "feet,",
+     "start": 35.958,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 36.326,
+   "end": 38.175,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 36.326,
+     "key": false
+    },
+    {
+     "text": "told",
+     "start": 36.547,
+     "key": false
+    },
+    {
+     "text": "him",
+     "start": 36.818,
+     "key": false
+    },
+    {
+     "text": "everything.",
+     "start": 37.039,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 38.325,
+   "end": 39.605,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Daughter,",
+     "start": 38.325,
+     "key": false
+    },
+    {
+     "text": "your",
+     "start": 38.85,
+     "key": false
+    },
+    {
+     "text": "faith",
+     "start": 39.102,
+     "key": true
+    },
+    {
+     "text": "has",
+     "start": 39.399,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 39.605,
+   "end": 40.359,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "healed",
+     "start": 39.605,
+     "key": false
+    },
+    {
+     "text": "you.",
+     "start": 39.948,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.359,
+   "end": 41.532,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Go",
+     "start": 40.359,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 40.519,
+     "key": false
+    },
+    {
+     "text": "peace.",
+     "start": 40.679,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 41.982,
+   "end": 43.37,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Your",
+     "start": 41.982,
+     "key": false
+    },
+    {
+     "text": "daughter",
+     "start": 42.25,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 42.712,
+     "key": false
+    },
+    {
+     "text": "dead.",
+     "start": 42.883,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.37,
+   "end": 45.571,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Why",
+     "start": 43.37,
+     "key": false
+    },
+    {
+     "text": "bother",
+     "start": 43.589,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 43.954,
+     "key": false
+    },
+    {
+     "text": "teacher",
+     "start": 44.174,
+     "key": false
+    },
+    {
+     "text": "anymore?",
+     "start": 44.588,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 45.921,
+   "end": 47.048,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Don't",
+     "start": 45.921,
+     "key": false
+    },
+    {
+     "text": "be",
+     "start": 46.254,
+     "key": false
+    },
+    {
+     "text": "afraid.",
+     "start": 46.433,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 47.048,
+   "end": 48.346,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Just",
+     "start": 47.048,
+     "key": false
+    },
+    {
+     "text": "believe.",
+     "start": 47.33,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 48.896,
+   "end": 49.71,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "At",
+     "start": 48.896,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 49.068,
+     "key": false
+    },
+    {
+     "text": "house,",
+     "start": 49.29,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 49.71,
+   "end": 50.944,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "people",
+     "start": 49.71,
+     "key": false
+    },
+    {
+     "text": "were",
+     "start": 50.08,
+     "key": false
+    },
+    {
+     "text": "crying",
+     "start": 50.352,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 50.722,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 50.944,
+   "end": 52.252,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "wailing.",
+     "start": 50.944,
+     "key": false
+    },
+    {
+     "text": "He",
+     "start": 51.586,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 51.758,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 52.252,
+   "end": 53.239,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "She",
+     "start": 52.252,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 52.474,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 52.647,
+     "key": false
+    },
+    {
+     "text": "dead,",
+     "start": 52.869,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 53.239,
+   "end": 54.103,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "only",
+     "start": 53.239,
+     "key": false
+    },
+    {
+     "text": "asleep.",
+     "start": 53.511,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 54.103,
+   "end": 55.761,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "They",
+     "start": 54.103,
+     "key": false
+    },
+    {
+     "text": "laughed",
+     "start": 54.374,
+     "key": true
+    },
+    {
+     "text": "at",
+     "start": 54.794,
+     "key": false
+    },
+    {
+     "text": "him.",
+     "start": 54.967,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 56.011,
+   "end": 56.91,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 56.011,
+     "key": false
+    },
+    {
+     "text": "took",
+     "start": 56.196,
+     "key": false
+    },
+    {
+     "text": "her",
+     "start": 56.487,
+     "key": false
+    },
+    {
+     "text": "by",
+     "start": 56.725,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 56.91,
+   "end": 57.544,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 56.91,
+     "key": false
+    },
+    {
+     "text": "hand,",
+     "start": 57.148,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 57.544,
+   "end": 58.661,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 57.544,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 57.782,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.811,
+   "end": 59.837,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Talitha",
+     "start": 58.811,
+     "key": false
+    },
+    {
+     "text": "koum.",
+     "start": 59.282,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 59.837,
+   "end": 60.668,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Little",
+     "start": 59.837,
+     "key": false
+    },
+    {
+     "text": "girl,",
+     "start": 60.252,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 60.668,
+   "end": 61.611,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 60.668,
+     "key": false
+    },
+    {
+     "text": "say",
+     "start": 60.807,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 61.056,
+     "key": false
+    },
+    {
+     "text": "you,",
+     "start": 61.25,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 61.611,
+   "end": 62.654,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "get",
+     "start": 61.611,
+     "key": false
+    },
+    {
+     "text": "up.",
+     "start": 61.86,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 63.404,
+   "end": 64.877,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Immediately,",
+     "start": 63.404,
+     "key": false
+    },
+    {
+     "text": "she",
+     "start": 64.141,
+     "key": false
+    },
+    {
+     "text": "stood",
+     "start": 64.369,
+     "key": false
+    },
+    {
+     "text": "up",
+     "start": 64.7,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 64.877,
+   "end": 66.097,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 64.877,
+     "key": false
+    },
+    {
+     "text": "walked",
+     "start": 65.106,
+     "key": true
+    },
+    {
+     "text": "around.",
+     "start": 65.487,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 66.097,
+   "end": 68.074,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "She",
+     "start": 66.097,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 66.326,
+     "key": false
+    },
+    {
+     "text": "twelve",
+     "start": 66.555,
+     "key": true
+    },
+    {
+     "text": "years",
+     "start": 66.936,
+     "key": false
+    },
+    {
+     "text": "old.",
+     "start": 67.266,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 70.424,
+   "end": 72.238,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 70.424,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 70.823,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 71.062,
+     "key": false
+    },
+    {
+     "text": "nine.",
+     "start": 71.355,
+     "key": false
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 0.5,
+   "end": 6.386,
+   "text": "Back across the lake, a man pushed through the crowd. Jairus, a leader of the synagogue.",
+   "tempter": false
+  },
+  {
+   "start": 6.686,
+   "end": 10.987,
+   "text": "My little daughter is dying. Please, come and put your hands on her, so she will live.",
+   "tempter": false
+  },
+  {
+   "start": 11.487,
+   "end": 15.587,
+   "text": "Jesus went with him. And the crowd pressed in on every side.",
+   "tempter": false
+  },
+  {
+   "start": 15.887,
+   "end": 23.649,
+   "text": "In the crowd was a woman who had been bleeding for twelve years. She had spent everything on doctors, and only got worse.",
+   "tempter": false
+  },
+  {
+   "start": 23.949,
+   "end": 26.471,
+   "text": "If I just touch his clothes, I will be healed.",
+   "tempter": false
+  },
+  {
+   "start": 26.871,
+   "end": 31.582,
+   "text": "She reached out, and touched his robe. Immediately, the bleeding stopped.",
+   "tempter": false
+  },
+  {
+   "start": 32.382,
+   "end": 33.859,
+   "text": "Who touched my clothes?",
+   "tempter": false
+  },
+  {
+   "start": 34.459,
+   "end": 37.925,
+   "text": "Trembling, she fell at his feet, and told him everything.",
+   "tempter": false
+  },
+  {
+   "start": 38.325,
+   "end": 41.282,
+   "text": "Daughter, your faith has healed you. Go in peace.",
+   "tempter": false
+  },
+  {
+   "start": 41.982,
+   "end": 45.321,
+   "text": "Your daughter is dead. Why bother the teacher anymore?",
+   "tempter": false
+  },
+  {
+   "start": 45.921,
+   "end": 48.096,
+   "text": "Don't be afraid. Just believe.",
+   "tempter": false
+  },
+  {
+   "start": 48.896,
+   "end": 55.511,
+   "text": "At the house, people were crying and wailing. He said: She is not dead, only asleep. They laughed at him.",
+   "tempter": false
+  },
+  {
+   "start": 56.011,
+   "end": 58.411,
+   "text": "He took her by the hand, and said:",
+   "tempter": false
+  },
+  {
+   "start": 58.811,
+   "end": 62.404,
+   "text": "Talitha koum. Little girl, I say to you, get up.",
+   "tempter": false
+  },
+  {
+   "start": 63.404,
+   "end": 67.824,
+   "text": "Immediately, she stood up and walked around. She was twelve years old.",
+   "tempter": false
+  },
+  {
+   "start": 68.724,
+   "end": 71.988,
+   "text": "Follow for part nine.",
+   "tempter": false
+  }
+ ]
+}
