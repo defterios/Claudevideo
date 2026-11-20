@@ -114,3 +114,8 @@ one big moment (the divided house). Script `script_ep5.py`, cues `sound_ep5.py`;
 # Jesus series, Episode 6 — "The Storm" (Mark 4), TikTok only, lit-room cartoon style
 Composition `StormTall` (`src/v13/`): sower + seeds (cut on path/rock/thorns), 30×/60×/100× counter, mustard seed → tree,
 storm with a match cut into stillness on "still" (the one big moment). Script `script_ep6.py`, cues `sound_ep6.py`.
+
+---
+# Jesus series, Episode 7 — "Legion" (Mark 5:1-20), TikTok only, lit-room cartoon style
+Composition `LegionTall` (`src/v14/`): tombs + chains, Legion's eyes multiplying, the herd rushing into the sea (big moment).
+Script `script_ep7.py`, cues `sound_ep7.py`; `EP=7 DUCK=0.7 MUSIC_GAIN=1.5 SFX_GAIN=1.6 python3 scripts/wilderness/build.py <build dir>`.
