@@ -172,6 +172,24 @@ LINES9 = [  # episode 9 (clean take)
     ("Onak murit Joanis meh neg, mit gonan eh, ju meh ngubur.", 97.9, 102.6, ["ngubur"], {"tomb": "ngubur"}),
     ("Nuna koih suo part 10.", 103.6, 105.3, ["Nuna"], {}),
 ]
+LINES10 = [  # episode 10 (clean take)
+    ("Para Rasul meh pari ju meh tanon nudu Jesus suo kroja de meh nai nya munu.", 2.15, 7.65, ["Rasul"], {}),
+    ("", 8.0, 14.05, ["motug"], {}),
+    ("Pak eh bogo nyaa kirin eh, jadi nyaa munu meh die ponu poon ke topat inuh. 5000 urang manusia.", 15.0, 22.45, ["5000"], {"five": "5000", "thousand": "5000"}),
+    ("Takar Jesus meh kirin nyaa kajen yeh, meh ruop nyam otin eh masi ninga nya munu. De meh koda koming de doi gembara eh.", 23.3, 31.2, ["masi", "gembara"], {}),
+    ("", 31.95, 35.55, ["ramat"], {}),
+    ("", 36.1, 38.5, ["Dop"], {}),
+    ("", 39.25, 43.0, ["5", "2"], {"five": "5", "two": "2"}),
+    ("Yeh meh bigaeng ke rongit, ngin trima kasih de Topa, ju meh nyipiek ruti de munu.", 43.65, 49.2, ["rongit", "nyipiek"], {"broke": "nyipiek"}),
+    ("Meh doi poted-poted tia pinguman. Suo nya daped geh man, meh sukup busuoh. Gi ogi geh 12 ade bakur de masih punuo da pinguman.", 50.7, 59.5, ["potedpoted", "12"], {"going": "poted-poted", "twelve": "12"}),
+    ("Ngaruom inuh, Jesus rasu da onak murid eh maad pakai orud, ju Yeh meh jikeh pungu sadi eh ngan Eh rie smayang.", 60.7, 67.75, ["smayang"], {}),
+    ("Sobak ribut skia doras. Bijam jam nya munu bikayuh.", 68.45, 72.15, ["ribut", "bikayuh"], {}),
+    ("Ngaran pukul 3 sipagi, nya munu meh kirin sibamie ponu de tun piin.", 73.0, 78.1, ["ponu", "piin"], {"walking": "ponu", "water": "piin"}),
+    ("", 78.5, 80.5, ["munuo"], {"ghost": "munuo"}),
+    ("", 81.45, 85.9, ["itih", "toru"], {"i": "itih"}),
+    ("Jesus meh maad kang orud, ju sobak rasu re. Nya munu meh gogeh ninga Kiasa Eh.", 87.0, 92.85, ["re", "Kiasa"], {"stopped": "re"}),
+    ("Nuna koih suo part 11.", 94.2, 96.5, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
@@ -199,6 +217,12 @@ PARTS = {
     (9, 11): [("Simun-mun koyuh de mitie mu ngin ku geh. Aropun stongah negri ku.", 74.1, 78.8, "herod")],
     (9, 12): [("Oni de rie mitie ku yeh?", 79.65, 81.75, "girl")],
     (9, 13): [("Oku ran bak Joanis Baptista.", 82.35, 84.85, "queen")],
+    (10, 1): [("Get nuna Oku ke topat de motug de doi nyaa dang eh, sa te daped re'e ni tirie.", 8.0, 14.05, "jesus")],
+    (10, 4): [("Onu meh ramat. Da nya muti pari die karik pinguman.", 31.95, 35.55, "disciple")],
+    (10, 5): [("Dop ingan ngin pinguman duoh eh.", 36.1, 38.5, "jesus")],
+    (10, 6): [("Otto jek ogi 5 kruang ruti, 2 porong kien.", 39.25, 43.0, "disciple")],
+    (10, 12): [("Ai munuo tu inuh neh!", 78.5, 80.5, "disciple")],
+    (10, 13): [("Ma naru dep ingan. Oku itih neh. Ma toru.", 81.45, 85.9, "jesus")],
     (6, 1): [("Ogi nyaa motak dabur ruang koyuh de rie puruh eh.", 8.4, 11.3, "jesus")],
     (6, 2): [("Ogi ruang de rabu dang oran, ju manuk meh neg man eh. Ogi de rabu de batuh, asa onu meh putiek yeh meh korong. Ogi geh de rabu de tana de boge koyuh de roja, ju meh obuoh kup meh doi ponai rie bibua.", 11.3, 26.3, "jesus")],
     (6, 3): [("Pak ogi geh de rabu de tana de buog-mamuo. Ju meh bibua. 30, 60, 100 sideh.", 26.35, 34.6, "jesus")],
@@ -238,6 +262,8 @@ if EP == 8:
     LINES = LINES8
 if EP == 9:
     LINES = LINES9
+if EP == 10:
+    LINES = LINES10
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}

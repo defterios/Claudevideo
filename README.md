@@ -129,3 +129,8 @@ Script `script_ep8.py`, cues `sound_ep8.py`, Bidayuh lines `LINES8`; build with 
 # Jesus series, Episode 9 — "A Prophet Without Honor" (Mark 6:1-29), TikTok only
 Compositions `ProphetTall` / `ProphetTallBdy` (`src/v16/`): Nazareth (carpenter flashback), the twelve sent out, Herod's feast,
 John's death shown only as a candle going out. Script `script_ep9.py`, cues `sound_ep9.py`, Bidayuh `LINES9`.
+
+---
+# Jesus series, Episode 10 — "Walking on Water" (Mark 6:30-56), TikTok only
+Compositions `WaterTall` / `WaterTallBdy` (`src/v17/`): 5000, five loaves + two fish, the bread breaks, twelve baskets,
+rowing at night, the figure on the water, "It is I", the wind stops. Script `script_ep10.py`, cues `sound_ep10.py`, Bidayuh `LINES10`.
