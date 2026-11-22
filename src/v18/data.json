@@ -1,0 +1,2923 @@
+{
+ "duration": 87.108,
+ "scenes": [
+  {
+   "id": "hands",
+   "start": 0.0,
+   "segs": [
+    0.5
+   ],
+   "w": {
+    "the": 0.5,
+    "pharisees": 0.773,
+    "saw": 1.409,
+    "his": 1.682,
+    "disciples": 1.955,
+    "eating": 2.591,
+    "with": 3.046,
+    "unwashed": 3.379,
+    "hands": 3.955
+   },
+   "end": 4.742,
+   "ws": [
+    [
+     "the",
+     0.5
+    ],
+    [
+     "pharisees",
+     0.773
+    ],
+    [
+     "saw",
+     1.409
+    ],
+    [
+     "his",
+     1.682
+    ],
+    [
+     "disciples",
+     1.955
+    ],
+    [
+     "eating",
+     2.591
+    ],
+    [
+     "with",
+     3.046
+    ],
+    [
+     "unwashed",
+     3.379
+    ],
+    [
+     "hands",
+     3.955
+    ]
+   ]
+  },
+  {
+   "id": "tradition",
+   "start": 4.742,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "why": 0.28,
+    "don't": 0.514,
+    "your": 0.852,
+    "disciples": 1.138,
+    "follow": 1.684,
+    "the": 2.074,
+    "tradition": 2.308,
+    "of": 2.854,
+    "elders": 3.27
+   },
+   "end": 8.856,
+   "ws": [
+    [
+     "why",
+     0.28
+    ],
+    [
+     "don't",
+     0.514
+    ],
+    [
+     "your",
+     0.852
+    ],
+    [
+     "disciples",
+     1.138
+    ],
+    [
+     "follow",
+     1.684
+    ],
+    [
+     "the",
+     2.074
+    ],
+    [
+     "tradition",
+     2.308
+    ],
+    [
+     "of",
+     2.854
+    ],
+    [
+     "the",
+     3.036
+    ],
+    [
+     "elders",
+     3.27
+    ]
+   ]
+  },
+  {
+   "id": "rules",
+   "start": 8.856,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "you": 0.28,
+    "hold": 0.548,
+    "on": 0.876,
+    "to": 1.085,
+    "human": 1.293,
+    "rules": 1.68,
+    "and": 2.187,
+    "let": 2.455,
+    "go": 2.723,
+    "of": 2.931,
+    "the": 3.14,
+    "command": 3.408,
+    "god": 4.123
+   },
+   "end": 13.835,
+   "ws": [
+    [
+     "you",
+     0.28
+    ],
+    [
+     "hold",
+     0.548
+    ],
+    [
+     "on",
+     0.876
+    ],
+    [
+     "to",
+     1.085
+    ],
+    [
+     "human",
+     1.293
+    ],
+    [
+     "rules",
+     1.68
+    ],
+    [
+     "and",
+     2.187
+    ],
+    [
+     "let",
+     2.455
+    ],
+    [
+     "go",
+     2.723
+    ],
+    [
+     "of",
+     2.931
+    ],
+    [
+     "the",
+     3.14
+    ],
+    [
+     "command",
+     3.408
+    ],
+    [
+     "of",
+     3.915
+    ],
+    [
+     "god",
+     4.123
+    ]
+   ]
+  },
+  {
+   "id": "heart",
+   "start": 13.835,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "nothing": 0.28,
+    "that": 0.737,
+    "goes": 1.032,
+    "into": 1.328,
+    "a": 1.623,
+    "person": 1.757,
+    "can": 2.16,
+    "make": 2.402,
+    "them": 2.698,
+    "unclean": 2.993,
+    "it": 3.691,
+    "is": 3.879,
+    "what": 4.067,
+    "comes": 4.363,
+    "out": 4.712,
+    "of": 4.954,
+    "the": 5.142,
+    "heart": 5.384
+   },
+   "end": 20.329,
+   "ws": [
+    [
+     "nothing",
+     0.28
+    ],
+    [
+     "that",
+     0.737
+    ],
+    [
+     "goes",
+     1.032
+    ],
+    [
+     "into",
+     1.328
+    ],
+    [
+     "a",
+     1.623
+    ],
+    [
+     "person",
+     1.757
+    ],
+    [
+     "can",
+     2.16
+    ],
+    [
+     "make",
+     2.402
+    ],
+    [
+     "them",
+     2.698
+    ],
+    [
+     "unclean",
+     2.993
+    ],
+    [
+     "it",
+     3.691
+    ],
+    [
+     "is",
+     3.879
+    ],
+    [
+     "what",
+     4.067
+    ],
+    [
+     "comes",
+     4.363
+    ],
+    [
+     "out",
+     4.712
+    ],
+    [
+     "of",
+     4.954
+    ],
+    [
+     "the",
+     5.142
+    ],
+    [
+     "heart",
+     5.384
+    ]
+   ]
+  },
+  {
+   "id": "tyre",
+   "start": 20.329,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "then": 0.28,
+    "he": 0.557,
+    "went": 0.733,
+    "to": 1.009,
+    "the": 1.185,
+    "region": 1.411,
+    "of": 1.788,
+    "tyre": 1.964,
+    "a": 2.467,
+    "foreign": 2.593,
+    "woman": 3.02,
+    "fell": 3.347,
+    "at": 3.623,
+    "his": 3.799,
+    "feet": 4.025
+   },
+   "end": 24.977,
+   "ws": [
+    [
+     "then",
+     0.28
+    ],
+    [
+     "he",
+     0.557
+    ],
+    [
+     "went",
+     0.733
+    ],
+    [
+     "to",
+     1.009
+    ],
+    [
+     "the",
+     1.185
+    ],
+    [
+     "region",
+     1.411
+    ],
+    [
+     "of",
+     1.788
+    ],
+    [
+     "tyre",
+     1.964
+    ],
+    [
+     "a",
+     2.467
+    ],
+    [
+     "foreign",
+     2.593
+    ],
+    [
+     "woman",
+     3.02
+    ],
+    [
+     "fell",
+     3.347
+    ],
+    [
+     "at",
+     3.623
+    ],
+    [
+     "his",
+     3.799
+    ],
+    [
+     "feet",
+     4.025
+    ]
+   ]
+  },
+  {
+   "id": "plea",
+   "start": 24.977,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "please": 0.28,
+    "my": 1.087,
+    "little": 1.323,
+    "daughter": 1.827,
+    "has": 2.466,
+    "an": 2.769,
+    "evil": 3.005,
+    "spirit": 3.375
+   },
+   "end": 29.379,
+   "ws": [
+    [
+     "please",
+     0.28
+    ],
+    [
+     "my",
+     1.087
+    ],
+    [
+     "little",
+     1.323
+    ],
+    [
+     "daughter",
+     1.827
+    ],
+    [
+     "has",
+     2.466
+    ],
+    [
+     "an",
+     2.769
+    ],
+    [
+     "evil",
+     3.005
+    ],
+    [
+     "spirit",
+     3.375
+    ]
+   ]
+  },
+  {
+   "id": "bread",
+   "start": 29.379,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "first": 0.28,
+    "let": 0.621,
+    "the": 0.857,
+    "children": 1.093,
+    "eat": 1.591,
+    "it": 2.063,
+    "is": 2.247,
+    "not": 2.43,
+    "right": 2.666,
+    "to": 3.007,
+    "take": 3.191,
+    "children's": 3.715,
+    "bread": 4.318,
+    "and": 4.659,
+    "throw": 4.895,
+    "dogs": 5.839
+   },
+   "end": 36.062,
+   "ws": [
+    [
+     "first",
+     0.28
+    ],
+    [
+     "let",
+     0.621
+    ],
+    [
+     "the",
+     0.857
+    ],
+    [
+     "children",
+     1.093
+    ],
+    [
+     "eat",
+     1.591
+    ],
+    [
+     "it",
+     2.063
+    ],
+    [
+     "is",
+     2.247
+    ],
+    [
+     "not",
+     2.43
+    ],
+    [
+     "right",
+     2.666
+    ],
+    [
+     "to",
+     3.007
+    ],
+    [
+     "take",
+     3.191
+    ],
+    [
+     "the",
+     3.479
+    ],
+    [
+     "children's",
+     3.715
+    ],
+    [
+     "bread",
+     4.318
+    ],
+    [
+     "and",
+     4.659
+    ],
+    [
+     "throw",
+     4.895
+    ],
+    [
+     "it",
+     5.236
+    ],
+    [
+     "to",
+     5.419
+    ],
+    [
+     "the",
+     5.603
+    ],
+    [
+     "dogs",
+     5.839
+    ]
+   ]
+  },
+  {
+   "id": "crumbs",
+   "start": 36.062,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "yes": 0.28,
+    "lord": 0.752,
+    "but": 1.477,
+    "even": 1.803,
+    "the": 2.202,
+    "dogs": 2.529,
+    "under": 2.927,
+    "table": 3.725,
+    "eat": 4.197,
+    "children's": 4.849,
+    "crumbs": 5.684
+   },
+   "end": 43.036,
+   "ws": [
+    [
+     "yes",
+     0.28
+    ],
+    [
+     "lord",
+     0.752
+    ],
+    [
+     "but",
+     1.477
+    ],
+    [
+     "even",
+     1.803
+    ],
+    [
+     "the",
+     2.202
+    ],
+    [
+     "dogs",
+     2.529
+    ],
+    [
+     "under",
+     2.927
+    ],
+    [
+     "the",
+     3.399
+    ],
+    [
+     "table",
+     3.725
+    ],
+    [
+     "eat",
+     4.197
+    ],
+    [
+     "the",
+     4.523
+    ],
+    [
+     "children's",
+     4.849
+    ],
+    [
+     "crumbs",
+     5.684
+    ]
+   ]
+  },
+  {
+   "id": "reply",
+   "start": 43.036,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "for": 0.28,
+    "such": 0.518,
+    "a": 0.81,
+    "reply": 0.942,
+    "you": 1.393,
+    "may": 1.631,
+    "go": 1.87,
+    "the": 2.294,
+    "demon": 2.533,
+    "has": 2.877,
+    "left": 3.116,
+    "your": 3.407,
+    "daughter": 3.699
+   },
+   "end": 47.797,
+   "ws": [
+    [
+     "for",
+     0.28
+    ],
+    [
+     "such",
+     0.518
+    ],
+    [
+     "a",
+     0.81
+    ],
+    [
+     "reply",
+     0.942
+    ],
+    [
+     "you",
+     1.393
+    ],
+    [
+     "may",
+     1.631
+    ],
+    [
+     "go",
+     1.87
+    ],
+    [
+     "the",
+     2.294
+    ],
+    [
+     "demon",
+     2.533
+    ],
+    [
+     "has",
+     2.877
+    ],
+    [
+     "left",
+     3.116
+    ],
+    [
+     "your",
+     3.407
+    ],
+    [
+     "daughter",
+     3.699
+    ]
+   ]
+  },
+  {
+   "id": "home",
+   "start": 47.797,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "she": 0.28,
+    "went": 0.526,
+    "home": 0.826,
+    "and": 1.236,
+    "found": 1.482,
+    "her": 1.838,
+    "child": 2.083,
+    "lying": 2.439,
+    "on": 2.794,
+    "the": 2.985,
+    "bed": 3.231,
+    "demon": 3.969,
+    "was": 4.325,
+    "gone": 4.571
+   },
+   "end": 53.534,
+   "ws": [
+    [
+     "she",
+     0.28
+    ],
+    [
+     "went",
+     0.526
+    ],
+    [
+     "home",
+     0.826
+    ],
+    [
+     "and",
+     1.236
+    ],
+    [
+     "found",
+     1.482
+    ],
+    [
+     "her",
+     1.838
+    ],
+    [
+     "child",
+     2.083
+    ],
+    [
+     "lying",
+     2.439
+    ],
+    [
+     "on",
+     2.794
+    ],
+    [
+     "the",
+     2.985
+    ],
+    [
+     "bed",
+     3.231
+    ],
+    [
+     "the",
+     3.723
+    ],
+    [
+     "demon",
+     3.969
+    ],
+    [
+     "was",
+     4.325
+    ],
+    [
+     "gone",
+     4.571
+    ]
+   ]
+  },
+  {
+   "id": "deaf",
+   "start": 53.534,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "then": 0.28,
+    "some": 0.553,
+    "people": 0.826,
+    "brought": 1.198,
+    "him": 1.619,
+    "a": 1.843,
+    "man": 1.967,
+    "who": 2.19,
+    "was": 2.413,
+    "deaf": 2.636,
+    "and": 3.008,
+    "could": 3.232,
+    "hardly": 3.554,
+    "speak": 3.926
+   },
+   "end": 58.226,
+   "ws": [
+    [
+     "then",
+     0.28
+    ],
+    [
+     "some",
+     0.553
+    ],
+    [
+     "people",
+     0.826
+    ],
+    [
+     "brought",
+     1.198
+    ],
+    [
+     "him",
+     1.619
+    ],
+    [
+     "a",
+     1.843
+    ],
+    [
+     "man",
+     1.967
+    ],
+    [
+     "who",
+     2.19
+    ],
+    [
+     "was",
+     2.413
+    ],
+    [
+     "deaf",
+     2.636
+    ],
+    [
+     "and",
+     3.008
+    ],
+    [
+     "could",
+     3.232
+    ],
+    [
+     "hardly",
+     3.554
+    ],
+    [
+     "speak",
+     3.926
+    ]
+   ]
+  },
+  {
+   "id": "aside",
+   "start": 58.226,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "jesus": 0.28,
+    "took": 0.63,
+    "him": 0.927,
+    "aside": 1.17,
+    "away": 1.628,
+    "from": 1.925,
+    "the": 2.222,
+    "crowd": 2.465,
+    "he": 3.058,
+    "put": 3.247,
+    "his": 3.49,
+    "fingers": 3.732,
+    "in": 4.191,
+    "ears": 4.622,
+    "and": 5.027,
+    "touched": 5.27,
+    "tongue": 5.971
+   },
+   "end": 65.064,
+   "ws": [
+    [
+     "jesus",
+     0.28
+    ],
+    [
+     "took",
+     0.63
+    ],
+    [
+     "him",
+     0.927
+    ],
+    [
+     "aside",
+     1.17
+    ],
+    [
+     "away",
+     1.628
+    ],
+    [
+     "from",
+     1.925
+    ],
+    [
+     "the",
+     2.222
+    ],
+    [
+     "crowd",
+     2.465
+    ],
+    [
+     "he",
+     3.058
+    ],
+    [
+     "put",
+     3.247
+    ],
+    [
+     "his",
+     3.49
+    ],
+    [
+     "fingers",
+     3.732
+    ],
+    [
+     "in",
+     4.191
+    ],
+    [
+     "his",
+     4.38
+    ],
+    [
+     "ears",
+     4.622
+    ],
+    [
+     "and",
+     5.027
+    ],
+    [
+     "touched",
+     5.27
+    ],
+    [
+     "his",
+     5.728
+    ],
+    [
+     "tongue",
+     5.971
+    ]
+   ]
+  },
+  {
+   "id": "sigh",
+   "start": 65.064,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "looked": 0.467,
+    "up": 0.868,
+    "to": 1.055,
+    "heaven": 1.241,
+    "sighed": 1.749,
+    "deeply": 2.149,
+    "and": 2.656,
+    "said": 2.896
+   },
+   "end": 68.814,
+   "ws": [
+    [
+     "he",
+     0.28
+    ],
+    [
+     "looked",
+     0.467
+    ],
+    [
+     "up",
+     0.868
+    ],
+    [
+     "to",
+     1.055
+    ],
+    [
+     "heaven",
+     1.241
+    ],
+    [
+     "sighed",
+     1.749
+    ],
+    [
+     "deeply",
+     2.149
+    ],
+    [
+     "and",
+     2.656
+    ],
+    [
+     "said",
+     2.896
+    ]
+   ]
+  },
+  {
+   "id": "open",
+   "start": 68.814,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "ephphatha": 0.28,
+    "be": 1.09,
+    "opened": 1.279
+   },
+   "end": 71.561,
+   "ws": [
+    [
+     "ephphatha",
+     0.28
+    ],
+    [
+     "be",
+     1.09
+    ],
+    [
+     "opened",
+     1.279
+    ]
+   ]
+  },
+  {
+   "id": "speak",
+   "start": 71.561,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "immediately": 0.28,
+    "his": 0.956,
+    "ears": 1.199,
+    "were": 1.496,
+    "opened": 1.793,
+    "and": 2.306,
+    "tongue": 2.792,
+    "was": 3.198,
+    "set": 3.441,
+    "free": 3.684,
+    "he": 4.224,
+    "began": 4.413,
+    "to": 4.764,
+    "speak": 4.953,
+    "plainly": 5.305
+   },
+   "end": 77.888,
+   "ws": [
+    [
+     "immediately",
+     0.28
+    ],
+    [
+     "his",
+     0.956
+    ],
+    [
+     "ears",
+     1.199
+    ],
+    [
+     "were",
+     1.496
+    ],
+    [
+     "opened",
+     1.793
+    ],
+    [
+     "and",
+     2.306
+    ],
+    [
+     "his",
+     2.549
+    ],
+    [
+     "tongue",
+     2.792
+    ],
+    [
+     "was",
+     3.198
+    ],
+    [
+     "set",
+     3.441
+    ],
+    [
+     "free",
+     3.684
+    ],
+    [
+     "he",
+     4.224
+    ],
+    [
+     "began",
+     4.413
+    ],
+    [
+     "to",
+     4.764
+    ],
+    [
+     "speak",
+     4.953
+    ],
+    [
+     "plainly",
+     5.305
+    ]
+   ]
+  },
+  {
+   "id": "well",
+   "start": 77.888,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "has": 0.416,
+    "done": 0.59,
+    "everything": 0.803,
+    "well": 1.249,
+    "even": 1.772,
+    "makes": 1.985,
+    "the": 2.237,
+    "deaf": 2.412,
+    "hear": 2.625,
+    "and": 2.916,
+    "mute": 3.265,
+    "speak": 3.478
+   },
+   "end": 82.512,
+   "ws": [
+    [
+     "he",
+     0.28
+    ],
+    [
+     "has",
+     0.416
+    ],
+    [
+     "done",
+     0.59
+    ],
+    [
+     "everything",
+     0.803
+    ],
+    [
+     "well",
+     1.249
+    ],
+    [
+     "he",
+     1.637
+    ],
+    [
+     "even",
+     1.772
+    ],
+    [
+     "makes",
+     1.985
+    ],
+    [
+     "the",
+     2.237
+    ],
+    [
+     "deaf",
+     2.412
+    ],
+    [
+     "hear",
+     2.625
+    ],
+    [
+     "and",
+     2.916
+    ],
+    [
+     "the",
+     3.09
+    ],
+    [
+     "mute",
+     3.265
+    ],
+    [
+     "speak",
+     3.478
+    ]
+   ]
+  },
+  {
+   "id": "end",
+   "start": 82.512,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "follow": 1.98,
+    "for": 2.366,
+    "part": 2.597,
+    "twelve": 2.879
+   },
+   "end": 87.108,
+   "ws": [
+    [
+     "follow",
+     1.98
+    ],
+    [
+     "for",
+     2.366
+    ],
+    [
+     "part",
+     2.597
+    ],
+    [
+     "twelve",
+     2.879
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.955,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "Pharisees",
+     "start": 0.773,
+     "key": false
+    },
+    {
+     "text": "saw",
+     "start": 1.409,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 1.682,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.955,
+   "end": 4.972,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "disciples",
+     "start": 1.955,
+     "key": false
+    },
+    {
+     "text": "eating",
+     "start": 2.591,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 3.046,
+     "key": false
+    },
+    {
+     "text": "unwashed",
+     "start": 3.379,
+     "key": true
+    },
+    {
+     "text": "hands.",
+     "start": 3.955,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.022,
+   "end": 6.426,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Why",
+     "start": 5.022,
+     "key": false
+    },
+    {
+     "text": "don't",
+     "start": 5.256,
+     "key": false
+    },
+    {
+     "text": "your",
+     "start": 5.594,
+     "key": false
+    },
+    {
+     "text": "disciples",
+     "start": 5.88,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.426,
+   "end": 7.778,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "follow",
+     "start": 6.426,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 6.816,
+     "key": false
+    },
+    {
+     "text": "tradition",
+     "start": 7.05,
+     "key": true
+    },
+    {
+     "text": "of",
+     "start": 7.596,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 7.778,
+   "end": 8.986,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 7.778,
+     "key": false
+    },
+    {
+     "text": "elders?",
+     "start": 8.012,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.136,
+   "end": 10.149,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "You",
+     "start": 9.136,
+     "key": false
+    },
+    {
+     "text": "hold",
+     "start": 9.404,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 9.732,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 9.941,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.149,
+   "end": 11.043,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "human",
+     "start": 10.149,
+     "key": true
+    },
+    {
+     "text": "rules,",
+     "start": 10.536,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.043,
+   "end": 11.996,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.043,
+     "key": false
+    },
+    {
+     "text": "let",
+     "start": 11.311,
+     "key": false
+    },
+    {
+     "text": "go",
+     "start": 11.579,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 11.787,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.996,
+   "end": 13.865,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 11.996,
+     "key": false
+    },
+    {
+     "text": "command",
+     "start": 12.264,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 12.771,
+     "key": false
+    },
+    {
+     "text": "God.",
+     "start": 12.979,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 14.115,
+   "end": 15.458,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Nothing",
+     "start": 14.115,
+     "key": true
+    },
+    {
+     "text": "that",
+     "start": 14.572,
+     "key": false
+    },
+    {
+     "text": "goes",
+     "start": 14.867,
+     "key": false
+    },
+    {
+     "text": "into",
+     "start": 15.163,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.458,
+   "end": 16.533,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 15.458,
+     "key": false
+    },
+    {
+     "text": "person",
+     "start": 15.592,
+     "key": false
+    },
+    {
+     "text": "can",
+     "start": 15.995,
+     "key": false
+    },
+    {
+     "text": "make",
+     "start": 16.237,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.533,
+   "end": 17.526,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "them",
+     "start": 16.533,
+     "key": false
+    },
+    {
+     "text": "unclean.",
+     "start": 16.828,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.526,
+   "end": 18.547,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "It",
+     "start": 17.526,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 17.714,
+     "key": false
+    },
+    {
+     "text": "what",
+     "start": 17.902,
+     "key": false
+    },
+    {
+     "text": "comes",
+     "start": 18.198,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.547,
+   "end": 20.159,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "out",
+     "start": 18.547,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 18.789,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 18.977,
+     "key": false
+    },
+    {
+     "text": "heart.",
+     "start": 19.219,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 20.609,
+   "end": 21.514,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 20.609,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 20.886,
+     "key": false
+    },
+    {
+     "text": "went",
+     "start": 21.062,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 21.338,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.514,
+   "end": 22.796,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 21.514,
+     "key": false
+    },
+    {
+     "text": "region",
+     "start": 21.74,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 22.117,
+     "key": false
+    },
+    {
+     "text": "Tyre.",
+     "start": 22.293,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 22.796,
+   "end": 23.952,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "A",
+     "start": 22.796,
+     "key": false
+    },
+    {
+     "text": "foreign",
+     "start": 22.922,
+     "key": true
+    },
+    {
+     "text": "woman",
+     "start": 23.349,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 23.676,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 23.952,
+   "end": 25.207,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "at",
+     "start": 23.952,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 24.128,
+     "key": false
+    },
+    {
+     "text": "feet.",
+     "start": 24.354,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.257,
+   "end": 27.443,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Please.",
+     "start": 25.257,
+     "key": false
+    },
+    {
+     "text": "My",
+     "start": 26.064,
+     "key": false
+    },
+    {
+     "text": "little",
+     "start": 26.3,
+     "key": false
+    },
+    {
+     "text": "daughter",
+     "start": 26.804,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 27.443,
+   "end": 29.509,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "has",
+     "start": 27.443,
+     "key": false
+    },
+    {
+     "text": "an",
+     "start": 27.746,
+     "key": false
+    },
+    {
+     "text": "evil",
+     "start": 27.982,
+     "key": false
+    },
+    {
+     "text": "spirit.",
+     "start": 28.352,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.659,
+   "end": 30.97,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "First",
+     "start": 29.659,
+     "key": false
+    },
+    {
+     "text": "let",
+     "start": 30.0,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 30.236,
+     "key": false
+    },
+    {
+     "text": "children",
+     "start": 30.472,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 30.97,
+   "end": 32.045,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "eat.",
+     "start": 30.97,
+     "key": false
+    },
+    {
+     "text": "It",
+     "start": 31.442,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 31.626,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 31.809,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 32.045,
+   "end": 33.094,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "right",
+     "start": 32.045,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 32.386,
+     "key": false
+    },
+    {
+     "text": "take",
+     "start": 32.57,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 32.858,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 33.094,
+   "end": 34.615,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "children's",
+     "start": 33.094,
+     "key": false
+    },
+    {
+     "text": "bread",
+     "start": 33.697,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 34.038,
+     "key": false
+    },
+    {
+     "text": "throw",
+     "start": 34.274,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 34.615,
+   "end": 36.092,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "it",
+     "start": 34.615,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 34.798,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 34.982,
+     "key": false
+    },
+    {
+     "text": "dogs.",
+     "start": 35.218,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 36.342,
+   "end": 37.539,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Yes,",
+     "start": 36.342,
+     "key": false
+    },
+    {
+     "text": "Lord.",
+     "start": 36.814,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 37.539,
+   "end": 38.989,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "But",
+     "start": 37.539,
+     "key": false
+    },
+    {
+     "text": "even",
+     "start": 37.865,
+     "key": true
+    },
+    {
+     "text": "the",
+     "start": 38.264,
+     "key": false
+    },
+    {
+     "text": "dogs",
+     "start": 38.591,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 38.989,
+   "end": 40.585,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "under",
+     "start": 38.989,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 39.461,
+     "key": false
+    },
+    {
+     "text": "table",
+     "start": 39.787,
+     "key": false
+    },
+    {
+     "text": "eat",
+     "start": 40.259,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.585,
+   "end": 42.966,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 40.585,
+     "key": false
+    },
+    {
+     "text": "children's",
+     "start": 40.911,
+     "key": false
+    },
+    {
+     "text": "crumbs.",
+     "start": 41.746,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.316,
+   "end": 44.429,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "For",
+     "start": 43.316,
+     "key": false
+    },
+    {
+     "text": "such",
+     "start": 43.554,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 43.846,
+     "key": false
+    },
+    {
+     "text": "reply,",
+     "start": 43.978,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 44.429,
+   "end": 45.33,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "you",
+     "start": 44.429,
+     "key": false
+    },
+    {
+     "text": "may",
+     "start": 44.667,
+     "key": false
+    },
+    {
+     "text": "go.",
+     "start": 44.906,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 45.33,
+   "end": 46.443,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 45.33,
+     "key": false
+    },
+    {
+     "text": "demon",
+     "start": 45.569,
+     "key": false
+    },
+    {
+     "text": "has",
+     "start": 45.913,
+     "key": false
+    },
+    {
+     "text": "left",
+     "start": 46.152,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 46.443,
+   "end": 47.827,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "your",
+     "start": 46.443,
+     "key": false
+    },
+    {
+     "text": "daughter.",
+     "start": 46.735,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 48.077,
+   "end": 49.033,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "She",
+     "start": 48.077,
+     "key": false
+    },
+    {
+     "text": "went",
+     "start": 48.323,
+     "key": false
+    },
+    {
+     "text": "home,",
+     "start": 48.623,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 49.033,
+   "end": 50.236,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 49.033,
+     "key": false
+    },
+    {
+     "text": "found",
+     "start": 49.279,
+     "key": false
+    },
+    {
+     "text": "her",
+     "start": 49.635,
+     "key": false
+    },
+    {
+     "text": "child",
+     "start": 49.88,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 50.236,
+   "end": 51.52,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "lying",
+     "start": 50.236,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 50.591,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 50.782,
+     "key": false
+    },
+    {
+     "text": "bed.",
+     "start": 51.028,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 51.52,
+   "end": 53.264,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 51.52,
+     "key": false
+    },
+    {
+     "text": "demon",
+     "start": 51.766,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 52.122,
+     "key": false
+    },
+    {
+     "text": "gone.",
+     "start": 52.368,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 53.814,
+   "end": 55.153,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Then",
+     "start": 53.814,
+     "key": false
+    },
+    {
+     "text": "some",
+     "start": 54.087,
+     "key": false
+    },
+    {
+     "text": "people",
+     "start": 54.36,
+     "key": false
+    },
+    {
+     "text": "brought",
+     "start": 54.732,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 55.153,
+   "end": 55.947,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "him",
+     "start": 55.153,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 55.377,
+     "key": false
+    },
+    {
+     "text": "man",
+     "start": 55.501,
+     "key": false
+    },
+    {
+     "text": "who",
+     "start": 55.724,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 55.947,
+   "end": 56.542,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "was",
+     "start": 55.947,
+     "key": false
+    },
+    {
+     "text": "deaf,",
+     "start": 56.17,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 56.542,
+   "end": 58.356,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 56.542,
+     "key": false
+    },
+    {
+     "text": "could",
+     "start": 56.766,
+     "key": false
+    },
+    {
+     "text": "hardly",
+     "start": 57.088,
+     "key": false
+    },
+    {
+     "text": "speak.",
+     "start": 57.46,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.506,
+   "end": 59.854,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 58.506,
+     "key": false
+    },
+    {
+     "text": "took",
+     "start": 58.856,
+     "key": false
+    },
+    {
+     "text": "him",
+     "start": 59.153,
+     "key": false
+    },
+    {
+     "text": "aside,",
+     "start": 59.396,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 59.854,
+   "end": 61.284,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "away",
+     "start": 59.854,
+     "key": false
+    },
+    {
+     "text": "from",
+     "start": 60.151,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 60.448,
+     "key": false
+    },
+    {
+     "text": "crowd.",
+     "start": 60.691,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 61.284,
+   "end": 62.417,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 61.284,
+     "key": false
+    },
+    {
+     "text": "put",
+     "start": 61.473,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 61.716,
+     "key": false
+    },
+    {
+     "text": "fingers",
+     "start": 61.958,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 62.417,
+   "end": 63.253,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 62.417,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 62.606,
+     "key": false
+    },
+    {
+     "text": "ears,",
+     "start": 62.848,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 63.253,
+   "end": 65.194,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 63.253,
+     "key": false
+    },
+    {
+     "text": "touched",
+     "start": 63.496,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 63.954,
+     "key": false
+    },
+    {
+     "text": "tongue.",
+     "start": 64.197,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 65.344,
+   "end": 66.305,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 65.344,
+     "key": false
+    },
+    {
+     "text": "looked",
+     "start": 65.531,
+     "key": false
+    },
+    {
+     "text": "up",
+     "start": 65.932,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 66.119,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 66.305,
+   "end": 67.72,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "heaven,",
+     "start": 66.305,
+     "key": true
+    },
+    {
+     "text": "sighed",
+     "start": 66.813,
+     "key": true
+    },
+    {
+     "text": "deeply,",
+     "start": 67.213,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 67.72,
+   "end": 68.844,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 67.72,
+     "key": false
+    },
+    {
+     "text": "said:",
+     "start": 67.96,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 69.094,
+   "end": 71.091,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Ephphatha.",
+     "start": 69.094,
+     "key": true
+    },
+    {
+     "text": "Be",
+     "start": 69.904,
+     "key": false
+    },
+    {
+     "text": "opened.",
+     "start": 70.093,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 71.841,
+   "end": 73.354,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Immediately",
+     "start": 71.841,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 72.517,
+     "key": false
+    },
+    {
+     "text": "ears",
+     "start": 72.76,
+     "key": false
+    },
+    {
+     "text": "were",
+     "start": 73.057,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 73.354,
+   "end": 74.759,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "opened,",
+     "start": 73.354,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 73.867,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 74.11,
+     "key": false
+    },
+    {
+     "text": "tongue",
+     "start": 74.353,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 74.759,
+   "end": 75.785,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "was",
+     "start": 74.759,
+     "key": false
+    },
+    {
+     "text": "set",
+     "start": 75.002,
+     "key": false
+    },
+    {
+     "text": "free.",
+     "start": 75.245,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 75.785,
+   "end": 77.918,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 75.785,
+     "key": false
+    },
+    {
+     "text": "began",
+     "start": 75.974,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 76.325,
+     "key": false
+    },
+    {
+     "text": "speak",
+     "start": 76.514,
+     "key": true
+    },
+    {
+     "text": "plainly.",
+     "start": 76.866,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 78.168,
+   "end": 79.137,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 78.168,
+     "key": false
+    },
+    {
+     "text": "has",
+     "start": 78.304,
+     "key": false
+    },
+    {
+     "text": "done",
+     "start": 78.478,
+     "key": false
+    },
+    {
+     "text": "everything",
+     "start": 78.691,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 79.137,
+   "end": 80.125,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "well.",
+     "start": 79.137,
+     "key": false
+    },
+    {
+     "text": "He",
+     "start": 79.525,
+     "key": false
+    },
+    {
+     "text": "even",
+     "start": 79.66,
+     "key": false
+    },
+    {
+     "text": "makes",
+     "start": 79.873,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 80.125,
+   "end": 80.804,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 80.125,
+     "key": false
+    },
+    {
+     "text": "deaf",
+     "start": 80.3,
+     "key": false
+    },
+    {
+     "text": "hear,",
+     "start": 80.513,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 80.804,
+   "end": 82.142,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 80.804,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 80.978,
+     "key": false
+    },
+    {
+     "text": "mute",
+     "start": 81.153,
+     "key": false
+    },
+    {
+     "text": "speak!",
+     "start": 81.366,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 84.492,
+   "end": 86.358,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 84.492,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 84.878,
+     "key": false
+    },
+    {
+     "text": "part",
+     "start": 85.109,
+     "key": false
+    },
+    {
+     "text": "twelve.",
+     "start": 85.391,
+     "key": false
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 0.5,
+   "end": 4.722,
+   "text": "The Pharisees saw his disciples eating with unwashed hands.",
+   "tempter": false
+  },
+  {
+   "start": 5.022,
+   "end": 8.736,
+   "text": "Why don't your disciples follow the tradition of the elders?",
+   "tempter": false
+  },
+  {
+   "start": 9.136,
+   "end": 13.615,
+   "text": "You hold on to human rules, and let go of the command of God.",
+   "tempter": false
+  },
+  {
+   "start": 14.115,
+   "end": 19.909,
+   "text": "Nothing that goes into a person can make them unclean. It is what comes out of the heart.",
+   "tempter": false
+  },
+  {
+   "start": 20.609,
+   "end": 24.957,
+   "text": "Then he went to the region of Tyre. A foreign woman fell at his feet.",
+   "tempter": false
+  },
+  {
+   "start": 25.257,
+   "end": 29.259,
+   "text": "Please. My little daughter has an evil spirit.",
+   "tempter": false
+  },
+  {
+   "start": 29.659,
+   "end": 35.842,
+   "text": "First let the children eat. It is not right to take the children's bread and throw it to the dogs.",
+   "tempter": false
+  },
+  {
+   "start": 36.342,
+   "end": 42.716,
+   "text": "Yes, Lord. But even the dogs under the table eat the children's crumbs.",
+   "tempter": false
+  },
+  {
+   "start": 43.316,
+   "end": 47.577,
+   "text": "For such a reply, you may go. The demon has left your daughter.",
+   "tempter": false
+  },
+  {
+   "start": 48.077,
+   "end": 53.014,
+   "text": "She went home, and found her child lying on the bed. The demon was gone.",
+   "tempter": false
+  },
+  {
+   "start": 53.814,
+   "end": 58.106,
+   "text": "Then some people brought him a man who was deaf, and could hardly speak.",
+   "tempter": false
+  },
+  {
+   "start": 58.506,
+   "end": 64.944,
+   "text": "Jesus took him aside, away from the crowd. He put his fingers in his ears, and touched his tongue.",
+   "tempter": false
+  },
+  {
+   "start": 65.344,
+   "end": 68.594,
+   "text": "He looked up to heaven, sighed deeply, and said:",
+   "tempter": false
+  },
+  {
+   "start": 69.094,
+   "end": 70.841,
+   "text": "Ephphatha. Be opened.",
+   "tempter": false
+  },
+  {
+   "start": 71.841,
+   "end": 77.668,
+   "text": "Immediately his ears were opened, and his tongue was set free. He began to speak plainly.",
+   "tempter": false
+  },
+  {
+   "start": 78.168,
+   "end": 81.892,
+   "text": "He has done everything well. He even makes the deaf hear, and the mute speak!",
+   "tempter": false
+  },
+  {
+   "start": 82.792,
+   "end": 86.108,
+   "text": "Follow for part twelve.",
+   "tempter": false
+  }
+ ]
+}

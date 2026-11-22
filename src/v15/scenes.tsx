@@ -15,18 +15,18 @@ const MOTHER: Look = {skin: '#D9A07C', hair: '#3A2418', tunic: '#7A3E4A', sash: 
 const SERVANT: Look = {...FRIENDS[2], tunic: '#8A7A5A', sash: '#5A4A30'};
 const CROWD = (i: number): Look => ({...FRIENDS[i % 4], tunic: ['#A8794A', '#6A7A5A', '#8A5A5A', '#5A6A8A', '#9A8A5A', '#7A5A7A'][i % 6]});
 const shake = (t: number, at: number, amp = 12, decay = 4) => (t > at ? Math.exp(-(t - at) * decay) * amp : 0);
-const Street: React.FC<{t: number; dusk?: number}> = ({dusk = 0}) => (
+export const Street: React.FC<{t: number; dusk?: number}> = ({dusk = 0}) => (
   <g>
     <Sky dusk={dusk} />
     <g filter="url(#dof)">{[-1100, -620, -140, 360, 860, 1340].map((x, i) => <rect key={i} x={x - 220} y={-360 + (i % 2) * 70} width={440} height={720} fill={['#D9B48C', '#CDA27A', '#E0C09A'][i % 3]} stroke="#8a6a4a" strokeWidth={6} />)}</g>
     <rect x={-3000} y={330} width={6000} height={3000} fill="#B8946A" />
   </g>
 );
-const Packed: React.FC<{t: number; y: number; n?: number; s?: number; skip?: number; dim?: number}> = ({t, y, n = 12, s = 0.9, skip = 9999, dim = 0}) => (
+export const Packed: React.FC<{t: number; y: number; n?: number; s?: number; skip?: number; dim?: number}> = ({t, y, n = 12, s = 0.9, skip = 9999, dim = 0}) => (
   <g>{Array.from({length: n}).map((_, i) => i === skip ? null : <Bean key={i} x={-1100 + i * 190 + (i % 2) * 40} y={y + (i % 3) * 26} s={s} look={CROWD(i)} t={t + i} face={{eyes: 'open', mouth: i % 3 ? 'open' : 'flat', look: [i % 2 ? -1 : 1, 0]}} dim={dim} />)}</g>
 );
 /** a figure lying on a bed; x,y = bed centre */
-const Bed: React.FC<{x: number; y: number; t: number; look: Look; up?: number; face?: React.ComponentProps<typeof Bean>['face']}> = ({x, y, t, look, up = 0, face}) => (
+export const Bed: React.FC<{x: number; y: number; t: number; look: Look; up?: number; face?: React.ComponentProps<typeof Bean>['face']}> = ({x, y, t, look, up = 0, face}) => (
   <g>
     <rect x={x - 300} y={y - 20} width={600} height={56} rx={14} fill="#C9B48A" stroke={INK} strokeWidth={6} />
     <rect x={x - 280} y={y + 36} width={30} height={90} fill="#6E4A30" stroke={INK} strokeWidth={5} /><rect x={x + 250} y={y + 36} width={30} height={90} fill="#6E4A30" stroke={INK} strokeWidth={5} />
