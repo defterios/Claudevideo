@@ -5,6 +5,7 @@ import sys, json, os, re, wave, subprocess, tempfile
 import numpy as np
 import importlib
 EP = int(os.environ.get("EP", "1"))
+TAKE = int(os.environ.get("TAKE", "1"))
 SC = importlib.import_module("script" if EP == 1 else f"script_ep{EP}")
 
 LINES = [  # episode 1
@@ -264,6 +265,13 @@ if EP == 9:
     LINES = LINES9
 if EP == 10:
     LINES = LINES10
+    if TAKE == 2:  # second recording (Bible_part_10.m4a): new start/end per line
+        T2 = [(1.95, 5.9), (6.95, 12.05), (13.2, 19.3), (20.5, 27.6), (29.1, 32.2), (33.6, 35.4), (36.55, 39.4), (40.85, 45.0),
+              (45.05, 53.95), (54.85, 60.75), (62.35, 65.85), (66.8, 70.7), (71.5, 72.8), (74.0, 77.55), (78.85, 83.9), (85.1, 86.7)]
+        LINES = [(tx, a_, b_, k_, al) for (tx, _, _, k_, al), (a_, b_) in zip(LINES10, T2)]
+        for (ep_, n_), parts in list(PARTS.items()):
+            if ep_ == 10:
+                PARTS[(ep_, n_)] = [(pt, T2[n_][0], T2[n_][1], fx) for (pt, _, _, fx) in parts]
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
