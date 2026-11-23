@@ -191,8 +191,36 @@ LINES10 = [  # episode 10 (clean take)
     ("Jesus meh maad kang orud, ju sobak rasu re. Nya munu meh gogeh ninga Kiasa Eh.", 87.0, 92.85, ["re", "Kiasa"], {"stopped": "re"}),
     ("Nuna koih suo part 11.", 94.2, 96.5, ["Nuna"], {}),
 ]
+LINES11 = [  # episode 11 (steady low room hum about 25 dB under the voice; threshold raised to -34)
+    ("Bara Farisi meh kirin onak murid Jesus man pakai tongan de doi eh mamie bonar-bonar.", 4.2, 9.1, ["Farisi", "tongan"], {"unwashed": "mamie"}),
+    ("", 9.8, 13.0, ["adat"], {}),
+    ("", 13.9, 18.3, ["Topa", "aturan"], {}),
+    ("", 19.4, 24.2, ["otin"], {"heart": "otin"}),
+    ("Ju Jesus meh buu suo kanu odi kaang purou Tyrus. Rasu ogi dayung pubap odep eh de peen Jesus.", 25.0, 30.9, ["Tyrus", "pubap"], {}),
+    ("", 31.45, 35.6, ["muot"], {}),
+    ("", 36.4, 42.95, ["opet", "kosuong"], {}),
+    ("", 43.7, 49.3, ["kosuong", "ruruh"], {"crumbs": "ruruh"}),
+    ("", 50.0, 55.4, ["ruah"], {}),
+    ("Yeh meh maad ke bori, ju meh daped onak eh guring de topat bees. Meh doi tia muot daang eh.", 56.3, 61.9, ["tia"], {"gone": "tia"}),
+    ("Mokuo inuh nyaa meh ogi toban dari de bibie bongam nudu Jesus.", 63.2, 66.95, ["bongam"], {}),
+    ("Jesus meh toban yeh buu, mua juan eh suo nyaa de boge. Gan tongan Eh de kojit dari inuh, ju meh toma jora eh.", 67.45, 74.35, ["kojit", "jora"], {"ears": "kojit"}),
+    ("Yeh meh bigaeng ke rongit, narik napas, ju meh in eh:", 75.85, 79.55, ["rongit"], {}),
+    ("", 80.05, 82.3, ["Effata", "Tibuka"], {"opened": "Tibuka"}),
+    ("Danu geh yeh meh rasu ponai ngojit, jora eh meh ponai dodot. Ju yeh meh ponai sina torang-torang eh.", 84.1, 89.9, ["dodot", "sina"], {}),
+    ("", 91.0, 96.8, ["ngojit", "sina"], {"hear": "ngojit"}),
+    ("Nuna koih suo part 12.", 98.25, 100.1, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (11, 1): [("Oni onak murid mu pak doi nuna adat de pakai sumuk babai te?", 9.8, 13.0, "scholar")],
+    (11, 2): [("Ingan posan sibaya Topa, ngan ingan nuna adat aturan de meh nai misia.", 13.9, 18.3, "jesus")],
+    (11, 3): [("Ideh di koyuh de morot kang gonan nya de bikais odop nya. Pak eh koyuh daang otin nya.", 19.4, 24.2, "jesus")],
+    (11, 5): [("Mitie masi duoh ingan. Kodi muot dowoh gonan onak dayung ku.", 31.45, 35.6, "woman")],
+    (11, 6): [("Onak opet de patut nya ngin maan die neh. Doi nya patut mit pinguman suo yeh de munu ju meh ngin duoh kosuong.", 36.4, 42.95, "jesus")],
+    (11, 7): [("Bonar Tuan. Pak eh kosuong de ribuo mija seen geh man pinguman de ruruh da onak opet.", 43.7, 49.3, "woman")],
+    (11, 8): [("Paguh saut muu neh, maad negeh. Muot inuh meh ruah suo gonan onak mu.", 50.0, 55.4, "jesus")],
+    (11, 13): [("Effata. Tibuka nih.", 80.05, 82.3, "jesus")],
+    (11, 15): [("Tek-tek paguh koyuh de nai Nyaa itih neh. Nyaa de bongam ponai ngojit, nya de bibie ponai sina!", 91.0, 96.8, "disciple")],
     (5, 9): [("Takar madis ayuo eh meh puan, nya munu meh neg rie toban Jesus pari. Nya munu nang:", 48.5, 53.8, None), ("Yeh meh gira.", 53.83, 54.95, "family")],
     (5, 10): [("Yeh kasig muot pakai kuasa raja muot!", 55.9, 58.65, "scholar")],
     (5, 11): [("Jesus nang:", 59.6, 61.1, None), ("Watki Sitan kasig pibuu Sitan? Bori de doi bisamah otin eh, ideh di daped mujuog tuui.", 61.6, 68.0, "jesus")],
@@ -272,6 +300,8 @@ if EP == 10:
         for (ep_, n_), parts in list(PARTS.items()):
             if ep_ == 10:
                 PARTS[(ep_, n_)] = [(pt, T2[n_][0], T2[n_][1], fx) for (pt, _, _, fx) in parts]
+if EP == 11:
+    LINES = LINES11
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -291,6 +321,8 @@ if EP == 5:
     TH = -43
 if EP == 6:
     TH = -35
+if EP == 11:
+    TH = -34
 # Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
 # no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
 TAKE = int(os.environ.get("TAKE", "1"))

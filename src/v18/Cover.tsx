@@ -11,7 +11,7 @@ import '../v8/Episode'; // fonts
 type Lang = 'en' | 'bdy';
 const T: Record<Lang, {ep: string; title: string[]; tag: string}> = {
   en: {ep: 'EPISODE 11', title: ['BE', 'OPENED'], tag: 'EPHPHATHA!'},
-  bdy: {ep: 'EPISOD 11', title: ['BE', 'OPENED'], tag: 'EPHPHATHA!'}, // replaced with the Bidayuh title when the sheet arrives
+  bdy: {ep: 'EPISOD 11', title: ['TIBUKA', 'NIH'], tag: 'EFFATA!'},
 };
 export const Ep11Cover: React.FC<{lang: Lang}> = ({lang}) => {
   const W = 1080, H = 1920;
