@@ -1,33 +1,33 @@
-"""Special (filler) episode — "Why Always 3?" The number three across the story of Jesus.
-Visual idea: a big "3" counter at the top; every example shows its three items lighting up one by one,
-scripture tags on each; the big moment is the third-day sunrise at the empty tomb.
+"""Special episode — "The Number 3". Follows the beats of the creator's reference (original narration;
+numerology and 'manifesting' claims replaced with Bible content). Style: gold-and-white line art on black,
+triangle 'triads' with three labelled corners, small mono verse tags, counters like "DENIAL 3 OF 3".
 Each entry: (scene id, text, voice, speed, pause after in seconds, highlighted caption words)."""
 N = "bm_george"   # narrator
 J = "am_michael"  # Jesus
 T = "-"
 END_LEAD = 1.7
 LINES = [
-    ("hook",     "Have you noticed? In the story of Jesus, the number three keeps coming back.",        N, 0.93, 0.5, ["three"]),
-    ("gifts",    "Three gifts from the wise men: gold, frankincense, and myrrh.",                       N, 0.93, 0.4, ["gold", "frankincense", "myrrh"]),
-    ("temple",   "At twelve years old, Jesus was lost, and found in the temple after three days.",     N, 0.93, 0.4, ["three"]),
-    ("tempt",    "In the wilderness, Satan tempted him three times. Three times, Jesus answered with the word of God.", N, 0.93, 0.4, ["three", "word"]),
-    ("baptism",  "At his baptism: the Son in the water, the Spirit like a dove, and the Father's voice from heaven.", N, 0.93, 0.5, ["Son", "Spirit", "Father"]),
-    ("mountain", "He took three friends up the mountain: Peter, James, and John.",                     N, 0.93, 0.4, ["Peter", "James", "John"]),
-    ("pray",     "In Gethsemane, he prayed three times:",                                               N, 0.93, 0.3, ["three"]),
-    ("will",     "Father, not my will, but yours.",                                                     J, 0.85, 0.6, ["yours"]),
-    ("deny",     "That night, Peter denied him three times.",                                           N, 0.93, 0.4, ["three"]),
-    ("crosses",  "On the hill there were three crosses, and the sign above him was written in three languages.", N, 0.93, 0.4, ["crosses", "languages"]),
-    ("dark",     "From noon, darkness covered the land for three hours.",                               N, 0.9, 0.5, ["darkness"]),
-    ("jonah",    "As Jonah was three days and three nights in the belly of the fish, so the Son of Man will be in the heart of the earth.", J, 0.9, 0.5, ["Jonah"]),
-    ("third",    "And on the third day, the tomb was empty.",                                           N, 0.86, 1.0, ["third", "empty"]),
-    ("love",     "Later, on the beach, Jesus asked Peter three times: Do you love me? One for every denial.", N, 0.93, 0.6, ["love", "every"]),
-    ("body",     "And three is in us too. The Bible says we are body, soul, and spirit.",               N, 0.93, 0.4, ["body", "soul", "spirit"]),
-    ("daily",    "Every day has morning, noon, and night. And Daniel prayed three times a day, even when it could cost his life.", N, 0.93, 0.4, ["morning", "noon", "night"]),
-    ("quiet",    "But we also fail in threes, just like Peter. A joke at lunch, a question at work, a post online. And we go quiet.", N, 0.93, 0.6, ["lunch", "work", "online"]),
-    ("why",      "So why three?",                                                                       N, 0.9, 0.6, ["why"]),
-    ("holy",     "In Hebrew, saying something three times makes it as strong as it can be. That is why the angels cry: Holy, holy, holy.", N, 0.93, 0.5, ["Holy"]),
-    ("witness",  "And the law said: by two or three witnesses, a matter is settled.",                  N, 0.93, 0.4, ["witnesses", "settled"]),
-    ("certain",  "So when God does something three times, he is saying: this is certain. This is complete.", N, 0.9, 0.6, ["certain", "complete"]),
-    ("remain",   "Faith, hope, and love. These three remain. But the greatest of these is love.",       N, 0.88, 0.9, ["love"]),
-    ("end",      "Follow for more.",                                                                    N, 1.0, 1.0, ["Follow"]),
+    ("age",      "Jesus was about thirty-three when he was crucified. He died at three in the afternoon.", N, 0.93, 0.4, ["thirtythree", "three"]),
+    ("crosses",  "Three crosses stood on the hill.",                                                   N, 0.93, 0.4, ["Three"]),
+    ("rose",     "He died, he was buried, and he rose again on the third day.",                       N, 0.92, 0.4, ["third"]),
+    ("women",    "Three women came to the tomb: Mary Magdalene, Mary the mother of James, and Salome.", N, 0.93, 0.4, ["Three"]),
+    ("ministry", "All of this after about three years of ministry.",                                   N, 0.93, 0.4, ["three"]),
+    ("world",    "And today, about one in three people on earth call themselves Christian.",          N, 0.93, 0.5, ["three"]),
+    ("deny",     "Peter denied Jesus three times.",                                                    N, 0.93, 0.3, ["three"]),
+    ("asked",    "And after he rose, Jesus asked him three times:",                                    N, 0.93, 0.3, ["three"]),
+    ("love",     "Do you love me? Do you love me? Do you love me?",                                    J, 0.88, 0.6, ["love"]),
+    ("trinity",  "God is Father, Son, and Holy Spirit.",                                               N, 0.9, 0.5, ["Father", "Son", "Spirit"]),
+    ("colours",  "And three is all through the world he made. Every colour comes from three: red, yellow, and blue.", N, 0.93, 0.4, ["red", "yellow", "blue"]),
+    ("life",     "Birth, life, and death. Past, present, and future.",                                N, 0.9, 0.4, ["Birth", "life", "death"]),
+    ("matter",   "Time, space, and matter. Ice, water, and steam.",                                   N, 0.9, 0.4, ["Time", "space", "matter"]),
+    ("depth",    "Height, width, and depth. Body, soul, and spirit.",                                 N, 0.9, 0.4, ["body", "soul", "spirit"]),
+    ("family",   "A father, a mother, and a child.",                                                   N, 0.9, 0.6, ["child"]),
+    ("garden",   "In the garden of Gethsemane, Jesus fell on his face, and prayed three times.",      N, 0.92, 0.4, ["three"]),
+    ("asleep",   "Each time, he came back to Peter, James, and John. And three times, he found them asleep.", N, 0.92, 0.5, ["asleep"]),
+    ("saved",    "And how does the Bible say we are saved? By trusting in his death, his burial, and his resurrection.", N, 0.92, 0.6, ["death", "burial", "resurrection"]),
+    ("complete", "In the Bible, three is the number of completeness. When God says it three times, it is settled.", N, 0.9, 0.4, ["completeness", "settled"]),
+    ("holy",     "That is why the angels cry: Holy, holy, holy.",                                      N, 0.88, 0.6, ["Holy"]),
+    ("blessing", "And God gave his people a blessing in three parts. Say it with me:",               N, 0.92, 0.5, ["three"]),
+    ("bless",    "The Lord bless you, and keep you. The Lord make his face shine on you. The Lord give you peace.", N, 0.85, 0.9, ["bless", "shine", "peace"]),
+    ("end",      "Send this to someone who needs this blessing today.",                               N, 0.95, 1.0, ["blessing"]),
 ]
