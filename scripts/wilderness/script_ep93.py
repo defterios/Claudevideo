@@ -1,4 +1,4 @@
-"""Special episode — "The Number 3". Follows the beats of the creator's reference (original narration;
+"""Special episode (internal EP=93, folder v100) — "The Number 3". Follows the beats of the creator's reference (original narration;
 numerology and 'manifesting' claims replaced with Bible content). Style: gold-and-white line art on black,
 triangle 'triads' with three labelled corners, small mono verse tags, counters like "DENIAL 3 OF 3".
 Each entry: (scene id, text, voice, speed, pause after in seconds, highlighted caption words)."""
@@ -27,7 +27,7 @@ LINES = [
     ("saved",    "And how does the Bible say we are saved? By trusting in his death, his burial, and his resurrection.", N, 0.92, 0.6, ["death", "burial", "resurrection"]),
     ("complete", "In the Bible, three is the number of completeness. When God says it three times, it is settled.", N, 0.9, 0.4, ["completeness", "settled"]),
     ("holy",     "That is why the angels cry: Holy, holy, holy.",                                      N, 0.88, 0.6, ["Holy"]),
-    ("blessing", "And God gave his people a blessing in three parts. Say it with me:",               N, 0.92, 0.5, ["three"]),
-    ("bless",    "The Lord bless you, and keep you. The Lord make his face shine on you. The Lord give you peace.", N, 0.85, 0.9, ["bless", "shine", "peace"]),
-    ("end",      "Send this to someone who needs this blessing today.",                               N, 0.95, 1.0, ["blessing"]),
+    ("blessing", "And God blesses us in three names. Say it with me:",               N, 0.92, 0.5, ["three"]),
+    ("bless",    "In the name of the Father, the Son, and the Holy Spirit. Amen.",                     N, 0.85, 0.9, ["Father", "Son", "Spirit"]),
+    ("end",      "Share this with your friends, your family, and the people around you, so they can hear God's word.", N, 0.95, 1.0, ["friends", "family", "word"]),
 ]

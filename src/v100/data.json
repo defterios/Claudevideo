@@ -1,0 +1,3845 @@
+{
+ "duration": 115.858,
+ "scenes": [
+  {
+   "id": "age",
+   "start": 0.0,
+   "segs": [
+    0.5
+   ],
+   "w": {
+    "jesus": 0.5,
+    "was": 0.874,
+    "about": 1.133,
+    "thirtythree": 1.507,
+    "when": 2.226,
+    "he": 2.542,
+    "was2": 2.744,
+    "crucified": 3.003,
+    "he2": 3.866,
+    "died": 4.067,
+    "at": 4.383,
+    "three": 4.585,
+    "in": 4.959,
+    "the": 5.16,
+    "afternoon": 5.419
+   },
+   "end": 6.502,
+   "ws": [
+    [
+     "jesus",
+     0.5
+    ],
+    [
+     "was",
+     0.874
+    ],
+    [
+     "about",
+     1.133
+    ],
+    [
+     "thirtythree",
+     1.507
+    ],
+    [
+     "when",
+     2.226
+    ],
+    [
+     "he",
+     2.542
+    ],
+    [
+     "was",
+     2.744
+    ],
+    [
+     "crucified",
+     3.003
+    ],
+    [
+     "he",
+     3.866
+    ],
+    [
+     "died",
+     4.067
+    ],
+    [
+     "at",
+     4.383
+    ],
+    [
+     "three",
+     4.585
+    ],
+    [
+     "in",
+     4.959
+    ],
+    [
+     "the",
+     5.16
+    ],
+    [
+     "afternoon",
+     5.419
+    ]
+   ]
+  },
+  {
+   "id": "crosses",
+   "start": 6.502,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "three": 0.28,
+    "crosses": 0.665,
+    "stood": 1.169,
+    "on": 1.555,
+    "the": 1.762,
+    "hill": 2.029
+   },
+   "end": 9.344,
+   "ws": [
+    [
+     "three",
+     0.28
+    ],
+    [
+     "crosses",
+     0.665
+    ],
+    [
+     "stood",
+     1.169
+    ],
+    [
+     "on",
+     1.555
+    ],
+    [
+     "the",
+     1.762
+    ],
+    [
+     "hill",
+     2.029
+    ]
+   ]
+  },
+  {
+   "id": "rose",
+   "start": 9.344,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "he": 0.28,
+    "died": 0.479,
+    "he2": 0.903,
+    "was": 1.102,
+    "buried": 1.357,
+    "and": 1.895,
+    "he3": 2.15,
+    "rose": 2.348,
+    "again": 2.66,
+    "on": 3.028,
+    "the": 3.226,
+    "third": 3.481,
+    "day": 3.849
+   },
+   "end": 13.923,
+   "ws": [
+    [
+     "he",
+     0.28
+    ],
+    [
+     "died",
+     0.479
+    ],
+    [
+     "he",
+     0.903
+    ],
+    [
+     "was",
+     1.102
+    ],
+    [
+     "buried",
+     1.357
+    ],
+    [
+     "and",
+     1.895
+    ],
+    [
+     "he",
+     2.15
+    ],
+    [
+     "rose",
+     2.348
+    ],
+    [
+     "again",
+     2.66
+    ],
+    [
+     "on",
+     3.028
+    ],
+    [
+     "the",
+     3.226
+    ],
+    [
+     "third",
+     3.481
+    ],
+    [
+     "day",
+     3.849
+    ]
+   ]
+  },
+  {
+   "id": "women",
+   "start": 13.923,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "three": 0.28,
+    "women": 0.652,
+    "came": 1.023,
+    "to": 1.337,
+    "the": 1.537,
+    "tomb": 1.793,
+    "mary": 2.364,
+    "magdalene": 2.679,
+    "mary2": 3.392,
+    "the2": 3.706,
+    "mother": 3.963,
+    "of": 4.391,
+    "james": 4.591,
+    "and": 5.077,
+    "salome": 5.334
+   },
+   "end": 20.162,
+   "ws": [
+    [
+     "three",
+     0.28
+    ],
+    [
+     "women",
+     0.652
+    ],
+    [
+     "came",
+     1.023
+    ],
+    [
+     "to",
+     1.337
+    ],
+    [
+     "the",
+     1.537
+    ],
+    [
+     "tomb",
+     1.793
+    ],
+    [
+     "mary",
+     2.364
+    ],
+    [
+     "magdalene",
+     2.679
+    ],
+    [
+     "mary",
+     3.392
+    ],
+    [
+     "the",
+     3.706
+    ],
+    [
+     "mother",
+     3.963
+    ],
+    [
+     "of",
+     4.391
+    ],
+    [
+     "james",
+     4.591
+    ],
+    [
+     "and",
+     5.077
+    ],
+    [
+     "salome",
+     5.334
+    ]
+   ]
+  },
+  {
+   "id": "ministry",
+   "start": 20.162,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "all": 0.28,
+    "of": 0.553,
+    "this": 0.765,
+    "after": 1.099,
+    "about": 1.494,
+    "three": 1.888,
+    "years": 2.283,
+    "of2": 2.677,
+    "ministry": 2.89
+   },
+   "end": 24.122,
+   "ws": [
+    [
+     "all",
+     0.28
+    ],
+    [
+     "of",
+     0.553
+    ],
+    [
+     "this",
+     0.765
+    ],
+    [
+     "after",
+     1.099
+    ],
+    [
+     "about",
+     1.494
+    ],
+    [
+     "three",
+     1.888
+    ],
+    [
+     "years",
+     2.283
+    ],
+    [
+     "of",
+     2.677
+    ],
+    [
+     "ministry",
+     2.89
+    ]
+   ]
+  },
+  {
+   "id": "world",
+   "start": 24.122,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "today": 0.545,
+    "about": 1.046,
+    "one": 1.429,
+    "in": 1.694,
+    "three": 1.9,
+    "people": 2.284,
+    "on": 2.726,
+    "earth": 2.932,
+    "call": 3.315,
+    "themselves": 3.639,
+    "christian": 4.317
+   },
+   "end": 29.643,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "today",
+     0.545
+    ],
+    [
+     "about",
+     1.046
+    ],
+    [
+     "one",
+     1.429
+    ],
+    [
+     "in",
+     1.694
+    ],
+    [
+     "three",
+     1.9
+    ],
+    [
+     "people",
+     2.284
+    ],
+    [
+     "on",
+     2.726
+    ],
+    [
+     "earth",
+     2.932
+    ],
+    [
+     "call",
+     3.315
+    ],
+    [
+     "themselves",
+     3.639
+    ],
+    [
+     "christian",
+     4.317
+    ]
+   ]
+  },
+  {
+   "id": "deny",
+   "start": 29.643,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "peter": 0.28,
+    "denied": 0.719,
+    "jesus": 1.224,
+    "three": 1.663,
+    "times": 2.102
+   },
+   "end": 32.607,
+   "ws": [
+    [
+     "peter",
+     0.28
+    ],
+    [
+     "denied",
+     0.719
+    ],
+    [
+     "jesus",
+     1.224
+    ],
+    [
+     "three",
+     1.663
+    ],
+    [
+     "times",
+     2.102
+    ]
+   ]
+  },
+  {
+   "id": "asked",
+   "start": 32.607,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "after": 0.554,
+    "he": 0.952,
+    "rose": 1.165,
+    "jesus": 1.623,
+    "asked": 2.02,
+    "him": 2.417,
+    "three": 2.692,
+    "times": 3.089
+   },
+   "end": 36.488,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "after",
+     0.554
+    ],
+    [
+     "he",
+     0.952
+    ],
+    [
+     "rose",
+     1.165
+    ],
+    [
+     "jesus",
+     1.623
+    ],
+    [
+     "asked",
+     2.02
+    ],
+    [
+     "him",
+     2.417
+    ],
+    [
+     "three",
+     2.692
+    ],
+    [
+     "times",
+     3.089
+    ]
+   ]
+  },
+  {
+   "id": "love",
+   "start": 36.488,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "do": 0.28,
+    "you": 0.42,
+    "love": 0.599,
+    "me": 0.817,
+    "do2": 1.136,
+    "you2": 1.275,
+    "love2": 1.454,
+    "me2": 1.673,
+    "do3": 1.991,
+    "you3": 2.13,
+    "love3": 2.309,
+    "me3": 2.528
+   },
+   "end": 39.754,
+   "ws": [
+    [
+     "do",
+     0.28
+    ],
+    [
+     "you",
+     0.42
+    ],
+    [
+     "love",
+     0.599
+    ],
+    [
+     "me",
+     0.817
+    ],
+    [
+     "do",
+     1.136
+    ],
+    [
+     "you",
+     1.275
+    ],
+    [
+     "love",
+     1.454
+    ],
+    [
+     "me",
+     1.673
+    ],
+    [
+     "do",
+     1.991
+    ],
+    [
+     "you",
+     2.13
+    ],
+    [
+     "love",
+     2.309
+    ],
+    [
+     "me",
+     2.528
+    ]
+   ]
+  },
+  {
+   "id": "trinity",
+   "start": 39.754,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "god": 0.28,
+    "is": 0.555,
+    "father": 0.77,
+    "son": 1.351,
+    "and": 1.749,
+    "holy": 2.025,
+    "spirit": 2.361
+   },
+   "end": 43.17,
+   "ws": [
+    [
+     "god",
+     0.28
+    ],
+    [
+     "is",
+     0.555
+    ],
+    [
+     "father",
+     0.77
+    ],
+    [
+     "son",
+     1.351
+    ],
+    [
+     "and",
+     1.749
+    ],
+    [
+     "holy",
+     2.025
+    ],
+    [
+     "spirit",
+     2.361
+    ]
+   ]
+  },
+  {
+   "id": "colours",
+   "start": 43.17,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "three": 0.522,
+    "is": 0.872,
+    "all": 1.06,
+    "through": 1.302,
+    "the": 1.759,
+    "world": 2.001,
+    "he": 2.351,
+    "made": 2.539,
+    "every": 3.077,
+    "colour": 3.426,
+    "comes": 3.83,
+    "from": 4.179,
+    "three2": 4.475,
+    "red": 5.067,
+    "yellow": 5.416,
+    "and2": 5.927,
+    "blue": 6.169
+   },
+   "end": 50.097,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "three",
+     0.522
+    ],
+    [
+     "is",
+     0.872
+    ],
+    [
+     "all",
+     1.06
+    ],
+    [
+     "through",
+     1.302
+    ],
+    [
+     "the",
+     1.759
+    ],
+    [
+     "world",
+     2.001
+    ],
+    [
+     "he",
+     2.351
+    ],
+    [
+     "made",
+     2.539
+    ],
+    [
+     "every",
+     3.077
+    ],
+    [
+     "colour",
+     3.426
+    ],
+    [
+     "comes",
+     3.83
+    ],
+    [
+     "from",
+     4.179
+    ],
+    [
+     "three",
+     4.475
+    ],
+    [
+     "red",
+     5.067
+    ],
+    [
+     "yellow",
+     5.416
+    ],
+    [
+     "and",
+     5.927
+    ],
+    [
+     "blue",
+     6.169
+    ]
+   ]
+  },
+  {
+   "id": "life",
+   "start": 50.097,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "birth": 0.28,
+    "life": 0.762,
+    "and": 1.187,
+    "death": 1.442,
+    "past": 2.066,
+    "present": 2.491,
+    "and2": 3.087,
+    "future": 3.342
+   },
+   "end": 54.339,
+   "ws": [
+    [
+     "birth",
+     0.28
+    ],
+    [
+     "life",
+     0.762
+    ],
+    [
+     "and",
+     1.187
+    ],
+    [
+     "death",
+     1.442
+    ],
+    [
+     "past",
+     2.066
+    ],
+    [
+     "present",
+     2.491
+    ],
+    [
+     "and",
+     3.087
+    ],
+    [
+     "future",
+     3.342
+    ]
+   ]
+  },
+  {
+   "id": "matter",
+   "start": 54.339,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "time": 0.28,
+    "space": 0.733,
+    "and": 1.246,
+    "matter": 1.517,
+    "ice": 2.241,
+    "water": 2.633,
+    "and2": 3.146,
+    "steam": 3.417
+   },
+   "end": 58.64,
+   "ws": [
+    [
+     "time",
+     0.28
+    ],
+    [
+     "space",
+     0.733
+    ],
+    [
+     "and",
+     1.246
+    ],
+    [
+     "matter",
+     1.517
+    ],
+    [
+     "ice",
+     2.241
+    ],
+    [
+     "water",
+     2.633
+    ],
+    [
+     "and",
+     3.146
+    ],
+    [
+     "steam",
+     3.417
+    ]
+   ]
+  },
+  {
+   "id": "depth",
+   "start": 58.64,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "height": 0.28,
+    "width": 0.783,
+    "and": 1.233,
+    "depth": 1.471,
+    "body": 2.054,
+    "soul": 2.451,
+    "and2": 2.848,
+    "spirit": 3.087
+   },
+   "end": 62.582,
+   "ws": [
+    [
+     "height",
+     0.28
+    ],
+    [
+     "width",
+     0.783
+    ],
+    [
+     "and",
+     1.233
+    ],
+    [
+     "depth",
+     1.471
+    ],
+    [
+     "body",
+     2.054
+    ],
+    [
+     "soul",
+     2.451
+    ],
+    [
+     "and",
+     2.848
+    ],
+    [
+     "spirit",
+     3.087
+    ]
+   ]
+  },
+  {
+   "id": "family",
+   "start": 62.582,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "a": 0.28,
+    "father": 0.431,
+    "a2": 1.004,
+    "mother": 1.155,
+    "and": 1.728,
+    "a3": 1.999,
+    "child": 2.15
+   },
+   "end": 65.815,
+   "ws": [
+    [
+     "a",
+     0.28
+    ],
+    [
+     "father",
+     0.431
+    ],
+    [
+     "a",
+     1.004
+    ],
+    [
+     "mother",
+     1.155
+    ],
+    [
+     "and",
+     1.728
+    ],
+    [
+     "a",
+     1.999
+    ],
+    [
+     "child",
+     2.15
+    ]
+   ]
+  },
+  {
+   "id": "garden",
+   "start": 65.815,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "in": 0.28,
+    "the": 0.476,
+    "garden": 0.727,
+    "of": 1.146,
+    "gethsemane": 1.341,
+    "jesus": 2.096,
+    "fell": 2.459,
+    "on": 2.766,
+    "his": 2.961,
+    "face": 3.213,
+    "and": 3.632,
+    "prayed": 3.883,
+    "three": 4.302,
+    "times": 4.665
+   },
+   "end": 71.315,
+   "ws": [
+    [
+     "in",
+     0.28
+    ],
+    [
+     "the",
+     0.476
+    ],
+    [
+     "garden",
+     0.727
+    ],
+    [
+     "of",
+     1.146
+    ],
+    [
+     "gethsemane",
+     1.341
+    ],
+    [
+     "jesus",
+     2.096
+    ],
+    [
+     "fell",
+     2.459
+    ],
+    [
+     "on",
+     2.766
+    ],
+    [
+     "his",
+     2.961
+    ],
+    [
+     "face",
+     3.213
+    ],
+    [
+     "and",
+     3.632
+    ],
+    [
+     "prayed",
+     3.883
+    ],
+    [
+     "three",
+     4.302
+    ],
+    [
+     "times",
+     4.665
+    ]
+   ]
+  },
+  {
+   "id": "asleep",
+   "start": 71.315,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "each": 0.28,
+    "time": 0.603,
+    "he": 1.043,
+    "came": 1.249,
+    "back": 1.572,
+    "to": 1.895,
+    "peter": 2.1,
+    "james": 2.599,
+    "and": 3.098,
+    "john": 3.363,
+    "and2": 3.95,
+    "three": 4.214,
+    "times": 4.596,
+    "he2": 5.095,
+    "found": 5.301,
+    "them": 5.682,
+    "asleep": 6.005
+   },
+   "end": 78.345,
+   "ws": [
+    [
+     "each",
+     0.28
+    ],
+    [
+     "time",
+     0.603
+    ],
+    [
+     "he",
+     1.043
+    ],
+    [
+     "came",
+     1.249
+    ],
+    [
+     "back",
+     1.572
+    ],
+    [
+     "to",
+     1.895
+    ],
+    [
+     "peter",
+     2.1
+    ],
+    [
+     "james",
+     2.599
+    ],
+    [
+     "and",
+     3.098
+    ],
+    [
+     "john",
+     3.363
+    ],
+    [
+     "and",
+     3.95
+    ],
+    [
+     "three",
+     4.214
+    ],
+    [
+     "times",
+     4.596
+    ],
+    [
+     "he",
+     5.095
+    ],
+    [
+     "found",
+     5.301
+    ],
+    [
+     "them",
+     5.682
+    ],
+    [
+     "asleep",
+     6.005
+    ]
+   ]
+  },
+  {
+   "id": "saved",
+   "start": 78.345,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "how": 0.523,
+    "does": 0.766,
+    "the": 1.063,
+    "bible": 1.306,
+    "say": 1.657,
+    "we": 1.9,
+    "are": 2.089,
+    "saved": 2.332,
+    "by": 2.926,
+    "trusting": 3.115,
+    "in": 3.629,
+    "his": 3.818,
+    "death": 4.061,
+    "his2": 4.52,
+    "burial": 4.763,
+    "and2": 5.276,
+    "his3": 5.519,
+    "resurrection": 5.762
+   },
+   "end": 85.499,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "how",
+     0.523
+    ],
+    [
+     "does",
+     0.766
+    ],
+    [
+     "the",
+     1.063
+    ],
+    [
+     "bible",
+     1.306
+    ],
+    [
+     "say",
+     1.657
+    ],
+    [
+     "we",
+     1.9
+    ],
+    [
+     "are",
+     2.089
+    ],
+    [
+     "saved",
+     2.332
+    ],
+    [
+     "by",
+     2.926
+    ],
+    [
+     "trusting",
+     3.115
+    ],
+    [
+     "in",
+     3.629
+    ],
+    [
+     "his",
+     3.818
+    ],
+    [
+     "death",
+     4.061
+    ],
+    [
+     "his",
+     4.52
+    ],
+    [
+     "burial",
+     4.763
+    ],
+    [
+     "and",
+     5.276
+    ],
+    [
+     "his",
+     5.519
+    ],
+    [
+     "resurrection",
+     5.762
+    ]
+   ]
+  },
+  {
+   "id": "complete",
+   "start": 85.499,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "in": 0.28,
+    "the": 0.476,
+    "bible": 0.727,
+    "three": 1.202,
+    "is": 1.565,
+    "the2": 1.76,
+    "number": 2.011,
+    "of": 2.43,
+    "completeness": 2.626,
+    "when": 3.631,
+    "god": 3.938,
+    "says": 4.189,
+    "it": 4.496,
+    "three2": 4.692,
+    "times": 5.055,
+    "it2": 5.529,
+    "is2": 5.725,
+    "settled": 5.92
+   },
+   "end": 92.365,
+   "ws": [
+    [
+     "in",
+     0.28
+    ],
+    [
+     "the",
+     0.476
+    ],
+    [
+     "bible",
+     0.727
+    ],
+    [
+     "three",
+     1.202
+    ],
+    [
+     "is",
+     1.565
+    ],
+    [
+     "the",
+     1.76
+    ],
+    [
+     "number",
+     2.011
+    ],
+    [
+     "of",
+     2.43
+    ],
+    [
+     "completeness",
+     2.626
+    ],
+    [
+     "when",
+     3.631
+    ],
+    [
+     "god",
+     3.938
+    ],
+    [
+     "says",
+     4.189
+    ],
+    [
+     "it",
+     4.496
+    ],
+    [
+     "three",
+     4.692
+    ],
+    [
+     "times",
+     5.055
+    ],
+    [
+     "it",
+     5.529
+    ],
+    [
+     "is",
+     5.725
+    ],
+    [
+     "settled",
+     5.92
+    ]
+   ]
+  },
+  {
+   "id": "holy",
+   "start": 92.365,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "that": 0.28,
+    "is": 0.639,
+    "why": 0.868,
+    "the": 1.161,
+    "angels": 1.455,
+    "cry": 1.944,
+    "holy": 2.532,
+    "holy2": 3.021,
+    "holy3": 3.51
+   },
+   "end": 96.948,
+   "ws": [
+    [
+     "that",
+     0.28
+    ],
+    [
+     "is",
+     0.639
+    ],
+    [
+     "why",
+     0.868
+    ],
+    [
+     "the",
+     1.161
+    ],
+    [
+     "angels",
+     1.455
+    ],
+    [
+     "cry",
+     1.944
+    ],
+    [
+     "holy",
+     2.532
+    ],
+    [
+     "holy",
+     3.021
+    ],
+    [
+     "holy",
+     3.51
+    ]
+   ]
+  },
+  {
+   "id": "blessing",
+   "start": 96.948,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "god": 0.54,
+    "blesses": 0.801,
+    "us": 1.293,
+    "in": 1.496,
+    "three": 1.698,
+    "names": 2.075,
+    "say": 2.712,
+    "it": 2.972,
+    "with": 3.175,
+    "me": 3.493
+   },
+   "end": 101.224,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "god",
+     0.54
+    ],
+    [
+     "blesses",
+     0.801
+    ],
+    [
+     "us",
+     1.293
+    ],
+    [
+     "in",
+     1.496
+    ],
+    [
+     "three",
+     1.698
+    ],
+    [
+     "names",
+     2.075
+    ],
+    [
+     "say",
+     2.712
+    ],
+    [
+     "it",
+     2.972
+    ],
+    [
+     "with",
+     3.175
+    ],
+    [
+     "me",
+     3.493
+    ]
+   ]
+  },
+  {
+   "id": "bless",
+   "start": 101.224,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "in": 0.28,
+    "the": 0.488,
+    "name": 0.755,
+    "of": 1.082,
+    "the2": 1.29,
+    "father": 1.557,
+    "the3": 2.121,
+    "son": 2.388,
+    "and": 2.774,
+    "the4": 3.041,
+    "holy": 3.309,
+    "spirit": 3.635,
+    "amen": 4.348
+   },
+   "end": 106.886,
+   "ws": [
+    [
+     "in",
+     0.28
+    ],
+    [
+     "the",
+     0.488
+    ],
+    [
+     "name",
+     0.755
+    ],
+    [
+     "of",
+     1.082
+    ],
+    [
+     "the",
+     1.29
+    ],
+    [
+     "father",
+     1.557
+    ],
+    [
+     "the",
+     2.121
+    ],
+    [
+     "son",
+     2.388
+    ],
+    [
+     "and",
+     2.774
+    ],
+    [
+     "the",
+     3.041
+    ],
+    [
+     "holy",
+     3.309
+    ],
+    [
+     "spirit",
+     3.635
+    ],
+    [
+     "amen",
+     4.348
+    ]
+   ]
+  },
+  {
+   "id": "end",
+   "start": 106.886,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "share": 1.98,
+    "this": 2.314,
+    "with": 2.597,
+    "your": 2.88,
+    "friends": 3.163,
+    "your2": 3.704,
+    "family": 3.987,
+    "and": 4.475,
+    "the": 4.707,
+    "people": 4.939,
+    "around": 5.325,
+    "you": 5.711,
+    "so": 6.045,
+    "they": 6.225,
+    "can": 6.508,
+    "hear": 6.74,
+    "god's": 7.023,
+    "word": 7.357
+   },
+   "end": 115.858,
+   "ws": [
+    [
+     "share",
+     1.98
+    ],
+    [
+     "this",
+     2.314
+    ],
+    [
+     "with",
+     2.597
+    ],
+    [
+     "your",
+     2.88
+    ],
+    [
+     "friends",
+     3.163
+    ],
+    [
+     "your",
+     3.704
+    ],
+    [
+     "family",
+     3.987
+    ],
+    [
+     "and",
+     4.475
+    ],
+    [
+     "the",
+     4.707
+    ],
+    [
+     "people",
+     4.939
+    ],
+    [
+     "around",
+     5.325
+    ],
+    [
+     "you",
+     5.711
+    ],
+    [
+     "so",
+     6.045
+    ],
+    [
+     "they",
+     6.225
+    ],
+    [
+     "can",
+     6.508
+    ],
+    [
+     "hear",
+     6.74
+    ],
+    [
+     "god's",
+     7.023
+    ],
+    [
+     "word",
+     7.357
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 2.226,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 0.874,
+     "key": false
+    },
+    {
+     "text": "about",
+     "start": 1.133,
+     "key": false
+    },
+    {
+     "text": "thirty-three",
+     "start": 1.507,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 2.226,
+   "end": 3.866,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "when",
+     "start": 2.226,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 2.542,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 2.744,
+     "key": false
+    },
+    {
+     "text": "crucified.",
+     "start": 3.003,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 3.866,
+   "end": 4.959,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 3.866,
+     "key": false
+    },
+    {
+     "text": "died",
+     "start": 4.067,
+     "key": false
+    },
+    {
+     "text": "at",
+     "start": 4.383,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 4.585,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 4.959,
+   "end": 6.632,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 4.959,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 5.16,
+     "key": false
+    },
+    {
+     "text": "afternoon.",
+     "start": 5.419,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.782,
+   "end": 8.264,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Three",
+     "start": 6.782,
+     "key": true
+    },
+    {
+     "text": "crosses",
+     "start": 7.167,
+     "key": false
+    },
+    {
+     "text": "stood",
+     "start": 7.671,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 8.057,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 8.264,
+   "end": 9.474,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 8.264,
+     "key": false
+    },
+    {
+     "text": "hill.",
+     "start": 8.531,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.624,
+   "end": 10.247,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "He",
+     "start": 9.624,
+     "key": false
+    },
+    {
+     "text": "died,",
+     "start": 9.823,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.247,
+   "end": 11.239,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 10.247,
+     "key": false
+    },
+    {
+     "text": "was",
+     "start": 10.446,
+     "key": false
+    },
+    {
+     "text": "buried,",
+     "start": 10.701,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.239,
+   "end": 12.372,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.239,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 11.494,
+     "key": false
+    },
+    {
+     "text": "rose",
+     "start": 11.692,
+     "key": false
+    },
+    {
+     "text": "again",
+     "start": 12.004,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 12.372,
+   "end": 14.053,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "on",
+     "start": 12.372,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 12.57,
+     "key": false
+    },
+    {
+     "text": "third",
+     "start": 12.825,
+     "key": true
+    },
+    {
+     "text": "day.",
+     "start": 13.193,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 14.203,
+   "end": 15.46,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Three",
+     "start": 14.203,
+     "key": true
+    },
+    {
+     "text": "women",
+     "start": 14.575,
+     "key": false
+    },
+    {
+     "text": "came",
+     "start": 14.946,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 15.26,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.46,
+   "end": 16.287,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 15.46,
+     "key": false
+    },
+    {
+     "text": "tomb:",
+     "start": 15.716,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 16.287,
+   "end": 17.315,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Mary",
+     "start": 16.287,
+     "key": false
+    },
+    {
+     "text": "Magdalene,",
+     "start": 16.602,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.315,
+   "end": 18.514,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Mary",
+     "start": 17.315,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 17.629,
+     "key": false
+    },
+    {
+     "text": "mother",
+     "start": 17.886,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 18.314,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.514,
+   "end": 20.292,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "James,",
+     "start": 18.514,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 19.0,
+     "key": false
+    },
+    {
+     "text": "Salome.",
+     "start": 19.257,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 20.442,
+   "end": 21.656,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "All",
+     "start": 20.442,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 20.715,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 20.927,
+     "key": false
+    },
+    {
+     "text": "after",
+     "start": 21.261,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.656,
+   "end": 24.252,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "about",
+     "start": 21.656,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 22.05,
+     "key": true
+    },
+    {
+     "text": "years",
+     "start": 22.445,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 22.839,
+     "key": false
+    },
+    {
+     "text": "ministry.",
+     "start": 23.052,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 24.402,
+   "end": 25.168,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 24.402,
+     "key": false
+    },
+    {
+     "text": "today,",
+     "start": 24.667,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.168,
+   "end": 26.406,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "about",
+     "start": 25.168,
+     "key": false
+    },
+    {
+     "text": "one",
+     "start": 25.551,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 25.816,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 26.022,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 26.406,
+   "end": 27.761,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "people",
+     "start": 26.406,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 26.848,
+     "key": false
+    },
+    {
+     "text": "earth",
+     "start": 27.054,
+     "key": false
+    },
+    {
+     "text": "call",
+     "start": 27.437,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 27.761,
+   "end": 29.673,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "themselves",
+     "start": 27.761,
+     "key": false
+    },
+    {
+     "text": "Christian.",
+     "start": 28.439,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.923,
+   "end": 32.837,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Peter",
+     "start": 29.923,
+     "key": false
+    },
+    {
+     "text": "denied",
+     "start": 30.362,
+     "key": false
+    },
+    {
+     "text": "Jesus",
+     "start": 30.867,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 31.306,
+     "key": true
+    },
+    {
+     "text": "times.",
+     "start": 31.745,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 32.887,
+   "end": 34.23,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 32.887,
+     "key": false
+    },
+    {
+     "text": "after",
+     "start": 33.161,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 33.559,
+     "key": false
+    },
+    {
+     "text": "rose,",
+     "start": 33.772,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 34.23,
+   "end": 36.718,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 34.23,
+     "key": false
+    },
+    {
+     "text": "asked",
+     "start": 34.627,
+     "key": false
+    },
+    {
+     "text": "him",
+     "start": 35.024,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 35.299,
+     "key": true
+    },
+    {
+     "text": "times:",
+     "start": 35.696,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 36.768,
+   "end": 37.624,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Do",
+     "start": 36.768,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 36.908,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 37.087,
+     "key": true
+    },
+    {
+     "text": "me?",
+     "start": 37.305,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 37.624,
+   "end": 38.479,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Do",
+     "start": 37.624,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 37.763,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 37.942,
+     "key": true
+    },
+    {
+     "text": "me?",
+     "start": 38.161,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 38.479,
+   "end": 39.684,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Do",
+     "start": 38.479,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 38.618,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 38.797,
+     "key": true
+    },
+    {
+     "text": "me?",
+     "start": 39.016,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.034,
+   "end": 41.105,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "God",
+     "start": 40.034,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 40.309,
+     "key": false
+    },
+    {
+     "text": "Father,",
+     "start": 40.524,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 41.105,
+   "end": 43.2,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Son,",
+     "start": 41.105,
+     "key": true
+    },
+    {
+     "text": "and",
+     "start": 41.503,
+     "key": false
+    },
+    {
+     "text": "Holy",
+     "start": 41.779,
+     "key": false
+    },
+    {
+     "text": "Spirit.",
+     "start": 42.115,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 43.45,
+   "end": 44.472,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 43.45,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 43.692,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 44.042,
+     "key": false
+    },
+    {
+     "text": "all",
+     "start": 44.23,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.472,
+   "end": 45.709,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "through",
+     "start": 44.472,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 44.929,
+     "key": false
+    },
+    {
+     "text": "world",
+     "start": 45.171,
+     "key": false
+    },
+    {
+     "text": "he",
+     "start": 45.521,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 45.709,
+   "end": 47.349,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "made.",
+     "start": 45.709,
+     "key": false
+    },
+    {
+     "text": "Every",
+     "start": 46.247,
+     "key": false
+    },
+    {
+     "text": "colour",
+     "start": 46.596,
+     "key": false
+    },
+    {
+     "text": "comes",
+     "start": 47.0,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 47.349,
+   "end": 48.237,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "from",
+     "start": 47.349,
+     "key": false
+    },
+    {
+     "text": "three:",
+     "start": 47.645,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 48.237,
+   "end": 49.097,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "red,",
+     "start": 48.237,
+     "key": true
+    },
+    {
+     "text": "yellow,",
+     "start": 48.586,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 49.097,
+   "end": 50.227,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 49.097,
+     "key": false
+    },
+    {
+     "text": "blue.",
+     "start": 49.339,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 50.377,
+   "end": 51.284,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Birth,",
+     "start": 50.377,
+     "key": true
+    },
+    {
+     "text": "life,",
+     "start": 50.859,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 51.284,
+   "end": 52.163,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 51.284,
+     "key": false
+    },
+    {
+     "text": "death.",
+     "start": 51.539,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 52.163,
+   "end": 53.184,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Past,",
+     "start": 52.163,
+     "key": false
+    },
+    {
+     "text": "present,",
+     "start": 52.588,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 53.184,
+   "end": 54.469,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 53.184,
+     "key": false
+    },
+    {
+     "text": "future.",
+     "start": 53.439,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 54.619,
+   "end": 55.585,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Time,",
+     "start": 54.619,
+     "key": true
+    },
+    {
+     "text": "space,",
+     "start": 55.072,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 55.585,
+   "end": 56.58,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 55.585,
+     "key": false
+    },
+    {
+     "text": "matter.",
+     "start": 55.856,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 56.58,
+   "end": 57.485,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Ice,",
+     "start": 56.58,
+     "key": false
+    },
+    {
+     "text": "water,",
+     "start": 56.972,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 57.485,
+   "end": 58.77,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 57.485,
+     "key": false
+    },
+    {
+     "text": "steam.",
+     "start": 57.756,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.92,
+   "end": 59.873,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Height,",
+     "start": 58.92,
+     "key": false
+    },
+    {
+     "text": "width,",
+     "start": 59.423,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 59.873,
+   "end": 60.694,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 59.873,
+     "key": false
+    },
+    {
+     "text": "depth.",
+     "start": 60.111,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 60.694,
+   "end": 61.488,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Body,",
+     "start": 60.694,
+     "key": false
+    },
+    {
+     "text": "soul,",
+     "start": 61.091,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 61.488,
+   "end": 62.712,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 61.488,
+     "key": false
+    },
+    {
+     "text": "spirit.",
+     "start": 61.727,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 62.862,
+   "end": 63.586,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "A",
+     "start": 62.862,
+     "key": false
+    },
+    {
+     "text": "father,",
+     "start": 63.013,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 63.586,
+   "end": 64.31,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "a",
+     "start": 63.586,
+     "key": false
+    },
+    {
+     "text": "mother,",
+     "start": 63.737,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 64.31,
+   "end": 65.745,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 64.31,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 64.581,
+     "key": false
+    },
+    {
+     "text": "child.",
+     "start": 64.732,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 66.095,
+   "end": 67.156,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "In",
+     "start": 66.095,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 66.291,
+     "key": false
+    },
+    {
+     "text": "garden",
+     "start": 66.542,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 66.961,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 67.156,
+   "end": 68.776,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Gethsemane,",
+     "start": 67.156,
+     "key": false
+    },
+    {
+     "text": "Jesus",
+     "start": 67.911,
+     "key": false
+    },
+    {
+     "text": "fell",
+     "start": 68.274,
+     "key": false
+    },
+    {
+     "text": "on",
+     "start": 68.581,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 68.776,
+   "end": 69.447,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "his",
+     "start": 68.776,
+     "key": false
+    },
+    {
+     "text": "face,",
+     "start": 69.028,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 69.447,
+   "end": 71.445,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 69.447,
+     "key": false
+    },
+    {
+     "text": "prayed",
+     "start": 69.698,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 70.117,
+     "key": true
+    },
+    {
+     "text": "times.",
+     "start": 70.48,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 71.595,
+   "end": 72.358,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Each",
+     "start": 71.595,
+     "key": false
+    },
+    {
+     "text": "time,",
+     "start": 71.918,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 72.358,
+   "end": 73.415,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 72.358,
+     "key": false
+    },
+    {
+     "text": "came",
+     "start": 72.564,
+     "key": false
+    },
+    {
+     "text": "back",
+     "start": 72.887,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 73.21,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 73.415,
+   "end": 74.413,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Peter,",
+     "start": 73.415,
+     "key": false
+    },
+    {
+     "text": "James,",
+     "start": 73.914,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 74.413,
+   "end": 75.265,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 74.413,
+     "key": false
+    },
+    {
+     "text": "John.",
+     "start": 74.678,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 75.265,
+   "end": 76.41,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 75.265,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 75.529,
+     "key": false
+    },
+    {
+     "text": "times,",
+     "start": 75.911,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 76.41,
+   "end": 78.375,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 76.41,
+     "key": false
+    },
+    {
+     "text": "found",
+     "start": 76.616,
+     "key": false
+    },
+    {
+     "text": "them",
+     "start": 76.997,
+     "key": false
+    },
+    {
+     "text": "asleep.",
+     "start": 77.32,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 78.625,
+   "end": 79.651,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 78.625,
+     "key": false
+    },
+    {
+     "text": "how",
+     "start": 78.868,
+     "key": false
+    },
+    {
+     "text": "does",
+     "start": 79.111,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 79.408,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 79.651,
+   "end": 80.677,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Bible",
+     "start": 79.651,
+     "key": false
+    },
+    {
+     "text": "say",
+     "start": 80.002,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 80.245,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 80.434,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 80.677,
+   "end": 82.163,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "saved?",
+     "start": 80.677,
+     "key": false
+    },
+    {
+     "text": "By",
+     "start": 81.271,
+     "key": false
+    },
+    {
+     "text": "trusting",
+     "start": 81.46,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 81.974,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 82.163,
+   "end": 82.865,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "his",
+     "start": 82.163,
+     "key": false
+    },
+    {
+     "text": "death,",
+     "start": 82.406,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 82.865,
+   "end": 83.621,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "his",
+     "start": 82.865,
+     "key": false
+    },
+    {
+     "text": "burial,",
+     "start": 83.108,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 83.621,
+   "end": 85.429,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 83.621,
+     "key": false
+    },
+    {
+     "text": "his",
+     "start": 83.864,
+     "key": false
+    },
+    {
+     "text": "resurrection.",
+     "start": 84.107,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 85.779,
+   "end": 86.701,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "In",
+     "start": 85.779,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 85.975,
+     "key": false
+    },
+    {
+     "text": "Bible,",
+     "start": 86.226,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 86.701,
+   "end": 87.929,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "three",
+     "start": 86.701,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 87.064,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 87.259,
+     "key": false
+    },
+    {
+     "text": "number",
+     "start": 87.51,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 87.929,
+   "end": 89.13,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "of",
+     "start": 87.929,
+     "key": false
+    },
+    {
+     "text": "completeness.",
+     "start": 88.125,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 89.13,
+   "end": 90.191,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "When",
+     "start": 89.13,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 89.437,
+     "key": false
+    },
+    {
+     "text": "says",
+     "start": 89.688,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 89.995,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 90.191,
+   "end": 91.028,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "three",
+     "start": 90.191,
+     "key": false
+    },
+    {
+     "text": "times,",
+     "start": 90.554,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 91.028,
+   "end": 92.495,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "it",
+     "start": 91.028,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 91.224,
+     "key": false
+    },
+    {
+     "text": "settled.",
+     "start": 91.419,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 92.645,
+   "end": 93.82,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "That",
+     "start": 92.645,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 93.004,
+     "key": false
+    },
+    {
+     "text": "why",
+     "start": 93.233,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 93.526,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 93.82,
+   "end": 94.897,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "angels",
+     "start": 93.82,
+     "key": false
+    },
+    {
+     "text": "cry:",
+     "start": 94.309,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 94.897,
+   "end": 95.875,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Holy,",
+     "start": 94.897,
+     "key": true
+    },
+    {
+     "text": "holy,",
+     "start": 95.386,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 95.875,
+   "end": 96.878,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "holy.",
+     "start": 95.875,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 97.228,
+   "end": 98.444,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 97.228,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 97.488,
+     "key": false
+    },
+    {
+     "text": "blesses",
+     "start": 97.749,
+     "key": false
+    },
+    {
+     "text": "us",
+     "start": 98.241,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 98.444,
+   "end": 99.66,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 98.444,
+     "key": false
+    },
+    {
+     "text": "three",
+     "start": 98.646,
+     "key": true
+    },
+    {
+     "text": "names.",
+     "start": 99.023,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 99.66,
+   "end": 101.254,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Say",
+     "start": 99.66,
+     "key": false
+    },
+    {
+     "text": "it",
+     "start": 99.92,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 100.123,
+     "key": false
+    },
+    {
+     "text": "me:",
+     "start": 100.441,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 101.504,
+   "end": 102.514,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "In",
+     "start": 101.504,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 101.712,
+     "key": false
+    },
+    {
+     "text": "name",
+     "start": 101.979,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 102.306,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 102.514,
+   "end": 103.345,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 102.514,
+     "key": false
+    },
+    {
+     "text": "Father,",
+     "start": 102.781,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 103.345,
+   "end": 103.998,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 103.345,
+     "key": false
+    },
+    {
+     "text": "Son,",
+     "start": 103.612,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 103.998,
+   "end": 105.572,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 103.998,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 104.265,
+     "key": false
+    },
+    {
+     "text": "Holy",
+     "start": 104.533,
+     "key": false
+    },
+    {
+     "text": "Spirit.",
+     "start": 104.859,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 105.572,
+   "end": 106.516,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Amen.",
+     "start": 105.572,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 108.866,
+   "end": 110.049,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Share",
+     "start": 108.866,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 109.2,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 109.483,
+     "key": false
+    },
+    {
+     "text": "your",
+     "start": 109.766,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 110.049,
+   "end": 111.361,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "friends,",
+     "start": 110.049,
+     "key": true
+    },
+    {
+     "text": "your",
+     "start": 110.59,
+     "key": false
+    },
+    {
+     "text": "family,",
+     "start": 110.873,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 111.361,
+   "end": 112.597,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 111.361,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 111.593,
+     "key": false
+    },
+    {
+     "text": "people",
+     "start": 111.825,
+     "key": false
+    },
+    {
+     "text": "around",
+     "start": 112.211,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 112.597,
+   "end": 113.626,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "you,",
+     "start": 112.597,
+     "key": false
+    },
+    {
+     "text": "so",
+     "start": 112.931,
+     "key": false
+    },
+    {
+     "text": "they",
+     "start": 113.111,
+     "key": false
+    },
+    {
+     "text": "can",
+     "start": 113.394,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 113.626,
+   "end": 115.108,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "hear",
+     "start": 113.626,
+     "key": false
+    },
+    {
+     "text": "God's",
+     "start": 113.909,
+     "key": false
+    },
+    {
+     "text": "word.",
+     "start": 114.243,
+     "key": true
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 0.5,
+   "end": 6.382,
+   "text": "Jesus was about thirty-three when he was crucified. He died at three in the afternoon.",
+   "tempter": false
+  },
+  {
+   "start": 6.782,
+   "end": 9.224,
+   "text": "Three crosses stood on the hill.",
+   "tempter": false
+  },
+  {
+   "start": 9.624,
+   "end": 13.803,
+   "text": "He died, he was buried, and he rose again on the third day.",
+   "tempter": false
+  },
+  {
+   "start": 14.203,
+   "end": 20.042,
+   "text": "Three women came to the tomb: Mary Magdalene, Mary the mother of James, and Salome.",
+   "tempter": false
+  },
+  {
+   "start": 20.442,
+   "end": 24.002,
+   "text": "All of this after about three years of ministry.",
+   "tempter": false
+  },
+  {
+   "start": 24.402,
+   "end": 29.423,
+   "text": "And today, about one in three people on earth call themselves Christian.",
+   "tempter": false
+  },
+  {
+   "start": 29.923,
+   "end": 32.587,
+   "text": "Peter denied Jesus three times.",
+   "tempter": false
+  },
+  {
+   "start": 32.887,
+   "end": 36.468,
+   "text": "And after he rose, Jesus asked him three times:",
+   "tempter": false
+  },
+  {
+   "start": 36.768,
+   "end": 39.434,
+   "text": "Do you love me? Do you love me? Do you love me?",
+   "tempter": false
+  },
+  {
+   "start": 40.034,
+   "end": 42.95,
+   "text": "God is Father, Son, and Holy Spirit.",
+   "tempter": false
+  },
+  {
+   "start": 43.45,
+   "end": 49.977,
+   "text": "And three is all through the world he made. Every colour comes from three: red, yellow, and blue.",
+   "tempter": false
+  },
+  {
+   "start": 50.377,
+   "end": 54.219,
+   "text": "Birth, life, and death. Past, present, and future.",
+   "tempter": false
+  },
+  {
+   "start": 54.619,
+   "end": 58.52,
+   "text": "Time, space, and matter. Ice, water, and steam.",
+   "tempter": false
+  },
+  {
+   "start": 58.92,
+   "end": 62.462,
+   "text": "Height, width, and depth. Body, soul, and spirit.",
+   "tempter": false
+  },
+  {
+   "start": 62.862,
+   "end": 65.495,
+   "text": "A father, a mother, and a child.",
+   "tempter": false
+  },
+  {
+   "start": 66.095,
+   "end": 71.195,
+   "text": "In the garden of Gethsemane, Jesus fell on his face, and prayed three times.",
+   "tempter": false
+  },
+  {
+   "start": 71.595,
+   "end": 78.125,
+   "text": "Each time, he came back to Peter, James, and John. And three times, he found them asleep.",
+   "tempter": false
+  },
+  {
+   "start": 78.625,
+   "end": 85.179,
+   "text": "And how does the Bible say we are saved? By trusting in his death, his burial, and his resurrection.",
+   "tempter": false
+  },
+  {
+   "start": 85.779,
+   "end": 92.245,
+   "text": "In the Bible, three is the number of completeness. When God says it three times, it is settled.",
+   "tempter": false
+  },
+  {
+   "start": 92.645,
+   "end": 96.628,
+   "text": "That is why the angels cry: Holy, holy, holy.",
+   "tempter": false
+  },
+  {
+   "start": 97.228,
+   "end": 101.004,
+   "text": "And God blesses us in three names. Say it with me:",
+   "tempter": false
+  },
+  {
+   "start": 101.504,
+   "end": 106.266,
+   "text": "In the name of the Father, the Son, and the Holy Spirit. Amen.",
+   "tempter": false
+  },
+  {
+   "start": 107.166,
+   "end": 114.858,
+   "text": "Share this with your friends, your family, and the people around you, so they can hear God's word.",
+   "tempter": false
+  }
+ ]
+}

@@ -35,6 +35,8 @@ import {WaterTall, WATER_DUR, WATER_DUR_BDY} from './v17/Water';
 import {Ep10Cover} from './v17/Cover';
 import {OpenedTall, OPENED_DUR, OPENED_DUR_BDY} from './v18/Opened';
 import {Ep11Cover} from './v18/Cover';
+import {ThreeTall, THREE_DUR, THREE_DUR_BDY} from './v100/Three';
+import {ThreeCover} from './v100/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -128,6 +130,11 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="OpenedTallBdy" component={OpenedTall} durationInFrames={Math.ceil(OPENED_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="Ep11CoverBdy" component={Ep11Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="Ep11CoverEn" component={Ep11Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    {/* Jesus series, Special: The Number 3, TikTok only */}
+    <Composition id="ThreeTall" component={ThreeTall} durationInFrames={Math.ceil(THREE_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="ThreeTallBdy" component={ThreeTall} durationInFrames={Math.ceil(THREE_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="SpecialCoverEn" component={ThreeCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    <Composition id="SpecialCoverBdy" component={ThreeCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

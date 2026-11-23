@@ -210,6 +210,31 @@ LINES11 = [  # episode 11 (steady low room hum about 25 dB under the voice; thre
     ("", 91.0, 96.8, ["ngojit", "sina"], {"hear": "ngojit"}),
     ("Nuna koih suo part 12.", 98.25, 100.1, ["Nuna"], {}),
 ]
+LINES93 = [  # special: The Number 3 (clean take, all narration; Jesus line 9 natural)
+    ("Umur Jesus 33 sowa takar yeh meh obuoh nyalip. Yeh meh kobos pukul 3 singumi.", 5.8, 10.95, ["33", "3"], {"thirtythree": "33", "three": "3"}),
+    ("3 botang salip de tun pungu.", 11.45, 13.2, ["3"], {"three": "3"}),
+    ("Yeh meh kobes, meh obuoh ngubur, duoh mokat idip bauh dang onu ke 3.", 13.95, 17.75, ["3"], {"died": "kobes", "buried": "ngubur", "third": "3"}),
+    ("3 dayung odi nudu makam Eh: Mary Magdalene, Mary sine James, duoh Salome.", 18.4, 23.65, ["3"], {"three": "3"}),
+    ("Suo de muti takar meh sukup 3 sowa Jesus ngajar.", 24.35, 27.3, ["3"], {"three": "3"}),
+    ("Adin, kira-kira ogi 1 urang misia suo 3 urang de dunya de ngaku dep eh Christian.", 27.8, 32.3, ["1", "3"], {"one": "1", "three": "3"}),
+    ("3 sideh Peter nang dep eh doi piruh Jesus.", 32.8, 35.3, ["3"], {"three": "3"}),
+    ("Takar Yeh meh mokat idip bauh, Jesus sikien duoh yeh 3 sideh:", 35.8, 39.05, ["3"], {"three": "3"}),
+    ("Muu nyayang oku keh? Mu nyayang oku keh? Mu nyayang oku keh?", 39.6, 42.95, ["nyayang"], {"love": "nyayang", "love2": "nyayang#2", "love3": "nyayang#3"}),
+    ("Topa yeh leh Sama, Onak duoh Roh Kudus.", 43.4, 45.95, ["Sama", "Onak", "Kudus"], {"father": "Sama", "son": "Onak", "spirit": "Kudus"}),
+    ("Suo koyuh de dunya mokat suo 3 koyuh geh. Warna de paring ayuh neg suo 3 itih: birieh, sia, duoh biru.", 46.45, 53.25, ["birieh", "sia", "biru"], {"red": "birieh", "yellow": "sia", "blue": "biru"}),
+    ("Meh branak, meh idip, meh kobes. Do sodi eh, de adin, duoh tie sije.", 53.7, 58.8, ["branak", "idip", "kobes"], {"birth": "branak", "life": "idip", "death": "kobes", "past": "sodi", "present": "adin", "future": "sije"}),
+    ("Masa, ruang, duoh jirim. Ais, piin, duoh gas.", 59.4, 63.6, ["Masa", "ruang", "jirim"], {"time": "Masa", "space": "ruang", "matter": "jirim", "ice": "Ais", "water": "piin", "steam": "gas"}),
+    ("Omu, ayuh, dowoh. Gonan, smongi, duoh roh.", 64.3, 68.85, ["Gonan", "smongi", "roh"], {"height": "Omu", "width": "ayuh", "depth": "dowoh", "body": "Gonan", "soul": "smongi", "spirit": "roh"}),
+    ("Sama, sine, duoh onak.", 69.5, 71.5, ["Sama", "sine", "onak"], {"father": "Sama", "mother": "sine", "child": "onak"}),
+    ("Takar dang Gethsemane, Jesus gan jowin eh ke tana, duoh smayang 3 sideh.", 72.25, 76.4, ["3"], {"three": "3"}),
+    ("Yeh pari ninga Peter, James duoh John. 3 sideh geh, Yeh daped nya munu bees.", 76.8, 82.1, ["3", "bees"], {"three": "3", "asleep": "bees"}),
+    ("Watki Bible tanen nang otte daped obuoh ngramat? Asa te bisaya nang Yeh meh kobes, meh ngubur, ju meh mokat idip bauh.", 83.45, 90.0, ["kobes", "ngubur", "mokat"], {"death": "kobes", "burial": "ngubur", "resurrection": "mokat"}),
+    ("Dang Bible, numur 3 inuh numur de meh sukup. Asa Topa sobut koyuh 3 sideh, koyuh inuh meh jadi.", 90.7, 96.85, ["sukup", "jadi"], {"completeness": "sukup", "settled": "jadi"}),
+    ("Itih leh ruban malaikat nang: Kudus, kudus, kudus.", 97.6, 100.55, ["Kudus", "kudus"], {"holy": "Kudus", "holy2": "kudus#2", "holy3": "kudus#3"}),
+    ("Topa ngin brokat eh duoh otte pakai 3 koyuh. Nuna oku sobut:", 101.3, 105.2, ["3"], {"three": "3"}),
+    ("Dang aden Sama, duoh Onak, duoh Roh Kudus. Amen.", 105.3, 109.1, ["Sama", "Onak", "Kudus"], {"father": "Sama", "son": "Onak", "spirit": "Kudus"}),
+    ("Share itih nudu pingoma, madis ayuo, duoh dingan ingan ngan te puan Kiasa Topa.", 109.7, 113.85, ["pingoma", "ayuo", "Kiasa"], {"friends": "pingoma", "family": "ayuo", "word": "Kiasa"}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (11, 1): [("Oni onak murid mu pak doi nuna adat de pakai sumuk babai te?", 9.8, 13.0, "scholar")],
@@ -302,6 +327,8 @@ if EP == 10:
                 PARTS[(ep_, n_)] = [(pt, T2[n_][0], T2[n_][1], fx) for (pt, _, _, fx) in parts]
 if EP == 11:
     LINES = LINES11
+if EP == 93:
+    LINES = LINES93
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -323,6 +350,8 @@ if EP == 6:
     TH = -35
 if EP == 11:
     TH = -34
+if EP == 93:
+    TH = -43
 # Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
 # no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
 TAKE = int(os.environ.get("TAKE", "1"))
