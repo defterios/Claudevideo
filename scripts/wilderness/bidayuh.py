@@ -235,8 +235,32 @@ LINES93 = [  # special: The Number 3 (clean take, all narration; Jesus line 9 na
     ("Dang aden Sama, duoh Onak, duoh Roh Kudus. Amen.", 105.3, 109.1, ["Sama", "Onak", "Kudus"], {"father": "Sama", "son": "Onak", "spirit": "Kudus"}),
     ("Share itih nudu pingoma, madis ayuo, duoh dingan ingan ngan te puan Kiasa Topa.", 109.7, 113.85, ["pingoma", "ayuo", "Kiasa"], {"friends": "pingoma", "family": "ayuo", "word": "Kiasa"}),
 ]
+LINES12 = [  # episode 12 (clean take)
+    ("Bogo nyaa meh bigupur ade bauh. Selama 3 onu, doi pinguman suo nya munu.", 2.85, 7.3, ["3"], {"three": "3"}),
+    ("Masi Ku ninga nya muti. Asa Ku da pari ke bori duoh toin de pirai, tie meh gurang pisan de tongah oran.", 7.9, 14.1, ["Masi"], {"compassion": "Masi"}),
+    ("Jek 7 kiping ruti sija de ogi supieh. Jesus meh ngin trima kasih, nyipiek ruti inuh, ju meh 4000 urang manusia meh daped man.", 15.1, 23.0, ["7", "4000"], {"seven": "7", "thousand": "4000"}),
+    ("Inuh pun masih ogi supieh 7 bakul punuo da pinguman.", 23.9, 26.6, ["7"], {"seven": "7"}),
+    ("Daang Bethsaida, ogi nyaa meh toban dari de buta, yeh meh mitie turung Jesus toma dep eh.", 27.95, 33.75, ["buta"], {"blind": "buta"}),
+    ("Jesus meh toban yeh ruah suo kupuo inuh, gan royang Eh de boten dari inuh, ju meh kuob pakai tongan Eh.", 34.95, 40.65, ["boten"], {"eyes": "boten"}),
+    ("Oni de kirin mu?", 41.8, 42.95, ["kirin"], {"see": "kirin"}),
+    ("", 44.15, 48.4, ["tongen"], {"trees": "tongen", "walking": "ponu"}),
+    ("Ni sideh ade, Jesus gan tongan Eh de boten dari inuh. Ju meh boten eh meh makin torang, suo koyuh meh daped geh yeh kirin eh.", 49.75, 56.9, ["torang"], {"clearly": "torang"}),
+    ("Takar daang oran, Jesus sikien duoh onak murid eh: Osi Oku in nyaa nang eh yeh?", 58.1, 63.2, ["Osi"], {"who": "Osi"}),
+    ("", 64.4, 71.3, ["Joanis", "Elijah"], {"john": "Joanis", "prophets": "nabi"}),
+    ("Odop ingan neh? Osi Oku in ingan nang?", 72.4, 75.6, ["ingan"], {"you": "ingan"}),
+    ("", 76.5, 77.95, ["Pinubuos"], {"messiah": "Pinubuos"}),
+    ("Mokuo inuh Yeh meh tanen duoh bara onak murid Eh nang Onak Misia rie obuoh sengsara de tok tok baat, rie obuoh ngabes, mokuo 3 onu, Yeh rie mokat idip bauh.", 79.7, 88.85, ["sengsara", "mokat"], {"suffer": "sengsara", "rise": "mokat"}),
+    ("Peter meh narik Yeh ke topat de boken, jaman da sobut koyuh de in ninu.", 89.9, 93.6, ["sobut"], {"rebuke": "sobut"}),
+    ("Buu kanih sitan eh! Koyuh de pikir mu ideh di eh neg suo Topa.", 94.35, 98.3, ["sitan", "Topa"], {"satan": "sitan", "god": "Topa"}),
+    ("Asa ingan rie nuna Oku, ingan mesti nuah odep ingan, gorong sarip ingan, ju nya meh nuna Oku.", 99.6, 105.7, ["sarip"], {"cross": "sarip"}),
+    ("Oni utung nya asa suo koyuh de dunya itih ingan daped, pak eh simongi ingan meh moyap?", 106.4, 112.1, ["dunya", "simongi"], {"world": "dunya", "soul": "simongi"}),
+    ("Nuna koih suo part 13.", 112.65, 114.75, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (12, 7): [("Oku kirin manusia. Rie mun tongen koyuh mun eh, ponu kati kanih.", 44.15, 48.4, "blind")],
+    (12, 10): [("Ogi nya nang ingan Joanis Baptista. Ogi de nang Elijah. Ogi geh nyaa de nang Ingan nabi de boken.", 64.4, 71.3, "disciple")],
+    (12, 12): [("Ingan Pinubuos.", 76.5, 77.95, "peter")],
     (11, 1): [("Oni onak murid mu pak doi nuna adat de pakai sumuk babai te?", 9.8, 13.0, "scholar")],
     (11, 2): [("Ingan posan sibaya Topa, ngan ingan nuna adat aturan de meh nai misia.", 13.9, 18.3, "jesus")],
     (11, 3): [("Ideh di koyuh de morot kang gonan nya de bikais odop nya. Pak eh koyuh daang otin nya.", 19.4, 24.2, "jesus")],
@@ -296,6 +320,8 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "herod": "rubberband=pitch=0.86:formant=preserved,lowshelf=f=150:g=3",
     "girl": "rubberband=pitch=1.22:formant=preserved,highpass=f=220,equalizer=f=3200:t=q:w=1:g=3",
     "queen": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=1800:t=q:w=1:g=4,aecho=0.8:0.5:60:0.15",
+    "blind": "rubberband=pitch=1.1:formant=preserved,highpass=f=180,equalizer=f=2200:t=q:w=1:g=3",
+    "peter": "rubberband=pitch=0.94:formant=preserved,lowshelf=f=160:g=2,equalizer=f=2400:t=q:w=1:g=2",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
@@ -329,6 +355,8 @@ if EP == 11:
     LINES = LINES11
 if EP == 93:
     LINES = LINES93
+if EP == 12:
+    LINES = LINES12
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -351,6 +379,8 @@ if EP == 6:
 if EP == 11:
     TH = -34
 if EP == 93:
+    TH = -43
+if EP == 12:
     TH = -43
 # Episode 1, second recording (TAKE=2): denoised first (ffmpeg highpass=f=90,afftdn=nr=18:nf=-38:tn=1), noisier room,
 # no "Follow suo part 2" in it, so that last line comes from the first recording (argv[3]).
