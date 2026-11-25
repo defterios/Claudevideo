@@ -17,7 +17,7 @@ LINES = [
     ("voice",    "This is my Son, whom I love. Listen to him!",                                       G, 0.82, 0.9, ["Son", "Listen"]),
     ("alone",    "Suddenly, when they looked around, they saw no one with them, only Jesus.",         N, 0.9, 0.6, ["Jesus"]),
     ("foot",     "At the foot of the mountain, a father cried out from the crowd.",                   N, 0.95, 0.3, ["father"]),
-    ("father",   "Teacher, my son has a spirit that throws him to the ground. Your disciples could not drive it out.", F, 0.98, 0.4, ["son"]),
+    ("father",   "Teacher, my son has a spirit that throws him to the ground. Your disciples could not drive it out. If you can do anything, help us!", F, 0.98, 0.4, ["son"]),
     ("ifyoucan", "If you can? Everything is possible for one who believes.",                          J, 0.88, 0.5, ["possible", "believes"]),
     ("help",     "I do believe! Help me overcome my unbelief!",                                       F, 0.95, 0.7, ["believe", "unbelief"]),
     ("healed",   "Jesus rebuked the spirit. The boy shook, then lay still, like he was dead. But Jesus took him by the hand, and lifted him up.", N, 0.92, 0.7, ["hand", "lifted"]),

@@ -39,6 +39,8 @@ import {ThreeTall, THREE_DUR, THREE_DUR_BDY} from './v100/Three';
 import {ThreeCover} from './v100/Cover';
 import {WhoTall, WHO_DUR, WHO_DUR_BDY} from './v19/WhoIAm';
 import {Ep12Cover} from './v19/Cover';
+import {ListenTall, LISTEN_DUR, LISTEN_DUR_BDY} from './v20/Listen';
+import {Ep13Cover} from './v20/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -142,6 +144,11 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="WhoTallBdy" component={WhoTall} durationInFrames={Math.ceil(WHO_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="Ep12CoverEn" component={Ep12Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="Ep12CoverBdy" component={Ep12Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    {/* Jesus series, Episode 13: Listen to Him (Mark 9), TikTok only */}
+    <Composition id="ListenTall" component={ListenTall} durationInFrames={Math.ceil(LISTEN_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="ListenTallBdy" component={ListenTall} durationInFrames={Math.ceil(LISTEN_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Ep13CoverEn" component={Ep13Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    <Composition id="Ep13CoverBdy" component={Ep13Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

@@ -256,8 +256,32 @@ LINES12 = [  # episode 12 (clean take)
     ("Oni utung nya asa suo koyuh de dunya itih ingan daped, pak eh simongi ingan meh moyap?", 106.4, 112.1, ["dunya", "simongi"], {"world": "dunya", "soul": "simongi"}),
     ("Nuna koih suo part 13.", 112.65, 114.75, ["Nuna"], {}),
 ]
+LINES13 = [  # episode 13 (very clean take, gated silence)
+    ("6 onu mokuo inuh, Jesus meh toban Peter, James duoh John nuna yeh ke tun dored.", 2.35, 9.0, ["dored"], {"mountain": "dored"}),
+    ("Danu, rupa Jesus meh brubah de dopan nya munu. Pimakai Eh meh ponai ngokab mopu bikirat, ideh di mun koyuh de obuoh nai de dunya itih.", 9.35, 18.3, ["brubah", "bikirat"], {"transfigured": "brubah", "white": "bikirat"}),
+    ("Mokuo inuh Elijah duoh Moses meh pitonga dep eh, sina duoh Jesus.", 19.05, 23.25, ["Elijah", "Moses"], {}),
+    ("", 24.35, 33.3, ["kati"], {"one": "ni"}),
+    ("Peter in ninu sobab yeh doi puan oni de rie nang eh. Dep eh de munu meh skia toru. Mokuo inuh abun meh mun kuob suo dep eh, ju meh ogi suara sina suo abun inuh:", 34.5, 45.0, ["abun"], {"cloud": "abun"}),
+    ("", 46.2, 50.6, ["Onak", "Ngojit"], {"son": "Onak", "listen": "Ngojit"}),
+    ("Tojoh tojoh, takar onak murid eh kurang kurieh ninga, doi osi-osi danu duoh nya munu, jek eh Jesus.", 52.2, 58.55, ["Jesus"], {"jesus": "Jesus"}),
+    ("Takar meh de dou dored inuh, ogi ni urang dari dang ayuo nya de boge meh nang in eh.", 60.4, 65.0, ["dari"], {"father": "dari"}),
+    ("", 65.95, 75.0, ["onak"], {"son": "onak"}),
+    ("Bisaya mu keh? Sobab suo koyuh daped geh morui asa ingan bisaya.", 76.25, 80.45, ["morui", "bisaya"], {"possible": "morui", "believes": "bisaya#2"}),
+    ("", 81.25, 84.0, ["Bisaya"], {"believe": "Bisaya"}),
+    ("Jesus meh kasig muot inuh. Onak opet inuh meh poreng poreng eh tia. Pak eh Jesus meh mit tongan onak opet inuh, ju meh turung kakat yeh.", 84.95, 92.9, ["tongan", "kakat"], {"hand": "tongan", "lifted": "kakat"}),
+    ("Ropas inuh, takar dang oran, onak murid Eh meh krakar pasal osi dang odep eh de kasen ayuh.", 94.15, 100.0, ["ayuh"], {"greatest": "ayuh"}),
+    ("Osi-osi de ran rie kasen die, yeh mesti da dep eh kasen sunis, mesti eh jagin kuri suo nyaa.", 101.5, 107.65, ["sunis", "kuri"], {"last": "sunis", "servant": "kuri"}),
+    ("Mokuo inuh Jesus meh mit onak opet de mujuog sinek dep eh, ju meh dokuop onak opet inuh.", 108.9, 114.35, ["dokuop"], {"child": "onak"}),
+    ("Osi-osi de ngrima onak opet de koda de muti dang aden Oku, ngrima Oku geh.", 114.95, 119.3, ["ngrima"], {"welcomes": "ngrima"}),
+    ("Koyuh de sit koda piin dowoh sakir de ngin ingan daang aden Oku, ngrima Oku geh.", 120.0, 124.85, ["piin"], {"water": "piin"}),
+    ("Nuna koih suo part 14.", 125.85, 127.7, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (13, 3): [("Mistar, tek tek kona koih ogi dati neh! Da kois kajuog bori mota kati: ni suo Ingan, ni suo Moses, ni ade suo Elijah.", 24.35, 33.3, "peter")],
+    (13, 5): [("Itih Onak Ku, de boye Ku rinu eh. Ngojit nya sina Yeh!", 46.2, 50.6, "god")],
+    (13, 8): [("Mistar, ogi muot dowoh gonan onak dari ku de gia da yeh rabu gurang. Onak murid ingan doi ponai pruah muot inuh. Turung die asa ingan daped.", 65.95, 75.0, "family")],
+    (13, 10): [("Bisaya! Turung nguat bisaya ku ade!", 81.25, 84.0, "family")],
     (12, 7): [("Oku kirin manusia. Rie mun tongen koyuh mun eh, ponu kati kanih.", 44.15, 48.4, "blind")],
     (12, 10): [("Ogi nya nang ingan Joanis Baptista. Ogi de nang Elijah. Ogi geh nyaa de nang Ingan nabi de boken.", 64.4, 71.3, "disciple")],
     (12, 12): [("Ingan Pinubuos.", 76.5, 77.95, "peter")],
@@ -357,6 +381,8 @@ if EP == 93:
     LINES = LINES93
 if EP == 12:
     LINES = LINES12
+if EP == 13:
+    LINES = LINES13
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -459,6 +485,8 @@ def char_voice(x, kind):
     """apply a character voice chain; returns (audio, length of the dry voice)"""
     if kind == "jesus" and EP >= 6:
         kind = None  # creator's request: Jesus in the natural voice, no echo
+    if kind == "god":
+        return god_voice(x)
     if not kind:
         return x, len(x) / SR
     with tempfile.TemporaryDirectory() as td:
