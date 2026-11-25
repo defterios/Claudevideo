@@ -511,8 +511,13 @@ def fade(x, ms=12):
     n = int(ms / 1000 * SR); f = np.linspace(0, 1, n, dtype=np.float32)
     x = x.copy(); x[:n] *= f; x[-n:] *= f[::-1]; return x
 
+CUTS = {15: [(74.76, 75.36)]}  # raw-time pauses the creator asked to remove (ep 15: "ngojit … pingajar")
 def clip(s, e, src=None):
     x = (a if src is None else src)[int((s - 0.06) * SR): int((e + 0.1) * SR)]
+    for cs, ce in reversed(CUTS.get(EP, [])):
+        if src is None and s - 0.06 < cs and ce < e + 0.1:
+            i0, i1 = int((cs - s + 0.06) * SR), int((ce - s + 0.06) * SR)
+            x = np.concatenate([x[:i0], x[i1:]])
     d = env_db(x); v = np.nonzero(d > TH)[0]  # trim to first/last voiced frame
     x = x[max(0, v[0] * H - int(0.05 * SR)): min(len(x), (v[-1] + 1) * H + int(0.12 * SR))]
     return fade(tighten(x))
