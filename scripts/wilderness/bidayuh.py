@@ -276,8 +276,36 @@ LINES13 = [  # episode 13 (very clean take, gated silence)
     ("Koyuh de sit koda piin dowoh sakir de ngin ingan daang aden Oku, ngrima Oku geh.", 120.0, 124.85, ["piin"], {"water": "piin"}),
     ("Nuna koih suo part 14.", 125.85, 127.7, ["Nuna"], {}),
 ]
+LINES14 = [  # episode 14 (very clean take, gated silence)
+    ("Takar Jesus meh ponu ade, ogi ni dari muda de kaya meh bikoduh nudu Yeh ju meh ngoruob de dopan Eh.", 3.2, 9.7, ["kaya"], {"rich": "kaya"}),
+    ("", 10.05, 14.6, ["adu"], {"eternal": "adu"}),
+    ("Muu puan sibaya Topa: ma ngabos nyaa, ma noku, ma ngakar, brupa bipama duoh sino sama mu.", 15.2, 23.5, ["sibaya"], {"commandments": "sibaya"}),
+    ("", 24.2, 27.5, ["nai"], {"kept": "nai"}),
+    ("Jesus meh ninga yeh, ju meh mua nyam otin Eh nudu dari inuh.", 28.15, 32.2, ["otin"], {"loved": "otin"}),
+    ("Ogi ni koyuh de aruo mu nai. Odi jua suo rota mu, ju ngin tudu nya de sutuok, moke mu rie ogi rota daang sorga. Mokuo inuh, nya meh nuna Oku.", 32.9, 43.5, ["sorga", "nuna"], {"treasure": "rota#2", "follow": "nuna"}),
+    ("Jowin dari inuh meh ruop mun eh masuom. Yeh meh buu toban otin de boye susah, sobab yeh tek-tek boge rota eh.", 44.95, 51.4, ["susah"], {"sad": "susah"}),
+    ("Nyaa de kaya tek-tek rorah rie moret kang pritah Topa. Sonang ade ingan kibaret unta moret ke rubang tuos.", 52.65, 59.65, ["unta", "tuos"], {"camel": "unta", "needle": "tuos"}),
+    ("", 60.7, 62.35, ["sramat"], {"saved": "sramat"}),
+    ("Duoh misia memang doi daped, pak eh duoh Topa daped. Suo koyuh daped geh da Topa.", 63.85, 69.65, ["Topa"], {"impossible": "doi", "possible": "daped#3"}),
+    ("Mokuo inuh, James duoh John meh mitie de Jesus da dep eh duoh daped guru ngopid tura kiri duoh touh Jesus.", 71.3, 78.05, ["tura", "kiri"], {"right": "tura", "left": "kiri"}),
+    ("Osi-osi mun dep ingan de rie jadi ayuh berkuasa misti rie jagin kuri die. Inuh ruban Onak Misia neg ke dunia itih ideh di mitie nyomah, pak eh rie nyomah, duoh ngin asung Eh nudu suo dep ingan de boge.", 80.45, 93.5, ["nyomah", "asung"], {"serve": "nyomah#2", "life": "asung"}),
+    ("Takar dang Jericho, ogi nikan dari de buta de den Bartimaeus, guru tugu-tugu eh de oran. Takar yeh meh ngojit suara Jesus, yeh meh mogan doras-doras:", 95.35, 104.82, ["Bartimaeus"], {}),
+    ("", 105.35, 108.1, ["masi"], {"mercy": "masi"}),
+    ("Bogo nya da yeh ngorek. Pak eh makin doras yeh mogan Jesus. Jesus meh roo ju in Eh: Mogan yeh da odi kati.", 108.95, 116.3, ["doras", "Mogan"], {"louder": "doras", "call": "mogan#2"}),
+    ("Yeh meh ngamur jubah eh, gangur wat eh mokat ju meh odi nudu Jesus.", 117.35, 121.65, ["jubah"], {"cloak": "jubah"}),
+    ("Oni de ran mu Oku nai suo dep mu?", 122.75, 124.85, ["ran"], {"want": "ran"}),
+    ("", 126.05, 128.0, ["kirin"], {"see": "kirin"}),
+    ("Ponu negeh. Sobab mu bisaya, mu meh ponai kirin.", 128.8, 132.65, ["bisaya"], {"faith": "bisaya"}),
+    ("Danu-danu geh boten eh meh tonga, ju yeh meh ponu nuna Jesus.", 133.35, 137.25, ["nuna"], {"followed": "nuna"}),
+    ("Nuna koih suo part 15.", 138.45, 140.2, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (14, 1): [("Mistar de paguh, oni de perlu ku nai ngan ku rie idip adu-adu?", 10.05, 14.6, "young")],
+    (14, 3): [("Mistar, suo de muti nai ku geh suo ku ogi onak opet geh.", 24.2, 27.5, "young")],
+    (14, 8): [("Osi beneh de rie daped sramat?", 60.7, 62.35, "disciple")],
+    (14, 13): [("Jesus, onak David, masi duoh oku!", 105.35, 108.1, "blind")],
+    (14, 17): [("Mistar, da boten ku ponai kirin.", 126.05, 128.0, "blind")],
     (13, 3): [("Mistar, tek tek kona koih ogi dati neh! Da kois kajuog bori mota kati: ni suo Ingan, ni suo Moses, ni ade suo Elijah.", 24.35, 33.3, "peter")],
     (13, 5): [("Itih Onak Ku, de boye Ku rinu eh. Ngojit nya sina Yeh!", 46.2, 50.6, "god")],
     (13, 8): [("Mistar, ogi muot dowoh gonan onak dari ku de gia da yeh rabu gurang. Onak murid ingan doi ponai pruah muot inuh. Turung die asa ingan daped.", 65.95, 75.0, "family")],
@@ -346,6 +374,7 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "queen": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=1800:t=q:w=1:g=4,aecho=0.8:0.5:60:0.15",
     "blind": "rubberband=pitch=1.1:formant=preserved,highpass=f=180,equalizer=f=2200:t=q:w=1:g=3",
     "peter": "rubberband=pitch=0.94:formant=preserved,lowshelf=f=160:g=2,equalizer=f=2400:t=q:w=1:g=2",
+    "young": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=3000:t=q:w=1:g=2",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
@@ -383,6 +412,8 @@ if EP == 12:
     LINES = LINES12
 if EP == 13:
     LINES = LINES13
+if EP == 14:
+    LINES = LINES14
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
