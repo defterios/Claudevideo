@@ -299,8 +299,29 @@ LINES14 = [  # episode 14 (very clean take, gated silence)
     ("Danu-danu geh boten eh meh tonga, ju yeh meh ponu nuna Jesus.", 133.35, 137.25, ["nuna"], {"followed": "nuna"}),
     ("Nuna koih suo part 15.", 138.45, 140.2, ["Nuna"], {}),
 ]
+LINES15 = [  # episode 15 (very clean take, gated silence)
+    ("Takar ngan Jesus meh rie neg Jerusalem, Yeh meh da 2 onak murid eh die ponu.", 5.85, 10.65, ["Jerusalem"], {}),
+    ("Odi ke kupuo inuh. Tie asa ingan kirin dongki muda dang sringuo, de doi pronah nya nungang eh. Buka sringuo eh, ju nya toban kati.", 11.1, 18.35, ["dongki"], {"donkey": "dongki"}),
+    ("Nya de 2 inuh meh toban dongki inuh nudu Jesus, ju meh nopas dongki inuh ngan jubah eh, ju Jesus meh mad ke tun eh.", 19.2, 25.5, ["jubah"], {"cloaks": "jubah"}),
+    ("Kiang oni kiang nya meh naruh jubah de oran, ogi geh dep eh de bikopek duoh koyuh ngan eh gan de oran.", 26.2, 31.95, ["bikopek"], {"branches": "bikopek"}),
+    ("", 32.6, 35.95, ["Hosanna", "brokat"], {"blessed": "brokat"}),
+    ("Onu de nikan, Jesus meh pirai. Yeh meh kirin tongen fig de robat dowen eh, pak doi bua eh.", 37.3, 42.9, ["fig", "dowen"], {"leaves": "dowen"}),
+    ("Sa nyaa doi tia man bua suo tongen mu.", 43.5, 46.0, ["tia"], {"ever": "tia"}),
+    ("Dang Jerusalem, Jesus meh moret kang romin Topa. Pak eh punuo da nyaa bidagang duoh bijua danu.", 47.3, 53.05, ["romin"], {"temple": "romin"}),
+    ("Yeh meh ngibirak mija nyaa de nukar duit, ngibirak ade mija nya de bijua manuk asang.", 53.5, 58.4, ["ngibirak", "asang"], {"overturned": "ngibirak", "doves": "asang"}),
+    ("Kitab nang: Romin Ku neh aden romin smayang suo suo bangsa. Pak ingan meh nai da jagin sorin pinoku duoh prupak!", 59.4, 66.6, ["smayang", "prupak"], {"prayer": "smayang", "robbers": "prupak"}),
+    ("Kipara padri meh ngojit oni de braku, yeh de munu meh karik oran ngan eh rie ngabes Jesus. Ruban nya boye gonget ngojit pingajar Jesus.", 67.6, 76.1, ["ngabes", "gonget"], {"kill": "ngabes", "amazed": "gonget"}),
+    ("Pagi de nikan, takar bara de munu meh ngrusu tongon fig de samah. Tongon eh meh pisek neg puun eh.", 77.7, 83.95, ["pisek"], {"withered": "pisek"}),
+    ("", 84.6, 88.15, ["ninga"], {"look": "ninga"}),
+    ("Bisaya dang Topa. Asa ingan tanen duoh pungu itih da mokat toran dep eh ke raut, dang ingan bonar-bonar bisaya, totap eh akan braku.", 88.9, 97.4, ["Bisaya", "pungu"], {"faith": "Bisaya", "mountain": "pungu"}),
+    ("Oni-oni de mitie ingan dang smayang, asa ingan meh bisaya nang meh dang tongan ingan, totap ingan rie daped eh.", 98.0, 104.3, ["bisaya"], {"believe": "bisaya"}),
+    ("Ju asa ingan smayang, asa ingan tiwas duoh osi-osi keh, ngapun nya sarah nya munu.", 105.4, 110.7, ["ngapun"], {"forgive": "ngapun"}),
+    ("Nuna koih suo part 16.", 112.3, 114.05, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (15, 4): [("Hosanna! Obuoh brokat Yeh de neg dang aden Tuhan!", 32.6, 35.95, "crowd")],
+    (15, 12): [("Mistar, duok ninga! Tongon fig de nyupah Ingan meh kobes!", 84.6, 88.15, "peter")],
     (14, 1): [("Mistar de paguh, oni de perlu ku nai ngan ku rie idip adu-adu?", 10.05, 14.6, "young")],
     (14, 3): [("Mistar, suo de muti nai ku geh suo ku ogi onak opet geh.", 24.2, 27.5, "young")],
     (14, 8): [("Osi beneh de rie daped sramat?", 60.7, 62.35, "disciple")],
@@ -375,6 +396,7 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "blind": "rubberband=pitch=1.1:formant=preserved,highpass=f=180,equalizer=f=2200:t=q:w=1:g=3",
     "peter": "rubberband=pitch=0.94:formant=preserved,lowshelf=f=160:g=2,equalizer=f=2400:t=q:w=1:g=2",
     "young": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=3000:t=q:w=1:g=2",
+    "crowd": "asplit=3[a][b][c];[b]rubberband=pitch=0.92:formant=preserved,adelay=35,volume=0.55[b2];[c]rubberband=pitch=1.08:formant=preserved,adelay=60,volume=0.5[c2];[a][b2][c2]amix=inputs=3:normalize=0,aecho=0.8:0.5:70:0.2",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
 }
 EXTRA_PAUSE = {}  # line index -> extra seconds after it, so a visual payoff has room
@@ -414,6 +436,8 @@ if EP == 13:
     LINES = LINES13
 if EP == 14:
     LINES = LINES14
+if EP == 15:
+    LINES = LINES15
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
