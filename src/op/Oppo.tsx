@@ -405,7 +405,12 @@ export const OppoTT: React.FC<{music: number}> = ({music}) => {
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <Talking />
-      {CUTS.map((c, i) => <Cut key={i} from={c.a} to={c.b} flash={c.flash}>{c.el}</Cut>)}
+      {CUTS.map((c, i) => {
+        // back-to-back cutaways overlap so the next one fades in over the last (no flash of the talking head)
+        const nx = CUTS[i + 1];
+        const to = nx && nx.a - c.b < 0.06 ? nx.a + 0.32 : c.b;
+        return <Cut key={i} from={c.a} to={to} flash={c.flash}>{(lt, d) => c.el(lt, to === c.b ? d : c.b - c.a)}</Cut>;
+      })}
       {TAGS.map((g, i) => <TopTag key={i} from={g.a} to={g.b} kicker={g.kicker} text={g.text} hi={g.hi} />)}
       <Captions />
       <Audio src={staticFile('op/voice.wav')} />
