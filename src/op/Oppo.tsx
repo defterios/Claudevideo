@@ -38,24 +38,26 @@ const SPLIT = () => ({a: at('7') - 0.6, b: at('worry') - 0.1});
 const splitP = (t: number) => { const w = SPLIT(); return eio(t, w.a, w.a + 0.55) * (1 - eio(t, w.b + 0.05, w.b + 0.45)); };
 const SLIM = () => ({a: at('super') - 0.15, b: D.segs.find((x) => x.take === 3)!.out - 0.05});
 const PULSES = () => ['oppo', 'honestly', 'watch', 'perfect', 'try'].flatMap((w) => D.words.filter((x) => x.w.toLowerCase().replace(/[^a-z0-9]/g, '') === w).map((x) => x.s));
+const segStyle = (s: Seg, i: number, t: number, punch: number): React.CSSProperties => {
+  const [fx, fy] = FACE[s.clip];
+  const z0 = i % 2 ? 1.2 : 1.1; // >=1.08 also crops the corner of the source clips
+  const lt = t - s.out;
+  const breathe = 0.05 * Math.sin((lt / Math.max(1.5, s.dur)) * Math.PI); // slow zoom in then out
+  const drift = Math.sin(lt * 0.9 + i) * 10;
+  return {transform: `translateX(${drift}px) scale(${z0 + breathe + punch})`, transformOrigin: `${fx * 100}% ${fy * 100}%`};
+};
+const punchAt = (t: number) => PULSES().reduce((acc, p) => acc + (t >= p - 0.05 ? 0.14 * sp(t, p - 0.05, 12) * Math.exp(-Math.max(0, t - p - 0.35) * 2.2) : 0), 0);
 const Talking: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FPS;
-  const pulses = PULSES();
-  // punch in on emphasis words, ease back out
-  const punch = pulses.reduce((acc, p) => acc + (t >= p - 0.05 ? 0.14 * sp(t, p - 0.05, 12) * Math.exp(-Math.max(0, t - p - 0.35) * 2.2) : 0), 0);
+  const punch = punchAt(t); // punch in on emphasis words, ease back out
   const sp_ = splitP(t);
   return (
     <AbsoluteFill style={{transform: `translateY(${sp_ * 430}px)`}}>
       {D.segs.map((s, i) => {
-        const [fx, fy] = FACE[s.clip];
-        const z0 = i % 2 ? 1.2 : 1.1; // >=1.08 also crops the corner of the source clips
-        const lt = t - s.out;
-        const breathe = 0.05 * Math.sin((lt / Math.max(1.5, s.dur)) * Math.PI); // slow zoom in then out
-        const drift = Math.sin(lt * 0.9 + i) * 10;
         return (
           <Sequence key={i} from={Math.round(s.out * FPS)} durationInFrames={Math.round(s.dur * FPS) + 1}>
-            <AbsoluteFill style={{transform: `translateX(${drift}px) scale(${z0 + breathe + punch})`, transformOrigin: `${fx * 100}% ${fy * 100}%`}}>
+            <AbsoluteFill style={segStyle(s, i, t, punch)}>
               <OffthreadVideo src={staticFile(`op/${s.clip}.mp4`)} startFrom={Math.round(s.src * FPS)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
             </AbsoluteFill>
           </Sequence>
@@ -304,32 +306,31 @@ const Compat: React.FC<{lt: number}> = ({lt}) => (
 );
 
 /** super-thin: talking head stays, 3D watch turns edge-on above the head with a 9.2 mm callout */
-const SlimOverlay: React.FC = () => {
-  const t = useCurrentFrame() / FPS;
+const SlimOverlay: React.FC<{t: number}> = ({t}) => {
   const w = SLIM();
   if (t < w.a || t > w.b + 0.4) return null;
   const lt = t - w.a;
   const inP = eout(lt, 0, 0.45), outP = eio(t, w.b, w.b + 0.4);
   const turn = eio(lt, 0.5, 1.4);
-  const PX = 597, SC = 0.5, X = -0.42, Y = (960 - 330) / PX;
+  const PX = 597, SC = 0.95, X = -0.05, Y = (960 - 560) / PX;
   const thick = (9.2 / 37.27) * SC * PX, cx = 540 + X * PX;
   const lineP = eout(lt, 1.3, 1.7);
   return (
     <AbsoluteFill style={{opacity: 1 - outP}}>
-      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(8,6,4,0.72) 0%, rgba(8,6,4,0.45) 22%, rgba(8,6,4,0) 33%)', opacity: inP}} />
-      <AbsoluteFill style={{transform: `translateY(${(1 - inP) * -260}px) scale(${0.8 + 0.2 * inP})`, transformOrigin: `${cx}px 330px`}}>
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse 70% 30% at 50% 15%, rgba(8,6,4,0.55) 0%, rgba(8,6,4,0) 100%)', opacity: inP}} />
+      <AbsoluteFill style={{transform: `translateY(${(1 - inP) * -260}px) scale(${0.8 + 0.2 * inP})`, transformOrigin: `${cx}px 560px`}}>
         <ThreeCanvas width={1080} height={1920} camera={{fov: 30, position: [0, 0, 6]}} gl={{antialias: true, preserveDrawingBuffer: true, alpha: true}}>
           <Studio />
           <Watch noStrap screen="op/img/scr_fatmax.png" rot={[0.04, -0.35 - turn * (Math.PI / 2 - 0.37) + Math.sin(lt * 1.3) * 0.03, 0]} pos={[X, Y, 0]} scale={SC} />
         </ThreeCanvas>
       </AbsoluteFill>
-      <div style={{position: 'absolute', top: 128, left: cx - thick / 2, width: thick, height: 4, background: ORANGE, transform: `scaleX(${lineP})`, opacity: lineP}} />
-      {[-1, 1].map((k) => <div key={k} style={{position: 'absolute', top: 112, left: cx + (k * thick) / 2 - 2, width: 4, height: 36, background: ORANGE, opacity: lineP}} />)}
-      <div style={{position: 'absolute', top: 170, left: 470, fontFamily: FONT, textAlign: 'left'}}>
+      <div style={{position: 'absolute', top: 205, left: cx - thick / 2, width: thick, height: 4, background: ORANGE, transform: `scaleX(${lineP})`, opacity: lineP}} />
+      {[-1, 1].map((k) => <div key={k} style={{position: 'absolute', top: 189, left: cx + (k * thick) / 2 - 2, width: 4, height: 36, background: ORANGE, opacity: lineP}} />)}
+      <div style={{position: 'absolute', top: 300, left: 640, fontFamily: FONT, textAlign: 'left'}}>
         <div style={{fontSize: 34, fontWeight: 700, letterSpacing: 6, color: ORANGE, opacity: eout(lt, 1.2, 1.5)}}>ULTRA-SLIM</div>
         <div style={{display: 'flex', alignItems: 'baseline', gap: 10}}>
-          <KWords text="9.2" lt={lt} at0={1.3} size={170} />
-          <KWords text="mm" lt={lt} at0={1.45} size={80} color={ORANGE} />
+          <KWords text="9.2" lt={lt} at0={1.3} size={150} />
+          <KWords text="mm" lt={lt} at0={1.45} size={76} color={ORANGE} />
         </div>
       </div>
     </AbsoluteFill>
@@ -337,6 +338,25 @@ const SlimOverlay: React.FC = () => {
 };
 
 /** battery: screen splits, battery animation slides into the top half while the talking head moves to the bottom half */
+const SlimBehind: React.FC = () => {
+  const t = useCurrentFrame() / FPS;
+  const w = SLIM();
+  if (t < w.a || t > w.b + 0.4) return null;
+  const punch = punchAt(t);
+  return (
+    <AbsoluteFill>
+      <SlimOverlay t={t} />
+      {D.segs.map((s, i) => (s.clip !== '870eaf7c' ? null : (
+        <Sequence key={i} from={Math.round(s.out * FPS)} durationInFrames={Math.round(s.dur * FPS) + 1}>
+          <AbsoluteFill style={segStyle(s, i, t, punch)}>
+            <OffthreadVideo src={staticFile('op/870eaf7c_cut.webm')} transparent startFrom={Math.round(s.src * FPS)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          </AbsoluteFill>
+        </Sequence>
+      )))}
+    </AbsoluteFill>
+  );
+};
+
 const BatterySplit: React.FC = () => {
   const t = useCurrentFrame() / FPS;
   const w = SPLIT();
@@ -472,7 +492,7 @@ export const OppoTT: React.FC<{music: number}> = ({music}) => {
         const to = nx && nx.a - c.b < 0.06 ? nx.a + 0.32 : c.b;
         return <Cut key={i} from={c.a} to={to} flash={c.flash}>{(lt, d) => c.el(lt, to === c.b ? d : c.b - c.a)}</Cut>;
       })}
-      <SlimOverlay />
+      <SlimBehind />
       <BatterySplit />
       {TAGS.map((g, i) => <TopTag key={i} from={g.a} to={g.b} kicker={g.kicker} text={g.text} hi={g.hi} />)}
       <Captions />
