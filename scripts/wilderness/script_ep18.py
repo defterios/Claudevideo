@@ -1,4 +1,4 @@
-"""Episode 18 — "It Is Finished" (Mark 15). Lit-room cartoon style, handled reverently (no gore).
+"""Episode 18 — "Son of God" (Mark 15). Lit-room cartoon style, handled reverently (no gore).
 Big moment: Jesus breathes his last and the temple curtain tears in two, top to bottom. Also: Pilate, Barabbas, thorns,
 the cross, darkness at noon, the centurion, the tomb.
 Each entry: (scene id, text, voice, speed, pause after in seconds, highlighted caption words)."""
