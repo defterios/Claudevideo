@@ -49,7 +49,7 @@ const Env: React.FC = () => {
 export const STRAP = {purple: '#a39ce0', green: '#c4dfb6', black: '#3a3a3e'};
 
 /** OPPO Watch 5-style square watch: 37.27 x 42 x 9.2 mm (units: 1 = 37.27 mm) */
-export const Watch: React.FC<{screen: string; screen2?: string; mix?: number; rot: [number, number, number]; pos?: [number, number, number]; scale?: number; strap?: string; glow?: number}> = ({screen, screen2, mix = 0, rot, pos = [0, 0, 0], scale = 1, strap = STRAP.purple, glow = 0}) => {
+export const Watch: React.FC<{screen: string; screen2?: string; mix?: number; rot: [number, number, number]; pos?: [number, number, number]; scale?: number; strap?: string; glow?: number; noStrap?: boolean}> = ({screen, screen2, mix = 0, rot, pos = [0, 0, 0], scale = 1, strap = STRAP.purple, glow = 0, noStrap = false}) => {
   const W = 1, H = 42 / 37.27, D = 9.2 / 37.27;
   const body = useMemo(() => new RoundedBoxGeometry(W, H, D, 8, 0.2), [H, D]);
   const t1 = useScreen(screen);
@@ -87,7 +87,7 @@ export const Watch: React.FC<{screen: string; screen2?: string; mix?: number; ro
         <meshPhysicalMaterial color="#e4e6ea" metalness={1} roughness={0.25} />
       </mesh>
       {/* strap: curls back from both lugs */}
-      {[1, -1].map((s) => (
+      {(noStrap ? [] : [1, -1]).map((s) => (
         <group key={s} position={[0, (s * H) / 2, -0.02]}>
           <mesh geometry={strapGeo} position={[0, s * 0.38, -0.08]} rotation={[s * -0.35, 0, 0]}>
             <meshStandardMaterial color={strap} roughness={0.55} />

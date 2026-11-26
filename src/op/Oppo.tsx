@@ -33,15 +33,20 @@ const at = (w: string, n = 0) => {
 const FACE: Record<string, [number, number]> = {'27e47e4e': [0.464, 0.455], '31c6f753': [0.385, 0.404], '870eaf7c': [0.431, 0.426], '994d26dd': [0.598, 0.397], 'a8bbac80': [0.44, 0.428]};
 
 /* ───────────── base: talking-head jump cuts with alternating punch-in ───────────── */
-const PULSES = () => ['oppo', 'honestly', 'super', 'thin', 'watch', 'perfect', 'try'].flatMap((w) => D.words.filter((x) => x.w.toLowerCase().replace(/[^a-z0-9]/g, '') === w).map((x) => x.s));
+/** battery split-screen window and super-thin overlay window */
+const SPLIT = () => ({a: at('7') - 0.6, b: at('worry') - 0.1});
+const splitP = (t: number) => { const w = SPLIT(); return eio(t, w.a, w.a + 0.55) * (1 - eio(t, w.b + 0.05, w.b + 0.45)); };
+const SLIM = () => ({a: at('super') - 0.15, b: D.segs.find((x) => x.take === 3)!.out - 0.05});
+const PULSES = () => ['oppo', 'honestly', 'watch', 'perfect', 'try'].flatMap((w) => D.words.filter((x) => x.w.toLowerCase().replace(/[^a-z0-9]/g, '') === w).map((x) => x.s));
 const Talking: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FPS;
   const pulses = PULSES();
   // punch in on emphasis words, ease back out
   const punch = pulses.reduce((acc, p) => acc + (t >= p - 0.05 ? 0.14 * sp(t, p - 0.05, 12) * Math.exp(-Math.max(0, t - p - 0.35) * 2.2) : 0), 0);
+  const sp_ = splitP(t);
   return (
-    <>
+    <AbsoluteFill style={{transform: `translateY(${sp_ * 430}px)`}}>
       {D.segs.map((s, i) => {
         const [fx, fy] = FACE[s.clip];
         const z0 = i % 2 ? 1.2 : 1.1; // >=1.08 also crops the corner of the source clips
@@ -56,7 +61,7 @@ const Talking: React.FC = () => {
           </Sequence>
         );
       })}
-    </>
+    </AbsoluteFill>
   );
 };
 
@@ -298,6 +303,64 @@ const Compat: React.FC<{lt: number}> = ({lt}) => (
   </AbsoluteFill>
 );
 
+/** super-thin: talking head stays, 3D watch turns edge-on above the head with a 9.2 mm callout */
+const SlimOverlay: React.FC = () => {
+  const t = useCurrentFrame() / FPS;
+  const w = SLIM();
+  if (t < w.a || t > w.b + 0.4) return null;
+  const lt = t - w.a;
+  const inP = eout(lt, 0, 0.45), outP = eio(t, w.b, w.b + 0.4);
+  const turn = eio(lt, 0.5, 1.4);
+  const PX = 597, SC = 0.5, X = -0.42, Y = (960 - 330) / PX;
+  const thick = (9.2 / 37.27) * SC * PX, cx = 540 + X * PX;
+  const lineP = eout(lt, 1.3, 1.7);
+  return (
+    <AbsoluteFill style={{opacity: 1 - outP}}>
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(8,6,4,0.72) 0%, rgba(8,6,4,0.45) 22%, rgba(8,6,4,0) 33%)', opacity: inP}} />
+      <AbsoluteFill style={{transform: `translateY(${(1 - inP) * -260}px) scale(${0.8 + 0.2 * inP})`, transformOrigin: `${cx}px 330px`}}>
+        <ThreeCanvas width={1080} height={1920} camera={{fov: 30, position: [0, 0, 6]}} gl={{antialias: true, preserveDrawingBuffer: true, alpha: true}}>
+          <Studio />
+          <Watch noStrap screen="op/img/scr_fatmax.png" rot={[0.04, -0.35 - turn * (Math.PI / 2 - 0.37) + Math.sin(lt * 1.3) * 0.03, 0]} pos={[X, Y, 0]} scale={SC} />
+        </ThreeCanvas>
+      </AbsoluteFill>
+      <div style={{position: 'absolute', top: 128, left: cx - thick / 2, width: thick, height: 4, background: ORANGE, transform: `scaleX(${lineP})`, opacity: lineP}} />
+      {[-1, 1].map((k) => <div key={k} style={{position: 'absolute', top: 112, left: cx + (k * thick) / 2 - 2, width: 4, height: 36, background: ORANGE, opacity: lineP}} />)}
+      <div style={{position: 'absolute', top: 170, left: 470, fontFamily: FONT, textAlign: 'left'}}>
+        <div style={{fontSize: 34, fontWeight: 700, letterSpacing: 6, color: ORANGE, opacity: eout(lt, 1.2, 1.5)}}>ULTRA-SLIM</div>
+        <div style={{display: 'flex', alignItems: 'baseline', gap: 10}}>
+          <KWords text="9.2" lt={lt} at0={1.3} size={170} />
+          <KWords text="mm" lt={lt} at0={1.45} size={80} color={ORANGE} />
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/** battery: screen splits, battery animation slides into the top half while the talking head moves to the bottom half */
+const BatterySplit: React.FC = () => {
+  const t = useCurrentFrame() / FPS;
+  const w = SPLIT();
+  const p = splitP(t);
+  if (p <= 0.001) return null;
+  const lt = t - w.a;
+  const fill = eio(lt, 0.6, 1.8);
+  return (
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 880, transform: `translateY(${(1 - p) * -900}px)`, borderBottomLeftRadius: 48, borderBottomRightRadius: 48, overflow: 'hidden',
+        background: 'radial-gradient(ellipse 80% 70% at 50% 60%, rgba(40,200,110,0.25) 0%, rgba(0,0,0,0) 70%), linear-gradient(180deg,#0c0f0c,#050605)', boxShadow: '0 20px 60px rgba(0,0,0,0.6), 0 2px 0 rgba(124,240,168,0.5)'}}>
+        <Title lt={lt} at0={0.45} kicker="351 mAh battery" big="7–10 days" hi="7–10" y={150} size={110} />
+        {/* horizontal battery */}
+        <div style={{position: 'absolute', top: 470, left: 190, width: 640, height: 250, borderRadius: 56, border: '12px solid #f2f2f2', boxSizing: 'border-box', padding: 16, transform: `scale(${0.85 + 0.15 * sp(lt, 0.4)})`}}>
+          <div style={{position: 'absolute', right: -44, top: 80, width: 30, height: 66, borderRadius: 10, background: '#f2f2f2'}} />
+          <div style={{position: 'absolute', left: 16, top: 16, bottom: 16, width: `calc(${fill * 100}% - 32px)`, borderRadius: 38, background: 'linear-gradient(90deg,#16c172,#7cf0a8)', boxShadow: '0 0 50px rgba(40,220,120,0.6)'}} />
+          {[1, 2, 3, 4].map((k) => <div key={k} style={{position: 'absolute', top: 26, bottom: 26, left: `${k * 20}%`, width: 4, background: 'rgba(0,0,0,0.25)', opacity: fill > k * 0.2 ? 1 : 0}} />)}
+          <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 100, transform: `scale(${1 + Math.max(0, Math.sin(lt * 6)) * 0.08})`}}>⚡</div>
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const EndCard: React.FC<{lt: number}> = ({lt}) => {
   const ws = [['w_purple', 'Twinkle Purple'], ['w_green', 'Mint Green'], ['w_black', 'Cool Black']];
   return (
@@ -353,8 +416,9 @@ const Captions: React.FC = () => {
   const p = D.pages.find((x) => t >= x.s - 0.05 && t < x.e);
   if (!p) return null;
   const pp = sp(t, p.s - 0.05, 18);
+  const top = interpolate(splitP(t), [0, 1], [1330, 740]);
   return (
-    <div style={{position: 'absolute', top: 1330, left: 60, right: 140, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', columnGap: 20, fontFamily: FONT, fontWeight: 850, fontSize: 76, letterSpacing: -1, transform: `scale(${0.9 + 0.1 * pp})`}}>
+    <div style={{position: 'absolute', top, left: 60, right: 140, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', columnGap: 20, fontFamily: FONT, fontWeight: 850, fontSize: 76, letterSpacing: -1, transform: `scale(${0.9 + 0.1 * pp})`}}>
       {p.words.map((w, i) => {
         const nx = p.words[i + 1]?.s ?? p.e;
         const active = t >= w.s - 0.03 && t < nx;
@@ -379,20 +443,17 @@ const CUTS: Ct[] = [
   {a: at('actually') - 0.1, b: at('oh') - 0.1, el: (lt) => <FatGrams lt={lt} />, sfx: 'whoosh_organic'},
   {a: at('oh') - 0.1, b: at('ai') - 0.15, el: (lt, d) => <BrollText src="7010ed08" start={0.5} lt={lt} d={d} kicker="Tomorrow?" text="Push or rest day?" hi="rest" />, sfx: 'whoosh_short_b', txt: true},
   {a: at('ai') - 0.15, b: take2() - 0.02, el: (lt) => <AITrainer lt={lt} />, sfx: 'whoosh_slide', txt: true},
-  {a: at('9.2') - 0.2, b: at('workout', 1) + 0.25, el: (lt) => <Slim lt={lt} />, sfx: 'whoosh_organic', txt: true},
-  {a: at('7') - 0.3, b: at('worry') - 0.1, el: (lt) => <Battery lt={lt} />, sfx: 'whoosh_short_a', txt: true},
   {a: at('worry') - 0.1, b: at('since') - 0.1, el: (lt, d) => <BrollText src="136c198d" start={12} lt={lt} d={d} kicker="Forget the charger" text="No daily charging" hi="charging" />, sfx: 'whoosh_short_b', txt: true},
   {a: at('since') - 0.1, b: at('this', 3) - 0.05, el: (lt) => <Compat lt={lt} />, sfx: 'whoosh_slide', txt: true},
   {a: D.voiceDur - 0.05, b: OPPO_DUR + 0.1, el: (lt) => <EndCard lt={lt} />, sfx: 'whoosh_slide', flash: true},
 ];
 const TAGS = [
   {a: 0.3, b: at('most') - 0.1, kicker: 'OPPO Watch 5', text: 'Cardio, fixed. 🔥', hi: 'fixed'},
-  {a: take2() + 0.1, b: at('9.2') - 0.2, kicker: 'OPPO Watch 5', text: 'Super thin', hi: 'thin'},
-  {a: at('this', 1) - 0.05, b: at('7') - 0.3, kicker: 'Battery life', text: 'Lasts all week', hi: 'week'},
+  {a: at('this', 1) - 0.05, b: at('7') - 0.65, kicker: 'Battery life', text: 'Lasts all week', hi: 'week'},
   {a: at('this', 3) - 0.05, b: D.voiceDur - 0.1, kicker: 'Your sign to', text: 'Try it out ✨', hi: 'Try'},
 ];
 /** every animated headline gets a whoosh + soft pop as its words land */
-const TEXT_SFX: number[] = [...CUTS.filter((c) => c.txt).map((c) => c.a + 0.12), ...TAGS.map((g) => g.a)];
+const TEXT_SFX: number[] = [...CUTS.filter((c) => c.txt).map((c) => c.a + 0.12), ...TAGS.map((g) => g.a), SLIM().a + 1.3, SPLIT().a + 0.45];
 
 const speaking = (t: number) => {
   let v = 0;
@@ -411,6 +472,8 @@ export const OppoTT: React.FC<{music: number}> = ({music}) => {
         const to = nx && nx.a - c.b < 0.06 ? nx.a + 0.32 : c.b;
         return <Cut key={i} from={c.a} to={to} flash={c.flash}>{(lt, d) => c.el(lt, to === c.b ? d : c.b - c.a)}</Cut>;
       })}
+      <SlimOverlay />
+      <BatterySplit />
       {TAGS.map((g, i) => <TopTag key={i} from={g.a} to={g.b} kicker={g.kicker} text={g.text} hi={g.hi} />)}
       <Captions />
       <Audio src={staticFile('op/voice.wav')} />
@@ -428,7 +491,10 @@ export const OppoTT: React.FC<{music: number}> = ({music}) => {
         </React.Fragment>
       ))}
       <Sequence from={Math.round((at('actually') + 0.9) * FPS)} layout="none"><Audio src={staticFile('sfx/counter.mp3')} volume={0.28} /></Sequence>
-      <Sequence from={Math.round((at('9.2') + 0.9) * FPS)} layout="none"><Audio src={staticFile('sfx/snap_glassy.mp3')} volume={0.3} /></Sequence>
+      <Sequence from={Math.round(SLIM().a * FPS)} layout="none"><Audio src={staticFile('sfx/whoosh_slide.mp3')} volume={0.28} /></Sequence>
+      <Sequence from={Math.round((SLIM().a + 1.3) * FPS)} layout="none"><Audio src={staticFile('sfx/snap_glassy.mp3')} volume={0.3} /></Sequence>
+      <Sequence from={Math.round((SPLIT().a - 0.05) * FPS)} layout="none"><Audio src={staticFile('sfx/whoosh_organic.mp3')} volume={0.3} /></Sequence>
+      <Sequence from={Math.round((SPLIT().a + 0.6) * FPS)} layout="none"><Audio src={staticFile('sfx/riser.mp3')} volume={0.12} /></Sequence>
       <Sequence from={Math.round((D.voiceDur + 0.6) * FPS)} layout="none"><Audio src={staticFile('sfx/ping.mp3')} volume={0.3} /></Sequence>
     </AbsoluteFill>
   );
