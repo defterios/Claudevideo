@@ -40,7 +40,7 @@ const Talking: React.FC = () => {
     <>
       {D.segs.map((s, i) => {
         const [fx, fy] = FACE[s.clip];
-        const z0 = i % 2 ? 1.16 : 1.0;
+        const z0 = i % 2 ? 1.18 : 1.08; // >=1.08 also crops the source clips' corner watermark
         return (
           <Sequence key={i} from={Math.round(s.out * FPS)} durationInFrames={Math.round(s.dur * FPS) + 1}>
             <AbsoluteFill style={{transform: `scale(${z0 + 0.04 * Math.min(1, (t - s.out) / Math.max(1, s.dur))})`, transformOrigin: `${fx * 100}% ${fy * 100}%`}}>
@@ -116,7 +116,7 @@ const PhoneFloat: React.FC<{lt: number}> = ({lt}) => {
     <AbsoluteFill>
       <DarkBG lt={lt} />
       <div style={{position: 'absolute', left: 250, top: 160, width: 580, height: 1110, borderRadius: 80, background: '#0b0b0d', boxShadow: '0 0 0 10px #2a2a30, 0 40px 120px rgba(0,0,0,0.7), 0 0 120px rgba(255,138,31,0.25)', overflow: 'hidden', transform: `translateY(${(1 - p) * 300}px) rotate(${(1 - p) * -6}deg)`}}>
-        <OffthreadVideo src={staticFile('op/22abf2a2.mp4')} startFrom={30} muted style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover'}} />
+        <OffthreadVideo src={staticFile('op/22abf2a2.mp4')} startFrom={30} muted style={{position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', transform: 'scale(1.15)', transformOrigin: '40% 40%'}} />
         <div style={{position: 'absolute', top: 22, left: 210, width: 160, height: 40, borderRadius: 20, background: '#000'}} />
         {/* floating heart-rate bubble over the phone screen */}
         <div style={{position: 'absolute', top: 110, left: 40, right: 40, height: 150, borderRadius: 75, background: 'linear-gradient(90deg, rgba(60,22,6,0.88), rgba(120,50,10,0.82))', border: '2px solid rgba(255,170,90,0.7)', boxShadow: '0 10px 40px rgba(255,120,20,0.45)', display: 'flex', alignItems: 'center', gap: 22, padding: '0 34px', fontFamily: FONT, color: '#fff', transform: `translateY(${(1 - pill) * -60 + Math.sin(lt * 2.4) * 6}px) scale(${0.6 + 0.4 * pill})`, opacity: pill}}>
