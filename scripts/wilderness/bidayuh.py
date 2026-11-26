@@ -361,8 +361,8 @@ LINES16 = [  # episode 16 (clean take; "Nuna koih" recorded separately and appen
 ]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
-    (16, 1): [("Mistar, patut keh ideh nya bayar sukie nudu Caesar?", 8.05, 10.55, "scholar")],
-    (16, 3): [("Caesar.", 16.05, 16.6, "scholar")],
+    (16, 1): [("Mistar, patut keh ideh nya bayar sukie nudu Caesar?", 8.05, 10.55, "pharisee")],
+    (16, 3): [("Caesar.", 16.05, 16.6, "pharisee")],
     (16, 12): [("Mistar, duok ninga! Mun kona romin de munu! Mun jongon batuh sinung eh!", 76.6, 80.8, "disciple")],
     (15, 4): [("Hosanna! Obuoh brokat Yeh de neg dang aden Tuhan!", 32.6, 35.95, "crowd")],
     (15, 12): [("Mistar, duok ninga! Tongon fig de nyupah Ingan meh kobes!", 84.6, 88.15, "peter")],
@@ -439,6 +439,7 @@ VOICE_FX = {  # character voices (ffmpeg chains); the narrator stays natural
     "queen": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=1800:t=q:w=1:g=4,aecho=0.8:0.5:60:0.15",
     "blind": "rubberband=pitch=1.1:formant=preserved,highpass=f=180,equalizer=f=2200:t=q:w=1:g=3",
     "peter": "rubberband=pitch=0.94:formant=preserved,lowshelf=f=160:g=2,equalizer=f=2400:t=q:w=1:g=2",
+    "pharisee": "rubberband=pitch=0.84:formant=preserved,highpass=f=220,lowpass=f=4200,equalizer=f=1300:t=q:w=0.8:g=7,equalizer=f=300:t=q:w=1:g=-4,aecho=0.8:0.4:45:0.18",
     "young": "rubberband=pitch=1.12:formant=preserved,highpass=f=200,equalizer=f=3000:t=q:w=1:g=2",
     "crowd": "asplit=3[a][b][c];[b]rubberband=pitch=0.92:formant=preserved,adelay=35,volume=0.55[b2];[c]rubberband=pitch=1.08:formant=preserved,adelay=60,volume=0.5[c2];[a][b2][c2]amix=inputs=3:normalize=0,aecho=0.8:0.5:70:0.2",
     "disciple": "rubberband=pitch=1.06:formant=preserved,highpass=f=160,equalizer=f=2600:t=q:w=1:g=3",
