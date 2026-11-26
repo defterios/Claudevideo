@@ -318,6 +318,28 @@ LINES15 = [  # episode 15 (very clean take, gated silence)
     ("Ju asa ingan smayang, asa ingan tiwas duoh osi-osi keh, ngapun nya sarah nya munu.", 105.4, 110.7, ["ngapun"], {"forgive": "ngapun"}),
     ("Nuna koih suo part 16.", 112.3, 114.05, ["Nuna"], {}),
 ]
+LINES94 = [  # special 2: why do we pray for the dead (clean take; last line not recorded)
+    ("Asa madis ayuo te kobes, otte akan smayang suo nya munu. Pak asa nya kobes jek akan obuoh ngakim dang Onu Pingituong, ju oni roti smayang te de adin?", 9.3, 18.3, ["smayang", "oni"], {"pray": "smayang", "why": "oni"}),
+    ("Sibayuh inuh, otte rie ninga oni in Bible nang akan jadi asa otte meh kobes.", 19.3, 23.3, ["kobes"], {"die": "kobes"}),
+    ("Gonan te meh pari ke tana, simongi te meh pari nudu Topa.", 24.2, 27.9, ["tana", "Topa"], {"dust": "tana", "god": "Topa"}),
+    ("Dang tun sarip, Jesus tanen duoh pirupak de siborah eh:", 28.7, 31.55, ["pirupak"], {"thief": "pirupak"}),
+    ("Onu itih geh mu rie bisamah duoh Oku daang sorga.", 32.25, 35.25, ["sorga"], {"paradise": "sorga"}),
+    ("Paul ogi geh nuris: Asa te rie buu suo gonan te, otte rie mori nudu Topa.", 36.4, 41.05, ["mori"], {"home": "mori"}),
+    ("Pak eh srita itih aruo mobuo. Tie srije, nyaa de kobes rie mokat idip bauh, suo nyaa rie bidopan duoh Topa.", 41.75, 48.35, ["mokat", "bidopan"], {"rise": "mokat", "stand": "bidopan"}),
+    ("Itih leh ruban Paul tanen nang kobes itih koda bees. Sobab tie sodi, nya de kobes rie mokat bauh.", 49.3, 54.4, ["bees", "mokat"], {"sleep": "bees", "wake": "mokat"}),
+    ("Jadi Bible tanen nang: mori duoh Topa die, moke meh mokat bauh ju meh obuoh ngakim dang Onu Pingituong.", 55.2, 61.05, ["die", "Pingituong"], {"now": "die", "end": "Pingituong"}),
+    ("Ju oni beneh wat otte pak smayang? Ogi boge sobab eh nuna de munki adat Kristian inuh.", 61.85, 66.95, ["munki"], {"different": "munki"}),
+    ("Katolik duoh Orthodox smayang suo nya de kobes, ngan te mitie Topa ngin masi duoh simongi eh. Otte nuna buk Maccabees no. 2, de nang Judas smayang suo sidadu de meh kobes, sa dusa dep eh de munu meh obuoh apun.", 68.3, 80.15, ["masi", "apun"], {"mercy": "masi", "freed": "apun"}),
+    ("Pak eh boge Kristian Protestant ideh di smayang suo nya de kobes, sobab Bible meh nang, misia kobes jek eh ni sideh, mokuo inuh meh obuoh ngakim.", 81.1, 88.55, ["sideh", "ngakim"], {"once": "sideh", "judgement": "ngakim"}),
+    ("Pak eh suo Kristian smayang geh suo nya de meh gituong kobes. Itih ruban eh.", 89.3, 93.8, ["suo"], {"every": "suo"}),
+    ("Otte smayang suo nya de doi daped smayang suo dep eh. Sobab Topa otte Topa de Pinyayang.", 94.9, 99.5, ["Pinyayang"], {"comfort": "Pinyayang"}),
+    ("Otte smayang sobab otte ideh di te rie sien sija naan otin monam de doi ubat eh.", 100.0, 104.25, ["ubat"], {"hope": "ubat"}),
+    ("Otte smayang ngan te mitie pimasi duoh ngin pimudi nudu Topa suo idip de meh ngin Yeh, duoh masa te duoh nya de kobes takar yeh gi ogi de dunia.", 104.5, 112.5, ["pimasi"], {"thank": "pimasi"}),
+    ("Oku reh de kakat nya de kobes da idip bauh. Osi-osi de bisaya duoh Oku, yeh rie idip adu-adu.", 113.5, 118.75, ["kakat", "idip"], {"resurrection": "kakat", "live": "idip#2"}),
+    ("Topa ideh di eh Topa nya de kobes, pak eh Topa nya de idip. Sobab daang Yeh, suo dep te idip geh.", 119.4, 125.55, ["idip"], {"living": "idip", "alive": "idip#2"}),
+    ("Jadi otte smayang suo pingarap, suo pimasi, duoh suo pinyayang. Sobab pinyayang inuh doi nyuong eh.", 126.9, 132.9, ["pingarap", "pimasi", "pinyayang"], {"hope": "pingarap", "comfort": "pimasi", "love": "pinyayang"}),
+    ("", None, None, [], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
     (15, 4): [("Hosanna! Obuoh brokat Yeh de neg dang aden Tuhan!", 32.6, 35.95, "crowd")],
@@ -438,6 +460,8 @@ if EP == 14:
     LINES = LINES14
 if EP == 15:
     LINES = LINES15
+if EP == 94:
+    LINES = LINES94
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
@@ -626,7 +650,7 @@ for n, ((scene, _en, voice, _sp, pause, _k), (text, s, e, keys, alias)) in enume
             gap = pause + EXTRA_PAUSE.get(n, 0) if k_ == len(PARTS[(EP, n)]) - 1 else 0.22
             buf += [xp, np.zeros(int(gap * SR), np.float32)]; t += len(xp) / SR + int(gap * SR) / SR
         continue
-    x = np.zeros(int(1.0 * SR), np.float32) if s is None else clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
+    x = np.zeros(int((3.0 if EP == 94 else 1.0) * SR), np.float32) if s is None else clip(s, e, a_first if (EP == 1 and TAKE == 2 and n == len(L) - 1) else None)
     if n == len(L) - 1:
         x = np.concatenate([np.zeros(int(END_LEAD * SR), np.float32), x])
     tempter = voice == SC.T

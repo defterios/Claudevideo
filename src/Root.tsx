@@ -45,6 +45,8 @@ import {WantTall, WANT_DUR, WANT_DUR_BDY} from './v21/Want';
 import {Ep14Cover} from './v21/Cover';
 import {HosannaTall, HOSANNA_DUR, HOSANNA_DUR_BDY} from './v22/Hosanna';
 import {Ep15Cover} from './v22/Cover';
+import {DeadTall, DEAD_DUR, DEAD_DUR_BDY} from './v101/Dead';
+import {DeadCover} from './v101/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -163,6 +165,11 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="HosannaTallBdy" component={HosannaTall} durationInFrames={Math.ceil(HOSANNA_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="Ep15CoverEn" component={Ep15Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="Ep15CoverBdy" component={Ep15Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    {/* Jesus series, Special 2: Why Do We Pray for the Dead?, TikTok only */}
+    <Composition id="DeadTall" component={DeadTall} durationInFrames={Math.ceil(DEAD_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="DeadTallBdy" component={DeadTall} durationInFrames={Math.ceil(DEAD_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Special2CoverEn" component={DeadCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    <Composition id="Special2CoverBdy" component={DeadCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

@@ -5,48 +5,48 @@ import {SP, k, ko, lerp, lin, rnd} from '../v8/scenes';
  * spoken; mono verse tags; triangles with three labelled corners. Screen coordinates (1080x1920);
  * captions sit at y 1250-1470, so the art lives in y 150-1200. */
 export type Lang = 'en' | 'bdy';
-const WH = '#ECE7DC', GD = '#F4B942', BG = '#0B0A0C';
-const CX = 540, CY = 680;
-const lit = (t: number, at: number) => ko(t, at, at + 0.4);
+export const WH = '#ECE7DC', GD = '#F4B942', BG = '#0B0A0C';
+export const CX = 540, CY = 680;
+export const lit = (t: number, at: number) => ko(t, at, at + 0.4);
 
-const Defs3 = () => (
+export const Defs3 = () => (
   <defs>
     <filter id="l3" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
     <filter id="l3big" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18" /></filter>
     <radialGradient id="g3"><stop offset="0" stopColor="#FFD873" stopOpacity="0.9" /><stop offset="0.4" stopColor="#F4B942" stopOpacity="0.35" /><stop offset="1" stopColor="#F4B942" stopOpacity="0" /></radialGradient>
   </defs>
 );
-const Back: React.FC<{t: number}> = ({t}) => (
+export const Back: React.FC<{t: number}> = ({t}) => (
   <g>
     <rect width={1080} height={1920} fill={BG} />
     {Array.from({length: 70}).map((_, i) => <circle key={i} cx={rnd(i) * 1080} cy={rnd(i + 99) * 1920} r={0.8 + rnd(i + 7) * 1.6} fill={WH} opacity={(0.12 + 0.25 * rnd(i + 3)) * (0.6 + 0.4 * Math.sin(t * (0.6 + rnd(i)) + i))} />)}
   </g>
 );
 /** a line that draws itself (p 0..1) and turns gold (l 0..1) */
-const Ln: React.FC<{d: string; p?: number; l?: number; w?: number; fill?: string}> = ({d, p = 1, l = 0, w = 3.5, fill = 'none'}) => (
+export const Ln: React.FC<{d: string; p?: number; l?: number; w?: number; fill?: string}> = ({d, p = 1, l = 0, w = 3.5, fill = 'none'}) => (
   <g>
     <path d={d} pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - p} fill={fill} stroke={WH} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round" opacity={0.8 * (1 - 0.7 * l)} />
     {l > 0 ? <path d={d} pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - p} fill="none" stroke={GD} strokeWidth={w + 1} strokeLinecap="round" strokeLinejoin="round" opacity={l} filter="url(#l3)" /> : null}
   </g>
 );
-const Dot: React.FC<{x: number; y: number; l: number; r?: number}> = ({x, y, l, r = 9}) => (
+export const Dot: React.FC<{x: number; y: number; l: number; r?: number}> = ({x, y, l, r = 9}) => (
   <g>
     <circle cx={x} cy={y} r={r + 9} fill="none" stroke={WH} strokeWidth={2} opacity={0.35 + 0.4 * l} />
     <circle cx={x} cy={y} r={r * (0.5 + 0.5 * l)} fill={l > 0.05 ? GD : WH} opacity={0.5 + 0.5 * l} filter={l > 0.05 ? 'url(#l3)' : undefined} />
     {l > 0 ? <circle cx={x} cy={y} r={60} fill="url(#g3)" opacity={l * 0.7} /> : null}
   </g>
 );
-const Mono: React.FC<{x: number; y: number; s?: number; c?: string; o?: number; a?: 'start' | 'middle' | 'end'; children: React.ReactNode}> = ({x, y, s = 30, c = WH, o = 1, a = 'middle', children}) => (
+export const Mono: React.FC<{x: number; y: number; s?: number; c?: string; o?: number; a?: 'start' | 'middle' | 'end'; children: React.ReactNode}> = ({x, y, s = 30, c = WH, o = 1, a = 'middle', children}) => (
   <text x={x} y={y} fontFamily="JetBrains Mono" fontWeight={700} fontSize={s} fill={c} opacity={o} textAnchor={a} letterSpacing={s * 0.12}>{children}</text>
 );
-const Tag: React.FC<{t: number; txt: string; y?: number}> = ({t, txt, y = 230}) => <Mono x={CX} y={y} s={30} c={GD} o={ko(t, 0.3, 0.9)}>{txt}</Mono>;
+export const Tag: React.FC<{t: number; txt: string; y?: number}> = ({t, txt, y = 230}) => <Mono x={CX} y={y} s={30} c={GD} o={ko(t, 0.3, 0.9)}>{txt}</Mono>;
 /** standing figure outline, feet at (x, y), height ~ 330*s */
-const fig = (x: number, y: number, s = 1) => `M ${x - 36 * s} ${y - 232 * s} Q ${x - 64 * s} ${y - 218 * s} ${x - 60 * s} ${y - 150 * s} L ${x - 50 * s} ${y} L ${x + 50 * s} ${y} L ${x + 60 * s} ${y - 150 * s} Q ${x + 64 * s} ${y - 218 * s} ${x + 36 * s} ${y - 232 * s} Q ${x} ${y - 244 * s} ${x - 36 * s} ${y - 232 * s} Z M ${x} ${y - 305 * s} m -32 0 a ${32 * s} ${32 * s} 0 1 0 ${64 * s} 0 a ${32 * s} ${32 * s} 0 1 0 ${-64 * s} 0`;
-const Fig: React.FC<{x: number; y: number; s?: number; p?: number; l?: number; rot?: number}> = ({x, y, s = 1, p = 1, l = 0, rot = 0}) => (
+export const fig = (x: number, y: number, s = 1) => `M ${x - 36 * s} ${y - 232 * s} Q ${x - 64 * s} ${y - 218 * s} ${x - 60 * s} ${y - 150 * s} L ${x - 50 * s} ${y} L ${x + 50 * s} ${y} L ${x + 60 * s} ${y - 150 * s} Q ${x + 64 * s} ${y - 218 * s} ${x + 36 * s} ${y - 232 * s} Q ${x} ${y - 244 * s} ${x - 36 * s} ${y - 232 * s} Z M ${x} ${y - 305 * s} m -32 0 a ${32 * s} ${32 * s} 0 1 0 ${64 * s} 0 a ${32 * s} ${32 * s} 0 1 0 ${-64 * s} 0`;
+export const Fig: React.FC<{x: number; y: number; s?: number; p?: number; l?: number; rot?: number}> = ({x, y, s = 1, p = 1, l = 0, rot = 0}) => (
   <g transform={`rotate(${rot} ${x} ${y})`}><Ln d={fig(x, y, s)} p={p} l={l} w={3} /></g>
 );
-const cross = (x: number, y: number, s = 1) => `M ${x} ${y} L ${x} ${y - 330 * s} M ${x - 95 * s} ${y - 250 * s} L ${x + 95 * s} ${y - 250 * s}`;
-const Fire: React.FC<{x: number; y: number; t: number; s?: number}> = ({x, y, t, s = 1}) => (
+export const cross = (x: number, y: number, s = 1) => `M ${x} ${y} L ${x} ${y - 330 * s} M ${x - 95 * s} ${y - 250 * s} L ${x + 95 * s} ${y - 250 * s}`;
+export const Fire: React.FC<{x: number; y: number; t: number; s?: number}> = ({x, y, t, s = 1}) => (
   <g>
     <circle cx={x} cy={y - 20 * s} r={170 * s} fill="url(#g3)" opacity={0.55 + 0.1 * Math.sin(t * 9)} />
     {Array.from({length: 9}).map((_, i) => { const a = (i / 9) * Math.PI; return <Ln key={i} d={`M ${x + Math.cos(a) * 90 * s} ${y} l ${-20 * s} ${-18 * s} l ${40 * s} 0 Z`} l={0.5 + 0.5 * Math.sin(t * 5 + i)} w={2.5} />; })}

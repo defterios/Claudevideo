@@ -1,0 +1,4149 @@
+{
+ "duration": 122.516,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "segs": [
+    0.5
+   ],
+   "w": {
+    "when": 0.5,
+    "someone": 0.808,
+    "we": 1.283,
+    "love": 1.479,
+    "dies": 1.787,
+    "we2": 2.207,
+    "pray": 2.402,
+    "for": 2.71,
+    "them": 2.962,
+    "but": 3.521,
+    "if": 3.773,
+    "judgement": 3.969,
+    "only": 4.557,
+    "comes": 4.864,
+    "at": 5.228,
+    "the": 5.424,
+    "end": 5.676,
+    "of": 5.927,
+    "time": 6.123,
+    "why": 6.543,
+    "do": 6.795,
+    "we3": 6.991,
+    "pray2": 7.186
+   },
+   "end": 8.166,
+   "ws": [
+    [
+     "when",
+     0.5
+    ],
+    [
+     "someone",
+     0.808
+    ],
+    [
+     "we",
+     1.283
+    ],
+    [
+     "love",
+     1.479
+    ],
+    [
+     "dies",
+     1.787
+    ],
+    [
+     "we",
+     2.207
+    ],
+    [
+     "pray",
+     2.402
+    ],
+    [
+     "for",
+     2.71
+    ],
+    [
+     "them",
+     2.962
+    ],
+    [
+     "but",
+     3.521
+    ],
+    [
+     "if",
+     3.773
+    ],
+    [
+     "judgement",
+     3.969
+    ],
+    [
+     "only",
+     4.557
+    ],
+    [
+     "comes",
+     4.864
+    ],
+    [
+     "at",
+     5.228
+    ],
+    [
+     "the",
+     5.424
+    ],
+    [
+     "end",
+     5.676
+    ],
+    [
+     "of",
+     5.927
+    ],
+    [
+     "time",
+     6.123
+    ],
+    [
+     "why",
+     6.543
+    ],
+    [
+     "do",
+     6.795
+    ],
+    [
+     "we",
+     6.991
+    ],
+    [
+     "pray",
+     7.186
+    ]
+   ]
+  },
+  {
+   "id": "what",
+   "start": 8.166,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "first": 0.28,
+    "what": 0.728,
+    "does": 1.018,
+    "the": 1.308,
+    "bible": 1.545,
+    "say": 1.888,
+    "happens": 2.125,
+    "when": 2.573,
+    "we": 2.863,
+    "die": 3.048
+   },
+   "end": 12.008,
+   "ws": [
+    [
+     "first",
+     0.28
+    ],
+    [
+     "what",
+     0.728
+    ],
+    [
+     "does",
+     1.018
+    ],
+    [
+     "the",
+     1.308
+    ],
+    [
+     "bible",
+     1.545
+    ],
+    [
+     "say",
+     1.888
+    ],
+    [
+     "happens",
+     2.125
+    ],
+    [
+     "when",
+     2.573
+    ],
+    [
+     "we",
+     2.863
+    ],
+    [
+     "die",
+     3.048
+    ]
+   ]
+  },
+  {
+   "id": "dust",
+   "start": 12.008,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "the": 0.28,
+    "body": 0.535,
+    "returns": 0.847,
+    "to": 1.329,
+    "the2": 1.528,
+    "dust": 1.783,
+    "and": 2.208,
+    "the3": 2.464,
+    "spirit": 2.719,
+    "returns2": 3.144,
+    "to2": 3.626,
+    "god": 3.825,
+    "who": 4.08,
+    "gave": 4.335,
+    "it": 4.647
+   },
+   "end": 17.429,
+   "ws": [
+    [
+     "the",
+     0.28
+    ],
+    [
+     "body",
+     0.535
+    ],
+    [
+     "returns",
+     0.847
+    ],
+    [
+     "to",
+     1.329
+    ],
+    [
+     "the",
+     1.528
+    ],
+    [
+     "dust",
+     1.783
+    ],
+    [
+     "and",
+     2.208
+    ],
+    [
+     "the",
+     2.464
+    ],
+    [
+     "spirit",
+     2.719
+    ],
+    [
+     "returns",
+     3.144
+    ],
+    [
+     "to",
+     3.626
+    ],
+    [
+     "god",
+     3.825
+    ],
+    [
+     "who",
+     4.08
+    ],
+    [
+     "gave",
+     4.335
+    ],
+    [
+     "it",
+     4.647
+    ]
+   ]
+  },
+  {
+   "id": "thief",
+   "start": 17.429,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "on": 0.28,
+    "the": 0.475,
+    "cross": 0.726,
+    "jesus": 1.2,
+    "told": 1.563,
+    "the2": 1.87,
+    "thief": 2.121,
+    "beside": 2.484,
+    "him": 2.902
+   },
+   "end": 20.953,
+   "ws": [
+    [
+     "on",
+     0.28
+    ],
+    [
+     "the",
+     0.475
+    ],
+    [
+     "cross",
+     0.726
+    ],
+    [
+     "jesus",
+     1.2
+    ],
+    [
+     "told",
+     1.563
+    ],
+    [
+     "the",
+     1.87
+    ],
+    [
+     "thief",
+     2.121
+    ],
+    [
+     "beside",
+     2.484
+    ],
+    [
+     "him",
+     2.902
+    ]
+   ]
+  },
+  {
+   "id": "paradise",
+   "start": 20.953,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "today": 0.28,
+    "you": 0.713,
+    "will": 0.942,
+    "be": 1.221,
+    "with": 1.399,
+    "me": 1.679,
+    "in": 1.857,
+    "paradise": 2.035
+   },
+   "end": 24.121,
+   "ws": [
+    [
+     "today",
+     0.28
+    ],
+    [
+     "you",
+     0.713
+    ],
+    [
+     "will",
+     0.942
+    ],
+    [
+     "be",
+     1.221
+    ],
+    [
+     "with",
+     1.399
+    ],
+    [
+     "me",
+     1.679
+    ],
+    [
+     "in",
+     1.857
+    ],
+    [
+     "paradise",
+     2.035
+    ]
+   ]
+  },
+  {
+   "id": "home",
+   "start": 24.121,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "and": 0.28,
+    "paul": 0.522,
+    "wrote": 0.819,
+    "to": 1.412,
+    "be": 1.6,
+    "away": 1.789,
+    "from": 2.086,
+    "the": 2.382,
+    "body": 2.625,
+    "is": 2.921,
+    "to2": 3.11,
+    "be2": 3.299,
+    "at": 3.487,
+    "home": 3.676,
+    "with": 3.973,
+    "the2": 4.269,
+    "lord": 4.512
+   },
+   "end": 29.492,
+   "ws": [
+    [
+     "and",
+     0.28
+    ],
+    [
+     "paul",
+     0.522
+    ],
+    [
+     "wrote",
+     0.819
+    ],
+    [
+     "to",
+     1.412
+    ],
+    [
+     "be",
+     1.6
+    ],
+    [
+     "away",
+     1.789
+    ],
+    [
+     "from",
+     2.086
+    ],
+    [
+     "the",
+     2.382
+    ],
+    [
+     "body",
+     2.625
+    ],
+    [
+     "is",
+     2.921
+    ],
+    [
+     "to",
+     3.11
+    ],
+    [
+     "be",
+     3.299
+    ],
+    [
+     "at",
+     3.487
+    ],
+    [
+     "home",
+     3.676
+    ],
+    [
+     "with",
+     3.973
+    ],
+    [
+     "the",
+     4.269
+    ],
+    [
+     "lord",
+     4.512
+    ]
+   ]
+  },
+  {
+   "id": "rise",
+   "start": 29.492,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "but": 0.28,
+    "the": 0.54,
+    "story": 0.801,
+    "is": 1.177,
+    "not": 1.379,
+    "finished": 1.64,
+    "one": 2.45,
+    "day": 2.71,
+    "the2": 3.086,
+    "dead": 3.346,
+    "will": 3.665,
+    "rise": 3.983,
+    "and": 4.417,
+    "everyone": 4.677,
+    "will2": 5.227,
+    "stand": 5.545,
+    "before": 5.921,
+    "god": 6.355
+   },
+   "end": 36.688,
+   "ws": [
+    [
+     "but",
+     0.28
+    ],
+    [
+     "the",
+     0.54
+    ],
+    [
+     "story",
+     0.801
+    ],
+    [
+     "is",
+     1.177
+    ],
+    [
+     "not",
+     1.379
+    ],
+    [
+     "finished",
+     1.64
+    ],
+    [
+     "one",
+     2.45
+    ],
+    [
+     "day",
+     2.71
+    ],
+    [
+     "the",
+     3.086
+    ],
+    [
+     "dead",
+     3.346
+    ],
+    [
+     "will",
+     3.665
+    ],
+    [
+     "rise",
+     3.983
+    ],
+    [
+     "and",
+     4.417
+    ],
+    [
+     "everyone",
+     4.677
+    ],
+    [
+     "will",
+     5.227
+    ],
+    [
+     "stand",
+     5.545
+    ],
+    [
+     "before",
+     5.921
+    ],
+    [
+     "god",
+     6.355
+    ]
+   ]
+  },
+  {
+   "id": "sleep",
+   "start": 36.688,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "that": 0.28,
+    "is": 0.589,
+    "why": 0.786,
+    "paul": 1.04,
+    "calls": 1.349,
+    "death": 1.715,
+    "a": 2.081,
+    "sleep": 2.222,
+    "because": 2.841,
+    "one": 3.319,
+    "day": 3.572,
+    "the": 3.938,
+    "dead": 4.191,
+    "will": 4.501,
+    "wake": 4.811,
+    "up": 5.12
+   },
+   "end": 42.678,
+   "ws": [
+    [
+     "that",
+     0.28
+    ],
+    [
+     "is",
+     0.589
+    ],
+    [
+     "why",
+     0.786
+    ],
+    [
+     "paul",
+     1.04
+    ],
+    [
+     "calls",
+     1.349
+    ],
+    [
+     "death",
+     1.715
+    ],
+    [
+     "a",
+     2.081
+    ],
+    [
+     "sleep",
+     2.222
+    ],
+    [
+     "because",
+     2.841
+    ],
+    [
+     "one",
+     3.319
+    ],
+    [
+     "day",
+     3.572
+    ],
+    [
+     "the",
+     3.938
+    ],
+    [
+     "dead",
+     4.191
+    ],
+    [
+     "will",
+     4.501
+    ],
+    [
+     "wake",
+     4.811
+    ],
+    [
+     "up",
+     5.12
+    ]
+   ]
+  },
+  {
+   "id": "two",
+   "start": 42.678,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "so": 0.28,
+    "the": 0.482,
+    "bible": 0.74,
+    "speaks": 1.114,
+    "of": 1.545,
+    "both": 1.746,
+    "rest": 2.321,
+    "with": 2.637,
+    "god": 2.953,
+    "now": 3.212,
+    "and": 3.585,
+    "resurrection": 3.844,
+    "and2": 4.62,
+    "judgement": 4.879,
+    "at": 5.482,
+    "the2": 5.683,
+    "end": 5.942
+   },
+   "end": 49.557,
+   "ws": [
+    [
+     "so",
+     0.28
+    ],
+    [
+     "the",
+     0.482
+    ],
+    [
+     "bible",
+     0.74
+    ],
+    [
+     "speaks",
+     1.114
+    ],
+    [
+     "of",
+     1.545
+    ],
+    [
+     "both",
+     1.746
+    ],
+    [
+     "rest",
+     2.321
+    ],
+    [
+     "with",
+     2.637
+    ],
+    [
+     "god",
+     2.953
+    ],
+    [
+     "now",
+     3.212
+    ],
+    [
+     "and",
+     3.585
+    ],
+    [
+     "resurrection",
+     3.844
+    ],
+    [
+     "and",
+     4.62
+    ],
+    [
+     "judgement",
+     4.879
+    ],
+    [
+     "at",
+     5.482
+    ],
+    [
+     "the",
+     5.683
+    ],
+    [
+     "end",
+     5.942
+    ]
+   ]
+  },
+  {
+   "id": "why",
+   "start": 49.557,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "so": 0.28,
+    "why": 0.47,
+    "do": 0.714,
+    "we": 0.904,
+    "pray": 1.094,
+    "christians": 1.636,
+    "answer": 2.26,
+    "this": 2.667,
+    "in": 2.965,
+    "different": 3.155,
+    "ways": 3.724
+   },
+   "end": 54.143,
+   "ws": [
+    [
+     "so",
+     0.28
+    ],
+    [
+     "why",
+     0.47
+    ],
+    [
+     "do",
+     0.714
+    ],
+    [
+     "we",
+     0.904
+    ],
+    [
+     "pray",
+     1.094
+    ],
+    [
+     "christians",
+     1.636
+    ],
+    [
+     "answer",
+     2.26
+    ],
+    [
+     "this",
+     2.667
+    ],
+    [
+     "in",
+     2.965
+    ],
+    [
+     "different",
+     3.155
+    ],
+    [
+     "ways",
+     3.724
+    ]
+   ]
+  },
+  {
+   "id": "catholic",
+   "start": 54.143,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "catholic": 0.28,
+    "and": 0.828,
+    "orthodox": 1.087,
+    "christians": 1.634,
+    "pray": 2.297,
+    "for": 2.613,
+    "the": 2.873,
+    "dead": 3.132,
+    "asking": 3.564,
+    "god": 3.996,
+    "to": 4.255,
+    "show": 4.457,
+    "them": 4.774,
+    "mercy": 5.09,
+    "they": 5.724,
+    "follow": 6.041,
+    "second": 6.473,
+    "maccabees": 6.905,
+    "where": 7.625,
+    "judas": 7.999,
+    "prayed": 8.374,
+    "for2": 8.806,
+    "fallen": 9.065,
+    "soldiers": 9.497,
+    "so": 10.16,
+    "they2": 10.361,
+    "would": 10.678,
+    "be": 11.053,
+    "freed": 11.254,
+    "from": 11.629,
+    "sin": 11.946
+   },
+   "end": 66.927,
+   "ws": [
+    [
+     "catholic",
+     0.28
+    ],
+    [
+     "and",
+     0.828
+    ],
+    [
+     "orthodox",
+     1.087
+    ],
+    [
+     "christians",
+     1.634
+    ],
+    [
+     "pray",
+     2.297
+    ],
+    [
+     "for",
+     2.613
+    ],
+    [
+     "the",
+     2.873
+    ],
+    [
+     "dead",
+     3.132
+    ],
+    [
+     "asking",
+     3.564
+    ],
+    [
+     "god",
+     3.996
+    ],
+    [
+     "to",
+     4.255
+    ],
+    [
+     "show",
+     4.457
+    ],
+    [
+     "them",
+     4.774
+    ],
+    [
+     "mercy",
+     5.09
+    ],
+    [
+     "they",
+     5.724
+    ],
+    [
+     "follow",
+     6.041
+    ],
+    [
+     "second",
+     6.473
+    ],
+    [
+     "maccabees",
+     6.905
+    ],
+    [
+     "where",
+     7.625
+    ],
+    [
+     "judas",
+     7.999
+    ],
+    [
+     "prayed",
+     8.374
+    ],
+    [
+     "for",
+     8.806
+    ],
+    [
+     "fallen",
+     9.065
+    ],
+    [
+     "soldiers",
+     9.497
+    ],
+    [
+     "so",
+     10.16
+    ],
+    [
+     "they",
+     10.361
+    ],
+    [
+     "would",
+     10.678
+    ],
+    [
+     "be",
+     11.053
+    ],
+    [
+     "freed",
+     11.254
+    ],
+    [
+     "from",
+     11.629
+    ],
+    [
+     "sin",
+     11.946
+    ]
+   ]
+  },
+  {
+   "id": "protest",
+   "start": 66.927,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "many": 0.28,
+    "protestant": 0.591,
+    "christians": 1.242,
+    "do": 1.893,
+    "not": 2.091,
+    "pray": 2.346,
+    "for": 2.657,
+    "the": 2.912,
+    "dead": 3.167,
+    "because": 3.591,
+    "the2": 4.072,
+    "bible": 4.327,
+    "says": 4.695,
+    "people": 5.261,
+    "die": 5.685,
+    "once": 5.94,
+    "and": 6.365,
+    "after": 6.619,
+    "that": 6.987,
+    "comes": 7.299,
+    "judgement": 7.666
+   },
+   "end": 75.862,
+   "ws": [
+    [
+     "many",
+     0.28
+    ],
+    [
+     "protestant",
+     0.591
+    ],
+    [
+     "christians",
+     1.242
+    ],
+    [
+     "do",
+     1.893
+    ],
+    [
+     "not",
+     2.091
+    ],
+    [
+     "pray",
+     2.346
+    ],
+    [
+     "for",
+     2.657
+    ],
+    [
+     "the",
+     2.912
+    ],
+    [
+     "dead",
+     3.167
+    ],
+    [
+     "because",
+     3.591
+    ],
+    [
+     "the",
+     4.072
+    ],
+    [
+     "bible",
+     4.327
+    ],
+    [
+     "says",
+     4.695
+    ],
+    [
+     "people",
+     5.261
+    ],
+    [
+     "die",
+     5.685
+    ],
+    [
+     "once",
+     5.94
+    ],
+    [
+     "and",
+     6.365
+    ],
+    [
+     "after",
+     6.619
+    ],
+    [
+     "that",
+     6.987
+    ],
+    [
+     "comes",
+     7.299
+    ],
+    [
+     "judgement",
+     7.666
+    ]
+   ]
+  },
+  {
+   "id": "all",
+   "start": 75.862,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "but": 0.28,
+    "every": 0.544,
+    "christian": 0.924,
+    "prays": 1.539,
+    "when": 1.92,
+    "someone": 2.242,
+    "dies": 2.739,
+    "and": 3.325,
+    "here": 3.588,
+    "is": 3.91,
+    "why": 4.115
+   },
+   "end": 80.824,
+   "ws": [
+    [
+     "but",
+     0.28
+    ],
+    [
+     "every",
+     0.544
+    ],
+    [
+     "christian",
+     0.924
+    ],
+    [
+     "prays",
+     1.539
+    ],
+    [
+     "when",
+     1.92
+    ],
+    [
+     "someone",
+     2.242
+    ],
+    [
+     "dies",
+     2.739
+    ],
+    [
+     "and",
+     3.325
+    ],
+    [
+     "here",
+     3.588
+    ],
+    [
+     "is",
+     3.91
+    ],
+    [
+     "why",
+     4.115
+    ]
+   ]
+  },
+  {
+   "id": "comfort",
+   "start": 80.824,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "we": 0.28,
+    "pray": 0.479,
+    "for": 0.793,
+    "those": 1.05,
+    "who": 1.42,
+    "are": 1.677,
+    "left": 1.934,
+    "behind": 2.248,
+    "our": 2.932,
+    "god": 3.189,
+    "is": 3.445,
+    "the": 3.645,
+    "god2": 3.902,
+    "of": 4.158,
+    "all": 4.358,
+    "comfort": 4.615
+   },
+   "end": 86.5,
+   "ws": [
+    [
+     "we",
+     0.28
+    ],
+    [
+     "pray",
+     0.479
+    ],
+    [
+     "for",
+     0.793
+    ],
+    [
+     "those",
+     1.05
+    ],
+    [
+     "who",
+     1.42
+    ],
+    [
+     "are",
+     1.677
+    ],
+    [
+     "left",
+     1.934
+    ],
+    [
+     "behind",
+     2.248
+    ],
+    [
+     "our",
+     2.932
+    ],
+    [
+     "god",
+     3.189
+    ],
+    [
+     "is",
+     3.445
+    ],
+    [
+     "the",
+     3.645
+    ],
+    [
+     "god",
+     3.902
+    ],
+    [
+     "of",
+     4.158
+    ],
+    [
+     "all",
+     4.358
+    ],
+    [
+     "comfort",
+     4.615
+    ]
+   ]
+  },
+  {
+   "id": "hope",
+   "start": 86.5,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "we": 0.28,
+    "pray": 0.482,
+    "because": 0.799,
+    "we2": 1.288,
+    "do": 1.49,
+    "not": 1.692,
+    "grieve": 1.951,
+    "like": 2.383,
+    "people": 2.7,
+    "who": 3.132,
+    "have": 3.391,
+    "no": 3.708,
+    "hope": 3.91
+   },
+   "end": 91.306,
+   "ws": [
+    [
+     "we",
+     0.28
+    ],
+    [
+     "pray",
+     0.482
+    ],
+    [
+     "because",
+     0.799
+    ],
+    [
+     "we",
+     1.288
+    ],
+    [
+     "do",
+     1.49
+    ],
+    [
+     "not",
+     1.692
+    ],
+    [
+     "grieve",
+     1.951
+    ],
+    [
+     "like",
+     2.383
+    ],
+    [
+     "people",
+     2.7
+    ],
+    [
+     "who",
+     3.132
+    ],
+    [
+     "have",
+     3.391
+    ],
+    [
+     "no",
+     3.708
+    ],
+    [
+     "hope",
+     3.91
+    ]
+   ]
+  },
+  {
+   "id": "thanks",
+   "start": 91.306,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "we": 0.28,
+    "pray": 0.478,
+    "to": 0.789,
+    "thank": 0.988,
+    "god": 1.356,
+    "for": 1.611,
+    "the": 1.866,
+    "life": 2.12,
+    "he": 2.432,
+    "gave": 2.63,
+    "us": 2.942,
+    "and": 3.253,
+    "the2": 3.508,
+    "time": 3.763,
+    "we2": 4.074,
+    "shared": 4.273
+   },
+   "end": 96.578,
+   "ws": [
+    [
+     "we",
+     0.28
+    ],
+    [
+     "pray",
+     0.478
+    ],
+    [
+     "to",
+     0.789
+    ],
+    [
+     "thank",
+     0.988
+    ],
+    [
+     "god",
+     1.356
+    ],
+    [
+     "for",
+     1.611
+    ],
+    [
+     "the",
+     1.866
+    ],
+    [
+     "life",
+     2.12
+    ],
+    [
+     "he",
+     2.432
+    ],
+    [
+     "gave",
+     2.63
+    ],
+    [
+     "us",
+     2.942
+    ],
+    [
+     "and",
+     3.253
+    ],
+    [
+     "the",
+     3.508
+    ],
+    [
+     "time",
+     3.763
+    ],
+    [
+     "we",
+     4.074
+    ],
+    [
+     "shared",
+     4.273
+    ]
+   ]
+  },
+  {
+   "id": "life",
+   "start": 96.578,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "i": 0.28,
+    "am": 0.426,
+    "the": 0.63,
+    "resurrection": 0.892,
+    "and": 1.678,
+    "the2": 1.941,
+    "life": 2.203,
+    "whoever": 2.785,
+    "believes": 3.28,
+    "in": 3.834,
+    "me": 4.038,
+    "will": 4.242,
+    "live": 4.562,
+    "even": 4.999,
+    "though": 5.319,
+    "they": 5.756,
+    "die": 6.077
+   },
+   "end": 103.699,
+   "ws": [
+    [
+     "i",
+     0.28
+    ],
+    [
+     "am",
+     0.426
+    ],
+    [
+     "the",
+     0.63
+    ],
+    [
+     "resurrection",
+     0.892
+    ],
+    [
+     "and",
+     1.678
+    ],
+    [
+     "the",
+     1.941
+    ],
+    [
+     "life",
+     2.203
+    ],
+    [
+     "whoever",
+     2.785
+    ],
+    [
+     "believes",
+     3.28
+    ],
+    [
+     "in",
+     3.834
+    ],
+    [
+     "me",
+     4.038
+    ],
+    [
+     "will",
+     4.242
+    ],
+    [
+     "live",
+     4.562
+    ],
+    [
+     "even",
+     4.999
+    ],
+    [
+     "though",
+     5.319
+    ],
+    [
+     "they",
+     5.756
+    ],
+    [
+     "die",
+     6.077
+    ]
+   ]
+  },
+  {
+   "id": "living",
+   "start": 103.699,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "god": 0.28,
+    "is": 0.536,
+    "not": 0.736,
+    "the": 0.992,
+    "god2": 1.248,
+    "of": 1.505,
+    "the2": 1.704,
+    "dead": 1.961,
+    "but": 2.388,
+    "of2": 2.644,
+    "the3": 2.844,
+    "living": 3.1,
+    "for": 3.784,
+    "to": 4.04,
+    "him": 4.24,
+    "all": 4.61,
+    "are": 4.866,
+    "alive": 5.123
+   },
+   "end": 109.969,
+   "ws": [
+    [
+     "god",
+     0.28
+    ],
+    [
+     "is",
+     0.536
+    ],
+    [
+     "not",
+     0.736
+    ],
+    [
+     "the",
+     0.992
+    ],
+    [
+     "god",
+     1.248
+    ],
+    [
+     "of",
+     1.505
+    ],
+    [
+     "the",
+     1.704
+    ],
+    [
+     "dead",
+     1.961
+    ],
+    [
+     "but",
+     2.388
+    ],
+    [
+     "of",
+     2.644
+    ],
+    [
+     "the",
+     2.844
+    ],
+    [
+     "living",
+     3.1
+    ],
+    [
+     "for",
+     3.784
+    ],
+    [
+     "to",
+     4.04
+    ],
+    [
+     "him",
+     4.24
+    ],
+    [
+     "all",
+     4.61
+    ],
+    [
+     "are",
+     4.866
+    ],
+    [
+     "alive",
+     5.123
+    ]
+   ]
+  },
+  {
+   "id": "love",
+   "start": 109.969,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "so": 0.28,
+    "we": 0.488,
+    "pray": 0.696,
+    "in": 1.023,
+    "hope": 1.231,
+    "in2": 1.677,
+    "comfort": 1.885,
+    "and": 2.51,
+    "in3": 2.777,
+    "love": 2.985,
+    "because": 3.58,
+    "love2": 4.085,
+    "never": 4.413,
+    "ends": 4.799
+   },
+   "end": 116.083,
+   "ws": [
+    [
+     "so",
+     0.28
+    ],
+    [
+     "we",
+     0.488
+    ],
+    [
+     "pray",
+     0.696
+    ],
+    [
+     "in",
+     1.023
+    ],
+    [
+     "hope",
+     1.231
+    ],
+    [
+     "in",
+     1.677
+    ],
+    [
+     "comfort",
+     1.885
+    ],
+    [
+     "and",
+     2.51
+    ],
+    [
+     "in",
+     2.777
+    ],
+    [
+     "love",
+     2.985
+    ],
+    [
+     "because",
+     3.58
+    ],
+    [
+     "love",
+     4.085
+    ],
+    [
+     "never",
+     4.413
+    ],
+    [
+     "ends",
+     4.799
+    ]
+   ]
+  },
+  {
+   "id": "end",
+   "start": 116.083,
+   "segs": [
+    0.28
+   ],
+   "w": {
+    "share": 1.98,
+    "this": 2.331,
+    "with": 2.629,
+    "someone": 2.926,
+    "who": 3.386,
+    "is": 3.629,
+    "missing": 3.819,
+    "someone2": 4.278,
+    "today": 4.738
+   },
+   "end": 122.516,
+   "ws": [
+    [
+     "share",
+     1.98
+    ],
+    [
+     "this",
+     2.331
+    ],
+    [
+     "with",
+     2.629
+    ],
+    [
+     "someone",
+     2.926
+    ],
+    [
+     "who",
+     3.386
+    ],
+    [
+     "is",
+     3.629
+    ],
+    [
+     "missing",
+     3.819
+    ],
+    [
+     "someone",
+     4.278
+    ],
+    [
+     "today",
+     4.738
+    ]
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.5,
+   "end": 1.787,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "When",
+     "start": 0.5,
+     "key": false
+    },
+    {
+     "text": "someone",
+     "start": 0.808,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 1.283,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 1.479,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 1.787,
+   "end": 2.962,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "dies,",
+     "start": 1.787,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 2.207,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 2.402,
+     "key": true
+    },
+    {
+     "text": "for",
+     "start": 2.71,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 2.962,
+   "end": 4.557,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "them.",
+     "start": 2.962,
+     "key": false
+    },
+    {
+     "text": "But",
+     "start": 3.521,
+     "key": false
+    },
+    {
+     "text": "if",
+     "start": 3.773,
+     "key": false
+    },
+    {
+     "text": "judgement",
+     "start": 3.969,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 4.557,
+   "end": 5.676,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "only",
+     "start": 4.557,
+     "key": false
+    },
+    {
+     "text": "comes",
+     "start": 4.864,
+     "key": false
+    },
+    {
+     "text": "at",
+     "start": 5.228,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 5.424,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.676,
+   "end": 6.543,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "end",
+     "start": 5.676,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 5.927,
+     "key": false
+    },
+    {
+     "text": "time,",
+     "start": 6.123,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 6.543,
+   "end": 8.096,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "why",
+     "start": 6.543,
+     "key": true
+    },
+    {
+     "text": "do",
+     "start": 6.795,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 6.991,
+     "key": false
+    },
+    {
+     "text": "pray?",
+     "start": 7.186,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 8.446,
+   "end": 9.711,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "First,",
+     "start": 8.446,
+     "key": false
+    },
+    {
+     "text": "what",
+     "start": 8.894,
+     "key": false
+    },
+    {
+     "text": "does",
+     "start": 9.184,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 9.474,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 9.711,
+   "end": 11.029,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Bible",
+     "start": 9.711,
+     "key": false
+    },
+    {
+     "text": "say",
+     "start": 10.054,
+     "key": false
+    },
+    {
+     "text": "happens",
+     "start": 10.291,
+     "key": false
+    },
+    {
+     "text": "when",
+     "start": 10.739,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 11.029,
+   "end": 12.038,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "we",
+     "start": 11.029,
+     "key": false
+    },
+    {
+     "text": "die?",
+     "start": 11.214,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 12.288,
+   "end": 13.536,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "The",
+     "start": 12.288,
+     "key": false
+    },
+    {
+     "text": "body",
+     "start": 12.543,
+     "key": false
+    },
+    {
+     "text": "returns",
+     "start": 12.855,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 13.337,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 13.536,
+   "end": 14.216,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 13.536,
+     "key": false
+    },
+    {
+     "text": "dust,",
+     "start": 13.791,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 14.216,
+   "end": 15.634,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 14.216,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 14.472,
+     "key": false
+    },
+    {
+     "text": "spirit",
+     "start": 14.727,
+     "key": false
+    },
+    {
+     "text": "returns",
+     "start": 15.152,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 15.634,
+   "end": 17.459,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "to",
+     "start": 15.634,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 15.833,
+     "key": true
+    },
+    {
+     "text": "who",
+     "start": 16.088,
+     "key": false
+    },
+    {
+     "text": "gave",
+     "start": 16.343,
+     "key": false
+    },
+    {
+     "text": "it.",
+     "start": 16.655,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 17.709,
+   "end": 18.629,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "On",
+     "start": 17.709,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 17.904,
+     "key": false
+    },
+    {
+     "text": "cross,",
+     "start": 18.155,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 18.629,
+   "end": 19.913,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Jesus",
+     "start": 18.629,
+     "key": false
+    },
+    {
+     "text": "told",
+     "start": 18.992,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 19.299,
+     "key": false
+    },
+    {
+     "text": "thief",
+     "start": 19.55,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 19.913,
+   "end": 21.183,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "beside",
+     "start": 19.913,
+     "key": false
+    },
+    {
+     "text": "him:",
+     "start": 20.331,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 21.233,
+   "end": 22.352,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Today,",
+     "start": 21.233,
+     "key": false
+    },
+    {
+     "text": "you",
+     "start": 21.666,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 21.895,
+     "key": false
+    },
+    {
+     "text": "be",
+     "start": 22.174,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 22.352,
+   "end": 24.051,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "with",
+     "start": 22.352,
+     "key": false
+    },
+    {
+     "text": "me",
+     "start": 22.632,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 22.81,
+     "key": false
+    },
+    {
+     "text": "paradise.",
+     "start": 22.988,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 24.401,
+   "end": 25.533,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 24.401,
+     "key": false
+    },
+    {
+     "text": "Paul",
+     "start": 24.643,
+     "key": false
+    },
+    {
+     "text": "wrote:",
+     "start": 24.94,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 25.533,
+   "end": 26.503,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "to",
+     "start": 25.533,
+     "key": false
+    },
+    {
+     "text": "be",
+     "start": 25.721,
+     "key": false
+    },
+    {
+     "text": "away",
+     "start": 25.91,
+     "key": false
+    },
+    {
+     "text": "from",
+     "start": 26.207,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 26.503,
+   "end": 27.42,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 26.503,
+     "key": false
+    },
+    {
+     "text": "body",
+     "start": 26.746,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 27.042,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 27.231,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 27.42,
+   "end": 28.39,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "be",
+     "start": 27.42,
+     "key": false
+    },
+    {
+     "text": "at",
+     "start": 27.608,
+     "key": false
+    },
+    {
+     "text": "home",
+     "start": 27.797,
+     "key": true
+    },
+    {
+     "text": "with",
+     "start": 28.094,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 28.39,
+   "end": 29.522,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 28.39,
+     "key": false
+    },
+    {
+     "text": "Lord.",
+     "start": 28.633,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 29.772,
+   "end": 30.871,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "But",
+     "start": 29.772,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 30.032,
+     "key": false
+    },
+    {
+     "text": "story",
+     "start": 30.293,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 30.669,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 30.871,
+   "end": 31.942,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "not",
+     "start": 30.871,
+     "key": false
+    },
+    {
+     "text": "finished.",
+     "start": 31.132,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 31.942,
+   "end": 32.578,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "One",
+     "start": 31.942,
+     "key": false
+    },
+    {
+     "text": "day,",
+     "start": 32.202,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 32.578,
+   "end": 33.909,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 32.578,
+     "key": false
+    },
+    {
+     "text": "dead",
+     "start": 32.838,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 33.157,
+     "key": false
+    },
+    {
+     "text": "rise,",
+     "start": 33.475,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 33.909,
+   "end": 35.413,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 33.909,
+     "key": false
+    },
+    {
+     "text": "everyone",
+     "start": 34.169,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 34.719,
+     "key": false
+    },
+    {
+     "text": "stand",
+     "start": 35.037,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 35.413,
+   "end": 36.718,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "before",
+     "start": 35.413,
+     "key": false
+    },
+    {
+     "text": "God.",
+     "start": 35.847,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 36.968,
+   "end": 38.037,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "That",
+     "start": 36.968,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 37.277,
+     "key": false
+    },
+    {
+     "text": "why",
+     "start": 37.474,
+     "key": false
+    },
+    {
+     "text": "Paul",
+     "start": 37.728,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 38.037,
+   "end": 39.529,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "calls",
+     "start": 38.037,
+     "key": false
+    },
+    {
+     "text": "death",
+     "start": 38.403,
+     "key": false
+    },
+    {
+     "text": "a",
+     "start": 38.769,
+     "key": false
+    },
+    {
+     "text": "sleep.",
+     "start": 38.91,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 39.529,
+   "end": 40.626,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Because",
+     "start": 39.529,
+     "key": false
+    },
+    {
+     "text": "one",
+     "start": 40.007,
+     "key": false
+    },
+    {
+     "text": "day,",
+     "start": 40.26,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 40.626,
+   "end": 42.608,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "the",
+     "start": 40.626,
+     "key": false
+    },
+    {
+     "text": "dead",
+     "start": 40.879,
+     "key": false
+    },
+    {
+     "text": "will",
+     "start": 41.189,
+     "key": false
+    },
+    {
+     "text": "wake",
+     "start": 41.499,
+     "key": true
+    },
+    {
+     "text": "up.",
+     "start": 41.808,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 42.958,
+   "end": 44.223,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "So",
+     "start": 42.958,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 43.16,
+     "key": false
+    },
+    {
+     "text": "Bible",
+     "start": 43.418,
+     "key": false
+    },
+    {
+     "text": "speaks",
+     "start": 43.792,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.223,
+   "end": 44.999,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "of",
+     "start": 44.223,
+     "key": false
+    },
+    {
+     "text": "both:",
+     "start": 44.424,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 44.999,
+   "end": 46.263,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "rest",
+     "start": 44.999,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 45.315,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 45.631,
+     "key": false
+    },
+    {
+     "text": "now,",
+     "start": 45.89,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 46.263,
+   "end": 48.16,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 46.263,
+     "key": false
+    },
+    {
+     "text": "resurrection",
+     "start": 46.522,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 47.298,
+     "key": false
+    },
+    {
+     "text": "judgement",
+     "start": 47.557,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 48.16,
+   "end": 49.487,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "at",
+     "start": 48.16,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 48.361,
+     "key": false
+    },
+    {
+     "text": "end.",
+     "start": 48.62,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 49.837,
+   "end": 50.651,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "So",
+     "start": 49.837,
+     "key": false
+    },
+    {
+     "text": "why",
+     "start": 50.027,
+     "key": false
+    },
+    {
+     "text": "do",
+     "start": 50.271,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 50.461,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 50.651,
+   "end": 52.522,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "pray?",
+     "start": 50.651,
+     "key": false
+    },
+    {
+     "text": "Christians",
+     "start": 51.193,
+     "key": false
+    },
+    {
+     "text": "answer",
+     "start": 51.817,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 52.224,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 52.522,
+   "end": 54.173,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "in",
+     "start": 52.522,
+     "key": false
+    },
+    {
+     "text": "different",
+     "start": 52.712,
+     "key": true
+    },
+    {
+     "text": "ways.",
+     "start": 53.281,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 54.423,
+   "end": 56.44,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Catholic",
+     "start": 54.423,
+     "key": false
+    },
+    {
+     "text": "and",
+     "start": 54.971,
+     "key": false
+    },
+    {
+     "text": "Orthodox",
+     "start": 55.23,
+     "key": false
+    },
+    {
+     "text": "Christians",
+     "start": 55.777,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 56.44,
+   "end": 57.707,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "pray",
+     "start": 56.44,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 56.756,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 57.016,
+     "key": false
+    },
+    {
+     "text": "dead,",
+     "start": 57.275,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 57.707,
+   "end": 58.917,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "asking",
+     "start": 57.707,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 58.139,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 58.398,
+     "key": false
+    },
+    {
+     "text": "show",
+     "start": 58.6,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 58.917,
+   "end": 59.867,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "them",
+     "start": 58.917,
+     "key": false
+    },
+    {
+     "text": "mercy.",
+     "start": 59.233,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 59.867,
+   "end": 61.768,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "They",
+     "start": 59.867,
+     "key": false
+    },
+    {
+     "text": "follow",
+     "start": 60.184,
+     "key": false
+    },
+    {
+     "text": "Second",
+     "start": 60.616,
+     "key": false
+    },
+    {
+     "text": "Maccabees,",
+     "start": 61.048,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 61.768,
+   "end": 63.208,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "where",
+     "start": 61.768,
+     "key": false
+    },
+    {
+     "text": "Judas",
+     "start": 62.142,
+     "key": false
+    },
+    {
+     "text": "prayed",
+     "start": 62.517,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 62.949,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 63.208,
+   "end": 64.303,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "fallen",
+     "start": 63.208,
+     "key": false
+    },
+    {
+     "text": "soldiers,",
+     "start": 63.64,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 64.303,
+   "end": 65.397,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "so",
+     "start": 64.303,
+     "key": false
+    },
+    {
+     "text": "they",
+     "start": 64.504,
+     "key": false
+    },
+    {
+     "text": "would",
+     "start": 64.821,
+     "key": false
+    },
+    {
+     "text": "be",
+     "start": 65.196,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 65.397,
+   "end": 66.957,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "freed",
+     "start": 65.397,
+     "key": true
+    },
+    {
+     "text": "from",
+     "start": 65.772,
+     "key": false
+    },
+    {
+     "text": "sin.",
+     "start": 66.089,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 67.207,
+   "end": 69.018,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Many",
+     "start": 67.207,
+     "key": false
+    },
+    {
+     "text": "Protestant",
+     "start": 67.518,
+     "key": false
+    },
+    {
+     "text": "Christians",
+     "start": 68.169,
+     "key": false
+    },
+    {
+     "text": "do",
+     "start": 68.82,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 69.018,
+   "end": 70.094,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "not",
+     "start": 69.018,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 69.273,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 69.584,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 69.839,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 70.094,
+   "end": 71.622,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "dead,",
+     "start": 70.094,
+     "key": false
+    },
+    {
+     "text": "because",
+     "start": 70.518,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 70.999,
+     "key": false
+    },
+    {
+     "text": "Bible",
+     "start": 71.254,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 71.622,
+   "end": 73.292,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "says:",
+     "start": 71.622,
+     "key": false
+    },
+    {
+     "text": "people",
+     "start": 72.188,
+     "key": false
+    },
+    {
+     "text": "die",
+     "start": 72.612,
+     "key": false
+    },
+    {
+     "text": "once,",
+     "start": 72.867,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 73.292,
+   "end": 75.793,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 73.292,
+     "key": false
+    },
+    {
+     "text": "after",
+     "start": 73.546,
+     "key": false
+    },
+    {
+     "text": "that",
+     "start": 73.914,
+     "key": false
+    },
+    {
+     "text": "comes",
+     "start": 74.226,
+     "key": false
+    },
+    {
+     "text": "judgement.",
+     "start": 74.593,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 76.142,
+   "end": 77.782,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "But",
+     "start": 76.142,
+     "key": false
+    },
+    {
+     "text": "every",
+     "start": 76.406,
+     "key": true
+    },
+    {
+     "text": "Christian",
+     "start": 76.786,
+     "key": false
+    },
+    {
+     "text": "prays",
+     "start": 77.401,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 77.782,
+   "end": 79.187,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "when",
+     "start": 77.782,
+     "key": false
+    },
+    {
+     "text": "someone",
+     "start": 78.104,
+     "key": false
+    },
+    {
+     "text": "dies.",
+     "start": 78.601,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 79.187,
+   "end": 80.854,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "And",
+     "start": 79.187,
+     "key": false
+    },
+    {
+     "text": "here",
+     "start": 79.45,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 79.772,
+     "key": false
+    },
+    {
+     "text": "why.",
+     "start": 79.977,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 81.104,
+   "end": 82.244,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "We",
+     "start": 81.104,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 81.303,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 81.617,
+     "key": false
+    },
+    {
+     "text": "those",
+     "start": 81.874,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 82.244,
+   "end": 83.756,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "who",
+     "start": 82.244,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 82.501,
+     "key": false
+    },
+    {
+     "text": "left",
+     "start": 82.758,
+     "key": false
+    },
+    {
+     "text": "behind.",
+     "start": 83.072,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 83.756,
+   "end": 84.726,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Our",
+     "start": 83.756,
+     "key": false
+    },
+    {
+     "text": "God",
+     "start": 84.013,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 84.269,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 84.469,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 84.726,
+   "end": 86.53,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "God",
+     "start": 84.726,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 84.982,
+     "key": false
+    },
+    {
+     "text": "all",
+     "start": 85.182,
+     "key": false
+    },
+    {
+     "text": "comfort.",
+     "start": 85.439,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 86.78,
+   "end": 87.99,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "We",
+     "start": 86.78,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 86.982,
+     "key": false
+    },
+    {
+     "text": "because",
+     "start": 87.299,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 87.788,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 87.99,
+   "end": 89.2,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "do",
+     "start": 87.99,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 88.192,
+     "key": false
+    },
+    {
+     "text": "grieve",
+     "start": 88.451,
+     "key": false
+    },
+    {
+     "text": "like",
+     "start": 88.883,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 89.2,
+   "end": 91.336,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "people",
+     "start": 89.2,
+     "key": false
+    },
+    {
+     "text": "who",
+     "start": 89.632,
+     "key": false
+    },
+    {
+     "text": "have",
+     "start": 89.891,
+     "key": false
+    },
+    {
+     "text": "no",
+     "start": 90.208,
+     "key": false
+    },
+    {
+     "text": "hope.",
+     "start": 90.41,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 91.586,
+   "end": 92.662,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "We",
+     "start": 91.586,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 91.784,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 92.095,
+     "key": false
+    },
+    {
+     "text": "thank",
+     "start": 92.294,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 92.662,
+   "end": 93.738,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "God",
+     "start": 92.662,
+     "key": false
+    },
+    {
+     "text": "for",
+     "start": 92.917,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 93.172,
+     "key": false
+    },
+    {
+     "text": "life",
+     "start": 93.426,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 93.738,
+   "end": 94.559,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "he",
+     "start": 93.738,
+     "key": false
+    },
+    {
+     "text": "gave",
+     "start": 93.936,
+     "key": false
+    },
+    {
+     "text": "us,",
+     "start": 94.248,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 94.559,
+   "end": 96.608,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 94.559,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 94.814,
+     "key": false
+    },
+    {
+     "text": "time",
+     "start": 95.069,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 95.38,
+     "key": false
+    },
+    {
+     "text": "shared.",
+     "start": 95.579,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 96.858,
+   "end": 98.256,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "I",
+     "start": 96.858,
+     "key": false
+    },
+    {
+     "text": "am",
+     "start": 97.004,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 97.208,
+     "key": false
+    },
+    {
+     "text": "resurrection",
+     "start": 97.47,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 98.256,
+   "end": 99.363,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 98.256,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 98.519,
+     "key": false
+    },
+    {
+     "text": "life.",
+     "start": 98.781,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 99.363,
+   "end": 100.82,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Whoever",
+     "start": 99.363,
+     "key": false
+    },
+    {
+     "text": "believes",
+     "start": 99.858,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 100.412,
+     "key": false
+    },
+    {
+     "text": "me",
+     "start": 100.616,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 100.82,
+   "end": 101.577,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "will",
+     "start": 100.82,
+     "key": false
+    },
+    {
+     "text": "live,",
+     "start": 101.14,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 101.577,
+   "end": 103.529,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "even",
+     "start": 101.577,
+     "key": false
+    },
+    {
+     "text": "though",
+     "start": 101.897,
+     "key": false
+    },
+    {
+     "text": "they",
+     "start": 102.334,
+     "key": false
+    },
+    {
+     "text": "die.",
+     "start": 102.655,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 103.979,
+   "end": 104.947,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "God",
+     "start": 103.979,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 104.235,
+     "key": false
+    },
+    {
+     "text": "not",
+     "start": 104.435,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 104.691,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 104.947,
+   "end": 106.087,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "God",
+     "start": 104.947,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 105.204,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 105.403,
+     "key": false
+    },
+    {
+     "text": "dead,",
+     "start": 105.66,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 106.087,
+   "end": 107.483,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "but",
+     "start": 106.087,
+     "key": false
+    },
+    {
+     "text": "of",
+     "start": 106.343,
+     "key": false
+    },
+    {
+     "text": "the",
+     "start": 106.543,
+     "key": false
+    },
+    {
+     "text": "living.",
+     "start": 106.799,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 107.483,
+   "end": 108.309,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "For",
+     "start": 107.483,
+     "key": false
+    },
+    {
+     "text": "to",
+     "start": 107.739,
+     "key": false
+    },
+    {
+     "text": "him,",
+     "start": 107.939,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 108.309,
+   "end": 109.799,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "all",
+     "start": 108.309,
+     "key": false
+    },
+    {
+     "text": "are",
+     "start": 108.565,
+     "key": false
+    },
+    {
+     "text": "alive.",
+     "start": 108.822,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 110.249,
+   "end": 111.2,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "So",
+     "start": 110.249,
+     "key": false
+    },
+    {
+     "text": "we",
+     "start": 110.457,
+     "key": false
+    },
+    {
+     "text": "pray",
+     "start": 110.665,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 110.992,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 111.2,
+   "end": 112.479,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "hope,",
+     "start": 111.2,
+     "key": true
+    },
+    {
+     "text": "in",
+     "start": 111.646,
+     "key": false
+    },
+    {
+     "text": "comfort,",
+     "start": 111.854,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 112.479,
+   "end": 113.549,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "and",
+     "start": 112.479,
+     "key": false
+    },
+    {
+     "text": "in",
+     "start": 112.746,
+     "key": false
+    },
+    {
+     "text": "love.",
+     "start": 112.954,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 113.549,
+   "end": 115.713,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Because",
+     "start": 113.549,
+     "key": false
+    },
+    {
+     "text": "love",
+     "start": 114.054,
+     "key": true
+    },
+    {
+     "text": "never",
+     "start": 114.382,
+     "key": false
+    },
+    {
+     "text": "ends.",
+     "start": 114.768,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 118.063,
+   "end": 119.469,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "Share",
+     "start": 118.063,
+     "key": false
+    },
+    {
+     "text": "this",
+     "start": 118.414,
+     "key": false
+    },
+    {
+     "text": "with",
+     "start": 118.712,
+     "key": false
+    },
+    {
+     "text": "someone",
+     "start": 119.009,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 119.469,
+   "end": 121.766,
+   "tempter": false,
+   "god": false,
+   "words": [
+    {
+     "text": "who",
+     "start": 119.469,
+     "key": false
+    },
+    {
+     "text": "is",
+     "start": 119.712,
+     "key": false
+    },
+    {
+     "text": "missing",
+     "start": 119.902,
+     "key": true
+    },
+    {
+     "text": "someone",
+     "start": 120.361,
+     "key": false
+    },
+    {
+     "text": "today.",
+     "start": 120.821,
+     "key": false
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "start": 0.5,
+   "end": 7.846,
+   "text": "When someone we love dies, we pray for them. But if judgement only comes at the end of time, why do we pray?",
+   "tempter": false
+  },
+  {
+   "start": 8.446,
+   "end": 11.788,
+   "text": "First, what does the Bible say happens when we die?",
+   "tempter": false
+  },
+  {
+   "start": 12.288,
+   "end": 17.209,
+   "text": "The body returns to the dust, and the spirit returns to God who gave it.",
+   "tempter": false
+  },
+  {
+   "start": 17.709,
+   "end": 20.933,
+   "text": "On the cross, Jesus told the thief beside him:",
+   "tempter": false
+  },
+  {
+   "start": 21.233,
+   "end": 23.801,
+   "text": "Today, you will be with me in paradise.",
+   "tempter": false
+  },
+  {
+   "start": 24.401,
+   "end": 29.272,
+   "text": "And Paul wrote: to be away from the body is to be at home with the Lord.",
+   "tempter": false
+  },
+  {
+   "start": 29.772,
+   "end": 36.468,
+   "text": "But the story is not finished. One day, the dead will rise, and everyone will stand before God.",
+   "tempter": false
+  },
+  {
+   "start": 36.968,
+   "end": 42.358,
+   "text": "That is why Paul calls death a sleep. Because one day, the dead will wake up.",
+   "tempter": false
+  },
+  {
+   "start": 42.958,
+   "end": 49.237,
+   "text": "So the Bible speaks of both: rest with God now, and resurrection and judgement at the end.",
+   "tempter": false
+  },
+  {
+   "start": 49.837,
+   "end": 53.923,
+   "text": "So why do we pray? Christians answer this in different ways.",
+   "tempter": false
+  },
+  {
+   "start": 54.423,
+   "end": 66.707,
+   "text": "Catholic and Orthodox Christians pray for the dead, asking God to show them mercy. They follow Second Maccabees, where Judas prayed for fallen soldiers, so they would be freed from sin.",
+   "tempter": false
+  },
+  {
+   "start": 67.207,
+   "end": 75.543,
+   "text": "Many Protestant Christians do not pray for the dead, because the Bible says: people die once, and after that comes judgement.",
+   "tempter": false
+  },
+  {
+   "start": 76.142,
+   "end": 80.604,
+   "text": "But every Christian prays when someone dies. And here is why.",
+   "tempter": false
+  },
+  {
+   "start": 81.104,
+   "end": 86.28,
+   "text": "We pray for those who are left behind. Our God is the God of all comfort.",
+   "tempter": false
+  },
+  {
+   "start": 86.78,
+   "end": 91.086,
+   "text": "We pray because we do not grieve like people who have no hope.",
+   "tempter": false
+  },
+  {
+   "start": 91.586,
+   "end": 96.358,
+   "text": "We pray to thank God for the life he gave us, and the time we shared.",
+   "tempter": false
+  },
+  {
+   "start": 96.858,
+   "end": 103.279,
+   "text": "I am the resurrection and the life. Whoever believes in me will live, even though they die.",
+   "tempter": false
+  },
+  {
+   "start": 103.979,
+   "end": 109.549,
+   "text": "God is not the God of the dead, but of the living. For to him, all are alive.",
+   "tempter": false
+  },
+  {
+   "start": 110.249,
+   "end": 115.463,
+   "text": "So we pray in hope, in comfort, and in love. Because love never ends.",
+   "tempter": false
+  },
+  {
+   "start": 116.363,
+   "end": 121.516,
+   "text": "Share this with someone who is missing someone today.",
+   "tempter": false
+  }
+ ]
+}
