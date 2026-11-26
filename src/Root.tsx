@@ -16,6 +16,7 @@ import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7
 import {MuayThumbYT, MuayCoverTT} from './v7/Thumbs';
 import {Wwe1Long, Wwe1Tall, WWE1_LONG_DUR} from './w1/Wwe1';
 import {WweCoverTT} from './w1/Cover';
+import {OppoTT, OPPO_DUR} from './op/Oppo';
 import {BibleLong, BibleTall, BIBLE1_DUR} from './b1/Bible';
 
 export const RemotionRoot: React.FC = () => (
@@ -48,6 +49,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="MuayShort" component={MuayShort} durationInFrames={Math.ceil(MUAY_SHORT_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.47, voice: 'v7/voice_short.wav'}} />
     <Composition id="MuayThumbYT" component={MuayThumbYT} durationInFrames={1} fps={FPS} width={1920} height={1080} />
     <Composition id="MuayCoverTT" component={MuayCoverTT} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} />
+    {/* OPPO Watch 5 — UltraBurn Mode (TikTok) */}
+    <Composition id="OppoTT" component={OppoTT} durationInFrames={Math.ceil(OPPO_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.13}} />
     {/* Ep1 remake: Would You Survive WWE Training? (3D, creator voice) */}
     <Composition id="Wwe1Long" component={Wwe1Long} durationInFrames={Math.ceil(WWE1_LONG_DUR * FPS)} fps={FPS} width={1920} height={1080} defaultProps={{music: 0.47, voice: 'w1/voice_long.wav'}} />
     <Composition id="Wwe1Tall" component={Wwe1Tall} durationInFrames={Math.ceil(WWE1_LONG_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{music: 0.47, voice: 'w1/voice_long.wav'}} />

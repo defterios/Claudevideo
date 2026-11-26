@@ -16,3 +16,5 @@ __pycache__/
 public/v7/*.wav
 public/b1/*.wav
 public/w1/*.wav
+public/op/*.mp4
+public/op/*.wav
