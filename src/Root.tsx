@@ -47,6 +47,8 @@ import {HosannaTall, HOSANNA_DUR, HOSANNA_DUR_BDY} from './v22/Hosanna';
 import {Ep15Cover} from './v22/Cover';
 import {DeadTall, DEAD_DUR, DEAD_DUR_BDY} from './v101/Dead';
 import {DeadCover} from './v101/Cover';
+import {EverythingTall, EVERY_DUR, EVERY_DUR_BDY} from './v23/Everything';
+import {Ep16Cover} from './v23/Cover';
 import {MuayLong, MuayTall, MuayShort, MUAY_LONG_DUR, MUAY_SHORT_DUR} from './v7/Muay';
 
 export const RemotionRoot: React.FC = () => (
@@ -170,6 +172,11 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="DeadTallBdy" component={DeadTall} durationInFrames={Math.ceil(DEAD_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
     <Composition id="Special2CoverEn" component={DeadCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
     <Composition id="Special2CoverBdy" component={DeadCover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
+    {/* Jesus series, Episode 16: Everything She Had (Mark 12-13), TikTok only */}
+    <Composition id="EverythingTall" component={EverythingTall} durationInFrames={Math.ceil(EVERY_DUR * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95}} />
+    <Composition id="EverythingTallBdy" component={EverythingTall} durationInFrames={Math.ceil(EVERY_DUR_BDY * FPS)} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{bed: 0.95, lang: 'bdy' as const}} />
+    <Composition id="Ep16CoverEn" component={Ep16Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'en' as const}} />
+    <Composition id="Ep16CoverBdy" component={Ep16Cover} durationInFrames={1} fps={FPS} width={WIDTH} height={HEIGHT} defaultProps={{lang: 'bdy' as const}} />
     <Composition id="MuayStyle" component={MuayStyle} durationInFrames={3} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="Test3D" component={Test3D} durationInFrames={30} fps={FPS} width={WIDTH} height={HEIGHT} />
     <Composition id="RigTest" component={RigTest} durationInFrames={30} fps={FPS} width={1920} height={1080} />

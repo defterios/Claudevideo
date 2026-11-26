@@ -340,8 +340,30 @@ LINES94 = [  # special 2: why do we pray for the dead (clean take; last line not
     ("Jadi otte smayang suo pingarap, suo pimasi, duoh suo pinyayang. Sobab pinyayang inuh doi nyuong eh.", 126.9, 132.9, ["pingarap", "pimasi", "pinyayang"], {"hope": "pingarap", "comfort": "pimasi", "love": "pinyayang"}),
     ("", None, None, [], {}),
 ]
+LINES16 = [  # episode 16 (clean take; "Nuna koih" recorded separately and appended after 1 s of silence at 102.46 s)
+    ("Takar de romin Topa, bara Farisi suba rie sikien koyuh duoh Jesus ngan eh rie ngijorat Eh.", 2.0, 6.75, ["ngijorat"], {"trap": "ngijorat"}),
+    ("", 8.05, 10.55, ["Caesar"], {"caesar": "Caesar"}),
+    ("Toban duit siring kati. Gamar osi itih? Aden osi itih?", 11.75, 15.25, ["duit"], {"coin": "duit"}),
+    ("", 16.05, 16.6, ["Caesar"], {"caesars": "Caesar"}),
+    ("Ju koyuh de kaku Caesar ngin duoh Caesar, koyuh de kaku Topa ngin duoh Topa.", 17.6, 21.8, ["Topa"], {"god": "Topa"}),
+    ("Mokuo inuh ogi ade guru adat sikien Yeh: Suo suo sibaya, munki sibaya de kason ayuh?", 23.45, 28.05, ["ayuh"], {"important": "ayuh"}),
+    ("Nyomah Topa nikan de bonar, ngan sipunuo otin ingan, sipunuo asong, suo pikir kira, suo pikuat ingan.", 29.6, 36.3, ["otin", "asong", "kira", "pikuat"], {"heart": "otin", "soul": "asong", "mind": "kira", "strength": "pikuat"}),
+    ("De nomor 2 eh neh itih: Nyayang nyaa nyam nya nyayang odop nya. Doi sibaya de boken de robih ayuh suo sibaya de 2 itih.", 37.0, 43.95, ["nyaa"], {"neighbour": "nyaa"}),
+    ("Jesus meh guru sinek kutak suo nya gan sdokah, Yeh meh ninga. Boge nyaa de kaya suod mua kiang duit eh.", 46.0, 52.2, ["kaya"], {"rich": "kaya"}),
+    ("Ju meh neg reh dayung sutuok de kobes bonen eh, suod 2 kiping siring tibaga.", 53.55, 57.98, ["2"], {"two": "2"}),
+    ("Oku tanen de ingan tek-tek eh dep eh neh, dayung de meh doi bonen eh itih meh gan robis suo nyaa de boken. Ingan de boken ngin duit de meh todeh eh sija, pak eh yeh ngin suo duit de ogi de dep eh.", 59.75, 69.8, ["robis", "suo"], {"more": "robis", "everything": "suo#2"}),
+    ("Takar nya munu meh buu suo romin Topa inuh, ni urang onak murid Eh meh in eh:", 71.95, 75.7, ["buu"], {"leaving": "buu"}),
+    ("", 76.6, 80.8, ["batuh"], {"stones": "batuh"}),
+    ("Ni onu tie ni kruang batuh doo geh rie supieh rokat de dingan eh. Suo eh rie posik porai geh.", 82.5, 87.9, ["porai"], {"thrown": "porai"}),
+    ("Rongit duoh tana ponai rie patuob, pak eh sina Oku doi akan ponai tikodi.", 89.6, 94.3, ["sina", "doi"], {"words": "sina", "never": "doi"}),
+    ("Jaga-jaga nya. Doi nyaa de puan sinie Onu Pingituong rie neg.", 95.45, 99.15, ["Jagajaga"], {"watch": "Jaga-jaga"}),
+    ("Nuna koih suo part 17.", 103.1, 104.9, ["Nuna"], {}),
+]
 # (episode, line index) -> parts: (text, raw start, raw end, voice effect or None for the narrator)
 PARTS = {
+    (16, 1): [("Mistar, patut keh ideh nya bayar sukie nudu Caesar?", 8.05, 10.55, "scholar")],
+    (16, 3): [("Caesar.", 16.05, 16.6, "scholar")],
+    (16, 12): [("Mistar, duok ninga! Mun kona romin de munu! Mun jongon batuh sinung eh!", 76.6, 80.8, "disciple")],
     (15, 4): [("Hosanna! Obuoh brokat Yeh de neg dang aden Tuhan!", 32.6, 35.95, "crowd")],
     (15, 12): [("Mistar, duok ninga! Tongon fig de nyupah Ingan meh kobes!", 84.6, 88.15, "peter")],
     (14, 1): [("Mistar de paguh, oni de perlu ku nai ngan ku rie idip adu-adu?", 10.05, 14.6, "young")],
@@ -462,6 +484,8 @@ if EP == 15:
     LINES = LINES15
 if EP == 94:
     LINES = LINES94
+if EP == 16:
+    LINES = LINES16
 if EP == 3:
     LINES = LINES3
     EXTRA_PAUSE = {3: 0.4, 4: 0.8, 6: 0.8}
