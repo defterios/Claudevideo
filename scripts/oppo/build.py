@@ -11,6 +11,7 @@ TAKES = [
     ("a8bbac80", "Since this watch works both on iOS and Android, this is the perfect chance for you to try them out."),
 ]
 GAP_CUT, PAD_IN, PAD_OUT, TAKE_GAP = 0.3, 0.08, 0.14, 0.12
+SIL_DB, SIL_MIN, KEEP = -40.0, 0.25, 0.07
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("ultraburn", "ultraburn"))
 tr = json.load(open(sys.argv[1]))
 SR = 48000
@@ -38,17 +39,43 @@ for ti, (clip, text) in enumerate(TAKES):
         cur.append(i)
     spans.append(cur)
     w = wave.open(f"{sys.argv[2]}/st_{clip}.wav"); a = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32)
+    # 10 ms energy envelope: catches silences whisper hides inside word timings (e.g. "fat ... you burn")
+    hop = SR // 100
+    env = 20 * np.log10(np.sqrt((a[: len(a) // hop * hop] / 32768).reshape(-1, hop).__pow__(2).mean(1)) + 1e-9)
+    def parts_of(s, e):
+        out, start, k0, k1 = [], s, int(s * 100), int(e * 100)
+        k = k0
+        while k < k1:
+            if env[k] < SIL_DB:
+                j = k
+                while j < k1 and env[j] < SIL_DB: j += 1
+                if (j - k) / 100 >= SIL_MIN and k > k0 + 5 and j < k1 - 5:
+                    out.append((start, k / 100 + KEEP)); start = j / 100 - KEEP
+                k = j
+            else:
+                k += 1
+        out.append((start, e))
+        return out
     for si, sp in enumerate(spans):
         s = max(0, times[sp[0]][0] - (PAD_IN + (0.1 if si == 0 else 0)))
         e = times[sp[-1]][1] + PAD_OUT
         if si + 1 < len(spans): e = min(e, times[spans[si + 1][0]][0] - 0.05)
-        seg = a[int(s * SR): int(e * SR)].copy(); f = int(0.012 * SR)
-        r = np.linspace(0, 1, f); seg[:f] *= r; seg[-f:] *= r[::-1]
-        buf.append(seg)
-        segs.append({"clip": clip, "take": ti, "src": round(s, 3), "out": round(out_t, 3), "dur": round(e - s, 3)})
+        pts = parts_of(s, e)
+        def to_out(x, base=out_t):
+            off = base
+            for ps, pe in pts:
+                if x < pe: return off + max(0, x - ps)
+                off += pe - ps
+            return off
+        for ps, pe in pts:
+            seg = a[int(ps * SR): int(pe * SR)].copy(); f = int(0.012 * SR)
+            r = np.linspace(0, 1, f); seg[:f] *= r; seg[-f:] *= r[::-1]
+            buf.append(seg)
+            segs.append({"clip": clip, "take": ti, "src": round(ps, 3), "out": round(out_t, 3), "dur": round(pe - ps, 3)})
+            out_t += pe - ps
+        base = out_t - sum(pe - ps for ps, pe in pts)
         for i in sp:
-            words.append({"w": ref[i], "take": ti, "s": round(out_t + times[i][0] - s, 3), "e": round(out_t + times[i][1] - s, 3)})
-        out_t += e - s
+            words.append({"w": ref[i], "take": ti, "s": round(to_out(times[i][0], base), 3), "e": round(to_out(times[i][1], base), 3)})
     if ti + 1 < len(TAKES):
         buf.append(np.zeros(int(TAKE_GAP * SR), np.float32)); segs[-1]["dur"] = round(segs[-1]["dur"] + TAKE_GAP, 3); out_t += TAKE_GAP
 v = np.concatenate(buf)
