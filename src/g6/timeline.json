@@ -1,0 +1,20 @@
+{
+  "shots": [
+    {"clip": "5da65dc9", "src": 0.3, "dur": 2.7, "fx": "title"},
+    {"clip": "7e7ed43d", "src": 0.6, "dur": 1.6, "fx": "pour"},
+    {"clip": "57358be8", "src": 1.2, "dur": 1.8},
+    {"clip": "256a7258", "src": 0.9, "dur": 1.75},
+    {"clip": "04932645", "src": 0.0, "dur": 2.4, "fx": "menuSmall"},
+    {"clip": "38c25997", "src": 0.5, "dur": 3.0, "fx": "menuBig", "mute": true},
+    {"clip": "b7fb6544", "src": 1.4, "dur": 1.6},
+    {"clip": "5d7f34d7", "src": 0.5, "dur": 1.75, "fx": "curse"},
+    {"clip": "5da65dc9", "src": 0.3, "dur": 2.4, "fx": "title"}
+  ],
+  "overlays": [{"clip": "256a7258", "src": 2.58, "dur": 0.5, "shot": 5, "at": 0.45}],
+  "curse": {"clip": "5d7f34d7", "src0": 0.96, "src1": 1.44},
+  "subs": [
+    {"shot": 3, "from": 0.75, "to": 1.75, "text": "You look tired babe"},
+    {"shot": 5, "from": 0.45, "to": 1.3, "text": "Are you okay?"},
+    {"shot": 7, "from": 0.45, "to": 1.75, "text": "F*** YOU"}
+  ]
+}
